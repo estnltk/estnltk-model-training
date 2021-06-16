@@ -29,3 +29,10 @@ Inputs:
  * tagged text files
  * tagged EstNLTK collections
 
+## fine_tune_specific_BERT.py
+
+Fine-tunes a specific BERT model
+
+Inputs:
+ * Task name
+ * pre-processed data
