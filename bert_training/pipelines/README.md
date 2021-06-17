@@ -1,6 +1,6 @@
 # Pipelines
 
-## text_collection_processer.py
+## Create training Corpus
 
 Cleans and turns text collections into form that is ready to be tokenized
 Inputs:
@@ -11,7 +11,7 @@ Inputs:
 Results:
  * Text file? that is ready to be tokenized
 
-## pre_train_BERT.py
+## BERT pre-training
 
 Uses the texts processed in the previous step to:
  * Create a vocabulary (if not provided)
@@ -21,7 +21,7 @@ Uses the texts processed in the previous step to:
 
 While pre-training, it also displays diagnostics (MLM and NSP scores)
 
-## fine_tune_BERT.py
+## BERT fine-tuning
 
 Fine-tunes a BERT model
 
@@ -29,7 +29,7 @@ Inputs:
  * tagged text files
  * tagged EstNLTK collections
 
-## fine_tune_specific_BERT.py
+## specific BERT fine-tuning
 
 Fine-tunes a specific BERT model
 
