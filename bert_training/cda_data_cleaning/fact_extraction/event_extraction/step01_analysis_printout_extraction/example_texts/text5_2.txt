@@ -1,0 +1,454 @@
+
+________Kuupäev HK Hinnakirja kood
+20.09.2014 Statsionaarne Statsionaarne epikriis
+Statsionaarne epikriis
+
+Põhihaigus 
+I48 Kodade vir
+vendus ja laperdus Põhihaigus + Südamekodade virve
+ndusarütmia (tekkeaeg teadmata) 
+Põhihaiguse tüsi
+stus 
+I50.0 Kongestiivne südamepuudulikkus Tüsist
+us + Krooniline kardiaalne puudulikkus II NYHA, de
+kompenseerumine 
+Kaasuvad haigused 
+E66.0 Liigse
+te kalorite põhjustatud rasvumus Kaasuv - Rasvtõbi
+. KMI 49 
+E11.7 Insuliinisõltumatu suhkurtõbi hul
+gitüsistustega Kaasuv - 2.t. diabeet 
+ 
+ 
+Kirje
+ldused 
+Kaebused, anamnees:   
+
+Toodud EMOsse k
+iirabi korras. 
+Õhupuudus, nõrkus. Arvab, et vare
+m on rütmihäireid olnud. On diabeetik, raviks kasu
+tab Lantus+ Janumet. Hüpertoonik; parem põlv on pr
+oteseeritud; opereeritud nabasong. Pt. on väga üle
+kaaluline.  
+Objektiivne leid:   
+
+Väga püknili
+ne pt. KMI 49. Adekvaatselt kontaktne. <ANONYM id="0" type="per" morph="_S_ sg ad"/> tah
+hüfrekventne virvendusarütmia, _100x`. AVR 156/110
+mmHg. Kopsudel vesikulaarne hingamiskahin. Kõht p
+ehme. Tursed labajalgadel. 
+Alustatud antikoagula
+ntravi Rivaroxabaniga, lisaks diureetikumid, Glicl
+ada, Enap, Metformin, Trifas, Betaloc-ZOK, Monopri
+l, insuliin Lantus.
+Saavutatud hea diurees (2.päe
+val lausa 5 liitrit) ja pt. enesetunne hakkab para
+nema. 
+Lahkumisel jääb püsima normofrekventne vir
+vendusarütmia. 
+
+EKG 23.09.14: Tahhüarütmia, 105
+-116x`. Vasaku vatsakese ülekoormuse tunnused.  
+
+
+<ANONYM id="1" type="per" morph="_S_ pl n"/>  
+Aeg Uuring 
+20.09.2014 17:00 7903
+Röntgeniülesvõte rindkere piirkonnast (üks ülesvõt
+e) 
+VASTAJA: <ANONYM id="2" type="per" morph="_H_ sg n"/>, <ANONYM id="3" type="per" morph="_H_ sg n"/>  (D00327)
+
+Diafragmakup
+lid kaarjad, kostodiafragmaalsiinuses vedelikku. K
+opsude transparentsus langenud, parahilaarselt kop
+sujoonis hägustunud, hiilused homogeniseerunud.
+S
+üdame ristmõõt tunduvalt suurenenud, aordi skleroo
+s
+KOKKUVÕTE: kardiodilatatsioon, tugev kopsupais.
+
+22.09.2014 13:30 6340 TÄISMAHUS EHHOKARDIOGRAAF
+<ANONYM id="4" type="per" morph="_Y_ ?"/> 
+VASTAJA: <ANONYM id="5" type="per" morph="_H_ sg n"/>, <ANONYM id="6" type="per" morph="_H_ sg n"/>  (D00901)
+
+
+
+UURINGU NÄIDUSTUS kõrgvererõhutõbi, virvendusarüt
+mia
+PATSIENDI PIKKUS 151 cm, <ANONYM id="7" type="per" morph="_H_ sg n"/> 112 kg
+AORDI t
+üvi 3,95 cm,
+VASAK KODA 4,60 x 5,5 x 4,15 cm
+PAR
+<ANONYM id="8" type="per" morph="_Y_ ?"/> KODA 5,50 x 4,10 cm
+PAREM VATSAKE 2,70 cm
+KOP
+SUARTERI tüvi 2,00 cm
+VASAK VATSAKE
+LÕPPDIASTOOL
+NE DIAMEETER 4,98 cm
+LÕPPSÜSTOOLNE DIAMEETER 3,36
+cm
+VÄLJUTUSFRAKTSIOON (EF) 59,13 %
+VAHESEINA PA
+KSUS DIASTOLIS 1,25 cm SÜSTOLIS 1,43 cm
+TAGASEINA
+<ANONYM id="9" type="per" morph="_A_ sg in"/> DIASTOLIS 1,25 cm SÜSTOLIS 1,43 cm
+DOPPLE
+R-UURINGU ANDMED
+AORDIKLAPI max vool 0,85 m/s, ma
+x grad. 2,88 mmHg, mean grad. 2,28 mmHg
+KOPSUARTE
+RI KLAPI max vool 0,87 m/s, max grad. 3,06 mmHg, P
+VAT 119,6 msek
+MITRAALKLAPI max E vool 1,16 m/s,
+grad. 5,35 mmHg
+DT 203 msek
+TRIKUSPIDAALKLAPI 
+
+rõhk kopsuarteris 10-15 mmHg
+Uuringu ajal virvend
+usarütmia ca 120xmin, nähtavus piiratud (adipoosne
+).
+Parem koda kergelt , vasak koda mõõdukalt dila
+teerunud, vasak vatsake kergelt dilateerunud. Aord
+iklapp kolmehõlmne, verevool normaalne. Mitraal- j
+a trikuspidaalklapil kaltsinoosi, voolukiirused no
+rmaalsed, väikesed tagasivoolud. Kodade vahesein i
+ntaktne. IVC 1,90 cm, kollabeerub 50% hingamistsük
+lis. Rõhk kopsuringes normaalne. Vasaku vatsakese
+süstoolne funktsioon visuaalselt 60% EF - normaaln
+e. Vatsakestes segmentaarseid kontraktsioonihäirei
+d ei näe. Perikard tavaline, vedelik normis.
+JÄRE
+LDUS: Tagasihoidlik kardioskleroos. Kojad dilateer
+unud (vasak > parem). Vasaku vatsakese kerge konts
+entriline hüpertroofia. 
+ 
+ 
+Analüüsid  
+Analü
+üs Ühik Referents 26.09.2014 23.09.2014 22.09.2014
+21.09.2014 20.09.2014 
+B-Gluc 11.00 Glükoos täis
+veres (glükomeetriga) mmol/l - 11,0 9,5 8,8 6,8
+
+     15.00 Glükoos täisveres (glükomeetriga) mmo
+l/l - 10,2 10,5 11,0 9,7   
+     19.00 Glükoos tä
+isveres (glükomeetriga) mmol/l -       9,2   
+
+23.00 Glükoos täisveres (glükomeetriga) mmol/l -
+7,7   
+S-ALAT ALAT Alaniini aminotransfera
+as seerumis 
+     Alaniini aminotransferaas seeru
+mis U/l <=34   189     449 
+S-Alb Albumiin seerum
+is g/l 35-52   37       
+S-ALP Aluseline fosfataa
+s seerumis U/l 42-141   144       
+S-ASAT ASAT As
+partaadi aminotransferaas seerumis 
+     Aspartaa
+di aminotransferaas seerumis U/l <=31   52     263
+
+S-aHBc B hepatiidi viiruse tuuma vastased antik
+ehad Mõõtühik puudub -   1,770       
+S-HBsAg B-h
+epatiidi viiruse pinnaantigeen seerumis Mõõtühik p
+uudub Negatiivne   Negatiivne       
+B4-NT-proBNP
+B-tüüpi natriureetiline N-terminaalne propeptiid
+pg/ml -         4333 
+S-Bil Bilirubiin seerumis _
+mol/l 8,5-20   9,8       
+S-HCV Ab C-hepatiidi vi
+iruse vastane antikeha seerumis Mõõtühik puudub Ne
+gatiivne   Negatiivne       
+S-CRP C-reaktiivne v
+alk seerumis mg/l 0-6   8     4 
+P-D-Di D-dimeeri
+d _g/ml <=0,5         1,5 
+S-GGT Gamma-glutamüüli
+transferaas seerumis U/l 15-38   104       
+eGFR
+Glomerulaarfiltratiooni kiirus MDRD valemiga 
+
+Glomerulaarfiltratsioon MDRD valemiga ml/min/1,
+73m2 90-999   73       
+B-HbA1c Glükohemoglobiin
+veres (SI) mmol/mol 20-42 58         
+     HbA1c
+% % 4-6 7,5         
+S-Gluc Glükoos seerumis mmol
+/l 4,6-6,4   7,8     8,7 
+B-Gluc Glükoos täisvere
+s (glükomeetriga) mmol/l 4,6-6,4 10,0 7,9 6,6 6,8
+12,2 
+fS-HDL-Chol HDL- kolesterool paastuseerumis
+mmol/l 1,55-2,8   0,87       
+B-CBC Hemogramm 
+
+Leukotsüüdid veres 10E9/l 10E9/l 4-10
+8.0 
+     Erütrotsüüdid veres 10E12/l 10E12/l 4-
+5,4         4.28 
+     Hemoglobiin veres g/l g/l
+120-155         137 
+     Hematokrit % % 36-47
+41.1 
+     MCV fl fl 76-96         96.0 
+
+MCH pg pg 27-32         32.0 
+     MCHC g/l g
+/l 315-360         333 
+     RDW % % 11-15
+12.4 
+     Trombotsüüdid 10E9/l 10E9/l 150-400
+191 
+     Trombokrit % % 0,1-0,4
+0.12 
+     MPV fl fl -         6.5 
+     PDW % %
+-         17.0 
+S-K Kaalium seerumis mmol/l 3,6-
+5   4,5     5,0 
+S-Chol Kolesterool seerumis mmol
+/l 2,2-5,2   4,2       
+S-CK-MBm Kreatiini kinaas
+i MB isoensüümi mass seerumis ng/ml <=4         2,
+4 
+fS-Crea Kreatiniin paastuseerumis _mol/l 45-84
+74     98 
+S-UA Kusihape seerumis _mol/l 150-3
+50   450       
+S-LDH Laktaadi dehüdrogenaas seer
+umis U/l 135-225   370       
+fS-LDL- Chol LDL- k
+olesterool paastuseerumis mmol/l <=3,37   2,56
+
+S-Na Naatrium seerumis mmol/l 138-148   139
+136 
+P-PT-INR Protrombiini aeg 
+     Protromb
+iini suhe (indeks) % 70-130         70,0 
+     IN
+R (Rahvusvaheline normitud suhe) Mõõtühik puudub 0
+,8-1,2         1,16 
+S-Fe Raud seerumis _mol/l 6,
+6-26   7,3       
+fS-Trigl Triglütseriidid paastu
+seerumis mmol/l <=1,7   1,24       
+B4-cTnT Tropo
+niin T (kardiaalne) veres ng/ml <0,05         <0,0
+5 
+U-Strip Uriini ribaanalüüs 
+     Erikaal (uri
+in) Mõõtühik puudub 1,002-1,03     1,010     
+
+Happe-aluse tasakaal (pH uriinis) Mõõtühik puudu
+b 4,5-8     6     
+     Leukotsüüdid uriinis rakk
+u/_l Neg     25     
+     Nitrit uriinis Mõõtühik
+puudub Neg     pos     
+     Valk uriinis g/l Ne
+g     neg     
+     Glükoos uriinis mmol/l Norm
+norm     
+     Ketokehad uriinis Mõõtühik puud
+ub Neg     neg     
+     Urobilinogeen uriinis _m
+ol/l Norm     norm     
+     Bilirubiin uriinis M
+õõtühik puudub Neg     neg     
+     Erütrotsüüdi
+d uriinis rakku/_l Neg     150     
+fS-Urea Uurea
+paastuseerumis mmol/l 3,5-7,2   4,6     8,9 
+ 
+
+
+Mikrobioloogia Analüüsid  
+Diagnoos: FA. <ANONYM id="10" type="per" morph="_S_ sg n"/>.
+puudul. 
+
+VASTUS:  
+cvU-Aer Uriinist (keskjoa)
+külv aeroobsele mikrofloorale 
+Mikroobid 
+    Es
+cherichia coli 10/7 PMÜ/ml 
+    Klebsiella pneumo
+niae ss. pneumoniae 10\5 PMÜ/ml 
+ 
+Antibiogramm:
+
+Antibiootikum Escherichia coli   Klebsiella pne
+umoniae ss. pneumoniae   
+Amoxicillin/Clavulanic
+acid T   T   
+Ampicillin T     
+Ampicillin/Sulba
+ctam T   T   
+Cefuroxime sodium T **   T **   
+C
+iprofloxacin T   T   
+Ertapenem T   T   
+Gentami
+cin T *   T *   
+Nitrofurantoin T     
+Trimethop
+rim/Sulfamethoxazole T   T   
+ 
+*Aminoglükosiidi
+de (kui tüvi on nende suhtes tundlik) kasutamine o
+n lubatud ainult üks kord ööpäevas kõrges annuses
+
+**Tsefuroksiimi (kui tüvi on selle suhtes tundli
+k) kasutamine on täiskasvanutel annuses 1,5g X 3 
+
+
+ 
+ 
+Kinnitas: <ANONYM id="11" type="per" morph="_H_ sg n"/>, HILLE-MAI 
+25.09.2014 09
+:19     
+ 
+
+ 
+ 
+ 
+ 
+ 
+Re_iim ja ravialased
+soovitused 
+Insuliin Lantus kl.22 - 14-16TÜ
+Tri
+fas praeguse seisuga 30 mg üle hommiku (doos vajab
+reguleerimist)
+Betaloc-ZOK 100 mg H+ 50 mg Õ
+Mo
+nopril 20 mg/p.
+Xarelto 15 mg x2/p. 2 nädala jook
+sul, edasi pidevalt 20 mg x1/p.
+Janumet 1000/50 1
+tbl. x2/p.
+
+Vajalik kaalus alla võtta.  
+ 
+
+
+22.09.2014 EHHO EHHO
+EHHO
+
+UURINGUD: 
+  6340 TÄISMAHUS EHHOKARDIOGRAAFI
+A.FA( tekkeaeg teadmata). KR. kard. puudulikkus.2.
+tDM.  
+KOODID: 
+  6340 
+VASTUS: 
+  
+UURINGU N
+ÄIDUSTUS kõrgvererõhutõbi, virvendusarütmia 
+<ANONYM id="12" type="per" morph="_H_ sg n"/>
+IENDI PIKKUS 151 cm, <ANONYM id="13" type="per" morph="_H_ sg n"/> 112 kg 
+
+AORDI tüvi 3,
+95 cm, 
+VASAK KODA 4,60 x 5,5 x 4,15 cm 
+PAREM K
+ODA 5,50 x 4,10 cm 
+PAREM VATSAKE 2,70 cm 
+KOPSU
+ARTERI tüvi 2,00 cm 
+
+
+VASAK VATSAKE 
+LÕPPDIAS
+TOOLNE DIAMEETER 4,98 cm 
+LÕPPSÜSTOOLNE DIAMEETER
+3,36 cm 
+VÄLJUTUSFRAKTSIOON (EF) 59,13 % 
+VAHES
+EINA PAKSUS DIASTOLIS 1,25 cm SÜSTOLIS 1,43 cm 
+T
+AGASEINA PAKSUS DIASTOLIS 1,25 cm SÜSTOLIS 1,43 cm
+
+
+
+DOPPLER-UURINGU ANDMED 
+
+AORDIKLAPI max v
+ool 0,85 m/s, max grad. 2,88 mmHg, mean grad. 2,28
+mmHg 
+
+KOPSUARTERI KLAPI max vool 0,87 m/s, max
+grad. 3,06 mmHg, PVAT 119,6 msek 
+
+MITRAALKLAPI
+max E vool 1,16 m/s, grad. 5,35 mmHg 
+DT 203 mse
+k 
+TRIKUSPIDAALKLAPI 
+rõhk kopsuarteris 10-15 mm
+Hg 
+
+Uuringu ajal virvendusarütmia ca 120xmin, n
+ähtavus piiratud (adipoosne). 
+Parem koda kergelt
+, vasak koda mõõdukalt dilateerunud, vasak vatsak
+e kergelt dilateerunud. Aordiklapp kolmehõlmne, ve
+revool normaalne. Mitraal- ja trikuspidaalklapil k
+altsinoosi, voolukiirused normaalsed, väikesed tag
+asivoolud. Kodade vahesein intaktne. IVC 1,90 cm,
+kollabeerub 50% hingamistsüklis. Rõhk kopsuringes
+normaalne. Vasaku vatsakese süstoolne funktsioon v
+isuaalselt 60% EF - normaalne. Vatsakestes segment
+aarseid kontraktsioonihäireid ei näe. Perikard tav
+aline, vedelik normis. 
+
+
+JÄRELDUS: Tagasihoidl
+ik kardioskleroos. Kojad dilateerunud (vasak > par
+em). Vasaku vatsakese kerge kontsentriline hüpertr
+oofia. 
+
+Vastaja: <ANONYM id="14" type="per" morph="_H_ sg n"/>, <ANONYM id="15" type="per" morph="_H_ sg n"/> (D0090
+1)
+22.09.2014 13:03 
+Teostaja: dr. KULLERKUPP-RA
+IDMA, <ANONYM id="16" type="per" morph="_H_ sg n"/> (D00901) 22.09.2014 k. 13:03 
+  
+
+
+22.09.2014 R_ rindkere Rö rindkere
+Rö rindkere
+
+UURINGUD: 
+  7903.481 Röntgeniülesvõt
+e rindkere piirkonnast (üks ülesvõte).RINDKERE PA,
+RINDKERE Rö-thorax ülevaatepilt. Kopsupais?  
+KO
+ODID: 
+  7903 
+VASTUS: 
+  
+Diafragmakuplid kaa
+rjad, kostodiafragmaalsiinuses vedelikku. Kopsude
+transparentsus langenud, parahilaarselt kopsujooni
+s hägustunud, hiilused homogeniseerunud. 
+Südame
+ristmõõt tunduvalt suurenenud, aordi skleroos 
+KO
+KKUVÕTE: kardiodilatatsioon, tugev kopsupais. 
+
+
+Vastaja: <ANONYM id="17" type="per" morph="_H_ sg n"/>, <ANONYM id="18" type="per" morph="_H_ sg n"/> (D00327)
+ 
+
+
+						

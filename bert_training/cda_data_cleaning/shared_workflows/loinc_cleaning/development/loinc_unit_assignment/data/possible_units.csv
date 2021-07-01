@@ -1,0 +1,555 @@
+unit
+-
+.
+%
++
+‰
+%0
+0.5 - 2. 0%
+/100/L
+/100 leuk
+/100 leuko
+/100WBC
+/100 WBC
+100 WBC
+100/WBC
+10*12/
+10^12/L
+10 ^12/ L
+10*12/L
+10\12/L
+10^12/l
+10 12 /l
+10 12/l
+10*12/l
+10\12/l
+10^12/mikrol
+10*3 µl
+*10³/µl
+10*3mik/L
+10*3mik/l
+10^3/uL
+10 3/uL
+10^6/L
+10*6/L
+× 106/l
+10^6/l
+10*6 µl
+106/l
+10'6mik/L
+10^6/mikrol
+10*9 g/L
+10^9/L
+10 ^9 /L
+10 9/L
+10*9 /L
+10*9/L
+10\9/L
+10^9/l
+10 9 /l
+10 9/l
+10/9 l
+10*9/l
+10\9/l
+*10E12/l
+10E12/l
+10e12/L
+10e3/uL
+*10E9/l
+10E9/l
+10e9/L
+10 g/l
+10g/l
+10 IU/l
+10^/L
+10 l
+10 ng/ml
+10 U/l
+10x12/l
+10x 9/L
+10x9/l
+1:100 WBC
+"1,2,3"
+Alb mg/mmol Cre
+"<ANONYM id=""0"" type=""per"" morph=""_H_ sg n""/>/mL"
+"<ANONYM id=""0"" type=""per"" morph=""_H_ sg n""/>/ml"
+"<ANONYM id=""0"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""0"" type=""per"" morph=""_I_ ""/> ühik"
+"<ANONYM id=""0"" type=""per"" morph=""_Y_ ?""/> U/l"
+"<ANONYM id=""0"" type=""per"" morph=""_Y_ ?""/> U/ml"
+"<ANONYM id=""10"" type=""per"" morph=""_H_ sg n""/>/mL"
+"<ANONYM id=""10"" type=""per"" morph=""_H_ sg n""/>/ml"
+"<ANONYM id=""10"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""10"" type=""per"" morph=""_I_ ""/> ühik"
+"<ANONYM id=""10"" type=""per"" morph=""_Y_ ?""/> U/ml"
+"<ANONYM id=""11"" type=""per"" morph=""_H_ sg n""/>/mL"
+"<ANONYM id=""11"" type=""per"" morph=""_H_ sg n""/>/ml"
+"<ANONYM id=""11"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""11"" type=""per"" morph=""_I_ ""/> ühik"
+"<ANONYM id=""11"" type=""per"" morph=""_Y_ ?""/> U/ml"
+"<ANONYM id=""12"" type=""per"" morph=""_H_ sg n""/>/mL"
+"<ANONYM id=""12"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""12"" type=""per"" morph=""_I_ ""/> ühik"
+"<ANONYM id=""13"" type=""per"" morph=""_H_ sg n""/>/mL"
+"<ANONYM id=""13"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""13"" type=""per"" morph=""_I_ ""/> ühik"
+"<ANONYM id=""14"" type=""per"" morph=""_H_ sg n""/>/mL"
+"<ANONYM id=""14"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""14"" type=""per"" morph=""_I_ ""/> ühik"
+"<ANONYM id=""15"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""16"" type=""per"" morph=""_H_ sg n""/>/mL"
+"<ANONYM id=""16"" type=""per"" morph=""_H_ sg n""/>/ml"
+"<ANONYM id=""16"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""16"" type=""per"" morph=""_I_ ""/> ühik"
+"<ANONYM id=""17"" type=""per"" morph=""_H_ sg n""/>/ml"
+"<ANONYM id=""17"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""17"" type=""per"" morph=""_I_ ""/> ühik"
+"<ANONYM id=""18"" type=""per"" morph=""_H_ sg n""/>/mL"
+"<ANONYM id=""18"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""18"" type=""per"" morph=""_I_ ""/> ühik"
+"<ANONYM id=""19"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""19"" type=""per"" morph=""_I_ ""/> ühik"
+"<ANONYM id=""1"" type=""per"" morph=""_H_ sg n""/>/mL"
+"<ANONYM id=""1"" type=""per"" morph=""_H_ sg n""/>/ml"
+"<ANONYM id=""1"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""1"" type=""per"" morph=""_I_ ""/> ühik"
+"<ANONYM id=""1"" type=""per"" morph=""_Y_ ?""/> U/ml"
+"<ANONYM id=""20"" type=""per"" morph=""_H_ sg n""/>/mL"
+"<ANONYM id=""20"" type=""per"" morph=""_H_ sg n""/>/ml"
+"<ANONYM id=""20"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""20"" type=""per"" morph=""_I_ ""/> ühik"
+"<ANONYM id=""21"" type=""per"" morph=""_H_ sg n""/>/ml"
+"<ANONYM id=""21"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""21"" type=""per"" morph=""_I_ ""/> ühik"
+"<ANONYM id=""22"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""22"" type=""per"" morph=""_I_ ""/> ühik"
+"<ANONYM id=""23"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""23"" type=""per"" morph=""_I_ ""/> ühik"
+"<ANONYM id=""24"" type=""per"" morph=""_H_ sg n""/>/ml"
+"<ANONYM id=""24"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""24"" type=""per"" morph=""_I_ ""/> ühik"
+"<ANONYM id=""25"" type=""per"" morph=""_H_ sg n""/>/mL"
+"<ANONYM id=""25"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""25"" type=""per"" morph=""_I_ ""/> ühik"
+"<ANONYM id=""26"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""26"" type=""per"" morph=""_I_ ""/> ühik"
+"<ANONYM id=""27"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""28"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""28"" type=""per"" morph=""_I_ ""/> ühik"
+"<ANONYM id=""29"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""29"" type=""per"" morph=""_I_ ""/> ühik"
+"<ANONYM id=""2"" type=""per"" morph=""_H_ sg n""/>/mL"
+"<ANONYM id=""2"" type=""per"" morph=""_H_ sg n""/>/ml"
+"<ANONYM id=""2"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""2"" type=""per"" morph=""_I_ ""/> ühik"
+"<ANONYM id=""2"" type=""per"" morph=""_Y_ ?""/> U/ml"
+"<ANONYM id=""30"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""32"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""33"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""38"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""39"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""3"" type=""per"" morph=""_H_ sg n""/>/mL"
+"<ANONYM id=""3"" type=""per"" morph=""_H_ sg n""/>/ml"
+"<ANONYM id=""3"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""3"" type=""per"" morph=""_I_ ""/> ühik"
+"<ANONYM id=""3"" type=""per"" morph=""_Y_ ?""/> U/ml"
+"<ANONYM id=""40"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""42"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""43"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""4"" type=""per"" morph=""_H_ sg n""/>/mL"
+"<ANONYM id=""4"" type=""per"" morph=""_H_ sg n""/>/ml"
+"<ANONYM id=""4"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""4"" type=""per"" morph=""_I_ ""/> ühik"
+"<ANONYM id=""4"" type=""per"" morph=""_Y_ ?""/> U/l"
+"<ANONYM id=""4"" type=""per"" morph=""_Y_ ?""/> U/ml"
+"<ANONYM id=""5"" type=""per"" morph=""_H_ sg n""/>/mL"
+"<ANONYM id=""5"" type=""per"" morph=""_H_ sg n""/>/ml"
+"<ANONYM id=""5"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""5"" type=""per"" morph=""_I_ ""/> ühik"
+"<ANONYM id=""5"" type=""per"" morph=""_Y_ ?""/> U/ml"
+"<ANONYM id=""6"" type=""per"" morph=""_H_ sg n""/>/mL"
+"<ANONYM id=""6"" type=""per"" morph=""_H_ sg n""/>/ml"
+"<ANONYM id=""6"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""6"" type=""per"" morph=""_I_ ""/> ühik"
+"<ANONYM id=""6"" type=""per"" morph=""_Y_ ?""/> U/ml"
+"<ANONYM id=""7"" type=""per"" morph=""_H_ sg n""/>/mL"
+"<ANONYM id=""7"" type=""per"" morph=""_H_ sg n""/>/ml"
+"<ANONYM id=""7"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""7"" type=""per"" morph=""_I_ ""/> ühik"
+"<ANONYM id=""8"" type=""per"" morph=""_H_ sg n""/>/mL"
+"<ANONYM id=""8"" type=""per"" morph=""_H_ sg n""/>/ml"
+"<ANONYM id=""8"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""8"" type=""per"" morph=""_I_ ""/> ühik"
+"<ANONYM id=""8"" type=""per"" morph=""_Y_ ?""/> U/ml"
+"<ANONYM id=""9"" type=""per"" morph=""_H_ sg n""/>/mL"
+"<ANONYM id=""9"" type=""per"" morph=""_H_ sg n""/>/ml"
+"<ANONYM id=""9"" type=""per"" morph=""_I_ ""/> unit"
+"<ANONYM id=""9"" type=""per"" morph=""_I_ ""/> ühik"
+arb.unit/l
+arv/ul
+AU
+C
+°C
+CH50 Eq U/ml
+cm
+COI
+copies/mL
+copies/ml
+D
+deg
+DU
+E12/L
+E6/L
+E9/L
+EIU
+EIÜ
+er/µl
+er/µ/l
+Er/uL
+Er/ul
+er/ul
+Ery/mikroL
+Ery/uL
+Ery/ul
+ery/ul
+fL
+f/L
+fl
+G
+g
+g/
+µg/24h
+g/24h
+µg/24t
+g/24t
+g/24 t
+g/5h
+g/cm3
+g/cm³
+µg/d
+g/d
+g/dL
+µg/dl
+g/dl
+µgE1/g roojas
+µgE1/g stool
+µg/g
+g/g
+µg/L
+g/L
+µg/l
+g/l
+µg/mL
+?g/mL
+µg/ml
+g/mol
+GPL-U/ml
+graad C
+HLA-B*-tüübid
+/[HPF]
+/hpf
+index
+%INH
+INR
+% (IS)
+%(IS)
+IU
+IU/L
+IU/l
+µIU/mL
+IU/mL
+µIU/ml
+IU/ml
+iu/ml
+IU/mL=EASTklass
+IU/ml=EASTklass
+IU/ml=RASTklass
+kg
+kg/L
+kg/l
+kIU/L
+kIU/l
+% kogu Hb-st
+koopiat/mL
+koopiat/ml
+korda
+kPa
+kU/i
+KU/L
+kU/L
+kU/l
+L
+µ/L
+/µL
+l
+µl
+Leuk/uL
+Leu/mikroL
+Leu/uL
+Leu/ul
+lk/µl
+lk/µ/l
+lk/ul
+L/L
+µl/l
+lU
+lU/l
+lU/ml
+m2
+mahu%
+mg %
+mg/24h
+mg/24 h
+mg/24t
+mg/24 t
+mg Alb/mmol Cre
+mg Alb/mmol/Cre
+mg/d
+mg/dL
+mg/dl
+mg/h
+mg/L
+mg/l
+mg/L FEU
+mg/l FEU
+mg/mg
+mg/mL
+mg/ml
+mg/mmol
+mg/ mmol
+mg/mmol Cr
+mikg/g
+mikg/L
+mikg/ml
+mikIU/l
+mik/L
+mikm/L
+mikmol/L
+mikmol/l
+mikrg/dl
+mikrg/L
+mikrlU/ml
+mikrmol/L
+mikrmol/l
+mikrog/l
+mikrog/mL
+mikrog/ml
+mikrogr/l
+mikrogr./l
+mikroliitris
+mikrol/l
+mikromol/l
+milj
+milj/mL
+milj/ml
+min
+mIU/L
+mIU/l
+m[IU]/mL
+mIU/mL
+mIU/ml
+mkg/24h
+mkg/L
+mkg/l
+mkg/ml
+mkmol/L
+mkmol/l
+mL
+ml
+mL/min
+ml/min
+"mL/min/1,73m2"
+"mL/min/1,73 m2"
+mL/min/1.73m2
+"ml/min/1,73m2"
+"ml/min/1,73 m2"
+ml/min/1.73m2
+"mL/min1,73m3"
+"mL/min1,73m³"
+mlU/L
+mlU/l
+mlU/ml
+mM
+mm
+mm/h
+mmHg
+mm Hg
+mm/Hg
+mmHg/%
+mmol
+mmo/l
+mmol/
+mmol/24 h
+mmol/24t
+mmol/D
+mmol/d
+mmol/kg
+mmolL
+mmol/L
+mmol/l
+mmol/ml
+% ; mmol/mol
+mmol/mol
+mmol/mol(%)
+mmol/mol Crea
+mm/t
+mol (Ca)/mol Crea
+µmol/d
+µmol/L
+µmol/l
+µmol/mmol Crea
+mol (Na)/mol Crea
+mol (P)/mol Crea
+MoM
+mOsm/kg
+mosm/kgH20
+mosm/kgH2O
+mosm/kg H2O
+mosmol/kg H2O
+mS/cm
+mU/L
+mU/l
+mu/l
+mU/ml
+n/100 WBC
+nanog/ml
+%NEUTR
+ng/dL
+ng/dl
+ng FEU/ml
+ng/L
+ng/µL
+ng/l
+ng/mL
+ng/ml
+ng/mL/h
+ng/ml/h
+ng/mL(RBC)/1h
+/nL
+nM
+nmHg
+nmol/24H
+nmol/24h
+nmol/d
+nmol/g crea
+nmol/L
+nmol/l
+nmol/ml
+nmol/mmol Crea
+nmpl/mmolCrea
+normaalset 1 juhu kohta
+% norm. aktiivsusest
+Normitud suhe
+%o
+OapC
+o C
+o/oo
+OspC
+pg
+pg/mL
+pg/ml
+pH
+[pH]
+/pL
+pM
+pmol/L
+pmol/l
+PMÜ/ml
+PR/mL
+PR/ml
+promill
+pudel
+rakku/µL
+rakku/µl
+rakku/uL
+rakku/ul
+rakku / vaateväli
+rakku vaateväljas
+rakku/vv
+RASTklass
+Ratio
+ratio
+r/µL
+RU
+RU/mL
+RU/ml
+r/vv
+s
+S/CO
+s/co
+sek
+sek.
+Suhe(Ratio)
+suhtarv
+s/vv
+tiiter
+{titer}
+tk/vv
+U
+U7ml
+ug/24t
+ug/dl
+ug E1/ g faeces
+ug/g
+ug/L
+ug/l
+ug/mL
+ug/ml
+U/I
+uIU/mL
+U / L
+U/L
+U/l
+/uL
+u/L
+/ul
+u/l
+u\l
+ul/ml
+um/d
+U/mL
+U/ mL
+µU/ml
+U/ml
+u/ml
+umol/24 h
+umol/L
+umol/l
+urmol/l
+uU/mL
+uU/ml
+valku
+VE
+w/h
+VIEU/ml
+VMÜ/ mL
+Vol%
+vv
+/vv
+v/v
+ü/l
+x1000/uL
+x1000/ul
+x10 12/L
+x10^12/l
+x10^3 µl
+x10\6/L
+x10^6 µl
+x10^6/l
+x10\6/l
+x 10 9/L
+x10*9/L
+x10\9/L
+x10^9 l
+x10^9/l
+x109/l
+x10E6/l
+x10 E9/l
+x10µl
+X 10(sup)9
+x 10x6 rakku/l
+x/ul
+μg/g
+μg/L
+μg/mL
+μmol/L

@@ -1,0 +1,138 @@
+,0,1,2
+0,NYHA II,I00-I99,66
+1,II NYHA,I00-I99,42
+2,NYHA III,I00-I99,26
+3,NYHA II staadium,I00-I99,21
+4,III st. NYHA,I00-I99,14
+5,II aste NYHA j.,I00-I99,10
+6,III NYHA,I00-I99,9
+7,II st. NYHA,I00-I99,9
+8,III aste NYHA j.,I00-I99,8
+9,NYHA I-II staadium,I00-I99,8
+10,NYHA II-III,I00-I99,8
+11,NYHA III st,I00-I99,7
+12,NYHA II st.,I00-I99,7
+13,IV NYHA,I00-I99,6
+14,I NYHA,I00-I99,6
+15,NYHA IV,I00-I99,6
+16,II aste NYHA j,I00-I99,6
+17,II-III st. NYHA,I00-I99,6
+18,NYHA II-III st,I00-I99,6
+19,II NYHA j.,I00-I99,6
+20,"NYHA II
+NYHA II",I00-I99,6
+21,NYHA II-III staadium,I00-I99,6
+22,III st. NYHA j.,I00-I99,5
+23,II-III aste NYHA j.,I00-I99,5
+24,NYHA II st,I00-I99,5
+25,IV aste NYHA j.,I00-I99,4
+26,NYHA IV staadium,I00-I99,4
+27,- III st. NYHA,I00-I99,4
+28,II st. NYHA j.,I00-I99,4
+29,NYHA I-II,I00-I99,4
+30,NYHA I st,I00-I99,4
+31,. Insufficientia cordis chronica III NYHA j.,I00-I99,3
+32,NYHA III -> II,I00-I99,3
+33,NYHA II - III,I00-I99,3
+34,NYHA II- III st,I00-I99,3
+35,NYHA III st.,I00-I99,2
+36,NYHA III-IV st.,I00-I99,2
+37,NYHA III staadium,I00-I99,2
+38,NYHA III->II,I00-I99,2
+39,"Dekompensatsioon, NYHA III",I00-I99,2
+40,III-IY NYHA,I00-I99,2
+41,II -I NYHA,I00-I99,2
+42,. Insuff cordis chr   NYHA III,I00-I99,2
+43,III-IV aste NYHA j.,I00-I99,2
+44,III-IV st. NYHA,I00-I99,2
+45,NYHA III.,I00-I99,2
+46,II aste NYHA j. ravi foonil,I00-I99,2
+47,NYHA II-III aste,I00-I99,2
+48,NYHA III-IV staadium,I00-I99,2
+49,II kl NYHA j,I00-I99,2
+50,NYHA I-II aste,I00-I99,2
+51,: dekompensatsioon -> NYHA III st.,I00-I99,2
+52,"Südamekahjustusega hüpertooniatõbi (kongestiivse) südamepuudulikkusega
+NYHA II",I00-I99,2
+53,Südamekahjustusega hüpertooniatõbi (kongestiivse) südamepuudulikkusega II aste NYHA III,I00-I99,2
+54,III-II NYHA,I00-I99,2
+55,NYHA III-> II,I00-I99,2
+56,Krooniline südamepuudulikkus NYHA II,I00-I99,2
+57,IV staadium NYHA järgi,I00-I99,1
+58,Insuff. cordis NYHA III.,I00-I99,1
+59,NYHA IV astmes,I00-I99,1
+60,<br />III  - IV NYHA,I00-I99,1
+61,IVst. NYHA,I00-I99,1
+62,III ->II NYHA j.,I00-I99,1
+63,III st NYHA,I00-I99,1
+64,Dekompensatsioon (NYHA III),I00-I99,1
+65,III-IV NYHA,I00-I99,1
+66,NYHA III- IV,I00-I99,1
+67,"Dekompensatsioon, NYHA IV -> III",I00-I99,1
+68,. Südamepuudulikkuse dekompensatsioon NYHA IV-->II,I00-I99,1
+69,Chronica  III NYHA + acuta. Asthma cardiale,I00-I99,1
+70,Dekompensatsioon NYHA IV,I00-I99,1
+71,"Dekompensatsioon (kopsupais, pleuraefusioon, perifeersed tursed), NYHA III",I00-I99,1
+72,NYHA III<-IV,I00-I99,1
+73,IV st. NYHA,I00-I99,1
+74,. Insuff. cordis chr. ( NYHA III -- II ).,I00-I99,1
+75,III -IV st NYHA,I00-I99,1
+76,. Insuff cordis chr III-IV NYHA,I00-I99,1
+77,Südamekahjustusega hüpertooniatõbi (kongestiivse) südamepuudulikkusega II NYHA,I00-I99,1
+78,Dekompensatsioon NYHA III-IV,I00-I99,1
+79,III-IV kl NYHA j,I00-I99,1
+80,Dekompensatsioon -> paranenud NYHA II,I00-I99,1
+81,NYHA IV-> III,I00-I99,1
+82,NYHA  IV.,I00-I99,1
+83,"Dekompensatsioon, NYHA III-IV",I00-I99,1
+84,. Insufficientia cordis chronica II NYHA j.,I00-I99,1
+85,III kl (NYHA j),I00-I99,1
+86,. Insuff. cordis chr. diastolica ( NYHA II ).,I00-I99,1
+87,III Kl NYHA  j,I00-I99,1
+88,NYHA III-IV,I00-I99,1
+89,NYHA II -> I,I00-I99,1
+90,II-III NYHA j.,I00-I99,1
+91,NYHA Ii aste,I00-I99,1
+92,Ii aste NYHA j.,I00-I99,1
+93,II  NYHA,I00-I99,1
+94,Insuff cordis chr NYHA III,I00-I99,1
+95,NYHA II-III st.,I00-I99,1
+96,NYHA II- III st.,I00-I99,1
+97,NYHA III aste,I00-I99,1
+98,NYHA III-IV aste,I00-I99,1
+99,Dekompensatsioon --> NYHA III aste,I00-I99,1
+100,. Insuff cordis chr III-II NYHA,I00-I99,1
+101,NYHA I-II st,I00-I99,1
+102,. Insuff. cordis chr. ( NYHA II ).,I00-I99,1
+103,NYHA III-->II aste,I00-I99,1
+104,NYHA II aste,I00-I99,1
+105,- II st. NYHA,I00-I99,1
+106,. Insuff. cordis chr. biventricularis ( NYHA III---II ).,I00-I99,1
+107,NYHA III -> I,I00-I99,1
+108,NYHA II (-),I00-I99,1
+109,NYHA II- III,I00-I99,1
+110,<br />III NYHA,I00-I99,1
+111,Krooniline südamepuudulikkus NYHA III,I00-I99,1
+112,"Dekompensatsioon, NYHA III-> II",I00-I99,1
+113,IV st NYHA,I00-I99,1
+114,II st NYHA.,I00-I99,1
+115,NYHA IV -> II,I00-I99,1
+116,"Dekompensatsioon (kopsuturse), III st. NYHA",I00-I99,1
+117,"Dekompensatsioon, NYHA IV",I00-I99,1
+118,"NYHA II, min. pleuraefusioon",I00-I99,1
+119,NYHA  II- III st,I00-I99,1
+120,III NYHA j.,I00-I99,1
+121,II-III  NYHA,I00-I99,1
+122,-II NYHA,I00-I99,1
+123,III  NYHA,I00-I99,1
+124,/3 NYHA/,I00-I99,1
+125,Krooniline südamepuudulikkus NYHA I,I00-I99,1
+126,NYHA III- IV Kardiaalastma.,I00-I99,1
+127,II   NYHA,I00-I99,1
+128,I -II NYHA,I00-I99,1
+129,III -> II NYHA,I00-I99,1
+130,I I NYHA,I00-I99,1
+131,. Insuff. cordis chr. II NYHA j.,I00-I99,1
+132,II-I NYHA,I00-I99,1
+133,NYHA  III,I00-I99,1
+134,III -II NYHA,I00-I99,1

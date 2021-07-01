@@ -1,0 +1,13 @@
+
+02.01.2010  
+VASTUSED:
+S,P-Glükoos 14.4 (mmol/L ) 
+S,P-Uurea 7.0 (&lt;11.9 mmol/L ) 
+S,P-CRP 3 (&lt;5 mg/L ) 
+S,P-Na 135 (136 .. 145 mmol/L ) 
+S,P-K 5.4 (3.4 .. 4.5 mmol/L ) 
+S,P-CK 207 (&lt;308 U/L ) 
+S,P-Troponiin T &lt;0.010 (&lt;0.030 ) 
+Glomerulaarfiltratsiooni kiirus (eGFR) 68 (&gt;90 mL/min/1.73m2 ) 
+S,P-Kreatiniin 98 (62 .. 106 µmol/L ) 
+Patsiendi vanus 80 (aastat ) 

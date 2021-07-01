@@ -1,0 +1,455 @@
+08.06.2009 16:26 - <ANONYM id="2" type="per" morph="_H_ sg n"/>, <ANONYM id="3" type="per" morph="_H_ sg n"/>
+
+
+
+S,P-Glükoos 4.4 (mmol/L )  
+
+S,P-Uurea 9.8 (&lt;11.9 mmol/L )  
+
+S,P-Albumiin 32 (34 .. 48 g/L )  
+
+S,P-CRP 57 (&lt;5 mg/L )  
+
+S,P-Na 143 (136 .. 145 mmol/L )  
+
+S,P-K 5.0 (3.5 .. 5.1 mmol/L )  
+
+S,P-ASAT 46 (&lt;38 U/L )  
+
+S,P-ALAT 55 (&lt;41 U/L )  
+
+S,P-LDH 565 (240 .. 480 U/L )  
+
+S,P-CK-MBm 3.24 (&lt;6.73 ng/mL )  
+
+S,P-Troponiin T 0.011 (&lt;0.030 ng/mL )  
+
+Glomerulaarfiltratsiooni kiirus (eGFR) 89 (&gt;90 mL/min/1.73m2 )  
+
+S,P-Kreatiniin 77 (62 .. 106 µmol/L )  
+
+Patsiendi vanus 85 (aastat ) 
+
+
+
+09.06.2009 09:39 - <ANONYM id="4" type="per" morph="_H_ sg n"/>, <ANONYM id="5" type="per" morph="_H_ sg n"/>
+
+Uriini analüüs testribaga  
+
+SG 1.022 (1,015 .. 1,030 )  
+
+PH 5.0 (5.0 .. 8.0 )  
+
+NIT NEG (NEG )  
+
+LEU NEG (NEG )  
+
+PRO NEG (NEG )  
+
+GLU NEG (NEG )  
+
+KET NEG (NEG )  
+
+UBG NEG (NEG )  
+
+<ANONYM id="6" type="per" morph="_Y_ ?"/> NEG (NEG )  
+
+ERY NEG (NEG )  
+
+
+
+09.06.2009 10:37 - <ANONYM id="7" type="per" morph="_H_ sg n"/>, <ANONYM id="8" type="per" morph="_H_ sg n"/>
+
+erütrotsüütide settekiirus analüsaatoril 94 (&lt;30 mm/h ) 
+
+hemogramm viieosalise leukogrammiga 
+
+WBC 7.11 (3,5 .. 8,8 E9/L ) 
+
+RBC 3.64 (4,2 .. 5,7 E12/L ) 
+
+HGB 106 (134 .. 170 g/L ) 
+
+HCT 34 (40 .. 50 % ) 
+
+MCV 93.1 (82 .. 98 fL ) 
+
+MCH 29.1 (27 .. 33 pg ) 
+
+MCHC 313 (317 .. 357 g/L ) 
+
+PLT 218 (145 .. 390 E9/L ) 
+
+RDW-CV 15.4 (11,6 .. 14 % ) 
+
+EO% 1.7 (1 .. 6 % ) 
+
+BASO% 0.6 (0 .. 1 % ) 
+
+MONO% 13.2 (2 .. 10 % ) 
+
+LYMPH% 25.5 (20 .. 40 % ) 
+
+NEUT% 59.0 (40 .. 80 % ) 
+
+EO# 0.12 (&lt;0,5 E9/L ) 
+
+BASO# 0.04 (&lt;0.1 E9/L ) 
+
+MONO# 0.94 (0.2 .. 1 E9/L ) 
+
+LYMPH# 1.81 (1 .. 3 E9/L ) 
+
+NEUT# 4.20 (2 .. 7 E9/L ) 
+
+Vereäige mikroskoopiline uuring  
+
+Eosinofiilid 1.5 (1 .. 6 % )  
+
+Basofiilid 0.5 (0 .. 1,0 % )  
+
+Monotsüüdid 7 (2,0 .. 10,0 % )  
+
+Lümfoidsed rakud kokku 32.5 (% )  
+
+Lümfotsüüdid 32.5 (20 .. 40 % )  
+
+Neutrofiilid 58.5 (40,0 .. 75,0 % )  
+
+Segmenttuumsed neutrofiilid 47.5 (40 .. 80 % )  
+
+Kepptuumsed neutrofiilid 4.5 (0 .. 5,0 % )  
+
+Metamüelotsüüdid 0.5 (0 .. 1 % )  
+
+Müelotsüüdid 6 (0 .. 0,5 % )  
+
+Eosinofiilid # 0.11 (E9/L )  
+
+Basofiilid # 0.04 (&lt;0.1 E9/L )  
+
+Monotsüüdid # 0.5 (0.2 .. 1 E9/L )  
+
+Lümfoidsed rakud kokku # 2.31 (E9/L )  
+
+Lümfotsüüdid # 2.31 (1 .. 3 E9/L )  
+
+Neutrofiilid # 4.16 (2 .. 7 E9/L )  
+
+Erütrotsüütide aglomeratsioon 3+  
+
+Erütrotsüütide anisotsütoos 1+  
+
+Erütrotsüütide makrotsütoos 1+  
+
+Erütrotsüütide ovalotsütoos 1+  
+
+
+
+11.06.2009 13:01 - <ANONYM id="9" type="per" morph="_H_ sg n"/>, <ANONYM id="10" type="per" morph="_H_ sg n"/>
+
+erütrotsüütide settekiirus analüsaatoril 72 (&lt;30 mm/h ) 
+
+hemogramm viieosalise leukogrammiga 
+
+WBC 6.93 (3,5 .. 8,8 E9/L ) 
+
+RBC 3.56 (4,2 .. 5,7 E12/L ) 
+
+HGB 105 (134 .. 170 g/L ) 
+
+HCT 33 (40 .. 50 % ) 
+
+MCV 92.4 (82 .. 98 fL ) 
+
+MCH 29.5 (27 .. 33 pg ) 
+
+MCHC 319 (317 .. 357 g/L ) 
+
+PLT 215 (145 .. 390 E9/L ) 
+
+RDW-CV 15.7 (11,6 .. 14 % ) 
+
+EO% 4.5 (1 .. 6 % ) 
+
+BASO% 1.2 (0 .. 1 % ) 
+
+MONO% 11.0 (2 .. 10 % ) 
+
+LYMPH% 31.3 (20 .. 40 % ) 
+
+NEUT% 52.0 (40 .. 80 % ) 
+
+EO# 0.31 (&lt;0,5 E9/L ) 
+
+BASO# 0.08 (&lt;0.1 E9/L ) 
+
+MONO# 0.76 (0.2 .. 1 E9/L ) 
+
+LYMPH# 2.17 (1 .. 3 E9/L ) 
+
+NEUT# 3.61 (2 .. 7 E9/L ) 
+
+Vereäige mikroskoopiline uuring  
+
+Eosinofiilid 4 (1 .. 6 % )  
+
+Basofiilid 1 (0 .. 1,0 % )  
+
+Monotsüüdid 10 (2,0 .. 10,0 % )  
+
+Lümfoidsed rakud kokku 35.5 (% )  
+
+Lümfotsüüdid 34.5 (20 .. 40 % )  
+
+Reaktiivsed lümfotsüüdid 1 (&lt;2 % )  
+
+Neutrofiilid 49.5 (40,0 .. 75,0 % )  
+
+Segmenttuumsed neutrofiilid 46 (40 .. 80 % )  
+
+Kepptuumsed neutrofiilid 2 (0 .. 5,0 % )  
+
+Müelotsüüdid 1.5 (0 .. 0,5 % )  
+
+Eosinofiilid # 0.28 (E9/L )  
+
+Basofiilid # 0.07 (&lt;0.1 E9/L )  
+
+Monotsüüdid # 0.69 (0.2 .. 1 E9/L )  
+
+Lümfoidsed rakud kokku # 2.46 (E9/L )  
+
+Lümfotsüüdid # 2.39 (1 .. 3 E9/L )  
+
+Neutrofiilid # 3.43 (2 .. 7 E9/L )  
+
+Erütrotsüütide aglomeratsioon 3+  
+
+Erütrotsüütide polükromaasia 1+  
+
+Erütrotsüütide anisokromaasia 1+  
+
+Erütrotsüütide anisotsütoos 1+  
+
+Erütrotsüütide makrotsütoos 1+  
+
+Erütrotsüütide ovalotsütoos 1+  
+
+
+
+12.06.2009 11:05 - <ANONYM id="11" type="per" morph="_H_ sg n"/>, <ANONYM id="12" type="per" morph="_H_ sg n"/> - D04280
+
+Märkus: röga
+
+Enterobakterite samastamine  
+
+Aeroobne külv (VSg)  
+
+Veriagar  
+
+Atsineetobakterid Leidub  
+
+Atsineetobakterite samastamine (Vitek2)  
+
+Acinetobacter baumannii Leidub Mikroobide kasv +++ 
+
+Atsineetobakterite põhirida-1  
+
+Meropeneem MIK Tundlik  
+
+Meropeneem MIK 2  
+
+Ampitsilliin+sulbaktaam MIK 2  
+
+Ampitsilliin+sulbaktaam MIK <ANONYM id="13" type="per" morph="_Y_ ?;_H_ sg n"/>  
+
+Atsineetobakterite põhirida-2  
+
+Imipeneem MIK Tundlik  
+
+Imipeneem MIK 0,5  
+
+Tsefepiim MIK 4  
+
+Tsefepiim MIK Tundlik Teatada Resistentsusest infektsionistile 
+
+Atsineetobakterite põhirida-3  
+
+Amikatsiin MIK Tundlik  
+
+Amikatsiin MIK 3  
+
+Kolistiin MIK 1  
+
+Kolistiin MIK Tundlik Teatada Resistentsusest infektsionistile 
+
+Preparaat Gram  
+
+<ANONYM id="14" type="per" morph="_H_ pl n"/> 5-10  
+
+
+
+
+
+VASTUSED:
+
+Teata infektsionistile On teatatud  
+
+Enterobakterite samastamine  
+
+Enterobakterite põhirida Tühistatud  
+
+Aeroobne külv (VSg)  
+
+Veriagar  
+
+Atsineetobakterid Leidub  
+
+Atsineetobakterite samastamine (Vitek2)  
+
+Acinetobacter baumannii Leidub Mikroobide kasv ++ 
+
+Atsineetobakterite põhirida-1  
+
+Meropeneem MIK Tundlik  
+
+Meropeneem MIK 1  
+
+Ampitsilliin+sulbaktaam MIK 2  
+
+Ampitsilliin+sulbaktaam MIK <ANONYM id="15" type="per" morph="_Y_ ?;_H_ sg n"/>  
+
+Atsineetobakterite põhirida-2  
+
+Imipeneem MIK Tundlik  
+
+Imipeneem MIK 1  
+
+Tsefepiim MIK 3  
+
+Tsefepiim MIK Tundlik Teatada Resistentsusest infektsionistile 
+
+Atsineetobakterite põhirida-3  
+
+Amikatsiin MIK Tundlik  
+
+Amikatsiin MIK 3  
+
+Kolistiin MIK 1  
+
+Kolistiin MIK Tundlik Teatada Resistentsusest infektsionistile 
+
+Preparaat Gram  
+
+<ANONYM id="16" type="per" morph="_H_ pl n"/> 5-10  
+
+
+
+15.06.2009 10:15 - Frik-Amelin, <ANONYM id="17" type="per" morph="_H_ sg n"/> - D04416 - E17 - üldarstiabi
+
+Radioloogiline uuring, vastus nr 396_15142_1
+
+KIRJELDUS: Võrreldes 04.06.09 ü/v-ga infiltraat vas. alasagaras muutunud väiksemaks ja hõredamaks - positiivne dünaamika. Ka parem ülaväli parahilaarsel muutunud transparentsemaks. Bronhiaaljoonis bilat. tugevnenud. Diafragma tavalisel kõrgusel, lamenenud. Pleuraefusiooni tunnuseid ei ole. 
+
+
+
+19.06.2009 10:09 - <ANONYM id="18" type="per" morph="_Y_ ?"/>, <ANONYM id="19" type="per" morph="_H_ sg n"/>
+
+S,P-CRP 7 (&lt;5 mg/L )  
+
+Glomerulaarfiltratsiooni kiirus (eGFR) 89 (&gt;90 mL/min/1.73m2 )  
+
+S,P-Kreatiniin 77 (62 .. 106 µmol/L )  
+
+Patsiendi vanus 85 (aastat ) 
+
+
+
+19.06.2009 13:30 - <ANONYM id="20" type="per" morph="_H_ sg n"/>, <ANONYM id="21" type="per" morph="_H_ sg n"/>
+
+hemogramm viieosalise leukogrammiga 
+
+WBC 5.31 (3,5 .. 8,8 E9/L ) 
+
+RBC 3.58 (4,2 .. 5,7 E12/L ) 
+
+HGB 105 (134 .. 170 g/L ) 
+
+HCT 33 (40 .. 50 % ) 
+
+MCV 93.0 (82 .. 98 fL ) 
+
+MCH 29.3 (27 .. 33 pg ) 
+
+MCHC 315 (317 .. 357 g/L ) 
+
+PLT 229 (145 .. 390 E9/L ) 
+
+RDW-CV 16.1 (11,6 .. 14 % ) 
+
+EO% 4.7 (1 .. 6 % ) 
+
+BASO% 1.1 (0 .. 1 % ) 
+
+MONO% 12.8 (2 .. 10 % ) 
+
+LYMPH% 38.4 (20 .. 40 % ) 
+
+NEUT% 43.0 (40 .. 80 % ) 
+
+EO# 0.25 (&lt;0,5 E9/L ) 
+
+BASO# 0.06 (&lt;0.1 E9/L ) 
+
+MONO# 0.68 (0.2 .. 1 E9/L ) 
+
+LYMPH# 2.04 (1 .. 3 E9/L ) 
+
+NEUT# 2.28 (2 .. 7 E9/L ) 
+
+Vereäige mikroskoopiline uuring  
+
+Eosinofiilid 6.5 (1 .. 6 % )  
+
+Monotsüüdid 9 (2,0 .. 10,0 % )  
+
+Lümfoidsed rakud kokku 40 (% )  
+
+Lümfotsüüdid 39.5 (20 .. 40 % )  
+
+Reaktiivsed lümfotsüüdid 0.5 (&lt;2 % )  
+
+Neutrofiilid 44.5 (40,0 .. 75,0 % )  
+
+Segmenttuumsed neutrofiilid 43 (40 .. 80 % )  
+
+Kepptuumsed neutrofiilid 0.5 (0 .. 5,0 % )  
+
+Müelotsüüdid 1 (0 .. 0,5 % )  
+
+Eosinofiilid # 0.35 (E9/L )  
+
+Monotsüüdid # 0.48 (0.2 .. 1 E9/L )  
+
+Lümfoidsed rakud kokku # 2.12 (E9/L )  
+
+Lümfotsüüdid # 2.1 (1 .. 3 E9/L )  
+
+Neutrofiilid # 2.36 (2 .. 7 E9/L )  
+
+Erütrotsüütide aglomeratsioon 1+  
+
+Erütrotsüütide polükromaasia 1+  
+
+Erütrotsüütide anisokromaasia 1+  
+
+Erütrotsüütide anisotsütoos 1+  
+
+Erütrotsüütide makrotsütoos 1+  
+
+Erütrotsüütide ovalotsütoos 1+ 
+  
+22.06.2009 09:46 - Frik-Amelin, <ANONYM id="22" type="per" morph="_H_ sg n"/> - D04416 - E17 - üldarstiabi
+
+KIRJELDUS: Võrreldes  15.06.09 ü/v-ga infiltratiivne varjustus vasemal alaväljas supradiafragmaalsel muutunud veelgi hõredamaks. Ka parem ülaväli muutunud transparentsemaks. Bronhiaaljoonis endiselt bilater. tugevnenud. Süda ristimõõdus laienenud. Esineb kahe elektroodiga EKS. Diafragma ii. Pleuraefusiooni tunnuseid ei ole. 

@@ -1,0 +1,309 @@
+
+________Kuupäev HK Hinnakirja kood
+26.03.2015 VS  OP 2015 VS  OP 2015
+VS  OP 2015
+
+
+
+<ANONYM id="0" type="per" morph="_H_ sg n;_H_ sg n"/>
+
+<ANONYM id="1" type="ssn" />
+
+A
+lgus: 02.03.2015 07:53:00 ja lõpp: 03.03.2015 11:0
+4:00
+
+
+Näita kõiki andmed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+Lõplik kliiniline diagnoos
+
+
+Põhihaigus 
+
+Kliiniline diagnoos
+
+RHK-10 k
+ood ja nimetus
+
+Statistiline liik
+
+Alajäsemete
+vaariksid haavandi või põletikuta  I83.9 - Alajäs
+emete vaariksid haavandi või põletikuta + 
+Kaasuv
+ad haigused 
+Hüpertooniatõbi e essentsiaalne e pr
+imaarne arteriaalne hüpertensioon e kõrgvererõhktõ
+bi  I10 - Hüpertooniatõbi e essentsiaalne e primaa
+rne arteriaalne hüpertensioon e kõrgvererõhktõbi -
+
+
+
+
+Anamnees
+
+Äge/krooniline venoosne puudu
+likkus: Valu, Varikoos
+ Täiendavad märkused: Pats
+ient hospitaliseeritud plaanilise haigena parema j
+ala veenilaiendite operatiivseks raviks. Probleemi
+d tekkinud 2014 aasta sügisel, mil hakkas rohkem l
+iikuma jalgrattaga: jalg valulik sääre tagaküljelt
+.
+ Aeg haigestumise algusest/probleemide kestus:
+3-6k
+ Eelnev ravi: Ebaregulaarne medikamentoosne
+
+
+ Põetud haigused ja püsiravimid: Hüpertoonia - ta
+rvitanud T.MicardisPlus 0,5 tbl. Viimasel ajal ei
+ole võtnud, kuna vererõhk normaliseerunud.
+ <ANONYM id="2" type="per" morph="_S_ sg g"/>
+tised - Nolpaza 1 tbl iga päev
+ Operatsioonid: Sa
+pikivi ja sapipõie eemaldamine 2013 novembris.
+ A
+lkoholi kasutamine: Mõõdukas
+ Andmed suitsetamise
+kohta: Ei suitseta
+ Objektiivse leiu kokkuvõte:
+Parema reie distaalse ja sääre proksimaalse osa ta
+gaküljel nähtavad veenilaiendid. Palpatoorselt val
+utud. Nähtavate põletiku tunnusteta.
+ Kehaehitus:
+Normosteeniline
+ Toitumus: Normaalne
+ Üldseisun
+d: <ANONYM id="3" type="per" morph="_A_ sg n"/>
+ Nahk ja nähtavad limaskestad: Normis
+ a.
+carotis dex: +
+ a. carotis sin: +
+ a. radialis
+dex: +
+ a. radialis sin: +
+ a. tibialis posterio
+r dex: +
+
+ a. tibialis posterior sin: +
+ a. dorsa
+lis pedis dex: +
+ a. dorsalis pedis sin: +
+ I83.
+9 Alajäsemete vaariksid haavandi või põletikuta
+
+
+
+Haiguse kulg/ravikokkuvõte
+
+Patsient hospitalis
+eeritud plaanilise haigena parema jala veenilaiend
+ite operatiivseks raviks. Teostatud varikektoomia
+(vt. protokoll), postoperatiivne kulg ladus. <ANONYM id="4" type="per" morph="_S_ sg p"/>
+ent lubatud koju heas üldseisundis. Rezhiim vt. in
+foleht. 
+
+
+  
+
+
+ 02.03.2015 08:38
+ ANALÜÜSI
+<ANONYM id="5" type="per" morph="_Y_ ?"/> TELLIMUS nr: <ANONYM id="6" type="mobile" />
+
+ MATERJAL:
+ V102740916
+031 Venoosne veri 02.03.2015 08:25 (võetud: 02.03.
+2015 08:24)
+
+ VASTUSED:
+ Hemogramm
+ WBC 8.01 (
+3,5 .. 8,8 E9/L)
+ RBC 4.82 (3,9 .. 5,2 E12/L)
+ H
+b 142 (117 .. 153 g/L)
+ Hct 43 (35 .. 46 %)
+ MCV
+88.2 (82 .. 98 fL)
+ MCH 29.5 (27 .. 33 pg)
+ MCH
+C 334 (317 .. 357 g/L)
+ RDW-CV 13.4 (11,6 .. 14 %
+)
+ RDW-SD 43.2 (39 .. 46 fL)
+ Plt 286.0 (145 ..
+390 E9/L)
+
+ 02.03.2015 09:13
+ ANALÜÜSIDE TELLIM
+<ANONYM id="7" type="per" morph="_Y_ ?"/> nr: <ANONYM id="8" type="mobile" />
+
+ MATERJAL:
+ V102740916032 Venoo
+sne veri 02.03.2015 08:24 (võetud: 02.03.2015 08:2
+3)
+
+ VASTUSED:
+ Kaalium 4.6 ? (3.4 .. 4.5 mmol/
+L)
+ Naatrium 141 (136 .. 145 mmol/L)
+ CRP 2 (<5
+mg/L)
+ Glükoos 7.0 (mmol/L)
+ eGFR (CKD-EPI) 84 ?
+(>90 mL/min/1,73m2)
+ Kreatiniin 68 (44 .. 80 _mo
+l/L)
+ Uurea 4.4 (<8.1 mmol/L)
+ Valk 81 (64 .. 83
+g/L)
+
+
+
+Operatsioonid
+
+
+Kuupäev
+
+Operats
+iooni nimetus NCSP
+
+Alternatiivkood
+
+Anesteesi
+a liik
+
+Vaata lisavahendeid ja kirjeldusi
+
+02.
+03.2015 11:53:00 
+Muu veeni resektsioon
+
+Muu ve
+eni resektsioon
+
+Plaaniline protseduur
+
+Parem
+pool
+
+<= 1 tund
+  
+kõrimaskiga
+  
+
+
+
+
+
+
+
+
+ 
+
+
+
+Väljastatud dokumendid
+
+Töövõimetus
+lehed 
+
+TVL Liik
+
+Number
+
+<ANONYM id="9" type="per" morph="_S_ sg n"/>
+
+<ANONYM id="10" type="per" morph="_S_ sg n"/>
+
+h
+aigusleht 15003752 02.03.2015 03.03.2015 
+  04.03
+.2015 11.03.2015 
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ravia
+rst/koostaja
+
+<ANONYM id="11" type="per" morph="_H_ sg n;_Y_ ?"/> (D01775)
+
+Eriala: E180
+- kardiovaskulaarkirurgia 
+Tervishoiuasutus: sih
+tasutus Tartu Ülikooli Kliinikum (90001478) 
+ 
+
+
+ 
+ 
+
+
+
+Perearst
+
+<ANONYM id="12" type="per" morph="_H_ sg n;_H_ sg n"/> (D05462)
+
+
+Praksise nimetus:  
+ 
+
+
+
+Patsient
+
+<ANONYM id="13" type="per" morph="_H_ sg n;_H_ sg n"/> (<ANONYM id="14" type="ssn" />)
+
+ 
+Sünniaeg: ANONYMDATEOFBIRTH 
+
+Elukoht: <ANONYM id="15" type="per" morph="_S_ sg g"/> 4 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						

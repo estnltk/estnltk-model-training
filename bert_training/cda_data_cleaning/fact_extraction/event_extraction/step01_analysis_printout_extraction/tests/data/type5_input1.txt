@@ -1,0 +1,25 @@
+Biokeemia analüüs Rer
+entsväärtus 18.02.2013 06:48:03 19.02.2013 10:00:0
+0 
+S-ALAT (alaniini aminotransferaas) N: <31 U/L,
+ M:<41 U/L  12 
+S-ASAT (aspartaadi aminotransfera
+as) N:<32 U/L, M:<38 U/L  18 
+S-Bil (bilirubiin) 
+< 17,1 _mol/L  9 
+fS-Gluc (glükoos) 4,1-5,9 mmol/
+L 14.1 13.5 
+S-K (kaalium) 3,5-5,1 mmol/L 3.9 4.4
+ 
+S-Na (naatrium) 136-145 mmol/L 137 136 
+fS-Cre
+a (kreatiniin) N:44-80, M:62-106 _mol/L 79 74 
+eG
+FR hinnanguline glomerulaarfiltratsiooni kiirus < 
+60 neerufunkts. langus,>= 60 -< 90 võimalik neeruk
+ahjustus, >=90 norm,< 18aast.ei kehti 65  
+fS-Ure
+a (uurea) <=65a.<8,3 ; >65a <11,9 mmol/L 4.3 4.5 
+
+
+

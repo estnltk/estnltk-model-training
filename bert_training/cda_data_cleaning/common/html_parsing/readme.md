@@ -1,0 +1,1 @@
+Contains functions of parsing HTML tables. Functions are tested.

@@ -1,0 +1,128 @@
+<ANONYM id="2" type="per" morph="_H_ sg n"/>, <ANONYM id="3" type="per" morph="_H_ sg n"/> - D04449 - E340 - radioloogia 
+Röntgenuuringud 
+RÖ rindkerest PA, AP (otse) 
+Teostatud: 20.12.2013 19:51 
+Kliiniline info - südamepuudul. 
+LEID: Diafragmakuplid selgepiirilised, norm kõrgusel. Lateraalsed pleurasiinused vabad. Hiilused rahuldava struktuursusega.  
+Bronhovaskulaarne joonis tavapärane. Kopsudes koldelis-alveolaarset varjustust esile ei tule. Süda on ristimõõdus laienenud. Esineb fikseerunud diafragmaalosng.  
+Kokkuvõte: Südameõõned laienenud. Diafragmaalsong.  
+<ANONYM id="4" type="per" morph="_H_ sg n"/>, <ANONYM id="5" type="per" morph="_H_ sg n"/> - D03008 - E170 - kardioloogia 
+Ehhokardiograafia 
+Teostatud: 31.12.2013 08:30 
+Vasem vatsake: normaalse suurusega.  <ANONYM id="6" type="per" morph="_S_ sg g"/> paksus on normaalne. Üldine süstoolne funktsioon on normaalne. Visuaalselt  hinnatud EF 60-65%. 
+Vasema vatsakese diastoolne  funktsioon: Vasema vatsakese lõõgastumine on aeglustunud (diastoolse  düsfunktsiooni I aste). 
+Vasem koda: normaalne. 
+Parem vatsake: suurus on normaalne.  Üldine süstoolne funktsioon on normaalne. 
+Parem koda: normaalne. 
+Ülenev aort: normaalne. 
+Aordikaar: normaalne. 
+Alaneva aordi algus: normaalne. 
+Aordiklapp: kolmehõlmaline. Kõigil  hõlmadel on fibroos.  Aordiklapi hõlmade liikuvus on normaalne. Aordiklapi  stenoosi ei esine. Triviaalne (füsioloogilne) aordiklapi regurgitatsioon. 
+Aordi bulbus: normaalne. 
+Mitraalklapp: normaalne. Mõlemad  hõlmad on fibrootilised.  Hõlmade liikuvus on normaalne. Mitraalklapi stenoosi  ei esine. Triviaalne (füsioloogiline) mitraalregurgitatsioon. 
+Pulmonaalklapp: normaalne. Esineb  pulmonaalklapi regurgitatsioon. 
+Trikuspidaalklapp: Trikuspidaalklapi  funktsioon on normaalne. Kerge trikuspidaalregurgitatsioon. 
+Pulmonaalhüpertensioon: ei esine. 
+Alumine õõnesveen: on normaalne.   Kollabeerub inspiiriumis üle 50%. 
+Hinnatud parema koja rõhk: 5mmHg 
+Kodade vahesein: ei ole hinnatav. 
+Perikardi õõs: vedelikku ei esine  
+Arvamus: Normaalse suurusega, normalse süstoolse funktsiooniga, diastoolse lõõgastushäirega vasak vatsake (EF 60-65%). Normokinees. Parem vatsake normaalse suurusega, normaalse süstoolse funktsiooniga. Klappidel ealisi fibrootilisi muutusi. Triviaalsed regurgitatsioonid aortaal- ja mitraalklapil, kerge trikuspidaalpuudulikkus. Rõhk pulmonaalarteri süsteemis normis, PAPs 33 mmHg.  
+05.01.2014 16:35 - <ANONYM id="7" type="per" morph="_H_ sg n"/>, <ANONYM id="8" type="per" morph="_H_ sg n"/> - D04000 - E170 - kardioloogia 
+Lidokaiin tuimestuses teostatud lõige vasemal rangluu aluses piirkonnas, hemostaaž elektrokauteriga. Punkteeritud kahel korral v.axillaris sin ja kanüleeritud kahe kanüüliga, mille kaudu viidud südamesse 2 aktiivkinnitusega bipolaarset elektroodi. Esimene kinnitatud parema vatsakese septumi piirkonda, teine paremasse kotta apendiksisse. Elektroodide parameetrid head. Rajatud DDDR aparaadile loož rinnalihase peale, haav suletud kahes kihis. 
+   
+|Uuring|20.12.2013|21.12.2013|22.12.2013|23.12.2013|24.12.2013|25.12.2013|26.12.2013|27.12.2013|28.12.2013|01.01|03.01|05.01|Mõõtühik| 
+|Aeroobide uuring| | | |Puudub aeroobne kasv| | | | | | | | | | 
+|Aktiveeritud osalise trombopla...| | | | | | | | | | |27.8| |sek| 
+|Alaniini aminotransferaas seer...| | |41|48| | | | | | |48| |U/L| 
+|Alaniini aminotransferaas seer...| | | | | | | | | | | | |U/L| 
+|Aluseline fosfataas seerumis| | |83|93| | | | | | |96| |U/L| 
+|Aluseline fosfataas seerumis| | | | | | | | | | | | |U/L| 
+|Amülaas (pankreasespetsiifilin...| | |24| | | | | | | | | |U/L| 
+|Aspartaadi aminotransferaas se...| | |45|47| | | | | | |38| |U/L| 
+|Aspartaadi aminotransferaas se...| | | | | | | | | | | | |U/L| 
+|B-hepatiidi viiruse pinnaantig...| | |Negatiivne| | | | | | | | | | | 
+|B-tüüpi natriureetilise propep...|3675| | |2575| | | | | | |196| |ng/L| 
+|B-tüüpi natriureetilise propep...| | | | | | | | | | | | |ng/L| 
+|Bilirubiin seerumis/plasmas|33| |14|6| | | | | | |5| |µmol/L| 
+|Bilirubiin seerumis/plasmas| | | | | | | | | | | | |µmol/L| 
+|C-hepatiidi viiruse vastased a...| | |Negatiivne| | | | | | | | | | | 
+|C-reaktiivne valk seerumis/pla...|157.7|177.5| 
+|00:00|00:00| 
+|182.7 ↑|145.3 ↑|  
+|123.3|90.2|76.1|64.6|48.2|34.2|9.1|6.5| |mg/L| 
+|D-dimeerid|1.96| | |1.66| | | | | | | | |µg/ml| 
+|Digoksiin seerumis| | |<0.3| | | | | | | | | |µg/L| 
+|Gammaglutamüüli transferaas se...|41| | |47| | | | | | |76| |U/L| 
+|Gammaglutamüüli transferaas se...| | | | | | | | | | | | |U/L| 
+|Glükohemoglobiin| | |6.0| | | | | | | | | |%| 
+|Glükohemoglobiin veres| | |42| | | | | | | | | |mmol/mol| 
+|Glükoos seerumis/plasmas|6.9|5.6| |6.2| | | | | | | | |mmol/L| 
+|HDL-kolesterool paastuseerumis| | |1.0| | | | | | | | | |mmol/L| 
+|Hemogramm viieosalise leukogra...| | | | | | | | | | | | | | 
+|BASO#|0.01|0.01| |0.01|0.02|0.03|0.02|0.04|0.03| | |0.03|E9/L| 
+|BASO%|0.1|0.1| |0.1|0.4|0.5|0.3|0.7|0.6| | |0.5|%| 
+|EO#|0.0|0.01| |0.2|0.26|0.25|0.25|0.31|0.22| | |0.18|E9/L| 
+|EO%|0.0|0.1| |2.6|4.8|4.4|4.2|5.2|4.5| | |3.0|%| 
+|HCT|47.7|45.3| |45.1|39.3|41.9|46.2|43.1|41.9| | |46.2|%| 
+|Hb|157|148| |143|124|134|148|138|131| | |147|g/L| 
+|LYMPH#|0.7|0.66| |0.94|0.9|1.08|0.97|0.89|0.89| | |1.32|E9/L| 
+|LYMPH%|5.5|5.9| |12.4|16.6|18.8|16.2|15.0|18.3| | |21.9|%| 
+|MCH|30.6|30.3| |29.7|29.6|30.0|30.0|30.0|29.5| | |29.3|pg| 
+|MCHC|329|327| |317|316|320|320|320|313| | |318|g/L| 
+|MCV|93.0|92.6| |93.6|93.8|93.7|93.5|93.7|94.4| | |92.2|fL| 
+|MONO#|1.05|1.06| |0.74|0.51|0.59|0.52|0.59|0.56| | |0.43|E9/L| 
+|MONO%|8.2|9.5| |9.8|9.4|10.3|8.7|10.0|11.5| | |7.1|%| 
+|MPV|10.3|10.4| |10.8|11.2|10.7|10.4|10.5|10.5| | |10.0|fL| 
+|NEUT#|11.06|9.45| |5.67|3.74|3.79|4.22|4.09|3.17| | |4.07|E9/L| 
+|NEUT%|86.2|84.4| |75.1|68.8|66.0|70.6|69.1|65.1| | |67.5|%| 
+|P-LCR|26.4|27.7| |32.7|34.3|30.7|28.0|28.0|28.5| | |25.3|%| 
+|PDW|11.8|12.2| |14.3|13.9|13.6|12.2|12.1|11.7| | |11.7|fL| 
+|PLT|159.0|157.0| |197.0|185.0|216.0|236.0|239.0|278.0| | |302.0|E9/L| 
+|RBC|5.13|4.89| |4.82|4.19|4.47|4.94|4.6|4.44| | |5.01|E12/L| 
+|RDW|14.3|14.4| |14.5|14.7|14.1|14.1|14.4|14.1| | |14.0|%| 
+|WBC|12.82|11.19| |7.56|5.43|5.74|5.98|5.92|4.87| | |6.03|E9/L| 
+|Kaalium seerumis|4.0|3.8|3.9|4.4|4.9|4.6|5.0|4.7|4.5|5.0|5.0|4.6|mmol/L| 
+|Kaltsium, ioniseeritud, seerum...| | |1.15| | | | | | | | | |mmol/L| 
+|Kilpnääret stimuleeriv hormoon...|1.09| | | | | | | | | | | |mIU/L| 
+|Kolesterool seerumis| | |3.8| | | | | | | | | |mmol/L| 
+|Kreatiini kinaas seerumis|424|311| | | | | | | | | | |U/L| 
+|Kreatiini kinaasi MB isoensüüm...|7|4| | | | | | | | | | |ug/L| 
+|Kreatiniin seerumis/plasmas|173|130| |99|101|95| | | |126|132| |µmol/L| 
+|Kreatiniin seerumis/plasmas| | | | | | | | | | | | |µmol/L| 
+|LDL-kolesterool paastuseerumis| | |2.24| | | | | | | | | |mmol/L| 
+|Laktaadi dehüdrogenaas seerumi...| |731|550| | | | | | | | | |U/L| 
+|Lipaas paastuseerumis| | |46| | | | | | | | | |U/L| 
+|Magneesium seerumis/plasmas|0.93| | | | | | | | | |1.02| |mmol/L| 
+|Naatrium seerumis/plasmas|139|140|139|143|142|140|140|141|142|142|141|141|mmol/L| 
+|Protrombiini aeg| | | | | | | | | | | | | | 
+|INR| | | |1.11| | | | | | |1.1| | | 
+|Protrombiini suhe| | | |80.6| | | | | | |81.8| |%| 
+|Protrombiini aeg| | | | | | | | | | | | | | 
+|INR| | | | | | | | | | | | | | 
+|Protrombiini suhe| | | | | | | | | | | | |%| 
+|S-Crea+eGFR (MDRD valemi j.)| | | | | | | |38|42| | | |mL/min/1,73 m2| 
+|Kreatiniin seerumis/plasmas| | | | | | | |119|109| | | |µmol/L| 
+|S-iCa (7.4 pH juures)| | |1.15| | | | | | | | | |mmol/L| 
+|Triglütseriidid paastuseerumis| | |1.3| | | | | | | | | |mmol/L| 
+|Troponiin T seerumis (kõrgtund...|20| | |16| | | | | | | | |ng/L| 
+|Troponiin T seerumis (kõrgtund...| | | | | | | | | | | | |ng/L| 
+|Uriini ribaanalüüs| | | | | | | | | | | | | | 
+|Bilirubiin uriinis| |NEG| |NEG| | | | | | |NEG| | | 
+|Erikaal| |1.017| |1.02| | | | | | |1.014| | | 
+|Erütrotsüüdid| |150 /µL| |150 /µL| | | | | | |25 /µL| | | 
+|Glükoos| |NEG| |NEG| | | | | | |NEG| | | 
+|Ketokehad| |1.5 mmol/L| |NEG| | | | | | |NEG| | | 
+|Leukotsüüdid| |NEG| |NEG| | | | | | |25 /µL| | | 
+|Nitrit| |NEG| |NEG| | | | | | |NEG| | | 
+|Urobilinogeen| |17 µmol/L| |NEG| | | | | | |NEG| | | 
+|Valk| |0.75 g/L| |0.25 g/L| | | | | | |NEG| | | 
+|pH uriinis| |5.0| |5.0| | | | | | |5.0| | | 
+|Uriini sademe mikroskoopia| | | | | | | | | | | | | | 
+|Erütrotsüüdid| | | |7.0| | | | | | |<1| |/hpf| 
+|Lameepiteeli rakud| | | |3.0| | | | | | |2.0| |/hpf| 
+|Leukotsüüdid| | | |2.0| | | | | | |2.0| |/hpf| 
+|Transitoorse epiteeli rakud| | | | | | | | | | |<1| |/hpf| 
+|Uurea paastuseerumis/paastupla...|9.5|9.7| |5.8| | | | | | |8.5| |mmol/L| 
+|Uurea paastuseerumis/paastupla...| | | | | | | | | | | | |mmol/L| 
+|Uuring|20.12.2013|21.12.2013|22.12.2013|23.12.2013|24.12.2013|25.12.2013|26.12.2013|27.12.2013|28.12.2013|01.01|03.01|05.01|Mõõtühik|

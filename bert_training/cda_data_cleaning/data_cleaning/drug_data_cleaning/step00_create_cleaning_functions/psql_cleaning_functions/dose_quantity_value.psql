@@ -1,0 +1,28 @@
+SET ROLE {role};
+
+-- check if the value has some unit with it thats not supposed to be there and splits it into two
+
+drop function if exists  {schema}.clean_dose_quantity_value(dose_quantity_value_raw text);
+create or replace function {schema}.clean_dose_quantity_value(dose_quantity_value_raw text)
+    returns text[]
+as
+$body$
+declare
+    dose_quantity_value varchar := lower(trim(from regexp_replace(dose_quantity_value_raw, ',', '.')));
+    dose_quantity_unit  varchar := NULL;
+begin
+    if dose_quantity_value_raw is not null and dose_quantity_value_raw != '' then
+        if dose_quantity_value ~ '[a-zõäöü]' then
+            dose_quantity_unit := (regexp_matches(dose_quantity_value, '[a-zõäöü]+'))[1]; -- units e.g. mg, ml etc
+            dose_quantity_value :=
+                    (regexp_matches(dose_quantity_value, '[0-9/]+[.0-9]*'))[1]; -- floats, integers, ratios (5/1.25)
+        end if;
+        return array [dose_quantity_value,dose_quantity_unit];
+    end if;
+
+    return array [NULL, NULL];
+end
+$body$
+    language plpgsql;
+
+reset role;

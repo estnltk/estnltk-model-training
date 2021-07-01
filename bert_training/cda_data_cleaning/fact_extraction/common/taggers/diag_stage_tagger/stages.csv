@@ -1,0 +1,17 @@
+_regex_pattern_,grammar_symbol,regex_type,value,_group_,_priority_
+regex,string,string,callable,callable,callable
+"(((I{0,1}V|I{1,3}|\d)[- ]*){1,2})([Ss]taadium|st\.?\s)",STAGE,stage_1,lambda m: m.group(1).strip(),0,0
+"[Ss]taadium[-= ]*(I{0,1}V|I{1,3}|\d)",STAGE,stage_2,lambda m: m.group(1).strip(),0,0
+(lisa)?risk(iaste)?[-= ]*(\d),RISK,risk_1,lambda m: m.group(3).strip(),0,0
+(lisa)?risk(iaste)?[-= ]*(madal|mõõdukas|ülikõrge|väga kõrge|kõrge|keskmine),RISK,risk_2,lambda m: m.group(3).strip(),0,0
+(madal|mõõdukas|ülikõrge|väga kõrge|kõrge|keskmine)[- ]*(lisa)?risk(iaste)?,RISK,risk_3,lambda m: m.group(1).strip(),0,0
+"(((I{0,1}V|I{1,3})\s*-?\s*){1,2})aste",STAGE,degree,lambda m: m.group(1).strip(),0,0
+NYHA[-= ]*(I[IV]*),STAGE,stage_3,lambda m: m.group(1).strip(),0,0
+(I[IV]*)[- ]*NYHA,STAGE,stage_4,lambda m: m.group(1).strip(),0,0
+(^|[^0-9A-ZÜÕÖÄa-züõöä])(I[IV]*)($|[^0-9A-ZÜÕÖÄa-züõöä]),STAGE,stage_5,lambda m: m.group(2).strip(),0,1
+(organkahjustus|ok)[-= ]*(I[IV]*|\d),DAMAGE,damage_1,lambda m: m.group(2).strip(),0,0
+(I[IV]*)[- ]*(organkahjustus|ok),DAMAGE,damage_2,lambda m: m.group(1).strip(),0,0
+has[- ]*bled[-= ]*(\d),SCORE,stage_6,lambda m: m.group(1).strip(),0,0
+CHA[-2DS ]*VASc[-= ]*(skoor)?[-= ]*(\d),SCORE,stage_7,lambda m: m.group(2).strip(),0,0
+\( *([1-3]) *\),SCORE,stage_8,lambda m: m.group(1).strip(),0,0
+ehra[-= ]*(skoor)?[-= ]*(\d),SCORE,stage_9,lambda m: m.group(2).strip(),0,0

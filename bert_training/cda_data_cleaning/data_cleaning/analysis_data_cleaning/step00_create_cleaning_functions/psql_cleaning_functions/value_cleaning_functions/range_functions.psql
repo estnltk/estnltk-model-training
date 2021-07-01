@@ -1,0 +1,231 @@
+SET ROLE {role};
+
+-------------------------------------------------------------------------------
+-- CLEAN RANGE
+-------------------------------------------------------------------------------
+
+drop function if exists {schema}.clean_range(text text, start text);
+create or replace function {schema}.clean_range(text text, start text)
+    returns text
+as
+$body$
+declare
+    par1    text := '(';
+    par2    text := ')';
+    min_val text := '-Inf';
+    max_val text := 'Inf';
+begin
+    if start like '>%' then
+        min_val := text;
+        if start like '%=%' then
+            par1 := '[';
+        end if;
+    end if;
+
+    if start like '<%' then
+        max_val := text;
+        if start like '%=%' then
+            par2 := ']';
+        end if;
+    end if;
+
+    return concat(par1, min_val, ';', max_val, par2);
+
+end
+$body$
+language plpgsql;
+
+
+-------------------------------------------------------------------------------
+-- MATCH_GREATER_LESS
+-------------------------------------------------------------------------------
+drop function if exists {schema}.match_greater_less(text text);
+create or replace function {schema}.match_greater_less (text text)
+    returns text
+as
+$body$
+declare
+    start text;
+    starts text[] := array['>=', '<=', '>', '<'];
+    value text;
+    clean text;
+begin
+    for i in 1..4 loop
+        start := starts[i];
+         -- kas text algab >=, <=, >, < märgiga
+        if (text like concat(start, '%') ) and ((char_length(text)) > char_length(start))
+           then text := translate(text, start, ''); --removes >=, <=, >, <
+
+                if text ~ '^\(' then text := translate(text, '()', ''); -- value only inside parentheses, removes parentheses e.g. (3.0) -> 3.0
+                else text := regexp_replace(text, '\(.*\)', '') ; end if;-- value both inside and outside parenthesis, remove everything in parenthesis e.g. 3(3.0) -> 3
+
+                text := trim(both from text);
+                value := null;
+
+                if match_float(text) then value := clean_floats(text); end if;
+                if match_integer(text) then value := clean_integer(text); end if;
+
+                if value is not null
+                    then clean := clean_range(value, start);
+                        return clean;
+                end if;
+        end if;
+    end loop;
+    return NULL;
+end
+$body$
+language plpgsql;
+-------------------------------------------------------------------------------
+-- MATCH_BETWEEN
+-------------------------------------------------------------------------------
+
+drop function if exists {schema}.match_between(text text);
+create or replace function {schema}.match_between(text text)
+    returns text
+as
+$body$
+declare
+    val1 text := null;
+    val2 text := null;
+
+    text text := trim(both from text);
+    -- split text into 4 parts and remove parenthesis
+    part1 text := translate(trim(both from split_part(text, '-', 1)), '()', '');
+    part2 text := translate(trim(both from split_part(text, '-', 2)), '()', '');
+    part3 text := translate(trim(both from split_part(text, '-', 3)), '()', '');
+    part4 text := translate(trim(both from split_part(text, '-', 4)), '()', '');
+
+
+    min_val text := null;
+    max_val text := null;
+
+begin
+
+    -- negative range elements
+    if part1 = '' and part3 = ''
+       then val1 := concat('-', part2);
+            val2 := concat('-', part4);
+    end if;
+
+    -- one negative one positive range element
+    if part1 = '' and part4 = ''
+       then val1 := concat('-', part2);
+            val2 := part3;
+    end if;
+
+    -- positive range elements
+    if part2 != '' and part3 = '' and part4 = ''
+       then val1 := part1;
+            val2 := part2;
+    end if;
+
+    if match_integer(val1) then min_val = clean_integer(val1); end if;
+    if match_float(val1) then min_val = clean_floats(val1); end if;
+    if match_integer(val2) then max_val = clean_integer(val2); end if;
+    if match_float(val2) then max_val = clean_floats(val2); end if;
+
+    if min_val is not null and max_val is not null and cast(max_val as float) >= cast(min_val as float) then
+        return concat('[',min_val, ',', max_val,']');
+    end if;
+
+    return NULL;
+end
+$body$
+language plpgsql;
+
+
+
+-------------------------------------------------------------------------------
+-- MATCH RANGE WITH DOTS
+-------------------------------------------------------------------------------
+
+drop function if exists {schema}.match_range_with_dots(text text);
+create or replace function {schema}.match_range_with_dots(text text)
+    returns text
+as
+$body$
+declare
+    text text := trim(both from text);
+    part1 text := translate(trim(both from split_part(text, '..', 1)), '()', '');
+    part2 text := translate(trim(both from split_part(text, '..', 2)), '()', '');
+begin
+    if is_float(part1) and is_float(part2) and clean_floats(part1) < clean_floats(part2)
+        then return concat('[',clean_floats(part1), ',', clean_floats(part2),']');
+    elseif is_integer(part1) and is_integer(part2) and clean_integer(part1) < clean_integer(part2)
+        then return concat('[',clean_integer(part1), ',', clean_integer(part2),']');
+    end if;
+    return NULL;
+    return NULL;
+end
+$body$
+language plpgsql;
+
+-------------------------------------------------------------------------------
+-- MATCH_RANGE
+-------------------------------------------------------------------------------
+drop function if exists {schema}.match_range(text text);
+create or replace function {schema}.match_range(text text)
+    returns text
+as
+$body$
+declare
+    text text := rtrim(trim(both from text), 'x'); --eemaldab x: 150 - 400 x 10*9/l -> 150 - 400
+    range_greater_less text;
+    range_between text;
+    range_with_dots text;
+    range_text text;
+begin
+    range_greater_less := match_greater_less(text);
+    if range_greater_less is not NULL then return range_greater_less; end if;
+
+    range_between := match_between(text);
+    if range_between is not NULL then return range_between; end if;
+
+    range_with_dots := match_range_with_dots(text);
+    if range_with_dots is not NULL then return range_with_dots; end if;
+
+    range_text := match_greater_less(text) ;
+    if range_text is not NULL then return range_text; end if;
+    return NULL;
+end
+$body$
+language plpgsql;
+
+-------------------------------------------------------------------------------
+-- IS RANGE
+-------------------------------------------------------------------------------
+/*drop function if exists {schema}.is_range(text text);
+create or replace function {schema}.is_range (text text)
+    returns boolean
+as
+$body$
+declare
+begin
+    if match_range(text) is not NULL then return TRUE; end if;
+    return FALSE;
+end
+$body$
+language plpgsql;
+*/
+
+drop function if exists {schema}.is_range(text text);
+create or replace function {schema}.is_range (text text)
+    returns boolean
+as
+$body$
+declare
+    int_pattern varchar :=  '(0|[1-9][0-9]*)';
+    float_pattern varchar := '(([0-9]|[1-9][0-9]*)?\s*[\.,][0-9]+)';
+    number_pattern varchar := format('([+-]?(%s|%s))', float_pattern, int_pattern);
+	
+    range_pattern1 varchar := concat('(', '\s*[>=<=><]{{1,2}}\s*', number_pattern, '\s*$)'); -- <3 <=3 >3 >=3    
+    range_pattern2 varchar := concat('(', number_pattern, '\s*\-\s*', number_pattern, '$)'); -- 3-4 
+    range_pattern3 varchar := concat('(', number_pattern, '\s*\.\.\s*', number_pattern, ')'); -- 3..4
+    range_pattern varchar := format('(^%s|^%s|^%s)', range_pattern1, range_pattern2, range_pattern3);
+begin
+    if text ~ range_pattern then return TRUE; end if;
+    return FALSE;
+end
+$body$
+language plpgsql;
+

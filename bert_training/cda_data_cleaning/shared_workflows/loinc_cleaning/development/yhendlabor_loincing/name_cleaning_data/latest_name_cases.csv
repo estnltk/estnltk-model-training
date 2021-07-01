@@ -1,0 +1,323 @@
+dirty_code	loinc_code(T-luhend)
+Alaniini aminotransferaas	S,P-ALAT
+Albumiin	S,P-Alb
+Aluseline fosfataas	S,P-ALP
+Antistreptolusiin O	S,P-ASO
+Aspartaadi aminotransferaas	S,P-ASAT
+Bakterid	U-Sed-m
+b-cbc	B-CBC
+b-esr	B-ESR
+b-ESR(Erutrotsuutide settekiirus)	B-ESR
+b-hla-b*27dna	B-HLA-B*27 DNA
+b-IG(Ebakupsed granulotsuudid)	B-IG#
+b-IG(Ebakupsete granulotsuutide arv)	B-IG#
+b-IG%(Ebakupsete granulotsuutide suhtarv)	B-IG%
+b-IG%(Ebakups.granulotsuutide %)	B-IG%
+IG% - Ebakups.granulotsuutide %	B-IG%
+IG - Ebakupsed granulotsuudid	B-IG#
+Bilirubiin konjugeeritud	S,P-Bil-conj
+b-rhfenotype	B-Rh fenotype
+b-smear-m	B-Smear-m
+CSF-Alb(Albumiin liikvoris)	CSF-Alb
+CSF-DiffA(Liikvori tsutoosi uuring analusaatoril)	CSF-Diff a
+CSF-IgG(Immuunglobuliin G liikvoris)	CSF-IgG
+CSF-IgG(Immuunoglobuliin G liikvoris)	CSF-IgG
+CSF-Lac(Laktaat liikvoris)	CSF-Lac
+CSF-Prot(Valk liikvoris)	CSF-Prot
+csf-s-igg-ind	CSF-S-IgG-ind
+dU-ALB(Albumiin ööpaevases uriinis)	dU-Alb
+dU-Crea(Kreatiniin ööpaevases uriinis)	dU-Crea
+dU-DALA(Delta-amiino-levuliinhape ööpaevases uriinis)	dU-DALA
+dU-K(Kaalium ööpaevases uriinis)	dU-K
+dU-Na(Naatrium ööpaevases uriinis)	dU-Na
+dU-Prot(Valk)	dU-Prot
+dU-Prot(Valk ööpaevases uriinis)	dU-Prot
+du-s-crea	dU-S-Crea
+dU-Urea(Uurea ööpaevases uriinis)	dU-Urea
+egfr	eGFR
+eGFR(hinnanguline glomerulaarfiltratsiooni kiirus)	eGFR
+Erutromutsiin(= Klaritromutsiin)	Is-Erythromycin
+Erutrotsuudid	U-Sed-m
+Gammaglutamuuli transferaas	S,P-GGT
+HDL kolesterool	S,P-HDL-Chol
+Hualiinsilindrid	U-Sed-m
+Kartsinoembruonaalne antigeen	S,P-CEA
+Kasvajaantigeen CA125	S,P-CA 125
+Kilpnaaret stimuleeriv hormoon	S,P-TSH
+Kreatiini kinaas	S,P-CK
+Kristallid uriinis	U-Sed-m
+Lameepiteeli rakud	U-Sed-m
+Leukotsuudid	U-Sed-m
+Lima	U-Sed-m
+P-ACTH	P-ACTH
+p-atiii	P-AT III
+P-Fibr	P-Fibr
+p-fibr	P-Fibr
+P-GTTgrv	GTT (pregnancy)
+P-Lac	P-Lac
+P-Lac	vP-Lac
+plrf-amyl	PlrF-Amyl
+PlrF-DiffA(Pleuravedeliku tsutoosi uuring analusaatoril)	PlrF-Diff a
+plrf-gluc	PlrF-Gluc
+plrf-lac	PlrF-Lac
+plrf-ldh	PlrF-LDH
+plrf-prot	PlrF-Prot
+PlrF-Prot(pleuravedelikus)	PlrF-Prot
+plrf-sg	PlrF-SG
+plrf-trigl	PlrF-Trigl
+p-pt%	P-PT-INR
+p-pt-inr	P-PT-INR
+PrcF-DiffA(Perikardivedeliku tsutoosi uuring analusaatoril)	PrcF-Diff a
+PrcF-Prot(perikardivedelikus)	PrcF-Prot
+Prostataspetsiifiline antigeen	S,P-PSA
+pt-ivy	Pt-Ivy
+rbc-fol	RBC-Fol
+S-AGAIgA	S-AGA IgA
+S-AGA-IgA	S-AGA IgA
+S-AGAIgG	S-AGA IgG
+S-AGA-IgG	S-AGA IgG
+S-ALP2S	S,P-ALP
+S-ALT	S,P-ALAT
+S-.Amyl.	S,P-Amyl
+S-Amyl-2	S,P-Amyl
+S-Amyl-pancr	S-pAmyl
+S-ANAIgG	S-ANA IgG
+S-Androst	S-Androst
+S-AOS	S,P-ASO
+S-AST	S,P-ASAT
+S-B12	S,P-Vit B12
+S-BburgdorferiIgG	S-B burgdorferi IgG
+s-bburgdorferiigg	S-B burgdorferi IgG
+S-BburgdorferiIgM	S-B burgdorferi IgM
+s-bburgdorferiigm	S-B burgdorferi IgM
+S-BpertussisIgA	S-B pertussis IgA
+s-bpertussisiga	S-B pertussis IgA
+S-BpertussisIgG	S-B pertussis IgG
+s-bpertussisigg	S-B pertussis IgG
+S-BpertussisIgM	S-B pertussis IgM
+s-bpertussisigm	S-B pertussis IgM
+S-C1inhibitor	S-C1 inh
+S-Chol.	S,P-Chol
+S-CK-MBa	S,P-CK-MB
+S-CMVIgG	S-CMV IgG
+S-CMVIgM	S-CMV IgM
+S-CpneumoniaeIgA	S-C pneumoniae IgA
+s-cpneumoniaeiga	S-C pneumoniae IgA
+S-CpneumoniaeIgG	S-C pneumoniae IgG
+s-cpneumoniaeigg	S-C pneumoniae IgG
+S-CpneumoniaeIgM	S-C pneumoniae IgM
+s-cpneumoniaeigm	S-C pneumoniae IgM
+S-CtrachomatisIgA	S-C trachomatis IgA
+S-CtrachomatisIgG	S-C trachomatis IgG
+S-CtrachomatisIgM	S-C trachomatis IgM
+S-Cu	S-Cu
+S-d1IgE	S-d1 IgE
+S-d2IgE	S-d2 IgE
+S-d3IgE	S-d3 IgE
+S-d70IgE	S-d70 IgE
+S-d71IgE	S-d71 IgE
+S-d73IgE	S-d73 IgE
+S-dsDNAIgG	S-dsDNA IgG
+S-e1IgE	S-e1 IgE
+S-e3IgE	S-e3 IgE
+S-e5IgE	S-e5 IgE
+S-e84IgE	S-e84 IgE
+S-e87IgE	S-e87 IgE
+S-e91IgE	S-e91/e213 IgE
+S-EMAIgA	S-EMA IgA
+S-f12IgE	S-f12 IgE
+S-f13IgE	S-f13 IgE
+S-f14IgE	S-f14 IgE
+S-f17IgE	S-f17 IgE
+S-f1IgE	S-f1 IgE
+S-f204IgE	S-f204 IgE
+S-f20IgE	S-f20 IgE
+S-f24IgE	S-f24 IgE
+S-f25IgE	S-f25 IgE
+S-f2IgE	S-f2 IgE
+S-f31IgE	S-f31 IgE
+S-f35IgE	S-f35 IgE
+S-f36IgE	S-f36 IgE
+S-f3IgE	S-f3 IgE
+S-f41IgE	S-f41 IgE
+S-f49IgE	S-f49 IgE
+S-f5IgE	S-f5 IgE
+S-f75IgE	S-f75 IgE
+S-f76IgE	S-f76 IgE
+S-f77IgE	S-f77 IgE
+S-f78IgE	S-f78 IgE
+S-f79IgE	S-f79 IgE
+S-g6IgE	S-g6 IgE
+S-HantavirusIgG	S-Hantavirus IgG
+S-HBsAg	S-HBsAg
+S-hGH	S,P-GH
+S-HpyloriIgA	S-H pylori IgA
+S-HpyloriIgG	S-H pylori IgG
+S-ICAIgG	S-ICA IgG
+S-k80IgE	S-k80 IgE
+S-k82IgE	S-k82 IgE
+s-measlesvirusigm	S-Measles virus IgM
+S-MpneumoniaeIgA	S-M pneumoniae IgA
+s-mpneumoniaeiga	S-M pneumoniae IgA
+S-MpneumoniaeIgG	S-M pneumoniae IgG
+s-mpneumoniaeigg	S-M pneumoniae IgG
+S-MpneumoniaeIgM	S-M pneumoniae IgM
+S-p1IgE	S-p1 IgE
+s,p-afp	S,P-AFP
+s,p-alb	S,P-Alb
+S-PAP	S-pACP
+S-ParvovirusB19IgG	S-Parvovirus B19 IgG
+S-ParvovirusB19IgM	S-Parvovirus B19 IgM
+s,p-asat	S,P-ASAT
+s,p-aso	S,P-ASO
+s,p-c3	S,P-C3
+s,p-ca	S,P-Ca
+S-PCAIgG	S-PCA IgG
+s,p-cer	S,P-Cer
+s,p-chol	S,P-Chol
+s,p-ck	S,P-CK
+s,p-cort	S,P-Cort
+s,p-crea	S,P-Crea
+s,p-ctni	S,P-cTnI
+s,p-ctnt-hs	S,P-cTnT-hs
+s,p-CysC(Tsustatiin C)	S,P-CysC
+s,p-digox	S,P-Digox
+s,p-epo	S,P-EPO
+s,p-EtOH(Etanool seerumis, plasmas)	S,P-EtOH
+s,p-fe	S,P-Fe
+s,p-fer	S,P-Fer
+s,p-fol	S,P-Fol
+s,p-fpsa	S,P-fPSA
+s,p-ft4	S,P-fT4
+S-PGI	S-PG I
+S-PGII	S-PG II
+s,p-gluc	S,P-Gluc
+s,p-iga	S,P-IgA
+s,p-ige	S,P-IgE
+s,p-igg	S,P-IgG
+s,p-IgG(Immuunglobuliin G seerumis)	S,P-IgG
+s,p-igm	S,P-IgM
+s,p-k	S,P-K
+s,p-ldh	S,P-LDH
+s,p-li	S,P-Li
+s,p-mg	S,P-Mg
+s,p-myogl	S,P-Myogl
+s,p-na	S,P-Na
+s,p-pct	S,P-PCT
+s,p-prot	S,P-Prot
+s,p-psa	S,P-PSA
+S-PR-3Ab	S-PR3 IgG
+s,p-rf	S,P-RF
+S-Prl	S,P-Prol
+S-Prokaltsitoniin	S,P-PCT
+S-Prot-Fr	S-Prot-Fr
+s,p-testo	S,P-Testo
+s,p-theoph	S,P-Theoph
+s,p-transf	S,P-Transf
+s,p-transf-sr	S,P-Transf-sR
+s,p-ua	S,P-UA
+s,p-urea	S,P-Urea
+s,p-vitb12	S,P-Vit B12
+S-RPR	S-RPR
+S-RubellavirusIgG	S-Rubella virus IgG
+S-RubellavirusIgM	S-Rubella virus IgM
+S-SMAIgGtitr	S-SMA IgG titr
+s-ssonneiabtitr	S-S sonnei Ab titr
+S-sTrf-r	S,P-Transf-sR
+S-Zn	S-Zn
+S-Zn (Q)	S-Zn
+S-t14IgE	S-t14 IgE
+S-t16IgE	S-t16 IgE
+S-t2IgE	S-t2 IgE
+S-t3IgE	S-t3 IgE
+S-t4IgE	S-t4 IgE
+S-t7IgE	S-t7 IgE
+S-TBA	S-TBA
+S-TBEVIgG	S-TBEV IgG
+S-TBEVIgM	S-TBEV IgM
+S-TGIgG	S-TG IgG
+S-TgondiiIgA	S-T gondii IgA
+S-TgondiiIgG	S-T gondii IgG
+S-T.gondiiIgG	S-T gondii IgG
+s-tgondiiigg	S-T gondii IgG
+S-TgondiiIgGavd	S-T gondii IgG avd
+S-TgondiiIgM	S-T gondii IgM
+S-T.gondiiIgM	S-T gondii IgM
+s-tgondiiigm	S-T gondii IgM
+S-TpallidumAb	S-T pallidum Ab
+s-tpallidumab	S-T pallidum Ab
+S-TpallidumIgG	S-T pallidum IgG
+s-tpallidumigg	S-T pallidum IgG
+S-TpallidumIgM	S-T pallidum IgM
+s-tpallidumigm	S-T pallidum IgM
+S-Trf	S,P-Transf
+S-TrfS	S,P-Transf
+S-TRIgG	S-TR IgG
+S--TRIgG	S-TR IgG
+S-tTGIgA	S-tTG IgA
+S-w6IgE	S-w6 IgE
+S-w7IgE	S-w7 IgE
+S-w8IgE	S-w8 IgE
+S-VZVIgG	S-VZV IgG
+S-VZVIgM	S-VZV IgM
+SynF-DiffA(liigesevedeliku tsutoosi uuring analusaatoril)	SynF-Diff a
+s-ypseudotuberculosisabtitr	S-Y pseudotuberculosis Ab titr
+Troponiin I kardiaalne	S,P-cTnI
+Tureoidperoksudaasivastane IgG	S,P-TPO IgG
+u-alb	U-Alb
+U-Alb(Albumiin uriinis )	U-Alb
+U-Alb(Albumiin uriinis)	U-Alb
+u-alb/u-crea	U-Alb/U-Crea
+U-Alb/U-Crea(Albumiini ja kreatiniini suhe uriinis)	U-Alb/U-Crea
+u-amp	U-Amp
+U-Amyl(Amulaas uriinis)	U-Amyl
+U-Amyl/U-Crea(Amulaasi ja kreatiniini suhe uriinis)	U-Amyl/U-Crea
+U-BAR(barbituraadid uriinis)	U-Bar
+U-Bar(barbituraadid uriinis)	U-Bar
+u-bil	U-Bil strip
+u-bzd	U-Bzd
+U-BZD(benzodiazepiin uriinis)	U-Bzd
+U-Bzd(benzodiazepiin uriinis)	U-Bzd
+u-coc	U-Coc
+U-COC(kokaiin uriinis)	U-Coc
+U-Coc(kokaiin uriinis)	U-Coc
+U-Crea(Kreatiniin uriinis)	U-Crea
+u-ecs	U-Ecs
+U-Ecs(ecstasy uriinis )	U-Ecs
+U-Fent(fentanuul uriinis)	U-Fent
+u-gluc	U-Gluc
+u-ket	U-Ket strip
+U-K(Kaalium uriinis)	U-K
+u-met	U-Met
+U-MET(metamfetamiin uriinis)	U-Met
+U-Met(metamfetamiin uriinis)	U-Met
+U-MOP(opiaadid uriinis)	U-Mop
+U-Mop(opiaadid uriinis)	U-Mop
+u-mtd	U-Mtd
+U-Mtd(metadoon uriinis)	U-Mtd
+U-Na(Naatrium uriinis)	U-Na
+u-nit	U-Nit strip
+U-OXY(oksukodoon uriinis)	U-Oxy
+U-PBG(Porfobilinogeen uriinis)	U-PBG
+u-pcp	U-PCP
+U-PCP(fentsuklidiin uriinis)	U-PCP
+U-PPX(propoksufeen uriinis)	U-PPX
+U-Prot(Valk uriinis)	U-Prot
+u-sed-m	U-Sed-m
+u-tca	U-TCA
+U-TCA(tritsukloantidepressandid uriinis)	U-TCA
+u-thc	U-THC
+U-THC(kannabinoidid uriinis)	U-THC
+u-ubg	U-Ubg strip
+U-Urea(Uurea uriinis)	U-Urea
+Vaba trijoodturoniin	S,P-fT3
+Vaba turoksiin	S,P-fT4
+xxx-avaginaedna	XXX-A vaginae DNA
+xxx-calbicansdna	XXX-C albicans DNA
+xxx-ctrachomatisdna	XXX-C trachomatis DNA
+xxx-ctrachomatislgvdna	XXX-C trachomatis LGV DNA
+xxx-gvaginalisdna	XXX-G vaginalis DNA
+xxx-hsv1,2dna	XXX-HSV1,2 DNA
+xxx-mhominisdna	XXX-M hominis DNA
+xxx-ngonorrhoeaedna	XXX-N gonorrhoeae DNA
+xxx-uurealyticumdna	XXX-U urealyticum DNA

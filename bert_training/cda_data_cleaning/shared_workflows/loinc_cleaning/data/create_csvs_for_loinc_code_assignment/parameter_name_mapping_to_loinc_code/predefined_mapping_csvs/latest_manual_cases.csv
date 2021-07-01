@@ -1,0 +1,221 @@
+dirty_code,loinc_code(T-luhend)
+aB-ABB,aB-ABB panel
+aB-ABE,aB-BE
+aB-Elektrol??????did,aP-Electrolytes panel
+aB-tO2,aB-O2
+Albumiin_plasmas,"S,P-Alb"
+Albumiin_seerumis,"S,P-Alb"
+P-Alb,"S,P-Alb"
+B-A3Diff,B-CBC-3Diff
+B-Basof??????lid_%,B-Baso%
+B-CBC-Diff,"B-CBC-3Diff,B-CBC-5Diff"
+B-CBC+Diff,"B-CBC-3Diff,B-CBC-5Diff"
+B-Hemo,B-Smear-m panel
+B-HGB,B-Hb
+B-P-LCR,B-LCR
+B1-A3Diff,B-CBC-3Diff
+BASO Basofiilide absoluutarv,B-Baso#
+BASO% Basofiilide suhtarv,B-Baso%
+BASO%_Basofiilide_suhtarv,B-Baso%
+C-reaktiivne valk plasmas,"S,P-CRP"
+C-reaktiivne valk seerumis/plasmas*,"S,P-CRP"
+cB-Gluc-p,fcB-Gluc
+e-GFR,eGFR
+EO Eosinofiilide absoluutarv,B-Eo#
+EO% Eosinofiilide suhtarv,B-Eo%
+EO%_Eosinofiilide_suhtarv,B-Eo%
+ESR Erutrotsuutide settekiirus,B-ESR
+Fer / Ferritiin,"S,P-Fer"
+Glukoos,"S,P-Gluc"
+Hct,B-Hct
+Hct,B-Hct
+HCT Hematokritt,B-Hct
+HCT Hematokritt,B-Hct
+HCT_Hematokritt,B-Hct
+HCT(hematokrit),B-Hct
+Hematokrit %,B-Hct
+Hemoglobiin veres g/l,B-Hb
+HGB,B-Hb
+HGB,B-Hb
+HGB Hemoglobiin,B-Hb
+HGB_Hemoglobiin,B-Hb
+HGB(hemoglobiin),B-Hb
+Hinnanguline glomerulaarfiltratsiooni kiirus (CKD-EPI valemi j.),eGFR (CKD-EPI)
+IG - Ebakupsete granulotsuutide arv,B-IG#
+IG Ebakupsete granulotsuudide absoluutarv,B-IG#
+IG#,B-IG#
+IG% Ebakupsete granulotsuudide suhtarv,B-IG%
+IG% - Ebaküps.granulotsüütide %,B-IG%
+IPF-ebakupsed trombotsuudid,B-IPF
+IRF%,B-IRF
+Kaalium seerumis/plasmas*,"S,P-K"
+Kreatiniin seerumis/plasmas*,"S,P-Crea"
+Laktaat_arteriaalses_plasmas,aP-Lac
+aB-Lac,aP-Lac
+LCR,B-LCR
+LYM#,B-Lymph#
+LYM%,B-Lymph%
+LYMPH (abs.),B-Lymph#
+LYMPH Lumfotsuutide absoluutarv,B-Lymph#
+LYMPH#,B-Lymph#
+lymph#,B-Lymph#
+LYMPH%,B-Lymph%
+lymph%,B-Lymph%
+LYMPH% Lumfotsuutide suhtarv,B-Lymph%
+MCH Keskmine hemoglobiini hulk erutrotsuudis,B-MCH
+MCH pg,B-MCH
+MCHC g/l,B-MCHC
+MCHC Keskmine hemoglobiini kontsentratsioon erutrotsuudis,B-MCHC
+MCV fl,B-MCV
+MONO Monotsuutide absoluutarv,B-Mono#
+MONO% Monotsuutide suhtarv,B-Mono%
+MPV fl,B-MPV
+MPV Trombotsuutide keskmine maht,B-MPV
+Naatrium seerumis/plasmas*,"S,P-Na"
+NEUT Neutrofiilide absoluutarv,B-Neut#
+NEUT% Neutrofiilide suhtarv,B-Neut%
+P-ALAT alaniini aminotransferaas,"S,P-ALAT"
+P-ALAT Alaniini aminotransferaas,"S,P-ALAT"
+ALAT Alaniini aminotransferaas,"S,P-ALAT"
+P-Alb albumiin,"S,P-Alb"
+P-APTT - Aktiveeritud osalise tromboplastiini aeg,P-APTT
+P-ASAT Aspartaadi aminotransferaas,"S,P-ASAT"
+ASAT Aspartaadi aminotransferaas,"S,P-ASAT"
+ASAT Aspartaadi aminotransferaas plasmas,"S,P-ASAT"
+P-Bil Bilirubiin,"S,P-Bil"
+P-Chol (kolesterool),"S,P-Chol"
+P-Crea Kreatiniin plasmas,"S,P-Crea"
+P-CRP C-reaktiivne valk,"S,P-CRP"
+P-DDi - D-dimeerid,P-D-Di
+P-HDL-Chol,"S,P-HDL-Chol"
+P-K kaalium,"S,P-K"
+P-K Kaalium,"S,P-K"
+P-LDH (laktaadi dehudrogenaas),"S,P-LDH"
+P-LDL-Chol,"S,P-LDL-Chol"
+P-Na Naatrium,"S,P-Na"
+P-Urea Uurea plasmas,"S,P-Urea"
+PDW %,B-PDW-CV
+PLT Trombotsuudid,B-Plt
+PLT Trombotsuudid,B-Plt
+PLT_Trombots??????did,B-Plt
+RBC Erutrotsuudid,B-Rbc
+RBC Erutrotsuudid,B-Rbc
+RDW %,B-RDW-CV
+RDW%,B-RDW-CV
+RET???,B-Ret%
+Trombokrit %,B-Pct
+U-Nit Nitrit,U-Ni
+U-Prot_,U-Prot
+U-Sedim,U-Sed-m panel
+U-SG(Uriini erikaal),U-SG strip
+Uriini ribaanaluus,U-Strip
+WBC Leukotsuudid,B-Wbc
+WBC Leukotsuudid,B-Wbc
+WBC_Leukotsüüdid,B-WBC
+Hb,B-Hb
+Alaniini aminotransferaas seerumis,"S,P-ALAT"
+MCV Erutrotsuutide keskmine ruumala,B-MCV
+U-Ubg Urobilinogeen,U-Ubg strip
+U-WBC Leukots��did,U-WBC strip
+U-Bil Bilirubiin,U-Bil strip
+U-Glu Gl�koos,U-Gluc
+U-Pro Valk,U-Prot
+U-RBC Er�trots��did,U-RBC strip
+U-Ket Ketokehad,U-Ket
+U-Leu,U-WBC strip
+U-Pro,U-Prot
+U-Glu,U-Gluc
+U-Ery,U-RBC strip
+U-SG Erikaal,U-SG strip
+U-SG,U-SG strip
+U-Erikaal,U-SG strip
+U-ERY,U-RBC strip
+U-UB,U-Ubg strip
+U-Le,U-WBC strip
+U-Gl,U-Gluc
+U-Ke,U-Ket
+U-Bi,U-Bil strip
+U-Pr,U-Prot
+U-Ket Ketokehad,U-Ket
+U-Erikaa,U-SG strip
+IG% - Ebak�ps.granulots��tide %,B-IG%
+IG - Ebak�psed granulots��did,B-IG#
+Kreatiniin seerumis,"S,P-Crea"
+B-Diff-LYMPH-arv,B-Lymph#
+PLCR,B-LCR
+"MCH, pg",B-MCH
+"MCV, fL",
+"HGB, g/L",B-Hb
+"MCHC, g/L",B-MCHC
+"PCT,",B-Pct
+"RDW, CV",B-RDW-CV
+"MPV, fL",B-MPV
+"RBC, 10^12/L",B-RBC
+"WBC,10^9/L",B-WBC
+Kloriid veres,"S,P-Cl"
+HPV 16,XXX-HPV 16 DNA
+HPV 16 DNA,XXX-HPV 16 DNA
+HPV-16 DNA,XXX-HPV 16 DNA
+61372-9 HPV 16 DNA,XXX-HPV 16 DNA
+HPV 18,XXX-HPV18 DNA
+HPV 18 DNA,XXX-HPV18 DNA
+HPV-18 DNA,XXX-HPV18 DNA
+61373-7 HPV 18 DNA,XXX-HPV18 DNA
+Kõrge riski HPV genotüpeerimin,XXX-HPV high risk DNA
+HPV 51,XXX-HPV high risk DNA
+Kõrge riski HPV genotüpee,XXX-HPV high risk DNA
+HPV 45,XXX-HPV high risk DNA
+HPV 52,XXX-HPV high risk DNA
+HPV 31,XXX-HPV high risk DNA
+HPV 39,XXX-HPV high risk DNA
+HPV 35,XXX-HPV high risk DNA
+HPV 66,XXX-HPV high risk DNA
+HPV 68,XXX-HPV high risk DNA
+HPV 58,XXX-HPV high risk DNA
+HPV 56,XXX-HPV high risk DNA
+Kõrge riski HPV geno,XXX-HPV high risk DNA
+HPV 33,XXX-HPV high risk DNA
+HPV 59,XXX-HPV high risk DNA
+Inimese papilloomiviiruse DNA,XXX-HPV high risk DNA
+Cm-HPV DNA genot,XXX-HPV high risk DNA
+Cm-HPV-PCR,XXX-HPV high risk DNA
+Cm-HPVpos-PCR,XXX-HPV high risk DNA
+Cx-HPV DNA genot,XXX-HPV high risk DNA
+Cx-HPV DNA genot,XXX-HPV high risk DNA
+Cx-HPV high risk DNA genotüüpide DNA),XXX-HPV high risk DNA
+Cx-HPV kõrge riski tüüpide DNA,XXX-HPV high risk DNA
+"Cx-HPV kõrge riski tüüpide DNA (HPV-16, 18, 31, 33, 35, 39,",XXX-HPV high risk DNA
+Cx-HPV-PCR,XXX-HPV high risk DNA
+Cx-hrHPV genot,XXX-HPV high risk DNA
+HPV kõrge riskiga genotüübid,XXX-HPV high risk DNA
+"HPV DNA, kõrge riski tüüp",XXX-HPV high risk DNA
+"HPV, genotüüp",XXX-HPV high risk DNA
+"Inimese papillomi viirus, PCR, emakakaelast",XXX-HPV high risk DNA
+"Inimese papilloomi viirus, PCR, emakakaelakanalikaapes",XXX-HPV high risk DNA
+"Inimese papilloomi viirus, PCR, emakakaelakanalikaapest",XXX-HPV high risk DNA
+Inimese Papilloomiviirus Pcr Emakakaelakanalikaapes,XXX-HPV high risk DNA
+Inimese Papilloomiviirus Pcr Emakakaelakanalikaapest,XXX-HPV high risk DNA
+"Inimese papilloomiviiruse kõrge riskiga DNA (26,31,33,35,39",XXX-HPV high risk DNA
+Inimese papilloomiviiruse paneel emakakaelakanalikaapest,XXX-HPV high risk DNA
+Inimese papilloomiviiruse paneel ureetrakaapest,XXX-HPV high risk DNA
+Inimese Papilloomiviiruse Dna Emakakaelakanalikaapes (Paneel),XXX-HPV high risk DNA
+Inimese Papilloomiviiruse Dna Genotüüp Emakakaelakanalikaapes,XXX-HPV high risk DNA
+Inimese Papilloomiviiruse Dna Paneel,XXX-HPV high risk DNA
+Inimese Papilloomiviiruse Dna (Paneel) Emakakaelakanalikaapes,XXX-HPV high risk DNA
+Inimese Papilloomiviiruse Dna (Paneel) Emakakaelakanalikaapest,XXX-HPV high risk DNA
+Kõrge Riski Hpv,XXX-HPV high risk DNA
+Kõrge riski HPV geno,XXX-HPV high risk DNA
+Kõrge riski HPV genot,XXX-HPV high risk DNA
+Kõrge Riski Hpv Genotüpeerimin,XXX-HPV high risk DNA
+Kõrge Riski Hpv Genotüpeerimine Emakakaelakaapes,XXX-HPV high risk DNA
+Papilloomiviirus (HPV,XXX-HPV high risk DNA
+"Papilloomiviirus, PCR",XXX-HPV high risk DNA
+Um-HPV kõrge riski tüüpide DNA,XXX-HPV high risk DNA
+XXX-HPV high risk DNA genotüüpide DNA),XXX-HPV high risk DNA
+HPV muud genotüübid,XXX-HPV high risk DNA II
+71431-1 HPV kõrge riski DNA,XXX-HPV high risk DNA II
+Teiste HPV kõrge riskiga tüüpide DNA,XXX-HPV high risk DNA II
+HPV high risk DNA II,XXX-HPV high risk DNA II
+"Hpv Kõrge Riski (31,33,35,39,45,51,52,56,58,59,66,68) Dna",XXX-HPV high risk DNA II
+"Hpv Muud Genotüübid (31,33,35,39,45,51,52,56,58,59,66,68)",XXX-HPV high risk DNA II
+HPV DNA emakakaelakanalikaapes,XXX-HPV high risk DNA

@@ -1,0 +1,1440 @@
+parameter_name,t_lyhend,loinc_code,substrate,evidence
+61372-9 HPV 16 DNA,XXX-HPV 16 DNA,61372-9,,latest_manual_cases
+61373-7 HPV 18 DNA,XXX-HPV18 DNA,61373-7,,latest_manual_cases
+71431-1 HPV kõrge riski DNA,XXX-HPV high risk DNA II,71431-1,Cvx,latest_manual_cases
+AAV1 1 U-Glu(Glukoos uriinis),U-Gluc,15076-3,Urine,latest_parentheses_two_cases
+AAV1 1 U-Pro(Valk uriinis),U-Prot,2888-6,Urine,latest_parentheses_two_cases
+AAV1 1 U-UBG(Urobilinogeen  ),U-Ubg strip,60025-4,Urine,latest_parentheses_two_cases
+AAV1 2 U-Glu(Glukoos uriinis),U-Gluc,15076-3,Urine,latest_parentheses_two_cases
+AAV1 2 U-Pro(Valk uriinis),U-Prot,2888-6,Urine,latest_parentheses_two_cases
+AAV1 2 U-UBG(Urobilinogeen  ),U-Ubg strip,60025-4,Urine,latest_parentheses_two_cases
+AAV1 U-Glu(Glukoos uriinis),U-Gluc,15076-3,Urine,latest_parentheses_two_cases
+AAV1 U-Pro(Valk uriinis),U-Prot,2888-6,Urine,latest_parentheses_two_cases
+AAV1 U-UBG(Urobilinogeen  ),U-Ubg strip,60025-4,Urine,latest_parentheses_two_cases
+aB-ABB,aB-ABB panel,24336-0,Bld,latest_completely_manual_cases
+aB-ABE,aB-BE,1925-7,Bld,latest_completely_manual_cases
+aB-Elektrol????did,aP-Electrolytes panel,L-4049,,latest_completely_manual_cases
+aB-Elektrol??????did,aP-Electrolytes panel,L-4049,,latest_manual_cases
+aB-K,aB-K,32713-0,Bld,manual
+aB-Lac,aP-Lac,2518-9,Bld,latest_manual_cases
+aB-Na,aB-Na,32717-1,Bld,manual
+aB-tO2,aB-O2,59274-1,Bld,latest_manual_cases
+A(Erutrotsutaarsete antikehade soeluuring kahe erutrotsuudiga),"B-RBC Ab screen I, II",1008-2,Ser/Plas,latest_parentheses_two_cases
+A(erutrotsutaarsete antikehade soeluuring kahe erutrotsuudiga),"B-RBC Ab screen I, II",1008-2,Ser/Plas,latest_parentheses_two_cases
+AFP(Alfa-fetoproteiin),"S,P-AFP",53961-9,Ser/Plas,latest_parentheses_one_cases
+AK(Erutrotsutaarsete antikehade soeluuring kahe erutrotsuudiga),"B-RBC Ab screen I, II",1008-2,Ser/Plas,latest_parentheses_two_cases
+AK(erutrotsutaarsete antikehade soeluuring kahe erutrotsuudiga),"B-RBC Ab screen I, II",1008-2,Ser/Plas,latest_parentheses_two_cases
+Alaniini aminotransferaas,"S,P-ALAT",1744-2,Ser/Plas,latest_name_cases
+Alaniini aminotransferaas seerumis,"S,P-ALAT",1744-2,Ser/Plas,latest_manual_cases
+ALAT Alaniini aminotransferaas,"S,P-ALAT",1744-2,Ser/Plas,latest_manual_cases
+ALAT(Alaniini aminotransferaas seerumis),"S,P-ALAT",1744-2,Ser/Plas,latest_parentheses_one_cases
+Alb - Albumiin Seerumis,"S,P-Alb",61151-7,Ser/Plas,latest_completely_manual_cases
+Albumiin,"S,P-Alb",61151-7,Ser/Plas,latest_name_cases
+Albumiini ja kr,U-Alb/U-Crea,30000-4,Urine,latest_completely_manual_cases
+Albumiini ja kreatin,U-Alb/U-Crea,30000-4,Urine,latest_completely_manual_cases
+Albumiini ja kreatiniini,U-Alb/U-Crea,30000-4,Urine,latest_completely_manual_cases
+Albumiini ja kreatiniini suhe,U-Alb/U-Crea,30000-4,Urine,latest_completely_manual_cases
+Albumiini Ja Kreatiniini Suhe Uriinis,U-Alb/U-Crea,30000-4,Urine,latest_completely_manual_cases
+Albumiini-Kreatiniini Suhe Uriinis,U-Alb/U-Crea,30000-4,Urine,latest_completely_manual_cases
+Albumiini/Kreatiniini Suhe Uriinis,U-Alb/U-Crea,30000-4,Urine,latest_completely_manual_cases
+Albumiin/Kreatiniin,U-Alb/U-Crea,30000-4,Urine,latest_completely_manual_cases
+Albumiin/kreatiniin uriin,U-Alb/U-Crea,30000-4,Urine,latest_completely_manual_cases
+Albumiin/Kreatiniin Uriinis,U-Alb/U-Crea,30000-4,Urine,latest_completely_manual_cases
+Albumiin (Kõrgtundlik),"S,P-Alb-hs",1751-7,Ser/Plas,latest_completely_manual_cases
+Albumiin Liikvoris,CSF-Alb,1746-7,CSF,latest_completely_manual_cases
+Albumiin Plasmas,"S,P-Alb",61151-7,Ser/Plas,latest_completely_manual_cases
+Albumiin_plasmas,"S,P-Alb",61151-7,Ser/Plas,latest_completely_manual_cases
+Albumiin Seerum,"S,P-Alb",61151-7,Ser/Plas,latest_completely_manual_cases
+Albumiin seerumis,"S,P-Alb",61151-7,Ser/Plas,latest_completely_manual_cases
+Albumiin_seerumis,"S,P-Alb",61151-7,Ser/Plas,latest_completely_manual_cases
+Albumiin Seerumis/Plasmas,"S,P-Alb",61151-7,Ser/Plas,latest_completely_manual_cases
+Albumiin uriini,U-Alb,14957-5,Urine,latest_completely_manual_cases
+Albumiin Uriinis,U-Alb,14957-5,Urine,latest_completely_manual_cases
+Albumiin Uriinis ( Mikroalbumiin ),U-Alb,14957-5,Urine,latest_completely_manual_cases
+Albumiin Ööpäevases Uriinis,dU-Alb,14956-7,Urine,latest_completely_manual_cases
+Albuminurinis,U-Alb,14957-5,Urine,latest_completely_manual_cases
+Albummiin Urin,U-Alb,14957-5,Urine,latest_completely_manual_cases
+Aluseline fosfataas,"S,P-ALP",6768-6,Ser/Plas,latest_name_cases
+Amikatsiin(Amikatsiin),Is-Amikacin,18860-7,Isolate,latest_parentheses_one_cases
+Amoksitsilliin+klavulaanhape(Amoksitsilliin+klavulaanhape),Is-Amoxicillin+Clavulanate,18862-3,Isolate,latest_parentheses_one_cases
+Ampitsillii(Ampitsilliin),Is-Ampicillin,18864-9,Isolate,latest_parentheses_two_cases
+Ampitsilliin(Ampitsilliin),Is-Ampicillin,18864-9,Isolate,latest_parentheses_one_cases
+Ampitsilliin+sulbaktaa(Ampitsilliin+sulbaktaam),Is-Ampicillin+Sulbactam,18865-6,Isolate,latest_parentheses_two_cases
+Ampitsilliin+sulbaktaam(Ampitsilliin+sulbaktaam),Is-Ampicillin+Sulbactam,18865-6,Isolate,latest_parentheses_one_cases
+Amulaa(Amulaas uriinis),U-Amyl,1799-6,Urine,latest_parentheses_two_cases
+Amulaas(Amulaas uriinis),"S,P-Amyl",1798-8,Ser/Plas,latest_parentheses_one_cases
+Angiotensiinikonv.ens.(ACE),"S,P-ACE",2742-5,Ser/Plas,latest_parentheses_two_cases
+Angiotensiini konverteeriv ensuum (ACE),"S,P-ACE",2742-5,Ser/Plas,latest_parentheses_two_cases
+Antistreptolusiin O,"S,P-ASO",5370-2,Bld,latest_name_cases
+aP-K,aP-K,2823-3,Ser/Plas,manual
+aP-Lac,aP-Lac,32132-3,Ser/Plas,manual
+aP-Na,aP-Na,2951-2,Ser/Plas,manual
+APTT(Aktiveeritud osalise tromboplastiini aeg),P-APTT,14979-9,PPP,latest_parentheses_one_cases
+ASAT Aspartaadi aminotransferaas,"S,P-ASAT",1920-8,Ser/Plas,latest_manual_cases
+ASAT Aspartaadi aminotransferaas plasmas,"S,P-ASAT",1920-8,Ser/Plas,latest_manual_cases
+Asitromutsii(Asitromutsiin),Is-Azithromycin,18866-4,Isolate,latest_parentheses_two_cases
+Asitromutsiin(Asitromutsiin),Is-Azithromycin,18866-4,Isolate,latest_parentheses_one_cases
+Aspartaadi aminotransferaas,"S,P-ASAT",1920-8,Ser/Plas,latest_name_cases
+B12(Vitamiin B12),"S,P-Vit B12",14685-2,Bld,latest_parentheses_two_cases
+B1-A3Diff,B-CBC-3Diff,L-2124,,latest_completely_manual_cases
+B-A3Diff,B-CBC-3Diff,L-2124,,latest_completely_manual_cases
+BASO#,B-Baso#,704-7,Bld,latest_prefix_cases
+BASO%,B-Baso%,706-2,Bld,latest_prefix_cases
+BASO%(BASO%),B-Baso%,706-2,Bld,latest_parentheses_one_cases
+BASO Basofiilide absoluutarv,B-Baso#,704-7,Bld,latest_manual_cases
+BASO% Basofiilide suhtarv,B-Baso%,706-2,Bld,latest_manual_cases
+BASO%_Basofiilide_suhtarv,B-Baso%,706-2,Bld,latest_completely_manual_cases
+BASO(Basofiilid protsent)%,B-Baso%,706-2,Bld,latest_parentheses_one_cases
+Basofiilid,B-Basofiilid %,30180-4,Bld,latest_prefix_cases
+ B-Baso#(Basofiilide arv),B-Baso#,704-7,Bld,latest_parentheses_one_cases
+B-Baso(Basofiilide arv),B-Baso#,704-7,Bld,latest_parentheses_one_cases
+B-Baso#(Basofiilide arv),B-Baso#,704-7,Bld,latest_parentheses_one_cases
+b-BASO#(basofiilidearv),B-Baso#,704-7,Bld,latest_prefix_cases
+ B-Baso%(Basofiilide suhtarv),B-Baso%,706-2,Bld,latest_parentheses_one_cases
+B-Baso(Basofiilide suhtarv),B-Baso%,706-2,Bld,latest_parentheses_one_cases
+B-Baso%(Basofiilide suhtarv),B-Baso%,706-2,Bld,latest_parentheses_one_cases
+b-BASO%(basofiilidesuhtarv),B-Baso%,706-2,Bld,latest_prefix_cases
+B-Basof??????lid_%,B-Baso%,706-2,Bld,latest_manual_cases
+B-Basof????lid_%,B-Baso%,706-2,Bld,latest_completely_manual_cases
+b-cbc,B-CBC,58410-2,Bld,latest_name_cases
+B-C(Kloriid),"S,P-Cl",2075-0,Ser/Plas,latest_parentheses_two_cases
+B-Cl(Kloriid),"S,P-Cl",2075-0,Ser/Plas,latest_parentheses_two_cases
+B-Cl(kloriid),"S,P-Cl",2075-0,Ser/Plas,latest_parentheses_two_cases
+B-CyA(Tsuklosporiin),B-CyA,3520-4,Bld,latest_parentheses_one_cases
+B-CyA(tsuklosporiinA),B-CyA,3520-4,Bld,latest_parentheses_one_cases
+B-Diff-LYMPH-arv,B-Lymph#,731-0,Bld,latest_manual_cases
+ B-Eo#(Eosinofiilide arv),B-Eo#,711-2,Bld,latest_parentheses_one_cases
+B-Eo(Eosinofiilide arv),B-Eo#,711-2,Bld,latest_parentheses_one_cases
+B-Eo#(Eosinofiilide arv),B-Eo#,711-2,Bld,latest_parentheses_one_cases
+b-EO#(eosinofiilidearv),B-Eo#,711-2,Bld,latest_prefix_cases
+ B-Eo%(Eosinofiilide suhtarv),B-Eo%,713-8,Bld,latest_parentheses_one_cases
+B-Eo(Eosinofiilide suhtarv),B-Eo%,713-8,Bld,latest_parentheses_one_cases
+B-Eo%(Eosinofiilide suhtarv),B-Eo%,713-8,Bld,latest_parentheses_one_cases
+b-EO%(eosinofiilidesuhtarv),B-Eo%,713-8,Bld,latest_prefix_cases
+B-ES(Erutrotsuutide settekiirus),B-ESR,4537-7,Bld,latest_parentheses_two_cases
+b-esr,B-ESR,4537-7,Bld,latest_name_cases
+B-ESR(Erutrotsuutide settekiirus),B-ESR,4537-7,Bld,latest_parentheses_one_cases
+b-ESR(Erutrotsuutide settekiirus),B-ESR,4537-7,Bld,latest_parentheses_one_cases
+ B-GR%(Granulotsuutide protsent),B-Gran%,19023-1,Bld,latest_parentheses_two_cases
+B-GR-(Granulotsuutide protsent),B-Gran%,19023-1,Bld,latest_parentheses_two_cases
+B-GR%(Granulotsuutide protsent),B-Gran%,19023-1,Bld,latest_parentheses_two_cases
+B-HbA1c(glukohemoglobiin),B-HbA1c,4548-4,Bld,latest_parentheses_one_cases
+ B-Hb(Hemoglobiin veres),B-Hb,718-7,Bld,latest_parentheses_one_cases
+B-Hb(Hemoglobiin veres),B-Hb,718-7,Bld,latest_parentheses_one_cases
+B-Hc(Hematokrit),B-Hct,4544-3,Bld,latest_parentheses_two_cases
+ B-Hct(Hematokrit),B-Hct,4544-3,Bld,latest_parentheses_one_cases
+B-Hct(Hematokrit),B-Hct,4544-3,Bld,latest_parentheses_one_cases
+b-HCT(hematokrit),B-Hct,4544-3,Bld,latest_prefix_cases
+ B-Hct(Hematokritt),B-Hct,4544-3,Bld,latest_parentheses_one_cases
+B-Hct(Hematokritt),B-Hct,4544-3,Bld,latest_parentheses_one_cases
+B-Hemo,B-Smear-m panel,L-42,,latest_completely_manual_cases
+B-HGB,B-Hb,718-7,Bld,latest_manual_cases
+b-HGB(hemoglobiin),B-Hb,718-7,Bld,latest_parentheses_two_cases
+ B-Hgb(Hemoglobiin veres),B-Hb,718-7,Bld,latest_parentheses_two_cases
+B-Hgb(Hemoglobiin veres),B-Hb,718-7,Bld,latest_parentheses_two_cases
+b-HGB(Hemoglobiin veres),B-Hb,718-7,Bld,latest_parentheses_two_cases
+B-Hg(Hemoglobiin veres),B-Hb,718-7,Bld,latest_parentheses_two_cases
+b-HG(Hemoglobiin veres),B-Hb,718-7,Bld,latest_prefix_cases
+B-H(Hemoglobiin veres),B-Hb,718-7,Bld,latest_parentheses_two_cases
+b-hla-b*27dna,B-HLA-B*27 DNA,26043-0,Bld,latest_name_cases
+B-IG#(Ebak???psete granulots??????tide arv),B-IG#,51584-1,Bld,latest_parentheses_one_cases
+B-IG%(Ebak???psete granulots??????tide suhtarv),B-IG%,38518-7,Bld,latest_parentheses_one_cases
+b-IG(Ebakupsed granulotsuudid),B-IG#,51584-1,Bld,latest_prefix_cases
+ B-IG#(Ebakupsete granulotsuutide arv),B-IG#,51584-1,Bld,latest_parentheses_one_cases
+B-IG(Ebakupsete granulotsuutide arv),B-IG#,51584-1,Bld,latest_parentheses_one_cases
+B-IG#(Ebakupsete granulotsuutide arv),B-IG#,51584-1,Bld,latest_parentheses_one_cases
+b-IG(Ebakupsete granulotsuutide arv),B-IG#,51584-1,Bld,latest_parentheses_one_cases
+ B-IG%(Ebakupsete granulotsuutide suhtarv),B-IG%,38518-7,Bld,latest_parentheses_one_cases
+B-IG(Ebakupsete granulotsuutide suhtarv),B-IG%,38518-7,Bld,latest_parentheses_one_cases
+B-IG%(Ebakupsete granulotsuutide suhtarv),B-IG%,38518-7,Bld,latest_parentheses_one_cases
+b-IG%(Ebakupsete granulotsuutide suhtarv),B-IG%,38518-7,Bld,latest_prefix_cases
+b-IG%(Ebakups.granulotsuutide %),B-IG%,38518-7,Bld,latest_parentheses_one_cases
+Bilirubii(Bilirubiin),U-Bil strip,41016-7,Urine,latest_parentheses_two_cases
+Bilirubiin(Bilirubiin),U-Bil strip,41016-7,Urine,latest_parentheses_one_cases
+Bilirubiin konjugeeritud,"S,P-Bil-conj",14629-0,Ser/Plas,latest_name_cases
+B-IR(Ebakupsete retikulotsuutide fraktsioon),B-IRF,33516-6,Bld,latest_parentheses_two_cases
+B-IRF(Ebakupsete retikulotsuutide fraktsioon),B-IRF,33516-6,Bld,latest_parentheses_one_cases
+B-K(Kaalium),B-K,75940-7,Bld,latest_parentheses_one_cases
+B-Lymph#(L???mfots??????tide arv),B-Lymph#,731-0,Bld,latest_parentheses_one_cases
+B-Lymph%(L???mfots??????tide suhtarv),B-Lymph%,736-9,Bld,latest_parentheses_one_cases
+ B-Lymph#(Lumfotsuutide arv),B-Lymph#,731-0,Bld,latest_parentheses_one_cases
+B-Lymph(Lumfotsuutide arv),B-Lymph#,731-0,Bld,latest_parentheses_one_cases
+B-Lymph#(Lumfotsuutide arv),B-Lymph#,731-0,Bld,latest_parentheses_one_cases
+ B-Lymph%(Lumfotsuutide suhtarv),B-Lymph%,736-9,Bld,latest_parentheses_one_cases
+B-Lymph(Lumfotsuutide suhtarv),B-Lymph%,736-9,Bld,latest_parentheses_one_cases
+B-Lymph%(Lumfotsuutide suhtarv),B-Lymph%,736-9,Bld,latest_parentheses_one_cases
+B-MC(Erutrotsuutide keskmine maht),B-MCV,787-2,Bld,latest_parentheses_two_cases
+B-MCV(Er???trots??????tide keskmine maht),B-MCV,787-2,Bld,latest_parentheses_one_cases
+B-MCV(Erutrotsuudi keskmine maht),B-MCV,787-2,Bld,latest_parentheses_one_cases
+ B-MCV(Erutrotsuutide keskmine maht),B-MCV,787-2,Bld,latest_parentheses_one_cases
+B-MCV(Erutrotsuutide keskmine maht),B-MCV,787-2,Bld,latest_parentheses_one_cases
+B-Mn(Mangaan taisveres),B-Mn,5681-2,Bld,latest_parentheses_one_cases
+B-Mono#(Monots??????tide arv),B-Mono#,742-7,Bld,latest_parentheses_one_cases
+B-Mono%(Monots??????tide suhtarv),B-Mono%,5905-5,Bld,latest_parentheses_one_cases
+ B-Mono#(Monotsuutide arv),B-Mono#,742-7,Bld,latest_parentheses_one_cases
+B-Mono(Monotsuutide arv),B-Mono#,742-7,Bld,latest_parentheses_one_cases
+B-Mono#(Monotsuutide arv),B-Mono#,742-7,Bld,latest_parentheses_one_cases
+b-MONO#(monotsuutidearv),B-Mono#,742-7,Bld,latest_parentheses_one_cases
+ B-Mono%(Monotsuutide suhtarv),B-Mono%,5905-5,Bld,latest_parentheses_one_cases
+B-Mono(Monotsuutide suhtarv),B-Mono%,5905-5,Bld,latest_parentheses_one_cases
+B-Mono%(Monotsuutide suhtarv),B-Mono%,5905-5,Bld,latest_parentheses_one_cases
+b-MONO%(monotsuutidesuhtarv),B-Mono%,5905-5,Bld,latest_prefix_cases
+B-MP(Trombotsuutide keskmine maht),B-MPV,32623-1,Bld,latest_parentheses_two_cases
+b-MPV(trombots.keskminemaht),B-MPV,32623-1,Bld,latest_parentheses_one_cases
+B-MPV(Trombots??????tide keskmine maht),B-MPV,32623-1,Bld,latest_parentheses_one_cases
+ B-MPV(Trombotsuutide keskmine maht),B-MPV,32623-1,Bld,latest_parentheses_one_cases
+B-MPV(Trombotsuutide keskmine maht),B-MPV,32623-1,Bld,latest_parentheses_one_cases
+B-Na(Naatrium),B-Na,A-3526,,latest_parentheses_one_cases
+ B-Neut#(Neutrofiilide arv),B-Neut#,751-8,Bld,latest_parentheses_one_cases
+B-Neut(Neutrofiilide arv),B-Neut#,751-8,Bld,latest_parentheses_one_cases
+B-Neut#(Neutrofiilide arv),B-Neut#,751-8,Bld,latest_parentheses_one_cases
+b-NEUT#(neutrofiilidearv),B-Neut#,751-8,Bld,latest_parentheses_one_cases
+ B-Neut%(Neutrofiilide suhtarv),B-Neut%,770-8,Bld,latest_parentheses_one_cases
+B-Neut(Neutrofiilide suhtarv),B-Neut%,770-8,Bld,latest_parentheses_one_cases
+B-Neut%(Neutrofiilide suhtarv),B-Neut%,770-8,Bld,latest_parentheses_one_cases
+b-NEUT%(neutrofiilidesuhtarv),B-Neut%,770-8,Bld,latest_parentheses_one_cases
+B-N(Naatrium),"S,P-Na",2951-2,Ser/Plas,latest_parentheses_two_cases
+b-NRBC%(normoblastidesuhtarv),B-NRBC%,58413-6,Bld,latest_prefix_cases
+"B,P-Cl(kloriid)","S,P-Cl",2075-0,Ser/Plas,latest_parentheses_two_cases
+B-PCT(Trombokrit),B-Pct,51637-7,Bld,latest_parentheses_one_cases
+b-PCT(trombokrit),B-Pct,51637-7,Bld,latest_parentheses_one_cases
+b-PDW(trombotsuutidesuurusjaotuvus),B-PDW,32207-3,Bld,latest_parentheses_one_cases
+B-P-LCR,B-LCR,48386-7,Bld,latest_manual_cases
+B-P-LC(Trombotsuutide suurte vormide suhtarv),B-LCR,48386-7,Bld,latest_parentheses_two_cases
+B-PL(Trombotsuudid),B-Plt,777-3,Bld,latest_parentheses_two_cases
+B-Plt(Trombots??????tide arv),B-Plt,777-3,Bld,latest_semimanual_cases
+ B-PLT(Trombotsuudid),B-Plt,777-3,Bld,latest_semimanual_cases
+B-PLT(Trombotsuudid),B-Plt,777-3,Bld,latest_semimanual_cases
+b-PLT(trombotsuudid),B-Plt,777-3,Bld,latest_prefix_cases
+ B-Plt(Trombotsuutide arv),B-Plt,777-3,Bld,latest_semimanual_cases
+B-Plt(Trombotsuutide arv),B-Plt,777-3,Bld,latest_semimanual_cases
+B-PLT(Trombotsuutide uldarv),B-Plt,777-3,Bld,latest_semimanual_cases
+B-RBC(Er???trots??????did veres),B-RBC,789-8,Bld,latest_parentheses_one_cases
+b-RBC(erutrotsuudid),B-RBC,789-8,Bld,latest_prefix_cases
+ B-RBC(Erutrotsuudid veres),B-RBC,789-8,Bld,latest_parentheses_one_cases
+B-RBC(Erutrotsuudid veres),B-RBC,789-8,Bld,latest_parentheses_one_cases
+b-RBC(Erutrotsuudid veres),B-RBC,789-8,Bld,latest_parentheses_one_cases
+b-RDW-CV(erutrotsuutidesuurusjaotuvus),B-RDW-CV,788-0,Bld,latest_parentheses_one_cases
+B-RetHb(Retikulotsuutide hemoglobiinisisaldus),B-RetHb,42810-2,Retic,latest_parentheses_one_cases
+B-Ret(Retikolotsuutide suhtarv),B-Ret%,17849-1,Bld,latest_parentheses_one_cases
+B-Ret(Retikulotsuutide arv),B-Ret#,60474-4,Bld,latest_parentheses_one_cases
+B-Ret#(Retikulotsuutide arv),B-Ret#,60474-4,Bld,latest_parentheses_one_cases
+b-RET???(retikulotsuutidesuhtarv),B-Ret%,17849-1,Bld,latest_prefix_cases
+b-rhfenotype,B-Rh fenotype,10331-7,Bld,latest_name_cases
+B-Tbc(Mukobakterite kulv verest),B-Mycobacterium culture,533-0,Bld,latest_parentheses_two_cases
+B-WBC(Leukots??????did),B-WBC,6690-2,Bld,latest_parentheses_one_cases
+ B-WBC(Leukotsuudid),B-WBC,6690-2,Bld,latest_parentheses_one_cases
+B-WBC(Leukotsuudid),B-WBC,6690-2,Bld,latest_parentheses_one_cases
+b-WBC(leukotsuudid),B-WBC,6690-2,Bld,latest_parentheses_one_cases
+ B-WBC(Leukotsuudid taisverest),B-WBC,6690-2,Bld,latest_parentheses_one_cases
+B-WBC(Leukotsuudid taisverest),B-WBC,6690-2,Bld,latest_parentheses_one_cases
+b-WBC(Leukotsuudid taisverest),B-WBC,6690-2,Bld,latest_prefix_cases
+cB-Gluc-p,fcB-Gluc,14770-2,Bld,latest_manual_cases
+Cla Läbipaistvus,,32167-9,Urine,manual
+Cm-HPV DNA genot,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+Cm-HPV-PCR,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+Cm-HPVpos-PCR,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+Col Värvus,,5778-6,Urine,manual
+C-reaktiivne valk plasmas,"S,P-CRP",1988-5,Ser/Plas,latest_manual_cases
+C-reaktiivne valk seerumis/plasmas*,"S,P-CRP",1988-5,Ser/Plas,latest_manual_cases
+CSF-Alb(3. Albumiin liikvoris),CSF-Alb,1746-7,CSF,latest_parentheses_one_cases
+CSF-Alb(Albumiin liikvoris),CSF-Alb,1746-7,CSF,latest_name_cases
+CSF-B burgdorferi IgG(Borrelia burgdorferi vastane IgG liikvoris),CSF-B burgdorferi IgG,22125-9,CSF,latest_parentheses_one_cases
+CSF-B burgdorferi IgM(Borrelia burgdorferi vastane IgM liikvoris),CSF-B burgdorferi IgM,22132-5,CSF,latest_parentheses_one_cases
+CSF-DiffA(Liikvori tsutoosi uuring analusaatoril),CSF-Diff a,34563-7,CSF,latest_parentheses_one_cases
+CSF-Gluc(Glukoos liikvoris),CSF-Gluc,14744-7,CSF,latest_parentheses_one_cases
+CSF-Glu(Glukoos liikvoris),CSF-Gluc,14744-7,CSF,latest_parentheses_two_cases
+CSF-IgG(3. Immuunglobuliin G liikvoris),CSF-IgG,2464-6,CSF,latest_parentheses_one_cases
+CSF-IgG(Immuunglobuliin G liikvoris),CSF-IgG,2464-6,CSF,latest_parentheses_one_cases
+CSF-IgG(Immuunoglobuliin G liikvoris),CSF-IgG,2464-6,CSF,latest_parentheses_one_cases
+CSF-Lac(Laktaat liikvoris),CSF-Lac,2520-5,CSF,latest_parentheses_one_cases
+CSF-La(Laktaat liikvoris),CSF-Lac,2520-5,CSF,latest_parentheses_two_cases
+CSF-Prot(3. Valk liikvoris),CSF-Prot,2880-3,CSF,latest_parentheses_one_cases
+CSF-Prot(Valk liikvoris),CSF-Prot,2880-3,CSF,latest_parentheses_one_cases
+csf-s-igg-ind,CSF-S-IgG-ind,14117-6,Ser+CSF,latest_name_cases
+CSF-TBEV IgG(Puukentsefaliidi viiruse vastane IgG liikvoris),CSF-TBEV IgG,69927-2,CSF,latest_parentheses_one_cases
+CSF-TBEV IgM(Puukentsefaliidi viiruse vastane IgM liikvoris),CSF-TBEV IgM,69924-9,CSF,latest_parentheses_one_cases
+Cx-HPV DNA genot,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+Cx-HPV high risk DNA genotüüpide DNA),XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+Cx-HPV kõrge riski tüüpide DNA,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+"Cx-HPV kõrge riski tüüpide DNA (HPV-16, 18, 31, 33, 35, 39,",XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+Cx-HPV-PCR,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+Cx-hrHPV genot,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+Doksutsuklii(Doksutsukliin),Is-Doxycycline,18917-5,Isolate,latest_parentheses_two_cases
+Doksutsukliin(Doksutsukliin),Is-Doxycycline,18917-5,Isolate,latest_parentheses_one_cases
+dU-ALB(Albumiin ????paevases uriinis),dU-Alb,14956-7,Urine,latest_name_cases
+dU-Alb(Albumiin ????paevases uriinis),dU-Alb,14956-7,Urine,latest_parentheses_one_cases
+dU-Cort(Kortisool ????paevauriinis),dU-Cort,25884-8,Urine,latest_parentheses_one_cases
+dU-Crea(Kreatiniin ????paevases uriinis),dU-Crea,14684-5,Urine,latest_parentheses_one_cases
+dU-Creat(Kreatiniin ????paevases uriinis),dU-Crea,14684-5,Urine,latest_parentheses_two_cases
+dU-DALA(Delta-amiino-levuliinhape ????paevases uriinis),dU-DALA,25896-2,Urine,latest_name_cases
+dU-K(Kaalium ????paevases uriinis),dU-K,2829-0,Urine,latest_parentheses_one_cases
+dU-Meta(Metanefriin ????paevauriinis),dU-Meta,19049-6,Urine,latest_parentheses_one_cases
+dU-Na(Naatrium ????paevases uriinis),dU-Na,2956-1,Urine,latest_parentheses_one_cases
+dU-Normeta(Normetanefriin ????paevauriinis),dU-Normeta,2671-6,Urine,latest_parentheses_one_cases
+dU-Prot(Valk),dU-Prot,2889-4,Urine,latest_name_cases
+dU-Prot(Valk ????paevases uriinis),dU-Prot,2889-4,Urine,latest_parentheses_one_cases
+dU-Prot(valk ????paevases uriinis),dU-Prot,2889-4,Urine,latest_parentheses_one_cases
+dU-Pro(valk ????paevases uriinis),dU-Prot,2889-4,Urine,latest_parentheses_two_cases
+du-s-crea,dU-S-Crea,2164-2,Urine+Ser/Plas,latest_name_cases
+dU-Urea(Uurea ????paevases uriinis),dU-Urea,25550-5,Urine,latest_name_cases
+e-GFR,eGFR,33914-3,Ser/Plas,latest_manual_cases
+egfr,eGFR,33914-3,Ser/Plas,latest_name_cases
+Egfr (Ckd-Epi),eGFR (CKD-EPI),62238-1,Ser/Plas,latest_completely_manual_cases
+"Egfr (Crea, Ckd-Epi)",eGFR (CKD-EPI),62238-1,Ser/Plas,latest_completely_manual_cases
+"Egfr (Crea, Mdrd)",eGFR,33914-3,Ser/Plas,latest_completely_manual_cases
+Egfr Hinnanguline Glomerulaarfiltratsiooni Kiirus,eGFR,33914-3,Ser/Plas,latest_completely_manual_cases
+eGFR(hinnanguline glomerulaarfiltratsiooni kiirus),eGFR,33914-3,Ser/Plas,latest_name_cases
+Egfr (Mdrd),eGFR,33914-3,Ser/Plas,latest_completely_manual_cases
+Egfr (Mdrd):,eGFR,33914-3,Ser/Plas,latest_completely_manual_cases
+EO#,B-Eo#,711-2,Bld,latest_prefix_cases
+EO%,B-Eo%,713-8,Bld,latest_prefix_cases
+EO%(EO%),B-Eo%,713-8,Bld,latest_parentheses_one_cases
+EO Eosinofiilide absoluutarv,B-Eo#,711-2,Bld,latest_manual_cases
+EO% Eosinofiilide suhtarv,B-Eo%,713-8,Bld,latest_manual_cases
+EO%_Eosinofiilide_suhtarv,B-Eo%,713-8,Bld,latest_manual_cases
+EO(Eosinofiilid protsent)%,B-Eo%,713-8,Bld,latest_parentheses_one_cases
+Eosinofiilid,B-Eosinofiilid %,26450-7,Bld,latest_prefix_cases
+Erikaa(Erikaal),U-SG strip,53326-5,Urine,latest_parentheses_two_cases
+Erikaal(Erikaal),U-SG strip,53326-5,Urine,latest_parentheses_one_cases
+Ertapeneem(Ertapeneem),Is-Ertapenem,35802-8,Isolate,latest_parentheses_one_cases
+Erutromutsii(Erutromutsiin),Is-Erythromycin,18919-1,Isolate,latest_parentheses_two_cases
+Erutromutsiin(Erutromutsiin),Is-Erythromycin,18919-1,Isolate,latest_parentheses_one_cases
+Erutromutsiin(= Klaritromutsiin),Is-Erythromycin,18919-1,Isolate,latest_name_cases
+ESR Erutrotsuutide settekiirus,B-ESR,4537-7,Bld,latest_manual_cases
+FAI(Vaba androgeeni indeks),"S,P-FAI",24125-7,Ser/Plas,latest_parentheses_two_cases
+FA(Vaba androgeeni indeks),"S,P-FAI",24125-7,Ser/Plas,latest_parentheses_two_cases
+Fer / Ferritiin,"S,P-Fer",2276-4,Ser/Plas,latest_manual_cases
+Ferritiin(Ferritiin),"S,P-Fer",2276-4,Ser/Plas,latest_parentheses_one_cases
+Ferritiin(Ferritiin seerumis),"S,P-Fer",2276-4,Ser/Plas,latest_parentheses_one_cases
+fP-Gluc,"fS,fP-Gluc",14771-0,Ser/Plas,latest_prefix_cases
+fP-PTH,"S,P-PTH",14866-8,Ser/Plas,latest_prefix_cases
+fS-Ca,"S,P-Ca",2000-8,Ser/Plas,latest_prefix_cases
+fS-C-pept,"S,P-C-pept",14633-2,Ser/Plas,latest_prefix_cases
+Fs-Crea:,"S,P-Crea",14682-9,Ser/Plas,latest_completely_manual_cases
+fS-Crea,"S,P-Crea",14682-9,Ser/Plas,latest_prefix_cases
+fS-CT,"S,P-CT",15035-9,Ser/Plas,latest_prefix_cases
+fS-Fe,"S,P-Fe",14798-3,Ser/Plas,latest_prefix_cases
+fS-Fol,"S,P-Fol",14732-2,Ser/Plas,latest_prefix_cases
+fS-Gluc,"fS,fP-Gluc",14771-0,Ser/Plas,latest_prefix_cases
+fs-Gluc,"fS,fP-Gluc",14771-0,Ser/Plas,latest_prefix_cases
+fS-HDL-Cho,"S,P-HDL-Chol",14646-4,Ser/Plas,latest_prefix_cases
+fS-HDL-Cho(HDL-Kolesterool),"S,P-HDL-Chol",14646-4,Ser/Plas,latest_prefix_cases
+fS-HDL-Chol,"S,P-HDL-Chol",14646-4,Ser/Plas,latest_prefix_cases
+fS-HDL-Chol(HDL-Kolesterool),"S,P-HDL-Chol",14646-4,Ser/Plas,latest_prefix_cases
+fS-HDL-Chol(HDL-kolesterool seerumis),"S,P-HDL-Chol",14646-4,Ser/Plas,latest_prefix_cases
+fS-HDL(HDL-Kolesterool),"S,P-HDL-Chol",14646-4,Ser/Plas,latest_prefix_cases
+fS-LDL-Cho,"S,P-LDL-Chol",22748-8,Ser/Plas,latest_prefix_cases
+fS-LDL-Chol,"S,P-LDL-Chol",22748-8,Ser/Plas,latest_prefix_cases
+fS-LDL-Cho(LDL-Kolesterool),"S,P-LDL-Chol",22748-8,Ser/Plas,latest_prefix_cases
+fS-LDL-Chol(LDL-Kolesterool),"S,P-LDL-Chol",22748-8,Ser/Plas,latest_prefix_cases
+fS-LDL-Chol(LDLkolesterool),"S,P-LDL-Chol",22748-8,Ser/Plas,latest_prefix_cases
+fS-LDL-Chol(LDL-kolesterool seerumis),"S,P-LDL-Chol",22748-8,Ser/Plas,latest_prefix_cases
+fS-LDL(LDL-Kolesterool),"S,P-LDL-Chol",22748-8,Ser/Plas,latest_prefix_cases
+fS-P,"S,P-P",14879-1,Ser/Plas,latest_prefix_cases
+fS-PTH,"S,P-PTH",14866-8,Ser/Plas,latest_prefix_cases
+fS-RF,"S,P-RF",11572-5,Bld,latest_prefix_cases
+fS-Transf,"S,P-Transf",3034-6,Ser/Plas,latest_prefix_cases
+fS-Trigl,"fS,fP-Trigl",14927-8,Ser/Plas,latest_prefix_cases
+fS-Urea,"S,P-Urea",22664-7,Ser/Plas,latest_prefix_cases
+fs-Urea,"S,P-Urea",22664-7,Ser/Plas,latest_prefix_cases
+fS-VitB12,"S,P-Vit B12",14685-2,Bld,latest_prefix_cases
+FT3/Vabatrijoodturoniin,"S,P-fT3",14928-6,Ser/Plas,latest_semimanual_cases
+FT4/Vabaturoksiin,"S,P-fT4",14920-3,Ser/Plas,latest_semimanual_cases
+FT4\Vabaturoksiin,"S,P-fT4",14920-3,Ser/Plas,latest_semimanual_cases
+FT4 Vaba turoksiin seerumis,"S,P-fT4",14920-3,Ser/Plas,latest_semimanual_cases
+Fusidiin(Fusidiin),Is-Fusidate,18927-4,Isolate,latest_parentheses_one_cases
+Gammaglutamuuli transferaas,"S,P-GGT",2324-2,Ser/Plas,latest_name_cases
+Gentamutsii(Gentamutsiin),Is-Gentamicin,18928-2,Isolate,latest_parentheses_two_cases
+Gentamutsiin(Gentamutsiin),Is-Gentamicin,18928-2,Isolate,latest_parentheses_one_cases
+Gentamutsiin(Gentamutsiin SAU),Is-Gentamicin,18928-2,Isolate,latest_parentheses_one_cases
+G(Granulotsuutide arv)#,B-Gran#,20482-6,Bld,latest_parentheses_two_cases
+G(Granulotsuutide protsent)%,B-Gran%,19023-1,Bld,latest_parentheses_two_cases
+Glomerulaarfilt,eGFR,33914-3,Ser/Plas,latest_completely_manual_cases
+Glomerulaarfiltratiooni Kiirus Mdrd Valemiga,eGFR,33914-3,Ser/Plas,latest_completely_manual_cases
+Glomerulaarfiltratsi,eGFR,33914-3,Ser/Plas,latest_completely_manual_cases
+Glomerulaarfiltratsiooni Kiiru,eGFR,33914-3,Ser/Plas,latest_completely_manual_cases
+Glomerulaarfiltratsioon M,eGFR,33914-3,Ser/Plas,latest_completely_manual_cases
+Glomerulaarfiltratsioon MDRD v,eGFR,33914-3,Ser/Plas,latest_completely_manual_cases
+Glomerulaarfiltratsioon Mdrd V,eGFR,33914-3,Ser/Plas,latest_completely_manual_cases
+Glukoo(Glukoos),U-Gluc strip,59156-0,Urine,latest_parentheses_two_cases
+Glukoos,"S,P-Gluc",14749-6,Ser/Plas,latest_manual_cases
+Glukoos(Glukoos),U-Gluc strip,59156-0,Urine,latest_parentheses_one_cases
+Granulotsuudid %(Granulotsuutide  protsent),B-Gran%,19023-1,Bld,latest_parentheses_two_cases
+GR(Granulotsuutide arv)#,B-Gran#,20482-6,Bld,latest_parentheses_two_cases
+GR(Granulotsuutide protsent)%,B-Gran%,19023-1,Bld,latest_parentheses_two_cases
+Gumprechtivarjud,B-Gumprechti varjud,14912-0,Bld,latest_prefix_cases
+Hb,B-Hb,718-7,Bld,latest_manual_cases
+HC(Hematokrit),B-Hct,4544-3,Bld,latest_parentheses_two_cases
+HCT,B-Hct,4544-3,Bld,latest_prefix_cases
+Hct,B-Hct,4544-3,Bld,latest_completely_manual_cases
+Hct B-Hct,B-Hct,4544-3,Bld,latest_completely_manual_cases
+HCT(Hematokrit),B-Hct,4544-3,Bld,latest_parentheses_two_cases
+HCT(hematokrit),B-Hct,4544-3,Bld,latest_manual_cases
+HCT Hematokritt,B-Hct,4544-3,Bld,latest_manual_cases
+HCT_Hematokritt,B-Hct,4544-3,Bld,latest_completely_manual_cases
+HDL kolesterool,"S,P-HDL-Chol",14646-4,Ser/Plas,latest_name_cases
+Hematokrit %,B-Hct,4544-3,Bld,latest_manual_cases
+Hematokrit(Hematokritt),B-Hct,4544-3,Bld,latest_parentheses_one_cases
+hemoglobii(hemoglobiin),B-Hb,718-7,Bld,latest_parentheses_two_cases
+Hemoglobiin,B-Hb,718-7,Bld,latest_prefix_cases
+hemoglobiin(hemoglobiin),B-Hb,718-7,Bld,latest_parentheses_one_cases
+Hemoglobiin veres g/l,B-Hb,718-7,Bld,latest_manual_cases
+Hemogramm5-osaliseleukogrammiga-B-CBC-5Diff,B-CBC-5Diff,57021-8,Bld,latest_prefix_cases
+"Hemogramm5-osaliseleukogrammiga-CBC,DIFF(5)",B-CBC-5Diff,57021-8,Bld,latest_prefix_cases
+HGB,B-Hb,718-7,Bld,latest_manual_cases
+"HGB, g/L",B-Hb,718-7,Bld,latest_manual_cases
+HGB Hemoglobiin,B-Hb,718-7,Bld,latest_manual_cases
+HGB_Hemoglobiin,B-Hb,718-7,Bld,latest_completely_manual_cases
+HGB(hemoglobiin),B-Hb,718-7,Bld,latest_manual_cases
+HGB(HGB),B-Hb,718-7,Bld,latest_parentheses_one_cases
+Hinnangulina Glomerulaarfiltratsiooni Kiirus(Egfr),eGFR,33914-3,Ser/Plas,latest_completely_manual_cases
+Hinnanguline Glomerulaarf,eGFR,33914-3,Ser/Plas,latest_completely_manual_cases
+Hinnanguline glomerulaarf,eGFR,33914-3,Ser/Plas,latest_completely_manual_cases
+Hinnanguline Glomerulaarfiltra,eGFR,33914-3,Ser/Plas,latest_completely_manual_cases
+Hinnanguline glomerulaarfiltra,eGFR,33914-3,Ser/Plas,latest_completely_manual_cases
+Hinnanguline Glomerulaarfiltratsiooni Kiirus,eGFR,33914-3,Ser/Plas,latest_completely_manual_cases
+Hinnanguline glomerulaarfiltratsiooni kiirus (CKD-EPI valemi j.),eGFR (CKD-EPI),62238-1,Ser/Plas,latest_manual_cases
+Hinnanguline Glomerulaarfiltratsiooni Kiirus (Egfr),eGFR,33914-3,Ser/Plas,latest_completely_manual_cases
+Hinnanguline Glomerulaarfiltratsooni Kiirus (Mdrd),eGFR,33914-3,Ser/Plas,latest_completely_manual_cases
+Howelli-Jollykehakesed,B-Howelli-Jolly kehakesed,7793-3,Bld,latest_prefix_cases
+HPV 16,XXX-HPV 16 DNA,61372-9,,latest_manual_cases
+HPV 16 DNA,XXX-HPV 16 DNA,61372-9,,latest_manual_cases
+HPV-16 DNA,XXX-HPV 16 DNA,61372-9,,latest_manual_cases
+HPV 18,XXX-HPV18 DNA,61373-7,,latest_manual_cases
+HPV 18 DNA,XXX-HPV18 DNA,61373-7,,latest_manual_cases
+HPV-18 DNA,XXX-HPV18 DNA,61373-7,,latest_manual_cases
+HPV 31,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+HPV 33,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+HPV 35,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+HPV 39,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+HPV 45,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+HPV 51,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+HPV 52,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+HPV 56,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+HPV 58,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+HPV 59,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+HPV 66,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+HPV 68,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+HPV DNA emakakaelakanalikaapes,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+"HPV DNA, kõrge riski tüüp",XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+"HPV, genotüüp",XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+HPV high risk DNA II,XXX-HPV high risk DNA II,71431-1,Cvx,latest_manual_cases
+"Hpv Kõrge Riski (31,33,35,39,45,51,52,56,58,59,66,68) Dna",XXX-HPV high risk DNA II,71431-1,Cvx,latest_manual_cases
+HPV kõrge riskiga genotüübid,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+HPV muud genotüübid,XXX-HPV high risk DNA II,71431-1,Cvx,latest_manual_cases
+"Hpv Muud Genotüübid (31,33,35,39,45,51,52,56,58,59,66,68)",XXX-HPV high risk DNA II,71431-1,Cvx,latest_manual_cases
+IG#,B-IG#,51584-1,Bld,latest_manual_cases
+IG - Ebak�psed granulots��did,B-IG#,51584-1,Bld,latest_manual_cases
+IG% - Ebak�ps.granulots��tide %,B-IG%,38518-7,Bld,latest_manual_cases
+IG - Ebakupsed granulotsuudid,B-IG#,51584-1,Bld,latest_name_cases
+IG Ebakupsete granulotsuudide absoluutarv,B-IG#,51584-1,Bld,latest_manual_cases
+IG% Ebakupsete granulotsuudide suhtarv,B-IG%,38518-7,Bld,latest_manual_cases
+IG - Ebakupsete granulotsuutide arv,B-IG#,51584-1,Bld,latest_manual_cases
+IG% - Ebakups.granulotsuutide %,B-IG%,38518-7,Bld,latest_name_cases
+IG% - Ebaküps.granulotsüütide %,B-IG%,38518-7,Bld,latest_manual_cases
+IGF-1(IGF-1),"S,P-IGF-1",2484-4,Ser/Plas,latest_parentheses_one_cases
+IG%(IG%),B-IG%,38518-7,Bld,latest_parentheses_one_cases
+Imipeneem(Imipeneem),Is-Imipenem,18932-4,Isolate,latest_parentheses_one_cases
+Imipeneem(imipeneem MIC),Is-Imipenem,18932-4,Isolate,latest_parentheses_one_cases
+"Inimese papillomi viirus, PCR, emakakaelast",XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+Inimese papilloomiviiruse DNA,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+Inimese Papilloomiviiruse Dna Emakakaelakanalikaapes (Paneel),XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+Inimese Papilloomiviiruse Dna Genotüüp Emakakaelakanalikaapes,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+Inimese Papilloomiviiruse Dna Paneel,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+Inimese Papilloomiviiruse Dna (Paneel) Emakakaelakanalikaapes,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+Inimese Papilloomiviiruse Dna (Paneel) Emakakaelakanalikaapest,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+"Inimese papilloomiviiruse kõrge riskiga DNA (26,31,33,35,39",XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+Inimese papilloomiviiruse paneel emakakaelakanalikaapest,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+Inimese papilloomiviiruse paneel ureetrakaapest,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+Inimese Papilloomiviirus Pcr Emakakaelakanalikaapes,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+"Inimese papilloomi viirus, PCR, emakakaelakanalikaapes",XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+Inimese Papilloomiviirus Pcr Emakakaelakanalikaapest,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+"Inimese papilloomi viirus, PCR, emakakaelakanalikaapest",XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+IN(INR),INR,34714-6,Bld,latest_parentheses_two_cases
+INR(INR),INR,34714-6,Bld,latest_parentheses_one_cases
+IPF-ebakupsed trombotsuudid,B-IPF,71693-6,Bld,latest_manual_cases
+IRF%,B-IRF,33516-6,Bld,latest_manual_cases
+IRF(IRF),B-IRF,33516-6,Bld,latest_parentheses_one_cases
+IR(IRF),B-IRF,33516-6,Bld,latest_parentheses_two_cases
+Josamutsii(Josamutsiin),Is-Josamycine,25597-6,Isolate,latest_parentheses_two_cases
+Josamutsiin(Josamutsiin),Is-Josamycine,25597-6,Isolate,latest_parentheses_one_cases
+Kaalium(Kaalium seerumis),"S,P-K",2823-3,Ser/Plas,latest_parentheses_one_cases
+Kaalium seerumis/plasmas*,"S,P-K",2823-3,Ser/Plas,latest_manual_cases
+Kartsinoembruonaalne antigeen,"S,P-CEA",2039-6,Ser/Plas,latest_name_cases
+Kask (T3),"S,P-T3",14930-2,Ser/Plas,latest_parentheses_two_cases
+Kasvajaantigeen CA125,"S,P-CA 125",10334-1,Ser/Plas,latest_name_cases
+Kepptuumsedneutrofiilid,B-Kepptuumsed neutrofiilid %,26508-2,Bld,latest_prefix_cases
+Kilpnaaret stimuleeriv hormoon,"S,P-TSH",3016-3,Ser/Plas,latest_name_cases
+Klaritromutsiin(Klaritromutsiin),Is-Clarithromycin,18907-6,Isolate,latest_parentheses_one_cases
+Klindamutsii(Klindamutsiin),Is-Clindamycin,18908-4,Isolate,latest_parentheses_two_cases
+Klindamutsiin(Klindamutsiin),Is-Clindamycin,18908-4,Isolate,latest_parentheses_one_cases
+Kloriid veres,"S,P-Cl",2075-0,Ser/Plas,latest_manual_cases
+Kolesterool(Kolesterool seerumis),"S,P-Chol",14647-2,Ser/Plas,latest_parentheses_one_cases
+Kortisool Cort(Kortisool),"S,P-Cort",14675-3,Ser/Plas,latest_parentheses_two_cases
+Kreatiini kinaas,"S,P-CK",2157-6,Ser/Plas,latest_name_cases
+Kreatinii(Kreatiniin),"S,P-Crea",14682-9,Ser/Plas,latest_parentheses_two_cases
+Kreatiniin,"S,P-Crea",14682-9,Ser/Plas,latest_completely_manual_cases
+Kreatiniin Dialüüsivedelikus,pDiaF-Crea,14681-1,Dial fld prt,latest_completely_manual_cases
+Kreatiniini Kinaasi Mb Isoensüümi Mass Plasmas,"S,P-CK-MBm",13969-1,Ser/Plas,latest_completely_manual_cases
+Kreatiniinikliirens,dU-S-Crea,2164-2,Urine+Ser/Plas,latest_completely_manual_cases
+Kreatiniin Kinaasi Mb Isoensüümi Mass,"S,P-CK-MBm",13969-1,Ser/Plas,latest_completely_manual_cases
+Kreatiniin Kinaasi Mb Isoensüümi Mass Seerumis/Plasmas,"S,P-CK-MBm",13969-1,Ser/Plas,latest_completely_manual_cases
+Kreatiniin(Kreatiniin),"S,P-Crea",14682-9,Ser/Plas,latest_parentheses_one_cases
+Kreatiniin(Kreatiniin seerumis),"S,P-Crea",14682-9,Ser/Plas,latest_parentheses_one_cases
+Kreatiniin Paas,"S,P-Crea",14682-9,Ser/Plas,latest_completely_manual_cases
+Kreatiniin paastusee,"S,P-Crea",14682-9,Ser/Plas,latest_completely_manual_cases
+Kreatiniin paastuseerumis,"S,P-Crea",14682-9,Ser/Plas,latest_completely_manual_cases
+Kreatiniin Peritoneaaldialüüsivedelikus,pDiaF-Crea,14681-1,Dial fld prt,latest_completely_manual_cases
+Kreatiniin seerumis,"S,P-Crea",14682-9,Ser/Plas,latest_manual_cases
+Kreatiniin Seerumis/Plasmas,"S,P-Crea",14682-9,Ser/Plas,latest_completely_manual_cases
+Kreatiniin seerumis/plasmas*,"S,P-Crea",14682-9,Ser/Plas,latest_manual_cases
+Kreatiniin Urii,U-Crea,14683-7,Urine,latest_completely_manual_cases
+Kreatiniin urii,U-Crea,14683-7,Urine,latest_completely_manual_cases
+Kreatiniin Uriinis,U-Crea,14683-7,Urine,latest_completely_manual_cases
+Kusihape(Kusihape seerumis),"S,P-UA",14933-6,Ser/Plas,latest_parentheses_one_cases
+Kusihappe kristallid(Kusihappe kristallid),U-Kusihappe kristallid,5817-2,Urine,latest_parentheses_one_cases
+Kusihappe kristalli(Kusihappe kristallid),U-Kusihappe kristallid,5817-2,Urine,latest_parentheses_two_cases
+Kõrge Riski Hpv,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+Kõrge riski HPV geno,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+Kõrge riski HPV genot,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+Kõrge riski HPV genotüpee,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+Kõrge Riski Hpv Genotüpeerimin,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+Kõrge riski HPV genotüpeerimin,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+Kõrge Riski Hpv Genotüpeerimine Emakakaelakaapes,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+Laktaat_arteriaalses_plasmas,aP-Lac,2518-9,Bld,latest_manual_cases
+LCR,B-LCR,48386-7,Bld,latest_manual_cases
+Liikvori- Ja Seerumialbumiini Suhe,CSF-Alb/S-Alb,1756-6,Plas+CSF,latest_completely_manual_cases
+Lipaas(Lipaas),"S,P-Lip",3040-3,Ser/Plas,latest_parentheses_one_cases
+LYM#,B-Lymph#,731-0,Bld,latest_manual_cases
+LYM%,B-Lymph%,736-9,Bld,latest_completely_manual_cases
+LYMPH#,B-Lymph#,731-0,Bld,latest_completely_manual_cases
+LYMPH%,B-Lymph%,736-9,Bld,latest_completely_manual_cases
+lymph#,B-Lymph#,731-0,Bld,latest_completely_manual_cases
+lymph%,B-Lymph%,736-9,Bld,latest_manual_cases
+LYMPH (abs.),B-Lymph#,731-0,Bld,latest_manual_cases
+LYMPH(Lumfotsuudid protsent)%,B-Lymph%,736-9,Bld,latest_parentheses_one_cases
+LYMPH Lumfotsuutide absoluutarv,B-Lymph#,731-0,Bld,latest_prefix_cases
+LYMPH% Lumfotsuutide suhtarv,B-Lymph%,736-9,Bld,latest_prefix_cases
+LYMPH%(LYMPH%),B-Lymph%,736-9,Bld,latest_parentheses_one_cases
+Makrofaagid(Makrofaagid),U-Makrofaagid,72220-7,Urine,latest_parentheses_one_cases
+Makrofaagi(Makrofaagid),U-Makrofaagid,72220-7,Urine,latest_parentheses_two_cases
+"MCHC, g/L",B-MCHC,786-4,Bld,latest_manual_cases
+MCHC g/l,B-MCHC,786-4,Bld,latest_manual_cases
+MCHC Keskmine hemoglobiini kontsentratsioon erutrotsuudis,B-MCHC,786-4,Bld,latest_manual_cases
+MCH Keskmine hemoglobiini hulk erutrotsuudis,B-MCH,785-6,Bld,latest_manual_cases
+MCH pg,B-MCH,785-6,Bld,latest_manual_cases
+"MCH, pg",B-MCH,785-6,Bld,latest_manual_cases
+MC(MCV),B-MCV,787-2,Bld,latest_parentheses_two_cases
+MCV,B-MCV,787-2,Bld,latest_prefix_cases
+MCV(Erutrotsuudi keskmine maht),B-MCV,787-2,Bld,latest_parentheses_one_cases
+MCV Erutrotsuutide keskmine ruumala,B-MCV,787-2,Bld,latest_manual_cases
+MCV fl,B-MCV,787-2,Bld,latest_manual_cases
+MCV(MCV),B-MCV,787-2,Bld,latest_parentheses_one_cases
+Meropeneem(Meropeneem),Is-Meropenem,18943-1,Isolate,latest_parentheses_one_cases
+Meropeneem(Meropenem),Is-Meropenem,18943-1,Isolate,latest_parentheses_one_cases
+Mikroalbumiin,U-Alb,14957-5,Urine,latest_completely_manual_cases
+Mikroalbumiin Nefelomeetriliselt,U-Alb,14957-5,Urine,latest_completely_manual_cases
+mikroalbumiin u,U-Alb,14957-5,Urine,latest_completely_manual_cases
+mikroalbuminuri,U-Alb,14957-5,Urine,latest_completely_manual_cases
+MIKROALBUMINUUR,U-Alb,14957-5,Urine,latest_completely_manual_cases
+Mikroalbuminuur,U-Alb,14957-5,Urine,latest_completely_manual_cases
+mikroalbuminuur,U-Alb,14957-5,Urine,latest_completely_manual_cases
+MONO#,B-Mono#,742-7,Bld,latest_prefix_cases
+MONO%,B-Mono%,5905-5,Bld,latest_prefix_cases
+MONO%(MONO%),B-Mono%,5905-5,Bld,latest_parentheses_one_cases
+MONO(Monotsuudid protsent)%,B-Mono%,5905-5,Bld,latest_parentheses_one_cases
+MONO Monotsuutide absoluutarv,B-Mono#,742-7,Bld,latest_manual_cases
+MONO% Monotsuutide suhtarv,B-Mono%,5905-5,Bld,latest_prefix_cases
+MP(MPV),B-MPV,32623-1,Bld,latest_parentheses_two_cases
+MP(Trombotsuutide keskmine maht),B-MPV,32623-1,Bld,latest_parentheses_two_cases
+MPV,B-MPV,32623-1,Bld,latest_prefix_cases
+"MPV, fL",B-MPV,32623-1,Bld,latest_manual_cases
+MPV fl,B-MPV,32623-1,Bld,latest_manual_cases
+MPV(MPV),B-MPV,32623-1,Bld,latest_parentheses_one_cases
+ MPV(Trombotsuutide keskmine maht),B-MPV,32623-1,Bld,latest_parentheses_one_cases
+MPV Trombotsuutide keskmine maht,B-MPV,32623-1,Bld,latest_manual_cases
+MPV(Trombotsuutide keskmine maht),B-MPV,32623-1,Bld,latest_parentheses_one_cases
+Muoglobiin(Muoglobiin),"S,P-Myogl",2639-3,Ser/Plas,latest_parentheses_one_cases
+Naatrium( Naatrium seerumis),"S,P-Na",2951-2,Ser/Plas,latest_parentheses_one_cases
+Naatrium seerumis/plasmas*,"S,P-Na",2951-2,Ser/Plas,latest_manual_cases
+NEUT#,B-Neut#,751-8,Bld,latest_prefix_cases
+NEUT%,B-Neut%,770-8,Bld,latest_prefix_cases
+NEUT%(NEUT%),B-Neut%,770-8,Bld,latest_parentheses_one_cases
+NEUT Neutrofiilide absoluutarv,B-Neut#,751-8,Bld,latest_prefix_cases
+NEUT% Neutrofiilide suhtarv,B-Neut%,770-8,Bld,latest_prefix_cases
+Neutrofiilidevakuolisatsioon,B-Neutrofiilide vakuolisatsioon,18319-4,Bld,latest_prefix_cases
+Nitrofurantoii(Nitrofurantoiin),Is-Nitrofurantoin,18955-5,Isolate,latest_parentheses_two_cases
+Nitrofurantoiin(Nitrofurantoiin),Is-Nitrofurantoin,18955-5,Isolate,latest_parentheses_one_cases
+Norfloksatsiin(Norfloksatsiin),Is-Norfloxacin,18956-3,Isolate,latest_parentheses_one_cases
+Norfloksatsii(Norfloksatsiin),Is-Norfloxacin,18956-3,Isolate,latest_parentheses_two_cases
+nP-iCa(pH),U-pH strip,50560-2,Urine,latest_parentheses_two_cases
+NRBC%,B-NRBC%,58413-6,Bld,latest_prefix_cases
+Ofloksatsiin(Ofloksatsiin),Is-Ofloxacin,18959-7,Isolate,latest_parentheses_one_cases
+Ofloksatsii(Ofloksatsiin),Is-Ofloxacin,18959-7,Isolate,latest_parentheses_two_cases
+Oksatsilliin(Oksatsilliin),Is-Oxacillin,18961-3,Isolate,latest_parentheses_one_cases
+Oksatsilliin(Oksatsilliin KONS),Is-Oxacillin,18961-3,Isolate,latest_parentheses_one_cases
+Oksatsillii(Oksatsilliin),Is-Oxacillin,18961-3,Isolate,latest_parentheses_two_cases
+P-ACTH,P-ACTH,14674-6,Bld,latest_name_cases
+P-ALAT,"S,P-ALAT",1744-2,Ser/Plas,latest_prefix_cases
+P-ALAT Alaniini aminotransferaas,"S,P-ALAT",1744-2,Ser/Plas,latest_manual_cases
+P-ALAT alaniini aminotransferaas,"S,P-ALAT",1744-2,Ser/Plas,latest_manual_cases
+P-Alb,"S,P-Alb",61151-7,Ser/Plas,latest_manual_cases
+P-Alb albumiin,"S,P-Alb",61151-7,Ser/Plas,latest_manual_cases
+P-ALP,"S,P-ALP",6768-6,Ser/Plas,latest_prefix_cases
+P-Amyl,"S,P-Amyl",1798-8,Ser/Plas,latest_prefix_cases
+Papilloomiviirus (HPV,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+"Papilloomiviirus, PCR",XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+P-APTT - Aktiveeritud osalise tromboplastiini aeg,P-APTT,14979-9,PPP,latest_manual_cases
+P-ASAT,"S,P-ASAT",1920-8,Ser/Plas,latest_prefix_cases
+P-ASAT Aspartaadi aminotransferaas,"S,P-ASAT",1920-8,Ser/Plas,latest_manual_cases
+p-atiii,P-AT III,27811-9,PPP,latest_name_cases
+P-Bil,"S,P-Bil",14631-6,Ser/Plas,latest_prefix_cases
+P-Bil Bilirubiin,"S,P-Bil",14631-6,Ser/Plas,latest_manual_cases
+P-BNP,"S,P-BNP",30934-4,Ser/Plas,latest_prefix_cases
+P-CgA,"S,P-CgA",25587-7,Ser/Plas,latest_prefix_cases
+P-Chol (kolesterool),"S,P-Chol",14647-2,Ser/Plas,latest_manual_cases
+P-CK-MBm,"S,P-CK-MBm",13969-1,Ser/Plas,latest_prefix_cases
+P-Crea,"S,P-Crea",14682-9,Ser/Plas,latest_prefix_cases
+P-Crea Kreatiniin plasmas,"S,P-Crea",14682-9,Ser/Plas,latest_manual_cases
+P-CRP,"S,P-CRP",1988-5,Ser/Plas,latest_prefix_cases
+P-CRP C-reaktiivne valk,"S,P-CRP",1988-5,Ser/Plas,latest_manual_cases
+PCT,B-Pct,51637-7,Bld,latest_prefix_cases
+"PCT,",B-Pct,51637-7,Bld,latest_manual_cases
+P-cTnI,"S,P-cTnI",10839-9,Ser/Plas,latest_prefix_cases
+PC(Trombokrit),B-Pct,51637-7,Bld,latest_parentheses_two_cases
+PCT(Trombokrit),B-Pct,51637-7,Bld,latest_parentheses_one_cases
+P-DDi - D-dimeerid,P-D-Di,48065-7,PPP,latest_manual_cases
+PDW %,B-PDW-CV,51631-0,Bld,latest_manual_cases
+Penitsilliin(Penitsilliin),Is-Penicillin,18964-7,Isolate,latest_parentheses_one_cases
+Penitsillii(Penitsilliin),Is-Penicillin,18964-7,Isolate,latest_parentheses_two_cases
+P-EtOH,"S,P-EtOH",5643-2,Ser/Plas,latest_prefix_cases
+P-Fibr,P-Fibr,48664-7,PPP,latest_name_cases
+p-fibr,P-Fibr,48664-7,PPP,latest_name_cases
+P-Fol,"S,P-Fol",14732-2,Ser/Plas,latest_prefix_cases
+P-fT3,"S,P-fT3",14928-6,Ser/Plas,latest_prefix_cases
+P-fT4,"S,P-fT4",14920-3,Ser/Plas,latest_prefix_cases
+P-GGT,"S,P-GGT",2324-2,Ser/Plas,latest_prefix_cases
+P-Gluc,"S,P-Gluc",14749-6,Ser/Plas,latest_prefix_cases
+P- Gluc,"S,P-Gluc",14749-6,Ser/Plas,latest_prefix_cases
+P-GTTgrv,GTT (pregnancy),L-3469,,latest_name_cases
+P-HCVgenot,"S,P-HCV genot",32286-7,Ser/Plas,latest_prefix_cases
+P-Hcy,"S,P-Hcy",13965-9,Ser/Plas,latest_prefix_cases
+P-HDL-Chol,"S,P-HDL-Chol",14646-4,Ser/Plas,latest_manual_cases
+pH(pH),U-pH strip,50560-2,Urine,latest_parentheses_one_cases
+Piperatsilliin+tasobaktaam(Piperatsilliin+tasobaktaam),Is-Piperacillin+Tazobactam,18970-4,Isolate,latest_parentheses_one_cases
+P-K,"S,P-K",2823-3,Ser/Plas,latest_prefix_cases
+P-K Kaalium,"S,P-K",2823-3,Ser/Plas,latest_manual_cases
+P-K kaalium,"S,P-K",2823-3,Ser/Plas,latest_manual_cases
+P-Lac,P-Lac,2524-7,Ser/Plas,latest_prefix_cases
+P-LC(P-LCR),B-LCR,48386-7,Bld,latest_prefix_cases
+PLCR,B-LCR,48386-7,Bld,latest_manual_cases
+P-LCR,B-LCR,48386-7,Bld,latest_prefix_cases
+P-LCR(P-LCR),B-LCR,48386-7,Bld,latest_prefix_cases
+P-LCR(Suurte trombotsuutidearvu suhe trombotsuutide koguarvusse),B-LCR,48386-7,Bld,latest_prefix_cases
+P-LCR(trombots.suurtevormidesuhtarv),B-LCR,48386-7,Bld,latest_prefix_cases
+P-LDH (laktaadi dehudrogenaas),"S,P-LDH",14805-6,Ser/Plas,latest_manual_cases
+P-LDL-Chol,"S,P-LDL-Chol",22748-8,Ser/Plas,latest_manual_cases
+PL(PLT),B-Plt,777-3,Bld,latest_semimanual_cases
+plrf-amyl,PlrF-Amyl,1796-2,Plr fld,latest_name_cases
+PlrF-DiffA(Pleuravedeliku tsutoosi uuring analusaatoril),PlrF-Diff a,34561-1,Plr fld,latest_parentheses_one_cases
+plrf-gluc,PlrF-Gluc,14747-0,Plr fld,latest_name_cases
+plrf-lac,PlrF-Lac,2522-1,Plr fld,latest_name_cases
+plrf-ldh,PlrF-LDH,60021-3,Plr fld,latest_name_cases
+plrf-prot,PlrF-Prot,2882-9,Plr fld,latest_name_cases
+PlrF-Prot(pleuravedelikus),PlrF-Prot,2882-9,Plr fld,latest_parentheses_one_cases
+plrf-sg,PlrF-SG,14349-5,Plr fld,latest_name_cases
+plrf-trigl,PlrF-Trigl,39801-6,Plr fld,latest_name_cases
+PLT,B-Plt,777-3,Bld,latest_prefix_cases
+PLT(PLT),B-Plt,777-3,Bld,latest_semimanual_cases
+PLT_Trombots????did,B-Plt,777-3,Bld,latest_completely_manual_cases
+PLT_Trombots??????did,B-Plt,777-3,Bld,latest_manual_cases
+PLT Trombotsuudid,B-Plt,777-3,Bld,latest_manual_cases
+PLT(Trombotsuudid),B-Plt,777-3,Bld,latest_semimanual_cases
+PLT(Trombotsuutide arv),B-Plt,777-3,Bld,latest_semimanual_cases
+P-Myogl,"S,P-Myogl",2639-3,Ser/Plas,latest_prefix_cases
+P-Na,"S,P-Na",2951-2,Ser/Plas,latest_prefix_cases
+P-Na Naatrium,"S,P-Na",2951-2,Ser/Plas,latest_manual_cases
+P-NT-proBNP,"S,P-NT-proBNP",33762-6,Ser/Plas,latest_prefix_cases
+P-Oxcarb,"S,P-Oxcarb",35331-8,Ser/Plas,latest_prefix_cases
+P-P,"S,P-P",14879-1,Ser/Plas,latest_prefix_cases
+P-PCT,"S,P-PCT",33959-8,Ser/Plas,latest_prefix_cases
+p(pH),U-pH strip,50560-2,Urine,latest_parentheses_two_cases
+p-pt%,P-PT-INR,L-178,,latest_prefix_cases
+P-PTH,"S,P-PTH",14866-8,Ser/Plas,latest_prefix_cases
+p-pt-inr,P-PT-INR,L-178,,latest_name_cases
+PrcF-DiffA(Perikardivedeliku tsutoosi uuring analusaatoril),PrcF-Diff a,L-924,,latest_parentheses_one_cases
+PrcF-Prot(perikardivedelikus),PrcF-Prot,33407-8,Pericard fld,latest_name_cases
+Prealbumiin,"S,P-PreAlb",14338-8,Ser/Plas,latest_completely_manual_cases
+Prealbumiin Seerumis,"S,P-PreAlb",14338-8,Ser/Plas,latest_completely_manual_cases
+P-RF,"S,P-RF",11572-5,Bld,latest_prefix_cases
+Pristinamutsiin(Pristinamutsiin),Is-Pristinamycin,32383-2,Isolate,latest_parentheses_one_cases
+Pristinamutsii(Pristinamutsiin),Is-Pristinamycin,32383-2,Isolate,latest_parentheses_two_cases
+Prostataspetsiifiline antigeen,"S,P-PSA",2857-1,Ser/Plas,latest_name_cases
+Protrombiini suhe(Protrombiini suhe),P-PT%,3289-6,PPP,latest_parentheses_one_cases
+pt-ivy,Pt-Ivy,3179-9,^Patient,latest_name_cases
+P-TPOIgG,"S,P-TPO IgG",8099-4,Ser/Plas,latest_prefix_cases
+P-Transf,"S,P-Transf",3034-6,Ser/Plas,latest_prefix_cases
+P-TSH,"S,P-TSH",3016-3,Ser/Plas,latest_prefix_cases
+P-UA,"S,P-UA",14933-6,Ser/Plas,latest_prefix_cases
+P-Urea,"S,P-Urea",22664-7,Ser/Plas,latest_prefix_cases
+P-Urea Uurea plasmas,"S,P-Urea",22664-7,Ser/Plas,latest_manual_cases
+P-VitB12,"S,P-Vit B12",14685-2,Bld,latest_prefix_cases
+Rasvsilindrid(Rasvsilindrid),U-Rasvsilindrid,67813-6,Urine,latest_parentheses_one_cases
+Rasvsilindri(Rasvsilindrid),U-Rasvsilindrid,67813-6,Urine,latest_parentheses_two_cases
+RBC,B-RBC,789-8,Bld,latest_prefix_cases
+"RBC, 10^12/L",B-RBC,789-8,Bld,latest_manual_cases
+RBC Erutrotsuudid,B-Rbc,789-8,Bld,latest_manual_cases
+rbc-fol,RBC-Fol,14731-4,Bld,latest_name_cases
+RBC(RBC),B-RBC,789-8,Bld,latest_parentheses_one_cases
+RB(RBC),B-RBC,789-8,Bld,latest_parentheses_two_cases
+RDW %,B-RDW-CV,788-0,Bld,latest_manual_cases
+RDW%,B-RDW-CV,788-0,Bld,latest_manual_cases
+"RDW, CV",B-RDW-CV,788-0,Bld,latest_manual_cases
+RET???,B-Ret%,17849-1,Bld,latest_manual_cases
+RET%(RET%),B-Ret%,17849-1,Bld,latest_parentheses_one_cases
+Rh (D),B-RhD,978-7,Bld,latest_parentheses_three_cases
+Rh(D),B-RhD,978-7,Bld,latest_parentheses_three_cases
+Rifampitsiin(Rifampitsiin),Is-Rifampin,18974-6,Isolate,latest_parentheses_one_cases
+S-17-OHP,"S,P-17-OHP",14569-8,Ser/Plas,latest_prefix_cases
+S2-fPSA(vaba prostataspetsiifiline antigeen),"S,P-fPSA",10886-0,Ser/Plas,latest_parentheses_two_cases
+S-AAT,"S,P-AAT",1825-9,Ser/Plas,latest_prefix_cases
+S-ACE,"S,P-ACE",2742-5,Ser/Plas,latest_prefix_cases
+S-AFP,"S,P-AFP",53961-9,Ser/Plas,latest_prefix_cases
+S-ALAT,"S,P-ALAT",1744-2,Ser/Plas,latest_prefix_cases
+S-Alb,"S,P-Alb",61151-7,Ser/Plas,latest_prefix_cases
+S-alb,"S,P-Alb",61151-7,Ser/Plas,latest_prefix_cases
+S-Albumiin (Kõrgtundlik),"S,P-Alb-hs",1751-7,Ser/Plas,latest_completely_manual_cases
+S-Aldo,"S,P-Aldo",1763-2,Ser/Plas,latest_prefix_cases
+S-ALP,"S,P-ALP",6768-6,Ser/Plas,latest_prefix_cases
+S-ALP2S,"S,P-ALP",6768-6,Ser/Plas,latest_prefix_cases
+S-ALT,"S,P-ALAT",1744-2,Ser/Plas,latest_prefix_cases
+S-Amyl,"S,P-Amyl",1798-8,Ser/Plas,latest_prefix_cases
+S-.Amyl.,"S,P-Amyl",1798-8,Ser/Plas,latest_prefix_cases
+S-Amyl-2,"S,P-Amyl",1798-8,Ser/Plas,latest_prefix_cases
+S-Androst,S-Androst,14603-5,Ser/Plas,latest_prefix_cases
+S-AOS,"S,P-ASO",5370-2,Bld,latest_prefix_cases
+Sarapuu (T4),"S,P-T4",14921-1,Ser/Plas,latest_parentheses_two_cases
+S-ASAT,"S,P-ASAT",1920-8,Ser/Plas,latest_prefix_cases
+S-ASO,"S,P-ASO",5370-2,Bld,latest_prefix_cases
+S-AST,"S,P-ASAT",1920-8,Ser/Plas,latest_prefix_cases
+S-B12,"S,P-Vit B12",14685-2,Bld,latest_prefix_cases
+S-b2-M,"S,P-b2-M",1952-1,Bld,latest_prefix_cases
+S-Bil,"S,P-Bil",14631-6,Ser/Plas,latest_prefix_cases
+S-Bil ,"S,P-Bil",14631-6,Ser/Plas,latest_prefix_cases
+s-Bil,"S,P-Bil",14631-6,Ser/Plas,latest_prefix_cases
+S-Bil-conj,"S,P-Bil-conj",14629-0,Ser/Plas,latest_prefix_cases
+S-Bil-unconj,"S,P-Bil-unconj",14630-8,Ser/Plas,latest_prefix_cases
+S-C3,"S,P-C3",4485-9,Ser/Plas,latest_prefix_cases
+S-C4,"S,P-C4",4498-2,Ser/Plas,latest_prefix_cases
+S-CA,"S,P-Ca",2000-8,Ser/Plas,latest_prefix_cases
+S-Ca,"S,P-Ca",2000-8,Ser/Plas,latest_prefix_cases
+S-CA125,"S,P-CA 125",10334-1,Ser/Plas,latest_prefix_cases
+S-CA 125,"S,P-CA 125",10334-1,Ser/Plas,latest_prefix_cases
+S-Ca125,"S,P-CA 125",10334-1,Ser/Plas,latest_prefix_cases
+S-CA 15-3,"S,P-CA 15-3",6875-9,Ser/Plas,latest_prefix_cases
+S-CA15-3,"S,P-CA 15-3",6875-9,Ser/Plas,latest_prefix_cases
+S-Ca15-3,"S,P-CA 15-3",6875-9,Ser/Plas,latest_prefix_cases
+S-CA 19-9,"S,P-CA 19-9",24108-3,Ser/Plas,latest_prefix_cases
+S-CA19-9,"S,P-CA 19-9",24108-3,Ser/Plas,latest_prefix_cases
+S-Ca19-9,"S,P-CA 19-9",24108-3,Ser/Plas,latest_prefix_cases
+S-CA 72-4,"S,P-CA 72-4",2015-6,Ser/Plas,latest_prefix_cases
+S-CA72-4,"S,P-CA 72-4",2015-6,Ser/Plas,latest_prefix_cases
+S-Carba,"S,P-Carba",3432-2,Ser/Plas,latest_prefix_cases
+S-CEA,"S,P-CEA",2039-6,Ser/Plas,latest_prefix_cases
+S-CEA ,"S,P-CEA",2039-6,Ser/Plas,latest_prefix_cases
+S-Cea,"S,P-CEA",2039-6,Ser/Plas,latest_prefix_cases
+S-Cer,"S,P-Cer",2064-4,Ser/Plas,latest_prefix_cases
+S-Chol,"S,P-Chol",14647-2,Ser/Plas,latest_prefix_cases
+S-Chol.,"S,P-Chol",14647-2,Ser/Plas,latest_prefix_cases
+S-CK,"S,P-CK",2157-6,Ser/Plas,latest_prefix_cases
+S-CK-MB,"S,P-CK-MB",32673-6,Ser/Plas,latest_prefix_cases
+S-CK-MBa,"S,P-CK-MB",32673-6,Ser/Plas,latest_name_cases
+S-CK-MBm,"S,P-CK-MBm",13969-1,Ser/Plas,latest_prefix_cases
+S-Cl,"S,P-Cl",2075-0,Ser/Plas,latest_prefix_cases
+S-Cl ,"S,P-Cl",2075-0,Ser/Plas,latest_prefix_cases
+S-Cort,"S,P-Cort",14675-3,Ser/Plas,latest_prefix_cases
+S-Cort ,"S,P-Cort",14675-3,Ser/Plas,latest_prefix_cases
+S-C-pept,"S,P-C-pept",14633-2,Ser/Plas,latest_prefix_cases
+S-C-pept ,"S,P-C-pept",14633-2,Ser/Plas,latest_prefix_cases
+S-Crea,"S,P-Crea",14682-9,Ser/Plas,latest_prefix_cases
+S-Crea ,"S,P-Crea",14682-9,Ser/Plas,latest_prefix_cases
+S-Crea:,"S,P-Crea",14682-9,Ser/Plas,latest_completely_manual_cases
+S-Creat,"S,P-Crea",14682-9,Ser/Plas,latest_completely_manual_cases
+S-CRP,"S,P-CRP",1988-5,Ser/Plas,latest_prefix_cases
+S-CRP ,"S,P-CRP",1988-5,Ser/Plas,latest_prefix_cases
+S-CRP-hs,"S,P-CRP-hs",30522-7,Ser/Plas,latest_prefix_cases
+S-CT,"S,P-CT",15035-9,Ser/Plas,latest_prefix_cases
+S-cTnT-hs,"S,P-cTnT-hs",67151-1,Ser/Plas,latest_prefix_cases
+S-DHEAS,"S,P-DHEAS",14688-6,Ser/Plas,latest_prefix_cases
+S-Digox,"S,P-Digox",10535-3,Ser/Plas,latest_prefix_cases
+S-E2,"S,P-E2",14715-7,Ser/Plas,latest_prefix_cases
+S-E2 ,"S,P-E2",14715-7,Ser/Plas,latest_prefix_cases
+Segmenttuumsedneutrofiilid,B-Segmenttuumsed neutrofiilid %,26505-8,Bld,latest_prefix_cases
+S-EPO,"S,P-EPO",15061-5,Ser/Plas,latest_prefix_cases
+S-Epo,"S,P-EPO",15061-5,Ser/Plas,latest_prefix_cases
+S-ETOH,"S,P-EtOH",5643-2,Ser/Plas,latest_prefix_cases
+S-EtOH,"S,P-EtOH",5643-2,Ser/Plas,latest_prefix_cases
+S-FAI,"S,P-FAI",24125-7,Ser/Plas,latest_prefix_cases
+S-FE,"S,P-Fe",14798-3,Ser/Plas,latest_prefix_cases
+S-Fe,"S,P-Fe",14798-3,Ser/Plas,latest_prefix_cases
+S-Fer,"S,P-Fer",2276-4,Ser/Plas,latest_prefix_cases
+S-Fol,"S,P-Fol",14732-2,Ser/Plas,latest_prefix_cases
+S-FPSA,"S,P-fPSA",10886-0,Ser/Plas,latest_prefix_cases
+S-fPSA,"S,P-fPSA",10886-0,Ser/Plas,latest_prefix_cases
+S-fPSA%,"S,P-fPSA%",12841-3,Ser/Plas,latest_prefix_cases
+S-FSH,"S,P-FSH",15067-2,Ser/Plas,latest_prefix_cases
+S-FT3,"S,P-fT3",14928-6,Ser/Plas,latest_prefix_cases
+S-fT3,"S,P-fT3",14928-6,Ser/Plas,latest_prefix_cases
+S-fT3 ,"S,P-fT3",14928-6,Ser/Plas,latest_prefix_cases
+S-FT4,"S,P-fT4",14920-3,Ser/Plas,latest_prefix_cases
+S-fT4,"S,P-fT4",14920-3,Ser/Plas,latest_prefix_cases
+S-fT4 ,"S,P-fT4",14920-3,Ser/Plas,latest_prefix_cases
+S-GGT,"S,P-GGT",2324-2,Ser/Plas,latest_prefix_cases
+S-GH,"S,P-GH",2963-7,Ser/Plas,latest_prefix_cases
+S-Gluc,"S,P-Gluc",14749-6,Ser/Plas,latest_prefix_cases
+S-Hapto,"S,P-Hapto",4542-7,Ser/Plas,latest_prefix_cases
+S-hCG,"S,P-hCG",19080-1,Ser/Plas,latest_prefix_cases
+S-HDL,"S,P-HDL-Chol",14646-4,Ser/Plas,latest_prefix_cases
+S-HDL-Chol,"S,P-HDL-Chol",14646-4,Ser/Plas,latest_prefix_cases
+S-HDL-Chol(HDL kolesterool),"S,P-HDL-Chol",14646-4,Ser/Plas,latest_prefix_cases
+S-HDL-Chol(HDLkolesterool),"S,P-HDL-Chol",14646-4,Ser/Plas,latest_prefix_cases
+S-HDL(Korge tihedusega lipoproteiini kolesterool),"S,P-HDL-Chol",14646-4,Ser/Plas,latest_prefix_cases
+S-HE4,"S,P-HE4",55180-4,Bld,latest_prefix_cases
+S-hGH,"S,P-GH",2963-7,Ser/Plas,latest_name_cases
+S-iCa,"S,P-iCa",12180-6,Ser/Plas,latest_prefix_cases
+S-IgA,"S,P-IgA",2458-8,Bld,latest_prefix_cases
+S-IgE,"S,P-IgE",19113-0,Bld,latest_prefix_cases
+S-IGF-1,"S,P-IGF-1",2484-4,Ser/Plas,latest_prefix_cases
+S-IgG,"S,P-IgG",2465-3,Bld,latest_prefix_cases
+S-IgM,"S,P-IgM",2472-9,Bld,latest_prefix_cases
+S-IL-6,"S,P-IL-6",26881-3,Ser/Plas,latest_prefix_cases
+S-INS,"S,P-Ins",20448-7,Ser/Plas,latest_prefix_cases
+S-Ins,"S,P-Ins",20448-7,Ser/Plas,latest_prefix_cases
+S-K,"S,P-K",2823-3,Ser/Plas,latest_prefix_cases
+S-K ,"S,P-K",2823-3,Ser/Plas,latest_prefix_cases
+S-Lamotr,"S,P-Lamotr",6948-4,Ser/Plas,latest_prefix_cases
+S-LDH,"S,P-LDH",14805-6,Ser/Plas,latest_prefix_cases
+S-LDL,"S,P-LDL-Chol",22748-8,Ser/Plas,latest_prefix_cases
+S-LDL-Chol,"S,P-LDL-Chol",22748-8,Ser/Plas,latest_prefix_cases
+S-LDL-Chol(LDLkolesterool),"S,P-LDL-Chol",22748-8,Ser/Plas,latest_prefix_cases
+S-LDL(Madala tihedusega lipoproteiini kolesterool),"S,P-LDL-Chol",22748-8,Ser/Plas,latest_prefix_cases
+S-LH,"S,P-LH",10501-5,Ser/Plas,latest_prefix_cases
+S-LH ,"S,P-LH",10501-5,Ser/Plas,latest_prefix_cases
+S-Li,"S,P-Li",14334-7,Ser/Plas,latest_prefix_cases
+S-Liikvori- Ja Seerumialbumiini Suhe,CSF-Alb/S-Alb,1756-6,Plas+CSF,latest_completely_manual_cases
+S-Lip,"S,P-Lip",3040-3,Ser/Plas,latest_prefix_cases
+S-Mg,"S,P-Mg",2601-3,Ser/Plas,latest_prefix_cases
+S-Myogl,"S,P-Myogl",2639-3,Ser/Plas,latest_prefix_cases
+S-Na,"S,P-Na",2951-2,Ser/Plas,latest_prefix_cases
+S-Na ,"S,P-Na",2951-2,Ser/Plas,latest_prefix_cases
+S-NT-proBNP,"S,P-NT-proBNP",33762-6,Ser/Plas,latest_prefix_cases
+S-P,"S,P-P",14879-1,Ser/Plas,latest_prefix_cases
+"s,p-17-OHP(17-alfa-hudroksu-progesteroon)","S,P-17-OHP",14569-8,Ser/Plas,latest_parentheses_one_cases
+"s,p-AA(Alfa-1-antitrupsiin)","S,P-AAT",1825-9,Ser/Plas,latest_prefix_cases
+"s,p-AAT(Alfa-1-antitrupsiin)","S,P-AAT",1825-9,Ser/Plas,latest_prefix_cases
+"s,p-AAT(alfa-1-antitrupsiin)","S,P-AAT",1825-9,Ser/Plas,latest_parentheses_one_cases
+"s,p-ACE(7. Angiotensiini konverteeriv ensuum)","S,P-ACE",2742-5,Ser/Plas,latest_parentheses_one_cases
+"s,p-ACE(Angiotensiini konverteeriv ensuum)","S,P-ACE",2742-5,Ser/Plas,latest_prefix_cases
+"s,p-AF(Alfa-fetoproteiin)","S,P-AFP",53961-9,Ser/Plas,latest_prefix_cases
+"s,p-afp","S,P-AFP",53961-9,Ser/Plas,latest_name_cases
+"s,p-AFP(Alfa-fetoproteiin)","S,P-AFP",53961-9,Ser/Plas,latest_parentheses_one_cases
+"s,p-ALA(Alaniini aminotransferaas)","S,P-ALAT",1744-2,Ser/Plas,latest_prefix_cases
+"s,p-AL(Alaniini aminotransferaas)","S,P-ALAT",1744-2,Ser/Plas,latest_prefix_cases
+"s,p-Al(Albumiin)","S,P-Alb",61151-7,Ser/Plas,latest_prefix_cases
+"s,p-AL(Aluseline fosfataas)","S,P-ALP",6768-6,Ser/Plas,latest_parentheses_two_cases
+"s,p-ALAT 1(Alaniini aminotransferaas)","S,P-ALAT",1744-2,Ser/Plas,latest_parentheses_two_cases
+"s,p-ALAT 2(Alaniini aminotransferaas)","S,P-ALAT",1744-2,Ser/Plas,latest_parentheses_two_cases
+"s,p-ALAT 3(Alaniini aminotransferaas)","S,P-ALAT",1744-2,Ser/Plas,latest_parentheses_two_cases
+"s,p-ALAT(Alaniini aminotransferaas)","S,P-ALAT",1744-2,Ser/Plas,latest_prefix_cases
+"s,p-ALAT(alaniiniaminotransferaas)","S,P-ALAT",1744-2,Ser/Plas,latest_parentheses_one_cases
+"s,p-ALAT(Alaniini aminotransferaas seerumis)","S,P-ALAT",1744-2,Ser/Plas,latest_parentheses_one_cases
+"s,p-alb","S,P-Alb",61151-7,Ser/Plas,latest_name_cases
+"s,p-Alb 1(Albumiin)","S,P-Alb",61151-7,Ser/Plas,latest_prefix_cases
+"s,p-Alb 2(Albumiin)","S,P-Alb",61151-7,Ser/Plas,latest_prefix_cases
+"s,p-Alb 3(Albumiin)","S,P-Alb",61151-7,Ser/Plas,latest_prefix_cases
+"s,p-Alb(3. Albumiin seerumis)","S,P-Alb",61151-7,Ser/Plas,latest_prefix_cases
+"s,p-Alb(Albumiin)","S,P-Alb",61151-7,Ser/Plas,latest_parentheses_one_cases
+"s,p-Alb(albumiin)","S,P-Alb",61151-7,Ser/Plas,latest_parentheses_one_cases
+"s,p-Alb(Albumiin seerumis)","S,P-Alb",61151-7,Ser/Plas,latest_parentheses_one_cases
+"s,p-Aldo(Aldosteroon)","S,P-Aldo",1763-2,Ser/Plas,latest_parentheses_one_cases
+"s,p-ALP 1(Aluseline fosfataas)","S,P-ALP",6768-6,Ser/Plas,latest_parentheses_two_cases
+"s,p-ALP 2(Aluseline fosfataas)","S,P-ALP",6768-6,Ser/Plas,latest_parentheses_two_cases
+"s,p-ALP(Aluseline fosfataas)","S,P-ALP",6768-6,Ser/Plas,latest_prefix_cases
+"s,p-ALP(aluselinefosfataas)","S,P-ALP",6768-6,Ser/Plas,latest_parentheses_one_cases
+"s,p-ALT(Alaniini aminotransferaas)","S,P-ALAT",1744-2,Ser/Plas,latest_prefix_cases
+"s,p-Amyl(Alfa-am???laas)","S,P-Amyl",1798-8,Ser/Plas,latest_prefix_cases
+"s,p-Amyl(Alfa-amulaas)","S,P-Amyl",1798-8,Ser/Plas,latest_parentheses_one_cases
+"s,p-Amyl(alfa-Amulaas)","S,P-Amyl",1798-8,Ser/Plas,latest_parentheses_one_cases
+"s,p-Amyl(alfa-amulaas)","S,P-Amyl",1798-8,Ser/Plas,latest_parentheses_one_cases
+"s,p-Amyl(amulaas)","S,P-Amyl",1798-8,Ser/Plas,latest_prefix_cases
+"s,p-Amyl(Amulaas, pankreasespetsiifiline)","S,P-Amyl",1798-8,Ser/Plas,latest_parentheses_one_cases
+"s,p-Amyl(Amulaas seerumis)","S,P-Amyl",1798-8,Ser/Plas,latest_parentheses_one_cases
+"s,p-AOS(Antistreptolusiin O)","S,P-ASO",5370-2,Bld,latest_prefix_cases
+S-PAP,S-pACP,20420-6,Bld,latest_name_cases
+"s,p-ASA(Aspartaadi aminotransferaas)","S,P-ASAT",1920-8,Ser/Plas,latest_prefix_cases
+"s,p-AS(Antistreptolusiin O)","S,P-ASO",5370-2,Bld,latest_parentheses_two_cases
+"s,p-AS(Aspartaadi aminotransferaas)","S,P-ASAT",1920-8,Ser/Plas,latest_prefix_cases
+"s,p-asat","S,P-ASAT",1920-8,Ser/Plas,latest_name_cases
+"s,p-ASAT 1(Aspartaadi aminotransferaas)","S,P-ASAT",1920-8,Ser/Plas,latest_prefix_cases
+"s,p-ASAT 2(Aspartaadi aminotransferaas)","S,P-ASAT",1920-8,Ser/Plas,latest_parentheses_two_cases
+"s,p-ASAT 3(Aspartaadi aminotransferaas)","S,P-ASAT",1920-8,Ser/Plas,latest_prefix_cases
+"s,p-ASAT(Aspartaadi aminotransferaas)","S,P-ASAT",1920-8,Ser/Plas,latest_parentheses_one_cases
+"s,p-ASAT(aspartaadiaminotransferaas)","S,P-ASAT",1920-8,Ser/Plas,latest_prefix_cases
+"s,p-ASAT(Aspartaadi aminotransferaas seerumis)","S,P-ASAT",1920-8,Ser/Plas,latest_prefix_cases
+"s,p-aso","S,P-ASO",5370-2,Bld,latest_name_cases
+"s,p-ASO(Antistreptolusiin O)","S,P-ASO",5370-2,Bld,latest_parentheses_one_cases
+"s,p-ASO(antistreptolusiinO)","S,P-ASO",5370-2,Bld,latest_prefix_cases
+"s,p-ASO(Antistreptolusiin O seerumis)","S,P-ASO",5370-2,Bld,latest_parentheses_one_cases
+"s,p-AST(Aspartaadi aminotransferaas)","S,P-ASAT",1920-8,Ser/Plas,latest_prefix_cases
+"s,p-B12(Vitamiin B12)","S,P-Vit B12",14685-2,Bld,latest_prefix_cases
+"s,p-B1(Vitamiin B12)","S,P-Vit B12",14685-2,Bld,latest_prefix_cases
+"s,p-b2-(Beeta-2-mikroglobuliin)","S,P-b2-M",1952-1,Bld,latest_prefix_cases
+"s,p-b2-M(Beeta-2-mikroglobuliin)","S,P-b2-M",1952-1,Bld,latest_parentheses_one_cases
+"s,p-Bi(Bilirubiin)",U-Bil strip,41016-7,Urine,latest_parentheses_two_cases
+"s,p-Bil 1(Bilirubiin)",U-Bil strip,41016-7,Urine,latest_parentheses_two_cases
+"s,p-Bil 2(Bilirubiin)",U-Bil strip,41016-7,Urine,latest_prefix_cases
+"s,p-Bil(Bilirubiin)","S,P-Bil",14631-6,Ser/Plas,latest_parentheses_one_cases
+"s,p-Bil(bilirubiin)","S,P-Bil",14631-6,Ser/Plas,latest_parentheses_one_cases
+"s,p-Bil(Bilirubiin ???ldine)","S,P-Bil",14631-6,Ser/Plas,latest_prefix_cases
+"s,p-Bil(Bilirubiin uldine)","S,P-Bil",14631-6,Ser/Plas,latest_parentheses_one_cases
+"s,p-Bil(Bilirubiin, uldine)","S,P-Bil",14631-6,Ser/Plas,latest_prefix_cases
+"s,p-Bil-conj(bilirubiinkonjugeeritud)","S,P-Bil-conj",14629-0,Ser/Plas,latest_prefix_cases
+"s,p-Bil(Uldbilirubiin)","S,P-Bil",14631-6,Ser/Plas,latest_parentheses_one_cases
+"s,p-BNP(B-tuupi N-terminaalne natriureetiline peptiid)","S,P-BNP",30934-4,Ser/Plas,latest_parentheses_one_cases
+"s,p-c3","S,P-C3",4485-9,Ser/Plas,latest_name_cases
+"s,p-C3(1. Komplemendi komponent C3)","S,P-C3",4485-9,Ser/Plas,latest_prefix_cases
+"s,p-C3(Komplemendi komponent C3)","S,P-C3",4485-9,Ser/Plas,latest_parentheses_one_cases
+"s,p-C3(komplemendikomponentC3)","S,P-C3",4485-9,Ser/Plas,latest_parentheses_one_cases
+"s,p-C4(1. Komplemendi komponent C4)","S,P-C4",4498-2,Ser/Plas,latest_prefix_cases
+"s,p-C4(Komplemendi komponent C4)","S,P-C4",4498-2,Ser/Plas,latest_parentheses_one_cases
+"s,p-C4(komplemendikomponentC4)","S,P-C4",4498-2,Ser/Plas,latest_prefix_cases
+"s,p-ca","S,P-Ca",2000-8,Ser/Plas,latest_name_cases
+"s,p-CA 125(Kasvaja-antigeen CA 125)","S,P-CA 125",10334-1,Ser/Plas,latest_prefix_cases
+"s,p-CA-125(Kasvaja antigeen CA 125)","S,P-CA 125",10334-1,Ser/Plas,latest_prefix_cases
+"s,p-CA 12(Kasvaja-antigeen CA 125)","S,P-CA 125",10334-1,Ser/Plas,latest_prefix_cases
+"s,p-CA-12(Kasvaja antigeen CA 125)","S,P-CA 125",10334-1,Ser/Plas,latest_parentheses_two_cases
+"s,p-CA 15-3(Kasvaja-antigeen CA 15-3)","S,P-CA 15-3",6875-9,Ser/Plas,latest_parentheses_one_cases
+"s,p-CA 15-(Kasvaja-antigeen CA 15-3)","S,P-CA 15-3",6875-9,Ser/Plas,latest_prefix_cases
+"s,p-CA 19-9(Kasvaja-antigeen CA 19-9)","S,P-CA 19-9",24108-3,Ser/Plas,latest_prefix_cases
+"s,p-CA-19-9(Kasvaja antigeen CA 19-9 )","S,P-CA 19-9",24108-3,Ser/Plas,latest_parentheses_two_cases
+"s,p-CA-19-9(Kasvaja antigeen CA 19-9)","S,P-CA 19-9",24108-3,Ser/Plas,latest_parentheses_two_cases
+"s,p-CA-19-9(Kasvaja-antigeen CA 19-9)","S,P-CA 19-9",24108-3,Ser/Plas,latest_parentheses_two_cases
+"s,p-CA 19-(Kasvaja-antigeen CA 19-9)","S,P-CA 19-9",24108-3,Ser/Plas,latest_prefix_cases
+"s,p-CA-19-(Kasvaja antigeen CA 19-9)","S,P-CA 19-9",24108-3,Ser/Plas,latest_prefix_cases
+"s,p-Ca 1(Kaltsium)","S,P-Ca",2000-8,Ser/Plas,latest_prefix_cases
+"s,p-Ca 2(Kaltsium)","S,P-Ca",2000-8,Ser/Plas,latest_parentheses_two_cases
+"s,p-Ca 3(Kaltsium)","S,P-Ca",2000-8,Ser/Plas,latest_prefix_cases
+"s,p-CA 72-4(9. Kasvaja antigeen CA 72-4)","S,P-CA 72-4",2015-6,Ser/Plas,latest_parentheses_one_cases
+"s,p-CA 72-4(Kasvaja antigeen CA 72-4)","S,P-CA 72-4",2015-6,Ser/Plas,latest_prefix_cases
+"s,p-Ca(Kaltsium)","S,P-Ca",2000-8,Ser/Plas,latest_parentheses_one_cases
+"s,p-Ca(kaltsium)","S,P-Ca",2000-8,Ser/Plas,latest_parentheses_one_cases
+"s,p-Ca(Kaltsium seerumis)","S,P-Ca",2000-8,Ser/Plas,latest_parentheses_one_cases
+"s,p-Carba(karbamasepiin)","S,P-Carba",3432-2,Ser/Plas,latest_parentheses_one_cases
+"s,p-CEA(Kartsinoembruonaalne antigeen)","S,P-CEA",2039-6,Ser/Plas,latest_parentheses_one_cases
+"s,p-CEA(kartsioembrionaalne antigeen)","S,P-CEA",2039-6,Ser/Plas,latest_prefix_cases
+"s,p-CE(Kartsinoembruonaalne antigeen)","S,P-CEA",2039-6,Ser/Plas,latest_parentheses_two_cases
+"s,p-cer","S,P-Cer",2064-4,Ser/Plas,latest_name_cases
+"s,p-Cer(1. Tseruloplasmiin)","S,P-Cer",2064-4,Ser/Plas,latest_prefix_cases
+"s,p-Cer(Tseruloplasmiin)","S,P-Cer",2064-4,Ser/Plas,latest_parentheses_one_cases
+"s,p-Cer(tseruloplasmiin)","S,P-Cer",2064-4,Ser/Plas,latest_prefix_cases
+"s,p-Ce(Tseruloplasmiin)","S,P-Cer",2064-4,Ser/Plas,latest_prefix_cases
+"s,p-CgA(Kromograniin A plasmas)","S,P-CgA",25587-7,Ser/Plas,latest_prefix_cases
+"s,p-ChE(Koliini esteraas)","S,P-ChE",2098-2,Ser/Plas,latest_parentheses_one_cases
+"s,p-ChE(koliiniesteraas)","S,P-ChE",2098-2,Ser/Plas,latest_prefix_cases
+"s,p-Cho(Kolesterool)","S,P-Chol",14647-2,Ser/Plas,latest_prefix_cases
+"s,p-chol","S,P-Chol",14647-2,Ser/Plas,latest_name_cases
+"s,p-Chol(Kolesterool)","S,P-Chol",14647-2,Ser/Plas,latest_parentheses_one_cases
+"s,p-Chol(kolesterool)","S,P-Chol",14647-2,Ser/Plas,latest_parentheses_one_cases
+"s,p-Chol(Kolesterool seerumis)","S,P-Chol",14647-2,Ser/Plas,latest_parentheses_one_cases
+"s,p-ck","S,P-CK",2157-6,Ser/Plas,latest_name_cases
+"s,p-C(Kaltsitoniin )","S,P-CT",15035-9,Ser/Plas,latest_parentheses_two_cases
+"s,p-C(Kaltsitoniin)","S,P-CT",15035-9,Ser/Plas,latest_parentheses_two_cases
+"s,p-C(Kaltsium)","S,P-Ca",2000-8,Ser/Plas,latest_parentheses_two_cases
+"s,p-CK(Kreatiini kinaas)","S,P-CK",2157-6,Ser/Plas,latest_prefix_cases
+"s,p-CK(kreatiinikinaas)","S,P-CK",2157-6,Ser/Plas,latest_prefix_cases
+"s,p-CK(Kreatiini kinaas seerumis)","S,P-CK",2157-6,Ser/Plas,latest_parentheses_one_cases
+"s,p-CK(kreatiniinikinaas)","S,P-CK",2157-6,Ser/Plas,latest_prefix_cases
+"s,p-C(Kloriid)","S,P-Cl",2075-0,Ser/Plas,latest_prefix_cases
+"s,p-CK-MB(Kreatiini kinaasi MB isoensuum)","S,P-CK-MB",32673-6,Ser/Plas,latest_parentheses_one_cases
+"s,p-CK-MBm(kreatiniinikinaasiMBisoensuumimass)","S,P-CK-MBm",13969-1,Ser/Plas,latest_prefix_cases
+"s,p-C(Komplemendi komponent C3)","S,P-C3",4485-9,Ser/Plas,latest_parentheses_two_cases
+"s,p-C(Komplemendi komponent C4)","S,P-C4",4498-2,Ser/Plas,latest_prefix_cases
+"s,p-C(Kreatiini kinaas)","S,P-CK",2157-6,Ser/Plas,latest_prefix_cases
+"s,p-Cl(Kloriid)","S,P-Cl",2075-0,Ser/Plas,latest_parentheses_one_cases
+"s,p-Cl(kloriid)","S,P-Cl",2075-0,Ser/Plas,latest_parentheses_one_cases
+"s,p-Cl(Kloriidid)","S,P-Cl",2075-0,Ser/Plas,latest_parentheses_one_cases
+"s,p-Cl(Kloriid seerumis)","S,P-Cl",2075-0,Ser/Plas,latest_prefix_cases
+"s,p-Cor(Kortisool)","S,P-Cort",14675-3,Ser/Plas,latest_prefix_cases
+"s,p-cort","S,P-Cort",14675-3,Ser/Plas,latest_name_cases
+"s,p-Cort(1. Kortisool)","S,P-Cort",14675-3,Ser/Plas,latest_prefix_cases
+"s,p-Cort(Kortisool)","S,P-Cort",14675-3,Ser/Plas,latest_prefix_cases
+"s,p-C-pep(C-peptiid)","S,P-C-pept",14633-2,Ser/Plas,latest_parentheses_two_cases
+"s,p-C-pept(C-peptiid)","S,P-C-pept",14633-2,Ser/Plas,latest_parentheses_one_cases
+"s,p- C-peptiid(C peptiid)","S,P-C-pept",14633-2,Ser/Plas,latest_prefix_cases
+"s,p-CR(C-reaktiivne valk)","S,P-CRP",1988-5,Ser/Plas,latest_prefix_cases
+"s,p-crea","S,P-Crea",14682-9,Ser/Plas,latest_name_cases
+"s,p-Crea 1(Kreatiniin)","S,P-Crea",14682-9,Ser/Plas,latest_prefix_cases
+"s,p-Crea 2(Kreatiniin)","S,P-Crea",14682-9,Ser/Plas,latest_prefix_cases
+"s,p-Crea 3(Kreatiniin)","S,P-Crea",14682-9,Ser/Plas,latest_prefix_cases
+"s,p-Crea 4(Kreatiniin)","S,P-Crea",14682-9,Ser/Plas,latest_prefix_cases
+"s,p-Crea 7(Kreatiniin)","S,P-Crea",14682-9,Ser/Plas,latest_parentheses_two_cases
+"s,p-Crea 8(Kreatiniin)","S,P-Crea",14682-9,Ser/Plas,latest_parentheses_two_cases
+"s,p-Crea(Kreatiniin)","S,P-Crea",14682-9,Ser/Plas,latest_parentheses_one_cases
+"s,p-Crea(kreatiniin)","S,P-Crea",14682-9,Ser/Plas,latest_parentheses_one_cases
+"s,p-Crea(Kreatiniin seerumis)","S,P-Crea",14682-9,Ser/Plas,latest_prefix_cases
+"s,p-Creat(Kreatiniin)","S,P-Crea",14682-9,Ser/Plas,latest_parentheses_two_cases
+"s,p-Cre(Kreatiniin)","S,P-Crea",14682-9,Ser/Plas,latest_parentheses_two_cases
+"s,p-CRP 10(C-reaktiivne valk)","S,P-CRP",1988-5,Ser/Plas,latest_prefix_cases
+"s,p-CRP 11(C-reaktiivne valk)","S,P-CRP",1988-5,Ser/Plas,latest_parentheses_two_cases
+"s,p-CRP 12(C-reaktiivne valk)","S,P-CRP",1988-5,Ser/Plas,latest_parentheses_two_cases
+"s,p-CRP 13(C-reaktiivne valk)","S,P-CRP",1988-5,Ser/Plas,latest_prefix_cases
+"s,p-CRP 1(C-reaktiivne valk)","S,P-CRP",1988-5,Ser/Plas,latest_prefix_cases
+"s,p-CRP 2(C-reaktiivne valk)","S,P-CRP",1988-5,Ser/Plas,latest_parentheses_two_cases
+"s,p-CRP 3(C-reaktiivne valk)","S,P-CRP",1988-5,Ser/Plas,latest_prefix_cases
+"s,p-CRP 4(C-reaktiivne valk)","S,P-CRP",1988-5,Ser/Plas,latest_parentheses_two_cases
+"s,p-CRP 7(C-reaktiivne valk)","S,P-CRP",1988-5,Ser/Plas,latest_prefix_cases
+"s,p-CRP 8(C-reaktiivne valk)","S,P-CRP",1988-5,Ser/Plas,latest_parentheses_two_cases
+"s,p-CRP 9(C-reaktiivne valk)","S,P-CRP",1988-5,Ser/Plas,latest_prefix_cases
+"s,p-CRP(C-reaktiivne valk)","S,P-CRP",1988-5,Ser/Plas,latest_prefix_cases
+"s,p-CRP(C-reaktiivnevalk)","S,P-CRP",1988-5,Ser/Plas,latest_prefix_cases
+"s,p-CRP(C-reaktiivne valk seerumis)","S,P-CRP",1988-5,Ser/Plas,latest_parentheses_one_cases
+S-PCT,"S,P-PCT",33959-8,Ser/Plas,latest_prefix_cases
+"s,p-CT(Kaltsitoniin )","S,P-CT",15035-9,Ser/Plas,latest_parentheses_one_cases
+"s,p-CT(Kaltsitoniin)","S,P-CT",15035-9,Ser/Plas,latest_prefix_cases
+"s,p-ctni","S,P-cTnI",10839-9,Ser/Plas,latest_name_cases
+"s,p-cTnI(Troponiin I)","S,P-cTnI",10839-9,Ser/Plas,latest_prefix_cases
+"s,p-ctnt-hs","S,P-cTnT-hs",67151-1,Ser/Plas,latest_name_cases
+"s,p-CysC(Tsustatiin C)","S,P-CysC",33863-2,Ser/Plas,latest_prefix_cases
+"s,p-Digo(Digoksiin)","S,P-Digox",10535-3,Ser/Plas,latest_parentheses_two_cases
+"s,p-digox","S,P-Digox",10535-3,Ser/Plas,latest_name_cases
+"s,p-Digox(Digoksiin)","S,P-Digox",10535-3,Ser/Plas,latest_prefix_cases
+"s,p-Digox(digoksiin)","S,P-Digox",10535-3,Ser/Plas,latest_parentheses_one_cases
+"s,p-E2(?-stradiool)","S,P-E2",14715-7,Ser/Plas,latest_parentheses_one_cases
+"s,p-epo","S,P-EPO",15061-5,Ser/Plas,latest_name_cases
+"s,p-E(?-stradiool)","S,P-E2",14715-7,Ser/Plas,latest_parentheses_two_cases
+"s,p-EtOH(Etanool)","S,P-EtOH",5643-2,Ser/Plas,latest_parentheses_one_cases
+"s,p-EtOH(Etanool seerumis, plasmas)","S,P-EtOH",5643-2,Ser/Plas,latest_prefix_cases
+"s,p-fe","S,P-Fe",14798-3,Ser/Plas,latest_name_cases
+"s,p-Fe(Ferritiin)","S,P-Fe",14798-3,Ser/Plas,latest_prefix_cases
+"s,p-fer","S,P-Fer",2276-4,Ser/Plas,latest_name_cases
+"s,p-Fe(Raud)","S,P-Fe",14798-3,Ser/Plas,latest_parentheses_one_cases
+"s,p-Fe(raud)","S,P-Fe",14798-3,Ser/Plas,latest_prefix_cases
+"s,p-Fer(Ferritiin)","S,P-Fer",2276-4,Ser/Plas,latest_prefix_cases
+"s,p-Fo(Folaat)","S,P-Fol",14732-2,Ser/Plas,latest_prefix_cases
+"s,p-fol","S,P-Fol",14732-2,Ser/Plas,latest_name_cases
+"s,p-Fol(Folaat)","S,P-Fol",14732-2,Ser/Plas,latest_parentheses_one_cases
+"s,p-Fol(Foolhape)","S,P-Fol",14732-2,Ser/Plas,latest_parentheses_one_cases
+"s,p-Fol (Q)","S,P-Fol",14732-2,Ser/Plas,latest_prefix_cases
+"s,p-(Fosfaat)","S,P-P",14879-1,Ser/Plas,latest_prefix_cases
+"s,p-fpsa","S,P-fPSA",10886-0,Ser/Plas,latest_name_cases
+"s,p-fPSA( Vaba prostataspetsiifiline antigeen)","S,P-fPSA",10886-0,Ser/Plas,latest_parentheses_one_cases
+"s,p-fPS( Vaba prostataspetsiifiline antigeen)","S,P-fPSA",10886-0,Ser/Plas,latest_parentheses_two_cases
+"s,p-F(Raud)","S,P-Fe",14798-3,Ser/Plas,latest_parentheses_two_cases
+"s,p-FS(Folliikuleid stimuleeriv hormoon)","S,P-FSH",15067-2,Ser/Plas,latest_prefix_cases
+"s,p-FSH(Folliikuleid stimuleeriv hormoon)","S,P-FSH",15067-2,Ser/Plas,latest_parentheses_one_cases
+"s,p-FT3(Vaba trijoodturoniin)","S,P-fT3",14928-6,Ser/Plas,latest_prefix_cases
+"s,p-fT3(Vaba trijoodturoniin)","S,P-fT3",14928-6,Ser/Plas,latest_prefix_cases
+"s,p-ft4","S,P-fT4",14920-3,Ser/Plas,latest_name_cases
+"s,p-FT4(Vaba T4)","S,P-fT4",14920-3,Ser/Plas,latest_prefix_cases
+"s,p-FT4(Vaba turoksiin)","S,P-fT4",14920-3,Ser/Plas,latest_prefix_cases
+"s,p-fT4(Vaba turoksiin)","S,P-fT4",14920-3,Ser/Plas,latest_prefix_cases
+"s,p-fT(Vaba trijoodturoniin)","S,P-fT3",14928-6,Ser/Plas,latest_prefix_cases
+"s,p-fT(Vaba turoksiin)","S,P-fT4",14920-3,Ser/Plas,latest_prefix_cases
+"s,p-GG(Gamma-Glutamuuli transferaas)","S,P-GGT",2324-2,Ser/Plas,latest_prefix_cases
+"s,p-GG(Gammaglutamuuli transferaas)","S,P-GGT",2324-2,Ser/Plas,latest_prefix_cases
+"s,p-GGT(Gamma-Glutam??????li transferaas)","S,P-GGT",2324-2,Ser/Plas,latest_prefix_cases
+"s,p-GGT(Gamma-Glutamuuli transferaas)","S,P-GGT",2324-2,Ser/Plas,latest_prefix_cases
+"s,p-GGT(Gamma-glutamuuli transferaas)","S,P-GGT",2324-2,Ser/Plas,latest_parentheses_one_cases
+"s,p-GGT(Gammaglutamuuli transferaas)","S,P-GGT",2324-2,Ser/Plas,latest_prefix_cases
+"s,p-GGT(gamma-glutamuulitransferaas)","S,P-GGT",2324-2,Ser/Plas,latest_prefix_cases
+"s,p-GH(Kasvuhormoon)","S,P-GH",2963-7,Ser/Plas,latest_parentheses_one_cases
+"s,p-G(Kasvuhormoon)","S,P-GH",2963-7,Ser/Plas,latest_parentheses_two_cases
+"s,p-gluc","S,P-Gluc",14749-6,Ser/Plas,latest_name_cases
+"s,p-Gluc(Gl???koos seerumis)","S,P-Gluc",14749-6,Ser/Plas,latest_parentheses_one_cases
+"s,p-Gluc(Glukoos)","S,P-Gluc",14749-6,Ser/Plas,latest_parentheses_one_cases
+"s,p-Gluc(glukoos)","S,P-Gluc",14749-6,Ser/Plas,latest_prefix_cases
+"s,p-Gluc(Glukoos seerumis)","S,P-Gluc",14749-6,Ser/Plas,latest_parentheses_one_cases
+"s,p-Glu(Glukoos)",U-Gluc strip,59156-0,Urine,latest_prefix_cases
+"s,p-Hapto(haptoglobiin)","S,P-Hapto",4542-7,Ser/Plas,latest_prefix_cases
+"S,P-Hapto(Haptoglobiin seerumis, plasmas)","S,P-Hapto",4542-7,Ser/Plas,latest_parentheses_one_cases
+"s,p-hCG(Koorioni gonadotropiin)","S,P-hCG",19080-1,Ser/Plas,latest_prefix_cases
+"s,p-hCG (totaal)(Koorioni gonadotropiin)","S,P-hCG",19080-1,Ser/Plas,latest_parentheses_two_cases
+"s,p-Hcy(Homotsusteiin)","S,P-Hcy",13965-9,Ser/Plas,latest_parentheses_one_cases
+"s,p-Hcy(homotsusteiin)","S,P-Hcy",13965-9,Ser/Plas,latest_prefix_cases
+"s,p-iga","S,P-IgA",2458-8,Bld,latest_name_cases
+"s,p- IgA(Immunoglobuliin A)","S,P-IgA",2458-8,Bld,latest_parentheses_one_cases
+"s,p-IgA(Immuunglobuliin A)","S,P-IgA",2458-8,Bld,latest_parentheses_one_cases
+"s,p-IgA(immuunglobuliinA)","S,P-IgA",2458-8,Bld,latest_parentheses_one_cases
+"s,p-IgA(Immuunglobuliin A seerumis)","S,P-IgA",2458-8,Bld,latest_prefix_cases
+"s,p-ige","S,P-IgE",19113-0,Bld,latest_name_cases
+"s,p-Ig E(Immunoglobuliin E seerumis)","S,P-IgE",19113-0,Bld,latest_parentheses_one_cases
+"s,p-IgE(Immuunglobuliin E)","S,P-IgE",19113-0,Bld,latest_prefix_cases
+"s,p-IGF-1(Insuliinisarnane kasvufaktor I)","S,P-IGF-1",2484-4,Ser/Plas,latest_parentheses_one_cases
+"s,p-igg","S,P-IgG",2465-3,Bld,latest_name_cases
+"s,p-IgG(3. Immuunglobuliin G seerumis)","S,P-IgG",2465-3,Bld,latest_parentheses_one_cases
+"s,p-IgG(Immuunglobuliin G)","S,P-IgG",2465-3,Bld,latest_prefix_cases
+"s,p-IgG(immuunglobuliinG)","S,P-IgG",2465-3,Bld,latest_parentheses_one_cases
+"s,p-IgG(Immuunglobuliin G seerumis)","S,P-IgG",2465-3,Bld,latest_parentheses_one_cases
+"s,p-Ig(Immuunglobuliin A)","S,P-IgA",2458-8,Bld,latest_prefix_cases
+"s,p-Ig(Immuunglobuliin E)","S,P-IgE",19113-0,Bld,latest_prefix_cases
+"s,p-Ig(Immuunglobuliin G)","S,P-IgG",2465-3,Bld,latest_parentheses_two_cases
+"s,p-Ig(Immuunglobuliin M)","S,P-IgM",2472-9,Bld,latest_prefix_cases
+"s,p-igm","S,P-IgM",2472-9,Bld,latest_name_cases
+"s,p-IgM(Immuunglobuliin M)","S,P-IgM",2472-9,Bld,latest_prefix_cases
+"s,p-IgM(immuunglobuliinM)","S,P-IgM",2472-9,Bld,latest_prefix_cases
+"s,p-IgM(Immuunglobuliin M seerumis)","S,P-IgM",2472-9,Bld,latest_parentheses_one_cases
+"s,p-In(Insuliin)","S,P-Ins",20448-7,Ser/Plas,latest_prefix_cases
+"s,p-Ins(Insuliin)","S,P-Ins",20448-7,Ser/Plas,latest_parentheses_one_cases
+"s,p-k","S,P-K",2823-3,Ser/Plas,latest_name_cases
+"s,p-K 10(Kaalium)","S,P-K",2823-3,Ser/Plas,latest_parentheses_two_cases
+"s,p-K 11(Kaalium)","S,P-K",2823-3,Ser/Plas,latest_prefix_cases
+"s,p-K 1(Kaalium)","S,P-K",2823-3,Ser/Plas,latest_parentheses_two_cases
+"s,p-K 2(Kaalium)","S,P-K",2823-3,Ser/Plas,latest_prefix_cases
+"s,p-K 3(Kaalium)","S,P-K",2823-3,Ser/Plas,latest_prefix_cases
+"s,p-K 4(Kaalium)","S,P-K",2823-3,Ser/Plas,latest_parentheses_two_cases
+"s,p-K 7(Kaalium)","S,P-K",2823-3,Ser/Plas,latest_parentheses_two_cases
+"s,p-K 8(Kaalium)","S,P-K",2823-3,Ser/Plas,latest_parentheses_two_cases
+"s,p-K 9(Kaalium)","S,P-K",2823-3,Ser/Plas,latest_parentheses_two_cases
+"s,p-(Kaalium)","S,P-K",2823-3,Ser/Plas,latest_prefix_cases
+"s,p-K(Kaalium)","S,P-K",2823-3,Ser/Plas,latest_prefix_cases
+"s,p-K(kaalium)","S,P-K",2823-3,Ser/Plas,latest_parentheses_one_cases
+"s,p-K(Kaalium seerumis)","S,P-K",2823-3,Ser/Plas,latest_parentheses_one_cases
+"S,P-Kreatiniin","S,P-Crea",14682-9,Ser/Plas,latest_completely_manual_cases
+"s,p-ldh","S,P-LDH",14805-6,Ser/Plas,latest_name_cases
+"s,p-LDH(Laktaadi dehudrogenaas )","S,P-LDH",14805-6,Ser/Plas,latest_prefix_cases
+"s,p-LDH(laktaadidehudrogenaas)","S,P-LDH",14805-6,Ser/Plas,latest_prefix_cases
+"s,p-LDH(Laktaadi dehudrogenaas seerumis)","S,P-LDH",14805-6,Ser/Plas,latest_prefix_cases
+"s,p-LD(Laktaadi dehudrogenaas )","S,P-LDH",14805-6,Ser/Plas,latest_parentheses_two_cases
+"s,p-LD(Laktaadi dehudrogenaas seerumis)","S,P-LDL-Chol",22748-8,Ser/Plas,latest_prefix_cases
+"s,p-LH(Luteiniseeriv hormoon)","S,P-LH",10501-5,Ser/Plas,latest_prefix_cases
+"s,p-li","S,P-Li",14334-7,Ser/Plas,latest_name_cases
+"s,p-Li(3. Liitium seerumis)","S,P-Li",14334-7,Ser/Plas,latest_prefix_cases
+"s,p-Li(liitium)","S,P-Li",14334-7,Ser/Plas,latest_prefix_cases
+"s,p-Li(Lipaas)","S,P-Li",14334-7,Ser/Plas,latest_prefix_cases
+"s,p-Lip(Lipaas)","S,P-Lip",3040-3,Ser/Plas,latest_prefix_cases
+"s,p-Lip(lipaas)","S,P-Lip",3040-3,Ser/Plas,latest_parentheses_one_cases
+"s,p-Lip( Q)","S,P-Lip",3040-3,Ser/Plas,latest_prefix_cases
+"s,p-L(Luteiniseeriv hormoon)","S,P-LH",10501-5,Ser/Plas,latest_prefix_cases
+"s,p-Lp(a)(lipoproteiina)","S,P-Lp(a)",43583-4,Ser/Plas,latest_prefix_cases
+"s,p-mg","S,P-Mg",2601-3,Ser/Plas,latest_name_cases
+"s,p-Mg(Magneesium)","S,P-Mg",2601-3,Ser/Plas,latest_parentheses_one_cases
+"s,p-Mg(magneesium)","S,P-Mg",2601-3,Ser/Plas,latest_parentheses_one_cases
+"s,p-Mg(Magneesium seerumis)","S,P-Mg",2601-3,Ser/Plas,latest_prefix_cases
+"s,p-M(Magneesium)","S,P-Mg",2601-3,Ser/Plas,latest_prefix_cases
+"s,p-myogl","S,P-Myogl",2639-3,Ser/Plas,latest_name_cases
+"s,p-Myogl(Muoglobiin)","S,P-Myogl",2639-3,Ser/Plas,latest_prefix_cases
+"s,p-Myogl(muoglobiin)","S,P-Myogl",2639-3,Ser/Plas,latest_prefix_cases
+"s,p-Myog(Muoglobiin)","S,P-Myogl",2639-3,Ser/Plas,latest_prefix_cases
+"s,p-na","S,P-Na",2951-2,Ser/Plas,latest_name_cases
+"s,p-Na 10(Naatrium)","S,P-Na",2951-2,Ser/Plas,latest_prefix_cases
+"s,p-Na 11(Naatrium)","S,P-Na",2951-2,Ser/Plas,latest_parentheses_two_cases
+"s,p-Na 1(Naatrium)","S,P-Na",2951-2,Ser/Plas,latest_prefix_cases
+"s,p-Na 2(Naatrium)","S,P-Na",2951-2,Ser/Plas,latest_parentheses_two_cases
+"s,p-Na 3(Naatrium)","S,P-Na",2951-2,Ser/Plas,latest_prefix_cases
+"s,p-Na 4(Naatrium)","S,P-Na",2951-2,Ser/Plas,latest_parentheses_two_cases
+"s,p-Na 7(Naatrium)","S,P-Na",2951-2,Ser/Plas,latest_parentheses_two_cases
+"s,p-Na 8(Naatrium)","S,P-Na",2951-2,Ser/Plas,latest_prefix_cases
+"s,p-Na 9(Naatrium)","S,P-Na",2951-2,Ser/Plas,latest_parentheses_two_cases
+"s,p-Na(Naatrium)","S,P-Na",2951-2,Ser/Plas,latest_prefix_cases
+"s,p-Na(naatrium)","S,P-Na",2951-2,Ser/Plas,latest_parentheses_one_cases
+"s,p-Na( Naatrium seerumis)","S,P-Na",2951-2,Ser/Plas,latest_prefix_cases
+"s,p-Na(Naatrium seerumis)","S,P-Na",2951-2,Ser/Plas,latest_parentheses_one_cases
+"s,p-N(Naatrium)","S,P-Na",2951-2,Ser/Plas,latest_parentheses_two_cases
+"s,p-Osteoca(osteokaltsiin)","S,P-Osteoca",2697-1,Ser/Plas,latest_parentheses_one_cases
+"s,p-PAPP-A(Rasedusega seotud plasma protein A)","S,P-PAPP-A",32046-5,Ser/Plas,latest_parentheses_one_cases
+"s,p-Paracet(paratsetamool)","S,P-Paracet",3298-7,Ser/Plas,latest_parentheses_one_cases
+"s,p- PC(Prokaltsitoniin)","S,P-PCT",33959-8,Ser/Plas,latest_prefix_cases
+"s,p-PC(Prokaltsitoniin)","S,P-PCT",33959-8,Ser/Plas,latest_parentheses_two_cases
+"s,p-pct","S,P-PCT",33959-8,Ser/Plas,latest_name_cases
+"s,p- PCT(Prokaltsitoniin)","S,P-PCT",33959-8,Ser/Plas,latest_prefix_cases
+"s,p-PCT(Prokaltsitoniin)","S,P-PCT",33959-8,Ser/Plas,latest_parentheses_one_cases
+"s,p-PCT(prokaltsitoniin)","S,P-PCT",33959-8,Ser/Plas,latest_parentheses_one_cases
+"s,p-P(Fosfaat)","S,P-P",14879-1,Ser/Plas,latest_prefix_cases
+"s,p-P(fosfaat)","S,P-P",14879-1,Ser/Plas,latest_parentheses_one_cases
+"s,p-P(Fosfaat seerumis)","S,P-P",14879-1,Ser/Plas,latest_parentheses_one_cases
+"s,p-Progesteroon(Progesteroon)","S,P-Prog",14890-8,Ser/Plas,latest_parentheses_two_cases
+"s,p-Prog(Progesteroon)","S,P-Prog",14890-8,Ser/Plas,latest_prefix_cases
+"s,p-Prolaktiin(Prolaktiin)","S,P-Prol",15081-3,Ser/Plas,latest_prefix_cases
+"s,p-Prol(Prolaktiin)","S,P-Prol",15081-3,Ser/Plas,latest_prefix_cases
+"s,p-Pro(Progesteroon)","S,P-Prog",14890-8,Ser/Plas,latest_prefix_cases
+"s,p-Pro(Prolaktiin)","S,P-Prol",15081-3,Ser/Plas,latest_parentheses_two_cases
+"s,p-prot","S,P-Prot",2885-2,Ser/Plas,latest_name_cases
+"s,p-Prot(???ldvalk)","S,P-Prot",2885-2,Ser/Plas,latest_prefix_cases
+"s,p-Prot(Uldvalk)","S,P-Prot",2885-2,Ser/Plas,latest_parentheses_one_cases
+"s,p-Prot(valk)","S,P-Prot",2885-2,Ser/Plas,latest_parentheses_one_cases
+"s,p-psa","S,P-PSA",2857-1,Ser/Plas,latest_name_cases
+"s,p-PSA(Prostataspetsiifiline antigeen)","S,P-PSA",2857-1,Ser/Plas,latest_parentheses_one_cases
+"s,p-PS(Prostataspetsiifiline antigeen)","S,P-PSA",2857-1,Ser/Plas,latest_parentheses_two_cases
+"s,p-PTH( Parathormoon)","S,P-PTH",14866-8,Ser/Plas,latest_parentheses_one_cases
+"s,p-PTH(Parathormoon)","S,P-PTH",14866-8,Ser/Plas,latest_prefix_cases
+"s,p-PT( Parathormoon)","S,P-PTH",14866-8,Ser/Plas,latest_prefix_cases
+"s,p-PT(Parathormoon)","S,P-PTH",14866-8,Ser/Plas,latest_prefix_cases
+"s,p-rf","S,P-RF",11572-5,Bld,latest_name_cases
+"s,p-RF(Reumatoidfaktor)","S,P-RF",11572-5,Bld,latest_prefix_cases
+"s,p-RF(reumatoidfaktor)","S,P-RF",11572-5,Bld,latest_parentheses_one_cases
+S-Prl,"S,P-Prol",15081-3,Ser/Plas,latest_prefix_cases
+S-Prog,"S,P-Prog",14890-8,Ser/Plas,latest_prefix_cases
+S-Prokaltsitoniin,"S,P-PCT",33959-8,Ser/Plas,latest_prefix_cases
+S-Prol,"S,P-Prol",15081-3,Ser/Plas,latest_prefix_cases
+S-Prol ,"S,P-Prol",15081-3,Ser/Plas,latest_prefix_cases
+S-Prot,"S,P-Prot",2885-2,Ser/Plas,latest_prefix_cases
+"s,p-R(Reumatoidfaktor)","S,P-RF",11572-5,Bld,latest_prefix_cases
+S-PSA,"S,P-PSA",2857-1,Ser/Plas,latest_prefix_cases
+"s,p-Salic(salitsulaadid)","S,P-Salic",4024-6,Ser/Plas,latest_parentheses_one_cases
+"s,p-SHBG(1. Suguhormoone siduv globuliin)","S,P-SHBG",13967-5,Ser/Plas,latest_prefix_cases
+"s,p-SHBG(Suguhormoone siduv globuliin)","S,P-SHBG",13967-5,Ser/Plas,latest_prefix_cases
+"s,p-SHBG(Suguhormoone siduv globuliin VANA)","S,P-SHBG",13967-5,Ser/Plas,latest_parentheses_one_cases
+"s,p-SHB(Suguhormoone siduv globuliin)","S,P-SHBG",13967-5,Ser/Plas,latest_parentheses_two_cases
+"s,p-testo","S,P-Testo",14913-8,Ser/Plas,latest_name_cases
+"s,p-Testosteroon(Testosteroon)","S,P-Testo",14913-8,Ser/Plas,latest_prefix_cases
+"s,p-Testo(Testosteroon)","S,P-Testo",14913-8,Ser/Plas,latest_parentheses_one_cases
+"s,p-Test(Testosteroon)","S,P-Testo",14913-8,Ser/Plas,latest_parentheses_two_cases
+"s,p-TG(Tureoglobuliin)","S,P-TG",3013-0,Ser/Plas,latest_prefix_cases
+S-PTH,"S,P-PTH",14866-8,Ser/Plas,latest_prefix_cases
+"s,p-theoph","S,P-Theoph",4049-3,Ser/Plas,latest_name_cases
+"s,p-Theoph(teofulliin)","S,P-Theoph",4049-3,Ser/Plas,latest_prefix_cases
+"s,p-TnI(Troponiin I)","S,P-cTnI",10839-9,Ser/Plas,latest_prefix_cases
+"s,p-Tn(Troponiin I)","S,P-cTnI",10839-9,Ser/Plas,latest_prefix_cases
+"s,p-TPO IgG(Tureoidperoksudaasi vastane IgG)","S,P-TPO IgG",8099-4,Ser/Plas,latest_prefix_cases
+"s,p-TPO Ig(Tureoidperoksudaasi vastane IgG)","S,P-TPO IgG",8099-4,Ser/Plas,latest_prefix_cases
+"s,p-transf","S,P-Transf",3034-6,Ser/Plas,latest_name_cases
+"s,p-transf-sr","S,P-Transf-sR",30248-9,Ser/Plas,latest_name_cases
+"s,p-Transf-sR(Transferriini lahustuvad retseptorid)","S,P-Transf-sR",30248-9,Ser/Plas,latest_prefix_cases
+"s,p-Transf-sR(transferriinilahustuvadretseptorid)","S,P-Transf-sR",30248-9,Ser/Plas,latest_prefix_cases
+"s,p-Transf(Transferriin)","S,P-Transf",3034-6,Ser/Plas,latest_prefix_cases
+"s,p-Transf(transferriin)","S,P-Transf",3034-6,Ser/Plas,latest_parentheses_one_cases
+"s,p-Transf(Transferriin seerumis)","S,P-Transf",3034-6,Ser/Plas,latest_parentheses_one_cases
+"s,p-Trans(Transferriin)","S,P-Transf",3034-6,Ser/Plas,latest_parentheses_two_cases
+"s,p-Trigl(Triglutseriidid)","fS,fP-Trigl",14927-8,Ser/Plas,latest_parentheses_two_cases
+"s,p-Trigl(triglutseriidid)","fS,fP-Trigl",14927-8,Ser/Plas,latest_parentheses_two_cases
+"s,p-Trig(Triglutseriidid)","fS,fP-Trigl",14927-8,Ser/Plas,latest_prefix_cases
+"s,p-TSH(Tureotropiin ehk kilpnaaret stimuleeriv hormoon)","S,P-TSH",3016-3,Ser/Plas,latest_parentheses_one_cases
+"s,p-T(Tureoglobuliin)","S,P-TG",3013-0,Ser/Plas,latest_parentheses_two_cases
+"s,p-ua","S,P-UA",14933-6,Ser/Plas,latest_name_cases
+"s,p-UA(Kusihape)","S,P-UA",14933-6,Ser/Plas,latest_parentheses_one_cases
+"s,p-UA(kusihape)","S,P-UA",14933-6,Ser/Plas,latest_prefix_cases
+"s,p-UA(Kusihape seerumis)","S,P-UA",14933-6,Ser/Plas,latest_prefix_cases
+"s,p-U(Kusihape)","S,P-UA",14933-6,Ser/Plas,latest_parentheses_two_cases
+"s,p-urea","S,P-Urea",22664-7,Ser/Plas,latest_name_cases
+"s,p-Urea 1(Uurea)","S,P-Urea",22664-7,Ser/Plas,latest_prefix_cases
+"s,p-Urea 2(Uurea)","S,P-Urea",22664-7,Ser/Plas,latest_parentheses_two_cases
+"s,p-Urea 3(Uurea)","S,P-Urea",22664-7,Ser/Plas,latest_prefix_cases
+"s,p-Urea 4(Uurea)","S,P-Urea",22664-7,Ser/Plas,latest_prefix_cases
+"s,p-Urea 6(Uurea)","S,P-Urea",22664-7,Ser/Plas,latest_parentheses_two_cases
+"s,p-Urea(Uurea)","S,P-Urea",22664-7,Ser/Plas,latest_prefix_cases
+"s,p-Urea(uurea)","S,P-Urea",22664-7,Ser/Plas,latest_parentheses_one_cases
+"s,p-Urea(Uurea seerumis)","S,P-Urea",22664-7,Ser/Plas,latest_parentheses_one_cases
+"s,p-Ure(Uurea)","S,P-Urea",22664-7,Ser/Plas,latest_prefix_cases
+"s,p-Valpr(valproaat)","S,P-Valpr",4086-5,Ser/Plas,latest_prefix_cases
+"s,p-vitb12","S,P-Vit B12",14685-2,Bld,latest_name_cases
+"s,p-VitD3(25-OH)(VitamiinD,25-hudroksu)","S,P-Vit D3 (25-OH)",1989-3,Ser/Plas,latest_parentheses_one_cases
+"s,p-Yers03(IgG)","S,P-IgG",2465-3,Bld,latest_parentheses_two_cases
+"s,p-Yers09(IGA)","S,P-IgA",2458-8,Bld,latest_prefix_cases
+S-RF,"S,P-RF",11572-5,Bld,latest_prefix_cases
+S-Rf,"S,P-RF",11572-5,Bld,latest_prefix_cases
+S-SHBG,"S,P-SHBG",13967-5,Ser/Plas,latest_prefix_cases
+S-SHBG ,"S,P-SHBG",13967-5,Ser/Plas,latest_prefix_cases
+S-sTransf,"S,P-sTransf",13452-8,Ser/Plas,latest_prefix_cases
+S-sTrf-r,"S,P-Transf-sR",30248-9,Ser/Plas,latest_name_cases
+S-T3,"S,P-T3",14930-2,Ser/Plas,latest_prefix_cases
+S-T4,"S,P-T4",14921-1,Ser/Plas,latest_prefix_cases
+St-Calpr(Kalprotektiin roojas),St-Calpro,38445-3,Urine,latest_parentheses_two_cases
+St-Calpro(Kalprotektiin roojas),St-Calpro,38445-3,Urine,latest_parentheses_one_cases
+S-Testo,"S,P-Testo",14913-8,Ser/Plas,latest_prefix_cases
+S-testo,"S,P-Testo",14913-8,Ser/Plas,latest_prefix_cases
+S-TG,"S,P-TG",3013-0,Ser/Plas,latest_prefix_cases
+S-TG ,"S,P-TG",3013-0,Ser/Plas,latest_prefix_cases
+S-TPOIgG,"S,P-TPO IgG",8099-4,Ser/Plas,latest_prefix_cases
+S-TPO IgG,"S,P-TPO IgG",8099-4,Ser/Plas,latest_prefix_cases
+S-Transf,"S,P-Transf",3034-6,Ser/Plas,latest_prefix_cases
+S-Transf-sR,"S,P-Transf-sR",30248-9,Ser/Plas,latest_prefix_cases
+S-Trf,"S,P-Transf",3034-6,Ser/Plas,latest_name_cases
+S-TrfS,"S,P-Transf",3034-6,Ser/Plas,latest_prefix_cases
+S-Trigl,"fS,fP-Trigl",14927-8,Ser/Plas,latest_prefix_cases
+S-TSH,"S,P-TSH",3016-3,Ser/Plas,latest_prefix_cases
+S-TSH ,"S,P-TSH",3016-3,Ser/Plas,latest_prefix_cases
+S-UA,"S,P-UA",14933-6,Ser/Plas,latest_prefix_cases
+S-Urea,"S,P-Urea",22664-7,Ser/Plas,latest_prefix_cases
+S-Urea ,"S,P-Urea",22664-7,Ser/Plas,latest_prefix_cases
+S-Valpr,"S,P-Valpr",4086-5,Ser/Plas,latest_prefix_cases
+S-VitB12,"S,P-Vit B12",14685-2,Bld,latest_prefix_cases
+S-VitD(25-OH),"S,P-Vit D (25-OH)",60493-4,Ser/Plas,latest_prefix_cases
+S-VitD3(25-OH),"S,P-Vit D3 (25-OH)",1989-3,Ser/Plas,latest_prefix_cases
+SynF-DiffA(liigesevedeliku tsutoosi uuring analusaatoril),SynF-Diff a,34559-5,Synv fld,latest_name_cases
+Teiste HPV kõrge riskiga tüüpide DNA,XXX-HPV high risk DNA II,71431-1,Cvx,latest_manual_cases
+Tetratsukliin(Tetratsukliin),Is-Tetracycline,18993-6,Isolate,latest_parentheses_one_cases
+Tetratsuklii(Tetratsukliin),Is-Tetracycline,18993-6,Isolate,latest_parentheses_two_cases
+transferriin(transferriin),"S,P-Transf",3034-6,Ser/Plas,latest_parentheses_one_cases
+transferrii(transferriin),"S,P-Transf",3034-6,Ser/Plas,latest_parentheses_two_cases
+Trombokrit %,B-Pct,51637-7,Bld,latest_manual_cases
+Trombotsuudid(Trombotsuudid),B-Plt,777-3,Bld,latest_parentheses_one_cases
+Troponiin I kardiaalne,"S,P-cTnI",10839-9,Ser/Plas,latest_name_cases
+Tsefepiim(Tsefepiim),Is-Cefepime,18879-7,Isolate,latest_parentheses_one_cases
+Tsefoksitiin(Tsefoksitiin),Is-Cefoxitin,18888-8,Isolate,latest_parentheses_one_cases
+Tsefotaksiim(CTX) MIK,Is-Cefotaxime,18886-2,Isolate,latest_parentheses_one_cases
+Tsefotaksiim(Tsefotaksiim),Is-Cefotaxime,18886-2,Isolate,latest_parentheses_one_cases
+Tseftasidiim(Tseftasidiim),Is-Ceftazidime,18893-8,Isolate,latest_parentheses_one_cases
+Tseftasidii(Tseftasidiim),Is-Ceftazidime,18893-8,Isolate,latest_parentheses_two_cases
+Tsiprofloksatsiin(Tsiprofloksatsiin),Is-Ciprofloxacin,18906-8,Isolate,latest_parentheses_one_cases
+Tsiprofloksatsii(Tsiprofloksatsiin),Is-Ciprofloxacin,18906-8,Isolate,latest_parentheses_two_cases
+Tureoidperoksudaasivastane IgG,"S,P-TPO IgG",8099-4,Ser/Plas,latest_name_cases
+T vaginalis DNA tupekaapes(Trichomonas vaginalis DNA),XXX-T vaginalis DNA,69937-1,,latest_parentheses_two_cases
+U-Al(Albumiin uriinis),U-Alb,14957-5,Urine,latest_parentheses_two_cases
+u-alb,U-Alb,14957-5,Urine,latest_name_cases
+U-Alb(Albumiin uriinis ),U-Alb,14957-5,Urine,latest_name_cases
+U-Alb(Albumiin uriinis),U-Alb,14957-5,Urine,latest_name_cases
+u-alb/u-crea,U-Alb/U-Crea,30000-4,Urine,latest_name_cases
+U-Alb/ U-Crea(Albumiini ja kreatiniini suhe uriinis),U-Alb/U-Crea,30000-4,Urine,latest_parentheses_one_cases
+U-Alb/U-Crea(Albumiini ja kreatiniini suhe uriinis),U-Alb/U-Crea,30000-4,Urine,latest_parentheses_one_cases
+U-Alb/U-CreaAlbumiinijakreatiniinisuheuriinis ,U-Alb/U-Crea,30000-4,Urine,latest_completely_manual_cases
+U-Alb/U-Cre(Albumiini ja kreatiniini suhe uriinis),U-Alb/U-Crea,30000-4,Urine,latest_parentheses_two_cases
+U-Albumiin,U-Alb,14957-5,Urine,latest_completely_manual_cases
+U-Albumiin/Kreatiniin Uriinis,U-Alb/U-Crea,30000-4,Urine,latest_completely_manual_cases
+U-Albumiin Uriinis,U-Alb,14957-5,Urine,latest_completely_manual_cases
+u-amp,U-Amp,19261-7,Urine,latest_name_cases
+U-Amp(Amfetamiinid uriinis),U-Amp,19261-7,Urine,latest_parentheses_one_cases
+U-Amyl(Alfa-Amulaas uriinis),U-Amyl,1799-6,Urine,latest_parentheses_one_cases
+U-Amyl(Amulaas uriinis),U-Amyl,1799-6,Urine,latest_name_cases
+U-Amyl/U-Crea(Amulaasi ja kreatiniini suhe uriinis),U-Amyl/U-Crea,34235-2,Urine,latest_name_cases
+U-Ba(Barbituraadid uriinis),U-Bar,19270-8,Urine,latest_parentheses_two_cases
+U-BAR(barbituraadid uriinis),U-Bar,19270-8,Urine,latest_name_cases
+U-Bar(Barbituraadid uriinis),U-Bar,19270-8,Urine,latest_parentheses_one_cases
+U-Bar(barbituraadid uriinis),U-Bar,19270-8,Urine,latest_name_cases
+U-Bi,U-Bil strip,41016-7,Urine,latest_manual_cases
+ U-Bil,U-Bil strip,41016-7,Urine,latest_semimanual_cases
+U-Bil,U-Bil strip,41016-7,Urine,latest_semimanual_cases
+u-bil,U-Bil strip,41016-7,Urine,latest_parentheses_one_cases
+U-Bil Bilirubiin,U-Bil strip,41016-7,Urine,latest_manual_cases
+U-Bil(Bilirubiin uriinis),U-Bil strip,41016-7,Urine,latest_parentheses_one_cases
+U-Bz(Bensodiasepiinid uriinis),U-Bzd,14316-4,Urine,latest_parentheses_two_cases
+u-bzd,U-Bzd,14316-4,Urine,latest_name_cases
+U-BZD(benzodiazepiin uriinis),U-Bzd,14316-4,Urine,latest_parentheses_one_cases
+U-Bzd(benzodiazepiin uriinis),U-Bzd,14316-4,Urine,latest_parentheses_one_cases
+U-Bzo(Bensodiasepiinid uriinis),U-Bzd,14316-4,Urine,latest_parentheses_two_cases
+U-C(Kaltsium uriinis),U-Ca,2004-0,Urine,latest_parentheses_two_cases
+U-Cla Läbipaistvus,,32167-9,Urine,manual
+u-coc,U-Coc,19359-9,Urine,latest_name_cases
+U-COC(Kokaiin uriinis),U-Coc,19359-9,Urine,latest_parentheses_one_cases
+U-COC(kokaiin uriinis),U-Coc,19359-9,Urine,latest_parentheses_one_cases
+U-Coc(kokaiin uriinis),U-Coc,19359-9,Urine,latest_parentheses_one_cases
+U-CO(Kokaiin uriinis),U-Coc,19359-9,Urine,latest_parentheses_two_cases
+U-Col Värvus,,5778-6,Urine,manual
+U-Cort(Kortisool uriinis),U-Cort,25882-2,Urine,latest_parentheses_one_cases
+U-Crea,U-Crea,14683-7,Urine,latest_completely_manual_cases
+U-Crea(Kreatiniin uriinis),U-Crea,14683-7,Urine,latest_name_cases
+U-Crea(kreatiniin uriinis),U-Crea,14683-7,Urine,latest_parentheses_one_cases
+U-Creat(Kreatiniin uriinis),U-Crea,14683-7,Urine,latest_parentheses_two_cases
+U-Cre(Kreatiniin uriinis),U-Crea,14683-7,Urine,latest_parentheses_two_cases
+U-Cre(kreatiniin uriinis),U-Crea,14683-7,Urine,latest_parentheses_two_cases
+U-Cu(Vask uriinis),U-Cu,34273-3,Urine,latest_parentheses_one_cases
+u-ecs,U-Ecs,19568-5,Urine,latest_name_cases
+U-Ecs(ecstasy uriinis ),U-Ecs,19568-5,Urine,latest_name_cases
+U-Erikaa,U-SG strip,53326-5,Urine,latest_manual_cases
+U-Erikaal,U-SG strip,53326-5,Urine,latest_manual_cases
+U-ERY,U-RBC strip,57747-8,Urine,latest_manual_cases
+U-Ery,U-RBC strip,57747-8,Urine,latest_manual_cases
+U-Fen(Fentanuul uriinis),U-Fent,11235-9,Urine,latest_parentheses_two_cases
+U-Fent(Fentanuul uriinis),U-Fent,11235-9,Urine,latest_parentheses_one_cases
+U-Fent(fentanuul uriinis),U-Fent,11235-9,Urine,latest_parentheses_one_cases
+U-Gl,U-Gluc,15076-3,Urine,latest_manual_cases
+U-Gl(Glukoos uriinis),U-Gluc,15076-3,Urine,latest_parentheses_two_cases
+U-Glu,U-Gluc,15076-3,Urine,latest_manual_cases
+u-gluc,U-Gluc,15076-3,Urine,latest_name_cases
+U-Glu Gl�koos,U-Gluc,15076-3,Urine,latest_manual_cases
+U-Glu(Glukoos uriinis),U-Gluc,15076-3,Urine,latest_parentheses_two_cases
+ U-Ket,U-Ket strip,59158-6,Urine,latest_semimanual_cases
+U-Ket,U-Ket strip,59158-6,Urine,latest_semimanual_cases
+u-ket,U-Ket strip,59158-6,Urine,latest_name_cases
+U-Ket Ketokehad,,50557-8,Urine,manual
+U-K(Kaalium uriinis),U-K,2828-2,Urine,latest_name_cases
+U-Kreatiniin,U-Crea,14683-7,Urine,latest_completely_manual_cases
+U-Le,U-WBC strip,58805-3,Urine,latest_manual_cases
+U-Leu,U-WBC strip,58805-3,Urine,latest_manual_cases
+u-met,U-Met,19554-5,Urine,latest_name_cases
+U-MET(metamfetamiin uriinis),U-Met,19554-5,Urine,latest_parentheses_one_cases
+U-Met(metamfetamiin uriinis),U-Met,19554-5,Urine,latest_parentheses_one_cases
+Um-HPV kõrge riski tüüpide DNA,XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+U-MOP(opiaadid uriinis),U-Mop,19295-5,Urine,latest_parentheses_one_cases
+U-Mop(opiaadid uriinis),U-Mop,19295-5,Urine,latest_name_cases
+u-mtd,U-Mtd,19550-3,Urine,latest_name_cases
+U-Mtd(metadoon uriinis),U-Mtd,19550-3,Urine,latest_name_cases
+U-Na(Naatrium uriinis),U-Na,2955-3,Urine,latest_name_cases
+ U-Nit,U-Nit strip,50558-6,Urine,latest_semimanual_cases
+U-Nit,U-Nit strip,50558-6,Urine,latest_semimanual_cases
+u-nit,U-Nit strip,50558-6,Urine,latest_parentheses_one_cases
+U-Nit Nitrit,U-Ni,34343-4,Urine,latest_manual_cases
+U-Nit(Nitritid uriinis),U-Nit strip,50558-6,Urine,latest_parentheses_one_cases
+U-OPI(Opiaadid uriinis),U-Mop,19295-5,Urine,latest_parentheses_two_cases
+U-OP(Opiaadid uriinis),U-Mop,19295-5,Urine,latest_parentheses_two_cases
+U-OXY(oksukodoon uriinis),U-Oxy,10998-3,Urine,latest_parentheses_one_cases
+U-PBG(Porfobilinogeen uriinis),U-PBG,2811-8,Urine,latest_name_cases
+u-pcp,U-PCP,3936-2,Urine,latest_name_cases
+U-PCP(fentsuklidiin uriinis),U-PCP,3936-2,Urine,latest_parentheses_one_cases
+ U-pH,U-pH strip,50560-2,Urine,latest_semimanual_cases
+U-pH,U-pH strip,50560-2,Urine,latest_semimanual_cases
+U-PPX(propoksufeen uriinis),U-PPX,19141-1,Urine,latest_parentheses_one_cases
+U-Pr,U-Prot,2888-6,Urine,latest_manual_cases
+U-Pro,U-Prot,2888-6,Urine,latest_manual_cases
+U-Prot_,U-Prot,2888-6,Urine,latest_completely_manual_cases
+U-Prot(Valk uriinis),U-Prot,2888-6,Urine,latest_parentheses_one_cases
+U-Pro Valk,U-Prot,2888-6,Urine,latest_manual_cases
+U-Pro(Valk uriinis),U-Prot,2888-6,Urine,latest_parentheses_two_cases
+U-Pr(Valk uriinis),U-Prot,2888-6,Urine,latest_parentheses_two_cases
+U-RBC Er�trots��did,U-RBC strip,57747-8,Urine,latest_manual_cases
+Uricult(aeroobnekulv),XXX-Aerobic culture,634-6,,latest_parentheses_two_cases
+Uriini ribaanaluus,U-Strip,50556-0,Urine,latest_manual_cases
+Urobilinogeen(Urobilinogeen),U-Ubg strip,60025-4,Urine,latest_parentheses_one_cases
+Urobilinogee(Urobilinogeen),U-Ubg strip,60025-4,Urine,latest_parentheses_two_cases
+U-S-Crea-Carvutuslik(kreatiniinikliirens),dU-S-Crea,2164-2,Urine+Ser/Plas,latest_parentheses_two_cases
+U-S-Crea-Cmoodetav(kreatiniinikliirens),dU-S-Crea,2164-2,Urine+Ser/Plas,latest_parentheses_two_cases
+U-Sedim,U-Sed-m panel,24356-8,Urine,latest_completely_manual_cases
+U-SG,U-SG strip,53326-5,Urine,latest_manual_cases
+U-SG Erikaal,U-SG strip,53326-5,Urine,latest_manual_cases
+U-SG(Uriini erikaal),U-SG strip,53326-5,Urine,latest_manual_cases
+u-tca,U-TCA,19312-8,Urine,latest_name_cases
+U-TCA(tritsukloantidepressandid uriinis),U-TCA,19312-8,Urine,latest_parentheses_one_cases
+u-thc,U-THC,18282-4,Urine,latest_name_cases
+U-THC(Kannabinoidid uriinis ),U-THC,18282-4,Urine,latest_parentheses_one_cases
+U-THC(kannabinoidid uriinis),U-THC,18282-4,Urine,latest_name_cases
+U-TH(Kannabinoidid uriinis ),U-THC,18282-4,Urine,latest_parentheses_two_cases
+U-UB,U-Ubg strip,60025-4,Urine,latest_manual_cases
+ U-UBG,U-Ubg strip,60025-4,Urine,latest_semimanual_cases
+U-UBG,U-Ubg strip,60025-4,Urine,latest_semimanual_cases
+u-ubg,U-Ubg strip,60025-4,Urine,latest_name_cases
+U-Ubg Urobilinogeen,U-Ubg strip,60025-4,Urine,latest_manual_cases
+U-UB(Urobilinogeen    ),U-Ubg strip,60025-4,Urine,latest_parentheses_two_cases
+U-UB(Urobilinogeen  ),U-Ubg strip,60025-4,Urine,latest_parentheses_two_cases
+U-Urea(Uurea uriinis),U-Urea,22700-9,Urine,latest_name_cases
+U-Ure(Uurea uriinis),U-Urea,22700-9,Urine,latest_parentheses_two_cases
+U-Valk/Kreatiniin Uriinis,U-Prot/U-Crea,34366-5,Urine,latest_completely_manual_cases
+U-WBC Leukots��did,U-WBC strip,58805-3,Urine,latest_manual_cases
+Vaba trijoodturoniin,"S,P-fT3",14928-6,Ser/Plas,latest_name_cases
+Vaba turoksiin,"S,P-fT4",14920-3,Ser/Plas,latest_name_cases
+Vahajad silindrid(Vahajad silindrid),U-Vahajad silindrid,41223-9,Urine,latest_parentheses_one_cases
+Vahajad silindri(Vahajad silindrid),U-Vahajad silindrid,41223-9,Urine,latest_parentheses_two_cases
+Valk/Kreatiniin Uriinis,U-Prot/U-Crea,34366-5,Urine,latest_completely_manual_cases
+Valk(Valk),U-Prot strip,50561-0,Urine,latest_parentheses_one_cases
+Val(Valk),U-Prot strip,50561-0,Urine,latest_parentheses_two_cases
+Vankomutsiin(Vankomutsiin),Is-Vancomycin,19000-9,Isolate,latest_parentheses_one_cases
+Vankomutsii(Vankomutsiin),Is-Vancomycin,19000-9,Isolate,latest_parentheses_two_cases
+WBC,B-WBC,6690-2,Bld,latest_prefix_cases
+"WBC,10^9/L",B-WBC,6690-2,Bld,latest_manual_cases
+WBC_Leukots????did,B-WBC,6690-2,Bld,latest_completely_manual_cases
+WBC Leukotsuudid,B-Wbc,6690-2,Bld,latest_manual_cases
+WBC_Leukotsüüdid,B-WBC,6690-2,Bld,latest_manual_cases
+WBC(WBC),B-WBC,6690-2,Bld,latest_parentheses_one_cases
+vB-PLT-m,B-Plt,777-3,Bld,latest_semimanual_cases
+WB(WBC),B-WBC,6690-2,Bld,latest_parentheses_two_cases
+Vitamiin B12**(Vitamiin B12**),"S,P-Vit B12",14685-2,Bld,latest_parentheses_two_cases
+VZV DN(Tuulerougeviiruse DNA),XXX-VZV DNA,11483-5,,latest_parentheses_two_cases
+xxx-avaginaedna,XXX-A vaginae DNA,69565-0,Vag,latest_name_cases
+xxx-calbicansdna,XXX-C albicans DNA,A-1567,,latest_name_cases
+xxx-ctrachomatisdna,XXX-C trachomatis DNA,21613-5,,latest_name_cases
+xxx-ctrachomatislgvdna,XXX-C trachomatis LGV DNA,A-2997,,latest_name_cases
+xxx-gvaginalisdna,XXX-G vaginalis DNA,69936-3,,latest_name_cases
+XXX-HPV high risk DNA genotüüpide DNA),XXX-HPV high risk DNA,49896-4,,latest_manual_cases
+"xxx-hsv1,2dna","XXX-HSV1,2 DNA",20444-6,,latest_name_cases
+xxx-mhominisdna,XXX-M hominis DNA,68546-1,,latest_name_cases
+xxx-ngonorrhoeaedna,XXX-N gonorrhoeae DNA,24111-7,,latest_name_cases
+xxx-uurealyticumdna,XXX-U urealyticum DNA,51988-4,,latest_name_cases

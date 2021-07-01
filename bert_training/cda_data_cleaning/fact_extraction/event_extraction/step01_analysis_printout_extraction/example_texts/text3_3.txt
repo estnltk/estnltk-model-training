@@ -1,0 +1,43 @@
+|AB0-veregrupi ja Rh(D) kinnita...| | | 
+|AB0 veregrupp|B| | 
+|RhD veregrupp|Positiivne| | 
+|Aktiveeritud osalise trombopla...|35.4|sek| 
+|Amülaas (pankreasespetsiifilin...|31|U/L| 
+|Bilirubiin seerumis|8|µmol/L| 
+|C-reaktiivne valk|<1.0|mg/L| 
+|Erütrotsütaarsete antikehade s...|Antikehi ei leidu| | 
+|Glükoos seerumis|4.8|mmol/L| 
+|Hemogramm viieosalise leukogra...| | | 
+|BASO#|0.01|E9/L| 
+|BASO%|0.1|%| 
+|EO#|0.06|E9/L| 
+|EO%|0.9|%| 
+|HCT|43.5|%| 
+|Hb|138|g/L| 
+|LYMPH#|1.74|E9/L| 
+|LYMPH%|25.8|%| 
+|MCH|30.3|pg| 
+|MCHC|317|g/L| 
+|MCV|95.4|fL| 
+|MONO#|0.45|E9/L| 
+|MONO%|6.7|%| 
+|MPV|10.0|fL| 
+|NEUT#|4.48|E9/L| 
+|NEUT%|66.5|%| 
+|P-LCR|24.1|%| 
+|PDW|11.2|fL| 
+|PLT|258|E9/L| 
+|RBC|4.56|E12/L| 
+|RDW|12.8|%| 
+|WBC|6.74|E9/L| 
+|Kaalium seerumis|4.2|mmol/L| 
+|Kreatiniin seerumis|62|µmol/L| 
+|Kusihape seerumis|175|µmol/L| 
+|Lipaas paastuseerumis|45|U/L| 
+|Naatrium seerumis|141|mmol/L| 
+|Protrombiini aeg| | | 
+|INR|1.03| | 
+|Protrombiini suhe|91.4|%| 
+|Uurea paastuseerumis|3.5|mmol/L| 
+|Uuring|07.04|Mõõtühik|   
+ 

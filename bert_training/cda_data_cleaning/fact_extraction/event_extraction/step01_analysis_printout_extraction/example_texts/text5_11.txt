@@ -1,0 +1,155 @@
+
+                                 Anamnees 11.11.2019  SIRJE REINMETS        :  Cholecystectomia tehtud 19.09.2019
+Haiglas tehtud süst : Dolmen ,Diclopgenac ,tramadol ,ühele nendest lööve ,silmad kipitasid . Penitsilliini aleergia on kindlaks tehtud . Stomatoloogil ordineeritud Zinnat ,mida võtta ei saanud 
+Käis dr. Toimi juures 23.08.2019,kes palub teha e- konsultasiooni ITKH Magdaleena üksuse allegoloogia ja immunoloogia keskusse .
+Patsiendil on palju allrdiat ,testudel leitud lõhnaainete ,peruu balsami ,kloorheksidiini ,metüülisotiasolinooni allergia . 
+Kahtlus lokaalanesteetikumide allergiale.                              
+Digiloo haigusjuhtum nr 450127308 
+Ambulatoorne epikriis nr PERH.ambepikriis.450127308 versioon 1 
+
+
+Tervishoiuasutus SA Põhja-Eesti Regionaalhaigla 
+Registreerimiskood 90006399 
+Aadress J.Sütiste 19, Tallinn, 50700 Harju, Eesti 
+Telefon 
++3726171300 
+ E-post 
+info@regionaalhaigla.ee 
+ Faks 
++3726171300 
+ 
+
+Koostaja 
+Nimi  ELINA TOIM Kood D00694  
+Eriala E330 pulmonoloogia 
+ 
+ 
+
+ 
+
+
+Patsient 
+Isikukood 44804170230 
+Eesnimi PILLE 
+Perekonnanimi KROOS 
+Sünniaeg 17.04.1948 
+Sugu naine 
+Elukoht KULLERKUPU 8-1. TALLINN 
+ 
+
+Haigusjuhtum 
+Haigusjuhtumi number 450127308 
+ 
+Saabumise viis tuli ise 
+Algus 23.08.2019 Lõpp 30.08.2019 
+
+Külastused 
+
+Visiidi kuupäev
+
+Pöördumise erakorralisus
+
+Tüüp
+
+Liik
+
+23.08.2019 1 - plaaniline 1 - visiit 1 - esmakordne 
+ 
+ 
+ 
+
+Lõplik kliiniline diagnoos 
+
+Põhihaigus   
+
+
+Diagnoos
+
+Statistiline liik
+
+Z03.8 - Jälgimine muude kahtlustatud haiguste ja seisundite suhtes    esmashaigestumine    
+ 
+ 
+ 
+
+Anamnees, diagnoosi põhjendus ja haiguse kulg  
+_ Anamnees
+  Patsiendil on palju allergiat, apl. testidel leitud lõhnaainete, Peruu balsami, metüülisotiasolinooni, kloorheksidiini allergia. . Nüüd on plaaanis maost polüüpe eemaldada, kahtlus lokaalanesteetikumide allergiale.  
+_ Diagnoosi põhjendus
+  
+_ Haiguse kulg
+  
+ 
+ 
+
+ 
+ 
+
+Analüüsid 
+ 
+
+
+Immuunmeetoditel uuringud
+
+Rerentsväärtus
+
+23.08.2019 10:49:00
+
+
+Materjal  Kas soovite, et vajadusel paneelid avatakse? jah 
+IgE ( Immuunoglobuliin E) < 100 kU/l  20.8 
+s / sp IgE inhalats.allerg.seg <0,34 -neg; 3.84 
+fx5E /sp IgE toiduall paneeli <0,34 -neg; 0.02 
+fx15 / sp IgE toiduall paneeli <0,34 -neg; 0.02 
+tx1 /sp IgE puude allerg segu  <0,34 -neg; 0.02 
+tx5 /sp IgE puude allerg segu <0,34 -neg; 0.01 
+mx1 /sp IgE hallituste allerg) <0,34 -neg; 0.05 
+t3 / sp IgE kase suhtes <0,34 -neg; 0.00 
+g6 / sp IgE timuti suhtes <0,34 -neg; 0.00 
+d1 / sp IgE Dermatophagoides p <0,34 -neg; 2.14 
+d2 / sp IgE Dermatophagoides f <0,34 -neg; 5.00 
+w6 / sp IgE puju suhtes <0,34 -neg; 0.00 
+w8 / sp IgE võilille suhtes <0,34 -neg; 0.01 
+w20 / sp IgE kõrvenõgese suht  <0,34 -neg; 0.00 
+e1 / sp IgE kassi suhtes <0,34 -neg; 0.00 
+e5 / sp IgE koera suhtes <0,34 -neg; 0.00 
+m2 / sp IgE Cladosporium herba <0,34 -neg; 0.00 
+m 5 sp IgE Candida albicans suhtes <0,34 -neg; 0.01 
+fx1 paneel toiduallergeenide suhtes <0,34 -neg; 0.02 
+S-pax6 IgE Etüleenoks.,ftaalanhüdr.,formaldehüüd,kloramiin T <0,34 KU/L -neg 0.00 
+Segu hx2: majatolm, D pteronyssinus, D farinae, prussaka IgE <0,34 kU/L 3.62 
+Segu fx2:tursa, kreveti, ranna-/jõekarbi,tuunikala, lõhe IgE <0,34 kU/L 0.01 
+Segu fx29: apelsiini, sidruni, greifruti, mandariini IgE <0,34 kU/L 0.06 
+S-i6 IgE Prussakavastane IgE seerumis <0,34 kU/L 0.05 
+S-w206 IgE Teekummeli vastane IgE seerumis <0,34 kU/L 0.00 
+S-h2 IgE Kodutolmuvastane IgE seerumis <0,34 kU/L 0.22 
+ 
+ 
+
+Kokkuvõte patsiendi ravist 
+
+ 
+ 
+ 
+
+Re_iimi ja ravialased soovitused, shtaastusraviks  
+   Leitud kodutolmulestaallergeeni IgE tõus. Muude põhiallergeenide Ige tõusu ei olnud. SA PERH töötervishoiu keskuses ravimallergia teste ei saa teha, praegu see võimalik ITKH Magdaleena üksuse allergoloogia ja immnoloogia keskuses  
+ 
+
+Dokument koostatud 30.08.2019 00:00:00 
+Dokumendi keel EST 
+Konfidentsiaalsus: 
+
+Patsiendile/Eestkostjale avatud 
+Lapsevanemale/Usaldusisikule avatud 
+Meditsiinitöötajale avatud 
+ 
+ 
+
+Vastutaja 
+Asutuse/isiku nimi SA Põhja-Eesti Regionaalhaigla 
+Kood 90006399
+ 
+                                                                        
+
+

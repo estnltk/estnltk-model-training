@@ -1,0 +1,443 @@
+dirty_unit	clean_unit
+.	.
++	+
+-	-
+0.5 - 2. 0%	0.5 - 2. 0%
+None	None
+%0	%0
+(negat/posit)	(negat/posit)
+µ/L	µ/L
+µ/ml	µ/ml
+1,2,3	1,2,3
+1:4	1:4
+1:8	1:8
+10 x10 12/L	10 x10 12/L
+10*3mik/L	10*3mik/L
+10*3mik/l	10*3mik/l
+10^/L	10^/L
+10'6mik/L	10'6mik/L
+169904248690\12/l	169904248690\12/l
+169904248690\9/l	169904248690\9/l
+gmol/L	gmol/L
+index	index
+mik/L	mik/L
+mmol/	mmol/
+�mol/L	?mol/L
+�mol/l	?mol/L
+nM	nM
+nmHg	nmHg
+normaalset 1 juhu kohta	normaalset 1 juhu kohta
+o C	o C
+pM	pM
+pudel	pudel
+xxx	xxx
+%	%
+% ; mmol/mol	%;mmol/mol
+mmol/mol(%)	%;mmol/mol
+%CV	%CV
+%NEUTR	%NEUTR
+(A)%	(A)%
+(B)%	(B)%
+(C)%	(C)%
+(D)%	(D)%
+100 WBC	/100 WBC
+100/WBC	/100 WBC
+n/100 WBC	/100 WBC
+/100 leuk	/100 WBC
+/100 leuko	/100 WBC
+/100 WBC	/100 WBC
+/100WBC	/100 WBC
+/100/L	/100L
+/nL	/nL
+/pL	/pL
+/µL	/uL
+/uL	/uL
+/ul	/uL
+mikroliitris	/uL
+x/ul	/uL
+/vv	/vv
+%o	‰
+‰	‰
+o/oo	‰
+promill	‰
+10 %	10 %
+10 g/l	10 g/L
+10g/l	10 g/L
+10 IU/l	10 IU/L
+10 l	10 L
+10 ng/ml	10 ng/mL
+10 U/l	10 U/L
+x10µl	10 uL
+10*12/	10E12
+*10E12/l	10E12/L
+10 ^12/ L	10E12/L
+10 12 /l	10E12/L
+10 12/l	10E12/L
+10*12/L	10E12/L
+10*12/l	10E12/L
+10\12/L	10E12/L
+10\12/l	10E12/L
+10^12/L	10E12/L
+10^12/l	10E12/L
+10E12/l	10E12/L
+10e12/L	10E12/L
+10x12/l	10E12/L
+x10 12/L	10E12/L
+x10*12/L	10E12/L
+x10^12/l	10E12/L
+10^12/mikrol	10E12/uL
+*10³/µl	10E3/uL
+10 3/uL	10E3/uL
+10e3/uL	10E3/uL
+10^3/uL	10E3/uL
+10*3 µl	10E3/uL
+x10^3 µl	10E3/uL
+x1000/uL	10E3/uL
+x1000/ul	10E3/uL
+10*6	10E6
+x10/6	10E6
+x 10x6 rakku/l	10E6 r/L
+× 106/l	10E6/L
+10*6/l	10E6/L
+10^6/L	10E6/L
+10^6/l	10E6/L
+106/l	10E6/L
+x10\6/L	10E6/L
+x10\6/l	10E6/L
+x10^6/l	10E6/L
+x10E6/l	10E6/L
+10^6/mikrol	10E6/uL
+10*6 µl	10E6/uL
+x10^6 µl	10E6/uL
+x10 milj	10E7
+x10 milj/ml	10E7/mL
+X 10(sup)9	10E9
+10*9 g/L	10E9 g/L
+x10^9 l	10E9 L
+*10E9/l	10E9/L
+10 ^9 /L	10E9/L
+10 9 /l	10E9/L
+10 9/L	10E9/L
+10 9/l	10E9/L
+10*9/L	10E9/L
+10*9/l	10E9/L
+10\9/L	10E9/L
+10\9/l	10E9/L
+10\9l	10E9/L
+10^9/L	10E9/L
+10^9/l	10E9/L
+10E9/l	10E9/L
+10e9/L	10E9/L
+10x 9/L	10E9/L
+10x9/l	10E9/L
+Nx10^9/l	10E9/L
+x 10 9/L	10E9/L
+x10 E9/l	10E9/L
+x10*9/L	10E9/L
+x10\9/L	10E9/L
+x109/l	10E9/L
+x10^9/l	19E9/L
+ööpäeva	24h
+AU	AU
+arb.unit/l	AU/L
+arv/ul	AU/mL
+AU/ml	AU/mL
+BTU	BTU
+BU	BU
+C	C
+deg	C
+graad C	C
+CH50 U Eq/ml	CH50 U Eq/mL
+cm	cm
+COI	COI
+COl	COI
+Copies/ml	copies/mL
+copies/mL	copies/mL
+copies/ml	copies/mL
+koopiat/mL	copies/mL
+koopiat/ml	copies/mL
+DU	DU
+EIU	EIU
+EiU	EIU
+EIÜ	EIU
+EliA U/ml	EliA U/mL
+ENA unit	ENA unit
+ENA ühik	ENA unit
+er/µ/l	er/uL
+er/µl	er/uL
+Er/uL	er/uL
+Er/ul	er/uL
+er/ul	er/uL
+Ery/mikroL	er/uL
+Ery/uL	er/uL
+Ery/ul	er/uL
+ery/ul	er/uL
+f/L	fL
+fL	fL
+fl	fL
+g	g
+g/	g
+g/24	g/24h
+g/24 t	g/24h
+g/24h	g/24h
+g/24t	g/24h
+g/D	g/24h
+g/cm³	g/cm3
+g/dL	g/dL
+g/dl	g/dL
+g/g	g/g
+G/L	g/L
+g/L	g/L
+g/l	g/L
+?g/mL	g/mL
+g/mol Kreat	g/mol kreat
+GPL-U/ml	GPL U/mL
+h	h
+HLA-B*-tüübid	HLA-B*-tüübid
+INR	INR
+IU	IU
+lU	IU
+IU/L	IU/L
+IU/l	IU/L
+lu/L	IU/L
+IU/mL	IU/mL
+IU/ml	IU/mL
+iu/ml	IU/mL
+lU/ml	IU/mL
+IU/mL=EASTklass	IU/mL=EASTklass
+IU/ml=EASTklass	IU/mL=EASTklass
+kg	kg
+kg/L	kg/L
+kg/l	kg/L
+kIU/L	kIU/L
+kIU/l	kIU/L
+korda	korda
+kU/i	kU/L
+KU/L	kU/L
+kU/L	kU/L
+kU/l	kU/L
+kvalitatiivne test	kvalitatiivne test
+L	L
+l	L
+L/L	L/L
+Leu/mikroL	leu/uL
+Leu/uL	leu/uL
+Leu/ul	leu/uL
+Leuk/uL	leu/uL
+lk/µ/l	leu/uL
+lk/µl	leu/uL
+lk/ul	leu/uL
+mg	mg
+mg %	mg %
+mg Alb/mmol Cre	mg alb/mmol kreat
+mg/mmol Cr	mg alb/mmol kreat
+mg/mmol K	mg alb/mmol kreat
+mg/24 t	mg/24h
+mg/24h	mg/24h
+mg/24 h	mg/24h
+mg/24t	mg/24h
+mg/d	mg/24h
+mg/dL	mg/dL
+mg/dl	mg/dL
+mg/L	mg/L
+mg/l	mg/L
+mg-L	mg/L
+mg/L FEU	mg/L FEU
+mg/l FEU	mg/L FEU
+mg/ml	mg/mL
+mg/ mmol	mg/mmol
+mg/mmol	mg/mmol
+milj/mL	milj/mL
+min	min
+mIU/L	mIU/L
+mIU/l	mIU/L
+mlU/L	mIU/L
+mlU/l	mIU/L
+mIU/mL	mIU/mL
+mIU/ml	mIU/mL
+mlU/ml	mIU/mL
+ml	mL
+mL/min	mL/min
+ml/min	mL/min
+ml/min/1,73 m2	mL/min/1.73 m2
+mL/min/1,73m2	mL/min/1.73 m2
+ml/min/1,73m2	mL/min/1.73 m2
+ml/min/1.73m*2	mL/min/1.73 m2
+mL/min1,73m3	mL/min/1.73 m2
+mm	mm
+mM	mm Hg
+mm Hg	mm Hg
+mm/Hg	mm Hg
+mmHg	mm Hg
+mm/h	mm/h
+mm/t	mm/h
+mmol	mmol
+mmol/24 h	mmol/24h
+mmol/24t	mmol/24h
+mmol/D	mmol/24h
+mmol/d	mmol/24h
+mmol/day	mmol/24h
+mmol/g Crea	mmol/g kreat
+mmol/kg	mmol/kg
+mmol/kg/24h	mmol/kg/24h
+mmo/l	mmol/L
+mmol/L	mmol/L
+mmol/l	mmol/L
+mmolL	mmol/L
+mmol/ml	mmol/mL
+mmol/mmol	mmol/mmol
+mmol/mol	mmol/mol
+MoM	MoM
+mOsm/kg	mOsm/kg
+mOsmol/kg	mOsm/kg
+mosm/kg H2O	mOsm/kg H2O
+Mosm/kgH2O	mOsm/kg H2O
+mosm/kgH2O	mOsm/kg H2O
+mosmol/kg H2O	mOsm/kg H2O
+mU/L	mU/L
+mU/l	mU/L
+mu/l	mU/L
+mU/mL	mU/mL
+mU/ml	mU/mL
+ng FEU/ml	ng FEU/mL
+ngFEU/ml	ng FEU/mL
+ng/dL	ng/dL
+ng/dl	ng/dL
+ng/L	ng/L
+ng/l	ng/L
+nanog/ml	ng/mL
+ng/mL	ng/mL
+ng/ml	ng/mL
+ng/mL/h	ng/mL/h
+ng/ml/h	ng/mL/h
+nmol/24h	nmol/24h
+nmol/d	nmol/24h
+nmol/L	nmol/L
+nmol/l	nmol/L
+Normitud suhe	norm suhe
+pg	pg
+pg/mL	pg/mL
+pg/ml	pg/mL
+pH	pH
+pmol/L	pmol/L
+pmol/l	pmol/L
+PMÜ/ml	PR/mL
+PR/mL	PR/mL
+PR/ml	PR/mL
+r/uL	r/uL
+rakku/µl	r/uL
+rakku/uL	r/uL
+rakku/ul	r/uL
+r/vv	r/vv
+rakku / vaateväli	r/vv
+rakku vaateväljas	r/vv
+rakku/vv	r/vv
+s/vv	r/vv
+RU	RU
+RU/mL	RU/mL
+RU/ml	RU/mL
+S/CO	S/CO
+s	sek
+sek	sek
+sek.	sek
+Ratio	suhe
+Suhe(Ratio)	suhe
+suhtarv	suhtarv
+tiiter	tiiter
+U	U
+U / L	U/L
+U/I	U/L
+U/L	U/L
+U/l	U/L
+u/L	U/L
+u/l	U/L
+u\l	U/L
+ü/l	U/L
+U/ mL	U/mL
+U/mL	U/mL
+U/ml	U/mL
+u/ml	U/mL
+U7ml	U/mL
+µg/24h	ug/24h
+µg/24t	ug/24h
+mikrog/24h	ug/24h
+mkg/24h	ug/24h
+ug/24t	ug/24h
+µg/dl	ug/dL
+mikrg/dl	ug/dL
+µg/g	ug/g
+mikg/g	ug/g
+mikrogr/gr	ug/g
+ug/g	ug/g
+µg/L	ug/L
+µg/l	ug/L
+mikg/L	ug/L
+mikrg/L	ug/L
+mikrog/l	ug/L
+mikrogr./l	ug/L
+mikrogr/l	ug/L
+mkg/L	ug/L
+mkg/l	ug/L
+ug/L	ug/L
+ug/l	ug/L
+µg/mL	ug/mL
+µg/ml	ug/mL
+mikg/ml	ug/mL
+mikrog/mL	ug/mL
+mikrog/ml	ug/mL
+mikrogr/ml	ug/mL
+mkg/ml	ug/mL
+ug/mL	ug/mL
+ug/ml	ug/mL
+µgE1/g stool	ugE1/g stool
+ug E1/g faeces	ugE1/g stool
+mikIU/l	uIU/L
+µIU/ml	uIU/mL
+mikrlU/ml	uIU/mL
+mikroIU/ml	uIU/mL
+uIU/ml	uIU/mL
+µl	uL
+µl/l	uL/L
+mikrol/l	uL/L
+ul/ml	uL/mL
+um/d	um/24h
+µmol/24h	umol/24h
+mcmol/24h	umol/24h
+umol/24 h	umol/24h
+umol/24h	umol/24h
+umol/d	umol/24h
+µmol/L	umol/L
+µmol/l	umol/L
+µmol/l	umol/L
+mikm/L	umol/L
+mikmol/L	umol/L
+mikmol/l	umol/L
+mikrmol/l	umol/L
+mikrmol/L	umol/L
+mikromol/ l	umol/L
+mikromol/L	umol/L
+mikromol/l	umol/L
+mkmol/L	umol/L
+mkmol/l	umol/L
+Umol/l	umol/L
+umol/L	umol/L
+umol/l	umol/L
+urmol/l	umol/L
+µU/ml	uU/mL
+uU/ml	uU/mL
+w/h	w/h
+valku	valku
+VE	VE
+VIEU/ml	VIEU/mL
+VMÜ/ mL	VMÜ/mL%
+mahu%	vol%
+Vol%	vol%
+v/v	vv
+vv	vv
+µl	uL
+°C	C
+mL/min1,73m³ mL/min1,73m3
+x10^9 l	10E9/L
+x10^9/l	10E9/L
+
+

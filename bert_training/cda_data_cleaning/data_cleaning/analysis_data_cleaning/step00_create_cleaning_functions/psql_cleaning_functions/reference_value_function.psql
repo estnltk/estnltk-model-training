@@ -1,0 +1,34 @@
+SET ROLE {role};
+
+create or replace function {schema}.clean_reference_value(reference_value_raw text)
+returns text
+as
+$body$
+declare
+reference_value varchar;
+is_range boolean;
+begin
+        if reference_value_raw ~ '^[-]+$' or reference_value_raw = 'NaN' or reference_value_raw = ' '
+         then return null; end if;
+        
+        if reference_value_raw is not null then
+        
+            --removes repeating white spaces
+            reference_value := upper(trim(regexp_replace(reference_value_raw, '\s+', ' ', 'g')));
+        
+            reference_value := replace(reference_value, '›', '>');
+            reference_value := replace(reference_value, '‹', '<');
+        
+            if(reference_value like '%ANONYM%') then
+                reference_value := regexp_replace(reference_value, '<ANONYM(.*)/>', '<ANONYM>'); end if;
+        
+            is_range := is_range(reference_value);
+            if is_range is True then reference_value := match_range(reference_value); end if;
+        
+            return reference_value;
+        end if;
+        
+        return null;
+end
+$body$
+language plpgsql;

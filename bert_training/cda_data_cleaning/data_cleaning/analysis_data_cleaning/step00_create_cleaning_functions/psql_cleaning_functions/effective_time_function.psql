@@ -1,0 +1,39 @@
+SET ROLE {role};
+
+create or replace function {schema}.clean_effective_time(effective_time_raw text)
+returns timestamp
+as
+$body$
+declare
+begin
+	if effective_time_raw ~ '^\d{{4}}\d{{2}}\d{{2}}\d{{2}}\d{{2}}\d{{2}}$' then
+	    return to_timestamp(effective_time_raw, 'YYYYMMDDHH24MISS'); end if;
+	if effective_time_raw ~ '^\d{{4}}\d{{2}}\d{{2}}\d{{2}}\d{{2}}$' then
+	    return to_timestamp(effective_time_raw, 'YYYYMMDDHH24MI'); end if;
+	if effective_time_raw ~ '^\d{{4}}\d{{2}}\d{{2}}$' then 
+	    return to_date(effective_time_raw, 'YYYYMMDD'); end if;
+	if effective_time_raw ~ '^\d{{2}}\.\d{{2}}\.\d{{4}}$' then
+	    return to_date(effective_time_raw, 'DD MM YYYY'); end if;
+	if effective_time_raw ~ '^\d{{1}}\.\d{{2}}\.\d{{4}}$' then
+	    return to_date(effective_time_raw, 'DD MM YYYY'); end if;
+	if effective_time_raw ~ '^\d{{4}}\.\d{{2}}\.\d{{2}}$' then
+	    return to_date(effective_time_raw, 'YYYY MM DD'); end if;
+	if effective_time_raw ~ '^\d{{4}}-\d{{2}}-\d{{2}} \d{{2}}:\d{{2}}:\d{{2}}$' then 
+	    return to_timestamp(effective_time_raw, 'YYYY MM DD HH24:MI:SS'); end if;
+	if effective_time_raw ~ '^\d{{2}}\.\d{{2}}\.\d{{4}} \d{{2}}:\d{{2}}:\d{{2}}$' then
+         return to_timestamp(effective_time_raw, 'DD MM YYYY HH24:MI:SS'); end if;
+	if effective_time_raw ~ '^\d{{2}}\.\d{{2}}\.\d{{4}} \d{{2}}:\d{{2}}$' then
+         return to_timestamp(effective_time_raw, 'DD MM YYYY HH24:MI'); end if;
+	if effective_time_raw ~ '^\d{{2}}\.\d{{2}}\.\d{{2}} \d{{2}}:\d{{2}}$' then
+         return to_timestamp(effective_time_raw, 'DD MM YY HH24:MI'); end if;
+	if effective_time_raw ~ '^\d{{2}}\.\d{{2}}$' then
+	    return to_timestamp(effective_time_raw, 'DD MM'); end if;
+	if effective_time_raw ~ '^\d{{2}}\.\d{{2}}\.\d{{2}}$' then
+	    return to_date(effective_time_raw, 'DD MM YY'); end if;
+	return null;
+	exception
+	when others then
+        return NULL;
+	end
+$body$
+language plpgsql;

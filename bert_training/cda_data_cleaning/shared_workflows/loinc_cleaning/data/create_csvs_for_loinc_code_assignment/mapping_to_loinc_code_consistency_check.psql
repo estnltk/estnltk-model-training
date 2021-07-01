@@ -1,0 +1,39 @@
+--psql -a --host=p12.stacc.ee --dbname=egcut_epi --file=mapping_to_loinc_code_consistency_check.psql 2>&1 | tee create_mappings_to_loinc_codes_consistency_log.log
+--DO $$
+--begin
+select * from
+  (select parameter_name, array_agg(distinct loinc_code) as loincs
+   from analysiscleaning.elabor_parameter_name_to_loinc_mapping
+    group by parameter_name) as e
+where array_length(e.loincs, 1) > 1;
+--raise notice 'Multiple mappings:';
+--end;
+--$$;
+
+-- pole ühtegi mitesust
+
+select * from
+  (select parameter_name, t_yhik, array_agg(distinct loinc_code) as loincs
+   from analysiscleaning.elabor_parameter_name_parameter_unit_to_loinc_mapping
+    group by parameter_name, t_yhik) as e
+where array_length(e.loincs, 1) > 1;
+-- pole ühtegi mitesust
+
+select * from
+  (
+    select parameter_name, array_agg(distinct (t_lyhend)), array_agg(distinct evidence), array_agg(distinct loinc_code) as loincs
+    from analysiscleaning.parameter_name_to_loinc_mapping
+    group by parameter_name
+  ) as e
+where array_length(e.loincs, 1) > 1;
+-- pole enam mitmesusi
+
+
+select * from
+  (
+    select parameter_name, parameter_unit, array_agg(distinct loinc_code) as loincs, array_agg(distinct evidence)
+    from analysiscleaning.predefined_csvs_parameter_name_parameter_unit_to_loinc_mapping
+    group by parameter_name, parameter_unit
+  ) as e
+where array_length(e.loincs, 1) > 1;
+-- 1 mitmesus!

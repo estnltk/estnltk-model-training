@@ -1,0 +1,15 @@
+WBC 11.12 (3,5 .. 8,8 E9/L )
+RBC 4.69 (4,2 .. 5,7 E12/L )
+HGB 135 (134 .. 170 g/L )
+HCT 41 (40 .. 50 % )
+PLT 248 (145 .. 390 E9/L )
+S,P-Glükoos 5.1 (mmol/L )
+S,P-Uurea 7.4 (<11.9 mmol/L )
+
+S,P-CRP 56 (<5 mg/L )
+S,P-Na 141 (136 .. 145 mmol/L )
+
+S,P-K 5.2 (3.5 .. 5.1 mmol/L )
+
+Glomerulaarfiltratsiooni kiirus (eGFR) 99 (>90 mL/min/1.73m2 )
+S,P-Kreatiniin 72 (62 .. 106 µmol/L )

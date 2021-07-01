@@ -1,0 +1,75 @@
+analysis_name,parameter_unit,t_lyhend,loinc_code,substrate,evidence
+Albumiini Ja Kreatiniini Suhe,mg/d,dU-Alb,14956-7,Urine,manual_cases
+Albumiini Ja Kreatiniini Suhe Uriinis,mg/mmol,U-Alb/U-Crea,30000-4,Urine,manual_cases
+Albumiini-Kreatiniini Suhe,mg/mmol,U-Alb/U-Crea,30000-4,Urine,manual_cases
+Albumiini-Kreatiniini Suhe Uriinis,mg/L,U-Alb,14957-5,Urine,manual_cases
+Albumiini-Kreatiniini Suhe Uriinis,mg/mmol,U-Alb/U-Crea,30000-4,Urine,manual_cases
+Albumiini-Kreatiniini Suhe Uriinis,mmol/L,U-Crea,14683-7,Urine,manual_cases
+Albumiin/Kreatiniin Uriinis,g/mol,U-Alb/U-Crea,30000-4,Urine,manual_cases
+Albumiin/Kreatiniin Uriinis,mgalb/mmol kreat,U-Alb/U-Crea,30000-4,Urine,manual_cases
+Albumiin/Kreatiniin Uriinis,mg/d,dU-Alb,14956-7,Urine,manual_cases
+Albumiin/Kreatiniin Uriinis,mg/L,U-Alb,14957-5,Urine,manual_cases
+Albumiin/Kreatiniin Uriinis,mg/mmol,U-Alb/U-Crea,30000-4,Urine,manual_cases
+Albumiin/Kreatiniin Uriinis,mmol/L,U-Crea,14683-7,Urine,manual_cases
+Albumiin (Kõrgtundlik),g/L,"S,P-Alb-hs",1751-7,Ser/Plas,manual_cases
+Albumiin Liikvoris,mg/L,CSF-Alb,1746-7,CSF,manual_cases
+Albumiin Pleuravedelikus,g/L,PlrF-Alb,1748-3,Plr fld,manual_cases
+Albumiin Seerumis,g/L,"S,P-Alb",61151-7,Ser/Plas,manual_cases
+Albumiin Seerumis/Plasmas,g/L,"S,P-Alb",61151-7,Ser/Plas,manual_cases
+Albumiin Uriinis,mg/L,U-Alb,14957-5,Urine,manual_cases
+Albumiin Uriinis ( Mikroalbumiin ),mg/L,U-Alb,14957-5,Urine,manual_cases
+Albumiin Ööpäevases Uriinis,mg/d,dU-Alb,14956-7,Urine,manual_cases
+Albumiin Ööpäevases Uriinis,mg/L,U-Alb,14957-5,Urine,manual_cases
+Egfr (Ckd-Epi),mL/min/1.73m2,eGFR (CKD-EPI),62238-1,Ser/Plas,manual_cases
+Egfr (Ckd-Epi),ml/min/1.73m2,eGFR (CKD-EPI),62238-1,Ser/Plas,manual_cases
+"Egfr (Ckd-Epi, Poct)",mL/min/1.73m2,"eGFR (CKD-EPI, POCT)",A-4823,,manual_cases
+"Egfr (Crea, Ckd-Epi)",mL/min/1.73m2,eGFR (CKD-EPI),62238-1,Ser/Plas,manual_cases
+"Egfr (Crea, Ckd-Epi)",ml/min/1.73m2,eGFR (CKD-EPI),62238-1,Ser/Plas,manual_cases
+"Egfr (Crea, Ckd-Epi, Poct)",mL/min/1.73m2,"eGFR (CKD-EPI, POCT)",A-4823,,manual_cases
+"Egfr (Cysc, Ckd-Epi)",mL/min/1.73m2,eGFR (CKD-EPI),62238-1,Ser/Plas,manual_cases
+Egfr Hinnanguline Glomerulaarfiltratsiooni Kiirus,mL/min/1.73m2,eGFR,33914-3,Ser/Plas,manual_cases
+Egfr (Mdrd),mL/min/1.73m2,eGFR,33914-3,Ser/Plas,manual_cases
+Egfr (Mdrd):,mL/min/1.73m2,eGFR,33914-3,Ser/Plas,manual_cases
+Fs-Crea:,umol/L,"S,P-Crea",14682-9,Ser/Plas,manual_cases
+Hinnangulina Glomerulaarfiltratsiooni Kiirus(Egfr),mL/min/1.73m2,eGFR,33914-3,Ser/Plas,manual_cases
+Hinnanguline Glomerulaarfiltratsiooni Kiirus,mL/min/1.73m2,eGFR,33914-3,Ser/Plas,manual_cases
+Hinnanguline Glomerulaarfiltratsiooni Kiirus (Ckd-Epi),ml/min/1.73m2,eGFR (CKD-EPI),62238-1,Ser/Plas,manual_cases
+Hinnanguline Glomerulaarfiltratsiooni Kiirus (Egrf),mL/min/1.73m2,eGFR,33914-3,Ser/Plas,manual_cases
+Hinnanguline Glomerulaarfiltratsooni Kiirus (Mdrd),mL/min/1.73m2,eGFR,33914-3,Ser/Plas,manual_cases
+Kreatiniin,mL/min/1.73m2,eGFR,33914-3,Ser/Plas,manual_cases
+Kreatiniin,umol/L,"S,P-Crea",14682-9,Ser/Plas,manual_cases
+Kreatiniin:,umol/L,"S,P-Crea",14682-9,Ser/Plas,manual_cases
+Kreatiniin Dialüüsivedelikus,umol/L,pDiaF-Crea,14681-1,Dial fld prt,manual_cases
+Kreatiniin /Egfr,mL/min/1.73m2,eGFR,33914-3,Ser/Plas,manual_cases
+Kreatiniin /Egfr,umol/L,"S,P-Crea",14682-9,Ser/Plas,manual_cases
+Kreatiniini Grupp,mL/min/1.73m2,eGFR,33914-3,Ser/Plas,manual_cases
+Kreatiniini Grupp,umol/L,"S,P-Crea",14682-9,Ser/Plas,manual_cases
+Kreatiniini Kinaasi Mb Isoensüümi Mass Plasmas,ug/L,"S,P-CK-MBm",13969-1,Ser/Plas,manual_cases
+"Kreatiniinikliirens (1,73 M2)",mL/min/1.73m2,"dU-S-Crea (1,73 m2)",12195-4,Urine+Ser/Plas,manual_cases
+Kreatiniin Ja Egfr Seerumis,"mL/min1,73m³",eGFR,33914-3,Ser/Plas,manual_cases
+Kreatiniin Ja Egfr Seerumis,umol/L,"S,P-Crea",14682-9,Ser/Plas,manual_cases
+Kreatiniin Ja Hinnanguline Glomerulaarfiltratsiooni Kiirus,mL/min/1.73m2,eGFR,33914-3,Ser/Plas,manual_cases
+Kreatiniin Ja Hinnanguline Glomerulaarfiltratsiooni Kiirus,umol/L,"S,P-Crea",14682-9,Ser/Plas,manual_cases
+Kreatiniin Kinaasi Mb Isoensüümi Mass,ng/mL,"S,P-CK-MBm",13969-1,Ser/Plas,manual_cases
+Kreatiniin Kinaasi Mb Isoensüümi Mass Seerumis/Plasmas,ng/mL,"S,P-CK-MBm",13969-1,Ser/Plas,manual_cases
+Kreatiniin Peritoneaaldialüüsivedelikus,umol/L,pDiaF-Crea,14681-1,Dial fld prt,manual_cases
+Kreatiniin (Poct),umol/L,B-Crea (POCT),59826-8,Bld,manual_cases
+Kreatiniin Seerumis/Plasmas,mL/min/1.73m2,eGFR,33914-3,Ser/Plas,manual_cases
+Kreatiniin Seerumis/Plasmas,umol/L,"S,P-Crea",14682-9,Ser/Plas,manual_cases
+Kreatiniin Uriinis,mmol/L,U-Crea,14683-7,Urine,manual_cases
+Kreatiniin Uriinis,umol/L,U-Crea,14683-7,Urine,manual_cases
+Mikroalbumiin,mg/L,U-Alb,14957-5,Urine,manual_cases
+Mikroalbumiin Nefelomeetriliselt,mg/L,U-Alb,14957-5,Urine,manual_cases
+Mikroalbumiin U,mg/L,U-Alb,14957-5,Urine,manual_cases
+Mikroalbuminuri,mg/L,U-Alb,14957-5,Urine,manual_cases
+Mikroalbuminuur,mg/mmol,U-Alb/U-Crea,30000-4,Urine,manual_cases
+Prealbumiin,g/L,"S,P-PreAlb",14338-8,Ser/Plas,manual_cases
+S-Crea:,umol/L,"S,P-Crea",14682-9,Ser/Plas,manual_cases
+S-Crea (Egfr),mL/min/1.73m2,eGFR,33914-3,Ser/Plas,manual_cases
+S-Crea (Egfr),umol/L,"S,P-Crea",14682-9,Ser/Plas,manual_cases
+S-Kreatiniin,umol/L,"S,P-Crea",14682-9,Ser/Plas,manual_cases
+U-Albumiin/Kreatiniin Uriinis,mg/L,U-Alb,14957-5,Urine,manual_cases
+U-Albumiin Ööpäevases Uriinis,mg/L,U-Alb,14957-5,Urine,manual_cases
+U-Crea,mmol/L,U-Crea,14683-7,Urine,manual_cases
+U-Prot/U-Creat,mmol/L,U-Crea,14683-7,Urine,manual_cases
+Valk/Kreatiniin Uriinis,g/mol,U-Prot/U-Crea,34366-5,Urine,manual_cases

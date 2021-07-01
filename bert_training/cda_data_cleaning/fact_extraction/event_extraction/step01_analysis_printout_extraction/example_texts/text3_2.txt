@@ -1,0 +1,52 @@
+19.03.2014 07:38 - <ANONYM id="0" type="per" morph="_H_ sg n"/>, <ANONYM id="1" type="per" morph="_H_ sg n"/> - D05842 - E340 - radioloogiaKompuutertomograafiaKT kõhust ja vaagnastTeostatud: 18.03.2014 12:16Tellimuse vastus nr: 14-77618-1Kliinilised andmed: Ca prost.Uuritud kõht (üla- ja keskkõht) natiivis 7975; 7976; kael, kopsud, mediastiinum, rindkere, kõht (üla- ja keskkõht), vaagen kontrastainega parenhümatoosses faasis; lülisamba kaela-, rinna- ja nimmeosa 7978; 7979x9.Uuringu eelselt pt.-le antud per/os k/a lahust 45 min. jooksul - 20 ml Ultravist 370 lahjendatuna 1l vees.Kontrastaine: Sol. Ultravist 370 85ml i/v boolusena 3,0ml/s  Mediastiinumi vaskulaarsed struktuurid iseärasusteta.Pehmekoelist lisamassi ega patoloogiliselt suurenenud lümfisõlmi ei sedasta.Hiilustes lisamassi ega suurenenud lümfisõlmi esile ei tule. Vaskulaarsed struktuurid iseärasusteta.Bronhovaskulaarne joonis on mõlemas kopsus iseärasusteta. Koldelist, alveolaarset varjustust kopsudes esile ei tule.Rindkereseina pehmed koed patoloogiata.Luudes nähtavas osas destruktiivseid muutuseid ei sedasta.Aksillaarsel patoloogiliselt suurenenud lümfisõlmi ei sedasta.Maksa tihedus normis, kontrasteerumine iseärasusteta, koldelisi muutusi ei sedasta. Sapiteed laienenud ei ole.Pankreas normaalse suuruse ja struktuuriga. Pankrease kontrasteerumine ühtlane. Koldelist muutust ei sedasta. Ductus pancreaticus laienenud ei ole.Põrna suurus normis, struktuur ühtlane, kontrasteerumine iseärasusteta. Mõlemad neerupealised normaalse suuruse ja kujuga.Mõlemad neerud normaalse suuruse ja asetusega. Parenhüümi kontrasteerumine ühtlane. Neeruvaagnad laienenud ei ole. Neerudes konkremente esile ei tule.Kõhuaordi läbimõõt normis, kontrasteerumine ühtlane. Alumine õõnesveen normaalse läbimõõduga; kontrasteerumine normipärane.Paraaortaalsel patoloogiliselt suurenenud lümfisõlmi ei sedasta.Luudes nähtavas osas destruktiivseid muutuseid esile ei tule.  Prostataloozhis lisamssi ega suurenenud l/s ei ole. Vaba vedelikku väikevaagnas ei leia. Lülisamba kaelaosas väljenunud spondüloartrootilsied muutused. Kiirgusdoos 1512 DLP mGy*cm. Arvamus/Soovitused: Stabiilne seisund, Mts-e ega retsitiivtuumorit ei leia. 
+   
+|Uuring|18.03|Mõõtühik| 
+|Aeroobide uuring|Puudub aeroobne kasv| | 
+|C-reaktiivne valk seerumis/plasmas|2.9|mg/L| 
+|Glükoos seerumis/plasmas|6.2|mmol/L| 
+|Hemogramm viieosalise leukogrammiga| | | 
+|BASO#|0.04|E9/L| 
+|BASO%|0.5|%| 
+|EO#|0.13|E9/L| 
+|EO%|1.5|%| 
+|HCT|42.7|%| 
+|Hb|145|g/L| 
+|LYMPH#|2.51|E9/L| 
+|LYMPH%|29.7|%| 
+|MCH|31.0|pg| 
+|MCHC|340|g/L| 
+|MCV|91.2|fL| 
+|MONO#|0.67|E9/L| 
+|MONO%|7.9|%| 
+|MPV|11.2|fL| 
+|NEUT#|5.09|E9/L| 
+|NEUT%|60.4|%| 
+|P-LCR|35.5|%| 
+|PDW|14.1|fL| 
+|PLT|175.0|E9/L| 
+|RBC|4.68|E12/L| 
+|RDW|15.1|%| 
+|WBC|8.44|E9/L| 
+|Kaalium seerumis|4.6|mmol/L| 
+|Kolesterool seerumis|4.1|mmol/L| 
+|Kreatiniin seerumis/plasmas|93|µmol/L| 
+|Naatrium seerumis/plasmas|144|mmol/L| 
+|Prostataspetsiifiline antigeen seerumis|0.054|µg/L| 
+|Protrombiini aeg| | | 
+|INR|0.99| | 
+|Protrombiini suhe|101.6|%| 
+|Testosteroon seerumis|3.09|nmol/L| 
+|Uriini ribaanalüüs| | | 
+|Bilirubiin uriinis|NEG| | 
+|Erikaal|1.015| | 
+|Erütrotsüüdid|NEG| | 
+|Glükoos|NEG| | 
+|Ketokehad|NEG| | 
+|Leukotsüüdid|NEG| | 
+|Nitrit|NEG| | 
+|Urobilinogeen|NEG| | 
+|Valk|NEG| | 
+|pH uriinis|5.0| | 
+|Uurea paastuseerumis/paastuplasmas|5.4|mmol/L| 
+|Uuring|18.03|  
+ 

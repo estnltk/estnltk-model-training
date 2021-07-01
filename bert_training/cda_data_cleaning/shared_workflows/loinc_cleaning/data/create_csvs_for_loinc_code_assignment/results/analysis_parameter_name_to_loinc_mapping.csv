@@ -1,0 +1,1074 @@
+analysis_name,parameter_name,t_lyhend,loinc_code,substrate,evidence
+24356-8 Uriini Sademe Mikroskoopia,1756-6 Liikvori- ja seerumialbumiini suhe,CSF-Alb/S-Alb,1756-6,Plas+CSF,manual
+3-diffiga vere automaatuuring,B-Hct:,B-Hct,4544-3,Bld,manual
+3-diffiga vere automaatuuring,B-Hgb:,B-Hb,718-7,Bld,manual
+3-diffiga vere automaatuuring,B-Mono-%:,B-Mono%,5905-5,Bld,manual
+3-diffiga vere automaatuuring,B-Mono-arv:,B-Mono#,742-7,Bld,manual
+3-diffiga vere automaatuuring,B-PLT:,B-Plt,777-3,Bld,manual
+3-diffiga vere automaatuuring,B-RBC:,B-RBC,789-8,Bld,manual
+3-diffiga vere automaatuuring,B-WBC:,B-WBC,6690-2,Bld,manual
+3-diffiga vere automaatuuring,E-MCH:,B-MCH,785-6,Bld,manual
+3-diffiga vere automaatuuring,E-MCHC:,B-MCHC,786-4,Bld,manual
+3-diffiga vere automaatuuring,E-MCV:,B-MCV,787-2,Bld,manual
+3-diffiga vere automaatuuring,MPV:,B-MPV,32623-1,Bld,manual
+3-diffiga vere automaatuuring,RDW%:,B-RDW-CV,788-0,Bld,manual
+50556-0 Uriini Ribaanalüüs,1756-6 Liikvori- ja seerumialbumiini suhe,CSF-Alb/S-Alb,1756-6,Plas+CSF,manual
+50556-0 Uriini Ribaanalüüs,24518-3 Kaltsium/kreatiniin uriinis,U-Ca/U-Crea,24518-3,Urine,manual
+50556-0 Uriini Ribaanalüüs,34354-1 Fosfaat/kreatiniin uriinis,U-P/U-Creat,34354-1,Urine,manual
+50556-0 Uriini Ribaanalüüs,34366-5 Valk/kreatiniin uriinis,U-Prot/U-Crea,34366-5,Urine,manual
+57021-8 Hemogramm 5-Osalise Leukogrammiga,1756-6 Liikvori- ja seerumialbumiini suhe,CSF-Alb/S-Alb,1756-6,Plas+CSF,manual
+57021-8 Hemogramm 5-Osalise Leukogrammiga,62238-1 eGFR,eGFR (CKD-EPI),62238-1,Ser/Plas,manual
+5-diffiga vere automaatuuring,Abs. arv Eosonofiilid:,B-Eo#,711-2,Bld,manual
+5-diffiga vere automaatuuring,B-Hct:,B-Hct,4544-3,Bld,manual
+5-diffiga vere automaatuuring,B-Hgb:,B-Hb,718-7,Bld,manual
+5-diffiga vere automaatuuring,B-PLT:,B-Plt,777-3,Bld,manual
+5-diffiga vere automaatuuring,B-RBC:,B-RBC,789-8,Bld,manual
+5-diffiga vere automaatuuring,B-WBC:,B-WBC,6690-2,Bld,manual
+5-diffiga vere automaatuuring,E-MCH:,B-MCH,785-6,Bld,manual
+5-diffiga vere automaatuuring,E-MCHC:,B-MCHC,786-4,Bld,manual
+5-diffiga vere automaatuuring,E-MCV:,B-MCV,787-2,Bld,manual
+5-diffiga vere automaatuuring,Eosinofiilid:%,B-Eo%,713-8,Bld,manual
+5-diffiga vere automaatuuring,MPV:,B-MPV,32623-1,Bld,manual
+5-diffiga vere automaatuuring,RDW%:,B-RDW-CV,788-0,Bld,manual
+Abs. arv Eosinofiilid,Abs. arv Eosinofiilid,B-Eo#,711-2,Bld,manual
+Alaniin aminotr,Alaniin aminotr,"S,P-ALAT",1744-2,Ser/Plas,manual
+Alaniin aminotransferaas seeru,Alaniin aminotransferaas seeru,"S,P-ALAT",1744-2,Ser/Plas,manual
+Alaniini aminot,Alaniini aminot,"S,P-ALAT",1744-2,Ser/Plas,manual
+Alaniini aminotransf,Alaniini aminotransf,"S,P-ALAT",1744-2,Ser/Plas,manual
+Alaniini aminotransferaas,Alaniini aminotransferaas,"S,P-ALAT",1744-2,Ser/Plas,manual
+Alaniini aminotransferaas (ALT,Alaniini aminotransferaas (ALT,"S,P-ALAT",1744-2,Ser/Plas,manual
+Alaniini aminotransferaas (GPT,Alaniini aminotransferaas (GPT,"S,P-ALAT",1744-2,Ser/Plas,manual
+Alaniini aminotransferaas seer,Alaniini aminotransferaas seer,"S,P-ALAT",1744-2,Ser/Plas,manual
+ALAT,ALAT,"S,P-ALAT",1744-2,Ser/Plas,manual
+Alb/Crea,Alb/Crea,U-Alb/U-Crea,30000-4,Urine,manual
+Alb / Kreat Suhe Uriinis,Albumiini / kreat suhe,U-Alb/U-Crea,30000-4,Urine,manual
+Albumiin, Pleuravedelikust,PlrF-Alb,1748-3,Plr fld,manual
+Albumiini ja kreatiniini suhe,Albumiini ja kreatiniini suhe,U-Alb/U-Crea,30000-4,Urine,manual
+Albumiin juhuslikus uriinis,Albumiini ja kreatiniini suhe,U-Alb/U-Crea,30000-4,Urine,manual
+Albumiin juhuslikus uriinis,Albumiini ja kreatiniini suhe HK:1111,U-Alb/U-Crea,30000-4,Urine,manual
+Albumiin Seerumis/Plasmas,61151-7,"S,P-Alb",61151-7,Ser/Plas,manual
+Albumiin uriinis,Albumiin uriinis,U-Alb,14957-5,Urine,manual
+ALP,ALP,"S,P-ALP",6768-6,Ser/Plas,manual
+ANA HEp-2,Tuumavastaste antikehade tüpiseerimine HEp-2 rakuliinil,"S,P-ANA IgG titr Hep2",33253-6,Bld,manual
+ANA IgG,ANA IgG,"S,P-ANA IgG",29950-3,Bld,manual
+ANA IgG paneel (blot,ANA IgG paneel,"S,P-ANA IgG panel IIF",L-4493,,manual
+ANA IgG paneel (blot,ANA IgG paneel HK:66715,"S,P-ANA IgG panel IIF",L-4493,,manual
+ANA IgG paneel seerumist,S-ANA IgG panel,"S,P-ANA IgG panel IIF",L-4493,,manual
+ANA IgG paneel seerumist,S-ANA_IgG_panel,"S,P-ANA IgG panel IIF",L-4493,,manual
+ANA IgG tiiter,S-ANA IgG titr,"S,P-ANA IgG titr",56634-9,Bld,manual
+ANA IgG tiiter,S-ANA_IgG_titr,"S,P-ANA IgG titr",56634-9,Bld,manual
+ANA IgG tiiter,Tuumavastase IgG tiiter,"S,P-ANA IgG titr",56634-9,Bld,manual
+ANA - Tuumavastane IgG,ANA - Tuumavastane IgG,"S,P-ANA IgG",29950-3,Bld,manual
+ANA - Tuumavastane IgG,S-ANA-Hep-2,"S,P-ANA IgG titr Hep2",33253-6,Bld,manual
+ANA tüpiseerimine (Immunoblot),S-ANA Typ,"S,P-CTD IgG panel IB",43119-7,Bld,manual
+ANA tüpiseerimine (Immunoblot),S-ANA_Typ_,"S,P-CTD IgG panel IB",43119-7,Bld,manual
+Antinukleaarsed antikehad,S-aNA,"S,P-ANA Ab",8061-4,Bld,manual
+ASAT,ASAT,"S,P-ASAT",1920-8,Ser/Plas,manual
+Aspartaadi amin,Aspartaadi amin,"S,P-ASAT",1920-8,Ser/Plas,manual
+Aspartaadi aminotran,Aspartaadi aminotran,"S,P-ASAT",1920-8,Ser/Plas,manual
+Aspartaadi aminotransferaas,Aspartaadi aminotransferaas,"S,P-ASAT",1920-8,Ser/Plas,manual
+Aspartaadi aminotransferaas (A,Aspartaadi aminotransferaas (A,"S,P-ASAT",1920-8,Ser/Plas,manual
+Aspartaadi aminotransferaas (G,Aspartaadi aminotransferaas (G,"S,P-ASAT",1920-8,Ser/Plas,manual
+Aspartaadi aminotransferaas se,Aspartaadi aminotransferaas se,"S,P-ASAT",1920-8,Ser/Plas,manual
+Autoimmuundiagnostika,S-ANA HEp-,"S,P-ANA IgG titr Hep2",33253-6,Bld,manual
+Autoimmuundiagnostika,S-ANA HEp-2,"S,P-ANA IgG titr Hep2",33253-6,Bld,manual
+Autoimmuundiagnostika,S-ANA Ig,"S,P-ANA IgG",29950-3,Bld,manual
+Autoimmuundiagnostika,S-ANA IgG,"S,P-ANA IgG",29950-3,Bld,manual
+Autoimmuunuuringud,ANA - Tuumavastane IgG,"S,P-ANA IgG",29950-3,Bld,manual
+Autoimmuunuuringud,ANA tüpiseerimine,"S,P-CTD IgG panel IB",43119-7,Bld,manual
+Autoimmuunuuringud,Tuumavastased Ak-d,"S,P-ANA Ab",8061-4,Bld,manual
+Autoimmuunuuringud,Tuumavastased Ak-d (ANA,"S,P-ANA Ab",8061-4,Bld,manual
+Autoimmuunuuringud,Tuumavastased antikehad,"S,P-ANA Ab",8061-4,Bld,manual
+Automaatliinil teostatud uuring,fP-GlucP /Glükoos paastuplasmas,"fS,fP-Gluc",14771-0,Ser/Plas,manual
+Automaatliinil teostatud uuring,P-ALP Aluseline fosfataas,"S,P-ALP",6768-6,Ser/Plas,manual
+Automaatliinil teostatud uuring,P-Chol Kolesterool,"S,P-Chol",14647-2,Ser/Plas,manual
+Automaatliinil teostatud uuring,P-CK Kreatiniini kinaas,"S,P-CK",2157-6,Ser/Plas,manual
+Automaatliinil teostatud uuring,P-CK-MBm Kreatiini kinaasi MB isoensüümi mass,"S,P-CK-MBm",13969-1,Ser/Plas,manual
+Automaatliinil teostatud uuring,P-fT4 Vaba türoksiin plasmas,"S,P-fT4",14920-3,Ser/Plas,manual
+Automaatliinil teostatud uuring,P-HDL-Chol HDL kolesterool,"S,P-HDL-Chol",14646-4,Ser/Plas,manual
+Automaatliinil teostatud uuring,P-LDL-Chol LDL kolesterool,"S,P-LDL-Chol",22748-8,Ser/Plas,manual
+Automaatliinil teostatud uuring,P-PCT Prokaltsitoniin,"S,P-PCT",33959-8,Ser/Plas,manual
+Automaatliinil teostatud uuring,P-TSH Kilpnääret stimuleeriv hormoon plasmas,"S,P-TSH",3016-3,Ser/Plas,manual
+Automaat uuring 3 osalise leukogrammiga,RDW-CW,B-RDW-CV,788-0,Bld,manual
+B1-A3Diff,HCT:,B-Hct,4544-3,Bld,manual
+B1-A3Diff,HGB:,B-Hb,718-7,Bld,manual
+B1-A3Diff,MCH:,B-MCH,785-6,Bld,manual
+B1-A3Diff,MCHC:,B-MCHC,786-4,Bld,manual
+B1-A3Diff,MCV:,B-MCV,787-2,Bld,manual
+B1-A3Diff,MPV:,B-MPV,32623-1,Bld,manual
+B1-A3Diff,PCT:,B-Pct,51637-7,Bld,manual
+B1-A3Diff,PLT:,B-Plt,777-3,Bld,manual
+B1-A3Diff,RDW%:,B-RDW-CV,788-0,Bld,manual
+B1-A3Diff,RDW-CW:,B-RDW-CV,788-0,Bld,manual
+B1-A3Diff,WBC:,B-WBC,6690-2,Bld,manual
+B1-Hemo-s,Segmenttuumsed neutrofiilid:,B-Segmenttuumsed neutrofiilid %,26505-8,Bld,manual
+B-A3Diff,HCT:,B-Hct,4544-3,Bld,manual
+B-A3Diff,MCH:,B-MCH,785-6,Bld,manual
+B-A3Diff,MCHC:,B-MCHC,786-4,Bld,manual
+B-A3Diff,MCV:,B-MCV,787-2,Bld,manual
+B-A3Diff,MPV:,B-MPV,32623-1,Bld,manual
+B-A3Diff,PCT:,B-Pct,51637-7,Bld,manual
+B-A3Diff,PLT:,B-Plt,777-3,Bld,manual
+B-A3Diff,RDW-CV:,B-RDW-CV,788-0,Bld,manual
+B-A3Diff,RDW-SD:,B-RDW-SD,21000-5,Bld,manual
+BASO#,BASO#,B-Baso#,704-7,Bld,manual
+BASO%,BASO%,B-Baso%,706-2,Bld,manual
+Baso%,Baso%,B-Baso%,706-2,Bld,manual
+BASO% Basofiili,BASO% Basofiili,B-Baso%,706-2,Bld,manual
+BASO Basofiilide absoluutarv,BASO Basofiilide absoluutarv,B-Baso#,704-7,Bld,manual
+BASO Basofiilide arv,BASO Basofiilide arv,B-Baso#,704-7,Bld,manual
+BASO% Basofiilide su,BASO% Basofiilide su,B-Baso%,706-2,Bld,manual
+BASO% Basofiilide suhtarv,BASO% Basofiilide suhtarv,B-Baso%,706-2,Bld,manual
+Basofiilide arv,Basofiilide arv,B-Basofiilid #,26444-0,Bld,manual
+Basofiilide suh,Basofiilide suh,B-Basofiilid %,30180-4,Bld,manual
+Basofiilide suhtarv,Basofiilide suhtarv,B-Basofiilid %,30180-4,Bld,manual
+B-autom5diff,RBC HK:0000,B-RBC,789-8,Bld,manual
+B-autom5diff,RDW HK:0000,B-RDW-CV,788-0,Bld,manual
+B-Baso#,B-Baso#,B-Baso#,704-7,Bld,manual
+B-Baso%,B-Baso%,B-Baso%,706-2,Bld,manual
+B-CBC+Diff,BASO#:,B-Baso#,704-7,Bld,manual
+B-CBC+Diff,BASO%:,B-Baso%,706-2,Bld,manual
+B-CBC+Diff,EO#:,B-Eo#,711-2,Bld,manual
+B-CBC+Diff,EO%:,B-Eo%,713-8,Bld,manual
+B-CBC+Diff,HCT:,B-Hct,4544-3,Bld,manual
+B-CBC+Diff,HGB:,B-Hb,718-7,Bld,manual
+B-CBC+Diff,IG#:,B-IG#,51584-1,Bld,manual
+B-CBC+Diff,IG%:,B-IG%,38518-7,Bld,manual
+B-CBC+Diff,LYMPH#:,B-Lymph#,731-0,Bld,manual
+B-CBC+Diff,LYMPH%:,B-Lymph%,736-9,Bld,manual
+B-CBC+Diff,MCH:,B-MCH,785-6,Bld,manual
+B-CBC+Diff,MCHC:,B-MCHC,786-4,Bld,manual
+B-CBC+Diff,MCV:,B-MCV,787-2,Bld,manual
+B-CBC+Diff,MONO#:,B-Mono#,742-7,Bld,manual
+B-CBC+Diff,MONO%:,B-Mono%,5905-5,Bld,manual
+B-CBC+Diff,MPV:,B-MPV,32623-1,Bld,manual
+B-CBC+Diff,NEUT#:,B-Neut#,751-8,Bld,manual
+B-CBC+Diff,NEUT%:,B-Neut%,770-8,Bld,manual
+B-CBC+Diff,PLT:,B-Plt,777-3,Bld,manual
+B-CBC+Diff,RDW- CV:,B-RDW-CV,788-0,Bld,manual
+B-CBC+Diff,WBC:,B-WBC,6690-2,Bld,manual
+B-Eo#,B-Eo#,B-Eo#,711-2,Bld,manual
+B-Eo%,B-Eo%,B-Eo%,713-8,Bld,manual
+B-HbA1C,B-HbA1c-IFCC:,B-HbA1c (IFCC),59261-8,Bld,manual
+B-HbA1c (IFCC),B-HbA1c,B-HbA1c (IFCC),59261-8,Bld,manual
+B-HbA1c-IFCC,B-HbA1c-IFCC,B-HbA1c (IFCC),59261-8,Bld,manual
+B-Hct,B-Hct,B-Hct,4544-3,Bld,manual
+Biokeemia Analüüs,S-Alb-el Albumiinid,"S,P-Alb",61151-7,Ser/Plas,manual
+Biokeemia Analüüs,S-Alb-t Albumiin,"S,P-Alb-hs",1751-7,Ser/Plas,manual
+Biokeemia analüüs,Chol,"S,P-Chol",14647-2,Ser/Plas,manual
+Biokeemia analüüs,EtOH Etanool,"S,P-EtOH",5643-2,Ser/Plas,manual
+Biokeemia analüüs,fP-Ca,"S,P-Ca",2000-8,Ser/Plas,manual
+Biokeemia analüüs,fP-Crea,"S,P-Crea",14682-9,Ser/Plas,manual
+Biokeemia analüüs,fP-Gluc GTT 0 min,"fS,P-Gluc 0 min (pre 75 g Gluc PO)",14996-3,Ser/Plas,manual
+Biokeemia analüüs,fP-Gluc plasma Glükoos plasmas,"fS,fP-Gluc",14771-0,Ser/Plas,manual
+Biokeemia analüüs,fP-Trigl,"fS,fP-Trigl",14927-8,Ser/Plas,manual
+Biokeemia analüüs,fP-Urea,"S,P-Urea",22664-7,Ser/Plas,manual
+Biokeemia analüüs,fS-Chol,"S,P-Chol",14647-2,Ser/Plas,manual
+Biokeemia analüüs,Kaltsium plasmas,"S,P-Ca",2000-8,Ser/Plas,manual
+Biokeemia analüüs,P-ALP aluseline fosfataas,"S,P-ALP",6768-6,Ser/Plas,manual
+Biokeemia analüüs,P-Chol,"S,P-Chol",14647-2,Ser/Plas,manual
+Biokeemia analüüs,P-CK,"S,P-CK",2157-6,Ser/Plas,manual
+Biokeemia analüüs,P-cTnThs Troponiin T seerumis,"S,P-cTnT-hs",67151-1,Ser/Plas,manual
+Biokeemia analüüs,P-LDH,"S,P-LDH",14805-6,Ser/Plas,manual
+Biokeemia analüüs,P-NT-proBNP (B-tüüpi natriureetilise propeptiidi N-fragment,"S,P-NT-proBNP",33762-6,Ser/Plas,manual
+Biokeemia analüüs,P-Prot,"S,P-Prot",2885-2,Ser/Plas,manual
+Biokeemia analüüs,S-cTnThs Troponiin T seerumis,"S,P-cTnT-hs",67151-1,Ser/Plas,manual
+Biokeemia analüüs,S-NT-proBNP (B-tüüpi natriureetilise propeptiidi N-fragment,"S,P-NT-proBNP",33762-6,Ser/Plas,manual
+Biokeemia Labor,S-eGFR,eGFR (CKD-EPI),62238-1,Ser/Plas,manual
+Biokeemilised uuringud,S-Chol/HDL,"S,P-HDL-Chol",14646-4,Ser/Plas,manual
+B-Lymph#,B-Lymph#,B-Lymph#,731-0,Bld,manual
+B-Lymph%,B-Lymph%,B-Lymph%,736-9,Bld,manual
+B-MCH,B-MCH,B-MCH,785-6,Bld,manual
+B-MCHC,B-MCHC,B-MCHC,786-4,Bld,manual
+B-MCV,B-MCV,B-MCV,787-2,Bld,manual
+B-Mono#,B-Mono#,B-Mono#,742-7,Bld,manual
+B-Mono%,B-Mono%,B-Mono%,5905-5,Bld,manual
+B-MPV,B-MPV,B-MPV,32623-1,Bld,manual
+B-Neut#,B-Neut#,B-Neut#,751-8,Bld,manual
+B-Neut%,B-Neut%,B-Neut%,770-8,Bld,manual
+B-PCT,B-PCT,B-Pct,51637-7,Bld,manual
+B-PLT,B-PLT,B-Plt,777-3,Bld,manual
+B-Plt,B-Plt,B-Plt,777-3,Bld,manual
+B-RBC,B-RBC,B-RBC,789-8,Bld,manual
+B-RDW-CV,B-RDW-CV,B-RDW-CV,788-0,Bld,manual
+B-WBC,B-WBC,B-WBC,6690-2,Bld,manual
+B-Vere äigepreparaadi mikroskoopia,Basofiilne sõmerus HK:0000,B-Basofiilne sõmerus,703-9,Bld,manual
+B-Vere äigepreparaadi mikroskoopia,Hüpersegmentatsioon HK:0000,B-Hüpersegmentatsioon,765-8,Bld,manual
+CBC+Diff,Eos %,B-Eo%,713-8,Bld,manual
+CBC+Diff,Eosinofiilide abs arv,B-Eo#,711-2,Bld,manual
+CBC+Diff,PLT x10e9/l,B-Plt,777-3,Bld,manual
+CT-kaltsitoniin,CT-kaltsitoniin,"S,P-CT",15035-9,Ser/Plas,manual
+DNA analüüs PCR-meetodil,PCR-Ureaplasma urealyticum antigeen,XXX-U urealyticum DNA,51988-4,,manual
+eGFR,eGFR,eGFR,33914-3,Ser/Plas,manual
+eGFR (CKD-EPI),eGFR (CKD-EPI),eGFR (CKD-EPI),62238-1,Ser/Plas,manual
+"Egfr (Crea, Ckd-Epi)",62238-1 eGFR,eGFR (CKD-EPI),62238-1,Ser/Plas,manual
+eGFR kiirus MDR,eGFR kiirus MDR,eGFR,33914-3,Ser/Plas,manual
+eGFR (MDRD),eGFR,eGFR,33914-3,Ser/Plas,manual
+eGFR (MDRD),eGFR :,eGFR,33914-3,Ser/Plas,manual
+Ekstraheeritavate tuumaantigeenide vastane IgG (paneel),S-ENA_IgG_panel,"S,P-ANA IgG panel IIF",L-4493,,manual
+Emakakaelakanalikaapelt PCR Ureaplasma urealyticumile (sh U parvum),Cx-U urealyticum/U parvum-PCR,XXX-U urealyticum/U parvum DNA,69934-8,,manual
+Emakakaelakanalikaapelt PCR Ureaplasma urealyticumile (sh U parvum),Cx-U_urealyticum/U_parvum-PCR,XXX-U urealyticum/U parvum DNA,69934-8,,manual
+E-MCH,E-MCH,B-MCH,785-6,Bld,manual
+E-MCHC,E-MCHC,B-MCHC,786-4,Bld,manual
+E-MCV,E-MCV,B-MCV,787-2,Bld,manual
+EO#,EO#,B-Eo#,711-2,Bld,manual
+EO%,EO%,B-Eo%,713-8,Bld,manual
+Eo,Eo,B-Eo#,711-2,Bld,manual
+Eo%,Eo%,B-Eo%,713-8,Bld,manual
+EO% Eosinofiili,EO% Eosinofiili,B-Eo%,713-8,Bld,manual
+EO Eosinofiilid,EO Eosinofiilid,B-Eo#,711-2,Bld,manual
+EO Eosinofiilide abs,EO Eosinofiilide abs,B-Eo#,711-2,Bld,manual
+EO Eosinofiilide absoluutarv,EO Eosinofiilide absoluutarv,B-Eo#,711-2,Bld,manual
+EO Eosinofiilide arv,EO Eosinofiilide arv,B-Eo#,711-2,Bld,manual
+EO% Eosinofiilide su,EO% Eosinofiilide su,B-Eo%,713-8,Bld,manual
+EO% Eosinofiilide suhtarv,EO% Eosinofiilide suhtarv,B-Eo%,713-8,Bld,manual
+% Eosinofiilid,Eosinofiilid%,B-Eo%,713-8,Bld,manual
+Eosinofiilid #,Eosinofiilid #,B-Eo#,711-2,Bld,manual
+Eosinofiilid %,Eosinofiilid %,B-Eo%,713-8,Bld,manual
+Eosinofiilide a,Eosinofiilide a,B-Eo#,711-2,Bld,manual
+Eosinofiilide arv,Eosinofiilide arv,B-Eo#,711-2,Bld,manual
+Eosinofiilide s,Eosinofiilide s,B-Eo%,713-8,Bld,manual
+Eosinofiilide suhtar,Eosinofiilide suhtar,B-Eo%,713-8,Bld,manual
+Eosinofiilide suhtarv,Eosinofiilide suhtarv,B-Eo%,713-8,Bld,manual
+Eosinofiilid veres %,Eosinofiilid veres %,B-Eo%,713-8,Bld,manual
+Erinevad laboratoorsed analüüsid,ANA IgG paneel,"S,P-ANA IgG panel IIF",L-4493,,manual
+Erütrotsüüdid,Erütrotsüüdid,B-RBC,789-8,Bld,manual
+fS-Crea,fS-Crea,"S,P-Crea",14682-9,Ser/Plas,manual
+"fS,fP-HDL-Chol","fS,fP-HDL-Chol","S,P-HDL-Chol",14646-4,Ser/Plas,manual
+"fS,fP-LDL-Chol","fS,fP-LDL-Chol","S,P-LDL-Chol",22748-8,Ser/Plas,manual
+"fS,fP-Triglütseriidid","fS,fP-Triglütseriidid","fS,fP-Trigl",14927-8,Ser/Plas,manual
+fs-Gluc,fs-Gluc,"fS,fP-Gluc",14771-0,Ser/Plas,manual
+fS-HDL-Chol,fS-HDL-Chol,"S,P-HDL-Chol",14646-4,Ser/Plas,manual
+fS-LDL-Chol,fS-LDL-Chol,"S,P-LDL-Chol",22748-8,Ser/Plas,manual
+fS-Urea,fS-Urea,"S,P-Urea",22664-7,Ser/Plas,manual
+fs-Urea,fs-Urea,"S,P-Urea",22664-7,Ser/Plas,manual
+FT4,FT4,"S,P-fT4",14920-3,Ser/Plas,manual
+fT4,fT4,"S,P-fT4",14920-3,Ser/Plas,manual
+FT4 Vaba t?roksiin seerumis,FT4 Vaba t?roksiin seerumis,"S,P-fT4",14920-3,Ser/Plas,manual
+FT4 Vaba türoks,FT4 Vaba türoks,"S,P-fT4",14920-3,Ser/Plas,manual
+FT4 Vaba türoksiin seerumis,FT4 Vaba türoksiin seerumis,"S,P-fT4",14920-3,Ser/Plas,manual
+Glükohemoglobii,Glükohemoglobii,B-HbA1c,4548-4,Bld,manual
+glükohemoglobii,glükohemoglobii,B-HbA1c,4548-4,Bld,manual
+Glükohemoglobiin,Glükohemoglobiin,B-HbA1c,4548-4,Bld,manual
+Glükohemoglobiin (IFCC),Glükohemoglobiin,B-HbA1c (IFCC),59261-8,Bld,manual
+Glükohemoglobiin ver,Glükohemoglobiin ver,B-HbA1c,4548-4,Bld,manual
+Glükohemoglobiin veres,B-HbA1c-IFCC,B-HbA1c (IFCC),59261-8,Bld,manual
+Glükohemoglobiin veres,Glükohemoglobiin veres,B-HbA1c,4548-4,Bld,manual
+Glükohemoglobiin veres (IFCC),Glükohemoglobiin veres,B-HbA1c (IFCC),59261-8,Bld,manual
+Glükohemoglobiin veres (SI),Glükohemoglobiin veres,B-HbA1c,4548-4,Bld,manual
+Glükohemoglobiin veres (SI),HbA1c %,B-HbA1c,4548-4,Bld,manual
+Glükoos,Glükoos,"S,P-Gluc",14749-6,Ser/Plas,manual
+Glükoosi profiil kapillaarverest,"gluc.13,00",fcB-Gluc,14770-2,Bld,manual
+glükoosi taluvuse proov,Glükoos paastuseerumis/paastuplasmas enne koormust,"fS,P-Gluc 0 min (pre 75 g Gluc PO)",14996-3,Ser/Plas,manual
+glükoosi taluvuse proov,Glükoos seerumis/plasmas 120 minutit pärast koormust,"S,P-Gluc 120 min (post 75g Gluc PO)",14995-5,Ser/Plas,manual
+Glükoos kapillaarverest,cB-Gluc,cB-Gluc POCT,14743-9,Bld,manual
+Glükoos paastu,Glükoos paastu,"fS,fP-Gluc",14771-0,Ser/Plas,manual
+Glükoos paastuplasmas,Glükoos paastuplasmas,"fS,fP-Gluc",14771-0,Ser/Plas,manual
+Glükoos paastu plasmas,Glükoos paastu plasmas,"fS,fP-Gluc",14771-0,Ser/Plas,manual
+Glükoos paastuseerumis/-plasma,Glükoos paastuseerumis/-plasma,"fS,fP-Gluc",14771-0,Ser/Plas,manual
+Glükoos seerumis,Glükoos seerumis,"S,P-Gluc",14749-6,Ser/Plas,manual
+Happe-alus2 tasakaal venoosses veres,cK,"S,P-K",2823-3,Ser/Plas,manual
+Happe-aluse tasakaal,Füsioloogiline shunt art,aB-Shunt,72326-2,Bld,manual
+Happe-aluse tasakaal,Vesinikkarbonaat arteriaalses veres,aP-HCO3,1960-4,Bld,manual
+Happe-aluse tasakaal arteriaalsest verest,pCO2,aB-pCO2,2019-8,Bld,manual
+Happe-aluse tasakaal arteriaalsest verest,pH,aB-pH,2744-1,Bld,manual
+Happe-aluse tasakaal arteriaalsest verest,pO2,aB-pO2,2703-7,Bld,manual
+Happe-aluse tasakaal arteriaalsest verest,sO2,aB-sO2,2708-6,Bld,manual
+Happe -aluse tasakaal arteriaalses veres,pO2,aB-pO2,2703-7,Bld,manual
+Happe-aluse tasakaal arteriaalses veres,AaDpO2,aB-AaDpO2,19991-9,Respiratory system,manual
+Happe-aluse tasakaal arteriaalses veres,ABE,aB-BE,1925-7,Bld,manual
+Happe-aluse tasakaal arteriaalses veres,HCO3,aP-HCO3,1960-4,Bld,manual
+Happe-aluse tasakaal arteriaalses veres,p50,aB-p50,19214-6,Bld,manual
+Happe-aluse tasakaal arteriaalses veres,pCO2,aB-pCO2,2019-8,Bld,manual
+Happe-aluse tasakaal arteriaalses veres,pCO2t,aB-pCO2t,32771-8,Bld,manual
+Happe-aluse tasakaal arteriaalses veres,pH,aB-pH,2744-1,Bld,manual
+Happe-aluse tasakaal arteriaalses veres,pHt,aB-pHt,33254-4,Bld,manual
+Happe-aluse tasakaal arteriaalses veres,pO2,aB-pO2,2703-7,Bld,manual
+Happe-aluse tasakaal arteriaalses veres,pO2t,aB-pO2t,19255-9,Bld,manual
+Happe-aluse tasakaal arteriaalses veres,Shunt,aB-Shunt,72326-2,Bld,manual
+Happe-aluse tasakaal arteriaalses veres,sO2,aB-sO2,2708-6,Bld,manual
+Happe-aluse tasakaalu uuring arteriaalses veres,FiO2,FiO2,19994-3,Ventilator,manual
+Happe-aluse tasakaal venoosses veres,B-pH,vB-pH,2746-6,Bld,manual
+Happe-aluse tasakaal venoosses veres,cNa,"S,P-Na",2951-2,Ser/Plas,manual
+Happe-aluse tasakaal venoosses veres,pCO2,vB-pCO2,2021-4,Bld,manual
+Happe-aluse tasakaal venoosses veres,pH,aB-pH,2744-1,Bld,manual
+Happe-aluse tasakaal venoosses veres,pO2,vB-pO2,2705-2,Bld,manual
+Happe-aluse tasakaal venoosses veres,sO2,vB-sO2,2711-0,Bld,manual
+Happe-alus tasakaal,Arteriaalse vere ja sissehingatava õhu hapniku osarõhkude su,aB-pO2/FiO2,50984-4,Bld,manual
+Happe-alus tasakaal,Füsioloogiline shunt art,aB-Shunt,72326-2,Bld,manual
+Happe-alus tasakaal,Glükoos arteriaalses veres,,41651-1,Bld,manual
+Happe-alus tasakaal,Glükoos korduv,"S,P-Gluc",14749-6,Ser/Plas,manual
+Happe-alus tasakaal,Hematokrit arteriaalses veres,,32354-3,Bld,manual
+Happe-alus tasakaal,Vesinikkarbonaat arteriaalses veres,aP-HCO3,1960-4,Bld,manual
+Happe-alus tasakaal arteriaalsest verest,Anion Gap,AnionGap (K+),1863-0,Ser/Plas,manual
+Happe-alus tasakaal arteriaalsest verest,cNa,"S,P-Na",2951-2,Ser/Plas,manual
+Happe-alus tasakaal arteriaalsest verest,pCO2,aB-pCO2,2019-8,Bld,manual
+Happe-alus tasakaal arteriaalsest verest,pCO2t,aB-pCO2t,32771-8,Bld,manual
+Happe-alus tasakaal arteriaalsest verest,pCO2 (t),aB-pCO2t,32771-8,Bld,manual
+Happe-alus tasakaal arteriaalsest verest,pH,aB-pH,2744-1,Bld,manual
+Happe-alus tasakaal arteriaalsest verest,pH (t),aB-pHt,33254-4,Bld,manual
+Happe-alus tasakaal arteriaalsest verest,pO2,aB-pO2,2703-7,Bld,manual
+Happe-alus tasakaal arteriaalsest verest,pO2t,aB-pO2t,19255-9,Bld,manual
+Happe-alus tasakaal arteriaalsest verest,pO2 (t),aB-pO2t,19255-9,Bld,manual
+Happe-alus tasakaal arteriaalsest verest,sO2,aB-sO2,2708-6,Bld,manual
+Happe-alustasakaal arteriaalses veres,"ABE,c",aB-BE,1925-7,Bld,manual
+Happe-alustasakaal arteriaalses veres,HCO3,aP-HCO3,1960-4,Bld,manual
+Happe-alustasakaal arteriaalses veres,p50,aB-p50,19214-6,Bld,manual
+Happe-alustasakaal arteriaalses veres,pCO2t,aB-pCO2t,32771-8,Bld,manual
+Happe-alustasakaal arteriaalses veres,pHt,aB-pHt,33254-4,Bld,manual
+Happe-alustasakaal arteriaalses veres,pO2,aB-pO2,2703-7,Bld,manual
+Happe-alustasakaal arteriaalses veres,pO2t,aB-pO2t,19255-9,Bld,manual
+Happe-alustasakaal arteriaalses veres,Shunt,aB-Shunt,72326-2,Bld,manual
+Happe-alus tasakaal venoosses veres,B-pH,vB-pH,2746-6,Bld,manual
+Happe-alus tasakaal venoosses veres,cK,"S,P-K",2823-3,Ser/Plas,manual
+Happe-alus tasakaal venoosses veres,cNa,"S,P-Na",2951-2,Ser/Plas,manual
+Happe-alus tasakaal venoosses veres,pCO2,vB-pCO2,2021-4,Bld,manual
+Happe-alus tasakaal venoosses veres,pH,aB-pH,2744-1,Bld,manual
+Happe-alus tasakaal venoosses veres,pH (t),vB-pHt,39486-6,Bld,manual
+Happe-alus tasakaal venoosses veres,pO2,vB-pO2,2705-2,Bld,manual
+Happe-alus tasakaal venoosses veres,sO2,vB-sO2,2711-0,Bld,manual
+Happelis-aluseline tasakaal,ABE,aB-BE,1925-7,Bld,manual
+HbA1c,HbA1c,B-HbA1c,4548-4,Bld,manual
+HbA1c %,HbA1c %,B-HbA1c,4548-4,Bld,manual
+HbA1c%,HbA1c%,B-HbA1c,4548-4,Bld,manual
+HbA1c (IFCC),HbA1c,B-HbA1c (IFCC),59261-8,Bld,manual
+HbA1c (IFCC ?hik),HbA1c,B-HbA1c (IFCC),59261-8,Bld,manual
+HbA1c (IFCC ühi,HbA1c (IFCC ühi,B-HbA1c (IFCC),59261-8,Bld,manual
+HbA1c (IFCC ühik),HbA1c,B-HbA1c (IFCC),59261-8,Bld,manual
+HCT,HCT,B-Hct,4544-3,Bld,manual
+Hct,Hct,B-Hct,4544-3,Bld,manual
+HCT Hematokritt,HCT Hematokritt,B-Hct,4544-3,Bld,manual
+HDL,HDL,"S,P-HDL-Chol",14646-4,Ser/Plas,manual
+HDL kolest.,HDL kolest.,"S,P-HDL-Chol",14646-4,Ser/Plas,manual
+HDL- kolesteroo,HDL- kolesteroo,"S,P-HDL-Chol",14646-4,Ser/Plas,manual
+HDL-Kolesterool,HDL-Kolesterool,"S,P-HDL-Chol",14646-4,Ser/Plas,manual
+HDL kolesterool,HDL kolesterool,"S,P-HDL-Chol",14646-4,Ser/Plas,manual
+HDL-kolesterool,HDL-kolesterool,"S,P-HDL-Chol",14646-4,Ser/Plas,manual
+HDL- kolesterool paastuseerumi,HDL- kolesterool paastuseerumi,"S,P-HDL-Chol",14646-4,Ser/Plas,manual
+HDL-kolesterool seer,HDL-kolesterool seer,"S,P-HDL-Chol",14646-4,Ser/Plas,manual
+HDL-kolesterool seerumis,HDL-kolesterool seerumis,"S,P-HDL-Chol",14646-4,Ser/Plas,manual
+HDL-kolesterool seerumis/plasm,HDL-kolesterool seerumis/plasm,"S,P-HDL-Chol",14646-4,Ser/Plas,manual
+Hematocrit,Hematocrit,B-Hct,4544-3,Bld,manual
+Hematokrit,Hematokrit,B-Hct,4544-3,Bld,manual
+Hematokrit %,Hematokrit %,B-Hct,4544-3,Bld,manual
+hematokrit,hematokrit,B-Hct,4544-3,Bld,manual
+hematokrit%,hematokrit%,B-Hct,4544-3,Bld,manual
+Hematokritt,Hematokritt,B-Hct,4544-3,Bld,manual
+Hematoloogilised ja uriini uuringud,Albumiini ja kreatiniini suhe,U-Alb/U-Crea,30000-4,Urine,manual
+Hematoloogilised ja uriini uuringud,Basofiilne sõmerus erütrotsüütides,B-Basofiilne sõmerus,703-9,Bld,manual
+Hematoloogilised ja uriini uuringud,EO#,B-Eo#,711-2,Bld,manual
+Hematoloogilised ja uriini uuringud,Hüpersegmentatsioon neutrofiilide,B-Hüpersegmentatsioon,765-8,Bld,manual
+Hematoloogilised ja uriini uuringud,Hüpersegmentatsioon neutrofiilides,B-Hüpersegmentatsioon,765-8,Bld,manual
+Hematoloogilised ja uriini uuringud,IG,B-IG#,51584-1,Bld,manual
+Hematoloogilised ja uriini uuringud,Nitritid,U-Nit strip,50558-6,Urine,manual
+Hematoloogilised uuringud,1 RDW%,B-RDW-CV,788-0,Bld,manual
+Hematoloogilised uuringud,2 RDW%,B-RDW-CV,788-0,Bld,manual
+Hematoloogilised uuringud,3 RDW%,B-RDW-CV,788-0,Bld,manual
+Hematoloogilised uuringud,4 RDW%,B-RDW-CV,788-0,Bld,manual
+Hematoloogilised uuringud,5 RDW%,B-RDW-CV,788-0,Bld,manual
+Hematoloogilised uuringud,6 RDW%,B-RDW-CV,788-0,Bld,manual
+Hematoloogilised uuringud,Abs. arv Eosonofiilid,B-Eo#,711-2,Bld,manual
+Hematoloogilised uuringud,Basof. sõmerus,B-Basofiilne sõmerus,703-9,Bld,manual
+Hematoloogilised uuringud,B-Diff-Eo-ar,B-Eo#,711-2,Bld,manual
+Hematoloogilised uuringud,B-Diff-Eo-arv,B-Eo#,711-2,Bld,manual
+Hematoloogilised uuringud,Eosinofiilide abs arv,B-Eo#,711-2,Bld,manual
+Hematoloogilised uuringud,Erütrotsüütide basofiilne sumerus,B-Basofiilne sõmerus,703-9,Bld,manual
+Hematoloogilised uuringud,Hüpersegmentatsioo,B-Hüpersegmentatsioon,765-8,Bld,manual
+Hematoloogilised uuringud,IG,B-IG#,51584-1,Bld,manual
+Hematoloogilised uuringud,IG#,B-IG#,51584-1,Bld,manual
+Hematoloogilised uuringud,Lym+mono arv,B-Lymph# + Mono#,35081-9,Bld,manual
+Hematoloogilised uuringud,Neutrofiilide hüpersegmentatsioon,B-Hüpersegmentatsioon,765-8,Bld,manual
+Hematoloogilised uuringud,P-PT-IN,P-PT-INR,L-178,,manual
+Hemoglobiin,Hemoglobiin,B-Hb,718-7,Bld,manual
+Hemogramm,ALAT,"S,P-ALAT",1744-2,Ser/Plas,manual
+Hemogramm,Albumiin,"S,P-Alb",61151-7,Ser/Plas,manual
+Hemogramm,ALP,"S,P-ALP",6768-6,Ser/Plas,manual
+Hemogramm,Amülaas,"S,P-Amyl",1798-8,Ser/Plas,manual
+Hemogramm,Anioonide vahe,AnionGap (K+),1863-0,Ser/Plas,manual
+Hemogramm,APTT,P-APTT,14979-9,PPP,manual
+Hemogramm,ASAT,"S,P-ASAT",1920-8,Ser/Plas,manual
+Hemogramm,Bilirubiin,"S,P-Bil",14631-6,Ser/Plas,manual
+Hemogramm,Bilirubiin (konjugeeritud),"S,P-Bil-conj",14629-0,Ser/Plas,manual
+Hemogramm,CK,"S,P-CK",2157-6,Ser/Plas,manual
+Hemogramm,CK-MBm,"S,P-CK-Mbm",13969-1,Ser/Plas,manual
+Hemogramm,CRP,"S,P-CRP",1988-5,Ser/Plas,manual
+Hemogramm,D-dimeerid,P-D-Di,48065-7,PPP,manual
+Hemogramm,eGFR,eGFR,33914-3,Ser/Plas,manual
+Hemogramm,eGFR (CKD-EPI),eGFR (CKD-EPI),62238-1,Ser/Plas,manual
+Hemogramm,Erütrotsütaarsete antikehade sõeluuring kahe erütrotsüüdiga,"B-RBC Ab screen I, II",1008-2,Ser/Plas,manual
+Hemogramm,Erütrotsütaarsete antikehade sõeluuring kolme erütrotsüüdiga,"B-RBC Ab screen I, II. III",895-3,Ser/Plas,manual
+Hemogramm,GGT,"S,P-GGT",2324-2,Ser/Plas,manual
+Hemogramm,Glükoos,"S,P-Gluc",14749-6,Ser/Plas,manual
+Hemogramm,HDL,"S,P-HDL-Chol",14646-4,Ser/Plas,manual
+Hemogramm,Kaalium,"S,P-K",2823-3,Ser/Plas,manual
+Hemogramm,Kaltsium (ioniseeritud),"S,P-iCa",12180-6,Ser/Plas,manual
+Hemogramm,Kolesterool,"S,P-Chol",14647-2,Ser/Plas,manual
+Hemogramm,Kreatiniin,"S,P-Crea",14682-9,Ser/Plas,manual
+Hemogramm,LDH,"S,P-LDH",14805-6,Ser/Plas,manual
+Hemogramm,LDL,"S,P-LDL-Chol",22748-8,Ser/Plas,manual
+Hemogramm,Lipaas,"S,P-Lip",3040-3,Ser/Plas,manual
+Hemogramm,Magneesium,"S,P-Mg",2601-3,Ser/Plas,manual
+Hemogramm,Müoglobiin,"S,P-Myogl",2639-3,Ser/Plas,manual
+Hemogramm,Naatrium,"S,P-Na",2951-2,Ser/Plas,manual
+Hemogramm,NT-proBNP,"S,P-NT-proBNP",33762-6,Ser/Plas,manual
+Hemogramm,Prokaltsitoniin,"S,P-PCT",33959-8,Ser/Plas,manual
+Hemogramm,PT%,P-PT%,3289-6,PPP,manual
+Hemogramm,Triglütseriidid,"fS,fP-Trigl",14927-8,Ser/Plas,manual
+Hemogramm,Troponiin T (kõrgtundlik),"S,P-cTnT-hs",67151-1,Ser/Plas,manual
+Hemogramm,Uurea,"S,P-Urea",22664-7,Ser/Plas,manual
+Hemogramm,Valk,"S,P-Prot",2885-2,Ser/Plas,manual
+Hemogramm,Vitamiin D (25-OH),"S,P-Vit D (25-OH)",60493-4,Ser/Plas,manual
+Hemogramm 3 osalise leukogrammiga,Hematokrit:,B-Hct,4544-3,Bld,manual
+Hemogramm 3 osalise leukogrammiga,MCH:,B-MCH,785-6,Bld,manual
+Hemogramm 3 osalise leukogrammiga,MCHC:,B-MCHC,786-4,Bld,manual
+Hemogramm 3 osalise leukogrammiga,MCV:,B-MCV,787-2,Bld,manual
+Hemogramm 3 osalise leukogrammiga,MPV:,B-MPV,32623-1,Bld,manual
+Hemogramm 3 osalise leukogrammiga,Trombotsüüdid:,B-Plt,777-3,Bld,manual
+Hemogramm 5-osalise leukogrammiga,ALAT,"S,P-ALAT",1744-2,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Albumiin,"S,P-Alb",61151-7,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Albumiin %,S-Alb-Fr%,13980-8,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Alfa-1-globuliinid,S-a1-glob-Fr,2865-4,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Alfa-2-globuliinid,S-a2-glob-Fr,2868-8,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Alfa-2-globuliinid %,S-a2-glob-Fr%,13981-6,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,ALP,"S,P-ALP",6768-6,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Amülaas,"S,P-Amyl",1798-8,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Anioonide vahe,AnionGap (K+),1863-0,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Antitrombiin III,P-AT III,27811-9,PPP,manual
+Hemogramm 5-osalise leukogrammiga,APTT,P-APTT,14979-9,PPP,manual
+Hemogramm 5-osalise leukogrammiga,ASAT,"S,P-ASAT",1920-8,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Basofiilid %,B-Basofiilid %,30180-4,Bld,manual
+Hemogramm 5-osalise leukogrammiga,Beeta-1-globuliinid,S-b1-glob-Fr,32730-4,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Beeta-1-globuliinid %,S-b1-glob-Fr%,32732-0,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Beeta-2-globuliinid,S-b2-glob-Fr,32731-2,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Beeta-2-globuliinid %,S-b2-glob-Fr%,32733-8,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Bilirubiin,"S,P-Bil",14631-6,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Bilirubiin (konjugeeritud),"S,P-Bil-conj",14629-0,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,CK-MBm,"S,P-CK-MBm",13969-1,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,CRP,"S,P-CRP",1988-5,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,D-dimeerid,P-D-Di,48065-7,PPP,manual
+Hemogramm 5-osalise leukogrammiga,eGFR,eGFR,33914-3,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,eGFR (CKD-EPI),eGFR (CKD-EPI),62238-1,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Eosinofiilid %,B-Eosinofiilid %,26450-7,Bld,manual
+Hemogramm 5-osalise leukogrammiga,Erütrotsütaarsete antikehade sõeluuring kahe erütrotsüüdiga,"B-RBC Ab screen I, II",1008-2,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Erütrotsütaarsete antikehade sõeluuring kolme erütrotsüüdiga,"B-RBC Ab screen I, II. III",895-3,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Ferritiin,"S,P-Fer",2276-4,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Fibrinogeen,P-Fibr,48664-7,PPP,manual
+Hemogramm 5-osalise leukogrammiga,FiO2,FiO2,19994-3,Ventilator,manual
+Hemogramm 5-osalise leukogrammiga,Fosfaat,"S,P-P",14879-1,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,fT3,"S,P-fT3",14928-6,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,fT4,"S,P-fT4",14920-3,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Gammaglobuliinid,S-g-glob-Fr,2874-6,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Gammaglobuliinid %,S-g-glob-Fr%,13983-2,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,GGT,"S,P-GGT",2324-2,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Glükoos,"S,P-Gluc",14749-6,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,HDL,"S,P-HDL-Chol",14646-4,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Homotsüsteiin,"S,P-Hcy",13965-9,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Kaalium,"S,P-K",2823-3,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Kaltsium,"S,P-Ca",2000-8,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Kaltsium (ioniseeritud),"S,P-iCa",12180-6,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,"Kaltsium (ioniseeritud, pH 7,4)","S,P-iCa (pH 7,4)",19072-8,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Kepptuumsed neutrofiilid %,B-Kepptuumsed neutrofiilid %,26508-2,Bld,manual
+Hemogramm 5-osalise leukogrammiga,Kloriid,"S,P-Cl",2075-0,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Kolesterool,"S,P-Chol",14647-2,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Kreatiniin,"S,P-Crea",14682-9,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Kusihape,"S,P-UA",14933-6,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,LDH,"S,P-LDH",14805-6,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,LDL,"S,P-LDL-Chol",22748-8,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Lipaas,"S,P-Lip",3040-3,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Lümfotsüüdid %,B-Lümfotsüüdid %,26478-8,Bld,manual
+Hemogramm 5-osalise leukogrammiga,Madalmolekulaarne hepariin,P-LMWH,3271-4,PPP,manual
+Hemogramm 5-osalise leukogrammiga,Magneesium,"S,P-Mg",2601-3,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,M-komponent 1,S-M-spike1-Fr,51435-6,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,M-komponent 1 %,S-M-spike1-Fr%,56766-9,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Monotsüüdid %,B-Monotsüüdid %,26485-3,Bld,manual
+Hemogramm 5-osalise leukogrammiga,Müoglobiin,"S,P-Myogl",2639-3,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Naatrium,"S,P-Na",2951-2,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,NEUT Neutrofiilide arv,B-Neutrofiilid #,26499-4,Bld,manual
+Hemogramm 5-osalise leukogrammiga,Neutrofiilid %,B-Neutrofiilid %,26511-6,Bld,manual
+Hemogramm 5-osalise leukogrammiga,NT-proBNP,"S,P-NT-proBNP",33762-6,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Osmolaalsus,"S,P-Osmol",2692-2,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Plasmarakud %,B-Plasmarakud %,13047-6,Bld,manual
+Hemogramm 5-osalise leukogrammiga,Prokaltsitoniin,"S,P-PCT",33959-8,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,PT%,P-PT%,3289-6,PPP,manual
+Hemogramm 5-osalise leukogrammiga,Raud,"S,P-Fe",14798-3,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Reaktiivsed lümfotsüüdid %,B-Reaktiivsed lümfotsüüdid %,33835-0,Bld,manual
+Hemogramm 5-osalise leukogrammiga,Segmenttuumsed neutrofiilid %,B-Segmenttuumsed neutrofiilid %,26505-8,Bld,manual
+Hemogramm 5-osalise leukogrammiga,Triglütseriidid,"fS,fP-Trigl",14927-8,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Trombiini aeg,P-TT,3243-3,PPP,manual
+Hemogramm 5-osalise leukogrammiga,Troponiin T (kõrgtundlik),"S,P-cTnT-hs",67151-1,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,TSH,"S,P-TSH",3016-3,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Uurea,"S,P-Urea",22664-7,Ser/Plas,manual
+Hemogramm 5-osalise leukogrammiga,Valk,"S,P-Prot",2885-2,Ser/Plas,manual
+Hemogramm leukogrammiga,Hematogrit,B-Hct,4544-3,Bld,manual
+"Hemogramm, lihtne (mikroskoopia)",Segmenttuumsed neutrofiilid,B-Segmenttuumsed neutrofiilid %,26505-8,Bld,manual
+"Hemogramm, (mikroskoopia)",Basofiilne teralisus,B-Basofiilne sõmerus,703-9,Bld,manual
+"Hemogramm, (mikroskoopia)",Segmenttuumseid,B-Segmenttuumsed neutrofiilid %,26505-8,Bld,manual
+"Hemogramm, (mikroskoopia)",Tuuma hupersegmentatsioon,B-Hüpersegmentatsioon,765-8,Bld,manual
+"Hemogramm, patoloogiline (mikroskoopia)",Segmenttuumsed neutrofiilid,B-Segmenttuumsed neutrofiilid %,26505-8,Bld,manual
+"Hemogramm, patoloogiline (vereäige mikroskoopia)",Segmenttuumsed neutrofiilid,B-Segmenttuumsed neutrofiilid %,26505-8,Bld,manual
+Hemogramm viieosalise leukogrammiga*,-10 INR,P-PT-INR,L-178,,manual
+Hemogramm viieosalise leukogrammiga*,-1 S-ANA IgG mustrid,"S,P-ANA IgG pattern",13068-2,Bld,manual
+Hemogramm viieosalise leukogrammiga*,"-1 S,P-ANA IgG mustrid","S,P-ANA IgG pattern",13068-2,Bld,manual
+Hemogramm viieosalise leukogrammiga*,-2 S-ANA IgG tiiter,"S,P-ANA IgG titr",56634-9,Bld,manual
+Hemogramm viieosalise leukogrammiga*,"-2 S,P-ANA IgG tiiter","S,P-ANA IgG titr",56634-9,Bld,manual
+Hemogramm viieosalise leukogrammiga*,5 S-ANA Ab,"S,P-ANA Ab",8061-4,Bld,manual
+Hemogramm viieosalise leukogrammiga*,"5 S,P-ANA Ab","S,P-ANA Ab",8061-4,Bld,manual
+Hemogramm viieosalise leukogrammiga*,Erütrotsütaarsete antikehade sõeluuring kahe erütrotsüüdiga,"B-RBC Ab screen I, II",1008-2,Ser/Plas,manual
+Hemogramm viieosalise leukogrammiga*,U. urealyticum,XXX-U urealyticum DNA,51988-4,,manual
+Hemostasiogramm,P-PT-INR - Protrombiini aeg- rahvusvaheline normitud suhe,P-PT-INR,L-178,,manual
+Hemostasiogramm,P-PTs - Protrombiini aeg sekundites,P-PT,5902-2,PPP,manual
+HGB,HGB,B-Hb,718-7,Bld,manual
+Hgb,Hgb,B-Hb,718-7,Bld,manual
+hgb,hgb,B-Hb,718-7,Bld,manual
+HgbA1c,HgbA1c,B-HbA1c,4548-4,Bld,manual
+HGB Hemoglobiin,HGB Hemoglobiin,B-Hb,718-7,Bld,manual
+Hinnanguline Glomerulaarfiltratsiooni Kiirus,"S,P-eGFR",eGFR (CKD-EPI),62238-1,Ser/Plas,manual
+Hpv Dna Emakakaelakanalikaapes,HPV DNA,XXX-HPV high risk DNA,49896-4,,manual
+Hpv Dna Emakakaelakanalikaapes,HPV DNA emakakaelakanalikaapes,XXX-HPV high risk DNA,49896-4,,manual
+"Hpv Muud Genotüübid (31,33,35,39,45,51,52,56,58,59,66,68)",HPV muud genotüübid,XXX-HPV high risk DNA II,71431-1,Cvx,manual
+IG,IG,B-IG#,51584-1,Bld,manual
+IG#,IG#,B-IG#,51584-1,Bld,manual
+IG%,IG%,B-IG%,38518-7,Bld,manual
+IG Ebak?psete granulots??dide,IG Ebak?psete granulots??dide,B-IG#,51584-1,Bld,manual
+IG% Ebak?psete granulots??dide,IG% Ebak?psete granulots??dide,B-IG%,38518-7,Bld,manual
+IG% Ebaküpsete,IG% Ebaküpsete,B-IG%,38518-7,Bld,manual
+IG Ebaküpsete g,IG Ebaküpsete g,B-IG#,51584-1,Bld,manual
+IG% Ebaküpsete granu,IG% Ebaküpsete granu,B-IG%,38518-7,Bld,manual
+IG Ebaküpsete granul,IG Ebaküpsete granul,B-IG#,51584-1,Bld,manual
+IG Ebaküpsete granulotsüüdide,IG Ebaküpsete granulotsüüdide,B-IG#,51584-1,Bld,manual
+IG% Ebaküpsete granulotsüüdide,IG% Ebaküpsete granulotsüüdide,B-IG%,38518-7,Bld,manual
+Immuunmeetoditel uuringud,ANA /Tuumavastane IgG seerumis,"S,P-ANA IgG",29950-3,Bld,manual
+Immuunmeetoditel uuringud,CT / Kaltsitoniin,"S,P-CT",15035-9,Ser/Plas,manual
+Immuunmeetoditel uuringud,FT4 / Vaba türoksiin,"S,P-fT4",14920-3,Ser/Plas,manual
+Immuunmeetoditel uuringud,S-AMA M2 IgG ana,"S,P-AMA M2 IgG",56735-4,Bld,manual
+Immuunmeetoditel uuringud,S-ANA Ab,"S,P-ANA Ab",8061-4,Bld,manual
+Immuunmeetoditel uuringud,S-ANA-IB / ANA IgG paneel,"S,P-ANA Ab",8061-4,Bld,manual
+Immuunmeetoditel uuringud,S-CentrB IgG ana,"S,P-CENP-B IgG",53981-7,Bld,manual
+Immuunmeetoditel uuringud,S-dsDNA IgG ana,"S,P-dsDNA IgG",63379-2,Bld,manual
+Immuunmeetoditel uuringud,S-Histone IgG ana,"S,P-Histone IgG",35284-9,Bld,manual
+Immuunmeetoditel uuringud,S-Jo1 IgG ana,"S,P-Jo1 IgG",44332-5,Bld,manual
+Immuunmeetoditel uuringud,S-Nucleos IgG ana,"S,P-Nucleos IgG",53015-4,Bld,manual
+Immuunmeetoditel uuringud,S-pCNA IgG ana,"S,P-PCNA IgG",56733-9,Bld,manual
+Immuunmeetoditel uuringud,S-PM/Scl100 IgG ana,"S,P-PM/Scl100 IgG",31563-0,Bld,manual
+Immuunmeetoditel uuringud,S-Rib P Prot IgG ana,"S,P-Rib P Prot IgG",45226-8,Bld,manual
+Immuunmeetoditel uuringud,"S-RNP,Sm IgG ana","S,P-RNP, Sm IgG",31628-1,ser,manual
+Immuunmeetoditel uuringud,S-Ro52 IgG ana,"S,P-Ro52 IgG",53016-2,Bld,manual
+Immuunmeetoditel uuringud,S-Scl70 IgG ana,"S,P-Scl70 IgG",21518-6,Bld,manual
+Immuunmeetoditel uuringud,S-Sm IgG ana,"S,P-Sm IgG",21523-6,Bld,manual
+Immuunmeetoditel uuringud,S-SSA/Ro IgG ana,"S,P-SSA IgG",31625-7,Bld,manual
+Immuunmeetoditel uuringud,S-SSB/La IgG ana,"S,P-SSB IgG",31626-5,Bld,manual
+Immuunmeetoditel uuringud,Süsteemsete sidekoehaigustega seotud IgG seerumis,"S,P-ANA IgG",29950-3,Bld,manual
+Immuunmeetoditel uuringud,TSH / Türeotropiin,"S,P-TSH",3016-3,Ser/Plas,manual
+Immuunmeetoditel uuringud,Tuumavastased antikehad seerumis,"S,P-ANA Ab",8061-4,Bld,manual
+Immuunmeetoditel uuringud,Ureaplasma urealyticum DNA emakakaelakanalikaapest,XXX-U urealyticum DNA,51988-4,,manual
+Immuunmeetoditel uuringud,Ureaplasma urealyticum DNA ureetrakaapest,XXX-U urealyticum DNA,51988-4,,manual
+Immuunmeetodi uuringud,Kaltsitoniin C,"S,P-CT",15035-9,Ser/Plas,manual
+Immuunmeetodi uuringud,Kaltsitoniin CT,"S,P-CT",15035-9,Ser/Plas,manual
+Immuunmeetodi uuringud,S-ANA Ab,"S,P-ANA Ab",8061-4,Bld,manual
+Immuunmeetodi uuringud,S-ANA IgG panee,"S,P-ANA IgG panel IIF",L-4493,,manual
+Immuunmeetodi uuringud,S-ANA IgG paneel,"S,P-ANA IgG panel IIF",L-4493,,manual
+Inimese Papilloomiviiruse Dna Emakakaelakanalikaapes (Paneel),HPV DNA,XXX-HPV high risk DNA,49896-4,,manual
+Inimese Papilloomiviiruse Dna Emakakaelakanalikaapes (Paneel),"HPV DNA, tüüp",XXX-HPV high risk DNA,49896-4,,manual
+Inimese Papilloomiviirus Pcr Emakakaelakanalikaapes,HPV DNA,XXX-HPV high risk DNA,49896-4,,manual
+Inimese Papilloomiviirus Pcr Emakakaelakanalikaapes,HPV genotüüp,XXX-HPV high risk DNA,49896-4,,manual
+Inimese Papilloomiviirus Pcr Emakakaelakanalikaapest,HPV,XXX-HPV high risk DNA,49896-4,,manual
+Inimese Papilloomiviirus Pcr Emakakaelakanalikaapest,HPV genotüüp,XXX-HPV high risk DNA,49896-4,,manual
+Kaalium ja naatrium arteriaalses veres,Kaalium,"S,P-K",2823-3,Ser/Plas,manual
+Kaalium ja naatrium arteriaalses veres,Naatrium,"S,P-Na",2951-2,Ser/Plas,manual
+Kaltsitoniin,Kaltsitoniin,"S,P-CT",15035-9,Ser/Plas,manual
+Kepptuumsed neutrofiilid %,Kepptuumsed neutrofiilid %,B-Kepptuumsed neutrofiilid %,26508-2,Bld,manual
+Kliiniline vereanalüüs,Erütrots. basofiilne sõmerlus,B-Basofiilne sõmerus,703-9,Bld,manual
+Kliiniline vereanalüüs,Hematokritt,B-Hct,4544-3,Bld,manual
+Kliiniline vereanalüüs,IG - Ebaküpsed granulotsüüdid,B-IG#,51584-1,Bld,manual
+Kliiniline vereanalüüs,IG - Ebaküpsete granulotsüütide arv,B-IG#,51584-1,Bld,manual
+Kliiniline vereanalüüs,IG% - Ebaküpsete granulotsüütide suhtarv,B-IG%,38518-7,Bld,manual
+Kliiniline vereanalüüs,Segmenttuumsed neutrofiilid,B-Segmenttuumsed neutrofiilid %,26505-8,Bld,manual
+"kliiniline vereanalüüs- neutrof 1,68->1,79; biokeemia analüüs-",S-ALAT,"S,P-ALAT",1744-2,Ser/Plas,manual
+"kliiniline vereanalüüs- neutrof 1,68->1,79; biokeemia analüüs-",S-ASAT,"S,P-ASAT",1920-8,Ser/Plas,manual
+"Kliiniline vereanalüüs-normis; immuunmeetoditel uuringud (TSH,FT3, FT4,B10,B12)-normis; biokeemia analüüs:",S-ALAT,"S,P-ALAT",1744-2,Ser/Plas,manual
+"Kliiniline vereanalüüs-normis; immuunmeetoditel uuringud (TSH,FT3, FT4,B10,B12)-normis; biokeemia analüüs:",S-ASAT,"S,P-ASAT",1920-8,Ser/Plas,manual
+Kliiniline vere ja glükohemoglobiini,IG - Ebaküpsed granulotsüüdid,B-IG#,51584-1,Bld,manual
+Kliiniline vere ja glükohemoglobiini analüüs,"B-CBC-5Diff,RET",B-CBC-5Diff-NRBC-Ret,L-1949,,manual
+Kliiniline vere ja glükohemoglobiini analüüs,Erütrots. basofiilne sõmerlus,B-Basofiilne sõmerus,703-9,Bld,manual
+Kliiniline vere ja glükohemoglobiini analüüs,Erütrotsüütide aglomeratsioon,B-Aglomeratsioon,7797-4,Bld,manual
+Kliiniline vere ja glükohemoglobiini analüüs,Erütrotsüütide fragmentatsioon,B-Fragmentatsioon,10373-9,Bld,manual
+Kliiniline vere ja glükohemoglobiini analüüs,Erütrotsüütide hüpokromaasia,B-Hüpokromaasia,728-6,Bld,manual
+Kliiniline vere ja glükohemoglobiini analüüs,Erütrotsüütide poikilotsütoos,B-Poikilotsütoos,779-9,Bld,manual
+Kliiniline vere ja glükohemoglobiini analüüs,Erütrotsüütide polükromaasia,B-Polükromaasia,10378-8,Bld,manual
+Kliiniline vere ja glükohemoglobiini analüüs,ESR Erütrotsüütide settekiirus,B-ESR,4537-7,Bld,manual
+Kliiniline vere ja glükohemoglobiini analüüs,Hemogramm leukogrammita - CBC,B-CBC,58410-2,Bld,manual
+Kliiniline vere ja glükohemoglobiini analüüs,IG - Ebaküpsed granulotsüüdid,B-IG#,51584-1,Bld,manual
+Kliiniline vere ja glükohemoglobiini analüüs,IG - Ebaküpsete granulotsüütide arv,B-IG#,51584-1,Bld,manual
+Kliiniline vere ja glükohemoglobiini analüüs,IG% - Ebaküpsete granulotsüütide suhtarv,B-IG%,38518-7,Bld,manual
+Kliiniline vere ja glükohemoglobiini analüüs,IPF-ebaküpsed trombotsüüdid,B-IPF,71693-6,Bld,manual
+Kliiniline vere ja glükohemoglobiini analüüs,Neutrofiilide toks. granulatsioon,B-Toksogeenne granulatsioon,803-7,Bld,manual
+Kliiniline vere ja glükohemoglobiini analüüs,NRBC#,B-NRBC#,771-6,Bld,manual
+Kliiniline vere ja glükohemoglobiini analüüs,RET‰,B-Ret%,17849-1,Bld,manual
+Kliiniline vere ja glükohemoglobiini analüüs,RET-He,B-RetHb,42810-2,Retic,manual
+Kliiniline vere ja glükohemoglobiini analüüs,Retikulotsüüdid,B-Ret#,60474-4,Bld,manual
+Kliiniline vere ja glükohemoglobiini analüüs,Segmenttuumsed neutrofiilid,B-Segmenttuumsed neutrofiilid %,26505-8,Bld,manual
+"Kliiniline vere ja glükohemoglobiini analüüs 13.00 - 9,0; 17.00 - 6,0; 21.00 - 5,5.",IG - Ebaküpsed granulotsüüdid,B-IG#,51584-1,Bld,manual
+Kliiniline vere ja glükohemoglobiini analüüs. Ravi muutusteta. INR-i kontroll tromboosi kab-s,IG - Ebaküpsed granulotsüüdid,B-IG#,51584-1,Bld,manual
+Kl Keemia Ja Immunoloogia Automaatliinil Teostatud Uuring,S-Alb-hs Albumiin seerumis,"S,P-Alb-hs",1751-7,Ser/Plas,manual
+Kl Keemia Ja Immunoloogia Automaatliinil Teostatud Uuring,S-PreAlb Prealbumiin seerumis,"S,P-PreAlb",14338-8,Ser/Plas,manual
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,fP-GlucP /Glükoos paastuplasmas,"fS,fP-Gluc",14771-0,Ser/Plas,manual
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,fP-Lac-Gluc0 Glükoos paastuplasmas enne laktoosilahuse manus,"fS,fP-Gluc 0 min (pre Lactose PO)",59157-8,Ser/Plas,manual
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,fP-Lac-Gluc20 Glükoos plasmas 20 min pärast laktoosilahuse m,"S,P-Gluc 20 min (post 50g Lactose PO)",69943-9,Ser/Plas,manual
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,fP-Lac-Gluc40 Glükoos plasmas 40 min pärast laktoosilahuse m,"S,P-Gluc 40 min (post 50g Lactose PO)",69944-7,Ser/Plas,manual
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,fP-Lac-Gluc60 Glükoos plasmas 60 min pärast laktoosilahuse m,"S,P-Gluc 60 min (post 2g Lactose/1kg BW PO)",40277-6,Ser/Plas,manual
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,fS-Gluc Glükoos seerumis,"S,P-Gluc",14749-6,Ser/Plas,manual
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,P-ALP Aluseline fosfataas,"S,P-ALP",6768-6,Ser/Plas,manual
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,P-Chol Kolesterool,"S,P-Chol",14647-2,Ser/Plas,manual
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,P-CK Kreatiniini kinaas,"S,P-CK",2157-6,Ser/Plas,manual
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,P-CK-MBm Kreatiini kinaasi MB isoensüümi mass,"S,P-CK-MBm",13969-1,Ser/Plas,manual
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,P-cTnT-hs Troponiin T,"S,P-cTnT-hs",67151-1,Ser/Plas,manual
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,P-fT4 Vaba türoksiin plasmas,"S,P-fT4",14920-3,Ser/Plas,manual
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,P-HDL-Chol HDL kolesterool,"S,P-HDL-Chol",14646-4,Ser/Plas,manual
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,P-LDH Laktaadi dehüdrogenaas,"S,P-LDH",14805-6,Ser/Plas,manual
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,P-LDL-Chol LDL kolesterool,"S,P-LDL-Chol",22748-8,Ser/Plas,manual
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,P-NT-proBNP B-tüüpi natriureetiline propeptiidi N-fragment,"S,P-NT-proBNP",33762-6,Ser/Plas,manual
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,P-PCT Prokaltsitoniin,"S,P-PCT",33959-8,Ser/Plas,manual
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,P-TSH Kilpnääret stimuleeriv hormoon plasmas,"S,P-TSH",3016-3,Ser/Plas,manual
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,P-UA Kusihape,"S,P-UA",14933-6,Ser/Plas,manual
+Kolesterool,Kolesterool,"S,P-Chol",14647-2,Ser/Plas,manual
+Kolesterool see,Kolesterool see,"S,P-Chol",14647-2,Ser/Plas,manual
+Kolesterool seerumis,Kolesterool seerumis,"S,P-Chol",14647-2,Ser/Plas,manual
+Kolesterool seerumis/plasmas,Kolesterool seerumis/plasmas,"S,P-Chol",14647-2,Ser/Plas,manual
+Kolesterool (ül,Kolesterool (ül,"S,P-Chol",14647-2,Ser/Plas,manual
+Kolesterool (üld),Kolesterool,"S,P-Chol",14647-2,Ser/Plas,manual
+Kreatiini kinaa,Kreatiini kinaa,"S,P-CK",2157-6,Ser/Plas,manual
+Kreatiini kinaas,Kreatiini kinaas,"S,P-CK",2157-6,Ser/Plas,manual
+Kreatiini kinaas seerumis,Kreatiini kinaas seerumis,"S,P-CK",2157-6,Ser/Plas,manual
+Kreatiniin,Kreatiniin,"S,P-Crea",14682-9,Ser/Plas,manual
+Kreatiniini Kinaasi Mb Isoensüümi Mass Plasmas,P4-CK-MBm,"S,P-CK-MBm",13969-1,Ser/Plas,manual
+Kreatiniin Ja Egfr Seerumis,Hinnanguline glomerulaafiltratsiooni kiirus,eGFR,33914-3,Ser/Plas,manual
+Kreatiniin Kinaasi Mb Isoensüümi Mass,CK-MBm STAT,"S,P-CK-MBm",13969-1,Ser/Plas,manual
+Kreatiniin paas,Kreatiniin paas,"S,P-Crea",14682-9,Ser/Plas,manual
+Kreatiniin paastuseerumis,eGFR HK:0000,eGFR,33914-3,Ser/Plas,manual
+Kreatiniin paastuseerumis,Kreatiniin paastuseerumis,"S,P-Crea",14682-9,Ser/Plas,manual
+Kreatiniin seer,Kreatiniin seer,"S,P-Crea",14682-9,Ser/Plas,manual
+Kreatiniin urii,Kreatiniin urii,U-Crea,14683-7,Urine,manual
+Kreatiniin uriinis,Kreatiniin uriinis,U-Crea,14683-7,Urine,manual
+Külv U.urealyticum/parvum. M.hominis,Külv U.urealyticum/parvum. M.h,"XXX-M hominis, U urealyticum culture",687-4,,manual
+Külv U.urealyticum/parvum. M.hominis emakakaelakanalikaapest,Külv U.urealyticum/parvum. M.h,"XXX-M hominis, U urealyticum culture",687-4,,manual
+Külv U.urealyticum/parvum. M.hominis ureetrakaapest,Külv U.urealyticum/parvum. M.h,"XXX-M hominis, U urealyticum culture",687-4,,manual
+Last_Sooviva_N-Pakett,S-CREA-BK,"S,P-Crea",14682-9,Ser/Plas,manual
+Last_Sooviva_N-Pakett,S-EGFR-EPI-BK,eGFR (CKD-EPI),62238-1,Ser/Plas,manual
+LDL,LDL,"S,P-LDL-Chol",22748-8,Ser/Plas,manual
+LDL kolest.,LDL kolest.,"S,P-LDL-Chol",22748-8,Ser/Plas,manual
+LDL- kolesteroo,LDL- kolesteroo,"S,P-LDL-Chol",22748-8,Ser/Plas,manual
+LDL-Kolesterool,LDL-Kolesterool,"S,P-LDL-Chol",22748-8,Ser/Plas,manual
+LDL kolesterool,LDL kolesterool,"S,P-LDL-Chol",22748-8,Ser/Plas,manual
+LDL-kolesterool,LDL-kolesterool,"S,P-LDL-Chol",22748-8,Ser/Plas,manual
+LDL- kolesterool paastuseerumi,LDL- kolesterool paastuseerumi,"S,P-LDL-Chol",22748-8,Ser/Plas,manual
+LDL- kolesterool see,LDL- kolesterool see,"S,P-LDL-Chol",22748-8,Ser/Plas,manual
+LDL- kolesterool seerumis,LDL- kolesterool seerumis,"S,P-LDL-Chol",22748-8,Ser/Plas,manual
+LDL-kolesterool seerumis/plasm,LDL-kolesterool seerumis/plasm,"S,P-LDL-Chol",22748-8,Ser/Plas,manual
+Liikvori Analüüs,CSF-Alb/S-Alb Albumiini suhe liikvoris ja seerumis,CSF-Alb/S-Alb,1756-6,Plas+CSF,manual
+Liikvori analüüs,CSF-baso,CSF-Basofiilid %,13519-4,CSF,manual
+Liikvori analüüs,CSF-Gluc Glükoos liikvoris,CSF-Gluc,14744-7,CSF,manual
+Liikvori analüüs,CSF-Gluc/S-Gluc Glükoosi suhe liikvoris ja seerumis,"CSF-Gluc/S,P-Gluc",2352-3,Plas+CSF,manual
+Liikvori analüüs,CSF-monomakro Monotsüüdid/makrofaagid,CSF-Monotsüüdid/makrofaagid %,23904-6,CSF,manual
+Liikvori analüüs,CSF-WBC,CSF-WBC,806-0,CSF,manual
+Liikvori analüüs,CSF-WBC Leukotsüüdid,CSF-WBC,806-0,CSF,manual
+Liikvori- Ja Seerumialbumiini Suhe,1756-6,CSF-Alb/S-Alb,1756-6,Plas+CSF,manual
+Liikvori- Ja Seerumialbumiini Suhe,CSF-Alb/S2-Alb,CSF-Alb/S-Alb,1756-6,Plas+CSF,manual
+LTKH allhanked,U urealyticum DNA,XXX-U urealyticum DNA,51988-4,,manual
+Lümfotsüütide suhtarv,Lümfotsüütide suhtarv,B-Lymph%,736-9,Bld,manual
+LYMPH#,LYMPH#,B-Lymph#,731-0,Bld,manual
+LYMPH%,LYMPH%,B-Lymph%,736-9,Bld,manual
+Lymph%,Lymph%,B-Lymph%,736-9,Bld,manual
+LYMPH Lümfotsüütide absoluutar,LYMPH Lümfotsüütide absoluutar,B-Lymph#,731-0,Bld,manual
+LYMPH% Lümfotsüütide suhtarv,LYMPH% Lümfotsüütide suhtarv,B-Lymph%,736-9,Bld,manual
+Lymph+monos,Lymph+monos,B-Lymph# + Mono#,35081-9,Bld,manual
+% lymphs+monos,lymphs+monos%,B-Lymph% + Mono%,4662-3,Bld,manual
+"Maksa autoimmuunhaigustega seotud autoantikehade uuring seerumist IF meetodil (ANA, AMA, ASMA,LKMA)",ANA,"S,P-ANA Ab",8061-4,Bld,manual
+"Maksahaiguste Ab paneel (ANA, AMA, SMA, LKMA)",ANA HEp-2,"S,P-ANA IgG titr Hep2",33253-6,Bld,manual
+MCH,MCH,B-MCH,785-6,Bld,manual
+MCHC,MCHC,B-MCHC,786-4,Bld,manual
+MCHC g/l,MCHC g/l,B-MCHC,786-4,Bld,manual
+MCHC Keskmine h,MCHC Keskmine h,B-MCHC,786-4,Bld,manual
+MCHC Keskmine hemogl,MCHC Keskmine hemogl,B-MCHC,786-4,Bld,manual
+MCHC Keskmine hemoglobiini kon,MCHC Keskmine hemoglobiini kon,B-MCHC,786-4,Bld,manual
+MCH Keskmine he,MCH Keskmine he,B-MCH,785-6,Bld,manual
+MCH Keskmine hemoglo,MCH Keskmine hemoglo,B-MCH,785-6,Bld,manual
+MCH Keskmine hemoglobiin erütr,MCH Keskmine hemoglobiin erütr,B-MCH,785-6,Bld,manual
+MCH Keskmine hemoglobiini hulk,MCH Keskmine hemoglobiini hulk,B-MCH,785-6,Bld,manual
+MCH pg,MCH pg,B-MCH,785-6,Bld,manual
+MCV,MCV,B-MCV,787-2,Bld,manual
+MCV Er?trots??tide keskmine ru,MCV Er?trots??tide keskmine ru,B-MCV,787-2,Bld,manual
+MCV Erütrotsüüt,MCV Erütrotsüüt,B-MCV,787-2,Bld,manual
+MCV Erütrotsüütide k,MCV Erütrotsüütide k,B-MCV,787-2,Bld,manual
+MCV Erütrotsüütide keskmine ru,MCV Erütrotsüütide keskmine ru,B-MCV,787-2,Bld,manual
+MCV fl,MCV fl,B-MCV,787-2,Bld,manual
+M. hominis ja U. urealyticum (sh. U. parvum) külv emakakaelakanalikaapelt,Cx-M hominis U urealyticum,"XXX-M hominis, U urealyticum culture",687-4,,manual
+M. hominis ja U. urealyticum (sh. U. parvum) külv emakakaelakanalikaapelt,Cx-M_hominis_U_urealyticum,"XXX-M hominis, U urealyticum culture",687-4,,manual
+M. hominis ja U. urealyticum (sh. U. parvum) külv uriinist (esmasjoa),fvU-M hominis U urealyticum,"XXX-M hominis, U urealyticum culture",687-4,,manual
+M. hominis ja U. urealyticum (sh. U. parvum) külv uriinist (esmasjoa),fvU-M_hominis_U_urealyticum,"XXX-M hominis, U urealyticum culture",687-4,,manual
+Mikrobioloogilised uuringud,Ureaplasma urealyticu,XXX-U urealyticum DNA,51988-4,,manual
+Mikrobioloogilised uuringud,Ureaplasma urealyticum,XXX-U urealyticum DNA,51988-4,,manual
+Molekulaardiagnostika Uuringud,HPV genotüüp emakakaelakanalikaapes,XXX-HPV high risk DNA,49896-4,,manual
+MONO#,MONO#,B-Mono#,742-7,Bld,manual
+MONO%,MONO%,B-Mono%,5905-5,Bld,manual
+Mono%,Mono%,B-Mono%,5905-5,Bld,manual
+MONO% Monotsüüt,MONO% Monotsüüt,B-Mono%,5905-5,Bld,manual
+MONO Monotsüütide absoluutarv,MONO Monotsüütide absoluutarv,B-Mono#,742-7,Bld,manual
+MONO Monotsüütide ar,MONO Monotsüütide ar,B-Mono#,742-7,Bld,manual
+MONO% Monotsüütide s,MONO% Monotsüütide s,B-Mono%,5905-5,Bld,manual
+MONO% Monotsüütide suhtarv,MONO% Monotsüütide suhtarv,B-Mono%,5905-5,Bld,manual
+% Monotsüüdid,Monotsüüdid%,B-Monotsüüdid %,26485-3,Bld,manual
+MPV,MPV,B-MPV,32623-1,Bld,manual
+MPV fl,MPV fl,B-MPV,32623-1,Bld,manual
+MPV Trombots??tide keskmine ma,MPV Trombots??tide keskmine ma,B-MPV,32623-1,Bld,manual
+MPV Trombotsüüt,MPV Trombotsüüt,B-MPV,32623-1,Bld,manual
+MPV Trombotsüütide k,MPV Trombotsüütide k,B-MPV,32623-1,Bld,manual
+MPV Trombotsüütide keskmine ma,MPV Trombotsüütide keskmine ma,B-MPV,32623-1,Bld,manual
+Mycoplasma hominis ja Ureaplasma urealyticum emakakaelakanalikaapelt,Cx-M hominis U urealyticum,"XXX-M hominis, U urealyticum culture",687-4,,manual
+Mycoplasma hominis ja Ureaplasma urealyticum emakakaelakanalikaapelt,Cx-M_hominis_U_urealyticum,"XXX-M hominis, U urealyticum culture",687-4,,manual
+Mycoplasma hominis ja Ureaplasma urealyticumi uuring esmasjoa uriinist,fvU-M hominis U urealyticum,"XXX-M hominis, U urealyticum culture",687-4,,manual
+Mycoplasma hominis ja Ureaplasma urealyticumi uuring esmasjoa uriinist,fvU-M_hominis_U__urealyticum,"XXX-M hominis, U urealyticum culture",687-4,,manual
+Mycoplasma hominis ja Ureaplasma urealyticumi uuring ureetrakaapelt,Um-M hominis U urealyticum,"XXX-M hominis, U urealyticum culture",687-4,,manual
+Mycoplasma hominis ja Ureaplasma urealyticumi uuring ureetrakaapelt,Um-M_hominis_U_urealyticum,"XXX-M hominis, U urealyticum culture",687-4,,manual
+"Mycoplasma, ureaplasma",Ureaplasma urealyticum,"XXX-M hominis, U urealyticum culture",687-4,,manual
+NEUT#,NEUT#,B-Neut#,751-8,Bld,manual
+NEUT%,NEUT%,B-Neut%,770-8,Bld,manual
+NEUT Neutrofiilide absoluutarv,NEUT Neutrofiilide absoluutarv,B-Neut#,751-8,Bld,manual
+NEUT% Neutrofiilide suhtarv,NEUT% Neutrofiilide suhtarv,B-Neut%,770-8,Bld,manual
+Neutrofiilide a,Neutrofiilide a,B-Neutrofiilid #,26499-4,Bld,manual
+Neutrofiilide arv,Neutrofiilide arv,B-Neutrofiilid #,26499-4,Bld,manual
+Neutrofiilide s,Neutrofiilide s,B-Neutrofiilid %,26511-6,Bld,manual
+Neutrofiilide suhtarv,Neutrofiilide suhtarv,B-Neutrofiilid %,26511-6,Bld,manual
+NRBC#,NRBC#,B-NRBC#,771-6,Bld,manual
+NRBC%,NRBC%,B-NRBC%,58413-6,Bld,manual
+"Paneel 1, PCR, emakakaelakanalikaapest",U. urealyticum/parvum,XXX-U urealyticum/U parvum DNA,69934-8,,manual
+"Paneel 1, PCR, ureetrast",U. urealyticum,XXX-U urealyticum DNA,51988-4,,manual
+"Paneel 1, PCR, ureetrast",U. urealyticum/parvum,XXX-U urealyticum/U parvum DNA,69934-8,,manual
+PCR: Muu materjal,Ureaplasma urealyticum DN,XXX-U urealyticum DNA,51988-4,,manual
+PCR: Sperma,Ureaplasma urealyticum DN,XXX-U urealyticum DNA,51988-4,,manual
+PCR: Uriin (esmasjoa),Ureaplasma urealyticum DN,XXX-U urealyticum DNA,51988-4,,manual
+PCT,PCT,B-Pct,51637-7,Bld,manual
+Pct,Pct,B-Pct,51637-7,Bld,manual
+PDW,PDW,B-PDW,32207-3,Bld,manual
+PDW %,PDW %,B-PDW-CV,51631-0,Bld,manual
+PLT,PLT,B-Plt,777-3,Bld,manual
+Plt,Plt,B-Plt,777-3,Bld,manual
+PLT Trombots??did,PLT Trombots??did,B-Plt,777-3,Bld,manual
+PLT Trombotsüüd,PLT Trombotsüüd,B-Plt,777-3,Bld,manual
+PLT Trombotsüüdid,PLT Trombotsüüdid,B-Plt,777-3,Bld,manual
+P-PT,P-PT,P-PT,5902-2,PPP,manual
+P-PT/INR,P-PT/INR,P-PT-INR,L-178,,manual
+Prealbumiin Seerumis,S-PreAlb,"S,P-PreAlb",14338-8,Ser/Plas,manual
+Prokaltsitoniin,Prokaltsitoniin,"S,P-PCT",33959-8,Ser/Plas,manual
+Prokaltsitoniin,S- PCT,"S,P-PCT",33959-8,Ser/Plas,manual
+Prokaltsitoniin,S-_PCT,"S,P-PCT",33959-8,Ser/Plas,manual
+prokaltsitoniin,prokaltsitoniin,"S,P-PCT",33959-8,Ser/Plas,manual
+Prokaltsitoniin seerumis,Prokaltsitoniin seerumis,"S,P-PCT",33959-8,Ser/Plas,manual
+prokaltsitoniin seerumis,S-prokaltsit.,"S,P-PCT",33959-8,Ser/Plas,manual
+Punktaadi analüüs,PlrF-Chol pleuravedelikus,PlrF-Chol,39468-4,Plr fld,manual
+Punktaadi analüüs,PlrF-Chol/S-Chol suhe pleuravedelikus/seerumis,"PrcF-Chol/S,P-Chol",70263-9,Pericard fld+Ser/Plas,manual
+Punktaadi analüüs,PlrF-WBC,PlrF-WBC,808-6,Plr fld,manual
+Punktaadi analüüs,PrcF-Chol perikardivedelikus,PrcF-Chol,78518-8,Pericard fld,manual
+Punktaadi analüüs,PrcF-Chol/S-Chol suhe perikardivedelikus/seerumis,"PrcF-Chol/S,P-Chol",70263-9,Pericard fld+Ser/Plas,manual
+Punktaadi analüüs,PrtF-Crea/P-Crea Kreatiniini suhe kõhuõõnevedelikus ja plas,"PrtF-Crea/S,P-Crea",70266-2,Ser/Plas,manual
+Punktaadi analüüs,SynF-WBC,SynF-WBC,814-4,Synv fld,manual
+RBC,RBC,B-RBC,789-8,Bld,manual
+RBC Erütrotsüüd,RBC Erütrotsüüd,B-RBC,789-8,Bld,manual
+RDW,RDW,B-RDW-CV,788-0,Bld,manual
+RDW %,RDW %,B-RDW-CV,788-0,Bld,manual
+RDW%,RDW%,B-RDW-CV,788-0,Bld,manual
+RDW-CV,RDW-CV,B-RDW-CV,788-0,Bld,manual
+RDW- CV,RDW- CV,B-RDW-CV,788-0,Bld,manual
+RDW-CW,RDW-CW,B-RDW-CV,788-0,Bld,manual
+RDW-CV Er?trots??tide anisots?,RDW-CV Er?trots??tide anisots?,B-RDW-CV,788-0,Bld,manual
+RDW-CV Erütrots,RDW-CV Erütrots,B-RDW-CV,788-0,Bld,manual
+RDW-CV Erütrotsüütid,RDW-CV Erütrotsüütid,B-RDW-CV,788-0,Bld,manual
+RDW-CV Erütrotsüütide anisotsü,RDW-CV Erütrotsüütide anisotsü,B-RDW-CV,788-0,Bld,manual
+RDW-CV Erütrotsüütide suurusja,RDW-CV Erütrotsüütide suurusja,B-RDW-CV,788-0,Bld,manual
+RDW-SD,RDW-SD,B-RDW-SD,21000-5,Bld,manual
+S-ALAT,S-ALAT,"S,P-ALAT",1744-2,Ser/Plas,manual
+S-ANA IgG,S-ANA IgG,"S,P-ANA IgG",29950-3,Bld,manual
+S-ANA (Q),S-ANA,"S,P-ANA Ab",8061-4,Bld,manual
+S-ASAT,S-ASAT,"S,P-ASAT",1920-8,Ser/Plas,manual
+S-Chol,S-Chol,"S,P-Chol",14647-2,Ser/Plas,manual
+S-Crea-Bk,S-CREA-BK,"S,P-Crea",14682-9,Ser/Plas,manual
+S-Crea (Egfr),eGFR :,eGFR,33914-3,Ser/Plas,manual
+S-Crea (eGFR),S-Crea:,"S,P-Crea",14682-9,Ser/Plas,manual
+S-Creat,S-Creat,"S,P-Crea",14682-9,Ser/Plas,manual
+S-Egfr-Bk,S-EGFR-BK,eGFR (CKD-EPI),62238-1,Ser/Plas,manual
+S-Egfr-Epi-Bk,S-EGFR-EPI-BK,eGFR (CKD-EPI),62238-1,Ser/Plas,manual
+Segmenttuumsed,Segmenttuumsed,B-Segmenttuumsed neutrofiilid %,26505-8,Bld,manual
+segmenttuumsed,segmenttuumsed,B-Segmenttuumsed neutrofiilid %,26505-8,Bld,manual
+Segmenttuumsed neutr,Segmenttuumsed neutr,B-Segmenttuumsed neutrofiilid %,26505-8,Bld,manual
+Segmenttuumsed neutrofiilid,Segmenttuumsed neutrofiilid,B-Segmenttuumsed neutrofiilid %,26505-8,Bld,manual
+Segmenttuumsed neutrofiilid %,Segmenttuumsed neutrofiilid %,B-Segmenttuumsed neutrofiilid %,26505-8,Bld,manual
+Segmenttuumsed neutrofiilid ve,Segmenttuumsed neutrofiilid ve,B-Segmenttuumsed neutrofiilid %,26505-8,Bld,manual
+Segmentuumseid,Segmentuumseid,B-Segmenttuumsed neutrofiilid %,26505-8,Bld,manual
+S-FT4,S-FT4,"S,P-fT4",14920-3,Ser/Plas,manual
+S-fT4,S-fT4,"S,P-fT4",14920-3,Ser/Plas,manual
+S-FT4 vaba türo,S-FT4 vaba türo,"S,P-fT4",14920-3,Ser/Plas,manual
+S-Gluc,S-Gluc,"S,P-Gluc",14749-6,Ser/Plas,manual
+S-HDL,S-HDL,"S,P-HDL-Chol",14646-4,Ser/Plas,manual
+S-LDL,S-LDL,"S,P-LDL-Chol",22748-8,Ser/Plas,manual
+S-Liver Ab panel,ANA HEp-2,"S,P-ANA IgG titr Hep2",33253-6,Bld,manual
+"S,P-ALAT","S,P-ALAT","S,P-ALAT",1744-2,Ser/Plas,manual
+"S,P-ASAT","S,P-ASAT","S,P-ASAT",1920-8,Ser/Plas,manual
+"S,P-Chol","S,P-Chol","S,P-Chol",14647-2,Ser/Plas,manual
+"S,P-Crea","S,P-Crea","S,P-Crea",14682-9,Ser/Plas,manual
+S- PCT,S- PCT,"S,P-PCT",33959-8,Ser/Plas,manual
+Spetsiifiliste antikehade kompleksne samastamine,S-ANA IgG panel,"S,P-ANA IgG panel IIF",L-4493,,manual
+"S,P-fT4","S,P-fT4","S,P-fT4",14920-3,Ser/Plas,manual
+"S,P-Glükoos","S,P-Glükoos","S,P-Gluc",14749-6,Ser/Plas,manual
+"S,P-HDL-Chol","S,P-HDL-Chol","S,P-HDL-Chol",14646-4,Ser/Plas,manual
+"S,P-Kaltsitoniin","S,P-Kaltsitoniin","S,P-CT",15035-9,Ser/Plas,manual
+"S,P-Kolesterool","S,P-Kolesterool","S,P-Chol",14647-2,Ser/Plas,manual
+"S,P-Kreatiniin","S,P-Kreatiniin","S,P-Crea",14682-9,Ser/Plas,manual
+"S,P-LDL-Chol","S,P-LDL-Chol","S,P-LDL-Chol",22748-8,Ser/Plas,manual
+"S,P-TSH","S,P-TSH","S,P-TSH",3016-3,Ser/Plas,manual
+"S,P-Uurea","S,P-Uurea","S,P-Urea",22664-7,Ser/Plas,manual
+STLI laiendatud paneel: emakakaelakanali,Ureaplasma urealyticum DNA:,XXX-U urealyticum DNA,51988-4,,manual
+STLI laiendatud paneel: emakakaelakanali kaabe,U urealyticum DNA,XXX-U urealyticum DNA,51988-4,,manual
+STLI paneel 1 DNA ureetrast,U urealyticum/parvum,XXX-U urealyticum/U parvum DNA,69934-8,,manual
+S-TSH,S-TSH,"S,P-TSH",3016-3,Ser/Plas,manual
+Suguhaiguste laiendatud paneel ( DNA),U.urealyticum DNA,XXX-U urealyticum DNA,51988-4,,manual
+S-Urea,S-Urea,"S,P-Urea",22664-7,Ser/Plas,manual
+Taimetoitl-Pakett,S-CREA-BK,"S,P-Crea",14682-9,Ser/Plas,manual
+Taimetoitl-Pakett,S-EGFR-EPI-BK,eGFR (CKD-EPI),62238-1,Ser/Plas,manual
+Terviseriski_Pakett,S-CREA-BK,"S,P-Crea",14682-9,Ser/Plas,manual
+Terviseriski_Pakett,S-EGFR-BK,eGFR (CKD-EPI),62238-1,Ser/Plas,manual
+Terviseriski_Pakett,S-EGFR-EPI-BK,eGFR (CKD-EPI),62238-1,Ser/Plas,manual
+Terviseriski_Pakett-Kampaania,S-CREA-BK,"S,P-Crea",14682-9,Ser/Plas,manual
+Terviseriski_Pakett-Kampaania,S-EGFR-EPI-BK,eGFR (CKD-EPI),62238-1,Ser/Plas,manual
+Tervsportlase-Pakett,S-CREA-BK,"S,P-Crea",14682-9,Ser/Plas,manual
+Tervsportlase-Pakett,S-EGFR-BK,eGFR (CKD-EPI),62238-1,Ser/Plas,manual
+Tervsportlase-Pakett,S-EGFR-EPI-BK,eGFR (CKD-EPI),62238-1,Ser/Plas,manual
+Triglütseriidid,Triglütseriidid,"fS,fP-Trigl",14927-8,Ser/Plas,manual
+triglütseriidid,triglütseriidid,"fS,fP-Trigl",14927-8,Ser/Plas,manual
+Triglütseriidid paastuseerumis,Triglütseriidid paastuseerumis,"fS,fP-Trigl",14927-8,Ser/Plas,manual
+Triglütseriidid seer,Triglütseriidid seer,"fS,fP-Trigl",14927-8,Ser/Plas,manual
+Triglütseriidid seerumis,Triglütseriidid seerumis,"fS,fP-Trigl",14927-8,Ser/Plas,manual
+Trombokrit,Trombokrit,B-Pct,51637-7,Bld,manual
+Trombotsüüdid,Trombotsüüdid,B-Plt,777-3,Bld,manual
+trombotsüüdid,trombotsüüdid,B-Plt,777-3,Bld,manual
+trombotsüüdid 1,trombotsüüdid 1,B-Plt,777-3,Bld,manual
+Trombotsüüdid 10E9,Trombotsüüdid 10E9,B-Plt,777-3,Bld,manual
+Trombotsüüdid 10E9/l,Trombotsüüdid 10E9/l,B-Plt,777-3,Bld,manual
+TSH,TSH,"S,P-TSH",3016-3,Ser/Plas,manual
+TSH Kilpn??ret,TSH Kilpn??ret,"S,P-TSH",3016-3,Ser/Plas,manual
+TSH Kilpn??ret stimuleeriv hor,TSH Kilpn??ret stimuleeriv hor,"S,P-TSH",3016-3,Ser/Plas,manual
+TSH Kilpnääret,TSH Kilpnääret,"S,P-TSH",3016-3,Ser/Plas,manual
+TSH Kilpnääret stimuleeriv hor,TSH Kilpnääret stimuleeriv hor,"S,P-TSH",3016-3,Ser/Plas,manual
+TSH retseptorite vastased ak,TSH retseptorite vastased ak,"S,P-TSH",3016-3,Ser/Plas,manual
+Tuumaantikehade tüpiseerimine (HEp-2),S-ANA-HEp-,"S,P-ANA IgG titr Hep2",33253-6,Bld,manual
+Tuumavastane Ig,Tuumavastane Ig,"S,P-ANA IgG",29950-3,Bld,manual
+Tuumavastane IgG,Tuumavastane IgG,"S,P-ANA IgG",29950-3,Bld,manual
+Tuumavastane Ig G,S-ANA_Ig_G,"S,P-ANA IgG",29950-3,Bld,manual
+Tuumavastane Ig G,Tuumavastane Ig G seerumis,"S,P-ANA IgG",29950-3,Bld,manual
+Tuumavastane IgG (paneel),S-ANA_IgG_panel,"S,P-ANA IgG panel IIF",L-4493,,manual
+Tuumavastane IgG seerumis,S-ANA IgG,"S,P-ANA IgG",29950-3,Bld,manual
+Tuumavastane IgG seerumis,S-ANA_IgG,"S,P-ANA IgG",29950-3,Bld,manual
+tuumavastane IgG seerumis,S-ANA IgG,"S,P-ANA IgG",29950-3,Bld,manual
+tuumavastane IgG seerumis,S-ANA_IgG,"S,P-ANA IgG",29950-3,Bld,manual
+Tuumavastased a,Tuumavastased a,"S,P-ANA Ab",8061-4,Bld,manual
+Tuumavastased Ak-d (ANA),S-ANA-Hep-2,"S,P-ANA IgG titr Hep2",33253-6,Bld,manual
+Tuumavastased Ak-d (ANA),S-ANA-IgG,"S,P-ANA IgG",29950-3,Bld,manual
+Tuumavastased antikehad,ANA (antinukleaarsed Ak-d),"S,P-ANA Ab",8061-4,Bld,manual
+Tuumavastased antikehad,S1-ANA,"S,P-ANA Ab",8061-4,Bld,manual
+Tuumavastased antikehad,S-aANA,"S,P-ANA Ab",8061-4,Bld,manual
+Tuumavastased antikehad,S-ANA,"S,P-ANA Ab",8061-4,Bld,manual
+Tuumavastased antikehad,S-aNA,"S,P-ANA Ab",8061-4,Bld,manual
+Tuumavastased antikehad,S-ANA-IB/ANA IgG paneel,"S,P-ANA IgG panel IIF",L-4493,,manual
+Tuumavastased antikehad,S-ANA IgG tiiter,"S,P-ANA IgG titr",56634-9,Bld,manual
+Tuumavastased antikehad,S-ANA_IgG_tiiter,"S,P-ANA IgG titr",56634-9,Bld,manual
+Tuumavastased antikehad,Tuumavastane IgG seerumis,"S,P-ANA IgG",29950-3,Bld,manual
+Tuumavastased antikehad,Tuumavastased antikehad,"S,P-ANA Ab",8061-4,Bld,manual
+"Tuumavastased antikehad, IgG tiiter",ANA IgG lõpptiiter,"S,P-ANA IgG titr",56634-9,Bld,manual
+"Tuumavastased antikehad, IgG tiiter",S-aANA,"S,P-ANA Ab",8061-4,Bld,manual
+"Tuumavastased antikehad, IgG tiiter",Tuumavastased antikehad,"S,P-ANA Ab",8061-4,Bld,manual
+"Tuumavastased antikehad, IgG tiiter",Tuumavastased antikehad IgG tiiter,"S,P-ANA IgG titr",56634-9,Bld,manual
+Tuumavastased IgG antikehad,S-ANA IgG,"S,P-ANA IgG",29950-3,Bld,manual
+"Tuumavastased IgG antikehad, tiiter",ANA HEp-2,"S,P-ANA IgG titr Hep2",33253-6,Bld,manual
+"Tuumavastased IgG antikehad, tiiter",ANA IgG lõpptiiter,"S,P-ANA IgG titr",56634-9,Bld,manual
+"Tuumavastased IgG antikehad, tiiter",S-ANA,"S,P-ANA Ab",8061-4,Bld,manual
+"Tuumavastased IgG antikehad, tiiter",Tuumavastased antikehad IgG tiiter,"S,P-ANA IgG titr",56634-9,Bld,manual
+Tuumavastase Ig,Tuumavastase Ig,"S,P-ANA IgG",29950-3,Bld,manual
+Tuumavastase IgG tiiter,S-ANA IgG titr,"S,P-ANA IgG titr",56634-9,Bld,manual
+Tuumavastase IgG tiiter,S-ANA_IgG_titr,"S,P-ANA IgG titr",56634-9,Bld,manual
+Tuumavastase IgG tiiter seerumis,S-ANA IgG titr,"S,P-ANA IgG titr",56634-9,Bld,manual
+Tuumavastase IgG tiiter seerumis,S-ANA_IgG_titr,"S,P-ANA IgG titr",56634-9,Bld,manual
+Tuumavastase IgG tiiter seerumis,Tuumavastased antikehad,"S,P-ANA Ab",8061-4,Bld,manual
+Tuumavastase IgG tüpiseerimine,S-ANA IgG panel,"S,P-ANA IgG panel IIF",L-4493,,manual
+Tuumavastase IgG tüpiseerimine,Tuumavastase IgG tüpiseerimine,"S,P-ANA IgG titr Hep2",33253-6,Bld,manual
+Tuumavastase IgG tüpiseerimine HEp-2 rakuliiniga,S-ANA HEp-2,"S,P-ANA IgG titr Hep2",33253-6,Bld,manual
+Tuumavastaste antikehade tüpiseerimine HEp-2 rakuliiniga,S-ANA HEp-2,"S,P-ANA IgG titr Hep2",33253-6,Bld,manual
+Tuumavastaste antikehade tüpiseerimine HEp-2 rakuliinil,S-ANA-HEp-2,"S,P-ANA IgG titr Hep2",33253-6,Bld,manual
+Tuumavastaste antikehade tüpiseerimine HEp-2 rakuliinil,S-aNA-HEp-2,"S,P-ANA IgG titr Hep2",33253-6,Bld,manual
+U-Alb/U-Crea,Albumiini ja kreatiniini suhe:,U-Alb/U-Crea,30000-4,Urine,manual
+U-Alb/U-Crea,U-Alb/U-Crea,U-Alb/U-Crea,30000-4,Urine,manual
+U-Alb/U- Crea,Albumiini ja kreatiniini suhe,U-Alb/U-Crea,30000-4,Urine,manual
+U-Kreatiniin,U-Kreatiniin,U-Crea,14683-7,Urine,manual
+Ureaplasma DNA paneel emakakaelakanalikaapes,Ureaplasma urealyticum DNA emakakaelakanalikaapes,XXX-U urealyticum DNA,51988-4,,manual
+Ureaplasma DNA uriinis,U urealyticum DNA uriinis,XXX-U urealyticum DNA,51988-4,,manual
+Ureaplasma parvum/urealyticum DNA emakakaelakanalikaapes (paneel),Ureaplasma urealyticum,XXX-U urealyticum/U parvum DNA,69934-8,,manual
+Ureaplasma parvum/urealyticum DNA emakakaelakanalikaapes (paneel),U urealyticum DNA,XXX-U urealyticum/U parvum DNA,69934-8,,manual
+Ureaplasma parvum/urealyticum DNA tupekaapes (paneel),Ureaplasma urealyticum,XXX-U urealyticum/U parvum DNA,69934-8,,manual
+Ureaplasma parvum/urealyticum DNA tupekaapes (paneel),U urealyticum DNA,XXX-U urealyticum/U parvum DNA,69934-8,,manual
+Ureaplasma parvum/urealyticum DNA ureetrakaapes (paneel),Ureaplasma urealyticum,XXX-U urealyticum/U parvum DNA,69934-8,,manual
+Ureaplasma parvum/urealyticum DNA ureetrakaapes (paneel),U urealyticum DNA,XXX-U urealyticum/U parvum DNA,69934-8,,manual
+Ureaplasma parvum/urealyticum DNA uriinis (paneel),Ureaplasma urealyticum,XXX-U urealyticum/U parvum DNA,69934-8,,manual
+Ureaplasma parvum/urealyticum DNA uriinis (paneel),U urealyticum DNA,XXX-U urealyticum/U parvum DNA,69934-8,,manual
+Ureaplasma urealyticum,Ureaplasma urealyticum,XXX-U urealyticum DNA,51988-4,,manual
+Ureaplasma urealyticum DNA,Ureaplasma urealyticum,XXX-U urealyticum DNA,51988-4,,manual
+Ureaplasma urealyticum DNA,Ureaplasma_urealyticum,XXX-U urealyticum DNA,51988-4,,manual
+Ureaplasma urealyticum DNA emakakanalikaapes,Cx-U_urealyticum_DNA,XXX-U urealyticum DNA,51988-4,,manual
+Ureaplasma urealyticum DNA tupekaapes,Vag-U_urealyticum_DNA,XXX-U urealyticum DNA,51988-4,,manual
+Ureaplasma urealyticum DNA ureetrakaapes,Um-U_urealyticum_DNA,XXX-U urealyticum DNA,51988-4,,manual
+Ureaplasma urealyticum DNA uriinis (esmasjoa),fvU-U_urealyticum_DNA,XXX-U urealyticum DNA,51988-4,,manual
+"Ureaplasma urealyticum ja parvum, PCR, ureetramaterjalist","Ureaplasma urealyticum,",XXX-U urealyticum/U parvum DNA,69934-8,,manual
+"Ureaplasma urealyticum ja Ureplasma parvum, PCR, uriinist","Ureaplasma urealyticum, PCR, uriinist",XXX-U urealyticum/U parvum DNA,69934-8,,manual
+Ureaplasma urealyticum/parvum DNA tupekaapes,Ureaplasma urealyticum/parvum DNA,XXX-U urealyticum/U parvum DNA,69934-8,,manual
+"Ureaplasma urealyticum, PCR (emakakaelakanalikaapelt)",Cx-U urealyticum-PCR,XXX-U urealyticum DNA,51988-4,,manual
+"Ureaplasma urealyticum, PCR (emakakaelakanalikaapelt)",Cx-U_urealyticum-PCR,XXX-U urealyticum DNA,51988-4,,manual
+"Ureaplasma urealyticum, PCR, ureetrast","Ureplasma urealyticum, PCR, ureetrast",XXX-U urealyticum DNA,51988-4,,manual
+Ureaplasma urealyticum/Ureaplasma parvum DNA emakakaelakanalikaapes,Ureaplasma urealyticum/Ureaplasma parvum PCR meetodil,XXX-U urealyticum/U parvum DNA,69934-8,,manual
+"Ureaplasma urealyticum, Ureaplasma parvum, PCR, emakakaelakanalikaapest","Ureaplasma urealyticum,PCR",XXX-U urealyticum/U parvum DNA,69934-8,,manual
+"Ureaplasma urealyticum, Ureaplasma parvum PCR, emakakaelakanali materjalis",Ureaplasma urealyticum,XXX-U urealyticum/U parvum DNA,69934-8,,manual
+"Ureaplasma urealyticum, Ureaplasma parvum, PCR, emakakaelast","Ureaplasma urealyticum,PCR",XXX-U urealyticum/U parvum DNA,69934-8,,manual
+Uriin,NIT,U-Nit strip,50558-6,Urine,manual
+Uriin,NIT HK:0000,U-Nit strip,50558-6,Urine,manual
+Uriin,pH HK:0000,U-pH strip,50560-2,Urine,manual
+Uriin,SG,U-SG strip,53326-5,Urine,manual
+Uriin,SG HK:0000,U-SG strip,53326-5,Urine,manual
+Uriini analüüs 10 parameetrilise testribaga,BIL,U-Bil strip,41016-7,Urine,manual
+Uriini analüüs 10 parameetrilise testribaga,GLU,U-Gluc strip,59156-0,Urine,manual
+Uriini analüüs 10 parameetrilise testribaga,KET,U-Ket strip,59158-6,Urine,manual
+Uriini analüüs 10 parameetrilise testribaga,LEU,U-WBC strip,58805-3,Urine,manual
+Uriini analüüs 10 parameetrilise testribaga,NIT,U-Nit strip,50558-6,Urine,manual
+Uriini analüüs 10 parameetrilise testribaga,PRO,U-Prot strip,50561-0,Urine,manual
+Uriini analüüs 10 parameetrilise testribaga,SG,U-SG strip,53326-5,Urine,manual
+Uriini analüüs 10 parameetrilise testribaga,UBG,U-Ubg strip,60025-4,Urine,manual
+Uriini analüüs 10-parameetrilise testribaga,Bilirubiin,U-Bil strip,41016-7,Urine,manual
+Uriini analüüs 10-parameetrilise testribaga,Erütrotsüüdid,U-RBC strip,57747-8,Urine,manual
+Uriini analüüs 10-parameetrilise testribaga,Glükoos,U-Gluc strip,59156-0,Urine,manual
+Uriini analüüs 10-parameetrilise testribaga,Ketoonid,U-Nit strip,50558-6,Urine,manual
+Uriini analüüs 10-parameetrilise testribaga,Leukotsüüdid,U-WBC strip,58805-3,Urine,manual
+Uriini analüüs 10-parameetrilise testribaga,Nitritid,U-Nit strip,50558-6,Urine,manual
+Uriini analüüs 10-parameetrilise testribaga,Uriini erikaal,U-SG strip,53326-5,Urine,manual
+Uriini analüüs 10-parameetrilise testribaga,Uriini nitritid,U-Nit strip,50558-6,Urine,manual
+Uriini analüüs 10-parameetrilise testribaga,Uriini pH,U-pH strip,50560-2,Urine,manual
+Uriini analüüs 10-parameetrilise testribaga,Urobilinogeen,U-Ubg strip,60025-4,Urine,manual
+Uriini analüüs 10-parameetrilise testribaga,Valk,U-Prot strip,50561-0,Urine,manual
+Uriini analüüs 10-parameetrilise testribaga (uus),Nitritid,U-Nit strip,50558-6,Urine,manual
+Uriini analüüs 10-param. testribaga,Atsetoon KET,U-Nit strip,50558-6,Urine,manual
+Uriini analüüs 10-param. testribaga,Bilirubiin BIL,U-Bil strip,41016-7,Urine,manual
+Uriini analüüs 10-param. testribaga,Erikaal SG,U-SG strip,53326-5,Urine,manual
+Uriini analüüs 10-param. testribaga,Erütrotsüüdid ERY,U-RBC strip,57747-8,Urine,manual
+Uriini analüüs 10-param. testribaga,Glükoos GLU,U-Gluc strip,59156-0,Urine,manual
+Uriini analüüs 10-param. testribaga,Ketokehad KET,U-Ket strip,59158-6,Urine,manual
+Uriini analüüs 10-param. testribaga,Leukotsüüdid LEU,U-WBC strip,58805-3,Urine,manual
+Uriini analüüs 10-param. testribaga,Mikroobid NIT,U-Nit strip,50558-6,Urine,manual
+Uriini analüüs 10-param. testribaga,Nitrit NIT,U-Nit strip,50558-6,Urine,manual
+Uriini analüüs 10-param. testribaga,Reaktsioon PH,U-pH strip,50560-2,Urine,manual
+Uriini analüüs 10-param. testribaga,Suhkur GLU,U-Gluc strip,59156-0,Urine,manual
+Uriini analüüs 10-param. testribaga,Urobilinogeen UBG,U-Ubg strip,60025-4,Urine,manual
+Uriini analüüs 10-param. testribaga,Valk PRO,U-Prot strip,50561-0,Urine,manual
+Uriini ribaanalüüs,Bilirubiin,U-Bil strip,41016-7,Urine,manual
+Uriini ribaanalüüs,Erütrotsüüdid,U-RBC strip,57747-8,Urine,manual
+Uriini ribaanalüüs,Glükoos,U-Gluc strip,59156-0,Urine,manual
+Uriini ribaanalüüs,Ketokehad,U-Ket strip,59158-6,Urine,manual
+Uriini ribaanalüüs,Ketoonid,U-Ket strip,59158-6,Urine,manual
+Uriini ribaanalüüs,Leukotsüüdid,U-WBC strip,58805-3,Urine,manual
+Uriini ribaanalüüs,Nitritid,U-Nit strip,50558-6,Urine,manual
+Uriini ribaanalüüs,U-RBC Erütrotsüüdid,U-RBC strip,57747-8,Urine,manual
+Uriini ribaanalüüs,uriini bilirubiin,U-Bil strip,41016-7,Urine,manual
+Uriini ribaanalüüs,uriini erikaal,U-SG strip,53326-5,Urine,manual
+Uriini ribaanalüüs,uriini erütrotsüüdid,U-RBC strip,57747-8,Urine,manual
+Uriini ribaanalüüs,uriini glükoos,U-Gluc strip,59156-0,Urine,manual
+Uriini ribaanalüüs,uriini ketoonid,U-Ket strip,59158-6,Urine,manual
+Uriini ribaanalüüs,uriini nitritid,U-Nit strip,50558-6,Urine,manual
+Uriini ribaanalüüs,uriini urobilinogeen,U-Ubg strip,60025-4,Urine,manual
+Uriini ribaanalüüs,uriini valk,U-Prot strip,50561-0,Urine,manual
+Uriini ribaanalüüs,Urobilinogeen,U-Ubg strip,60025-4,Urine,manual
+Uriini ribaanalüüs,Valk,U-Prot strip,50561-0,Urine,manual
+Uriini ribaanalüüs*,-1 S-ANA IgG mustrid,"S,P-ANA IgG pattern",13068-2,Bld,manual
+Uriini ribaanalüüs*,"-1 S,P-ANA IgG mustrid","S,P-ANA IgG pattern",13068-2,Bld,manual
+Uriini ribaanalüüs*,-2 S-ANA IgG tiiter,"S,P-ANA IgG titr",56634-9,Bld,manual
+Uriini ribaanalüüs*,"-2 S,P-ANA IgG tiiter","S,P-ANA IgG titr",56634-9,Bld,manual
+Uriini ribaanalüüs*,5 S-ANA Ab,"S,P-ANA Ab",8061-4,Bld,manual
+Uriini ribaanalüüs*,"5 S,P-ANA Ab","S,P-ANA Ab",8061-4,Bld,manual
+Uriini ribaanalüüs*,Bilirubiin,U-Bil strip,41016-7,Urine,manual
+Uriini ribaanalüüs*,Erütrotsüüdid,U-RBC strip,57747-8,Urine,manual
+Uriini ribaanalüüs*,Glükoos,U-Gluc strip,59156-0,Urine,manual
+Uriini ribaanalüüs*,Ketokehad,U-Ket strip,59158-6,Urine,manual
+Uriini ribaanalüüs*,Leukotsüüdid,U-WBC strip,58805-3,Urine,manual
+Uriini ribaanalüüs*,pH uriinis,U-pH strip,50560-2,Urine,manual
+Uriini ribaanalüüs*,Urobilinogeen,U-Ubg strip,60025-4,Urine,manual
+Uriini ribaanalüüs*,U. urealyticum,XXX-U urealyticum DNA,51988-4,,manual
+Uriini ribaanalüüs*,Valk,U-Prot strip,50561-0,Urine,manual
+Uriini ribaanalüüs 1,U urealyticum DNA,XXX-U urealyticum DNA,51988-4,,manual
+Uriini Ribaanalüüs (Ph),Liikvori- ja seerumialbumiini suhe,CSF-Alb/S-Alb,1756-6,Plas+CSF,manual
+Uriini sademe mikroskoopia*,-1 S-ANA IgG mustrid,"S,P-ANA IgG pattern",13068-2,Bld,manual
+Uriini sademe mikroskoopia*,"-1 S,P-ANA IgG mustrid","S,P-ANA IgG pattern",13068-2,Bld,manual
+Uriini sademe mikroskoopia*,-2 S-ANA IgG tiiter,"S,P-ANA IgG titr",56634-9,Bld,manual
+Uriini sademe mikroskoopia*,"-2 S,P-ANA IgG tiiter","S,P-ANA IgG titr",56634-9,Bld,manual
+Uriini sademe mikroskoopia*,5 S-ANA Ab,"S,P-ANA Ab",8061-4,Bld,manual
+Uriini sademe mikroskoopia*,"5 S,P-ANA Ab","S,P-ANA Ab",8061-4,Bld,manual
+Uriini sademe mikroskoopia*,U. urealyticum,XXX-U urealyticum DNA,51988-4,,manual
+Uriini uuring 10-parameetrilise testribaga,BIL,U-Bil strip,41016-7,Urine,manual
+Uriini uuring 10-parameetrilise testribaga,ERY,U-RBC strip,57747-8,Urine,manual
+Uriini uuring 10-parameetrilise testribaga,GLU,U-Gluc,15076-3,Urine,manual
+Uriini uuring 10-parameetrilise testribaga,KET,U-Ket strip,59158-6,Urine,manual
+Uriini uuring 10-parameetrilise testribaga,LEU,U-WBC strip,58805-3,Urine,manual
+Uriini uuring 10-parameetrilise testribaga,NIT,U-Nit strip,50558-6,Urine,manual
+Uriini uuring 10-parameetrilise testribaga,PRO,U-Prot,2888-6,Urine,manual
+Uriini uuring 10-parameetrilise testribaga,SG,U-SG strip,53326-5,Urine,manual
+Uriini uuring 10-parameetrilise testribaga,UBG,U-Ubg strip,60025-4,Urine,manual
+Uriini Uuringud,Albumiini/kreatiniini suhe,U-Alb/U-Crea,30000-4,Urine,manual
+Uriini Uuringud,Albumiini / kreat suhe,U-Alb/U-Crea,30000-4,Urine,manual
+Uriini uuringud,albumiin/kreatinii,U-Alb/U-Crea,30000-4,Urine,manual
+Uriini uuringud,albumiin/kreatiniin,U-Alb/U-Crea,30000-4,Urine,manual
+Uriini uuringud,Erütrotsüüdid,U-RBC strip,57747-8,Urine,manual
+Uriini uuringud,Leukotsüüdid,U-WBC strip,58805-3,Urine,manual
+Uurea,Uurea,"S,P-Urea",22664-7,Ser/Plas,manual
+"U. urealyticum, U.parvum DNA emakakaelak",Ureaplasma urealyticum DNA:,XXX-U urealyticum/U parvum DNA,69934-8,,manual
+"U. urealyticum, U.parvum DNA emakakaelakanalikaapes","Cx-U_urealyticum,_U_parvu",XXX-U urealyticum/U parvum DNA,69934-8,,manual
+"U. urealyticum, U.parvum DNA emakakaelakanalikaapes","U._urealyticum,_U.parvum_DNA_em",XXX-U urealyticum/U parvum DNA,69934-8,,manual
+"U. urealyticum, U.parvum DNA ureetrakaapes","Um-U_urealyticum,_U_parvu",XXX-U urealyticum/U parvum DNA,69934-8,,manual
+"U. urealyticum, U.parvum DNA ureetrakaapes","U._urealyticum,_U.parvum_DNA_ur",XXX-U urealyticum/U parvum DNA,69934-8,,manual
+Uurea paastusee,Uurea paastusee,"S,P-Urea",22664-7,Ser/Plas,manual
+Uurea paastuseerumis,Uurea paastuseerumis,"S,P-Urea",22664-7,Ser/Plas,manual
+Uurea seerumis,Uurea seerumis,"S,P-Urea",22664-7,Ser/Plas,manual
+Vaba Türoksiin,66706 S-fT4,"S,P-fT4",14920-3,Ser/Plas,manual
+Vaba Türoksiin,S-_fT4,"S,P-fT4",14920-3,Ser/Plas,manual
+Vaba türoksiin,Vaba türoksiin,"S,P-fT4",14920-3,Ser/Plas,manual
+Vaba türoksiin seeru,Vaba türoksiin seeru,"S,P-fT4",14920-3,Ser/Plas,manual
+Vaba türoksiin seerumis,Vaba türoksiin seerumis,"S,P-fT4",14920-3,Ser/Plas,manual
+Vaba türoksiin seerumis/plasma,Vaba türoksiin seerumis/plasma,"S,P-fT4",14920-3,Ser/Plas,manual
+Valem,Segmenttuumsed neutrofiilid:,B-Segmenttuumsed neutrofiilid %,26505-8,Bld,manual
+Valem,Segmentuumseid,B-Segmenttuumsed neutrofiilid %,26505-8,Bld,manual
+WBC,WBC,B-WBC,6690-2,Bld,manual
+WBC Leukotsüüdi,WBC Leukotsüüdi,B-WBC,6690-2,Bld,manual
+WBC Leukotsüüdid,WBC Leukotsüüdid,B-WBC,6690-2,Bld,manual
+Vere automaatuuring,B-Hct:,B-Hct,4544-3,Bld,manual
+Vere automaatuuring,B-PLT:,B-Plt,777-3,Bld,manual
+Vere automaatuuring,E-MCH,B-MCH,785-6,Bld,manual
+Vere automaatuuring,E-MCH:,B-MCH,785-6,Bld,manual
+Vere automaatuuring,E-MCHC,B-MCHC,786-4,Bld,manual
+Vere automaatuuring,E-MCHC:,B-MCHC,786-4,Bld,manual
+Vere automaatuuring,E-MCV,B-MCV,787-2,Bld,manual
+Vere automaatuuring,E-MCV:,B-MCV,787-2,Bld,manual
+Vere automaatuuring,MPV:,B-MPV,32623-1,Bld,manual
+Vere automaatuuring,PCT:,B-Pct,51637-7,Bld,manual
+Vere automaatuuring leukogrammita,"MCV, fL",B-MCV,787-2,Bld,manual
+Vere automaatuuring leukogrammita,"PLT, 10^3/mL",B-Plt,777-3,Bld,manual
+Vere automaatuuring leukogrammita,"PLT, 10^9/mL",B-Plt,777-3,Bld,manual
+Vere automaatuuring leukogrammita,"RDW, %CV",B-RDW-CV,788-0,Bld,manual
+Vereäige mikroskoopia kapillaarvereset,B-Basofüülid %,B-Basofiilid %,30180-4,Bld,manual
+Vereäige mikroskoopia täisverest,B-Basofüülid %,B-Basofiilid %,30180-4,Bld,manual
+VÄL,Tuumavastased antikeha,"S,P-ANA Ab",8061-4,Bld,manual
+VÄL,Tuumavastased antikehad,"S,P-ANA Ab",8061-4,Bld,manual
+VÄL,Ureaplasma urealyticum DN,XXX-U urealyticum DNA,51988-4,,manual
+Välisanalüüsid,24 S- ANA IgG panee,"S,P-ANA IgG panel IIF",L-4493,,manual
+Välisanalüüsid,24 S- ANA IgG paneel,"S,P-ANA IgG panel IIF",L-4493,,manual
+Välisanalüüsid,S-ANA Ig,"S,P-ANA IgG",29950-3,Bld,manual
+Välisanalüüsid,S-ANA Ig G,"S,P-ANA IgG",29950-3,Bld,manual
+Väljast tellitud analüüsid,Ureaplasma urealyticum,XXX-U urealyticum DNA,51988-4,,manual

@@ -1,0 +1,1477 @@
+analysis_name,parameter_name,parameter_unit,elabor_t_lyhend
+01.00 Glükoos täisveres (glükomeetriga),B-Gluc,mmol/L,fcB-Gluc
+02.00 Glükoos täisveres (glükomeetriga),B-Gluc,mmol/L,fcB-Gluc
+03.00 Glükoos täisveres (glükomeetriga),B-Gluc,mmol/L,fcB-Gluc
+04.00 Glükoos täisveres (glükomeetriga),B-Gluc,mmol/L,fcB-Gluc
+05.00 Glükoos täisveres (glükomeetriga),B-Gluc,mmol/L,fcB-Gluc
+06.00 Glükoos täisveres (glükomeetriga),B-Gluc,mmol/L,fcB-Gluc
+07.00 Glükoos täisveres (glükomeetriga),B-Gluc,mmol/L,fcB-Gluc
+08.00 Glükoos täisveres (glükomeetriga),B-Gluc,mmol/L,fcB-Gluc
+09.00 Glükoos täisveres (glükomeetriga),B-Gluc,mmol/L,fcB-Gluc
+10.00 Glükoos täisveres (glükomeetriga),B-Gluc,mmol/L,fcB-Gluc
+11.00 Glükoos täisveres (glükomeetriga),B-Gluc,mmol/L,fcB-Gluc
+12.00 Glükoos täisveres (glükomeetriga),B-Gluc,mmol/L,fcB-Gluc
+13.00 Glükoos täisveres (glükomeetriga),B-Gluc,mmol/L,fcB-Gluc
+14.00 Glükoos täisveres (glükomeetriga),B-Gluc,mmol/L,fcB-Gluc
+15.00 Glükoos täisveres (glükomeetriga),B-Gluc,mmol/L,fcB-Gluc
+16.00 Glükoos täisveres (glükomeetriga),B-Gluc,mmol/L,fcB-Gluc
+17.00 Glükoos täisveres (glükomeetriga),B-Gluc,mmol/L,fcB-Gluc
+18.00 Glükoos täisveres (glükomeetriga),B-Gluc,mmol/L,fcB-Gluc
+19.00 Glükoos täisveres (glükomeetriga),B-Gluc,mmol/L,fcB-Gluc
+20.00 Glükoos täisveres (glükomeetriga),B-Gluc,mmol/L,fcB-Gluc
+21.00 Glükoos täisveres (glükomeetriga),B-Gluc,mmol/L,fcB-Gluc
+22.00 Glükoos täisveres (glükomeetriga),B-Gluc,mmol/L,fcB-Gluc
+23.00 Glükoos täisveres (glükomeetriga),B-Gluc,mmol/L,fcB-Gluc
+24.00 Glükoos täisveres (glükomeetriga),B-Gluc,mmol/L,fcB-Gluc
+Alaniini aminotransferaas,Alaniini amonitrasferaas,U/L,"S,P-ALAT"
+Alaniini aminotransferaas seerumis,S-ALAT HK:66106,U/L,"S,P-ALAT"
+ALAT,"S-ALAT, P-ALAT",U/L,"S,P-ALAT"
+ALAT,"S-ALAT,_P-ALAT",U/L,"S,P-ALAT"
+ALAT Alaniini aminotransferaas seerumis,"S-ALAT, P-ALAT",ng/mL,"S,P-ALAT"
+ALAT Alaniini aminotransferaas seerumis,"S-ALAT,_P-ALAT",ng/mL,"S,P-ALAT"
+Albumiini ja kreatiniini suhe uriinis,Alb/Crea,mgalb/mmol kreat,U-Alb/U-Crea
+Albumiini-kreatiniini suhe uriinis,Alb/Crea,mg/mmol,U-Alb/U-Crea
+Albumiini-kreatiniini suhe uriinis,Kreatiniin,mmol/L,U-Crea
+Albumiini-kreatiniini suhe uriinis,U-Alb/Crea,mg/mmol,U-Alb/U-Crea
+Albumiini/kreatiniini suhe uriinis,Alb/Crea,mgalb/mmol kreat,U-Alb/U-Crea
+Albumiini/kreatiniini suhe uriinis,Crea,umol/L,"S,P-Crea"
+Albumiin juhuslikus uriinis,Albumiin uriinis HK:66117,mg/L,U-Alb
+Albumiin juhuslikus uriinis,Kreatiniin uriinis HK:66102,mmol/L,U-Crea
+Albumiin/kreatiniin uriinis,Alb/Crea,mg/mmol,U-Alb/U-Crea
+Albumiin/kreatiniin uriinis,Kreatiniin,mmol/L,U-Crea
+Albumiin/kreatiniin uriinis,U-Alb/Crea,mgAlb/mmol/Cre,U-Alb/U-Crea
+ANA tüpiseerimine (Immunoblot),ANA tüpiseerimine,pmol/L,"S,P-CTD IgG panel IB"
+anti TSH-R retseptorite vastased ak,S-antiTSH-R,U/L,"S,P-TSH"
+anti TSH-R retseptorite vastased ak,TSH retseptorite vastased ak,U/L,"S,P-TSH"
+ASAT,"S-ASAT, P-ASAT",U/L,"S,P-ASAT"
+ASAT,"S-ASAT,_P-ASAT",U/L,"S,P-ASAT"
+ASAT Aspartaadi aminotransferaas seerumis,Aspartaadi aminotransferaas seerumis,U/L,"S,P-ASAT"
+ASAT Aspartaadi aminotransferaas seerumis,"S-ASAT, P-ASAT",ng/mL,"S,P-ASAT"
+ASAT Aspartaadi aminotransferaas seerumis,"S-ASAT,_P-ASAT",ng/mL,"S,P-ASAT"
+ASAT Aspartaadi aminotransferaas seerumisa1,Aspartaadi aminotransferaas seerumis,U/L,"S,P-ASAT"
+Aspartaadi aminotransferaas seerumis,S-ASAT HK:66106,U/L,"S,P-ASAT"
+Autoimmuundiagnostika,S-ANA Ig,S/CO,"S,P-ANA IgG"
+Autoimmuundiagnostika,S-ANA IgG,S/CO,"S,P-ANA IgG"
+Autoimmuunuuringud,ANA - Tuumavastane IgG,tiiter,"S,P-ANA IgG titr"
+Automaat uuring 3 osalise leukogrammiga,LYM,%,B-Lymph%
+Automaat uuring 3 osalise leukogrammiga,RDWa,fL,B-RDW-SD
+Automaatuuring 3 osalise leukogrammiga (polikliinik),RDW,fL,B-RDW-SD
+Automaatuuring 3 osalise leukogrammiga (polikliinik),RDWa,fL,B-RDW-SD
+Autom. settega,B-LYMPH,10E9/L,B-Lymph#
+B1-CBC-5Diff Hemogramm viieosalise leukogrammiga,Alaniini amin Alaniini aminotransferaas,U/L,"S,P-ALAT"
+B1-CBC-5Diff Hemogramm viieosalise leukogrammiga,Aspartaadi am Aspartaadi aminotransferaas,U/L,"S,P-ASAT"
+B1-CBC-5Diff Hemogramm viieosalise leukogrammiga,Aspartaadi aminotransferaas seerumis,U/L,"S,P-ASAT"
+B1-CBC-5Diff Hemogramm viieosalise leukogrammiga,Baso# Baso#,10E9/L,B-Baso#
+B1-CBC-5Diff Hemogramm viieosalise leukogrammiga,Baso% Baso%,%,B-Baso%
+B1-CBC-5Diff Hemogramm viieosalise leukogrammiga,Eo# Eo#,10E9/L,B-Eo#
+B1-CBC-5Diff Hemogramm viieosalise leukogrammiga,Eo% Eo%,%,B-Eo%
+B1-CBC-5Diff Hemogramm viieosalise leukogrammiga,Hct Hct,%,B-Hct
+B1-CBC-5Diff Hemogramm viieosalise leukogrammiga,Kepptuumsed n Kepptuumsed neutrofiilid,%,B-Kepptuumsed neutrofiilid %
+B1-CBC-5Diff Hemogramm viieosalise leukogrammiga,LYMPH# LYMPH#,10E9/L,B-Lymph#
+B1-CBC-5Diff Hemogramm viieosalise leukogrammiga,LYMPH% LYMPH%,%,B-Lymph%
+B1-CBC-5Diff Hemogramm viieosalise leukogrammiga,Lymph# Lymph#,10E9/L,B-Lymph#
+B1-CBC-5Diff Hemogramm viieosalise leukogrammiga,Lymph% Lymph%,%,B-Lymph%
+B1-CBC-5Diff Hemogramm viieosalise leukogrammiga,MCHC MCHC,g/L,B-MCHC
+B1-CBC-5Diff Hemogramm viieosalise leukogrammiga,MCH MCH,pg,B-MCH
+B1-CBC-5Diff Hemogramm viieosalise leukogrammiga,MCV MCV,fL,B-MCV
+B1-CBC-5Diff Hemogramm viieosalise leukogrammiga,Mono# Mono#,10E9/L,B-Mono#
+B1-CBC-5Diff Hemogramm viieosalise leukogrammiga,Mono% Mono%,%,B-Mono%
+B1-CBC-5Diff Hemogramm viieosalise leukogrammiga,MPV MPV,fL,B-MPV
+B1-CBC-5Diff Hemogramm viieosalise leukogrammiga,Pct Pct,%,B-Pct
+B1-CBC-5Diff Hemogramm viieosalise leukogrammiga,PDW PDW,fL,B-PDW
+B1-CBC-5Diff Hemogramm viieosalise leukogrammiga,Plt Plt,10E9/L,B-Plt
+B1-CBC-5Diff Hemogramm viieosalise leukogrammiga,Prokaltsitoni Prokaltsitoniin seerumis,ug/L,"S,P-PCT"
+B1-CBC-5Diff Hemogramm viieosalise leukogrammiga,RDW RDW,%,B-RDW-CV
+B-autom5diff,BASO HK:0000,E9/L,B-Baso#
+B-autom5diff,BASO HK:0000,10E9/L,B-Baso#
+B-autom5diff,BASO HK:0000,%,B-Baso%
+B-autom5diff,EOS,10E9/L,B-Eo#
+B-autom5diff,EOS,%,B-Eo%
+B-autom5diff,EOS HK:0000,E9/L,B-Eo#
+B-autom5diff,EOS HK:0000,%,B-Eo%
+B-autom5diff,EOS HK:0000,10E9/L,B-Eo#
+B-autom5diff,HCT HK:0000,L/L,B-Hct
+B-autom5diff,HCT HK:0000,%,B-Hct
+B-autom5diff,HGB HK:0000,g/L,B-Hb
+B-autom5diff,LYM,%,B-Lymph%
+B-autom5diff,LYM,10E9/L,B-Lymph#
+B-autom5diff,LYM HK:0000,10E9/L,B-Lymph#
+B-autom5diff,LYM HK:0000,%,B-Lymph%
+B-autom5diff,LYM HK:0000,E9/L,B-Lymph#
+B-autom5diff,MCHC HK:0000,g/L,B-MCHC
+B-autom5diff,MCH HK:0000,pg,B-MCH
+B-autom5diff,MCV HK:0000,fL,B-MCV
+B-autom5diff,MONO HK:0000,E9/L,B-Mono#
+B-autom5diff,MONO HK:0000,10E9/L,B-Mono#
+B-autom5diff,MONO HK:0000,%,B-Mono%
+B-autom5diff,MPV HK:0000,fL,B-MPV
+B-autom5diff,NEU,%,B-Neut%
+B-autom5diff,NEU,10E9/L,B-Neut#
+B-autom5diff,NEU HK:0000,E9/L,B-Neut#
+B-autom5diff,NEU HK:0000,10E9/L,B-Neut#
+B-autom5diff,NEU HK:0000,%,B-Neut%
+B-autom5diff,PCT HK:0000,%,B-Pct
+B-autom5diff,PDW HK:0000,%,B-PDW-CV
+B-autom5diff,PLT HK:0000,10E9/L,B-Plt
+B-autom5diff,PLT HK:0000,E9/L,B-Plt
+B-autom5diff,RBC HK:0000,E12/L,B-RBC
+B-autom5diff,RDW-SD HK:0000,fL,B-RDW-SD
+B-autom5diff,WBC HK:0000,10E9/L,B-WBC
+B-autom5diff,WBC HK:0000,E9/L,B-WBC
+Biokeemia,ALAT,U/L,"S,P-ALAT"
+Biokeemia,ASAT,U/L,"S,P-ASAT"
+Biokeemia,HDL-kolesteroo,mmol/L,"S,P-HDL-Chol"
+Biokeemia,HDL-kolesterool,mmol/L,"S,P-HDL-Chol"
+Biokeemia,Kolesteroo,mmol/L,"S,P-Chol"
+Biokeemia,Kolesterool,mmol/L,"S,P-Chol"
+Biokeemia,Kreatiniin,umol/L,"S,P-Crea"
+Biokeemia,LDL-kolesteroo,mmol/L,"S,P-LDL-Chol"
+Biokeemia,LDL-kolesterool,mmol/L,"S,P-LDL-Chol"
+Biokeemia,Triglütseriidi,mmol/L,"fS,fP-Trigl"
+Biokeemia,Triglütseriidid,mmol/L,"fS,fP-Trigl"
+Biokeemia,Uurea,mmol/L,"S,P-Urea"
+Biokeemia labor,Alaniini aminotransferaa,U/L,"S,P-ALAT"
+Biokeemia labor,Aspartaadi aminotransferaa,U/L,"S,P-ASAT"
+Biokeemia labor,cB-Gluc,mmol/L,cB-Gluc POCT
+Biokeemia labor,Kolesteroo,mmol/L,"S,P-Chol"
+Biokeemia labor,Kõrge tihedusega lipoproteiini kolester,mmol/L,"S,P-HDL-Chol"
+Biokeemia labor,Madala tihedusega lipoproteiini koleste,mmol/L,"S,P-LDL-Chol"
+Biokeemia labor,Triglütseriidi,mmol/L,"fS,fP-Trigl"
+Biokeemia labor (haigla),Alaniini aminotransferaa,U/L,"S,P-ALAT"
+Biokeemia labor (haigla),Aspartaadi aminotransferaa,U/L,"S,P-ASAT"
+Biokeemia labor (haigla),Kolesteroo,mmol/L,"S,P-Chol"
+Biokeemia labor (haigla),Kõrge tihedusega lipoproteiini kolester,mmol/L,"S,P-HDL-Chol"
+Biokeemia labor (haigla),Uurea seerumi,mmol/L,"S,P-Urea"
+Biokeemia labori analüüsid,Alaniini aminotransferaa,U/L,"S,P-ALAT"
+Biokeemia labori analüüsid,Aspartaadi aminotransferaa,U/L,"S,P-ASAT"
+Biokeemia labori analüüsid,Kolesteroo,mmol/L,"S,P-Chol"
+Biokeemia labori analüüsid,Kõrge tihedusega lipoproteiini kolester,mmol/L,"S,P-HDL-Chol"
+Biokeemia labori analüüsid,Kõrge tihedusega lipoproteiini kolestero,mmol/L,"S,P-HDL-Chol"
+Biokeemia labori analüüsid,Madala tihedusega lipoproteiini koleste,mmol/L,"S,P-LDL-Chol"
+Biokeemia labori analüüsid,Madala tihedusega lipoproteiini kolester,mmol/L,"S,P-LDL-Chol"
+Biokeemia labori analüüsid,Triglütseriidi,mmol/L,"fS,fP-Trigl"
+Biokeemia labori analüüsid,Uurea seerumi,mmol/L,"S,P-Urea"
+Biokeemilised uuringud,B-Gluc,mmol/L,cB-Gluc POCT
+Biokeemilised uuringud,B-HbA1c,%,B-HbA1c
+Biokeemilised uuringud,B-HbA1c%,%,B-HbA1c
+Biokeemilised uuringud,B-HbA1c (Glükeeritud hemoglobiini fraktsioon A1c),%,B-HbA1c
+Biokeemilised uuringud,B-HbA1c (Glükeeritud hemoglobiini fraktsioon A1c mmol/mol),mmol/mol,B-HbA1c (IFCC)
+Biokeemilised uuringud,B-HbA1c (Glükohemoglobiin protsentides),%,B-HbA1c
+Biokeemilised uuringud,B-HbA1c-IFC,mmol/mol,B-HbA1c (IFCC)
+Biokeemilised uuringud,B-HbA1c-IFCC,mmol/mol,B-HbA1c (IFCC)
+Biokeemilised uuringud,cB-Gluc,mmol/L,cB-Gluc POCT
+Biokeemilised uuringud,e-GF,mL/min/1.73m2,eGFR
+Biokeemilised uuringud,eGFR (MDRD,mL/min/1.73m2,eGFR
+Biokeemilised uuringud,fB-Gluc,mmol/L,fcB-Gluc
+Biokeemilised uuringud,fS-HDL-Cho,mmol/L,"S,P-HDL-Chol"
+Biokeemilised uuringud,fS-HDL-Chol,mmol/L,"S,P-HDL-Chol"
+Biokeemilised uuringud,fS-HDL-Chol 1,mmol/L,"S,P-HDL-Chol"
+Biokeemilised uuringud,fS-HDL-Chol 2,mmol/L,"S,P-HDL-Chol"
+Biokeemilised uuringud,fS-LDL-Cho,mmol/L,"S,P-LDL-Chol"
+Biokeemilised uuringud,fS-LDL-Chol,mmol/L,"S,P-LDL-Chol"
+Biokeemilised uuringud,fS-LDL-Chol 1,mmol/L,"S,P-LDL-Chol"
+Biokeemilised uuringud,fS-LDL-Chol 2,mmol/L,"S,P-LDL-Chol"
+Biokeemilised uuringud,fs-Urea 1,mmol/L,"S,P-Urea"
+Biokeemilised uuringud,fs-Urea 2,mmol/L,"S,P-Urea"
+Biokeemilised uuringud,HbA1c,%,B-HbA1c
+Biokeemilised uuringud,HbA1c (IFCC,mmol/mol,B-HbA1c (IFCC)
+Biokeemilised uuringud,HgbA1,%,B-HbA1c
+Biokeemilised uuringud,HgbA1c,%,B-HbA1c
+Biokeemilised uuringud,Kreat. kliirens,mL/min/1.73m2,eGFR
+Biokeemilised uuringud,LDL kolesterool,mmol/L,"S,P-LDL-Chol"
+Biokeemilised uuringud,S-ALAT 1,U/L,"S,P-ALAT"
+Biokeemilised uuringud,S-ALAT 2,U/L,"S,P-ALAT"
+Biokeemilised uuringud,S-ALAT 3,U/L,"S,P-ALAT"
+Biokeemilised uuringud,S-ALAT 4,U/L,"S,P-ALAT"
+Biokeemilised uuringud,S-ALAT 5,U/L,"S,P-ALAT"
+Biokeemilised uuringud,S-ASAT 1,U/L,"S,P-ASAT"
+Biokeemilised uuringud,S-ASAT 2,U/L,"S,P-ASAT"
+Biokeemilised uuringud,S-ASAT 3,U/L,"S,P-ASAT"
+Biokeemilised uuringud,S-ASAT 4,U/L,"S,P-ASAT"
+Biokeemilised uuringud,S-ASAT 5,U/L,"S,P-ASAT"
+Biokeemilised uuringud,S-Chol 1,mmol/L,"S,P-Chol"
+Biokeemilised uuringud,S-Chol 2,mmol/L,"S,P-Chol"
+Biokeemilised uuringud,S-Chol 3,mmol/L,"S,P-Chol"
+Biokeemilised uuringud,S-HDL-Cho,mmol/L,"S,P-HDL-Chol"
+B-Vere �igepreparaadi mikroskoopia,Segmenttuumsed neutrofiilid,%,B-Segmenttuumsed neutrofiilid %
+B-Vere äigepreparaadi mikroskoopia,Basofiilid HK:0000,%,B-Basofiilid %
+B-Vere äigepreparaadi mikroskoopia,Eosinofiilid HK:0000,%,B-Eo%
+B-Vere äigepreparaadi mikroskoopia,Kepptuumsed neutrofiilid HK:0000,%,B-Kepptuumsed neutrofiilid %
+B-Vere äigepreparaadi mikroskoopia,Monotsüüdid HK:0000,%,B-Monotsüüdid %
+B-Vere äigepreparaadi mikroskoopia,Segmenttuumsed neutrofiilid,%,B-Segmenttuumsed neutrofiilid %
+B-Vere äigepreparaadi mikroskoopia,Segmenttuumsed neutrofiilid HK:0000,%,B-Segmenttuumsed neutrofiilid %
+CK Kreatiini kinaas seerumis,Kreatiini kinaas seerumis,U/L,"S,P-CK"
+CK MB isoensüümi aktiivsus,Kreatiini kinaasi MB isoensüümi aktiivsus,U/L,"S,P-CK-MB"
+CK-MBm,Kreatiini kinaasi MB isoensüümi mass,ug/L,"S,P-CK-MBm"
+CK-MBm,Kreatiini kinaasi MB isoensüümi mass,ng/mL,"S,P-CK-MBm"
+C-reaktiivne valk seerumis,C-reaktiivne valk,mg/L,"S,P-CRP"
+CRP - C-reaktiivne valk,C-reaktiivne valk,mg/L,"S,P-CRP"
+eGFR,33914-3,mL/min/1.73m2,eGFR
+eGFR,Hinnanguline glomerulaarfiltratsooni kiirus,mL/min/1.73m2,eGFR
+eGFR hinnanguline glomerulaarfiltratsiooni kiirus,S2-Crea-eGFR,mL/min/1.73m2,eGFR
+FT4,02-FT4,pmol/L,"S,P-fT4"
+FT4,Vaba türoksiin,pmol/L,"S,P-fT4"
+FT4,Vaba türoksiin,ng/dL,"S,P-fT4"
+fT4,Vaba türoksiin,pmol/L,"S,P-fT4"
+fT4,Vaba türoksiin,ng/dL,"S,P-fT4"
+fT4 Vaba türoksiin plasmas,Vaba türoksiin plasmas,pmol/L,"S,P-fT4"
+FT4 Vaba türoksiin seerumis,Vaba türoksiin seerumis,pmol/L,"S,P-fT4"
+fT4 - Vaba türoksiin seerumis,Vaba türoksiin seerumis,pmol/L,"S,P-fT4"
+fT4 Vaba türoksiin seerumis,Vaba türoksiin,pmol/L,"S,P-fT4"
+Glomerulaarfiltratiooni kiirus MDRD valemiga,Glomerulaarfiltratsioon MDRD valemiga,mL/min/1.73m2,eGFR
+glükeeritud hemoglobiin,6513 HbA1c,%,B-HbA1c
+Glükohemoglobii,Glükohemoglobii,%,B-HbA1c
+Glükohemoglobii,Glükohemoglobii,mmol/mol,B-HbA1c (IFCC)
+Glükohemoglobiin,HbA1c IFCC,mmol/mol,B-HbA1c (IFCC)
+Glükohemoglobiin (IFCC),Glükohemoglobiin,mmol/mol,B-HbA1c (IFCC)
+Glükohemoglobiin veres,Glükohemoglobiin veres,%,B-HbA1c
+Glükohemoglobiin veres,HbA1c %,%,B-HbA1c
+Glükohemoglobiin veres,HbA1c HK:0000,mmol/mol,B-HbA1c (IFCC)
+Glükohemoglobiin veres (DCA),HbA1c %,%,B-HbA1c
+Glükohemoglobiin veres (IFCC),B-HbA1c_,mmol/mol,B-HbA1c (IFCC)
+Glükohemoglobiin veres (IFCC),B-HbA1c_,%,B-HbA1c
+Glükohemoglobiin veres (IFCC),B-HbA1c_,mmol/L,B-HbA1c (IFCC)
+Glükohemoglobiin veres (IFCC),Hinnatud keskmine glükoosi kontsentratsioon,mmol/L,B-HbA1c (IFCC)
+Glükohemoglobiin veres (SI),HbA1c %,%,B-HbA1c
+Glükoos,Glükoos seerumis,mmol/L,"S,P-Gluc"
+Glükoos arteriaalses veres,aB-Gluc,mmol/L,"S,P-Gluc"
+Glükoosi profiil kapillaarverest,cB-Gluco-P,mmol/L,fcB-Gluc
+Glükoosi profiil kapillaarverest,Glükoos,mmol/L,cB-Gluc POCT
+Glükoosi profiil kapillaarverest,Glükoos 12.00,mmol/L,cB-Gluc POCT
+Glükoosi profiil kapillaarverest,Glükoos 16.00,mmol/L,cB-Gluc POCT
+Glükoosi profiil kapillaarverest,Glükoos 21.00,mmol/L,cB-Gluc POCT
+Glükoosi profiil kapillaarverest,Glükoos 6.00,mmol/L,cB-Gluc POCT
+Glükoosi profiil kapillaarverest,Glükoos 7.00,mmol/L,cB-Gluc POCT
+Glükoosi profiil kapillaarverest POCT,Glükoos 12.00,mmol/L,cB-Gluc POCT
+Glükoosi profiil kapillaarverest POCT,Glükoos 16.00,mmol/L,cB-Gluc POCT
+Glükoosi profiil kapillaarverest POCT,Glükoos 21.00,mmol/L,cB-Gluc POCT
+Glükoosi profiil kapillaarverest POCT,Glükoos 7.00,mmol/L,cB-Gluc POCT
+Glükoosi profiil kapillaarverest (POCT),Glükoos,mmol/L,cB-Gluc POCT
+Glükoosi profiil kapillaarverest (POCT),Glükoos 12.00,mmol/L,cB-Gluc POCT
+Glükoosi profiil kapillaarverest (POCT),Glükoos 16.00,mmol/L,cB-Gluc POCT
+Glükoosi profiil kapillaarverest (POCT),Glükoos 21.00,mmol/L,cB-Gluc POCT
+Glükoosi profiil kapillaarverest (POCT),Glükoos 7.00,mmol/L,cB-Gluc POCT
+Glükoos kapillaarses veres,Glükoos kapillaarses veres,mmol/L,cB-Gluc POCT
+Glükoos kapillaarses veres (POCT),Glükoos kapillaarverest,mmol/L,cB-Gluc POCT
+Glükoos kapillaarveres,cB-Gluc,mmol/L,cB-Gluc POCT
+Glükoos kapillaarveres,cB-Gluc-PA,mmol/L,fcB-Gluc
+Glükoos paastuplasmas,Glükoos pastuplasmas,mmol/L,"fS,fP-Gluc"
+Glükoos paastuseerumis/-plasmas,Glükoos paastuseerumis,mmol/L,"fS,fP-Gluc"
+Glükoos paastuseerumis/-plasmas,Glükoos pastuseerumis/-plasmas,mmol/L,"fS,fP-Gluc"
+Glükoos paastuseerumis/-plasmas,Glükoos seerumis,mmol/L,"fS,fP-Gluc"
+glükoos paastuveres,fB-Gluc,mmol/L,fcB-Gluc
+Glükoos täisveres (glükomeetriga),B-Gluc,mmol/L,fcB-Gluc
+Glükoos uriinis,Glükoos uriinis %,%,U-Gluc strip
+GTT,Glükoos 0 min gluc HK:66101,mmol/L,"fS,P-Gluc 0 min (pre 75 g Gluc PO)"
+GTT,Glükoos 120 min gluc HK:66101,mmol/L,"S,P-Gluc 120 min (post 75g Gluc PO)"
+GTT rasedad,Glükoos 0 min gluc HK:66101,mmol/L,"fS,P-Gluc 0 min (pre 75 g Gluc PO)"
+GTT rasedad,Glükoos 120 min gluc HK:66101,mmol/L,"S,P-Gluc 120 min (post 75g Gluc PO)"
+GTT rasedad,Glükoos 60 min gluc HK:66101,mmol/L,"S,P-Gluc 60 min (post 75 g Gluc PO)"
+Happe-aluse tasakaal,B-Hct calc),%,B-Hct calc
+Happe-aluse tasakaal,Gluc,mmol/L,"S,P-Gluc"
+Happe-aluse tasakaal,Hctc,%,B-Hct calc
+Happe- aluse tasakaal kapillaarveres,Hct hematokrit,%,B-Hct calc
+Happe- aluse tasakaal kapillaarverest,Hct hematokrit,%,B-Hct calc
+Happe-aluse tasakaal vastsündinul nabaväädiverest,Hct hematokrit,%,B-Hct calc
+Happe-alus tasakaal,1 Hctc,%,B-Hct calc
+Happe-alus tasakaal,2 Hctc,%,B-Hct calc
+Happe-alus tasakaal,3 Hctc,%,B-Hct calc
+Happe-alus tasakaal,AAV1 Hctc,%,B-Hct calc
+Happe-alus tasakaal,Hctc,%,B-Hct calc
+HbA1C,HbA1C,%,B-HbA1c
+HbA1c,HbA1c IFCC,mmol/mol,B-HbA1c (IFCC)
+HbA1c (IFCC),HbA1c IFCC,mmol/mol,B-HbA1c (IFCC)
+HDL,HDL-kolesterool,mmol/L,"S,P-HDL-Chol"
+HDL,Kõrge tihedusega lipoproteiini kolesterool,mmol/L,"S,P-HDL-Chol"
+HDL kolest.,HDL Kolest.,mmol/L,"S,P-HDL-Chol"
+HDL kolesterool,"fS-HDL-Chol, fP-HDL-",mmol/L,"S,P-HDL-Chol"
+HDL kolesterool,"fS-HDL-Chol, fP-HDL-Chol",mmol/L,"S,P-HDL-Chol"
+HDL kolesterool,"fS-HDL-Chol,_fP-HDL-Chol",mmol/L,"S,P-HDL-Chol"
+HDL -kolesterool,HDL-Chol,mmol/L,"S,P-HDL-Chol"
+HDL- kolesterool,Kõrge tihedusega lipoproteiini kolesterool,mmol/L,"S,P-HDL-Chol"
+HDL- kolesterool paastuseerumis,"fS-HDL-Chol, fP-HDL-",ng/mL,"S,P-HDL-Chol"
+HDL- kolesterool paastuseerumis,"fS-HDL-Chol, fP-HDL-Chol",ng/mL,"S,P-HDL-Chol"
+HDL- kolesterool paastuseerumis,"fS-HDL-Chol,_fP-HDL-Chol",ng/mL,"S,P-HDL-Chol"
+HDL-kolesterool paastuseerumis,fS-HDL-Chol HK:66105,mmol/L,"S,P-HDL-Chol"
+HDL-kolesterool paastuseerumis,HDL-kolesterool,mmol/L,"S,P-HDL-Chol"
+HDL- kolesterool seerumis,HDL- kolesterool paastuseerumis,mmol/L,"S,P-HDL-Chol"
+HDL-kolesterool seerumis/plasmas,"S,P-HDL.Chol",mmol/L,"S,P-HDL-Chol"
+HDL - Kõrge tihedusega lipoproteiini kolesterool,Kõrge tihedusega lipoproteiini kolesterool,mmol/L,"S,P-HDL-Chol"
+HDL Kõrge tihedusega lipoproteiini kolesterool seerumis,Kõrge tihedusega lipoproteiini kolesterool,mmol/L,"S,P-HDL-Chol"
+Hematocrit,Hematocrit,%,B-Hct
+hematokrit,hematokrit,%,B-Hct
+Hematoloogia,Eosinofiile,%,B-Eo%
+Hematoloogia,Kepptuumsei,%,B-Kepptuumsed neutrofiilid %
+Hematoloogia,Kepptuumseid,%,B-Kepptuumsed neutrofiilid %
+Hematoloogia,Segmenttuumseid,%,B-Segmenttuumsed neutrofiilid %
+Hematoloogilised ja uriini uuringud,EO,%,B-Eo%
+Hematoloogilised ja uriini uuringud,IG,%,B-IG%
+Hematoloogilised ja uriini uuringud,Kepptuumsed neutrofiili,%,B-Kepptuumsed neutrofiilid %
+Hematoloogilised ja uriini uuringud,Ketoonid,mmol/L,U-Ket strip
+Hematoloogilised ja uriini uuringud,Leukotsüüdid,/uL,U-WBC strip
+Hematoloogilised ja uriini uuringud,MCH,g/L,B-MCH
+Hematoloogilised ja uriini uuringud,RDW- C,%,B-RDW-CV
+Hematoloogilised ja uriini uuringud,RDW- CV,%,B-RDW-CV
+Hematoloogilised ja uriini uuringud,Segmenttuumsed neutrofiili,%,B-Segmenttuumsed neutrofiilid %
+Hematoloogilised ja uriini uuringud,Segmenttuumsed neutrofiilid,%,B-Segmenttuumsed neutrofiilid %
+Hematoloogilised uuringud,10 B-Diff-LYMPH-%,%,B-Lymph%
+Hematoloogilised uuringud,10 B-Eo#,/nL,B-Eo#
+Hematoloogilised uuringud,10 B-Eo%,%,B-Eo%
+Hematoloogilised uuringud,10 B-Hct,%,B-Hct
+Hematoloogilised uuringud,10 B-IG#,/nL,B-IG#
+Hematoloogilised uuringud,10 B-IG%,%,B-IG%
+Hematoloogilised uuringud,10 B-Lymph%,%,B-Lymph%
+Hematoloogilised uuringud,10 B-MCH,pg,B-MCH
+Hematoloogilised uuringud,10 B-MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,10 B-MCV,fL,B-MCV
+Hematoloogilised uuringud,10 B-MPV,fL,B-MPV
+Hematoloogilised uuringud,10 B-PLT,10L,B-Plt
+Hematoloogilised uuringud,10 B-Plt,/nL,B-Plt
+Hematoloogilised uuringud,10 B-RDW,%,B-RDW-CV
+Hematoloogilised uuringud,10 E-MCH,pg,B-MCH
+Hematoloogilised uuringud,10 E-MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,10 E-MCV,fL,B-MCV
+Hematoloogilised uuringud,10 MPV,fL,B-MPV
+Hematoloogilised uuringud,10 PDW,fL,B-PDW
+Hematoloogilised uuringud,10 RDW-CV,%,B-RDW-CV
+Hematoloogilised uuringud,11 B-Diff-Eo-%,%,B-Eo%
+Hematoloogilised uuringud,11 B-Diff-Eo-arv,10L,B-Eo#
+Hematoloogilised uuringud,11 B-Diff-LYMPH-%,%,B-Lymph%
+Hematoloogilised uuringud,11 B-Eo#,/nL,B-Eo#
+Hematoloogilised uuringud,11 B-Eo%,%,B-Eo%
+Hematoloogilised uuringud,11 B-Hct,%,B-Hct
+Hematoloogilised uuringud,11 B-IG#,/nL,B-IG#
+Hematoloogilised uuringud,11 B-IG%,%,B-IG%
+Hematoloogilised uuringud,11 B-Lymph%,%,B-Lymph%
+Hematoloogilised uuringud,11 B-MCH,pg,B-MCH
+Hematoloogilised uuringud,11 B-MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,11 B-MCV,fL,B-MCV
+Hematoloogilised uuringud,11 B-MPV,fL,B-MPV
+Hematoloogilised uuringud,11 B-PLT,10L,B-Plt
+Hematoloogilised uuringud,11 B-Plt,/nL,B-Plt
+Hematoloogilised uuringud,11 B-RDW,%,B-RDW-CV
+Hematoloogilised uuringud,11 E-MCH,pg,B-MCH
+Hematoloogilised uuringud,11 E-MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,11 E-MCV,fL,B-MCV
+Hematoloogilised uuringud,11 IG#,10L,B-IG#
+Hematoloogilised uuringud,11 IG%),%,B-IG%
+Hematoloogilised uuringud,11 MPV,fL,B-MPV
+Hematoloogilised uuringud,11 PCT,%,B-Pct
+Hematoloogilised uuringud,11 PDW,fL,B-PDW
+Hematoloogilised uuringud,11 RDW-CV,%,B-RDW-CV
+Hematoloogilised uuringud,11 RDW-SD,fL,B-RDW-SD
+Hematoloogilised uuringud,12 B-Diff-Eo-%,%,B-Eo%
+Hematoloogilised uuringud,12 B-Diff-Eo-arv,10L,B-Eo#
+Hematoloogilised uuringud,12 B-Diff-LYMPH-%,%,B-Lymph%
+Hematoloogilised uuringud,12 B-Eo#,/nL,B-Eo#
+Hematoloogilised uuringud,12 B-Eo%,%,B-Eo%
+Hematoloogilised uuringud,12 B-Hct,%,B-Hct
+Hematoloogilised uuringud,12 B-IG#,/nL,B-IG#
+Hematoloogilised uuringud,12 B-IG%,%,B-IG%
+Hematoloogilised uuringud,12 B-Lymph%,%,B-Lymph%
+Hematoloogilised uuringud,12 B-MCH,pg,B-MCH
+Hematoloogilised uuringud,12 B-MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,12 B-MCV,fL,B-MCV
+Hematoloogilised uuringud,12 B-MPV,fL,B-MPV
+Hematoloogilised uuringud,12 B-PLT,10L,B-Plt
+Hematoloogilised uuringud,12 B-Plt,/nL,B-Plt
+Hematoloogilised uuringud,12 B-RDW,%,B-RDW-CV
+Hematoloogilised uuringud,12 E-MCH,pg,B-MCH
+Hematoloogilised uuringud,12 E-MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,12 E-MCV,fL,B-MCV
+Hematoloogilised uuringud,12 IG#,10L,B-IG#
+Hematoloogilised uuringud,12 IG%),%,B-IG%
+Hematoloogilised uuringud,12 MPV,fL,B-MPV
+Hematoloogilised uuringud,12 PCT,%,B-Pct
+Hematoloogilised uuringud,12 PDW,fL,B-PDW
+Hematoloogilised uuringud,12 RDW-CV,%,B-RDW-CV
+Hematoloogilised uuringud,12 RDW-SD,fL,B-RDW-SD
+Hematoloogilised uuringud,13 B-Diff-Eo-%,%,B-Eo%
+Hematoloogilised uuringud,13 B-Diff-Eo-arv,10L,B-Eo#
+Hematoloogilised uuringud,13 B-Diff-LYMPH-%,%,B-Lymph%
+Hematoloogilised uuringud,13 B-Hct,%,B-Hct
+Hematoloogilised uuringud,13 B-PLT,10L,B-Plt
+Hematoloogilised uuringud,13 E-MCH,pg,B-MCH
+Hematoloogilised uuringud,13 E-MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,13 E-MCV,fL,B-MCV
+Hematoloogilised uuringud,13 IG#,10L,B-IG#
+Hematoloogilised uuringud,13 IG%),%,B-IG%
+Hematoloogilised uuringud,13 MPV,fL,B-MPV
+Hematoloogilised uuringud,13 PCT,%,B-Pct
+Hematoloogilised uuringud,13 PDW,fL,B-PDW
+Hematoloogilised uuringud,13 RDW-CV,%,B-RDW-CV
+Hematoloogilised uuringud,13 RDW-SD,fL,B-RDW-SD
+Hematoloogilised uuringud,14 B-Diff-Eo-%,%,B-Eo%
+Hematoloogilised uuringud,14 B-Diff-Eo-arv,10L,B-Eo#
+Hematoloogilised uuringud,14 B-Diff-LYMPH-%,%,B-Lymph%
+Hematoloogilised uuringud,14 B-Hct,%,B-Hct
+Hematoloogilised uuringud,14 B-PLT,10L,B-Plt
+Hematoloogilised uuringud,14 E-MCH,pg,B-MCH
+Hematoloogilised uuringud,14 E-MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,14 E-MCV,fL,B-MCV
+Hematoloogilised uuringud,14 IG#,10L,B-IG#
+Hematoloogilised uuringud,14 IG%),%,B-IG%
+Hematoloogilised uuringud,14 MPV,fL,B-MPV
+Hematoloogilised uuringud,14 PCT,%,B-Pct
+Hematoloogilised uuringud,14 PDW,fL,B-PDW
+Hematoloogilised uuringud,14 RDW-CV,%,B-RDW-CV
+Hematoloogilised uuringud,14 RDW-SD,fL,B-RDW-SD
+Hematoloogilised uuringud,15 B-Diff-Eo-%,%,B-Eo%
+Hematoloogilised uuringud,15 B-Diff-Eo-arv,10L,B-Eo#
+Hematoloogilised uuringud,15 B-Diff-LYMPH-%,%,B-Lymph%
+Hematoloogilised uuringud,15 B-Hct,%,B-Hct
+Hematoloogilised uuringud,15 B-PLT,10L,B-Plt
+Hematoloogilised uuringud,15 E-MCH,pg,B-MCH
+Hematoloogilised uuringud,15 E-MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,15 E-MCV,fL,B-MCV
+Hematoloogilised uuringud,15 IG#,10L,B-IG#
+Hematoloogilised uuringud,15 IG%),%,B-IG%
+Hematoloogilised uuringud,15 MPV,fL,B-MPV
+Hematoloogilised uuringud,15 PCT,%,B-Pct
+Hematoloogilised uuringud,15 PDW,fL,B-PDW
+Hematoloogilised uuringud,15 RDW-CV,%,B-RDW-CV
+Hematoloogilised uuringud,15 RDW-SD,fL,B-RDW-SD
+Hematoloogilised uuringud,16 B-Diff-Eo-%,%,B-Eo%
+Hematoloogilised uuringud,16 B-Diff-Eo-arv,10L,B-Eo#
+Hematoloogilised uuringud,16 B-Diff-LYMPH-%,%,B-Lymph%
+Hematoloogilised uuringud,16 B-Hct,%,B-Hct
+Hematoloogilised uuringud,16 B-PLT,10L,B-Plt
+Hematoloogilised uuringud,16 E-MCH,pg,B-MCH
+Hematoloogilised uuringud,16 E-MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,16 E-MCV,fL,B-MCV
+Hematoloogilised uuringud,16 IG#,10L,B-IG#
+Hematoloogilised uuringud,16 IG%),%,B-IG%
+Hematoloogilised uuringud,16 MPV,fL,B-MPV
+Hematoloogilised uuringud,16 PCT,%,B-Pct
+Hematoloogilised uuringud,16 PDW,fL,B-PDW
+Hematoloogilised uuringud,16 RDW-CV,%,B-RDW-CV
+Hematoloogilised uuringud,16 RDW-SD,fL,B-RDW-SD
+Hematoloogilised uuringud,17 B-Diff-Eo-%,%,B-Eo%
+Hematoloogilised uuringud,17 B-Diff-Eo-arv,10L,B-Eo#
+Hematoloogilised uuringud,17 B-Diff-LYMPH-%,%,B-Lymph%
+Hematoloogilised uuringud,17 B-Hct,%,B-Hct
+Hematoloogilised uuringud,17 B-PLT,10L,B-Plt
+Hematoloogilised uuringud,17 E-MCH,pg,B-MCH
+Hematoloogilised uuringud,17 E-MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,17 E-MCV,fL,B-MCV
+Hematoloogilised uuringud,17 IG#,10L,B-IG#
+Hematoloogilised uuringud,17 IG%),%,B-IG%
+Hematoloogilised uuringud,17 MPV,fL,B-MPV
+Hematoloogilised uuringud,17 PCT,%,B-Pct
+Hematoloogilised uuringud,17 PDW,fL,B-PDW
+Hematoloogilised uuringud,17 RDW-CV,%,B-RDW-CV
+Hematoloogilised uuringud,17 RDW-SD,fL,B-RDW-SD
+Hematoloogilised uuringud,18 B-Diff-Eo-%,%,B-Eo%
+Hematoloogilised uuringud,18 B-Diff-Eo-arv,10L,B-Eo#
+Hematoloogilised uuringud,18 B-Diff-LYMPH-%,%,B-Lymph%
+Hematoloogilised uuringud,18 B-Hct,%,B-Hct
+Hematoloogilised uuringud,18 B-PLT,10L,B-Plt
+Hematoloogilised uuringud,18 E-MCH,pg,B-MCH
+Hematoloogilised uuringud,18 E-MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,18 E-MCV,fL,B-MCV
+Hematoloogilised uuringud,18 IG#,10L,B-IG#
+Hematoloogilised uuringud,18 IG%),%,B-IG%
+Hematoloogilised uuringud,18 MPV,fL,B-MPV
+Hematoloogilised uuringud,18 PCT,%,B-Pct
+Hematoloogilised uuringud,18 PDW,fL,B-PDW
+Hematoloogilised uuringud,18 RDW-CV,%,B-RDW-CV
+Hematoloogilised uuringud,18 RDW-SD,fL,B-RDW-SD
+Hematoloogilised uuringud,1 B-Baso#,/nL,B-Baso#
+Hematoloogilised uuringud,1 B-Baso%,%,B-Baso%
+Hematoloogilised uuringud,1 B-Diff-Baso-%,%,B-Baso%
+Hematoloogilised uuringud,1 B-Diff-Baso-arv,10L,B-Baso#
+Hematoloogilised uuringud,1 B-Diff-Eo-%,%,B-Eo%
+Hematoloogilised uuringud,1 B-Diff-Eo-arv,10L,B-Eo#
+Hematoloogilised uuringud,1 B-Diff-LYMPH-%,%,B-Lymph%
+Hematoloogilised uuringud,1 B-Diff-Mono-%,%,B-Mono%
+Hematoloogilised uuringud,1 B-Diff-Mono-arv,10L,B-Mono#
+Hematoloogilised uuringud,1 B-Eo#,/nL,B-Eo#
+Hematoloogilised uuringud,1 B-Eo%,%,B-Eo%
+Hematoloogilised uuringud,1 B-HbA1C,%,B-HbA1c
+Hematoloogilised uuringud,1 B-HbA1c-IFCC,mmol/mol,B-HbA1c (IFCC)
+Hematoloogilised uuringud,1 B-Hct,%,B-Hct
+Hematoloogilised uuringud,1 B-Hgb,g/L,B-Hb
+Hematoloogilised uuringud,1 B-Lymph%,%,B-Lymph%
+Hematoloogilised uuringud,1 B-MCH,pg,B-MCH
+Hematoloogilised uuringud,1 B-MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,1 B-MCV,fL,B-MCV
+Hematoloogilised uuringud,1 B-Mono-%,%,B-Mono%
+Hematoloogilised uuringud,1 B-Mono#,/nL,B-Mono#
+Hematoloogilised uuringud,1 B-Mono%,%,B-Mono%
+Hematoloogilised uuringud,1 B-Mono-arv,10E9/L,B-Mono#
+Hematoloogilised uuringud,1 B-MPV,fL,B-MPV
+Hematoloogilised uuringud,1 B-PLT,10L,B-Plt
+Hematoloogilised uuringud,1 B-Plt,/nL,B-Plt
+Hematoloogilised uuringud,1 B-RBC,/pL,B-RBC
+Hematoloogilised uuringud,1 B-RBC,10L,B-RBC
+Hematoloogilised uuringud,1 B-RDW,%,B-RDW-CV
+Hematoloogilised uuringud,1 B-WBC,/nL,B-WBC
+Hematoloogilised uuringud,1 B-WBC,10L,B-WBC
+Hematoloogilised uuringud,1 E-MCH,pg,B-MCH
+Hematoloogilised uuringud,1 E-MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,1 E-MCV,fL,B-MCV
+Hematoloogilised uuringud,1 Eosinofiilid,%,B-Eo%
+Hematoloogilised uuringud,1 IG#,10L,B-IG#
+Hematoloogilised uuringud,1 IG%),%,B-IG%
+Hematoloogilised uuringud,1 Kepptuum. neut.,%,B-Kepptuumsed neutrofiilid %
+Hematoloogilised uuringud,1 Kepptuumsed neutrofiilid,%,B-Kepptuumsed neutrofiilid %
+Hematoloogilised uuringud,1 MPV,fL,B-MPV
+Hematoloogilised uuringud,1 PCT,%,B-Pct
+Hematoloogilised uuringud,1 PDW,fL,B-PDW
+Hematoloogilised uuringud,1 RDWa,%,B-RDW-CV
+Hematoloogilised uuringud,1 RDW-CV,%,B-RDW-CV
+Hematoloogilised uuringud,1 RDW-SD,fL,B-RDW-SD
+Hematoloogilised uuringud,1 Segmenttuumsed,%,B-Segmenttuumsed neutrofiilid %
+Hematoloogilised uuringud,1 Segmenttuumsed neutrofiilid,%,B-Segmenttuumsed neutrofiilid %
+Hematoloogilised uuringud,2 B-Baso#,/nL,B-Baso#
+Hematoloogilised uuringud,2 B-Baso%,%,B-Baso%
+Hematoloogilised uuringud,2 B-Diff-Baso-%,%,B-Baso%
+Hematoloogilised uuringud,2 B-Diff-Baso-arv,10L,B-Baso#
+Hematoloogilised uuringud,2 B-Diff-Eo-%,%,B-Eo%
+Hematoloogilised uuringud,2 B-Diff-Eo-arv,10L,B-Eo#
+Hematoloogilised uuringud,2 B-Diff-LYMPH-%,%,B-Lymph%
+Hematoloogilised uuringud,2 B-Diff-Mono-%,%,B-Mono%
+Hematoloogilised uuringud,2 B-Diff-Mono-arv,10L,B-Mono#
+Hematoloogilised uuringud,2 B-Eo#,/nL,B-Eo#
+Hematoloogilised uuringud,2 B-Eo%,%,B-Eo%
+Hematoloogilised uuringud,2 B-HbA1C,%,B-HbA1c
+Hematoloogilised uuringud,2 B-HbA1c-IFCC,mmol/mol,B-HbA1c (IFCC)
+Hematoloogilised uuringud,2 B-Hct,%,B-Hct
+Hematoloogilised uuringud,2 B-Hgb,g/L,B-Hb
+Hematoloogilised uuringud,2 B-IG#,/nL,B-IG#
+Hematoloogilised uuringud,2 B-IG%,%,B-IG%
+Hematoloogilised uuringud,2 B-Lymph%,%,B-Lymph%
+Hematoloogilised uuringud,2 B-MCH,pg,B-MCH
+Hematoloogilised uuringud,2 B-MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,2 B-MCV,fL,B-MCV
+Hematoloogilised uuringud,2 B-Mono-%,%,B-Mono%
+Hematoloogilised uuringud,2 B-Mono#,/nL,B-Mono#
+Hematoloogilised uuringud,2 B-Mono%,%,B-Mono%
+Hematoloogilised uuringud,2 B-Mono-arv,10E9/L,B-Mono#
+Hematoloogilised uuringud,2 B-MPV,fL,B-MPV
+Hematoloogilised uuringud,2 B-PLT,10L,B-Plt
+Hematoloogilised uuringud,2 B-Plt,/nL,B-Plt
+Hematoloogilised uuringud,2 B-RBC,/pL,B-RBC
+Hematoloogilised uuringud,2 B-RBC,10L,B-RBC
+Hematoloogilised uuringud,2 B-RDW,%,B-RDW-CV
+Hematoloogilised uuringud,2 B-WBC,/nL,B-WBC
+Hematoloogilised uuringud,2 B-WBC,10L,B-WBC
+Hematoloogilised uuringud,2 E-MCH,pg,B-MCH
+Hematoloogilised uuringud,2 E-MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,2 E-MCV,fL,B-MCV
+Hematoloogilised uuringud,2 #EOS,U/L,B-Eo#
+Hematoloogilised uuringud,2 %EOS,%,B-Eo%
+Hematoloogilised uuringud,2 Eosinofiilid,%,B-Eo%
+Hematoloogilised uuringud,2 HCT,%,B-Hct
+Hematoloogilised uuringud,2 HGB,g/L,B-Hb
+Hematoloogilised uuringud,2 IG#,10L,B-IG#
+Hematoloogilised uuringud,2 IG%),%,B-IG%
+Hematoloogilised uuringud,2 Kepptuum. neut.,%,B-Kepptuumsed neutrofiilid %
+Hematoloogilised uuringud,2 Kepptuumsed neutrofiilid,%,B-Kepptuumsed neutrofiilid %
+Hematoloogilised uuringud,2 %LYMPH,%,B-Lymph%
+Hematoloogilised uuringud,2 MCH,pg,B-MCH
+Hematoloogilised uuringud,2 MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,2 MCV,fL,B-MCV
+Hematoloogilised uuringud,2 MPV,fL,B-MPV
+Hematoloogilised uuringud,2 PCT,%,B-Pct
+Hematoloogilised uuringud,2 PDW,%,B-PDW-CV
+Hematoloogilised uuringud,2 PDW,fL,B-PDW
+Hematoloogilised uuringud,2 PLT,10U/L,B-Plt
+Hematoloogilised uuringud,2 RDW),%,B-RDW-CV
+Hematoloogilised uuringud,2 RDWa,%,B-RDW-CV
+Hematoloogilised uuringud,2 RDW-CV,%,B-RDW-CV
+Hematoloogilised uuringud,2 RDW-SD,fL,B-RDW-SD
+Hematoloogilised uuringud,2 Segmenttuumsed,%,B-Segmenttuumsed neutrofiilid %
+Hematoloogilised uuringud,2 Segmenttuumsed neutrofiilid,%,B-Segmenttuumsed neutrofiilid %
+Hematoloogilised uuringud,3 B-Baso#,/nL,B-Baso#
+Hematoloogilised uuringud,3 B-Baso%,%,B-Baso%
+Hematoloogilised uuringud,3 B-Diff-Baso-%,%,B-Baso%
+Hematoloogilised uuringud,3 B-Diff-Baso-arv,10L,B-Baso#
+Hematoloogilised uuringud,3 B-Diff-Eo-%,%,B-Eo%
+Hematoloogilised uuringud,3 B-Diff-Eo-arv,10L,B-Eo#
+Hematoloogilised uuringud,3 B-Diff-LYMPH-%,%,B-Lymph%
+Hematoloogilised uuringud,3 B-Diff-Mono-%,%,B-Mono%
+Hematoloogilised uuringud,3 B-Diff-Mono-arv,10L,B-Mono#
+Hematoloogilised uuringud,3 B-Eo#,/nL,B-Eo#
+Hematoloogilised uuringud,3 B-Eo%,%,B-Eo%
+Hematoloogilised uuringud,3 B-HbA1C,%,B-HbA1c
+Hematoloogilised uuringud,3 B-Hct,%,B-Hct
+Hematoloogilised uuringud,3 B-Hgb,g/L,B-Hb
+Hematoloogilised uuringud,3 B-IG#,/nL,B-IG#
+Hematoloogilised uuringud,3 B-IG%,%,B-IG%
+Hematoloogilised uuringud,3 B-Lymph%,%,B-Lymph%
+Hematoloogilised uuringud,3 B-MCH,pg,B-MCH
+Hematoloogilised uuringud,3 B-MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,3 B-MCV,fL,B-MCV
+Hematoloogilised uuringud,3 B-Mono-%,%,B-Mono%
+Hematoloogilised uuringud,3 B-Mono#,/nL,B-Mono#
+Hematoloogilised uuringud,3 B-Mono%,%,B-Mono%
+Hematoloogilised uuringud,3 B-Mono-arv,10E9/L,B-Mono#
+Hematoloogilised uuringud,3 B-MPV,fL,B-MPV
+Hematoloogilised uuringud,3 B-PLT,10L,B-Plt
+Hematoloogilised uuringud,3 B-Plt,/nL,B-Plt
+Hematoloogilised uuringud,3 B-RBC,/pL,B-RBC
+Hematoloogilised uuringud,3 B-RBC,10L,B-RBC
+Hematoloogilised uuringud,3 B-RDW,%,B-RDW-CV
+Hematoloogilised uuringud,3 B-WBC,10L,B-WBC
+Hematoloogilised uuringud,3 B-WBC,/nL,B-WBC
+Hematoloogilised uuringud,3 E-MCH,pg,B-MCH
+Hematoloogilised uuringud,3 E-MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,3 E-MCV,fL,B-MCV
+Hematoloogilised uuringud,3 IG#,10L,B-IG#
+Hematoloogilised uuringud,3 IG%),%,B-IG%
+Hematoloogilised uuringud,3 Kepptuum. neut.,%,B-Kepptuumsed neutrofiilid %
+Hematoloogilised uuringud,3 Kepptuumsed neutrofiilid,%,B-Kepptuumsed neutrofiilid %
+Hematoloogilised uuringud,3 MPV,fL,B-MPV
+Hematoloogilised uuringud,3 PCT,%,B-Pct
+Hematoloogilised uuringud,3 PDW,fL,B-PDW
+Hematoloogilised uuringud,3 RDWa,%,B-RDW-CV
+Hematoloogilised uuringud,3 RDW-CV,%,B-RDW-CV
+Hematoloogilised uuringud,3 RDW-SD,fL,B-RDW-SD
+Hematoloogilised uuringud,4 B-Baso#,/nL,B-Baso#
+Hematoloogilised uuringud,4 B-Baso%,%,B-Baso%
+Hematoloogilised uuringud,4 B-Diff-Baso-%,%,B-Baso%
+Hematoloogilised uuringud,4 B-Diff-Baso-arv,10L,B-Baso#
+Hematoloogilised uuringud,4 B-Diff-Eo-%,%,B-Eo%
+Hematoloogilised uuringud,4 B-Diff-Eo-arv,10L,B-Eo#
+Hematoloogilised uuringud,4 B-Diff-LYMPH-%,%,B-Lymph%
+Hematoloogilised uuringud,4 B-Diff-Mono-%,%,B-Mono%
+Hematoloogilised uuringud,4 B-Diff-Mono-arv,10L,B-Mono#
+Hematoloogilised uuringud,4 B-Eo#,/nL,B-Eo#
+Hematoloogilised uuringud,4 B-Eo%,%,B-Eo%
+Hematoloogilised uuringud,4 B-HbA1C,%,B-HbA1c
+Hematoloogilised uuringud,4 B-HbA1c-IFCC,mmol/mol,B-HbA1c (IFCC)
+Hematoloogilised uuringud,4 B-Hct,%,B-Hct
+Hematoloogilised uuringud,4 B-Hgb,g/L,B-Hb
+Hematoloogilised uuringud,4 B-IG#,/nL,B-IG#
+Hematoloogilised uuringud,4 B-IG%,%,B-IG%
+Hematoloogilised uuringud,4 B-Lymph%,%,B-Lymph%
+Hematoloogilised uuringud,4 B-MCH,pg,B-MCH
+Hematoloogilised uuringud,4 B-MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,4 B-MCV,fL,B-MCV
+Hematoloogilised uuringud,4 B-Mono#,/nL,B-Mono#
+Hematoloogilised uuringud,4 B-Mono%,%,B-Mono%
+Hematoloogilised uuringud,4 B-MPV,fL,B-MPV
+Hematoloogilised uuringud,4 B-PLT,10L,B-Plt
+Hematoloogilised uuringud,4 B-Plt,/nL,B-Plt
+Hematoloogilised uuringud,4 B-RBC,/pL,B-RBC
+Hematoloogilised uuringud,4 B-RDW,%,B-RDW-CV
+Hematoloogilised uuringud,4 B-WBC,/nL,B-WBC
+Hematoloogilised uuringud,4 B-WBC,10L,B-WBC
+Hematoloogilised uuringud,4 E-MCH,pg,B-MCH
+Hematoloogilised uuringud,4 E-MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,4 E-MCV,fL,B-MCV
+Hematoloogilised uuringud,4 IG#,10L,B-IG#
+Hematoloogilised uuringud,4 IG%),%,B-IG%
+Hematoloogilised uuringud,4 Kepptuum. neut.,%,B-Kepptuumsed neutrofiilid %
+Hematoloogilised uuringud,4 Kepptuumsed neutrofiilid,%,B-Kepptuumsed neutrofiilid %
+Hematoloogilised uuringud,4 MPV,fL,B-MPV
+Hematoloogilised uuringud,4 PCT,%,B-Pct
+Hematoloogilised uuringud,4 PDW,fL,B-PDW
+Hematoloogilised uuringud,4 RDWa,%,B-RDW-CV
+Hematoloogilised uuringud,4 RDW-CV,%,B-RDW-CV
+Hematoloogilised uuringud,4 RDW-SD,fL,B-RDW-SD
+Hematoloogilised uuringud,5 B-Diff-Baso-%,%,B-Baso%
+Hematoloogilised uuringud,5 B-Diff-Baso-arv,10L,B-Baso#
+Hematoloogilised uuringud,5 B-Diff-Eo-%,%,B-Eo%
+Hematoloogilised uuringud,5 B-Diff-Eo-arv,10L,B-Eo#
+Hematoloogilised uuringud,5 B-Diff-LYMPH-%,%,B-Lymph%
+Hematoloogilised uuringud,5 B-Diff-Mono-%,%,B-Mono%
+Hematoloogilised uuringud,5 B-Diff-Mono-arv,10L,B-Mono#
+Hematoloogilised uuringud,5 B-Eo#,/nL,B-Eo#
+Hematoloogilised uuringud,5 B-Eo%,%,B-Eo%
+Hematoloogilised uuringud,5 B-Hct,%,B-Hct
+Hematoloogilised uuringud,5 B-Hgb,g/L,B-Hb
+Hematoloogilised uuringud,5 B-IG#,/nL,B-IG#
+Hematoloogilised uuringud,5 B-IG%,%,B-IG%
+Hematoloogilised uuringud,5 B-Lymph%,%,B-Lymph%
+Hematoloogilised uuringud,5 B-MCH,pg,B-MCH
+Hematoloogilised uuringud,5 B-MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,5 B-MCV,fL,B-MCV
+Hematoloogilised uuringud,5 B-MPV,fL,B-MPV
+Hematoloogilised uuringud,5 B-PLT,10L,B-Plt
+Hematoloogilised uuringud,5 B-Plt,/nL,B-Plt
+Hematoloogilised uuringud,5 B-RBC,10L,B-RBC
+Hematoloogilised uuringud,5 B-RDW,%,B-RDW-CV
+Hematoloogilised uuringud,5 B-WBC,10L,B-WBC
+Hematoloogilised uuringud,5 E-MCH,pg,B-MCH
+Hematoloogilised uuringud,5 E-MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,5 E-MCV,fL,B-MCV
+Hematoloogilised uuringud,5 Eosinofiilid,%,B-Eo%
+Hematoloogilised uuringud,5 IG#,10L,B-IG#
+Hematoloogilised uuringud,5 IG%),%,B-IG%
+Hematoloogilised uuringud,5 Kepptuumsed neutrofiilid,%,B-Kepptuumsed neutrofiilid %
+Hematoloogilised uuringud,5 MPV,fL,B-MPV
+Hematoloogilised uuringud,5 PCT,%,B-Pct
+Hematoloogilised uuringud,5 PDW,fL,B-PDW
+Hematoloogilised uuringud,5 RDWa,%,B-RDW-CV
+Hematoloogilised uuringud,5 RDW-CV,%,B-RDW-CV
+Hematoloogilised uuringud,5 RDW-SD,fL,B-RDW-SD
+Hematoloogilised uuringud,6 B-Diff-Eo-%,%,B-Eo%
+Hematoloogilised uuringud,6 B-Diff-Eo-arv,10L,B-Eo#
+Hematoloogilised uuringud,6 B-Diff-LYMPH-%,%,B-Lymph%
+Hematoloogilised uuringud,6 B-Eo#,/nL,B-Eo#
+Hematoloogilised uuringud,6 B-Eo%,%,B-Eo%
+Hematoloogilised uuringud,6 B-Hct,%,B-Hct
+Hematoloogilised uuringud,6 B-Hgb,g/L,B-Hb
+Hematoloogilised uuringud,6 B-IG#,/nL,B-IG#
+Hematoloogilised uuringud,6 B-IG%,%,B-IG%
+Hematoloogilised uuringud,6 B-Lymph%,%,B-Lymph%
+Hematoloogilised uuringud,6 B-MCH,pg,B-MCH
+Hematoloogilised uuringud,6 B-MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,6 B-MCV,fL,B-MCV
+Hematoloogilised uuringud,6 B-MPV,fL,B-MPV
+Hematoloogilised uuringud,6 B-PLT,10L,B-Plt
+Hematoloogilised uuringud,6 B-Plt,/nL,B-Plt
+Hematoloogilised uuringud,6 B-RDW,%,B-RDW-CV
+Hematoloogilised uuringud,6 E-MCH,pg,B-MCH
+Hematoloogilised uuringud,6 E-MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,6 E-MCV,fL,B-MCV
+Hematoloogilised uuringud,6 IG#,10L,B-IG#
+Hematoloogilised uuringud,6 IG%),%,B-IG%
+Hematoloogilised uuringud,6 Kepptuumsed neutrofiilid,%,B-Kepptuumsed neutrofiilid %
+Hematoloogilised uuringud,6 MPV,fL,B-MPV
+Hematoloogilised uuringud,6 PCT,%,B-Pct
+Hematoloogilised uuringud,6 PDW,fL,B-PDW
+Hematoloogilised uuringud,6 RDWa,%,B-RDW-CV
+Hematoloogilised uuringud,6 RDW-CV,%,B-RDW-CV
+Hematoloogilised uuringud,6 RDW-SD,fL,B-RDW-SD
+Hematoloogilised uuringud,7 B-Diff-Eo-%,%,B-Eo%
+Hematoloogilised uuringud,7 B-Diff-Eo-arv,10L,B-Eo#
+Hematoloogilised uuringud,7 B-Diff-LYMPH-%,%,B-Lymph%
+Hematoloogilised uuringud,7 B-Eo#,/nL,B-Eo#
+Hematoloogilised uuringud,7 B-Eo%,%,B-Eo%
+Hematoloogilised uuringud,7 B-Hct,%,B-Hct
+Hematoloogilised uuringud,7 B-IG#,/nL,B-IG#
+Hematoloogilised uuringud,7 B-IG%,%,B-IG%
+Hematoloogilised uuringud,7 B-Lymph%,%,B-Lymph%
+Hematoloogilised uuringud,7 B-MCH,pg,B-MCH
+Hematoloogilised uuringud,7 B-MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,7 B-MCV,fL,B-MCV
+Hematoloogilised uuringud,7 B-MPV,fL,B-MPV
+Hematoloogilised uuringud,7 B-PLT,10L,B-Plt
+Hematoloogilised uuringud,7 B-Plt,/nL,B-Plt
+Hematoloogilised uuringud,7 B-RDW,%,B-RDW-CV
+Hematoloogilised uuringud,7 E-MCH,pg,B-MCH
+Hematoloogilised uuringud,7 E-MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,7 E-MCV,fL,B-MCV
+Hematoloogilised uuringud,7 Eosinofiilid,%,B-Eo%
+Hematoloogilised uuringud,7 IG#,10L,B-IG#
+Hematoloogilised uuringud,7 IG%),%,B-IG%
+Hematoloogilised uuringud,7 Kepptuumsed neutrofiilid,%,B-Kepptuumsed neutrofiilid %
+Hematoloogilised uuringud,7 MPV,fL,B-MPV
+Hematoloogilised uuringud,7 PCT,%,B-Pct
+Hematoloogilised uuringud,7 PDW,fL,B-PDW
+Hematoloogilised uuringud,7 RDW-CV,%,B-RDW-CV
+Hematoloogilised uuringud,7 RDW-SD,fL,B-RDW-SD
+Hematoloogilised uuringud,8 B-Diff-Eo-%,%,B-Eo%
+Hematoloogilised uuringud,8 B-Diff-Eo-arv,10L,B-Eo#
+Hematoloogilised uuringud,8 B-Diff-LYMPH-%,%,B-Lymph%
+Hematoloogilised uuringud,8 B-Eo#,/nL,B-Eo#
+Hematoloogilised uuringud,8 B-Eo%,%,B-Eo%
+Hematoloogilised uuringud,8 B-Hct,%,B-Hct
+Hematoloogilised uuringud,8 B-IG#,/nL,B-IG#
+Hematoloogilised uuringud,8 B-IG%,%,B-IG%
+Hematoloogilised uuringud,8 B-Lymph%,%,B-Lymph%
+Hematoloogilised uuringud,8 B-MCH,pg,B-MCH
+Hematoloogilised uuringud,8 B-MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,8 B-MCV,fL,B-MCV
+Hematoloogilised uuringud,8 B-MPV,fL,B-MPV
+Hematoloogilised uuringud,8 B-PLT,10L,B-Plt
+Hematoloogilised uuringud,8 B-Plt,/nL,B-Plt
+Hematoloogilised uuringud,8 B-RDW,%,B-RDW-CV
+Hematoloogilised uuringud,8 E-MCH,pg,B-MCH
+Hematoloogilised uuringud,8 E-MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,8 E-MCV,fL,B-MCV
+Hematoloogilised uuringud,8 IG#,10L,B-IG#
+Hematoloogilised uuringud,8 IG%),%,B-IG%
+Hematoloogilised uuringud,8 MPV,fL,B-MPV
+Hematoloogilised uuringud,8 PCT,%,B-Pct
+Hematoloogilised uuringud,8 PDW,fL,B-PDW
+Hematoloogilised uuringud,8 RDW-CV,%,B-RDW-CV
+Hematoloogilised uuringud,8 RDW-SD,fL,B-RDW-SD
+Hematoloogilised uuringud,9 B-Diff-LYMPH-%,%,B-Lymph%
+Hematoloogilised uuringud,9 B-Eo#,/nL,B-Eo#
+Hematoloogilised uuringud,9 B-Eo%,%,B-Eo%
+Hematoloogilised uuringud,9 B-Hct,%,B-Hct
+Hematoloogilised uuringud,9 B-IG#,/nL,B-IG#
+Hematoloogilised uuringud,9 B-IG%,%,B-IG%
+Hematoloogilised uuringud,9 B-Lymph%,%,B-Lymph%
+Hematoloogilised uuringud,9 B-MCH,pg,B-MCH
+Hematoloogilised uuringud,9 B-MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,9 B-MCV,fL,B-MCV
+Hematoloogilised uuringud,9 B-MPV,fL,B-MPV
+Hematoloogilised uuringud,9 B-PLT,10L,B-Plt
+Hematoloogilised uuringud,9 B-Plt,/nL,B-Plt
+Hematoloogilised uuringud,9 B-RDW,%,B-RDW-CV
+Hematoloogilised uuringud,9 E-MCH,pg,B-MCH
+Hematoloogilised uuringud,9 E-MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,9 E-MCV,fL,B-MCV
+Hematoloogilised uuringud,9 MPV,fL,B-MPV
+Hematoloogilised uuringud,9 PDW,fL,B-PDW
+Hematoloogilised uuringud,9 RDW-CV,%,B-RDW-CV
+Hematoloogilised uuringud,Abs. arv Basofiilid,10E9/L,B-Basofiilid #
+Hematoloogilised uuringud,Abs. arv Eosinofiilid,10E9/L,B-Eo#
+Hematoloogilised uuringud,Abs. arv Neutrofiilid,10E9/L,B-Neutrofiilid #
+Hematoloogilised uuringud,Basofiili,%,B-Basofiilid %
+Hematoloogilised uuringud,Basofiilid%,%,B-Basofiilid %
+Hematoloogilised uuringud,Basofiilide %,%,B-Basofiilid %
+Hematoloogilised uuringud,Basofiilide abs ar,10E9/L,B-Basofiilid #
+Hematoloogilised uuringud,Basofiilide abs arv,10E9/L,B-Basofiilid #
+Hematoloogilised uuringud,Basofiilide abs arv,10L,B-Basofiilid #
+Hematoloogilised uuringud,B-Diff-Baso-,%,B-Baso%
+Hematoloogilised uuringud,B-Diff-Baso-%,%,B-Baso%
+Hematoloogilised uuringud,B-Diff-Baso-ar,10L,B-Baso#
+Hematoloogilised uuringud,B-Diff-Baso-arv,10L,B-Baso#
+Hematoloogilised uuringud,B-Diff-Eo-,%,B-Eo%
+Hematoloogilised uuringud,B-Diff-Eo-%,%,B-Eo%
+Hematoloogilised uuringud,B-Diff-Eo-ar,10L,B-Eo#
+Hematoloogilised uuringud,B-Diff-Eo-arv,10L,B-Eo#
+Hematoloogilised uuringud,B-Diff-LYMPH-,%,B-Lymph%
+Hematoloogilised uuringud,B-Diff-LYMPH-%,%,B-Lymph%
+Hematoloogilised uuringud,B-Diff-LYMPH-ar,10L,B-Lymph#
+Hematoloogilised uuringud,B-Diff-Mono-,%,B-Mono%
+Hematoloogilised uuringud,B-Diff-Mono-%,%,B-Mono%
+Hematoloogilised uuringud,B-Diff-Mono-ar,10L,B-Mono#
+Hematoloogilised uuringud,B-Diff-Mono-ar,10E9/L,B-Mono#
+Hematoloogilised uuringud,B-Diff-Mono-arv,10E9/L,B-Mono#
+Hematoloogilised uuringud,B-Diff-Mono-arv,10L,B-Mono#
+Hematoloogilised uuringud,B-Diff-NEUT-,%,B-Neut%
+Hematoloogilised uuringud,B-Diff-NEUT-%,%,B-Neut%
+Hematoloogilised uuringud,B-Diff-NEUT-ar,10L,B-Neut#
+Hematoloogilised uuringud,B-Diff-NEUT-arv,10L,B-Neut#
+Hematoloogilised uuringud,B-Eo,/nL,B-Eo#
+Hematoloogilised uuringud,B-Eo,%,B-Eo%
+Hematoloogilised uuringud,B-GR-%,%,B-Gran%
+Hematoloogilised uuringud,B-GR-arv,10L,B-Gran#
+Hematoloogilised uuringud,B-H,g/L,B-Hb
+Hematoloogilised uuringud,B-HbA1c ),mmol/mol,B-HbA1c (IFCC)
+Hematoloogilised uuringud,B-HbA1c (Glükohemoglobiin veres (IFCC)),mmol/mol,B-HbA1c (IFCC)
+Hematoloogilised uuringud,B-HbA1c-IFC,mmol/mol,B-HbA1c (IFCC)
+Hematoloogilised uuringud,B-HbA1c-IFCC,mmol/mol,B-HbA1c (IFCC)
+Hematoloogilised uuringud,B-Hc,%,B-Hct
+Hematoloogilised uuringud,B-MC,pg,B-MCH
+Hematoloogilised uuringud,B-MC,fL,B-MCV
+Hematoloogilised uuringud,B-Mono-,%,B-Mono%
+Hematoloogilised uuringud,B-Mono-%,%,B-Mono%
+Hematoloogilised uuringud,B-Mono-ar,10E9/L,B-Mono#
+Hematoloogilised uuringud,B-Mono-arv,10E9/L,B-Mono#
+Hematoloogilised uuringud,B-MP,fL,B-MPV
+Hematoloogilised uuringud,B-PL,10L,B-Plt
+Hematoloogilised uuringud,B-Pl,/nL,B-Plt
+Hematoloogilised uuringud,B-PLT 1(Trombotsüütide mikroskoopiline uuring),10L,B-Plt
+Hematoloogilised uuringud,B-PLT 2(Trombotsüütide mikroskoopiline uuring),10L,B-Plt
+Hematoloogilised uuringud,B-PLT (Trombotsüütide mikroskoopiline uuring),10L,B-Plt
+Hematoloogilised uuringud,B-RD,%,B-RDW-CV
+Hematoloogilised uuringud,B-RDW-C,%,B-RDW-CV
+Hematoloogilised uuringud,B-S,mm/h,B-ESR
+Hematoloogilised uuringud,B-SR,mm/h,B-ESR
+Hematoloogilised uuringud,B-WB,10L,B-WBC
+Hematoloogilised uuringud,B-WB,/nL,B-WBC
+Hematoloogilised uuringud,E-MC,fL,B-MCV
+Hematoloogilised uuringud,E-MC,pg,B-MCH
+Hematoloogilised uuringud,E-MCH,pg,B-MCH
+Hematoloogilised uuringud,E-MCH,g/L,B-MCHC
+Hematoloogilised uuringud,E-MCHC,g/L,B-MCHC
+Hematoloogilised uuringud,E-MCV,fL,B-MCV
+Hematoloogilised uuringud,EOS#,10U/L,B-Eo#
+Hematoloogilised uuringud,EOS#,U/L,B-Eo#
+Hematoloogilised uuringud,EOS#,/nL,B-Eo#
+Hematoloogilised uuringud,EOS%,%,B-Eo%
+Hematoloogilised uuringud,Eosinofiil,%,B-Eo%
+Hematoloogilised uuringud,Eosinofiile,%,B-Eo%
+Hematoloogilised uuringud,Eosinofiili,%,B-Eo%
+Hematoloogilised uuringud,Eosinofiilid %,%,B-Eo%
+Hematoloogilised uuringud,Eosinofiilid%,%,B-Eo%
+Hematoloogilised uuringud,Eosinofiilide,%,B-Eo%
+Hematoloogilised uuringud,Eosinofiilide %,%,B-Eo%
+Hematoloogilised uuringud,Eosinofiilide abs ar,10E9/L,B-Eo#
+Hematoloogilised uuringud,Eosinofiilide abs arv,10E9/L,B-Eo#
+Hematoloogilised uuringud,Eosinofiilide abs arv,10L,B-Eo#
+Hematoloogilised uuringud,Er.basof.sõmeru,korda,B-Basofiilne sõmerus
+Hematoloogilised uuringud,Er.basof.sõmerus,korda,B-Basofiilne sõmerus
+Hematoloogilised uuringud,Erütrotsüütide settekiiru,mm/h,B-ESR
+Hematoloogilised uuringud,GR#,10U/L,B-Gran#
+Hematoloogilised uuringud,GR%,%,B-Gran%
+Hematoloogilised uuringud,Granulotsüütide %,%,B-Gran%
+Hematoloogilised uuringud,Hematokri,%,B-Hct
+Hematoloogilised uuringud,IG),%,B-IG%
+Hematoloogilised uuringud,IG%),%,B-IG%
+Hematoloogilised uuringud,Kepptuum. neut,%,B-Kepptuumsed neutrofiilid %
+Hematoloogilised uuringud,Kepptuum. neut.,%,B-Kepptuumsed neutrofiilid %
+Hematoloogilised uuringud,Kepptuumse,%,B-Kepptuumsed neutrofiilid %
+Hematoloogilised uuringud,Kepptuumsed,%,B-Kepptuumsed neutrofiilid %
+Hematoloogilised uuringud,Kepptuumsed neutrofiili,%,B-Kepptuumsed neutrofiilid %
+Hematoloogilised uuringud,Kepptuumsed neutrofiilid %,%,B-Kepptuumsed neutrofiilid %
+Hematoloogilised uuringud,Lümfotsüüdid,%,B-Lümfotsüüdid %
+Hematoloogilised uuringud,Lümfotsüütide %,%,B-Lümfotsüüdid %
+Hematoloogilised uuringud,Lümfotsüütide abs arv,10E9/L,B-Lümfotsüüdid #
+Hematoloogilised uuringud,Lym+mono arv %,%,B-Lymph% + Mono%
+Hematoloogilised uuringud,LYMP#,10U/L,B-Lymph#
+Hematoloogilised uuringud,LYMP%,%,B-Lymph%
+Hematoloogilised uuringud,Monotsüütide %,%,B-Monotsüüdid %
+Hematoloogilised uuringud,MP,fL,B-MPV
+Hematoloogilised uuringud,MPV,fL,B-MPV
+Hematoloogilised uuringud,NEU#,10U/L,B-Neut#
+Hematoloogilised uuringud,NEU%,%,B-Neut%
+Hematoloogilised uuringud,Neutrofiilid%,%,B-Neutrofiilid %
+Hematoloogilised uuringud,Neutrofiilide %,%,B-Neutrofiilid %
+Hematoloogilised uuringud,Neutrofiilide abs arv,10E9/L,B-Neutrofiilid #
+Hematoloogilised uuringud,Neutrofiilide hüpersegmentatsioon,"1,2,3",B-Hüpersegmentatsioon
+Hematoloogilised uuringud,PD,fL,B-PDW
+Hematoloogilised uuringud,Plasmarakud,%,B-Plasmarakud %
+Hematoloogilised uuringud,P-LC,suhtarv,B-LCR
+Hematoloogilised uuringud,RDW,%,B-RDW-CV
+Hematoloogilised uuringud,RDW),%,B-RDW-CV
+Hematoloogilised uuringud,RDWa,%,B-RDW-CV
+Hematoloogilised uuringud,Segmenttuumse,%,B-Segmenttuumsed neutrofiilid %
+Hematoloogilised uuringud,Segmenttuumsed,%,B-Segmenttuumsed neutrofiilid %
+Hematoloogilised uuringud,Segmenttuumsed neutrofiili,%,B-Segmenttuumsed neutrofiilid %
+Hematoloogilised uuringud,Segmenttuumsed neutrofiilid,%,B-Segmenttuumsed neutrofiilid %
+Hematoloogilised uuringud,Segmenttuumsed neutrofiilid %,%,B-Segmenttuumsed neutrofiilid %
+Hematoloogilised uuringud,Segmentuumsei,%,B-Segmenttuumsed neutrofiilid %
+Hematoloogilised uuringud,Segmentuumseid,%,B-Segmenttuumsed neutrofiilid %
+"Hemoglobiin, glükeeritud A1C suhe",Hinnatud keskmine glükoosi kontsentratsioon,mmol/L,B-eAG
+Hemoglobiini fraktsioonid arteriaalses veres,"Hct,c",%,B-Hct calc
+Hemoglobiini fraktsioonid kapillaarveres,"Hct,c",%,B-Hct calc
+Hemogramm*,Hinnanguline glomerulaarfiltratsiooni kiirus,ml/min/1.73m2,eGFR
+Hemogramm*,LDL-kolesterool paastuseerumis/paastuplasmas,mmol/L,"S,P-LDL-Chol"
+Hemogramm ilma leukogrammita,MCHC Keskmine hemoglobiini kontsentratsioon erütrotsüüdis,g/L,B-MCHC
+Hemogramm ilma leukogrammita,MCH Keskmine hemoglobiin erütrotsüüdis,pg,B-MCH
+Hemogramm ilma leukogrammita,MCV Erütrotsüütide keskmine ruumala,fL,B-MCV
+Hemogramm ilma leukogrammita,MPV Trombotsüütide keskmine maht,fL,B-MPV
+Hemogramm ilma leukogrammita,PDW Trombotsüütide suurusjaotuvus,fL,B-PDW
+Hemogramm ilma leukogrammita,PLT Trombotsüüdid,10E9/L,B-Plt
+Hemogramm ilma leukogrammita,RBC Erütrotsüüdid,10E12/,B-RBC
+Hemogramm ilma leukogrammita,RBC Erütrotsüüdid,10E12/L,B-RBC
+Hemogramm ilma leukogrammita,RDW-CV Erütrotsüütide suurusjaotuvus,%,B-RDW-CV
+Hemogramm ilma leukogrammita,WBC Leukotsüüdid,10E9/L,B-WBC
+Hemogramm leukotsüütide diferentsiaalloendusega (vere automaatuuring 5-osalise leukogrammiga) ja normoblastidega,B-CBC+Diff+NRBC,%,B-NRBC%
+Hemogramm leukotsüütide diferentsiaalloendusega (vere automaatuuring 5-osalise leukogrammiga) ja normoblastidega,B-CBC+Diff+NRBC,10E9/L,B-NRBC#
+"Hemogramm, lihtne (mikroskoopia)",Segmenttuumsed neutrofiilid,%,B-Segmenttuumsed neutrofiilid %
+Hemogramm Vere automaatuuring 5-osalise leukogrammiga,IG Ebaküpsete granulotsüüdide absoluutarv,10E9g/L,B-IG#
+Hemogramm Vere automaatuuring 5-osalise leukogrammiga,IG% Ebaküpsete granulotsüüdide suhtarv,%,B-IG%
+Hemogramm Vere automaatuuring 5-osalise leukogrammiga,LYMPH Lümfotsüütide absoluutarv,10E9/L,B-Lymph#
+Hemogramm Vere automaatuuring 5-osalise leukogrammiga,LYMPH% Lümfotsüütide suhtarv,%,B-Lymph%
+Hemogramm Vere automaatuuring 5-osalise leukogrammiga,MCHC Keskmine hemoglobiini kontsentratsioon erütrotsüüdis,g/L,B-MCHC
+Hemogramm Vere automaatuuring 5-osalise leukogrammiga,MCH Keskmine hemoglobiini hulk erütrotsüüdis,pg,B-MCH
+Hemogramm Vere automaatuuring 5-osalise leukogrammiga,MCV Erütrotsüütide keskmine ruumala,fL,B-MCV
+Hemogramm Vere automaatuuring 5-osalise leukogrammiga,MONO Monotsüütide absoluutarv,10E9/L,B-Mono#
+Hemogramm Vere automaatuuring 5-osalise leukogrammiga,MONO% Monotsüütide suhtarv,%,B-Mono%
+Hemogramm Vere automaatuuring 5-osalise leukogrammiga,MPV Trombotsüütide keskmine maht,fL,B-MPV
+Hemogramm Vere automaatuuring 5-osalise leukogrammiga,PDW Trombotsüütide anisotsütoosi näitaja,fL,B-PDW
+Hemogramm Vere automaatuuring 5-osalise leukogrammiga,PLT Trombotsüüdid,10E9/L,B-Plt
+Hemogramm Vere automaatuuring 5-osalise leukogrammiga,RDW-CV Erütrotsüütide anisotsütoosi näitaja,%,B-RDW-CV
+Hemogramm Vere automaatuuring 5-osalise leukogrammiga,WBC Leukotsüüdid,10E9/L,B-WBC
+Hemogramm Vere automaatuuring ilma leukogrammita,MCHC Keskmine hemoglobiini kontsentratsioon erütrotsüüdis,g/L,B-MCHC
+Hemogramm Vere automaatuuring ilma leukogrammita,MCH Keskmine hemoglobiini hulk erütrotsüüdis,pg,B-MCH
+Hemogramm Vere automaatuuring ilma leukogrammita,MCV Erütrotsüütide keskmine ruumala,fL,B-MCV
+Hemogramm Vere automaatuuring ilma leukogrammita,MPV Trombotsüütide keskmine maht,fL,B-MPV
+Hemogramm Vere automaatuuring ilma leukogrammita,PDW Trombotsüütide anisotsütoosi näitaja,fL,B-PDW
+Hemogramm Vere automaatuuring ilma leukogrammita,PLT Trombotsüüdid,10E9/L,B-Plt
+Hemogramm Vere automaatuuring ilma leukogrammita,RBC Erütrotsüüdid,10E12/,B-RBC
+Hemogramm Vere automaatuuring ilma leukogrammita,RDW-CV Erütrotsüütide anisotsütoosi näitaja,%,B-RDW-CV
+Hemogramm Vere automaatuuring ilma leukogrammita,WBC Leukotsüüdid,10E9/L,B-WBC
+Hemogramm viieosalise leukogrammiga*,-1 Glükoos paastuplasmas,mmol/L,"fS,fP-Gluc"
+Hemogramm viieosalise leukogrammiga*,7 NRBC#,10/9l,B-NRBC#
+Hemogramm viieosalise leukogrammiga*,8 NRBC%,/100WBC,B-NRBC%
+Hemogramm viieosalise leukogrammiga*,Albumiini ja kreatiniini suhe uriinis,mg/mmol,U-Alb/U-Crea
+Hemogramm viieosalise leukogrammiga*,Aspartaadi aminotransferaas seerumis,U/L,"S,P-ASAT"
+Hemogramm viieosalise leukogrammiga*,CSF-WBC,E6/L,CSF-WBC
+Hemogramm viieosalise leukogrammiga*,D-dimeerid plasmas,ug/mL,P-D-Di
+Hemogramm viieosalise leukogrammiga*,Glükohemoglobiin,%,B-HbA1c
+Hemogramm viieosalise leukogrammiga*,HDL-kolesterool paastuseerumis,mmol/L,"S,P-HDL-Chol"
+Hemogramm viieosalise leukogrammiga*,Hinnanguline glomerulaarfiltratsiooni kiirus,ml/min/1.73m2,eGFR
+Hemogramm viieosalise leukogrammiga*,Kaltsitoniin paastuseerumis,pmol/L,"S,P-CT"
+Hemogramm viieosalise leukogrammiga*,Kaltsitoniin paastuseerumis/paastuplasmas,pmol/L,"S,P-CT"
+Hemogramm viieosalise leukogrammiga*,Kaltsitoniin seerumis/lasmas,pmol/L,"S,P-CT"
+Hemogramm viieosalise leukogrammiga*,Kolesterool seerumis,mmol/L,"S,P-Chol"
+Hemogramm viieosalise leukogrammiga*,Kreatiini kinaasi MB isoensüümi mass seerumis,ug/L,"S,P-CK-MBm"
+Hemogramm viieosalise leukogrammiga*,Kreatiini kinaas seerumis,U/L,"S,P-CK"
+Hemogramm viieosalise leukogrammiga*,Kreatiniini kliirens kehapinna kohta,mL/min/1.73m2,eGFR
+Hemogramm viieosalise leukogrammiga*,Kreatiniin uriinis,umol/L,U-Crea
+Hemogramm viieosalise leukogrammiga*,LDL-kolesterool paastuseerumis/paastuplasmas,mmol/L,"S,P-LDL-Chol"
+Hemogramm viieosalise leukogrammiga*,Prokaltsitoniin seerumis,ug/L,"S,P-PCT"
+Hemogramm viieosalise leukogrammiga*,Protrombiini suhe,%,P-PT%
+Hemogramm viieosalise leukogrammiga*,S-iCa,mmol/L,"S,P-iCa"
+Hemogramm viieosalise leukogrammiga*,Triglütseriidid paastuseerumis,mmol/L,"fS,fP-Trigl"
+Hemogramm viieosalise leukogrammiga*,Troponiin T seerumis/plasmas,ng/L,"S,P-cTnT-hs"
+Hemogramm viieosalise leukogrammiga*,Uurea paastuseerumis/paastuplasmas,mmol/L,"S,P-Urea"
+Hemogramm viieosalise leukogrammiga*,Vaba türoksiin seerumis,pmol/L,"S,P-fT4"
+Hemogramm viieosalise leukogrammiga*,Vitamiin D seerumis/plasmas,nmol/L,"S,P-Vit D (25-OH)"
+Hemogramm viieosalise leukogrammiga ja normoblastidega,B-CBC-Diff-NRBC,10E9/L,B-NRBC#
+Hemogramm viieosalise leukogrammiga ja normoblastidega,B-CBC-Diff-NRBC,%,B-NRBC%
+Hemogramm viieosalise leukogrammiga ja normoblastidega,NRBC#,10E9/L,B-NRBC#
+Hemogramm viieosalise leukogrammiga ja normoblastidega kapillaarverest,NRBC#,10E9/L,B-NRBC#
+"Hemogramm viieosalise leukogrammiga, normoblastidega ja retikulotsüütidega",NRBC#,10E9/L,B-NRBC#
+Hinnangulina glomerulaarfiltratsiooni kiirus(eGFR),33914-3,mL/min/1.73m2,eGFR
+Hinnangulina glomerulaarfiltratsiooni kiirus(eGFR),66102S-eGFR,mL/min/1.73m2,eGFR
+Hinnanguline glomerulaarfiltratsiooni kiirus,33914-3,mL/min/1.73m2,eGFR
+Hinnanguline glomerulaarfiltratsiooni kiirus,eGFRm,mL/min/1.73m2,eGFR
+Hinnanguline glomerulaarfiltratsiooni kiirus,eGFRn,mL/min/1.73m2,eGFR
+Hinnanguline glomerulaarfiltratsiooni kiirus (eGFR),Hinnanguline glomerulaafiltratsiooni kiirus,mL/min/1.73m2,eGFR
+Hinnanguline glomerulaarfiltratsiooni kiirus (eGFR),S2-eGFR,mL/min/1.73m2,eGFR
+Hinnanguline glomerulaarfiltratsiooni kiirus (eGRF),Hinnanguline glomerulaafiltratsiooni kiirus,mL/min/1.73m2,eGFR
+Hinnanguline glomerulaarfiltratsiooni kiirus (eGRF),S2-CreaC,mL/min/1.73m2,eGFR
+Hinnanguline glomerulaarfiltratsiooni kiirus (MDRD),P-eGFR,mL/min/1.73m2,eGFR
+Hinnanguline glomerulaarfiltratsooni kiirus (MDRD),33914-3,mL/min/1.73m2,eGFR
+Hinnanguline glomerulaarfiltratsooni kiirus (MDRD),S-eGFR,mL/min/1.73m2,eGFR
+"HLT, elektrolüüdid",fB-Gluc,mmol/L,fcB-Gluc
+Hüübimise uuringud,P-PT,%,P-PT%
+Hüübimise uuringud,P-PT,sek,P-PT
+Hüübimise uuringud,P-PT (Hüübimine PERH),sek,P-PT
+Hüübimise uuringud,P-PT-IN,suhtarv,P-PT-INR
+Hüübimise uuringud,P-PTse,sek,P-PT
+Hüübimise uuringud,P-PTsek,sek,P-PT
+Hüübimissüsteemi uuringud,P-PT-IN,suhtarv,P-PT-INR
+Hüübimissüsteemi uuringud,P-PT-INR 1,suhtarv,P-PT-INR
+Hüübimissüsteemi uuringud,P-PT-INR 10,suhtarv,P-PT-INR
+Hüübimissüsteemi uuringud,P-PT-INR 11,suhtarv,P-PT-INR
+Hüübimissüsteemi uuringud,P-PT-INR 12,suhtarv,P-PT-INR
+Hüübimissüsteemi uuringud,P-PT-INR 13,suhtarv,P-PT-INR
+Hüübimissüsteemi uuringud,P-PT-INR 2,suhtarv,P-PT-INR
+Hüübimissüsteemi uuringud,P-PT-INR 3,suhtarv,P-PT-INR
+Hüübimissüsteemi uuringud,P-PT-INR 4,suhtarv,P-PT-INR
+Hüübimissüsteemi uuringud,P-PT-INR 5,suhtarv,P-PT-INR
+Hüübimissüsteemi uuringud,P-PT-INR 6,suhtarv,P-PT-INR
+Hüübimissüsteemi uuringud,P-PT-INR 7,suhtarv,P-PT-INR
+Hüübimissüsteemi uuringud,P-PT-INR 8,suhtarv,P-PT-INR
+Hüübimissüsteemi uuringud,P-PT-INR 9,suhtarv,P-PT-INR
+IA labori analüüsid,Vaba türoksii,pmol/L,"S,P-fT4"
+Immunoloogilised uuringud,CT-kaltsitonii,pmol/L,"S,P-CT"
+Immunoloogilised uuringud,CT-kaltsitoniin,pmol/L,"S,P-CT"
+Immunoloogilised uuringud,TSH,mU/L,"S,P-TSH"
+Immuunmeetoditel põhinevad uuringud,S-fT4 1,pmol/L,"S,P-fT4"
+Immuunmeetoditel põhinevad uuringud,S-fT4 2,pmol/L,"S,P-fT4"
+Immuunmeetoditel põhinevad uuringud,S-fT4 3,pmol/L,"S,P-fT4"
+Immuunmeetoditel põhinevad uuringud,S-fT4 4,pmol/L,"S,P-fT4"
+Immuunmeetoditel põhinevad uuringud,S-fT4 5,pmol/L,"S,P-fT4"
+Immuunmeetoditel põhinevad uuringud,S-fT4 6,pmol/L,"S,P-fT4"
+Immuunmeetoditel põhinevad uuringud,S-PCT 1,ng/mL,"S,P-PCT"
+Immuunmeetoditel põhinevad uuringud,S-PCT 2,ng/mL,"S,P-PCT"
+Immuunmeetoditel põhinevad uuringud,S-PCT 3,ng/mL,"S,P-PCT"
+Immuunmeetoditel põhinevad uuringud,S-PCT 4,ng/mL,"S,P-PCT"
+Immuunmeetoditel põhinevad uuringud,S-TSH 1,uU/mL,"S,P-TSH"
+Immuunmeetoditel põhinevad uuringud,S-TSH 2,uU/mL,"S,P-TSH"
+Immuunmeetoditel põhinevad uuringud,S-TSH 3,uU/mL,"S,P-TSH"
+Immuunmeetoditel põhinevad uuringud,S-TSH 4,uU/mL,"S,P-TSH"
+Immuunmeetoditel põhinevad uuringud,S-TSH 5,uU/mL,"S,P-TSH"
+Immuunmeetodi uuringud,FT4,pmol/L,"S,P-fT4"
+Immuunmeetodi uuringud,FT4 1,pmol/L,"S,P-fT4"
+Immuunmeetodi uuringud,FT4 2,pmol/L,"S,P-fT4"
+Immuunmeetodi uuringud,Kaltsitonii,pmol/L,"S,P-CT"
+Immuunmeetodi uuringud,TSH,mU/L,"S,P-TSH"
+Immuunmeetodi uuringud,TSH 1,mU/L,"S,P-TSH"
+Immuunmeetodi uuringud,TSH 2,mU/L,"S,P-TSH"
+Immuunuuringud,Kaltsitoniin,pmol/L,"S,P-CT"
+Immuunuuringud,S- PCT,ng/mL,"S,P-PCT"
+Kaltsitoniin,Kaltsitoniin S-CT,pmol/L,"S,P-CT"
+Kliiniline labor,Basofiili,%,B-Baso%
+Kliiniline labor,Eosinofiili,%,B-Eo%
+Kliiniline labor,Kepptuumsed neutrofiili,%,B-Kepptuumsed neutrofiilid %
+Kliiniline labor,P-LCR,%,B-LCR
+Kliiniline labor,Segmenttuumsed neutrofiili,%,B-Segmenttuumsed neutrofiilid %
+Kliiniline labor,Segmenttuumsed neutrofiilid,%,B-Segmenttuumsed neutrofiilid %
+Kliiniline labor (haigla),Kepptuumsed neutrofiili,%,B-Kepptuumsed neutrofiilid %
+Kliinilise keemia uuringud,2 eGFR),mL/min/1.73m2,eGFR
+Kliinilise keemia uuringud,B-HbA1c-IFC,mmol/mol,B-HbA1c (IFCC)
+Kliinilise keemia uuringud,B-HbA1c-IFCC,mmol/mol,B-HbA1c (IFCC)
+Kliinilise keemia uuringud,eGF),mL/min/1.73m2,eGFR
+Kliinilise keemia uuringud,eGFR),mL/min/1.73m2,eGFR
+Kliinilise keemia uuringud,eGFR 1),mL/min/1.73m2,eGFR
+Kliinilise keemia uuringud,eGFR 2),mL/min/1.73m2,eGFR
+Kliinilise keemia uuringud,eGFR 3),mL/min/1.73m2,eGFR
+Kliinilise keemia uuringud,eGFR (MDRD,mL/min/1.73m2,eGFR
+Kliinilise keemia uuringud,fS-Cre,umol/L,"S,P-Crea"
+Kliinilise keemia uuringud,fS-Glu,mmol/L,"fS,fP-Gluc"
+Kliinilise keemia uuringud,fS-HDL-Chol 1,mmol/L,"S,P-HDL-Chol"
+Kliinilise keemia uuringud,fS-HDL-Chol 2,mmol/L,"S,P-HDL-Chol"
+Kliinilise keemia uuringud,fS-HDL-Chol 3,mmol/L,"S,P-HDL-Chol"
+Kliinilise keemia uuringud,fS-LDL-Chol 1,mmol/L,"S,P-LDL-Chol"
+Kliinilise keemia uuringud,fS-LDL-Chol 2,mmol/L,"S,P-LDL-Chol"
+Kliinilise keemia uuringud,fS-LDL-Chol 3,mmol/L,"S,P-LDL-Chol"
+Kliinilise keemia uuringud,fS-LDL-Chol 4,mmol/L,"S,P-LDL-Chol"
+Kliinilise keemia uuringud,fS-Urea 1,mmol/L,"S,P-Urea"
+Kliinilise keemia uuringud,fS-Urea 2,mmol/L,"S,P-Urea"
+Kliinilise keemia uuringud,fS-Urea 3,mmol/L,"S,P-Urea"
+Kliinilise keemia uuringud,HbA1c,mmol/mol,B-HbA1c (IFCC)
+Kliinilise keemia uuringud,HbA1c,%,B-HbA1c
+Kliinilise keemia uuringud,HbA1c (IFCC,mmol/mol,B-HbA1c (IFCC)
+Kliinilise keemia uuringud,HDL kolesteroo,mmol/L,"S,P-HDL-Chol"
+Kliinilise keemia uuringud,Kolesteroo,mmol/L,"S,P-Chol"
+Kliinilise keemia uuringud,Kreatiini kinaas,U/L,"S,P-CK"
+Kliinilise keemia uuringud,Kreatinii,umol/L,"S,P-Crea"
+Kliinilise keemia uuringud,LDL kolesteroo,mmol/L,"S,P-LDL-Chol"
+Kliinilise keemia uuringud,LDL kolesterool,mmol/L,"S,P-LDL-Chol"
+Kliinilise keemia uuringud,S-ALAT 1,U/L,"S,P-ALAT"
+Kliinilise keemia uuringud,S-ALAT 2,U/L,"S,P-ALAT"
+Kliinilise keemia uuringud,S-ALAT 3,U/L,"S,P-ALAT"
+Kliinilise keemia uuringud,S-ALAT 4,U/L,"S,P-ALAT"
+Kliinilise keemia uuringud,S-ALAT 5,U/L,"S,P-ALAT"
+Kliinilise keemia uuringud,S-ASAT 1,U/L,"S,P-ASAT"
+Kliinilise keemia uuringud,S-ASAT 2,U/L,"S,P-ASAT"
+Kliinilise keemia uuringud,S-ASAT 3,U/L,"S,P-ASAT"
+Kliinilise keemia uuringud,S-ASAT 4,U/L,"S,P-ASAT"
+Kliinilise keemia uuringud,S-ASAT 5,U/L,"S,P-ASAT"
+Kliinilise keemia uuringud,S-Chol 1,mmol/L,"S,P-Chol"
+Kliinilise keemia uuringud,S-Chol 2,mmol/L,"S,P-Chol"
+Kliinilise keemia uuringud,S-Chol 3,mmol/L,"S,P-Chol"
+Kliinilise keemia uuringud,S-Chol 4,mmol/L,"S,P-Chol"
+Kliinilise keemia uuringud,Triglütseriidi,mmol/L,"fS,fP-Trigl"
+Kolesterool,Chol.,mmol/L,"S,P-Chol"
+Kolesterool,"S-Chol, P-Chol",mmol/L,"S,P-Chol"
+Kolesterool,"S-Chol,_P-Chol",mmol/L,"S,P-Chol"
+kolesterool,Chol.,mmol/L,"S,P-Chol"
+Kolesterool plasmas,P-Chol,mmol/L,"S,P-Chol"
+Kolesterool pleuravedelikus,Pf-Chol,mmol/L,PlrF-Chol
+Kolesterool seerumis,S-Chol HK:66104,mmol/L,"S,P-Chol"
+Kolesterool seerumis,"S-Chol, P-Chol",ng/mL,"S,P-Chol"
+Kolesterool seerumis,"S-Chol,_P-Chol",ng/mL,"S,P-Chol"
+Korduv glükoos kapillaarverest,Gluc,mmol/L,fcB-Gluc
+Kreatiini kinaas,Glomerulaarfiltratsioon - eGFR,"mL/min/1,73m2",eGFR
+Kreatiinkinaasi MB isoensüümi mass,Kreatiinkinaasi MB isoensüüm,ng/mL,"S,P-CK-MBm"
+Kreatiinkinaasi MB isoensüümi mass,Kreatiinkinaasi MB isoensüüm,ug/L,"S,P-CK-MBm"
+Kreatiniin,"fS-Crea, fP-Crea",umol/L,"S,P-Crea"
+Kreatiniin,"fS-Crea,_fP-Crea",umol/L,"S,P-Crea"
+Kreatiniin,P-Crea,umol/L,"S,P-Crea"
+kreatiniin,Crea,umol/L,"S,P-Crea"
+Kreatiniini kinaasi MB isoensüümi mass plasmas (Dimension EXL 200),Kreatiniini kinaasi MB isoensüümi mass plasmas,ug/L,"S,P-CK-MBm"
+Kreatiniini kinaasi MB isoensüümi mass plasmas (Immulite Plus),Kreatiniini kinaasi MB isoensüümi mass plasmas,ug/L,"S,P-CK-MBm"
+Kreatiniini kinaasi MB isoensüümi mass plasmas (Immulite XPi),Kreatiniini kinaasi MB isoensüümi mass plasmas,ug/L,"S,P-CK-MBm"
+Kreatiniini kliirens ööpäevases uriinis,Kreatiniini kliirens standartse kehapindala järgi,mL/min/1.73m2,eGFR
+Kreatiniin ja eGFR seerumis,Hinnanguline glomerulaafiltratsiooni kiirus,mL/min/1.73m2,eGFR
+Kreatiniin ja hinnanguline glomerulaarfiltratsiooni kiirus,S-Crea+eGFR,mL/min/1.73m2,eGFR
+Kreatiniin ja mikroalbumiin 24 h uriinis,U-Alb/Crea,mgAlb/mmol/Cre,U-Alb/U-Crea
+Kreatiniin paastuseerumis,"fS-Crea, fP-Crea",ng/mL,"S,P-Crea"
+Kreatiniin paastuseerumis,"fS-Crea,_fP-Crea",ng/mL,"S,P-Crea"
+Kreatiniin paastuseerumis,Kreatiniin paastuplasmas,umol/L,"S,P-Crea"
+Kreatiniin vastsündinu plasmas,nP-Crea,umol/L,"S,P-Crea"
+Laboratoorne hematoloogia,1 EO#,10E9/L,B-Eo#
+Laboratoorne hematoloogia,1 EO%,%,B-Eo%
+Laboratoorne hematoloogia,1 HCT,%,B-Hct
+Laboratoorne hematoloogia,1 LYMPH%,%,B-Lymph%
+Laboratoorne hematoloogia,1 MCH,pg,B-MCH
+Laboratoorne hematoloogia,1 MCHC,g/L,B-MCHC
+Laboratoorne hematoloogia,1 MCV,fL,B-MCV
+Laboratoorne hematoloogia,1 PDW,fL,B-PDW
+Laboratoorne hematoloogia,1 PLT,10E9/L,B-Plt
+Laboratoorne hematoloogia,1 RDW-CV,%,B-RDW-CV
+Laboratoorne hematoloogia,2 EO#,10E9/L,B-Eo#
+Laboratoorne hematoloogia,2 EO%,%,B-Eo%
+Laboratoorne hematoloogia,2 HCT,%,B-Hct
+Laboratoorne hematoloogia,2 LYMPH%,%,B-Lymph%
+Laboratoorne hematoloogia,2 MCH,pg,B-MCH
+Laboratoorne hematoloogia,2 MCHC,g/L,B-MCHC
+Laboratoorne hematoloogia,2 MCV,fL,B-MCV
+Laboratoorne hematoloogia,2 PDW,fL,B-PDW
+Laboratoorne hematoloogia,2 PLT,10E9/L,B-Plt
+Laboratoorne hematoloogia,2 RDW-CV,%,B-RDW-CV
+Labori tasulised analüüsid,B-Diff-Baso-%,%,B-Baso%
+Labori tasulised analüüsid,B-Diff-Baso-arv,10L,B-Baso#
+Labori tasulised analüüsid,B-Diff-Eo-%,%,B-Eo%
+Labori tasulised analüüsid,B-Diff-Eo-arv,10L,B-Eo#
+Labori tasulised analüüsid,B-Diff-LYMPH-%,%,B-Lymph%
+Labori tasulised analüüsid,B-Diff-Mono-%,%,B-Mono%
+Labori tasulised analüüsid,B-Diff-Mono-arv,10L,B-Mono#
+Labori tasulised analüüsid,E-MCH,pg,B-MCH
+Labori tasulised analüüsid,E-MCHC,g/L,B-MCHC
+Labori tasulised analüüsid,E-MCV,fL,B-MCV
+Laktoosi taluvuse proov,fP-Gluc 0 min,mmol/L,"fS,fP-Gluc 0 min (pre Lactose PO)"
+Laktoosi taluvuse proov,P-Gluc 20 min,mmol/L,"S,P-Gluc 20 min (post 50g Lactose PO)"
+Laktoosi taluvuse proov,P-Gluc 40 min,mmol/L,"S,P-Gluc 40 min (post 50g Lactose PO)"
+LDL,LDL-kolesterool,mmol/L,"S,P-LDL-Chol"
+LDL,Madala tihedusega lipoproteiini kolesterool,mmol/L,"S,P-LDL-Chol"
+LDL Kolest.,LDL kolest.,mmol/L,"S,P-LDL-Chol"
+LDL kolest.,LDL kolest.,L,"S,P-LDL-Chol"
+LDL- Kolesterool,LDL -Chol,mmol/L,"S,P-LDL-Chol"
+LDL- Kolesterool,LDL_-Chol,mmol/L,"S,P-LDL-Chol"
+LDL- Kolesterool,S-LDL -Chol,mmol/L,"S,P-LDL-Chol"
+LDL- Kolesterool,S-LDL_-Chol,mmol/L,"S,P-LDL-Chol"
+LDL kolesterool,"fS-LDL-Chol, fP-LDL-",mmol/L,"S,P-LDL-Chol"
+LDL kolesterool,"fS-LDL-Chol, fP-LDL-Chol",mmol/L,"S,P-LDL-Chol"
+LDL kolesterool,"fS-LDL-Chol,_fP-LDL-Chol",mmol/L,"S,P-LDL-Chol"
+LDL-kolesterool,Madala tihedusega lipoproteiini kolesterool,mmol/L,"S,P-LDL-Chol"
+LDL- kolesterool paastuseerumis,fS-LDL- Chol,mmol/L,"S,P-LDL-Chol"
+LDL- kolesterool paastuseerumis,fS-LDL-_Chol,mmol/L,"S,P-LDL-Chol"
+LDL- kolesterool paastuseerumis,"fS-LDL-Chol, fP-LDL-",ng/mL,"S,P-LDL-Chol"
+LDL- kolesterool paastuseerumis,"fS-LDL-Chol, fP-LDL-Chol",ng/mL,"S,P-LDL-Chol"
+LDL- kolesterool paastuseerumis,"fS-LDL-Chol,_fP-LDL-Chol",ng/mL,"S,P-LDL-Chol"
+LDL-kolesterool paastuseerumis,fS-LDL-Chol HK:66105,mmol/L,"S,P-LDL-Chol"
+LDL-kolesterool paastuseerumis,LDL-kolesterool,mmol/L,"S,P-LDL-Chol"
+LDL-kolesterool seermis,LDL- kolesterool seerumis,mmol/L,"S,P-LDL-Chol"
+LDL- kolesterool seerumis,LDL- kolesterool paastuseerumis,mmol/L,"S,P-LDL-Chol"
+LDL-kolesterool seerumis/plasmas,S.P-LDL-Chol,mmol/L,"S,P-LDL-Chol"
+LDL - Madala tihedusega lipoproteiini kolesterool,Madala tihedusega lipoproteiini kolesterool,mmol/L,"S,P-LDL-Chol"
+LDL Madala tihedusega lipoproteiini kolesterool seerumis,Madala tihedusega lipoproteiini kolesterool,mmol/L,"S,P-LDL-Chol"
+Liikvori analüüs,CSF - Basofiilid,%,CSF-Basofiilid %
+Liikvori uuringud,Kepptuumalise,%,CSF-Kepptuumsed neutrofiilid %
+Liikvori uuringud,Kepptuumalised,%,CSF-Kepptuumsed neutrofiilid %
+Liikvori uuringud,Segmenttuumalise,%,CSF-Segmenttuumsed neutrofiilid %
+Liikvori uuringud,Segmenttuumalised,%,CSF-Segmenttuumsed neutrofiilid %
+LTT,Glükoos 0 min lac HK:66101,mmol/L,"fS,fP-Gluc 0 min (pre Lactose PO)"
+LTT,Glükoos 20 min lac HK:66101,mmol/L,"S,P-Gluc 20 min (post 50g Lactose PO)"
+LTT,Glükoos 40 min lac HK:66101,mmol/L,"S,P-Gluc 40 min (post 50g Lactose PO)"
+% lymphs+monos,lymphs+monos%,%,B-Lymph% + Mono%
+Pct,Prokaltsitoniin seerumis,ng/mL,"S,P-PCT"
+P-PT/INR,P-PT/INR,%,P-PT-INR
+Prokaltsitoniin,66720_S-Prokaltsitoniin,ng/mL,"S,P-PCT"
+Prokaltsitoniin,P-prokaltsitoniin,ng/mL,"S,P-PCT"
+Protombiiniaeg sekundites,P-PTs,sek,P-PT
+Punktaadi analüüs,PlrF-Basofiilid,%,PlrF-Basofiilid %
+Punktaadi analüüs,PlrF - Eosinofiilid,%,PlrF-Eosinofiilid %
+Punktaadi analüüs,SynF - eosinofiilid,%,SynF-Eosinofiilid %
+RDW,RDW,%,B-RDW-CV
+Triglütseriidid astsiidivedelikus,As-Triglütseriidid,mmol/L,"fS,fP-Trigl"
+Triglütseriidid paastuplasmas,Triglütseriidid paastuplasmas,mmol/L,"fS,fP-Trigl"
+Triglütseriidid pleuravedelikus,PF-Triglütseriidid,mmol/L,"fS,fP-Trigl"
+TSH,01-TSH,mIU/L,"S,P-TSH"
+Tsüstatiin C kapillaarverest,GFR,mL/min/1.73m2,eGFR
+täisveri,B-LYMPH,10E9/L,B-Lymph#
+Türeotropiin,66706 TSH,mU/L,"S,P-TSH"
+Türeotropiin,_TSH,mU/L,"S,P-TSH"
+Türeotropiin (TSH),S-TSH HK:66706,mIU/L,"S,P-TSH"
+Urea,Urea,mmol/L,"S,P-Urea"
+Uriin,BIL,umol/L,U-Bil strip
+Uriin,BIL HK:0000,umol/L,U-Bil strip
+Uriin,ERY,/uL,U-RBC strip
+Uriin,ERY HK:0000,/uL,U-RBC strip
+Uriin,ERY HK:0000,E6/L,U-RBC strip
+Uriin,GLU,mmol/L,U-Gluc strip
+Uriin,GLU HK:0000,mmol/L,U-Gluc strip
+Uriin,KET,mmol/L,U-Ket strip
+Uriin,KET HK:0000,mmol/L,U-Ket strip
+Uriin,LEU,/uL,U-WBC strip
+Uriin,LEU HK:0000,/uL,U-WBC strip
+Uriin,LEU HK:0000,E6/L,U-WBC strip
+Uriin,PRO,g/L,U-Prot strip
+Uriin,PRO HK:0000,g/L,U-Prot strip
+Uriin,UBG,umol/L,U-Ubg strip
+Uriin,UBG HK:0000,umol/L,U-Ubg strip
+Uriini analüüs 10 parameetrilise testribaga,BIL,umol/L,U-Bil strip
+Uriini analüüs 10 parameetrilise testribaga,BLD,er/uL,U-RBC strip
+Uriini analüüs 10 parameetrilise testribaga,GLU,mmol/L,U-Gluc strip
+Uriini analüüs 10 parameetrilise testribaga,KET,mmol/L,U-Ket strip
+Uriini analüüs 10 parameetrilise testribaga,LEU,leu/uL,U-WBC strip
+Uriini analüüs 10 parameetrilise testribaga,PRO,g/L,U-Prot strip
+Uriini analüüs 10 parameetrilise testribaga,UBG,umol/L,U-Ubg strip
+Uriini analüüs 10-parameetrilise testribaga,Erütrotsüüdid,er/uL,U-RBC strip
+Uriini analüüs 10-parameetrilise testribaga,Erütrotsüüdid,/uL,U-RBC strip
+Uriini analüüs 10-parameetrilise testribaga,Ketoonid,mmol/L,U-Nit strip
+Uriini analüüs 10-parameetrilise testribaga,Leukotsüüdid,/uL,U-WBC strip
+Uriini analüüs 10-parameetrilise testribaga,Uriini bilirubiin,umol/L,U-Bil strip
+Uriini analüüs 10-parameetrilise testribaga,Uriini erütrotsüüdid,/uL,U-RBC strip
+Uriini analüüs 10-parameetrilise testribaga,Uriini ketoonid,mmol/L,U-Nit strip
+Uriini analüüs 10-parameetrilise testribaga,Uriini leukotsüüdid,/uL,U-WBC strip
+Uriini analüüs 10-parameetrilise testribaga,Uriini urobilinogeen,umol/L,U-Ubg strip
+Uriini analüüs 10-parameetrilise testribaga,Uriini valk,g/L,U-Prot strip
+Uriini analüüs 10-parameetrilise testribaga (uus),Erütrotsüüdid,er/uL,U-RBC strip
+Uriini analüüs 10-parameetrilise testribaga (uus),Ketoonid,mmol/L,U-Nit strip
+Uriini analüüs 10-param. testribaga,Bilirubiin BIL,umol/L,U-Bil strip
+Uriini analüüs 10-param. testribaga,Bilirubiin BIL,mmol/L,U-Bil strip
+Uriini analüüs 10-param. testribaga,Erikaal SG,kg/L,U-SG strip
+Uriini analüüs 10-param. testribaga,Erütrotsüüdid ERY,10*6/L,U-RBC strip
+Uriini analüüs 10-param. testribaga,Erütrotsüüdid ERY,E6/L,U-RBC strip
+Uriini analüüs 10-param. testribaga,Glükoos GLU,mmol/L,U-Gluc strip
+Uriini analüüs 10-param. testribaga,Ketokehad KET,mmol/L,U-Ket strip
+Uriini analüüs 10-param. testribaga,Leukotsüüdid LEU,10*6/L,U-WBC strip
+Uriini analüüs 10-param. testribaga,Leukotsüüdid LEU,E6/L,U-WBC strip
+Uriini analüüs 10-param. testribaga,Urobilinogeen UBG,mmol/L,U-Ubg strip
+Uriini analüüs 10-param. testribaga,Urobilinogeen UBG,umol/L,U-Ubg strip
+Uriini analüüs 10-param. testribaga,Valk PRO,g/L,U-Prot strip
+Uriini ribaanalüüs*,-64 Valgu ja kreatiniini suhe uriinis,g/mol,U-Prot/U-Crea
+Uriini ribaanalüüs*,CSF-WBC,E6/L,CSF-WBC
+Uriini ribaanalüüs*,Erütrotsüüdid,/uL,U-RBC strip
+Uriini ribaanalüüs*,Glükoos paastuseerumis/paastuplasmas,mmol/L,"fS,fP-Gluc"
+Uriini ribaanalüüs*,Kaltsitoniin paastuseerumis,pmol/L,"S,P-CT"
+Uriini ribaanalüüs*,Kaltsitoniin paastuseerumis/paastuplasmas,pmol/L,"S,P-CT"
+Uriini ribaanalüüs*,Kaltsitoniin seerumis/lasmas,pmol/L,"S,P-CT"
+Uriini ribaanalüüs*,Kaltsitoniin seerumis/plasmas,pmol/L,"S,P-CT"
+Uriini ribaanalüüs*,Leukotsüüdid,/uL,U-WBC strip
+Uriini ribaanalüüs*,Triglütseriidid pleuravedelikus,mmol/L,"fS,fP-Trigl"
+Uriini ribaanalüüs*,Vaba türoksiin seerumis,pmol/L,"S,P-fT4"
+Uriini ribaanalüüs*,Vaba türoksiin seerumis/plasmas,pmol/L,"S,P-fT4"
+Uriini ribaanalüüs 1,fT4,pmol/L,"S,P-fT4"
+Uriini ribaanalüüs 1,TSH,mU/L,"S,P-TSH"
+Uriini ribaanalüüs 2,TSH,mU/L,"S,P-TSH"
+Uriini ribaanalüüs (pH),fT4,pmol/L,"S,P-fT4"
+Uriini ribaanalüüs (pH),Kaltsitoniin,pmol/L,"S,P-CT"
+Uriini ribaanalüüs (pH),TSH,mU/L,"S,P-TSH"
+Uriini sademe mikroskoopia*,CSF-WBC,E6/L,CSF-WBC
+Uriini sademe mikroskoopia*,Kaltsitoniin paastuseerumis,pmol/L,"S,P-CT"
+Uriini sademe mikroskoopia*,Kaltsitoniin paastuseerumis/paastuplasmas,pmol/L,"S,P-CT"
+Uriini sademe mikroskoopia*,Kaltsitoniin seerumis/lasmas,pmol/L,"S,P-CT"
+Uriini sademe mikroskoopia*,Kaltsitoniin seerumis/plasmas,pmol/L,"S,P-CT"
+Uriini sademe mikroskoopia*,Vaba türoksiin seerumis,pmol/L,"S,P-fT4"
+Uriini sademe mikroskoopia*,Vaba türoksiin seerumis/plasmas,pmol/L,"S,P-fT4"
+Uriini uuringud,U-Ke,mmol/L,U-Ket strip
+Uurea,"fS-Urea, fP-urea",mmol/L,"S,P-Urea"
+Uurea,Uurea seerumis,mmol/L,"S,P-Urea"
+uurea,Urea,mmol/L,"S,P-Urea"
+Uurea seerumis,Uurea paastuseerumis,mmol/L,"S,P-Urea"
+Vaba Türoksiin,66706 S-fT4,pmol/L,"S,P-fT4"
+Vaba Türoksiin,S-_fT4,pmol/L,"S,P-fT4"
+Vaba türoksiin,Türoksiin,pmol/L,"S,P-fT4"
+vaba türoksiin,Türoksiin,pmol/L,"S,P-fT4"
+vaba tütoksiin,vaba türoksiin,pmol/L,"S,P-fT4"
+Vastsündinu hemogramm viieosalise leukogrammiga ja normoblastidega,nB-CBC-5Diff-NRBC,%,B-NRBC%
+Vastsündinu hemogramm viieosalise leukogrammiga ja normoblastidega,nB-CBC-5Diff-NRBC,10E9/L,B-NRBC#
+Vastsündinu hemogramm viieosalise leukogrammiga ja normoblastidega,NRBC#,10E9/L,B-NRBC#
+"Vastsündinu hemogramm viieosalise leukogrammiga, normoblastidega ja retikulotsüütidega",nB-CBC-5Diff-NRBC-RET,%,B-NRBC%
+"Vastsündinu hemogramm viieosalise leukogrammiga, normoblastidega ja retikulotsüütidega",nB-CBC-5Diff-NRBC-RET,10E9/L,B-NRBC#
+Vastsündinute sõeluuring,BS-Phe/_TSH,mU/L,"S,P-TSH"
+Vastsündinute sõeluuring,BS-Phe/_TSH,mg/dL,"S,P-TSH"
+Vere automaatuuring 3-osalise leukogrammiga,MCHC Keskmine hemoglobiini konsentratsioon erütrotsüüdis,g/L,B-MCHC
+Vere automaatuuring 3-osalise leukogrammiga,MCH Keskmine hemoglobiini hulk erütrotsüüdis,pg,B-MCH
+Vere automaatuuring 3-osalise leukogrammiga,MCV Erütrotsüütide kesmine ruumala,fL,B-MCV
+Vere automaatuuring 3-osalise leukogrammiga,MPV Trombotsüütide keskmine maht,fL,B-MPV
+Vere automaatuuring 3-osalise leukogrammiga,PCT Trombotsüütide hematokritt,%,B-Pct
+Vere automaatuuring 3-osalise leukogrammiga,PDW Trombotsüütide anisotsütoosi näitaja,fL,B-PDW
+Vere automaatuuring 3-osalise leukogrammiga,PLT Trombotsüüdid,10E9/L,B-Plt
+Vere automaatuuring 3-osalise leukogrammiga,RDW Erütrotsüütide anisotsütoosi näitaja,%,B-RDW-CV
+"Vere automaatuuring 5-osalise leukogrammiga, vereäige mikroskoopia",Eosonofiilid,%,B-Eo%
+"Vere automaatuuring 5-osalise leukogrammiga, vereäige mikroskoopia",Eosonofiilide arv,10E9/L,B-Eo#
+"Vere automaatuuring 5-osalise leukogrammiga, vereäige mikroskoopia",Eosonofiilide suhtarv,%,B-Eo%
+Vere automaatuuring 5-osalise leukogrammiga X,EOS#,10E9/L,B-Eo#
+Vere automaatuuring 5-osalise leukogrammiga X,EOS%,%,B-Eo%
+Vere automaatuuring ilma leukogrammita,MCHC Keskmine hemoglobiini kontsentratsioon erütrotsüüdis,g/L,B-MCHC
+Vere automaatuuring ilma leukogrammita,MCH Keskmine hemoglobiini hulk erütrotsüüdis,pg,B-MCH
+Vere automaatuuring ilma leukogrammita,MCV Erütrotsüütide keskmine ruumala,fL,B-MCV
+Vere automaatuuring ilma leukogrammita,MPV Trombotsüütide keskmine maht,fL,B-MPV
+Vere automaatuuring ilma leukogrammita,PDW Trombotsüütide anisotsütoosi näitaja,fL,B-PDW
+Vere automaatuuring ilma leukogrammita,PLT Trombotsüüdid,10E9/L,B-Plt
+Vere automaatuuring ilma leukogrammita,RDW-CV Erütrotsüütide anisotsütoosi näitaja,%,B-RDW-CV
+Vere automaatuuring ilma leukogrammita,WBC Leukotsüüdid,10E9/L,B-WBC
+Vereäige mikroskoopiline uuring,Segmenttuumsed neutrofiilid,%,B-Segmenttuumsed neutrofiilid %
+Vereäige mikroskoopiline uuring (hemogramm),Segmenttuumsed neutrofiilid,%,B-Segmenttuumsed neutrofiilid %
+VÄL,Kaltsitonii,pmol/L,"S,P-CT"
+VÄL,Kaltsitoniin,pmol/L,"S,P-CT"
+VÄL,Segmenttuumsed neutrofiilid,%,B-Segmenttuumsed neutrofiilid %
+24356-8 Uriini Sademe Mikroskoopia,14683-7 Kreatiniin uriinis,mmol/L,U-Crea
+24356-8 Uriini Sademe Mikroskoopia,14683-7 Kreatiniin uriinis,umol/L,U-Crea
+24356-8 Uriini Sademe Mikroskoopia,34366-5 Valk/kreatiniin uriinis,g/mol,U-Prot/U-Crea
+50556-0 Uriini Ribaanalüüs,14683-7 Kreatiniin uriinis,mmol/L,U-Crea
+50556-0 Uriini Ribaanalüüs,14683-7 Kreatiniin uriinis,umol/L,U-Crea
+50556-0 Uriini Ribaanalüüs,34366-5 Valk/kreatiniin uriinis,g/mol,U-Prot/U-Crea
+57021-8 Hemogramm 5-Osalise Leukogrammiga,14682-9 Kreatiniin,umol/L,"S,P-Crea"
+57021-8 Hemogramm 5-Osalise Leukogrammiga,14683-7 Kreatiniin uriinis,mmol/L,U-Crea
+57021-8 Hemogramm 5-Osalise Leukogrammiga,33914-3 eGFR,mL/min/1.73m2,eGFR
+57021-8 Hemogramm 5-Osalise Leukogrammiga,50210-4 eGFR,mL/min/1.73m2,"S,P-eGFR (CysC)"
+57021-8 Hemogramm 5-Osalise Leukogrammiga,59826-8 Kreatiniin,umol/L,B-Crea (POCT)
+57021-8 Hemogramm 5-Osalise Leukogrammiga,62238-1 eGFR,mL/min/1.73m2,eGFR (CKD-EPI)
+57021-8 Hemogramm 5-Osalise Leukogrammiga,62238-1 eGFR,ml/min/1.73m2,eGFR (CKD-EPI)
+57021-8 Hemogramm 5-Osalise Leukogrammiga,A-4823 eGFR,mL/min/1.73m2,"eGFR (CKD-EPI, POCT)"
+58410-2 Hemogramm,14682-9 Kreatiniin,umol/L,"S,P-Crea"
+58410-2 Hemogramm,50210-4 eGFR,mL/min/1.73m2,"S,P-eGFR (CysC)"
+58410-2 Hemogramm,59826-8 Kreatiniin,umol/L,B-Crea (POCT)
+58410-2 Hemogramm,62238-1 eGFR,mL/min/1.73m2,eGFR (CKD-EPI)
+58410-2 Hemogramm,A-4823 eGFR,mL/min/1.73m2,"eGFR (CKD-EPI, POCT)"
+Biokeemia Labor,Kreatiniin seerumi,umol/L,"S,P-Crea"
+Biokeemia Labor (Haigla),Kreatiniin seerumi,umol/L,"S,P-Crea"
+Biokeemia Labori Analüüsid,Kreatiniin seerumi,umol/L,"S,P-Crea"
+Biokeemilised Uuringud,fS-Crea 1,umol/L,"S,P-Crea"
+Biokeemilised Uuringud,fS-Crea 2,umol/L,"S,P-Crea"
+Biokeemilised Uuringud,fS-Crea 3,umol/L,"S,P-Crea"
+Biokeemilised Uuringud,fS-Crea 4,umol/L,"S,P-Crea"
+Biokeemilised Uuringud,fS-Crea 5,umol/L,"S,P-Crea"
+Biokeemilised Uuringud,fS-Crea 6,umol/L,"S,P-Crea"
+Biokeemilised Uuringud,S-Creat,umol/L,"S,P-Crea"
+Biokeemilised Uuringud,U-Crea 2,mmol/L,U-Crea
+Eger - Hinnangulina Glomerulaarfiltratsiooni Kiirus(Egfr),Hinnangulina glomerulaarfiltratsiooni kiirus,mL/min/1.73m2,eGFR
+Egfr (Ckd-Epi),62238-1 eGFR,mL/min/1.73m2,eGFR (CKD-EPI)
+"Egfr (Crea, Ckd-Epi)",62238-1 eGFR,mL/min/1.73m2,eGFR (CKD-EPI)
+"Egfr (Crea, Ckd-Epi)",62238-1 eGFR,ml/min/1.73m2,eGFR (CKD-EPI)
+Kliinilise Keemia Uuringud,eGFR (Hinnanguline glomerulaarfiltratsiooni kiirus),mL/min/1.73m2,eGFR
+Kliinilise Keemia Uuringud,"eGFR (Hinnanguline glomerulaarfiltratsiooni kiirus (kreatiniin, CKD-EPI))",mL/min/1.73m2,eGFR (CKD-EPI)
+Kliinilise Keemia Uuringud,fS-Crea 1,umol/L,"S,P-Crea"
+Kliinilise Keemia Uuringud,fS-Crea 2,umol/L,"S,P-Crea"
+Kliinilise Keemia Uuringud,fS-Crea 3,umol/L,"S,P-Crea"
+Kliinilise Keemia Uuringud,fS-Crea 4,umol/L,"S,P-Crea"
+Kliinilise Keemia Uuringud,fS-Crea 7,umol/L,"S,P-Crea"
+Kliinilise Keemia Uuringud,fS-Crea 8,umol/L,"S,P-Crea"
+Kliinilise Keemia Uuringud,fS-Creat,umol/L,"S,P-Crea"
+Kliinilise Keemia Uuringud,Kreatiniin (Kreatiniin seerumis/plasmas),umol/L,"S,P-Crea"
+Kreatiniin,14682-9,umol/L,"S,P-Crea"
+Kreatiniin,14682-9 Kreatiniin,umol/L,"S,P-Crea"
+Kreatiniini Kinaasi Mb Isoens[[M,P4-CK-MBm,ug/L,"S,P-CK-MBm"
+Kreatiniini Kinaasi Mb Isoensüümi Mass Plasmas,13969-1,ug/L,"S,P-CK-MBm"
+Kreatiniini Kinaasi Mb Isoensüümi Mass Plasmas,P4-CK-MBm,ug/L,"S,P-CK-MBm"
+Kreatiniini Kliirens,GFR,mL/min,dU-S-Crea
+Kreatiniini Kliirens,S+dU-CreaC,mL/min,dU-S-Crea
+Kreatiniinikliirens,GFR,mL/min,dU-S-Crea
+Kreatiniini Kliirens Ööpäevases Uriinis,Kreatiniini kliirens,mL/min,dU-S-Crea
+Kreatiniin Ja Egfr Seerumis,Hinnanguline glomerulaafiltratsiooni kiirus,"mL/min1,73m³",eGFR
+Kreatiniin Paastuseerumis,14682-9,umol/L,"S,P-Crea"
+Kreatiniin Seerumis/Plasmas,14682-9,umol/L,"S,P-Crea"
+Kreatiniin Uriinis,14683-7,mmol/L,U-Crea
+Kreatiniin Uriinis,14683-7,umol/L,U-Crea
+Kreatiniin Uriinis,14683-7 Kreatiniin uriinis,mmol/L,U-Crea
+Kreatiniin Uriinis,14683-7 Kreatiniin uriinis,umol/L,U-Crea
+"L-1949 Hemogramm 5-Osalise Leukogrammi, Normoblastide Ja Retikulotsüütidega",14682-9 Kreatiniin,umol/L,"S,P-Crea"
+"L-1949 Hemogramm 5-Osalise Leukogrammi, Normoblastide Ja Retikulotsüütidega",62238-1 eGFR,ml/min/1.73m2,eGFR (CKD-EPI)
+L-3659 Hemogramm 5-Osalise Leukogrammiga Leukafereesi Produktist,14682-9 Kreatiniin,umol/L,"S,P-Crea"
+L-3659 Hemogramm 5-Osalise Leukogrammiga Leukafereesi Produktist,62238-1 eGFR,mL/min/1.73m2,eGFR (CKD-EPI)
+Ltkh Allhanked,U-Creat,mmol/L,U-Crea
+S-Crea+Egfr (Mdrd Valemi J.),S-Crea+eGFR,"mL/min/1,73m2",eGFR
+24356-8 Uriini Sademe Mikroskoopia,14956-7 Albumiin ööpäevases uriinis,mg/d,dU-Alb
+24356-8 Uriini Sademe Mikroskoopia,14957-5 Albumiin uriinis,mg/L,U-Alb
+24356-8 Uriini Sademe Mikroskoopia,1746-7 Albumiin liikvoris,mg/L,CSF-Alb
+24356-8 Uriini Sademe Mikroskoopia,30000-4 Albumiin/kreatiniin uriinis,g/mol,U-Alb/U-Crea
+24356-8 Uriini Sademe Mikroskoopia,30000-4 Albumiin/kreatiniin uriinis,mg/mmol,U-Alb/U-Crea
+50556-0 Uriini Ribaanalüüs,14957-5 Albumiin uriinis,mg/L,U-Alb
+50556-0 Uriini Ribaanalüüs,1746-7 Albumiin liikvoris,mg/L,CSF-Alb
+50556-0 Uriini Ribaanalüüs,30000-4 Albumiin/kreatiniin uriinis,g/mol,U-Alb/U-Crea
+50556-0 Uriini Ribaanalüüs,30000-4 Albumiin/kreatiniin uriinis,mg/mmol,U-Alb/U-Crea
+50556-0 Uriini Ribaanalüüs,61151-7 Albumiin,g/L,"S,P-Alb"
+57021-8 Hemogramm 5-Osalise Leukogrammiga,13980-8 Albumiin %,%,S-Alb-Fr%
+57021-8 Hemogramm 5-Osalise Leukogrammiga,14338-8 Prealbumiin,g/L,"S,P-PreAlb"
+57021-8 Hemogramm 5-Osalise Leukogrammiga,14956-7 Albumiin ööpäevases uriinis,mg/d,dU-Alb
+57021-8 Hemogramm 5-Osalise Leukogrammiga,14957-5 Albumiin uriinis,mg/L,U-Alb
+57021-8 Hemogramm 5-Osalise Leukogrammiga,1746-7 Albumiin liikvoris,mg/L,CSF-Alb
+57021-8 Hemogramm 5-Osalise Leukogrammiga,1751-7 Albumiin,g/L,"S,P-Alb-hs"
+57021-8 Hemogramm 5-Osalise Leukogrammiga,2862-1 Albumiin Fr,g/L,S-Alb-Fr
+57021-8 Hemogramm 5-Osalise Leukogrammiga,30000-4 Albumiin/kreatiniin uriinis,g/mol,U-Alb/U-Crea
+57021-8 Hemogramm 5-Osalise Leukogrammiga,61151-7 Albumiin,g/L,"S,P-Alb"
+58410-2 Hemogramm,14338-8 Prealbumiin,g/L,"S,P-PreAlb"
+58410-2 Hemogramm,14957-5 Albumiin uriinis,mg/L,U-Alb
+58410-2 Hemogramm,2862-1 Albumiin Fr,g/L,S-Alb-Fr
+58410-2 Hemogramm,61151-7 Albumiin,g/L,"S,P-Alb"
+Alb - Albumiin Seerumis,Albumiin seerumis,g/L,"S,P-Alb"
+Albumiin,61151-7 Albumiin,g/L,"S,P-Alb"
+Albumiini Ja Kreatiniini Suhe Uriinis,30000-4,g/mol,U-Alb/U-Crea
+Albumiini Ja Kreatiniini Suhe Uriinis,Alb,mg/L,U-Alb
+Albumiini Ja Kreatiniini Suhe Uriinis,albumiini/kreatiniini suhe,mg/mmol,U-Alb/U-Crea
+Albumiini Ja Kreatiniini Suhe Uriinis,Crea,umol/L,U-Crea
+Albumiini Ja Kreatiniini Suhe Uriinis,kreatiniin,mmol/L,U-Crea
+Albumiini Ja Kreatiniini Suhe Uriinis,Mikroalbuminuuria,mg/L,U-Alb
+Albumiini-Kreatiniini Suhe Uriinis,Albumiin,mg/L,U-Alb
+Albumiini/Kreatiniini Suhe Uriinis,µAlb,mg/L,U-Alb
+Albumiini/Kreatiniini Suhe Uriinis,Crea,mmol/L,U-Crea
+Albumiin Juhuslikus Uriinis,Albumiin uriinis7,mg/L,U-Alb
+Albumiin Juhuslikus Uriinis,Kreatiniin uriinis2,mmol/L,U-Crea
+Albumiin/Kreatiniin Uriinis,30000-4 Albumiin/kreatiniin uriinis,g/mol,U-Alb/U-Crea
+Albumiin/Kreatiniin Uriinis,30000-4 Albumiin/kreatiniin uriinis,mg/mmol,U-Alb/U-Crea
+Albumiin/Kreatiniin Uriinis,Albumiin,mg/L,U-Alb
+Albumiin/Kreatiniin Uriinis,U-Mikroalb,mg/d,dU-Alb
+Albumiin Liikvoris,1746-7,mg/L,CSF-Alb
+Albumiin Plasmas,61151-7,g/L,"S,P-Alb"
+Albumiin Seerumis,61151-7,g/L,"S,P-Alb"
+Albumiin Seerumis,66100 S-Albumiin seerumis,g/L,"S,P-Alb"
+Albumiin Seerumis,Albumiin seerumis,g/L,"S,P-Alb"
+Albumiin Seerumis,"S-Alb, P-Alb",ng/mL,"S,P-Alb"
+Albumiin Uriinis,14957-5,mg/L,U-Alb
+Albumiin Uriinis,14957-5 Albumiin uriinis,mg/L,U-Alb
+Albumiin Uriinis,mikroalbuminuuria,mg/L,U-Alb
+Albumiin Uriinis ( Mikroalbumiin ),U-Alb-2,mg/L,U-Alb
+Albumiin Ööpäevases Uriinis,Albumiin ööpäeva uriinis,mg/d,dU-Alb
+Albumiin Ööpäevases Uriinis,Mikroalbumiin nefelomeetriliselt,mg/L,U-Alb
+Biokeemia,Albumiin,g/L,"S,P-Alb"
+Kreatiniin Ja Mikroalbumiin 24 H Uriinis,U-Mikroalb,mg/d,dU-Alb
+"L-1949 Hemogramm 5-Osalise Leukogrammi, Normoblastide Ja Retikulotsüütidega",2862-1 Albumiin Fr,g/L,S-Alb-Fr
+"L-1949 Hemogramm 5-Osalise Leukogrammi, Normoblastide Ja Retikulotsüütidega",61151-7 Albumiin,g/L,"S,P-Alb"
+Mikroalbumiin Nefelomeetriliselt,dU-MA,mg/L,U-Alb
+Uriini Ribaanalüüs (Ph),Albumiin (kõrgtundlik),g/L,"S,P-Alb-hs"
+Uriini Uuringud,Albumiini / kreat suhe,mgalb/mmol kreat,U-Alb/U-Crea
+Uriini Uuringud,mikroalbumii,mg/L,U-Alb
+Uriini Uuringud,mikroalbumiin,mg/L,U-Alb
+Uriini Uuringud,Mikroalbuminuuri,mg/d,dU-Alb
+Uriini Uuringud,Mikroalbuminuuria,mg/d,dU-Alb

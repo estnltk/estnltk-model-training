@@ -1,0 +1,125 @@
+dirty_code,unit,loinc_code(T-luhend),loinc_unit
+B-HbA1C,%,B-HbA1c,%
+B-HbA1C,mmol/mol,B-HbA1c,%
+B-HbA1C,mmol/mol,B-HbA1c (IFCC),mmol/mol
+B-HbA1c,%,B-HbA1c,%
+B-HbA1c,mmol/mol,B-HbA1c (IFCC),mmol/mol
+B-HbA1c(glukohemoglobiin),mmol/mol,B-HbA1c (IFCC),mmol/mol
+B-MCHC(Keskmine hemoglobiini konsentratsioon er???trots??????dis),g/L,B-MCHC,g/L
+ B-MCHC(Keskmine hemoglobiini konsentratsioon erutrotsuudis),g/L,B-MCHC,g/L
+B-MCHC(Keskmine hemoglobiini konsentratsioon erutrotsuudis),g/L,B-MCHC,g/L
+B-MCHC(Keskmine hemoglobiinikontsentratsioon erutrotsuudis),g/L,B-MCHC,g/L
+B-MCH(Keskmine hemoglobiinihulk erutrotsuudis),pg,B-MCH,pg
+B-MCH(Keskmine hemoglobiini kogus er???trots??????dis),pg,B-MCH,pg
+ B-MCH(Keskmine hemoglobiini kogus erutrotsuudis),pg,B-MCH,pg
+B-MCH(Keskmine hemoglobiini kogus erutrotsuudis),pg,B-MCH,pg
+B-MCH(Keskmine hemoglobiini konsentratsioon erutrotsuudis),g/L,B-MCHC,g/L
+B-PDW(Trombotsuutide suurusjaotuvus),%,B-PDW-CV,%
+B-RDW(Er???trots??????tide suurusjaotuvus),%,B-RDW-CV,%
+ B-RDW(Erutrotsuutide suurusjaotuvus),%,B-RDW-CV,%
+B-RDW(Erutrotsuutide suurusjaotuvus),%,B-RDW-CV,%
+B-RDW-SD(Erutrotsuutide suurusjaotuvus),fL,B-RDW-SD,fL
+ E-MCHC(Keskmine hemoglobiinikontsentratsioon erutrotsuudis),g/L,B-MCHC,g/L
+ E-MCH(Keskmine hemoglobiinihulk erutrotsuudis),pg,B-MCH,pg
+MCH,g/L,B-MCHC,g/L
+MCH,pg,B-MCH,pg
+MCH,pg,B-MCH,pg
+MCH_pg,pg,B-MCH,pg
+MCHC,g/L,B-MCHC,g/L
+MCHC,g/l,B-MCHC,g/L
+MCHC_g/l,g/l,B-MCHC,g/L
+MCHC(keskm.Hbkontsentratsioonerutr.-s),g/l,B-MCHC,g/L
+MCHC(Keskmine hemoglobiini konsentratsioon erutrotsuudis),g/L,B-MCHC,g/L
+MCHC(Keskmine hemoglobiinikontsentratsioon erutrotsuudis),g/L,B-MCHC,g/L
+MCHC(MCHC),g/L,B-MCHC,g/L
+MCH(keskm.hemoglobiinerutrotsuudis),pg,B-MCH,pg
+MCH(Keskmine hemoglobiini hulk erutrotsuudis),pg,B-MCH,pg
+MCH(Keskmine hemoglobiinihulk erutrotsuudis),pg,B-MCH,pg
+MCH(Keskmine hemoglobiini konsentratsioon erutrotsuudis),g/L,B-MCHC,g/L
+MCH(Keskmine hemoglobiinikontsentratsioon erutrotsuudis),g/L,B-MCHC,g/L
+MCH(MCH),pg,B-MCH,pg
+MCH(MCHC),g/L,B-MCHC,g/L
+MC(MCH),pg,B-MCH,pg
+PD(PDW),fL,B-PDW,fL
+PDW,%,B-PDW-CV,%
+PDW,fL,B-PDW,fL
+PDW,%,B-PDW-CV,%
+PDW %,%,B-PDW-CV,%
+PDW %,,B-PDW-CV,%
+PDW(PDW),fL,B-PDW,fL
+ PDW(Trombotsuutide jaotuvus mahujargi. e. trombotsuutide anisotsutoosimaar),fL,B-PDW,fL
+PDW(Trombotsuutide jaotuvus mahujargi. e. trombotsuutide anisotsutoosimaar),%,B-PDW-CV,%
+PDW(Trombotsuutide jaotuvus mahujargi. e. trombotsuutide anisotsutoosimaar),fL,B-PDW,fL
+PDW(trombotsuutidesuurusjaotuvus),%,B-PDW-CV,%
+P-PT,INR,INR,
+P-PT,,INR,
+P-PT ,,INR,
+p-pt%,%,P-PT-INR,
+P-PT-INR,,INR,
+P-PT-INR-Protrombiiniaeg-rahvusvahelinenormitudsuhe,,INR,
+P-PT-INR - Protrombiini aeg- rahvusvaheline normitud suhe,,INR,
+B-RDW,%,B-RDW-CV,%
+RDW,%,B-RDW-CV,%
+RDW,%CV,B-RDW-CV,%
+ RDW%,,B-RDW-CV,%
+RDW_%,%,B-RDW-CV,%
+RDW  %,,B-RDW-CV,%
+RDW %,,B-RDW-CV,%
+RDW %,%,B-RDW-CV,%
+RDW%,%,B-RDW-CV,%
+RDW%,,B-RDW-CV,%
+ RDWa(Erutrotsuutide suurusjaotuvuse varjatsioonikoehvitsent),%,B-RDW-CV,%
+RDWa(Erutrotsuutide suurusjaotuvuse varjatsioonikoehvitsent),%,B-RDW-CV,%
+RDW-C,%,B-RDW-CV,%
+RDW-C,fL,B-RDW-SD,fL
+RDW-C(Erutrotsuutide suurusjaotuvuse variatsioonikoefitsent),%,B-RDW-CV,%
+RDW- C(RDW- CV),%,B-RDW-CV,%
+RDW-CV,%,B-RDW-CV,%
+RDW-CV,fL,B-RDW-SD,fL
+RDW-CV,%,B-RDW-CV,%
+RDW-CW,fL,B-RDW-SD,fL
+RDW-CV(erutrotsuutidesuurusjaotuvus),%,B-RDW-CV,%
+RDW-CV(Erutrotsuutide suurusjaotuvuse variatsioonikoefitsent),%,B-RDW-CV,%
+RDW- CV(RDW- CV),%,B-RDW-CV,%
+RDW(Erutrotsuutide suurusjaotuvuse (varjatsioonikoehvitsent)),%,B-RDW-CV,%
+RDW(Erutrotsuutide suurusjaotuvuse varjatsioonikoehvitsent),%,B-RDW-CV,%
+RDWR,%,B-RDW-CV,%
+RDW-S,fL,B-RDW-SD,fL
+RDW-SD,fL,B-RDW-SD,fL
+RDW-SD,fl,B-RDW-SD,fL
+RDW-SD(erutrotsuutidesuurusjaotuvus),fl,B-RDW-SD,fL
+LYMPH,%,B-Lymph%,%
+Eosinofiilid,%,B-Eosinofiilid %,%
+Basofiilid,%,B-Basofiilid %,%
+NEUT,%,B-Neut%,%
+Muelotsuudid,%,B-Müelotsüüdid %,%
+Metamuelotsuudid,%,B-Metamüelotsüüdid %,%
+Plasmarakud,%,B-Plasmarakud %,%
+P-PT,%,P-PT%,%
+MONO,%,B-Mono%,%
+Kepptuumsed neutrofiilid,%,B-Kepptuumsed neutrofiilid %,%
+B-MCH,g/L,B-MCHC,g/L
+B-Neut,%,B-Neut%,%
+B-Neut,/nL,B-Neut#,E9/L
+B-Mono,%,B-Mono%,%
+B-Mono,/nL,B-Mono#,E9/L
+B-Lymph,%,B-Lymph%,%
+B-Lymph,/nL,B-Lymph#,E9/L
+B-Eo,%,B-Eo%,%
+B-Eo,/nL,B-Eo#,E9/L
+B-Baso,%,B-Baso%,%
+B-Baso,/nL,B-Baso#,E9/L
+B-RB,10L,B-RBC,E12/L
+B-RB,/pL,B-RBC,E12/L
+B-IG,/nL,B-IG#,E9/L
+B-IG,%,B-IG%,%
+14682-9 Kreatiniin,umol/L,"S,P-Crea",umol/L
+14683-7 Kreatiniin uriinis,mmol/L,U-Crea,mmol/L
+14683-7 Kreatiniin uriinis,umol/L,U-Crea,mmol/L
+50210-4 eGFR,mL/min/1.73m2,"S,P-eGFR (CysC)",mL/min/1.73m2
+62238-1 eGFR,mL/min/1.73m2,eGFR (CKD-EPI),mL/min/1.73m2
+62238-1 eGFR,ml/min/1.73m2,eGFR (CKD-EPI),mL/min/1.73m2
+13980-8 Albumiin %,%,S-Alb-Fr%,%
+2862-1 Albumiin Fr,g/L,S-Alb-Fr,g/L
+30000-4 Albumiin/kreatiniin uriinis,mg/mmol,U-Alb/U-Crea,g/mol
+61151-7 Albumiin,g/L,"S,P-Alb",g/L

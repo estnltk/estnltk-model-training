@@ -1,0 +1,116 @@
+,epi_id,analysis_name_raw,parameter_name_raw,value_raw,parameter_unit_raw,effective_time_raw,reference_values_raw,text_raw
+81,123456,,Alaniini aminotransferaas seer...,16,U/L,30.12.2013,,|Alaniini aminotransferaas seer...|16|13| |U/L| 
+82,123456,,Aluseline fosfataas seerumis,58,U/L,30.12.2013,,|Aluseline fosfataas seerumis|58| | |U/L| 
+83,123456,,Amülaas (pankreasespetsiifilin...,34,U/L,30.12.2013,,|Amülaas (pankreasespetsiifilin...|34| | |U/L| 
+84,123456,,Aspartaadi aminotransferaas se...,23,U/L,30.12.2013,,|Aspartaadi aminotransferaas se...|23| | |U/L| 
+85,123456,,Bilirubiin seerumis/plasmas,11,µmol/L,30.12.2013,,|Bilirubiin seerumis/plasmas|11| | |µmol/L| 
+86,123456,,C-reaktiivne valk seerumis/pla...,<1.0,mg/L,30.12.2013,,|C-reaktiivne valk seerumis/pla...|<1.0|<1.0| |mg/L| 
+95,123456,,Glükoos seerumis/plasmas,5.2,mmol/L,30.12.2013,,|Glükoos seerumis/plasmas|5.2|4.5| |mmol/L| 
+97,123456,Hemogramm viieosalise leukogra...,BASO#,0.01,E9/L,30.12.2013,,|BASO#|0.01|0.01| |E9/L| 
+98,123456,Hemogramm viieosalise leukogra...,BASO%,0.1,%,30.12.2013,,|BASO%|0.1|0.1| |%| 
+99,123456,Hemogramm viieosalise leukogra...,EO#,0.04,E9/L,30.12.2013,,|EO#|0.04|0.04| |E9/L| 
+100,123456,Hemogramm viieosalise leukogra...,EO%,0.3,%,30.12.2013,,|EO%|0.3|0.4| |%| 
+101,123456,Hemogramm viieosalise leukogra...,HCT,48.1,%,30.12.2013,,|HCT|48.1|45.7| |%| 
+102,123456,Hemogramm viieosalise leukogra...,Hb,161,g/L,30.12.2013,,|Hb|161|148| |g/L| 
+103,123456,Hemogramm viieosalise leukogra...,LYMPH#,3.29,E9/L,30.12.2013,,|LYMPH#|3.29|2.82| |E9/L| 
+104,123456,Hemogramm viieosalise leukogra...,LYMPH%,28.6,%,30.12.2013,,|LYMPH%|28.6|30.0| |%| 
+105,123456,Hemogramm viieosalise leukogra...,MCH,28.7,pg,30.12.2013,,|MCH|28.7|28.3| |pg| 
+106,123456,Hemogramm viieosalise leukogra...,MCHC,335,g/L,30.12.2013,,|MCHC|335|324| |g/L| 
+107,123456,Hemogramm viieosalise leukogra...,MCV,85.7,fL,30.12.2013,,|MCV|85.7|87.4| |fL| 
+108,123456,Hemogramm viieosalise leukogra...,MONO#,1.0,E9/L,30.12.2013,,|MONO#|1.0|0.67| |E9/L| 
+109,123456,Hemogramm viieosalise leukogra...,MONO%,8.7,%,30.12.2013,,|MONO%|8.7|7.1| |%| 
+110,123456,Hemogramm viieosalise leukogra...,MPV,9.4,fL,30.12.2013,,|MPV|9.4|10.0| |fL| 
+111,123456,Hemogramm viieosalise leukogra...,NEUT#,7.15,E9/L,30.12.2013,,|NEUT#|7.15|5.85| |E9/L| 
+112,123456,Hemogramm viieosalise leukogra...,NEUT%,62.3,%,30.12.2013,,|NEUT%|62.3|62.4| |%| 
+113,123456,Hemogramm viieosalise leukogra...,P-LCR,20.7,%,30.12.2013,,|P-LCR|20.7|24.9| |%| 
+114,123456,Hemogramm viieosalise leukogra...,PDW,11.3,fL,30.12.2013,,|PDW|11.3|12.0| |fL| 
+115,123456,Hemogramm viieosalise leukogra...,PLT,228.0,E9/L,30.12.2013,,|PLT|228.0|221.0| |E9/L| 
+116,123456,Hemogramm viieosalise leukogra...,RBC,5.61,E12/L,30.12.2013,,|RBC|5.61|5.23| |E12/L| 
+117,123456,Hemogramm viieosalise leukogra...,RDW,13.3,%,30.12.2013,,|RDW|13.3|13.5| |%| 
+118,123456,Hemogramm viieosalise leukogra...,WBC,11.49,E9/L,30.12.2013,,|WBC|11.49|9.39| |E9/L| 
+119,123456,Hemogramm viieosalise leukogra...,Kaalium seerumis,3.7,mmol/L,30.12.2013,,|Kaalium seerumis|3.7| | |mmol/L| 
+124,123456,Hemogramm viieosalise leukogra...,Kreatiniin seerumis/plasmas,68,µmol/L,30.12.2013,,|Kreatiniin seerumis/plasmas|68|77| |µmol/L| 
+125,123456,Hemogramm viieosalise leukogra...,Laktaadi dehüdrogenaas seerumi...,151,U/L,30.12.2013,,|Laktaadi dehüdrogenaas seerumi...|151| | |U/L| 
+126,123456,Hemogramm viieosalise leukogra...,Lipaas paastuseerumis,40,U/L,30.12.2013,,|Lipaas paastuseerumis|40| | |U/L| 
+127,123456,Hemogramm viieosalise leukogra...,Naatrium seerumis/plasmas,139,mmol/L,30.12.2013,,|Naatrium seerumis/plasmas|139| | |mmol/L| 
+135,123456,Uriini ribaanalüüs,Bilirubiin uriinis,NEG, ,30.12.2013,,|Bilirubiin uriinis|NEG|NEG| | | 
+136,123456,Uriini ribaanalüüs,Erikaal,1.02, ,30.12.2013,,|Erikaal|1.02|1.03| | | 
+137,123456,Uriini ribaanalüüs,Erütrotsüüdid,NEG, ,30.12.2013,,|Erütrotsüüdid|NEG|NEG| | | 
+138,123456,Uriini ribaanalüüs,Glükoos,NEG, ,30.12.2013,,|Glükoos|NEG|NEG| | | 
+139,123456,Uriini ribaanalüüs,Ketokehad,NEG, ,30.12.2013,,|Ketokehad|NEG|NEG| | | 
+140,123456,Uriini ribaanalüüs,Leukotsüüdid,NEG, ,30.12.2013,,|Leukotsüüdid|NEG|NEG| | | 
+141,123456,Uriini ribaanalüüs,Nitrit,NEG, ,30.12.2013,,|Nitrit|NEG|NEG| | | 
+142,123456,Uriini ribaanalüüs,Urobilinogeen,NEG, ,30.12.2013,,|Urobilinogeen|NEG|NEG| | | 
+143,123456,Uriini ribaanalüüs,Valk,NEG, ,30.12.2013,,|Valk|NEG|0.25 g/L| | | 
+144,123456,Uriini ribaanalüüs,pH uriinis,7.0, ,30.12.2013,,|pH uriinis|7.0|5.0| | | 
+147,123456,Uriini sademe mikroskoopia,Uurea paastuseerumis/paastupla...,8.4,mmol/L,30.12.2013,,|Uurea paastuseerumis/paastupla...|8.4| | |mmol/L| 
+159,123456,Uriini sademe mikroskoopia,Uuring,30.12.2013,Mõõtühik,30.12.2013,,|Uuring|30.12.2013|31.12.2013|03.01|Mõõtühik| 
+160,123456,,Aeroobide uuring,Negatiivne, ,31.12.2013,,|Aeroobide uuring| |Negatiivne| | | 
+161,123456,,Alaniini aminotransferaas seer...,13,U/L,31.12.2013,,|Alaniini aminotransferaas seer...|16|13| |U/L| 
+166,123456,,C-reaktiivne valk seerumis/pla...,<1.0,mg/L,31.12.2013,,|C-reaktiivne valk seerumis/pla...|<1.0|<1.0| |mg/L| 
+169,123456,,S-EBV EA Ab,POSITIIVNE, ,31.12.2013,,|S-EBV EA Ab| |POSITIIVNE| | | 
+170,123456,,S-EBV NA Ab,POSITIIVNE, ,31.12.2013,,|S-EBV NA Ab| |POSITIIVNE| | | 
+171,123456,,S-EBV VCA IgG,POSITIIVNE, ,31.12.2013,,|S-EBV VCA IgG| |POSITIIVNE| | | 
+172,123456,,S-EBV VCA IgGavd,Kõrge, ,31.12.2013,,|S-EBV VCA IgGavd| |Kõrge| | | 
+173,123456,,S-EBV VCA IgM,Negatiivne, ,31.12.2013,,|S-EBV VCA IgM| |Negatiivne| | | 
+174,123456,,Erütrotsüütide settekiirus,5.0,mm/h,31.12.2013,,|Erütrotsüütide settekiirus| |5.0| |mm/h| 
+175,123456,,Glükoos seerumis/plasmas,4.5,mmol/L,31.12.2013,,|Glükoos seerumis/plasmas|5.2|4.5| |mmol/L| 
+176,123456,,HLA B27 alleel,Negatiivne, ,31.12.2013,,|HLA B27 alleel| |Negatiivne| | | 
+177,123456,Hemogramm viieosalise leukogra...,BASO#,0.01,E9/L,31.12.2013,,|BASO#|0.01|0.01| |E9/L| 
+178,123456,Hemogramm viieosalise leukogra...,BASO%,0.1,%,31.12.2013,,|BASO%|0.1|0.1| |%| 
+179,123456,Hemogramm viieosalise leukogra...,EO#,0.04,E9/L,31.12.2013,,|EO#|0.04|0.04| |E9/L| 
+180,123456,Hemogramm viieosalise leukogra...,EO%,0.4,%,31.12.2013,,|EO%|0.3|0.4| |%| 
+181,123456,Hemogramm viieosalise leukogra...,HCT,45.7,%,31.12.2013,,|HCT|48.1|45.7| |%| 
+182,123456,Hemogramm viieosalise leukogra...,Hb,148,g/L,31.12.2013,,|Hb|161|148| |g/L| 
+183,123456,Hemogramm viieosalise leukogra...,LYMPH#,2.82,E9/L,31.12.2013,,|LYMPH#|3.29|2.82| |E9/L| 
+184,123456,Hemogramm viieosalise leukogra...,LYMPH%,30.0,%,31.12.2013,,|LYMPH%|28.6|30.0| |%| 
+185,123456,Hemogramm viieosalise leukogra...,MCH,28.3,pg,31.12.2013,,|MCH|28.7|28.3| |pg| 
+186,123456,Hemogramm viieosalise leukogra...,MCHC,324,g/L,31.12.2013,,|MCHC|335|324| |g/L| 
+187,123456,Hemogramm viieosalise leukogra...,MCV,87.4,fL,31.12.2013,,|MCV|85.7|87.4| |fL| 
+188,123456,Hemogramm viieosalise leukogra...,MONO#,0.67,E9/L,31.12.2013,,|MONO#|1.0|0.67| |E9/L| 
+189,123456,Hemogramm viieosalise leukogra...,MONO%,7.1,%,31.12.2013,,|MONO%|8.7|7.1| |%| 
+190,123456,Hemogramm viieosalise leukogra...,MPV,10.0,fL,31.12.2013,,|MPV|9.4|10.0| |fL| 
+191,123456,Hemogramm viieosalise leukogra...,NEUT#,5.85,E9/L,31.12.2013,,|NEUT#|7.15|5.85| |E9/L| 
+192,123456,Hemogramm viieosalise leukogra...,NEUT%,62.4,%,31.12.2013,,|NEUT%|62.3|62.4| |%| 
+193,123456,Hemogramm viieosalise leukogra...,P-LCR,24.9,%,31.12.2013,,|P-LCR|20.7|24.9| |%| 
+194,123456,Hemogramm viieosalise leukogra...,PDW,12.0,fL,31.12.2013,,|PDW|11.3|12.0| |fL| 
+195,123456,Hemogramm viieosalise leukogra...,PLT,221.0,E9/L,31.12.2013,,|PLT|228.0|221.0| |E9/L| 
+196,123456,Hemogramm viieosalise leukogra...,RBC,5.23,E12/L,31.12.2013,,|RBC|5.61|5.23| |E12/L| 
+197,123456,Hemogramm viieosalise leukogra...,RDW,13.5,%,31.12.2013,,|RDW|13.3|13.5| |%| 
+198,123456,Hemogramm viieosalise leukogra...,WBC,9.39,E9/L,31.12.2013,,|WBC|11.49|9.39| |E9/L| 
+200,123456,Hemogramm viieosalise leukogra...,Kilpnääret stimuleeriv hormoon...,1.54,mIU/L,31.12.2013,,|Kilpnääret stimuleeriv hormoon...| |1.54| |mIU/L| 
+201,123456,Hemogramm viieosalise leukogra...,Komplemendi komponent C3 seeru...,0.98,g/L,31.12.2013,,|Komplemendi komponent C3 seeru...| |0.98| |g/L| 
+202,123456,Hemogramm viieosalise leukogra...,Komplemendi komponent C4 seeru...,0.13,g/L,31.12.2013,,|Komplemendi komponent C4 seeru...| |0.13| |g/L| 
+203,123456,Hemogramm viieosalise leukogra...,Kreatiini kinaas seerumis,95,U/L,31.12.2013,,|Kreatiini kinaas seerumis| |95| |U/L| 
+204,123456,Hemogramm viieosalise leukogra...,Kreatiniin seerumis/plasmas,77,µmol/L,31.12.2013,,|Kreatiniin seerumis/plasmas|68|77| |µmol/L| 
+210,123456,Hemogramm viieosalise leukogra...,Tsütomegaloviiruse vastane IgG...,POSITIIVNE, ,31.12.2013,,|Tsütomegaloviiruse vastane IgG...| |POSITIIVNE| | | 
+211,123456,Hemogramm viieosalise leukogra...,Tsütomegaloviiruse vastane IgM...,Negatiivne, ,31.12.2013,,|Tsütomegaloviiruse vastane IgM...| |Negatiivne| | | 
+213,123456,Hemogramm viieosalise leukogra...,S-ANA IgG mustrid,negatiivne, ,31.12.2013,,|S-ANA IgG mustrid| |negatiivne| | | 
+214,123456,Hemogramm viieosalise leukogra...,S-ANA IgG tiiter,<1:100, ,31.12.2013,,|S-ANA IgG tiiter| |<1:100| | | 
+215,123456,Uriini ribaanalüüs,Bilirubiin uriinis,NEG, ,31.12.2013,,|Bilirubiin uriinis|NEG|NEG| | | 
+216,123456,Uriini ribaanalüüs,Erikaal,1.03, ,31.12.2013,,|Erikaal|1.02|1.03| | | 
+217,123456,Uriini ribaanalüüs,Erütrotsüüdid,NEG, ,31.12.2013,,|Erütrotsüüdid|NEG|NEG| | | 
+218,123456,Uriini ribaanalüüs,Glükoos,NEG, ,31.12.2013,,|Glükoos|NEG|NEG| | | 
+219,123456,Uriini ribaanalüüs,Ketokehad,NEG, ,31.12.2013,,|Ketokehad|NEG|NEG| | | 
+220,123456,Uriini ribaanalüüs,Leukotsüüdid,NEG, ,31.12.2013,,|Leukotsüüdid|NEG|NEG| | | 
+221,123456,Uriini ribaanalüüs,Nitrit,NEG, ,31.12.2013,,|Nitrit|NEG|NEG| | | 
+222,123456,Uriini ribaanalüüs,Urobilinogeen,NEG, ,31.12.2013,,|Urobilinogeen|NEG|NEG| | | 
+223,123456,Uriini ribaanalüüs,Valk,0.25 g/L, ,31.12.2013,,|Valk|NEG|0.25 g/L| | | 
+224,123456,Uriini ribaanalüüs,pH uriinis,5.0, ,31.12.2013,,|pH uriinis|7.0|5.0| | | 
+225,123456,Uriini sademe mikroskoopia,Lameepiteeli rakud,2.0,/hpf,31.12.2013,,|Lameepiteeli rakud| |2.0| |/hpf| 
+226,123456,Uriini sademe mikroskoopia,Leukotsüüdid,1.0,/hpf,31.12.2013,,|Leukotsüüdid| |1.0| |/hpf| 
+228,123456,Uriini sademe mikroskoopia,Vaba trijoodtüroniin seerumis,3.82,pmol/L,31.12.2013,,|Vaba trijoodtüroniin seerumis| |3.82| |pmol/L| 
+229,123456,Uriini sademe mikroskoopia,Vaba türoksiin seerumis,17.8,pmol/L,31.12.2013,,|Vaba türoksiin seerumis| |17.8| |pmol/L| 
+230,123456,Uriini sademe mikroskoopia,Valk seerumis/plasmas,69,g/L,31.12.2013,,|Valk seerumis/plasmas| |69| |g/L| 
+232,123456,Uriini sademe mikroskoopia,S-Alb-Fr,40.2,g/L,31.12.2013,,|S-Alb-Fr| |40.2| |g/L| 
+233,123456,Uriini sademe mikroskoopia,S-Alfa-1-glob,2.2,g/L,31.12.2013,,|S-Alfa-1-glob| |2.2| |g/L| 
+234,123456,Uriini sademe mikroskoopia,S-Alfa-2-glob,7.0,g/L,31.12.2013,,|S-Alfa-2-glob| |7.0| |g/L| 
+235,123456,Uriini sademe mikroskoopia,S-Beeta-1-glob,5.0,g/L,31.12.2013,,|S-Beeta-1-glob| |5.0| |g/L| 
+236,123456,Uriini sademe mikroskoopia,S-Beeta-2-glob,4.3,g/L,31.12.2013,,|S-Beeta-2-glob| |4.3| |g/L| 
+237,123456,Uriini sademe mikroskoopia,S-Gamma-glob,10.2,g/L,31.12.2013,,|S-Gamma-glob| |10.2| |g/L| 
+238,123456,Uriini sademe mikroskoopia,Vitamiin D (25-OH) seerumis,36,nmol/L,31.12.2013,,|Vitamiin D (25-OH) seerumis| |36| |nmol/L| 
+239,123456,Uriini sademe mikroskoopia,Uuring,31.12.2013,Mõõtühik,31.12.2013,,|Uuring|30.12.2013|31.12.2013|03.01|Mõõtühik| 
+247,123456,,Chlamydia trachomatis DNA urii...,Negatiivne, ,03.01,,|Chlamydia trachomatis DNA urii...| | |Negatiivne| | 
+288,123456,Hemogramm viieosalise leukogra...,Neisseria gonorrhoeae DNA urii...,Negatiivne, ,03.01,,|Neisseria gonorrhoeae DNA urii...| | |Negatiivne| | 
+289,123456,Hemogramm viieosalise leukogra...,"S-HIV1,2 Ag+Ab",Negatiivne, ,03.01,,"|S-HIV1,2 Ag+Ab| | |Negatiivne| | "
+319,123456,Uriini sademe mikroskoopia,Uuring,03.01,Mõõtühik,03.01,,|Uuring|30.12.2013|31.12.2013|03.01|Mõõtühik| 

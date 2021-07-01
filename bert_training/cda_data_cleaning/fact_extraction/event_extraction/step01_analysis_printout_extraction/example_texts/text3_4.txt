@@ -1,0 +1,88 @@
+|Aeroobide uuring|Puudub aeroobne kasv| | | 
+|Alaniini aminotransferaas seer...| |20|U/L| 
+|Albumiini ja kreatiniini suhe ...|1.1| |g/mol| 
+|Albumiin uriinis|10.4| |mg/L| 
+|Kreatiniin uriinis|9160| |µmol/L| 
+|Aspartaadi aminotransferaas se...| |22|U/L| 
+|C-reaktiivne valk seerumis/pla...| |3.7|mg/L| 
+|Glükohemoglobiin| |8.8|%| 
+|Glükohemoglobiin veres| |73|mmol/mol| 
+|HDL-kolesterool paastuseerumis| |1.5|mmol/L| 
+|Hemogramm viieosalise leukogra...| | | | 
+|BASO#|0.04| |E9/L| 
+|BASO%|0.6| |%| 
+|EO#|0.15| |E9/L| 
+|EO%|2.2| |%| 
+|HCT|40.5| |%| 
+|Hb|145| |g/L| 
+|LYMPH#|3.31| |E9/L| 
+|LYMPH%|48.5| |%| 
+|MCH|32.9| |pg| 
+|MCHC|358| |g/L| 
+|MCV|91.8| |fL| 
+|MONO#|0.46| |E9/L| 
+|MONO%|6.7| |%| 
+|MPV|11.4| |fL| 
+|NEUT#|2.87| |E9/L| 
+|NEUT%|42.0| |%| 
+|P-LCR|35.8| |%| 
+|PDW|14.5| |fL| 
+|PLT|116.0| |E9/L| 
+|RBC|4.41| |E12/L| 
+|RDW|12.2| |%| 
+|WBC|6.83| |E9/L| 
+|Kaalium seerumis| |3.9|mmol/L| 
+|Kilpnääret stimuleeriv hormoon...|1.90| |mIU/L| 
+|Kolesterool seerumis| |4.9|mmol/L| 
+|Kreatiniin seerumis/plasmas| |67|µmol/L| 
+|LDL-kolesterool paastuseerumis| |3.1|mmol/L| 
+|Naatrium seerumis/plasmas| |137|mmol/L| 
+|Triglütseriidid paastuseerumis| |0.8|mmol/L| 
+|Uriini ribaanalüüs| | | | 
+|Bilirubiin uriinis|NEG| | | 
+|Erikaal|1.011| | | 
+|Erütrotsüüdid|NEG| | | 
+|Glükoos|NEG| | | 
+|Ketokehad|NEG| | | 
+|Leukotsüüdid|NEG| | | 
+|Nitrit|NEG| | | 
+|Urobilinogeen|NEG| | | 
+|Valk|NEG| | | 
+|pH uriinis|5.0| | | 
+|Vereäige mikroskoopia| | | | 
+|Basofiilid|1.5| |%| 
+|Eosinofiilid|1.5| |%| 
+|Kepptuumsed neutrofiilid|3.0| |%| 
+|Lümfotsüüdid|48.5| |%| 
+|Monotsüüdid|5.5| |%| 
+|Segmenttuumsed neutrofiilid|40.0| |%| 
+|Uuring|19.02|20.02|Mõõtühik|    
+20.02.2014 14:18 - <ANONYM id="4" type="per" morph="_H_ sg n"/>, <ANONYM id="5" type="per" morph="_H_ sg n"/> - D05121 - E340 - radioloogia 
+Ultraheli 
+UH kõhust ja vaagnast 
+Teostatud: 19.02.2014 13:03  
+Tellimuse vastus nr: 14-51287-1 
+Kliinilised andmed:D.M. I 
+Kõhukoopa UH uuring. 
+LEID: 
+Pankreas mõõtmetelt normis, eakohase struktuuriga, mahulist muutust esile ei tule.  
+Maks mõõtmetelt normis, ühtlase struktuuriga, koldeleidu ei sedasta.  
+Sapipõie seinad paksenenud kuni 5 - 6 mm, valendikus on konkremendid. Sapiteed laienenud ei ole.  
+Põrn mõõtmetelt suurenenud ei ole, koldeleiuta.  
+Neerude suurus, asetsus ja struktuur tavaline. Vasaku neeru ülakarikas visualiseerub ca 4 - 5 mm kajarikkam struktuur - võimalik konkrement. Neerudes paisu ei ole.  
+Kusepõis vähe täitunud, sisaldis kajavaba. 
+Kõhuaort nähtavas osas norm läbimõõduga.  
+Retroperitoneaalselt suurenenud l/sõlmi ei näe. 
+Vaba vedelikku kõhukoopas ei sedasta.  
+Arvamus/Soovitused: Sapipõies kivid ja seina paksenemine -  viitab kroonilisele kalkuloossele koletsüstiidile. Kahtlus konkremendile vasakus neerus.  
+20.02.2014 14:35 - <ANONYM id="6" type="per" morph="_H_ sg n"/>, <ANONYM id="7" type="per" morph="_H_ sg n"/> - N05815 - N500 - üldõendus 
+Diaeediõde visiit.  
+Patsient sab insuliiniravi , skeem 3+1. Kodus süsivesikud ei arvesta ja ei tea sellest midagi. Sööb ebaregulaarselt ja lühikest insuliini süstib aeg-ajalt, aga mitte iga päev. <ANONYM id="8" type="per" morph="_S_ pl p"/> ei ole vahetanud. Veresuhkur mõõdab väga harva. Vale süstimistehnika ja süstekohte ei vahetanud. 
+Vajab taotlust nõeltele ja lantsetidele.  
+Antud soovitutused toiduvalikust ja süsivesikute jaotust päeva jooksul. Kaasa antud õpematerjal, uus glükomeeter + õpetus. Antud uus süstimis õpetus ja hüpo- ja hüpoglükeemia esmaabi.   
+20.02.2014 14:53 - <ANONYM id="9" type="per" morph="_H_ sg n"/>, <ANONYM id="10" type="per" morph="_H_ sg n"/> - D05770 - E240 - oftalmoloogia 
+silmaarstil viimati 2a tagasi, siis suunatud mingile silmaoperatsioonile, kuid pt ei läinud.   
+visus od 0,7 -0,75sph -1,5cyl178=1,0   os 0,7ek. 
+tensio 17/21  
+gtt.Mydriacyl ou - läätsedes algav hägustumine. diskid roosakad, piiriteltud, makulites ega perifeerias diabeedi muutusi ei näe  
+vajalik silmaarsti kontroll 1a pärast

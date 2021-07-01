@@ -1,0 +1,61 @@
+21.05.2014 14:47 - <ANONYM id="0" type="per" morph="_H_ sg n"/>, <ANONYM id="1" type="per" morph="_H_ sg n"/> - N08176 - N500 - üldõendus 
+138/79  87  98%  36,4C  
+21.05.2014 15:15 - <ANONYM id="2" type="per" morph="_H_ sg n"/>, <ANONYM id="3" type="per" morph="_H_ sg n"/> 
+ANALÜÜSIDE TELLIMUS nr: 631767  
+MATERJAL: 
+IP0016252291 vB 21.05.2014 15:09 (võetud: 21.05.2014 00:00)  
+VASTUSED: 
+Hemogramm viieosalise leukogrammiga   
+WBC 4.13 (4,1 .. 9,4 E9/L)   
+NEUT# 2.76 (1,8 .. 7,8 E9/L)   
+LYMPH# 0.97 ↓ (1,0 .. 3,5 E9/L)   
+MONO# 0.35 (0.2 .. 1,0 E9/L)   
+EO# 0.05 (0,01 .. 0,4 E9/L)   
+BASO# 0.0 (<0,1 E9/L)   
+NEUT% 66.8 (40 .. 80 %)   
+LYMPH% 23.5 (15 .. 45 %)   
+MONO% 8.5 (2 .. 10 %)   
+EO% 1.2 (<6 %)   
+BASO% 0.0 (0 .. 1 %)   
+RBC 4.22 (3,9 .. 5,2 E12/L)   
+Hb 116 ↓ (117 .. 153 g/L)   
+HCT 35.6 (35.0 .. 46.0 %)   
+MCV 84.4 (82 .. 99 fL)   
+MCH 27.5 (27 .. 33 pg)   
+PLT 177.0 (150 .. 450 E9/L)    
+21.05.2014 15:54 - <ANONYM id="4" type="per" morph="_H_ sg n"/>, <ANONYM id="5" type="per" morph="_H_ sg n"/> 
+ANALÜÜSIDE TELLIMUS nr: 631780  
+MATERJAL: 
+IP0016252283 vB 21.05.2014 15:17 (võetud: 21.05.2014 00:00) 
+IP0016252295 Veri (helesinises) 21.05.2014 15:16 (võetud: 21.05.2014 00:00)  
+VASTUSED: 
+Lipaas paastuseerumis 27 (13 .. 60 U/L)   
+Uurea paastuseerumis/paastuplasmas 10.5 ↑ (<7.2 mmol/L)   
+Alaniini aminotransferaas seerumis 17 (<33 U/L)   
+Glükoos seerumis/plasmas 5.0 (4.6 .. 6.4 mmol/L)   
+Aluseline fosfataas seerumis 64 (35 .. 105 U/L)   
+Gammaglutamüüli transferaas seerumis 15 (<40 U/L)   
+Aspartaadi aminotransferaas seerumis 21 (<32 U/L)   
+C-reaktiivne valk seerumis/plasmas 2.3 (<5.0 mg/L)   
+Bilirubiin seerumis/plasmas 5 (<21 µmol/L)   
+Hinnanguline glomerulaarfiltratsiooni kiirus (CKD-EPI valemi j.) 59 ↓ (>60 ml/min/1.73m2)   
+Kreatiniin seerumis/plasmas 84 ↑ (44 .. 80 µmol/L)   
+Kaalium seerumis Töös   
+Naatrium seerumis/plasmas Töös   
+D-dimeerid 0.72 ↑ (<0,5 µg/ml)    
+21.05.2014 16:00 - <ANONYM id="6" type="per" morph="_H_ sg n"/>, <ANONYM id="7" type="per" morph="_H_ sg n"/> 
+ANALÜÜSIDE TELLIMUS nr: 631769  
+MATERJAL: 
+IP0016252294 Uriin 21.05.2014 15:09 (võetud: 21.05.2014 00:00)  
+VASTUSED: 
+Uriini ribaanalüüs   
+pH uriinis 5.0 (5.0 .. 8.0 )   
+Erütrotsüüdid NEG (NEG )   
+Nitrit NEG (NEG )   
+Valk NEG (NEG )   
+Glükoos  NEG (NEG )   
+Erikaal 1.019 (1,015 .. 1,025 )   
+Urobilinogeen NEG (NEG )   
+Bilirubiin uriinis NEG (NEG )   
+Leukotsüüdid NEG (NEG )   
+Ketokehad NEG (NEG )

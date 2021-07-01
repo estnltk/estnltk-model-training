@@ -1,0 +1,82 @@
+SET ROLE {role};
+
+-----------------------------------------------------------------
+-- CLEAN FLOATS
+-----------------------------------------------------------------
+drop function if exists {schema}.clean_floats(value text);
+create or replace function {schema}.clean_floats (value text)
+    returns text
+as
+$body$
+declare
+    part0 text;
+    part1 text;
+    clean text;
+begin
+
+    value := trim(both from value); --removing whitespaces from begin and end
+    value := regexp_replace(value, ',','.');
+    part0 :=  split_part(value, '.', 1);    --split to two: BEFORE and after dot
+    part1 :=  split_part(value, '.', 2);    --split to two: before and AFTER dot
+
+    if (substr(part0,1,1) = '-') then clean := '-'; end if;  -- does value start with minus
+
+    part0 := replace(translate(part0,'+-',' '),' ','');  -- remove all '-' and '+' from beginning
+    part0 := trim(both from part0);
+    part1 := trim(both from part1);
+
+    if (char_length(part0) = 0) then part0 := '0'; end if;-- kui .9 siis 0.9
+    if (char_length(part1) = 0) then part1 := '0'; end if;-- kui 4. siis 4.0
+
+    --removes all trailing 0 after the decimal (0.00 -> 0.0 or 0.010 -> 0.01)
+    if part1 ~ '^0+$' then part1 := '0'; --contains only zeros
+    else part1 := TRIM(TRAILING '0' FROM part1);
+    end if;
+
+    clean := concat(clean, trim(both from part0), '.', trim(both from part1));
+    return clean;
+end
+$body$
+language plpgsql;
+
+-----------------------------------------------------------------
+-- MATCH FLOAT
+-----------------------------------------------------------------
+
+drop function if exists {schema}.match_float(text text);
+create or replace function {schema}.match_float (text text)
+    returns boolean
+as
+$body$
+declare
+    match_float boolean := False;
+begin
+    -- matching float
+    if  text ~ '^[+-]?(([0-9]|[1-9][0-9]*)?\s*[\.,][0-9]*)$' then match_float := True; end if;
+    return match_float;
+end
+$body$
+language plpgsql;
+
+-----------------------------------------------------------------
+-- IS FLOAT
+-----------------------------------------------------------------
+
+drop function if exists {schema}.is_float(text text);
+create or replace function {schema}.is_float (text text)
+    returns boolean
+as
+$body$
+declare
+begin
+    if text ~ '^(-?([0-9]|[1-9][0-9]*)?\s*[\.,][0-9]*)$' --match_float(text) --code in common.value has default strict = True
+        then
+        return True;
+        end if;-- listid puhastatud väärtustest ja tüübist, peaksid olema üleüldised nagu self.xxx
+        --clean := array_append(clean, analysiscleaning.clean_floats(analysiscleaning.remove_units(text)))
+        --type := array_append(type, 'float')
+    return False;
+end
+$body$
+language plpgsql;
+

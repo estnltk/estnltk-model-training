@@ -1,0 +1,38 @@
+
+________Kuupäev HK Hinnakirja kood
+25.08.2014 KLIINILINE VER <ANONYM id="0" type="per" morph="_H_ sg g;_S_ sg n"/>
+<ANONYM id="1" type="per" morph="_H_ sg n"/> <ANONYM id="2" type="per" morph="_H_ sg n"/>
+
+25.08.2014 
+15:30  
+25.08.2014 
+
+
+15:36  
+Hemogramm  B-CBC  66201  
+           <ANONYM id="3" type="per" morph="_Y_ ?"/>
+ukotsüüdid veres 10E9/l    6.1  10E9/l   4-10
+
+           Erütrotsüüdid veres 10E12/l    4.86
+10E12/l   4-5,4     
+           Hemoglobiin veres
+g/l    149  g/l   120-155     
+           Hemato
+krit %    44.1  %   36-47     
+           MCV fl
+90.7  fl   76-96     
+           MCH pg    30.
+7  pg   27-32     
+           MCHC g/l    338  g/
+l   315-360     
+           RDW %    12.2  %   11
+-15     
+           Trombotsüüdid 10E9/l    224
+10E9/l   150-400     
+           Trombokrit %
+0.22  %   0,1-0,4     
+           MPV fl    9.7
+fl   -     
+           PDW %    17.4  %   -
+
+						

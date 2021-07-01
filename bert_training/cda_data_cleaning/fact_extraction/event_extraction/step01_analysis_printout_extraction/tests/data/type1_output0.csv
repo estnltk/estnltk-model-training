@@ -1,0 +1,7 @@
+,epi_id,analysis_name_raw,parameter_name_raw,value_raw,parameter_unit_raw,effective_time_raw,reference_values_raw,text_raw
+2,123456,Kliiniline veri,HCT,50.7,,08.10.2013,,HCT 50.7
+3,123456,Kliiniline veri,MCV,104,,08.10.2013,,MCV 104
+4,123456,Kliiniline veri,HGB,177,,08.10.2013,,HGB 177
+6,123456,Kliiniline veri,MCHC,349,,08.10.2013,,MCHC 349
+9,123456,Kliiniline veri,WBC,8.4,,08.10.2013,,WBC 8.4 
+11,123456,Kliiniline veri,Gly,7.5,,08.10.2013,,Gly 7.5 

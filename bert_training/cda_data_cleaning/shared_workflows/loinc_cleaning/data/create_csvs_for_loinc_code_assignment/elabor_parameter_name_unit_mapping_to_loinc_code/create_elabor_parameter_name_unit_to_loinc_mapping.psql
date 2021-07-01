@@ -1,0 +1,131 @@
+
+DO $$
+begin
+raise notice 'Elabor parameter_name and parameter_unit to loinc mapping';
+end;
+$$;
+
+
+set role :role;
+
+drop table if exists :schema.elabor_parameter_name_unit_to_loinc_mapping;
+create table :schema.elabor_parameter_name_unit_to_loinc_mapping
+(
+    parameter_name    varchar,
+    t_yhik            varchar,
+    t_lyhend          varchar,
+    t_nimetus         varchar,
+    kasutatav_nimetus varchar,
+    loinc_code        varchar,
+    substrate         varchar,
+    evidence          varchar
+);
+
+reset role;
+
+
+
+-- case where parameter_name = t_nimetus and t_nimetus + t_yhik is unique
+-- 41
+insert into :schema.elabor_parameter_name_unit_to_loinc_mapping(parameter_name, t_yhik, t_lyhend, t_nimetus,
+                                                                         kasutatav_nimetus, loinc_code, substrate,
+                                                                         evidence)
+select t_nimetus,
+       t_yhik,
+       t_lyhend,
+       t_nimetus,
+       kasutatav_nimetus,
+       loinc_no,
+       system,
+       't_nimetus + t_yhik'
+from classifications.elabor_analysis
+where (t_nimetus, coalesce(t_yhik, '')) in (
+    select t_nimetus, coalesce(c.t_yhik, '') as t_yhik
+    from ( -- kõik ühesed t_nimetus + t_yhik mappingud
+             select t_nimetus, t_yhik, array_agg(distinct t_lyhend) as t_lyhendid
+             from classifications.elabor_analysis
+             group by t_nimetus, t_yhik
+         ) as c
+    where array_length(c.t_lyhendid, 1) = 1
+      and
+      -- kui t_nimetuse järgi juba üheselt mappitud, siis pole enam vaja
+            t_nimetus not in (
+            select parameter_name
+            from :schema.elabor_parameter_name_to_loinc_mapping
+            where evidence = 't_nimetus'
+        )
+);
+
+
+
+-- case where parameter_name = kasutatav_nimetus and kasutatav_nimetus + t_yhik is unique
+-- 61 rida
+insert into :schema.elabor_parameter_name_unit_to_loinc_mapping(parameter_name, t_yhik, t_lyhend, t_nimetus,
+                                                                         kasutatav_nimetus, loinc_code, substrate,
+                                                                         evidence)
+select kasutatav_nimetus,
+       t_yhik,
+       t_lyhend,
+       t_nimetus,
+       kasutatav_nimetus,
+       loinc_no,
+       system,
+       'kasutatav_nimetus + t_yhik'
+from classifications.elabor_analysis
+where (kasutatav_nimetus, coalesce(t_yhik, '')) in (
+    select kasutatav_nimetus, coalesce(c.t_yhik, '') as t_yhik
+    from ( -- kõik ühesed t_nimetus + t_yhik mappingud
+             select kasutatav_nimetus, t_yhik, array_agg(distinct t_lyhend) as t_lyhendid
+             from classifications.elabor_analysis
+             group by kasutatav_nimetus, t_yhik
+         ) as c
+    where array_length(c.t_lyhendid, 1) = 1
+      and
+      -- kui t_nimetuse järgi juba üheselt mappitud, siis pole enam vaja
+            c.kasutatav_nimetus not in (
+            select parameter_name
+            from :schema.elabor_parameter_name_to_loinc_mapping
+            where evidence = 'kasutatav_nimetus'
+        )
+);
+
+-------------------------------------------------------------------------------------------------------
+-- Deleting wrong mapping
+-------------------------------------------------------------------------------------------------------
+-- Kui mapping on olemas nii PN -> loinc kui ka PN, PU -> loinc, siis ilmselgelt viimane on täpsem mapping ja kustutame
+-- PN-> loinc ära need mappingu read
+delete
+from :schema.elabor_parameter_name_unit_to_loinc_mapping
+where parameter_name in
+      (
+          select distinct p.parameter_name
+          from :schema.elabor_parameter_name_to_loinc_mapping as p
+                   inner join :schema.elabor_parameter_name_unit_to_loinc_mapping as pu
+                              on p.parameter_name = pu.parameter_name
+      );
+
+-------------------------------------------------------------------------------------------------------
+-- Assigning LOINC code and substrate
+-------------------------------------------------------------------------------------------------------
+
+-- Do not know, if some substrates belong to urine or blood
+-- Therefore the CASE ... WHEN ... statement can be improved
+-- Examples of unknown substrates
+update :schema.elabor_parameter_name_unit_to_loinc_mapping
+set substrate = case
+                    when substrate in
+                         ('Ser', 'Bld/Tiss', 'Bld.dot', 'RBC', 'Plas', 'BldA', 'BldC', 'BldMV', 'BldV', 'BldCo',
+                          'BldCoV', 'BldCoA', 'Bld^newborn', 'Ser+Bld', 'BldA+Inhl gas', 'Bld/Bone mar', 'BldA+BldMV',
+                          'Bld.pos growth', 'BldA+Resp.alv')
+                        then 'Bld'
+                    when substrate in ('Stool', 'Urine sed') then 'Urine'
+                    when substrate in
+                         ('Periton fld+Ser/Plas', 'Ser/Plas+Plr fld', 'Ser/Plas.maternal^fetus', 'Ser/Plas+Synv fld',
+                          'Ser+Plas') then 'Ser/Plas'
+                    when substrate in ('XXX','') then NULL
+                    else substrate
+    end;
+
+set search_path to :schema;
+\copy (select distinct on (parameter_name, t_yhik, t_lyhend, loinc_code, substrate) parameter_name, t_yhik, t_lyhend, t_nimetus, kasutatav_nimetus, loinc_code, substrate, evidence from elabor_parameter_name_unit_to_loinc_mapping) to 'create_csvs_for_loinc_code_assignment/results/elabor_parameter_name_unit_to_loinc_mapping.csv' With (delimiter ',', format csv, header)
+

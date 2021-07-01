@@ -1,0 +1,6 @@
+
+________Kuupäev HK Hinnakirja kood
+05.09.2013 line veri Kliiniline veri
+RBC 4.79; HCT 42.7; MCV 89 ; HGB 157; MCH  33; MCHC 367; PLT  159; MPV  8.0 ; WBC 5.6 ; SR  11; Gly 5.1 ; CRV     ; Valem:; keppt.  0; segmt.  0; eos.    0; basof.  0; lümf.   0; monot.  0
+
+						

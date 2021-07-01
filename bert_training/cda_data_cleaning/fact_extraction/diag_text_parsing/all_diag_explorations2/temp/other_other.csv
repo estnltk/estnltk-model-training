@@ -1,0 +1,3953 @@
+,0,1,2
+0,Muu spondüloos,M00-M99,186
+1,"Täielik või täpsustamata, tüsistusteta",O00-O99,113
+2,Somatoformne vegetatiivne düsfunktsioon,F00-F99,108
+3,"Kodu, sportlik tegevus",None,95
+4,Kõigi paikmete hemangioom,C00-D48,81
+5,-oluline käitumishäire,F00-F99,80
+6,"Kodu, muu täpsustatud tegevusega",None,69
+7,Kerge depressioon,F00-F99,55
+8,Keskmise raskusega,G00-G99,47
+9,Nimme-ristluu piirkond,None,40
+10,Krooniline kõripõletik,J00-J99,40
+11,"Nimmelülimurd, kinnine",S00-T98,37
+12,"Mittetäielik, tüsistusteta",O00-O99,36
+13,"Preproliferatiivne,osaliselt laserdatud",None,35
+14,Tänav ja [maan]tee,V01-Y98,34
+15,Ebastabiilne isiksus,F00-F99,32
+16,Vasak õlg,M00-M99,32
+17,Põlveõndla limapaunatsüst [baker],M00-M99,30
+18,Autoimmuunne türeoidiit,E00-E90,30
+19,Anaemia gravidarum,O00-O99,30
+20,"Orgaanilised meeleoluhäired, orgaaniline de",None,28
+21,Vasaku põlveliigese artroos.,M00-M99,27
+22,"Vitrektoomiajärgne, vesivedelik klaaskeharuumis",H00-H59,27
+23,"Kodu, muu täpsustamata tegevus",None,27
+24,Liiklusvälises õnnetuses vigastatud juht,V01-Y98,27
+25,Ovulatsiooniaegne valu {mittelschmerz},N00-N99,26
+26,Krooniline migreen,G00-G99,26
+27,Vasak pool,M00-M99,25
+28,Vasaku põlveliigese endoprotees,Z00-Z99,25
+29,Parem õlg,M00-M99,25
+30,Täpsustamata reuma,M00-M99,24
+31,Rinnaosa piirkond,None,24
+32,Parema põlveliigese artroos.,M00-M99,24
+33,Mõõdukas depressioon,F00-F99,24
+34,Muud ja täpsustatud kohad,V01-Y98,24
+35,Kergekujuline rasedusaegne iiigoksendamine,O00-O99,23
+36,"Reieluukaela-murd, kinnine",S00-T98,23
+37,Kanna- [ahilleuse]kõõluse vigastus,S00-T98,23
+38,Parem pool,M00-M99,23
+39,Rinnaosa-nimme piirkond,None,22
+40,"Rangluumurd, kinnine",S00-T98,22
+41,Pahaloomuline kasvaja,C00-D48,22
+42,"Sõltuvus, käesolevalt kaine",F00-F99,22
+43,Bakteriaalne vaginoos,N00-N99,22
+44,Parem põlv,M00-M99,21
+45,"Sääre hulgimurd, kinnine",None,21
+46,Keskmine raskusaste,G00-G99,21
+47,Parem põlveliiges endoproteesitud.,Z00-Z99,20
+48,- paroksüsmaalne,I00-I99,19
+49,Täpsustamata paik,V01-Y98,19
+50,Mõõdukas korduv depressioon,F00-F99,18
+51,Ilma olulise käitumishäireta,F00-F99,18
+52,Ja kaelavalu,H60-H95,18
+53,Hulgipaikmed lülisambas,None,17
+54,Wegeneri granulomatoos,M00-M99,17
+55,Äge kõripõletik,J00-J99,17
+56,Kerge korduv depressioon,F00-F99,17
+57,Krooniline lihtlihhen,L00-L99,17
+58,Ühe silma pimedus,H00-H59,17
+59,Esineb hüperlipideemia,E00-E90,17
+60,Silikoonõli tamponaad paremal silmal,H00-H59,16
+61,Roiete hulgimurd,S00-T98,16
+62,"Ainult pindluumurd, kinnine",None,16
+63,Pahaloomuline kasvaja,None,16
+64,Täpsustamata vaskulaarne dementsus,F00-F99,16
+65,Parem õlaliiges,M00-M99,16
+66,"Pingutusstenokardia, stenokardia",I00-I99,16
+67,"Torakaal- [rinna]lülimurd, kinnine",S00-T98,15
+68,"Põlvekedramurd [patellafraktuur], kinnine",None,15
+69,Parem põlveliiges,M00-M99,15
+70,Rinna pahaloomuline kasvaja,C00-D48,15
+71,Veresugulase nõustamine,Z00-Z99,15
+72,Vahetult pärast sünnitust,Z00-Z99,15
+73,Osteoporoosi skriining,Z00-Z99,15
+74,"Keskmise raskusega
+keskmise raskusega",G00-G99,15
+75,Lymei tõbi,None,14
+76,-muu käitumishäire,F00-F99,14
+77,Noorte reumatoidartriit,M00-M99,14
+78,-> sanata,I00-I99,14
+79,Parema põlveliigese endoprotees.,Z00-Z99,14
+80,Fikseerunud kodade virvendusarütmia,I00-I99,14
+81,"Elamisasutus, sportlik tegevus",None,14
+82,Parem hüppeliiges,M00-M99,13
+83,Vasak põlveliiges,M00-M99,13
+84,Paige täpsustamata,None,13
+85,Vasaku puusaliigese artroos.,M00-M99,13
+86,Gonarthrosis bilateralis,M00-M99,13
+87,Parem puusaliiges,Z00-Z99,13
+88,Kodade fibrillatsioon,I00-I99,12
+89,Asthma bronchiale,J00-J99,12
+90,Parema puusaliigese artroos.,M00-M99,12
+91,Mõlema põlveliigese artroos.,M00-M99,12
+92,Krooniline b-viirushepatiit delta-agensita,A00-B99,12
+93,- fikseerunud,I00-I99,12
+94,Paroksüsmaalne kodade virvendusarütmia,I00-I99,12
+95,Täpsustamata dementsus,None,11
+96,"Reieluukeha [-diafüüsi] murd, kinnine",S00-T98,11
+97,"Roidemurd, kinnine",None,11
+98,-  myop.,H00-H59,11
+99,Vasak põlv,M00-M99,11
+100,Haiguste somatisatsiooniga,N00-N99,11
+101,Ruptura mucosae vaginae,O00-O99,11
+102,"/täielik või täpsustamata,tüsistusteta/",O00-O99,10
+103,Subkortikaalne vaskulaarne dementsus,F00-F99,10
+104,Vasak hüppeliiges,M00-M99,10
+105,Allergia ei kinnitunud,Z00-Z99,10
+106,Varem läbipõetud,I00-I99,10
+107,Kaela ja õlavöötmes,M00-M99,10
+108,Kaela-rinnaosa piirkond,None,10
+109,Spordi- ja kehakultuuriväljakud [asutused],V01-Y98,10
+110,Raskekujuline müasteenia,G00-G99,9
+111,Täpsustamata sapiteed,C00-D48,9
+112,"Primaarne skleroseeriv kolangiit, maksatsirroos",K00-K93,9
+113,Vasak õlaliiges,M00-M99,9
+114,Nimme-ristluu piirkond,M00-M99,9
+115,Funktsionaalne düspepsia,K00-K93,9
+116,Kaela- ja nimmeosas,M00-M99,9
+117,Sünnitusjärgne kontroll,Z00-Z99,9
+118,"Raskekujuline, aPAP ravi testimine",G00-G99,9
+119,Tega agorafoobia,None,9
+120,Ventrikulaarne ekstrasüstoolia,I00-I99,9
+121,Sicca ?,H00-H59,9
+122,Aordiklapi bioprotees,Z00-Z99,9
+123,- põlveliigesed,M00-M99,9
+124,"Fikseerunud, Marevanravil",I00-I99,9
+125,Mitraal(klapi) puudulikkus-mõõdukas,I00-I99,9
+126,Kitsad hammaskaared,K00-K93,9
+127,. Muud kirurgilised menetlused,V01-Y98,9
+128,"Abordi-, emakavälise raseduse ja",O00-O99,8
+129,Põlvekedramurd [patellafraktuur],S00-T98,8
+130,Parem põlveliiges,Z00-Z99,8
+131,Takistatud defekatsioon,K00-K93,8
+132,Infertilitas primaria,N00-N99,8
+133,Olulise käitumishäirega,None,8
+134,Südamekahjustusega hüpertooniatõbi (kongestiivse) südamepuudulikkusega.,I00-I99,8
+135,Taustaretinopaatia mõlemas silmas,None,8
+136,Osteoporoosi suhtes,Z00-Z99,8
+137,Lyme`i tõbi,A00-B99,8
+138,Bursitis subacromialis sinistra,M00-M99,8
+139,Venoosne ekseem,L00-L99,8
+140,Inf. bilat.,J00-J99,8
+141,"Kliiniliselt kahtlus
+kliiniliselt kahtlus",A00-B99,8
+142,. Muu täpsustatud hüpotüreoos,E00-E90,8
+143,Muu hüpotüreoos.,E00-E90,8
+144,Liiklusvälises õnnetuses vigastatud erikonstruktsioonig,None,8
+145,Subduraalne traumaatiline hemorraagia,S00-T98,7
+146,Keskmine raskus,G00-G99,7
+147,Parem puus,M00-M99,7
+148,Vasak puus,M00-M99,7
+149,Vasak puusaliiges,M00-M99,7
+150,Artroskoopia järgne seisund,Z00-Z99,7
+151,- remissioonis,M00-M99,7
+152,"Algav preproliferatiivne,osaliselt laserdatud",None,7
+153,. Korduv depressioon remissioonis,F00-F99,7
+154,Bakteriaalne vaginoos,A00-B99,7
+155,Mõlema põlveliigese endoprotees.,Z00-Z99,7
+156,Kaasneva ninaneelunohuga,J00-J99,7
+157,Autoimmuunne hüpotüreoos,E00-E90,7
+158,Silma sidekest,C00-D48,7
+159,Vasak põlveliiges,Z00-Z99,7
+160,Bakteriaalne  vaginoos,N00-N99,7
+161,Autoimmuunne türeoidiit,O00-O99,7
+162,Ruptura labii minores bilateralis,O00-O99,7
+163,Vasak põlv,Z00-Z99,7
+164,Parema puusaliigese endoprotees,Z00-Z99,7
+165,"Hyperkeratosis calcanei
+hyperkeratosis calcanei",L00-L99,7
+166,Mõõdukas raskusaste,G00-G99,7
+167,Erakorraline keisrilõikesünnitu,O00-O99,6
+168,"Roiete hulgimurd, kinnine",None,6
+169,Sääre hulgimurd,S00-T98,6
+170,Multifokaalne motoorne neuropaatia,G00-G99,6
+171,Parem küünarliiges,M00-M99,6
+172,Seroosne adenokartsinoom,C00-D48,6
+173,Ainult pindluumurd,S00-T98,6
+174,Äge intoksikatsioon,F00-F99,6
+175,Maksa echinococcus granulosus-nakkus,A00-B99,6
+176,"Õlavarreluukeha [-diafüüsi] murd, kinnine",S00-T98,6
+177,Kuiv sündroom [sjögren],M00-M99,6
+178,Raskekujuline  - CPAP-ravi testimine,G00-G99,6
+179,Raskekujuline  - aPAP-ravi testimine,G00-G99,6
+180,Ägenemiste ja remissioonidega kulg,G00-G99,6
+181,Normaalne luutihedus,Z00-Z99,6
+182,Vasakul> paremal,H60-H95,6
+183,Kerge kulg,J00-J99,6
+184,"Philadelphia positiivne, krooniline faas",C00-D48,6
+185,"Krooniline migreen
+Krooniline migreen",G00-G99,6
+186,Vasak põlveliiges endoproteesitud.,Z00-Z99,6
+187,Nummularis et inversa,L00-L99,6
+188,Mõlema põlveliigese endoprotees,Z00-Z99,6
+189,Ja kaelavalu vasakul,H60-H95,6
+190,Ruptura vaginae,O00-O99,6
+191,"+ konjuktiviit
++ konjuktiviit",J00-J99,6
+192,Mõlemad puusaliigesed,Z00-Z99,6
+193,. Elamisasutus,V01-Y98,6
+194,"Elamisasutus, muu täpsustamata tegevus",None,6
+195,Liiklusõnnetuses vigastatud juht,V01-Y98,6
+196,"Redelile(-lilt) kukkumine, kodu",V01-Y98,6
+197,Täpsustamata äge apendit,K00-K93,5
+198,. Äge vertebrobasilaarne puudulikkus.,I00-I99,5
+199,Reieluukeha [-diafüüsi] murd,S00-T98,5
+200,"Puukentsefaliidid (viirusentsefaliidid), kesk-euroopa puukentsefaliit",A00-B99,5
+201,Tupeköndi prolaps,N00-N99,5
+202,"Häbemeluumurd, kinnine",None,5
+203,Pityriasis amiantacea,L00-L99,5
+204,Luu ja liigesekõhr,C00-D48,5
+205,Vaagnapiirkond ja reis,None,5
+206,Parem ranne,M00-M99,5
+207,Mõlema  puusaliigese endoprotees,M00-M99,5
+208,"Operatsioonihaava infektsioon.
+Operatsioonihaava infektsioon.",S00-T98,5
+209,"Bilateraalne, opereeritud",G00-G99,5
+210,Eczema microbicum,L00-L99,5
+211,Mittespetsiifiline krooniline alaseljavalu.,M00-M99,5
+212,: paroksüsmaalne,I00-I99,5
+213,"Kehatüvi, suu limaskest",L00-L99,5
+214,Kahtlus stenokardiale,Z00-Z99,5
+215,Kahtlus köhavariantsele astmale,J00-J99,5
+216,Krooniline neuropaatiline valu,None,5
+217,Sääre veresoonte allrgiline vaskuliit,I00-I99,5
+218,Kõhre-roide ühenduse sündroom [tietze],M00-M99,5
+219,Kolangio- e spis,C00-D48,5
+220,Intradermaalne neevus,C00-D48,5
+221,"Viirustüükad [soolatüükad]
+taldadel",A00-B99,5
+222,"Herpesviirusnakkused [herpes simplex], herpesviirus-silmahaigus",A00-B99,5
+223,Keratosis pilaris,L00-L99,5
+224,-kerge kulg,J00-J99,5
+225,-käitumishäire märkimata,F00-F99,5
+226,"Adenocarcinoma prostatae
+Adenocarcinoma prostatae",C00-D48,5
+227,Paremas õlas,M00-M99,5
+228,Méni?re'i tõbi,None,5
+229,Kahtlus isheemiatõvele,Z00-Z99,5
+230,"Kahtlus, paremal",H60-H95,5
+231,Mõlema puusaliigese endoprotees,Z00-Z99,5
+232,Eczema craquele,L00-L99,5
+233,Anaemia post partum.,O00-O99,5
+234,Krooniline neerupuudulikkus,D50-D89,5
+235,Subarahnoidaalne traumaatiline hemorraagia,S00-T98,5
+236,Paroksüsmaalne vorm,I00-I99,5
+237,Kitsas kõvasuulae kaar,K00-K93,5
+238,Mitraalklapi bioprotees,Z00-Z99,5
+239,Anamneesis paroksüsmid,I00-I99,5
+240,Diabetes gestationalis (dieetravi),O00-O99,5
+241,Läbipõetud müokardiit,I00-I99,5
+242,"Düstooniate, hüpokineesi ja treemoriga",G00-G99,5
+243,Muud reumatoidartriidid.,M00-M99,5
+244,. Seronegatiivne reumatoidartriit,M00-M99,5
+245,Tööstus- ja ehituspiirkond,V01-Y98,5
+246,"Elamisasutus, muu täpsustatud tegevusega",None,5
+247,Fibrillatio atriorum,I00-I99,4
+248,Täpsustamata maks,C00-D48,4
+249,Hulgipaikmed  lülisambas,None,4
+250,Paremal käel,G00-G99,4
+251,Cholecystitis chronica,K00-K93,4
+252,Ägenemiste ja remissioonidega,G00-G99,4
+253,Vasaku puusaliigese endoproteesi luksatsioon,S00-T98,4
+254,Sekundaarselt progresseeruv,G00-G99,4
+255,"Kergekujuline, päevane liigunisus",G00-G99,4
+256,Mehhaaniline tüsistus,S00-T98,4
+257,Kolmanda astme verejooks,None,4
+258,Sigmasoole divertikuloos,K00-K93,4
+259,Täpsustamata naissuguelund,C00-D48,4
+260,"Esmane generaliseerunud (osteo)artroos
+Polüartroos",M00-M99,4
+261,Anaemia post partum. Haemotransfusio,O00-O99,4
+262,Vasakul endoprotees,M00-M99,4
+263,Parem kõrv,H60-H95,4
+264,Südamekahjustusega hüpertooniatõbi (kongestiivse) südamepuudulikkusegai,I00-I99,4
+265,Valge kitli sündroom,O00-O99,4
+266,Kaela -ja nimmeosa,M00-M99,4
+267,Keskmine raskusaste aPAP-ravi testimine,G00-G99,4
+268,Bilateraalsed fibroadenoomid,C00-D48,4
+269,Parem jalg,M00-M99,4
+270,. Anamneesis,M00-M99,4
+271,Klippeli-feili sündroom,Q00-Q99,4
+272,Silikoonõli vasakus silmas,H00-H59,4
+273,Sekundaarne erütrotsütoos,D50-D89,4
+274,Kaela osteokondroos,M00-M99,4
+275,"Reite sisepindadel
+reite sisepindadel",L00-L99,4
+276,Ilma lahtise koljusisese haavata,None,4
+277,. kinnine,S00-T98,4
+278,Häbeme piirkond,L00-L99,4
+279,Algav sõrmeliigeste artroos,M00-M99,4
+280,Autoimmuunne türeoidiit.,O00-O99,4
+281,Caries secundaris,K00-K93,4
+282,Kahtlus allergilisele riniidile,J00-J99,4
+283,Kerge obstruktsioon,J00-J99,4
+284,Tekkeaeg teadmata,I00-I99,4
+285,Follikulaarne neoplaasia,E00-E90,4
+286,"Hüpereosinofiilne sündroom
+hüpereosinofiilne sündroom",D50-D89,4
+287,Vasem hüppeliiges,M00-M99,4
+288,Allergiline bronhioliit,J00-J99,4
+289,Paremal käel,M00-M99,4
+290,/ türeotoksikoos/,Z00-Z99,4
+291,Parem käsi,G00-G99,4
+292,Keskmise raskusega;  aCPAP-ravi testimine,G00-G99,4
+293,Vasak puusaliiges,Z00-Z99,4
+294,/ polypus fibroepithelialis,None,4
+295,Enterococcus faecalis,N00-N99,4
+296,Sünnitusjärgne kontroll,O00-O99,4
+297,Tsütoloogiliselt kinnitatud: eosinofiilid,J00-J99,4
+298,? Allergia ?,H00-H59,4
+299,"Bilat. gonartroos, sõrmeliigeste artroos.",M00-M99,4
+300,Gonarthrosis bilat,M00-M99,4
+301,Vasak rind,N00-N99,4
+302,Orgaanilised meeleoluhäired,F00-F99,4
+303,Allergia mesilasmürgile,Z00-Z99,4
+304,Rasunäärmete hüperplaasia,L00-L99,4
+305,"Permanentne, rivaroksabaanravil",I00-I99,4
+306,Vasak pool,N00-N99,4
+307,Kaela ja nimmeosas,M00-M99,4
+308,. Vasakpoolne spastiline hemiparees.,G00-G99,4
+309,. Parempoolne spastiline hemiparees.,G00-G99,4
+310,Alumine spastiline paraparees.,G00-G99,4
+311,Ruptura colli uteri,O00-O99,4
+312,Ruptura colli uteri.,O00-O99,4
+313,. Podagra,M00-M99,4
+314,Mõlemad põlveliigesed,Z00-Z99,4
+315,Algus teadmata.,I00-I99,4
+316,Varem läbipõetud müokardiit,I00-I99,4
+317,Kõrgenenud  kolesterool,E00-E90,4
+318,Granuloom vasakul jalal,L00-L99,4
+319,"Keratosis pilaris
+keratosis pilaris",L00-L99,4
+320,Parempoolne hüdrotseele,N00-N99,4
+321,Parempoolne spastiline hemiparees käsi>jalg,G00-G99,4
+322,Dextroscoliosis thoracalis,M00-M99,4
+323,"Liiklusõnnetus, muu täpsustatud tegevusega",None,4
+324,Kodus sportliku tegevuse juures,None,4
+325,Escherichia coli,N00-N99,3
+326,"Subtrohhanteerne [pöörlialune] murd, kinnine",S00-T98,3
+327,- ägenemine,G00-G99,3
+328,Subtrohhanteerne [pöörlialune] murd,S00-T98,3
+329,Parem randmeliiges,M00-M99,3
+330,Esmane kahepoolne gonartr,M00-M99,3
+331,Vana rebendi või vigastu,M00-M99,3
+332,Õlavarreluu proksimaalse,S00-T98,3
+333,"Polüneuropaatia, retinopaatia koos makulopaatiaga",E00-E90,3
+334,Ägenemiste ja remissioonidega vorm.,G00-G99,3
+335,Võõrutusseisund deliiriumiga,F00-F99,3
+336,Õlavarre pöörajalihaste kõõluskätise [-tanu],S00-T98,3
+337,Kerge-keskmine raskus,G00-G99,3
+338,"Vasak, parem endopoteesitud",M00-M99,3
+339,Parem säär,L00-L99,3
+340,Ristluu piirkonnas,L00-L99,3
+341,Coxarthrosis bilateralis,M00-M99,3
+342,Vasakpoolne kubitaalkanali sündroom,G00-G99,3
+343,- paremal,M00-M99,3
+344,Parem labajalg,L00-L99,3
+345,Retinopaatia ja polüneuropaatia,E00-E90,3
+346,Metaboolne sündroom,K00-K93,3
+347,"Steatohepatiit, metaboolne sündroom",K00-K93,3
+348,"Maovigastus, õõnt avava haavaga",None,3
+349,Gonarthrosis deformans dextra,M00-M99,3
+350,"Parem põlveliiges, vasak endoproteesitud",M00-M99,3
+351,Infertilitas secundaria,N00-N99,3
+352,Mittediferentseerunud artriit,M00-M99,3
+353,"Võrkkestairdeta rebendid, odex",H00-H59,3
+354,Anaemia post partum,O00-O99,3
+355,Sõrmusrakuline vähk,C00-D48,3
+356,Jäseme luude sisefiksatsiooni seadi,None,3
+357,Takistatud defekatsiooni sündroom,K00-K93,3
+358,Inf myocardii pristinus,I00-I99,3
+359,Nimmevalu (+),M00-M99,3
+360,Mujal klassifitseerimata neuropaatiline kusep,None,3
+361,Tugevate valudega,M00-M99,3
+362,Vasakul op-i järgne,H60-H95,3
+363,"Hüpertensioon, rütmihäired",Z00-Z99,3
+364,Vasak põlv.,M00-M99,3
+365,Diabeetiline retinopaatia ja polüneuropaatia,E00-E90,3
+366,Normaalne luutihedus.,Z00-Z99,3
+367,Parem labajalg,M00-M99,3
+368,Keskmise raskusega;  aCPAP-ravil,G00-G99,3
+369,Psoriaasi osas jälgimisele,L00-L99,3
+370,Varajane kliimaks,N00-N99,3
+371,Raynaud` sündroom,I00-I99,3
+372,_Kolangio- e spis,C00-D48,3
+373,Kaasneva konjuktiviidiga,J00-J99,3
+374,- vasak iliosakr liidused.,M00-M99,3
+375,"Erüteem, teleangiektaasiad
+erüteem, teleangiektaasiad",L00-L99,3
+376,"Parem ranne
+parem ranne",M00-M99,3
+377,Keskmise raskusega; aPAP-ravi testimine,G00-G99,3
+378,Vasakul käel,M00-M99,3
+379,- kahepoolselt,M00-M99,3
+380,"Küünarluukeha [diafüüsi] murd, kinnine",S00-T98,3
+381,Vatsakestevaheseina puue,Q00-Q99,3
+382,"Kätel, kliiniliselt",L00-L99,3
+383,Morbus Crohn,O00-O99,3
+384,Vasak kukekannus,M00-M99,3
+385,Kerge vasakpoolne hemiparees.,G00-G99,3
+386,- paremal,G00-G99,3
+387,"Stenokardiasündroom, isheemiline valu rindkeres",None,3
+388,"Püsiobstruktsiooniga, raviga kontrollitud",J00-J99,3
+389,Streptococcus agalactiae,N00-N99,3
+390,Mõlemad õlaliigesed,M00-M99,3
+391,Vasak õlaliiges.,M00-M99,3
+392,Atoopiline dermatiit,O00-O99,3
+393,Kaasuvalt koormusindutseeritav,J00-J99,3
+394,-    myop.,H00-H59,3
+395,-  mixt.,H00-H59,3
+396,Lõike- ja torkevigastus,Z00-Z99,3
+397,Täpsustamata kesknärvisüsteem,C00-D48,3
+398,"Intermitteeruva kuluga
+intermitteeruva kuluga",J00-J99,3
+399,-intermiteeruva kuluga,J00-J99,3
+400,Autonoomse närvisüsteemi muud haigusseisundid,G00-G99,3
+401,Vasem ranne,M00-M99,3
+402,Kahtlus valikulisele antikehapuudulikkusele,Z00-Z99,3
+403,Sensibiliseerumine kodutolmulestale,J00-J99,3
+404,Tservikogeenne peavalu.,G00-G99,3
+405,Diffuusne alopeetsia,L00-L99,3
+406,"Varbaküüntel, kliiniliselt",A00-B99,3
+407,Menstruatsioonieelne pingesündroom,N00-N99,3
+408,Kaltsitoniin normist kõrgem,E00-E90,3
+409,Püsivate sümptomitega; mõõduka raskusega,J00-J99,3
+410,Allergeeni ei leia,J00-J99,3
+411,Vasak> parem,M00-M99,3
+412,Reaktiivsed artropaati,M00-M99,3
+413,Ekstrasüstolid; ventrikulaarsed,I00-I99,3
+414,"Autoimmuunne türeoidiit
+autoimmuunne türeoidiit",E00-E90,3
+415,Kuperoosne   näonahk,L00-L99,3
+416,Arthralgia genus bilateralis,M00-M99,3
+417,Emakakaela düsplaasia kahtlus,Z00-Z99,3
+418,Muu spondüloos kaelaosas,M00-M99,3
+419,Mitraal(klapi) puudulikkus; opereeritud,I00-I99,3
+420,Kahtlus neeruhaigusele,Z00-Z99,3
+421,"Anamneesis, praegu siinusrütm",I00-I99,3
+422,Mao erosioonid,K00-K93,3
+423,- kontusioon,G00-G99,3
+424,"Erüteem, teleangiektaasiad",L00-L99,3
+425,Mõlemad õlad,M00-M99,3
+426,Lülisamba kaela- ja nimmeosas,M00-M99,3
+427,Polypus fibroglandularis cervicis,N00-N99,3
+428,Menstruatsioonitsükli häire,N00-N99,3
+429,Bilateraalselt endoproteesitud,M00-M99,3
+430,Üks neer,N00-N99,3
+431,"Viirustüükad [soolatüükad]
+talla all",A00-B99,3
+432,Kodusel hapnikravil,J00-J99,3
+433,Torakaal ja lumbaalosas,M00-M99,3
+434,Müofastsiaalsed valud kaela-õlavöötmes,M00-M99,3
+435,Korduvad uroinfektsioonid,N00-N99,3
+436,Mõlemad põlveliigesed,M00-M99,3
+437,Kodune hapnikravi,J00-J99,3
+438,Vasak labajalg,Z00-Z99,3
+439,Mõlema käe pöidlad,L00-L99,3
+440,Lõhnaainete segu,L00-L99,3
+441,Mõlema  puusaliigese endoprotees.,M00-M99,3
+442,Vasem õlaliiges,M00-M99,3
+443,ILE-järgne seisund,M00-M99,3
+444,Spiraali soov,Z00-Z99,3
+445,Vasakpoolne spastiline hemiparees,G00-G99,3
+446,. Fibrillatio atriorum permanens,I00-I99,3
+447,Ruptura labii minores bilateralis.,O00-O99,3
+448,. alumine spastiline paraparees,G00-G99,3
+449,Ruptura regio clitoris,O00-O99,3
+450,Ruptura mucosa vaginae,O00-O99,3
+451,Krooniline neerupuudulikkus+rauavaegus,D50-D89,3
+452,Parema puusa revisioonprotees,Z00-Z99,3
+453,Mitraal(klapi) puudulikkus ( mõõdukas),I00-I99,3
+454,Mittereumaatiline trikuspidaal(klapi)puudulikkus ( mõõdukas),I00-I99,3
+455,Isheemiline kardiomüopaatia.,I00-I99,3
+456,. Erosiivne gastriit.,K00-K93,3
+457,- ägenemine,J00-J99,3
+458,Hemolüütiline aneemia,D50-D89,3
+459,Erosioonid maos,K00-K93,3
+460,Osteopeenia kalduvusega osteoporoosile,M00-M99,3
+461,Bulloosne emfüseem,J00-J99,3
+462,Parema põlveliigese endoprotees,Z00-Z99,3
+463,"Dikoriaalsed, diamniaalsed",O00-O99,3
+464,Erosiivne gastriit,K00-K93,3
+465,Vasem puusaliiges,Z00-Z99,3
+466,Supraventrikulaarne bigeminus-tüüpi ekstrasüstoolia,I00-I99,3
+467,Vajab jälgimist,I00-I99,3
+468,Horror partus,O00-O99,3
+469,Emakal .,None,3
+470,Rektotseele+seesmine prolaps,K00-K93,3
+471,Anaemia gravidarum.,O00-O99,3
+472,Vasak jalg amputeeritud,I00-I99,3
+473,Posttrombootiline sündroom,I00-I99,3
+474,Mõlemad puusaliigesed endoproteesitud,M00-M99,3
+475,Kerge intermitteruv,J00-J99,3
+476,Kaltsitoniini tõus,E00-E90,3
+477,Dermatiit labakätel isotretinoiinist,L00-L99,3
+478,Isotretinoiinist lööve kätel,L00-L99,3
+479,. Muud täpsustatud südamerütmitused,I00-I99,3
+480,Mõõdukas persistentne,J00-J99,3
+481,"Kaela-õlavöötmes, kätes",M00-M99,3
+482,Lülisamba rinnaosa hulgimurd,S00-T98,3
+483,"Emakas amputeeritud, kuumahood",N00-N99,3
+484,Naha muud pahaloomulised kasvajad.,C00-D48,3
+485,. Mööduv globaalne amneesia,G00-G99,3
+486,Dieet+ tablettravi,E00-E90,3
+487,Parox -> permanens,I00-I99,3
+488,. Muu hüperlipideemia,E00-E90,3
+489,"Naevus sebaceus
+naevus sebaceus",C00-D48,3
+490,Lichen simplex chronicus,Z00-Z99,3
+491,"Rindade alusi
+rindade alusi",L00-L99,3
+492,---- opereeritud,M00-M99,3
+493,Sekundaarse aneemiaga,N00-N99,3
+494,Insuliinisõltuv suhkurtõbi.,E00-E90,3
+495,Küfoskolioos torakaalosas,M00-M99,3
+496,. Sõltuvus,F00-F99,3
+497,. Küünarliigeste artroos.,M00-M99,3
+498,"Eosinofiilne sündroom
+eosinofiilne sündroom",C00-D48,3
+499,- motoneuronid dist-lt jalgades.,G00-G99,3
+500,Valdavalt ventrikulaarne ekstrasüstoolia,I00-I99,3
+501,"Follikulaarne sõlm
+follikulaarne sõlm",E00-E90,3
+502,/ hüpotüreoos/,Z00-Z99,3
+503,Paremal põlvel,Z00-Z99,3
+504,Streptococcus dysgalactiae,N00-N99,3
+505,. Täpsustamata epilepsia,G00-G99,3
+506,. Kirurgilise operatsiooni ajal,V01-Y98,3
+507,Elamisasutuses muul täpsustamata tegevusel,None,3
+508,Liiklusvälises õnnetuses vigastatud sõitja,V01-Y98,3
+509,Liiklusõnnetuses vigastatud sõitja,V01-Y98,3
+510,Õlavarre pöörajalihaste kõõluskätise sündroo,M00-M99,2
+511,Vasakpoolne spastiline hemiparees,I00-I99,2
+512,Munasarja endometrioos vasakul,N00-N99,2
+513,Valikulise keisrilõikega sünnit,O00-O99,2
+514,Mujal klassifitseerimat,None,2
+515,Tõenäoliselt streptokokk- meningiit.,G00-G99,2
+516,Paremal säärel,A00-B99,2
+517,Ema hooldamine emakakae,O00-O99,2
+518,Mõlema jala gangreeniga,I00-I99,2
+519,Muude paikmete nahaabstsess,L00-L99,2
+520,Konkussioon. Commotio cerebri,S00-T98,2
+521,Insuliinravil.  ja polüneuropaatia.,E00-E90,2
+522,Fibrillatio atriorum persistens,I00-I99,2
+523,"Esmane generaliseerunud (osteo)artroos
+Osteoarthrosis",M00-M99,2
+524,Meningiitiline vorm.,A00-B99,2
+525,Parema puusaliigese endoproteesimine.,M00-M99,2
+526,"Sääre hulgimurd, lahtine",None,2
+527,Diabetes mellitus,E00-E90,2
+528,Söögitoru rinnaosa,C00-D48,2
+529,/ persisteeriv/,I00-I99,2
+530,EP hoog,G00-G99,2
+531,Söögitoru teadmata loomusega kasvaja,C00-D48,2
+532,"Vasak, paremal endoprotees",M00-M99,2
+533,Teleangiektaasiad antrumis,K00-K93,2
+534,"Konkussioon, lahtise koljusisese haavaga",S00-T98,2
+535,Mittealkohoolne steatohepatiit,K00-K93,2
+536,Dekompensatsioon lähianamneesis,I00-I99,2
+537,Mõlemal jalasäärel,I00-I99,2
+538,Ortostaatiline treemor,G00-G99,2
+539,"Et ungium
+et ungium",L00-L99,2
+540,Siinusrütm taastus elektrilise kardioversiooniga,I00-I99,2
+541,Depressiivne faas,F00-F99,2
+542,Hernia hiatus oesophagi,K00-K93,2
+543,Maksa-kõhunäärmeampull [vateri],C00-D48,2
+544,Generaliseerunud ekseem,L00-L99,2
+545,Taastus siinusrütm,I00-I99,2
+546,Klebsiella oxytoca,J00-J99,2
+547,Laproskoopiline steriliseerimine,Z00-Z99,2
+548,Cholecystitis chronica calculosa,K00-K93,2
+549,Traumatica odex,H00-H59,2
+550,Järgne seisund,A00-B99,2
+551,Valu vasaku puusaliigese piirkonnas.,S00-T98,2
+552,Parem põlve protees,S00-T98,2
+553,Parkinsonistliku sündroomiga,G00-G99,2
+554,Cysta dermoides ovarii sinistri,C00-D48,2
+555,Sapipõie empüeem,K00-K93,2
+556,Tonsillektoomia järgne,S00-T98,2
+557,Emakakaela konisatsioonijärgne veritsus,N00-N99,2
+558,"Söövitusjärgne, stenditud",K00-K93,2
+559,Vasaku puusaproteesi loksumine,S00-T98,2
+560,Vasak käsi,None,2
+561,Lühikese soole sündroom,K00-K93,2
+562,Carcinoma papillare,C00-D48,2
+563,"Polüneuropaatia, retinopaatia",E00-E90,2
+564,Sekundaarselt progresseeruv vorm,G00-G99,2
+565,Kivi spontaanselt väljunud,K00-K93,2
+566,Cysta dermoides ovarii dextri,C00-D48,2
+567,Adenocarcinoma  prostatae,C00-D48,2
+568,Fikseerunud tahhüfrekventne virvendus,I00-I99,2
+569,Müelodüsplastiline sündroom,C00-D48,2
+570,"Persisteeruv, siinusrütm taastunud medikamentoosselt",I00-I99,2
+571,Supraventrikulaarne ekstrasüstoolia,I00-I99,2
+572,"Raskes astmes
+raskes astmes",G00-G99,2
+573,Failed back sündroom,R00-R99,2
+574,Parem jalg,I00-I99,2
+575,Parem puusaliiges,M00-M99,2
+576,Segatüüpi keskmises astmes,G00-G99,2
+577,. Spinaalstenoos nimmeosas.,M00-M99,2
+578,Paremal frontaalsagaras,I00-I99,2
+579,Täpne tekkeaeg teadmata,I00-I99,2
+580,Emakakaela prolaps,N00-N99,2
+581,/ Parkinson-plus sündroom,G00-G99,2
+582,"Pahaloomuline kasvaja
+neuroendokriinne vähk",C00-D48,2
+583,Meditsiiniline abort:,O00-O99,2
+584,"Ristluumurd, kinnine",None,2
+585,Taastatud siinusrütm elektrilise kardioversiooniga,I00-I99,2
+586,"Nefropaatia, retinopaatia, neuropaatia",E00-E90,2
+587,Mõlemad labajalad,S00-T98,2
+588,Täpsustamata seedeelund,C00-D48,2
+589,Vasaku õlaliigese artroos,M00-M99,2
+590,Myoma uteri multiplex,C00-D48,2
+591,Krooniline migreen.,G00-G99,2
+592,. Vaagnapiirkond ja reis,None,2
+593,Vasak silm,H00-H59,2
+594,"Kerge, intermiteeruv",J00-J99,2
+595,Reieluu hulgimurrud -vasak.,S00-T98,2
+596,. Atoopiline dermatiit?,L00-L99,2
+597,Vasak küünarliiges,M00-M99,2
+598,Lentigo maligna melanoma,C00-D48,2
+599,Allergiline vulviit?,N00-N99,2
+600,"Parem õlg
+parem õlg",M00-M99,2
+601,Eczema manuum,L00-L99,2
+602,Hernia cicatricis,K00-K93,2
+603,Paremas kõrvas,H60-H95,2
+604,"Parema kopsu kesksagaras, paranemisfaasis",J00-J99,2
+605,- vestibulopaatia,H60-H95,2
+606,Paremal pontotserebellaarpiirkonnas.,C00-D48,2
+607,"Paremal alasagaras, paranenud",J00-J99,2
+608,Ülalaugude konj. papillaarsus,H00-H59,2
+609,Morgagni tüüpi seniilkatarakt osin,H00-H59,2
+610,Muud vinnid; täiskasvanute akne,L00-L99,2
+611,- vasak hüppeliiges.,M00-M99,2
+612,"Tolmulestad,varaõitsevate puude õietolm",J00-J99,2
+613,Analüüsis candida,A00-B99,2
+614,Dieet+ metformiinravi,O00-O99,2
+615,Missed abortion,O00-O99,2
+616,Allergia suhtes,Z00-Z99,2
+617,- linea alba,K00-K93,2
+618,Vasaku õlaliigese protees,Z00-Z99,2
+619,Lingulõikuse järgselt,Z00-Z99,2
+620,Lichen planus laadne keratoos,L00-L99,2
+621,Intraduktaalne papilloom paremal,C00-D48,2
+622,Atüüpilise kuluga,K00-K93,2
+623,Vasem näopool,Q00-Q99,2
+624,Vasaku ureeteri konkrement,N00-N99,2
+625,Ja subseroosne,C00-D48,2
+626,Mõõduka raskusega,G00-G99,2
+627,Lichen sclerosus,N00-N99,2
+628,"Raskekujuline, aCPAP ravi testimine",G00-G99,2
+629,Täpsustamata valu,R00-R99,2
+630,Radikulopaatia cervicalis,M00-M99,2
+631,"Keskmine raskus, raviga kompenseeritud.",J00-J99,2
+632,"Paremal perf, tümpanoplastikajärgne kõrv",H60-H95,2
+633,Sekundaarne pulmonaarhüpertensioon,I00-I99,2
+634,Ja kaelavalu.,H60-H95,2
+635,TÄpsustamata p_hjusega,L00-L99,2
+636,"Pernitsioosne aneemia
+Pernitsioosne aneemia",D50-D89,2
+637,Emakaõõnt deformeeriv,C00-D48,2
+638,"Vasak põlv
+vasak põlv",Z00-Z99,2
+639,Mikroadenoomi kahtlus,E00-E90,2
+640,Intradermaalsed neevused,C00-D48,2
+641,Paremal õlal,M00-M99,2
+642,Kiiritusjärgne pneumoskleroos,J00-J99,2
+643,Mõõdukas obstruktsioon,J00-J99,2
+644,Extrasystolia supraventricularis,O00-O99,2
+645,Süsteemse sidekoehaiguse suhtes,Z00-Z99,2
+646,. Kahtlus.,G00-G99,2
+647,"Kahepoolne, paremal enam",G00-G99,2
+648,Emakakaela düsplaasia ja konisatsioon,Z00-Z99,2
+649,Erütematoosne staadium,L00-L99,2
+650,Lennureisiga seotud peavalu.,G00-G99,2
+651,"Bilateraalne, vasakul>paremal",G00-G99,2
+652,Keskmine aPAP-ravi testimine,G00-G99,2
+653,Laparotoomiahaava dehistsents,Z00-Z99,2
+654,Tülootiline ekseem? ?,L00-L99,2
+655,Vasakus põlves,M00-M99,2
+656,. Mittediferentseerunud artriit.,M00-M99,2
+657,Raviga kompenseeritud,J00-J99,2
+658,Kuiv silm,H00-H59,2
+659,Peanaha ja küünte haaratus,L00-L99,2
+660,Müofastsiaalsed kiirguvad valud,M00-M99,2
+661,Proliferatiivne vitreoretinopaatia,None,2
+662,Allergia Amoxicillinile,L00-L99,2
+663,Astma kahtlus,J00-J99,2
+664,Traumajärgne peavalu,G00-G99,2
+665,"Vasak säär, fibula koht",M00-M99,2
+666,Varem diagnoositud,J00-J99,2
+667,"Kollaskehatsüst, apoplexia",N00-N99,2
+668,Parema hüppeliigese kolmikartrodees,Z00-Z99,2
+669,Kliiniline kahtlus,L00-L99,2
+670,Parema liigesjätke hüpertroofia,M00-M99,2
+671,"Kodutolmulest, kass; ägenemine",J00-J99,2
+672,"Paroksüsm, lahenemine",I00-I99,2
+673,. Muu düstoonia,G00-G99,2
+674,Paremal op-i järgne,H60-H95,2
+675,Parem ranne,S00-T98,2
+676,"""tükk"" kurgus",R00-R99,2
+677,/ günekomastia/,N00-N99,2
+678,/ mitte günek/,R00-R99,2
+679,Parempoolne pleuropneumoonia resorbeerumisfaasis,J00-J99,2
+680,Osteopeenia faas,M00-M99,2
+681,Permanentne kodade virvendus,I00-I99,2
+682,Mehega seonduv?,N00-N99,2
+683,Songa kahtlus,Z00-Z99,2
+684,Labajala korrektsioon.,Z00-Z99,2
+685,"Abaluumurd, kinnine",S00-T98,2
+686,Pseudokoliinesteraasi defitsiit,Z00-Z99,2
+687,/ polypus fibroepithelialis.,None,2
+688,Varaõitsevad puud ja puju,J00-J99,2
+689,Aksonaalne sensoor>motoorne polüneuropaatia,G00-G99,2
+690,"CT-uuringul kahtlus pannikuliidile, jälgimisel",K00-K93,2
+691,Muu spondüloos nimmeosas,M00-M99,2
+692,Vasakul jalal,M00-M99,2
+693,Parem küünarnukk,M00-M99,2
+694,"Preproliferatiivne,osaliselt laserdatud
+preproliferatiivne,osaliselt laserdatud",None,2
+695,- osteopeenia faasis,M00-M99,2
+696,Remissiooni ei ole,E00-E90,2
+697,Spondüloplastika väljendunud rinnaosas,M00-M99,2
+698,Mõlema käe sõrmeliigesed,M00-M99,2
+699,Liitium indutseeritud?,L00-L99,2
+700,Vasak õlavars,S00-T98,2
+701,Kukla piirkond,C00-D48,2
+702,Läbimurde veritsus,N00-N99,2
+703,Pigmenteeritud purpura,D50-D89,2
+704,Hereditaarne hüpertrihhoos,L00-L99,2
+705,. Kahtlus.,I00-I99,2
+706,Müofastsiaalsed valud kaelas,M00-M99,2
+707,"Viirustüükad [soolatüükad]
+kaelal",A00-B99,2
+708,"Kahepoolne, kahtlus",G00-G99,2
+709,"Bilateraalselt ingvinaalselt, aksillaarselt",L00-L99,2
+710,Varem  põetud  korduvad  müokardiidid,I00-I99,2
+711,"Mõlema puusaliigese artroos, vasak>parem.",M00-M99,2
+712,Paremal opereeritud,I00-I99,2
+713,"Raske, aPAP- ravi testimine",G00-G99,2
+714,Sotsiaalselt adapteerunud naissoost transseksuaal,F00-F99,2
+715,Kahtlus steatohepatiidile,K00-K93,2
+716,Allergia kõrrelistele.,J00-J99,2
+717,Vasemal jalal,S00-T98,2
+718,Mõõdukas raskusaste,J00-J99,2
+719,Ristluu ja ristluu-õndraluu piirkond,None,2
+720,"Paremal, osteomüeliidi järgne deformatsioon",M00-M99,2
+721,- vaskulaarne entsefalopaatia,I00-I99,2
+722,- parem õlaliiges,M00-M99,2
+723,Küünarluukeha [diafüüsi] murd,S00-T98,2
+724,Mittespetsiifiline alaäge spongiootiline dermatiit,L00-L99,2
+725,Remissioon peale radiojoodravi,E00-E90,2
+726,Aeg teadmata,I00-I99,2
+727,"Viirustüükad [soolatüükad]
+verrucae planae",A00-B99,2
+728,"Diabeetiline polüneuropaatia, retinopaatia, nefropaatia",E00-E90,2
+729,Akrofatsiaalne melasm,L00-L99,2
+730,Bursitis trochanterica dextra,M00-M99,2
+731,Paremal op-i järgne.,H60-H95,2
+732,Paremal ägenemine,H60-H95,2
+733,Paremal jalal,M00-M99,2
+734,"Raske püsiobstruktsiooniga
+raske püsiobstruktsiooniga",J00-J99,2
+735,Parem kand,M00-M99,2
+736,Täpsustamata peaaju,C00-D48,2
+737,"Mõlemapoolne, kahtlus",G00-G99,2
+738,Healoomuline kasvaja,None,2
+739,"Raske obstruktsioon, kodusel hapnikravil",J00-J99,2
+740,Primaarne lõikav peavalu.,G00-G99,2
+741,"Vasakul, endoproteesimise järgne",G00-G99,2
+742,Vasakul säärel,L00-L99,2
+743,"Keskmine/raske,  aPAP-ravi testimine",G00-G99,2
+744,Arteriaalne hüpertensioon,Z00-Z99,2
+745,Thyrozol ravil,E00-E90,2
+746,Mittespetsiifiline alaseljavalu,M00-M99,2
+747,Käte liigeste artroosid,M00-M99,2
+748,Parem õlavars,M00-M99,2
+749,Läbipõetud reumokardiit,I00-I99,2
+750,- krooniline peaaju isheemia,I00-I99,2
+751,Artriit lyme'i tõve korral,M00-M99,2
+752,"Kerge kulg, ravimata.",J00-J99,2
+753,Paremal perf.,H60-H95,2
+754,Liigesevalu - mõlemad põlveliigesed,M00-M99,2
+755,Koos hingamisfunktsioonihäirega,M00-M99,2
+756,Ülepingutussündroom ( kahtlus),Z00-Z99,2
+757,Polümorfne ventrikulaarne ekstrasüstoolia,I00-I99,2
+758,Mujal klassifitseerimata valu.,R00-R99,2
+759,Kombineeritud geneesiga,M00-M99,2
+760,Kolmiknärvi neuralgia kahtlus,H60-H95,2
+761,"Intermiteeruva kuluga
+intermiteeruva kuluga",J00-J99,2
+762,Kahtlus autoimmuunsele hepatiidile,K00-K93,2
+763,"Paremal perf, vasakul tümpanoplastikajärgne",H60-H95,2
+764,Takistatud defekatsioon invaginatsiooniga,K00-K93,2
+765,Lootel Turneri sündroom,Z00-Z99,2
+766,. aordiklapi mehaaniline protees,Z00-Z99,2
+767,Parem sinus sphenoidalis,J00-J99,2
+768,-- vasem põlv,M00-M99,2
+769,Seos teiste haiguste somatisatsiooniga,N00-N99,2
+770,Vitio cordis aterosc?,I00-I99,2
+771,-parem põlveliiges,Z00-Z99,2
+772,Jeanine -> Yarina,Z00-Z99,2
+773,Hõõrdest tingitud,L00-L99,2
+774,- parem > vasak,M00-M99,2
+775,Uneapnoe (raske),G00-G99,2
+776,- vasakul,M00-M99,2
+777,Varjatud hüpotüreoos,E00-E90,2
+778,Bursitis subacromialis sinistri,M00-M99,2
+779,Parempoolne hamiparees,I00-I99,2
+780,.Osteoporoosi uuring.,Z00-Z99,2
+781,-   myop.,H00-H59,2
+782,Muu täpsustatud kaelalülide murd,S00-T98,2
+783,"Algus teadmata, fikseerunud.",I00-I99,2
+784,Labakäte artroos.,M00-M99,2
+785,Kerge vorm,N00-N99,2
+786,Kiiritusravi järgselt,K00-K93,2
+787,Et mucosae oris,L00-L99,2
+788,Ravimite indutseeritud peavalu,G00-G99,2
+789,Puusade valu,M00-M99,2
+790,- peaaju vapustus,None,2
+791,Kerge obstruktsiooniga,J00-J99,2
+792,"Mõõduka raskusega, osaliselt kontrollitud",J00-J99,2
+793,Parem käsi,M00-M99,2
+794,- vasak puusaliiges,M00-M99,2
+795,Melanoma malignum parietis abdominis,C00-D48,2
+796,Aurata migreen [tavaline migreen]?,G00-G99,2
+797,Koldeline muutus paremas F-sagaras.,Z00-Z99,2
+798,Myoma multiplex,C00-D48,2
+799,"Kõhukinnisuse, kõhuvalu ja puhitusega",K00-K93,2
+800,Bakeri tsüstiga,M00-M99,2
+801,Vasaku õlaliigese artroos.,M00-M99,2
+802,"Põsel, rinnakul, seljal",L00-L99,2
+803,- latentne rauapuudus,D50-D89,2
+804,"Vasakul, paremal opereeritud",G00-G99,2
+805,Paremal käel.,G00-G99,2
+806,"Sage, perikraniaalsete lihaste pingega",G00-G99,2
+807,Parema jala süvaveenitromboos,I00-I99,2
+808,"Kaelas, õlavöötmes, nimmes",M00-M99,2
+809,Seroosne irdumine vasakul,H00-H59,2
+810,Sagedaste hoogudega.,G00-G99,2
+811,- fixata,I00-I99,2
+812,Düsplastiline neevus?,C00-D48,2
+813,Vasak käsi,M00-M99,2
+814,Mõlemal käel,M00-M99,2
+815,.  Vasakpoolne spastiline hemiparees.,G00-G99,2
+816,Mitraal(klapi) puudulikkus  (möödukas),I00-I99,2
+817,. Tachycardia ventricularis,I00-I99,2
+818,Kirurgilise ja muu medi,S00-T98,2
+819,Ruptura mucosae vaginae.,O00-O99,2
+820,Ristluu piirkonnas.,L00-L99,2
+821,Ruptura vaginae.,O00-O99,2
+822,Anaalsfinkteri defekt,R00-R99,2
+823,Süvenemine dehüdratatsioonist,N00-N99,2
+824,"- äge, ravitud",None,2
+825,Ruptura colli uteri bilateralis,O00-O99,2
+826,Ruptrura vaginae,O00-O99,2
+827,Vasaku pindmise reiearteri trombemboolia,I00-I99,2
+828,Kasvaja infiltratsioon luuüdis kliiniliselt,D50-D89,2
+829,Ruptua labii minores bilateralis,O00-O99,2
+830,Rohke seroosne eritis operatsioonihaavast,S00-T98,2
+831,Ruptura colli uteri bilateralis.,O00-O99,2
+832,. Cardiomegalia.,I00-I99,2
+833,Eakohasel aeglasel kõndimisel,J00-J99,2
+834,Mõlema puusaliigese endoprotessimine,Z00-Z99,2
+835,Muu täpsustatud hüpotüreoos (subkliiniline),E00-E90,2
+836,"Segatüüpi emfüseem
+segatüüpi emfüseem",J00-J99,2
+837,Türeotroopne ja gonadotroopne puudulikkus,E00-E90,2
+838,Kodusel ventilaatorravil,J00-J99,2
+839,Fikseerunud tahhüfrekventne,I00-I99,2
+840,Mõlema õlaliigese artroos.,M00-M99,2
+841,Encephalopathia vascularis,I00-I99,2
+842,Aordiklapi protees,Z00-Z99,2
+843,Vasempoolne nefrostoom,Z00-Z99,2
+844,Vasak õlg,None,2
+845,Inf myoc pristinus,I00-I99,2
+846,- ägenemine,N00-N99,2
+847,Mittereumaatiline trikuspidaal(klapi)puudulikkus (kerge),I00-I99,2
+848,- parempoolne hemiparees,I00-I99,2
+849,Mitraal(klapi) puudulikkus  (kerge),I00-I99,2
+850,Muud täpsustatud orgaanilised psüühikahäire,None,2
+851,Punaliblede settekiiruse suurenemine,R00-R99,2
+852,Stenosis canalis lumbalis,M00-M99,2
+853,Ema hooldamine eelnenud,O00-O99,2
+854,Parem põlveliiges endoproteesitud,M00-M99,2
+855,"- fikseerunud, antikoagulantravil",I00-I99,2
+856,Kaelaarterite ateroskleroos,I00-I99,2
+857,Hetkel siinusrütm,I00-I99,2
+858,Endo- ja eksokriinse puudulikkusega,K00-K93,2
+859,Vasaku põlveproteesi infektsioon,M00-M99,2
+860,Mikroobne ekseem,L00-L99,2
+861,Proteus mirabilis,N00-N99,2
+862,"Inferioorne, aeg teadmata",I00-I99,2
+863,Dystocia colli uteri,O00-O99,2
+864,Platsenta lisasagar,O00-O99,2
+865,Vasakpoolne hemiparees,I00-I99,2
+866,Mõlemad puusaliigesed endoproteesitud.,M00-M99,2
+867,Klebsiella oxytoca,N00-N99,2
+868,Tõenäoliselt vaskulaarne dementsus,None,2
+869,Mõlema pindmise reiearteri stentimine,Z00-Z99,2
+870,"Postoperatiivne, haiglast lahkumisel siinusrütm",I00-I99,2
+871,Mõlemad põlveliigesed endoproteesitud,M00-M99,2
+872,Madaltangsünnitus [väljapääsutangid],O00-O99,2
+873,Elektrilise kardioversiooni järgselt,I00-I99,2
+874,. Fibrillatio atriorum  paroxysmalis,I00-I99,2
+875,Söögitoru kandidoos,A00-B99,2
+876,Antifosfolipiidsündroomi kahtlus,D50-D89,2
+877,Debilitas dolorum secundaria.,O00-O99,2
+878,"Rauavaegus, krooniline haigus",D50-D89,2
+879,Juustega kaetud peanahal,L00-L99,2
+880,"Lähianamneesis, ravitud",N00-N99,2
+881,"Diamniaalsed, dikoriaalsed.",O00-O99,2
+882,Sage ventrikulaarne ekstrasüstoolia,I00-I99,2
+883,Mitraal(klapi) puudulikkus ( kerge),I00-I99,2
+884,Väga raske püsiobstruktsioon,J00-J99,2
+885,Ägeda algusega vaskulaarne dementsus,F00-F99,2
+886,Koos autonoomse närvisüsteemi nähtudega,G00-G99,2
+887,Muude luude pageti tõbi,M00-M99,2
+888,Dieet + metformiinravi,O00-O99,2
+889,- bilat põlveTEP,Z00-Z99,2
+890,. Hypercholesterolaemia,E00-E90,2
+891,. Intestinaalne metaplaasia.,K00-K93,2
+892,Aordiklapi diskprotees,Z00-Z99,2
+893,+ aparaat,G00-G99,2
+894,Hetkel ravita,E00-E90,2
+895,"Vasakpoolne kubitaalkanali sündroom, opereeritud",G00-G99,2
+896,C.Albicans rinnanibudel,A00-B99,2
+897,"Atroofiline kolpiit
+atroofiline kolpiit",N00-N99,2
+898,"Allergiline rinokonjunktiviit
+allergiline rinokonjunktiviit",J00-J99,2
+899,Juuste hoolduse osas,Z00-Z99,2
+900,Harv; perikraniaalsete lihaste pingega.,G00-G99,2
+901,Pindmiste  reiearterite oklusioon,I00-I99,2
+902,Dextroscoliosis lumbalis,M00-M99,2
+903,Verrucae planae,A00-B99,2
+904,Seenhaigus? haudumus? erütrasm?,L00-L99,2
+905,Vasak käsi,L00-L99,2
+906,Mittereumaatiline trikuspidaal(klapi)puudulikkus( kerge-mõõdukas),I00-I99,2
+907,Polüartropaatia - spondüliit,L00-L99,2
+908,Kahtlus psoriaatilisele artriidile,Z00-Z99,2
+909,"Esineb hüperlipideemia
+esineb hüperlipideemia",E00-E90,2
+910,Mirena soov,Z00-Z99,2
+911,Diabetes gestationalis. Dieetravi,O00-O99,2
+912,Episoodid Holter-monitooringu andmetel,I00-I99,2
+913,Kerge primaarne hüpotüreoos,E00-E90,2
+914,"Vasakul, opereeritud",G00-G99,2
+915,. Täpsustamata müokardiit,I00-I99,2
+916,Värske meniski- [võruketta]rebend?,S00-T98,2
+917,Ristivõlvi lamenemine,M00-M99,2
+918,Krooniline neuropaatiline valu.,G00-G99,2
+919,Statiinravi katkestanud,E00-E90,2
+920,"Viirustüükad [soolatüükad]
+sõrmel",A00-B99,2
+921,"Stylalgia, kahtlus",R00-R99,2
+922,. Diabeetiline polüneuropaatia,G00-G99,2
+923,Endoprotees bilater-lt,M00-M99,2
+924,. Küünarvars,None,2
+925,Paroksüsmaalne kodade virvendusarütmia.,I00-I99,2
+926,Vasak käsi,G00-G99,2
+927,Parem reis,L00-L99,2
+928,Subtalaarne artroos vasemal,M00-M99,2
+929,"Bilateraalne, parem>vasak",M00-M99,2
+930,"Sisemised, välimised",I00-I99,2
+931,Kahjustuse tase säärearterite kahjustus,I00-I99,2
+932,Hüsterektoomia koos adneksidega,N00-N99,2
+933,Helicobakter pylori,K00-K93,2
+934,Mõlemad puusaliigesed.,Z00-Z99,2
+935,Vasaku hüppeliigese algav artroos,M00-M99,2
+936,- insuliinresistentsus,E00-E90,2
+937,- vasak,M00-M99,2
+938,Episoodid Holter-monitooringul,I00-I99,2
+939,Vasaku põlve endoprotees.,Z00-Z99,2
+940,Vasakul põlvel,M00-M99,2
+941,"Bilat, postop",H00-H59,2
+942,Thoracic outlet syndrome,I00-I99,2
+943,. Kahepoolne neurosensoorne kuulmisnõrkus,H60-H95,2
+944,"Mittereumaatiline trikuspidaal(klapi)puudulikkus, degeneratiivne, raske",I00-I99,2
+945,Ninavaheseina perf.,J00-J99,2
+946,Segatüüpi emfüseem,J00-J99,2
+947,Parema jalasääre,Z00-Z99,2
+948,Parem põlv,Z00-Z99,2
+949,. Opereeritud.,I00-I99,2
+950,Kahtlus kutse-astmale,J00-J99,2
+951,Murru jääknähud,S00-T98,2
+952,"Kaasasündinud, paremal,opereeritud",Q00-Q99,2
+953,Kahtlus ekstrasüstooliale,R00-R99,2
+954,Vasakul õlal.,M00-M99,2
+955,"Mitraal(klapi) prolaps, väheväljendunud",I00-I99,2
+956,- parem > vasak,G00-G99,2
+957,"Angioma senile
+angioma senile",C00-D48,2
+958,Paremas kuulmekäigus.,A00-B99,2
+959,"Ösofagiit gastro-ösofageaalse tagasivooluhaigusega, kahtlus",K00-K93,2
+960,Kliiniliselt mitteoluline,I00-I99,2
+961,Rasedusajal tekkiv suhkurtõbi (dieetravi),O00-O99,2
+962,Kusepõie täpsustamata neuromuskulaarne düsfun,N00-N99,2
+963,"Somaatiliste sümptomitega
+somaatiliste sümptomitega",F00-F99,2
+964,"Sekundaarne fibromüalgia
+sekundaarne fibromüalgia",None,2
+965,Vasemas kõrvas,H60-H95,2
+966,. Täpsustamata polüneuropaatia,G00-G99,2
+967,Muud polüneuropaatiad.,G00-G99,2
+968,Vasaku keskpöia artroos.,M00-M99,2
+969,"Spondyloarthrosis lumbalis
+Spondyloarthrosis lumbalis",M00-M99,2
+970,- kõrvaloputus.,Z00-Z99,2
+971,Mujal klassifitseerimata kõnehäired.,R00-R99,2
+972,Mitraal(klapi) puudulikkus( kerge),I00-I99,2
+973,Näol ja seljal,L00-L99,2
+974,Tolmune töökeskkond,J00-J99,2
+975,"Algus teadmata, fikseerunud",I00-I99,2
+976,Liigesevalu - põlveliigesed,M00-M99,2
+977,Kaela piirkonna osteokondroos,M00-M99,2
+978,Persisteeriv kodade virvendus,I00-I99,2
+979,Pärast krüoteraapia protseduuri,L00-L99,2
+980,Mitraal(klapi) puudulikkus-kerge,I00-I99,2
+981,Mitraal(klapi) puudulikkus-KERGE,I00-I99,2
+982,Angioma senile,C00-D48,2
+983,"Valulik,sagenenud urineerimine",N00-N99,2
+984,. Kardiaalne/ diabeetiline bulla?,L00-L99,2
+985,Supraventrikulaarne ja ventrikulaarne,I00-I99,2
+986,Parempoolne hemiparees,I00-I99,2
+987,Mõlemad põlved,Z00-Z99,2
+988,Helicobacter pylori positiivne,K00-K93,2
+989,Paremal jalasäärel,A00-B99,2
+990,. Täpsustamata kirurgiline menetlus,V01-Y98,2
+991,". Elamisasutus, sportlik tegevus",None,2
+992,Liiklusväline õnnetus,None,2
+993,Elamisasutuses muul täpsustatud tegevusel,None,2
+994,Kodus muul täpsustamata tegevusel,None,2
+995,Kaubanduse ja teeninduse piirkond,V01-Y98,2
+996,Kodus muul täpsustatud tegevusel,None,2
+997,"Täpsustamata paik, sportlik tegevus",None,2
+998,Polüpoidne siinusdegeneratsioon vasakul,J00-J99,1
+999,Vasakpoolne lumboishialgia,G00-G99,1
+1000,Mõlemad jalad opereeritud,Q00-Q99,1
+1001,Uinutite üledoseerimine,S00-T98,1
+1002,Polyposis coloni sigmoidei,K00-K93,1
+1003,Vasema jala säärel.,L00-L99,1
+1004,"Kusejuhakivi, parem",N00-N99,1
+1005,Seroosne meningiit.,G00-G99,1
+1006,"Ägenemine 
+( Enterococcus+Candida)",N00-N99,1
+1007,Keskmise raskusega.,J00-J99,1
+1008,Fibrillatio atriorum persist,I00-I99,1
+1009,Hernia Spiegeli,K00-K93,1
+1010,/ Mükoplasmapneumoonia.,J00-J99,1
+1011,Muu spondüloos radikulopaatiaga nimmeosas,M00-M99,1
+1012,Hüperplaasia endometrii.,N00-N99,1
+1013,Commotio cerebri,None,1
+1014,Persistens ->sanata,I00-I99,1
+1015,Munasari (vasakpoolne),C00-D48,1
+1016,- ägenemine.,G00-G99,1
+1017,Peopesa sidekirme fibromat,M00-M99,1
+1018,"Äge, parempoolne",J00-J99,1
+1019,Põlvekedraeesne limapaunap,M00-M99,1
+1020,Vasema põlveliigese endoproteesimine,M00-M99,1
+1021,Vasemal opereerimata.,None,1
+1022,Coxarthrosis bilat,M00-M99,1
+1023,Ega mürgistus,None,1
+1024,Täiskasvanute lülisamba osteokondroos nimmeosas,M00-M99,1
+1025,/ persisteertiv/,I00-I99,1
+1026,"Mittetäielik, rohke verejooksuga tüsistunud",O00-O99,1
+1027,Äge neerupuudulikkus,N00-N99,1
+1028,Multiformne glioblastoom vasakus otsmikusagaras.,None,1
+1029,/ persisteeruv/,I00-I99,1
+1030,Põimiku täpsustamata haigusseisund.Neuroborrelioos,G00-G99,1
+1031,Seljaaju kaelaosa kontusioon.,S00-T98,1
+1032,Aju metastaasidega,C00-D48,1
+1033,Menetlusjärgsed vaagnapi,N00-N99,1
+1034,Kanna- [ahilleu,S00-T98,1
+1035,- septiline šokk (urosepsis?),A00-B99,1
+1036,Vasakus hemisfääris.,I00-I99,1
+1037,"Diabeetiline retinopaatia, diabeetiline polüneuropaatia",O00-O99,1
+1038,. Subiileus.,K00-K93,1
+1039,Soole ärritussündroom,K00-K93,1
+1040,Generalisata exacerbata,G00-G99,1
+1041,Muud ja täpsustamata munasarjatsü,N00-N99,1
+1042,. (Imendumishäire),D50-D89,1
+1043,"Paremal.
+Hemiartroplastika.",None,1
+1044,Ja mõlema jala gangreen,E00-E90,1
+1045,". Hantaviirus,kopsuvorm",A00-B99,1
+1046,. Thrombosis sinus venosi?,I00-I99,1
+1047,Kusepõie osalt kattuvate pai,C00-D48,1
+1048,Munajuharasedus vasakul.,O00-O99,1
+1049,Võrkkesta traktsiooni- e tõmbei,H00-H59,1
+1050,"Parem säär, Pseudomonas aeruginosa.",L00-L99,1
+1051,Pöidla ja muu(de) sõrme(de),S00-T98,1
+1052,Spondüloartroos ja mõlemapoolne gonartroos,M00-M99,1
+1053,Häbemeabstsess paremal häbememokal,N00-N99,1
+1054,"Hernia ventralis, cicatrix, recidiva.",K00-K93,1
+1055,Muu migreen  .,G00-G99,1
+1056,- Bradüarütmia,I00-I99,1
+1057,. Inf myocardii pristinus,I00-I99,1
+1058,Emakasisese eostumis,S00-T98,1
+1059,Fibrillatio atri parox,I00-I99,1
+1060,Kollaskehatsüst vasakul,N00-N99,1
+1061,Sinistri pars inferior,N00-N99,1
+1062,Konkussioon  Commotio cerebri,S00-T98,1
+1063,Mõlemas hemisfääris ja ajuvatsakestes.,I00-I99,1
+1064,Ärritatud soole sündroom?,K00-K93,1
+1065,Ärritatud sool kõhulahtisusega,K00-K93,1
+1066,EP sündroom,G00-G99,1
+1067,Mittetoksiline hulgisõ,E00-E90,1
+1068,Sigmasoole kasvaja,None,1
+1069,. Pseudomembranoosne koliit,A00-B99,1
+1070,Karpaaltunneli sündroom vasemal käel,G00-G99,1
+1071,.Äge hüdrotsefaalia.,I00-I99,1
+1072,.  Vöötohatis näol.,A00-B99,1
+1073,.  Äge vertebrobasilaarne puudulikkus.,I00-I99,1
+1074,Vasemla käel,M00-M99,1
+1075,Muud seropositiivsed reumat,M00-M99,1
+1076,Paravertebraalne tuumor torakaalosas vasakul.,None,1
+1077,Hulgimetastaasidega kopsudes,None,1
+1078,Vasema munasarja tsüst,C00-D48,1
+1079,Asthma bronciale,J00-J99,1
+1080,Paremal ülasagar,J00-J99,1
+1081,Kodade fibrillatsioon paroksüsmaalne,I00-I99,1
+1082,Küünarliigese distorsioon ja dist,S00-T98,1
+1083,Aterosklerootiline kardiovaskulaarhaigus,I00-I99,1
+1084,"Hilise algusega, mõõdukas obstruktsioon-ägenemine",J00-J99,1
+1085,Primaarselt progresseeruv,G00-G99,1
+1086,Düsartria ja neelamishäirega.,G00-G99,1
+1087,Fikseerunud bradüfrekventne,I00-I99,1
+1088,Vasemal ( endoproteesimine),None,1
+1089,. Fibromüalgia.,R00-R99,1
+1090,- parema kopsu alasagar,C00-D48,1
+1091,"Niudeluumurd, kinnine",None,1
+1092,Kodade fibrillatsioon (bradükardia),I00-I99,1
+1093,Meningiitiline vorm,A00-B99,1
+1094,Tservikaalne müelopaatia,G00-G99,1
+1095,Vasak säär,A00-B99,1
+1096,Kahtlus Crohni tõvele,K00-K93,1
+1097,"Anterioorne, hilinenud hospitaliseerimine",I00-I99,1
+1098,Ülemäärane marevani doos.,None,1
+1099,"Streptokoki kandlus, taandumas",L00-L99,1
+1100,Parem hüppeliiges.,Z00-Z99,1
+1101,"Nägemisnärvi neuromüeliit [Devic]
+ägenemine.",G00-G99,1
+1102,Kaasub depressioon,F00-F99,1
+1103,Kõhuvalu ja dünaamilise soolesulgusega,K00-K93,1
+1104,Streptococcus dysgalactiae,A00-B99,1
+1105,Mutsinoosne tsüstadenoom,C00-D48,1
+1106,Melanoomi metastaas paremal fronto-temporaalsel,C00-D48,1
+1107,Rangluu-õlanuki liiges,S00-T98,1
+1108,Segmentaarne amüotroofia,G00-G99,1
+1109,Pyelonephritis acuta,O00-O99,1
+1110,Võimalik spinotserebellaarne ataksia.,G00-G99,1
+1111,Generaliseerunud morfea,L00-L99,1
+1112,Ja rektotseele,N00-N99,1
+1113,Mõlemal jalasäärel.,L00-L99,1
+1114,Muud esmased gonartroosid paremal,M00-M99,1
+1115,Mõlemad sääred,I00-I99,1
+1116,"Gemelli, mõlemad peaseisus.",O00-O99,1
+1117,Ja intramuraalne müoomisõlm,C00-D48,1
+1118,"Pahaloomuline kasvaja
+pankreatobiliaarne adenokartsinoom",C00-D48,1
+1119,"Bilateraalne, kollaskehatsüsti ruptureerumine",N00-N99,1
+1120,El. kardioversiooniga taastunud siinusrütm,I00-I99,1
+1121,Kahtlus kõnehäire alusel,I00-I99,1
+1122,"Paremal
+Artroplastika.",M00-M99,1
+1123,"Segatüüpi, raskes astmes",G00-G99,1
+1124,Võimalik Lewy kehakeste haigus,G00-G99,1
+1125,"Ägenemiste ja remissioonidega, ägenemine",G00-G99,1
+1126,Neurodermatitis diffusa,L00-L99,1
+1127,Ravitud kateeterablatsioonil,I00-I99,1
+1128,Kaelaveresoonte kompressiooni tagajärjel,R00-R99,1
+1129,Võrkkestairre koos –rebendiga  outr,H00-H59,1
+1130,Vasak rind,L00-L99,1
+1131,Carcinoma ovarii recidiva,C00-D48,1
+1132,Ilma lahtise koljusisese haavata,S00-T98,1
+1133,"Albuminuuria, retinopaatia",E00-E90,1
+1134,.Parema reiearteri shundi infektsioon.,L00-L99,1
+1135,"Ulatuslik ajutüve hemoraagia, kooma.",I00-I99,1
+1136,Paremas ajupoolkeras.,I00-I99,1
+1137,Ägenemine; paranenud,K00-K93,1
+1138,Carcinoma ovarii recediva,C00-D48,1
+1139,Vasaku põlve endoprotees,M00-M99,1
+1140,. Liigesvalu.,O00-O99,1
+1141,Vasaku endoproteesi luksatsioon.,S00-T98,1
+1142,Paremal reiel operatsioonihaava infektsioon.,S00-T98,1
+1143,Cysta dermoides ovarii dextri,N00-N99,1
+1144,Me dmneisk parem põlv,M00-M99,1
+1145,"Bilateraalne, kartsinomatoosne",J00-J99,1
+1146,Anastomoosi haavand,K00-K93,1
+1147,Hüperplastiline endomeetriumi polüüp,N00-N99,1
+1148,"Iatrogeenne, transtorakaalse biopsia järgne",J00-J99,1
+1149,Spontaanselt väljunud,K00-K93,1
+1150,"Pahaloomuline kasvaja
+sõrmusrakuline kartsinoom",C00-D48,1
+1151,Neeru- ja silmatüsistused,E00-E90,1
+1152,Sekundaarne ajuinfarktiga seotud peavalu,G00-G99,1
+1153,Algkolle teadmata; paranenud,A00-B99,1
+1154,"Nefropaatia, retinopaatia, polüneuropaatia, gastropaatia",E00-E90,1
+1155,Ülemiste hingamisteede viirusinfektsioon?,O00-O99,1
+1156,Hemodünaamiliselt mitteolulised stenoosid pärgarterites.,I00-I99,1
+1157,"Muud naissuguelundid, vulva",C00-D48,1
+1158,+ sekundaarne vaskuliit,L00-L99,1
+1159,Parempoolne spontaanne õhkrind,J00-J99,1
+1160,Tupeköndi totaalne allavaje.,N00-N99,1
+1161,"Parem, vasakul protees",M00-M99,1
+1162,"Parem, vasakul endoprotees",M00-M99,1
+1163,Kahtlus placenta incretale.,O00-O99,1
+1164,Parema õlaliigese traumajärgne artroos,M00-M99,1
+1165,Radioloogiliselt kahtlus mesenteriaalsele pannikuliidile,K00-K93,1
+1166,Divertikli verejooks,K00-K93,1
+1167,Vasakpoolne pneumoonia järgne,J00-J99,1
+1168,"Kergekujuline, norskamine",G00-G99,1
+1169,Kaela- ja rindkere piirkonnas,G00-G99,1
+1170,Paremal kusejuha intramuraalses osas,N00-N99,1
+1171,Peaajuinfarkt (pea)ajuarterite tromboosi tõttu(+),I00-I99,1
+1172,"Bilateraalne, tekitaja teadmata",J00-J99,1
+1173,Keskmise raskusega pulmonaalne hüpertensioon,I00-I99,1
+1174,Enterocele et rectocele,N00-N99,1
+1175,"Äge subendokardiaalne müokardiinfarkt,septaaklne",I00-I99,1
+1176,"Kätel,epikutaantestid negatiivsed.",L00-L99,1
+1177,Juveniilne küfoskolioos,M00-M99,1
+1178,Bradükardia (ravimitest tingitud),I00-I99,1
+1179,Bilateraalne dermoidtsüst,C00-D48,1
+1180,Raske püsiobstruktsioon,J00-J99,1
+1181,. Helicobacter pylori infektsioon,K00-K93,1
+1182,Vasema puusaliigese endoproteesimine.,M00-M99,1
+1183,Kopsude adenokartsinoom,C00-D48,1
+1184,Parkinsonistlik sündroom,G00-G99,1
+1185,Astma ägenemine,J00-J99,1
+1186,Cruris bilateralis,L00-L99,1
+1187,Angigeen ja toksiinid positiivsed,A00-B99,1
+1188,Graviditas tubaria dextri.,O00-O99,1
+1189,"Femuroatsetabulaarne impingement, parem puusaliiges.",M00-M99,1
+1190,"Papillaarne, parem sagar",C00-D48,1
+1191,Vasakus munasarjas,N00-N99,1
+1192,Mesenteriaalne pannikuliit,K00-K93,1
+1193,Klebsiella pneumoniae,K00-K93,1
+1194,"Keskmise raskusega, norskamine",G00-G99,1
+1195,. Radiaaltunneli sündroom.,G00-G99,1
+1196,Kahtlus glomerulaarsele patoloogiale,Z00-Z99,1
+1197,Lokalisatsioon ja tekitaja tuvastamata,A00-B99,1
+1198,Sapipõie hüdrops,K00-K93,1
+1199,Ühe soone koronaarhaigus,I00-I99,1
+1200,Psoriasiformne dermatiit,L00-L99,1
+1201,. Vasema puusaliigese endoproteesimine.,M00-M99,1
+1202,Tööl köögiviljakoorija,L00-L99,1
+1203,: punktsioonijärgne hematoperitoneum,N00-N99,1
+1204,"Düsartria, düsfaagia, tetraparees (jalad>käed)",G00-G99,1
+1205,"Retinopaatia, nefropaatia",E00-E90,1
+1206,Esmane toonilis- klooniline krambihoog.,R00-R99,1
+1207,- neomütsiin,L00-L99,1
+1208,"Kombineeritud genees: neerupuudulikkus, rauavaegus",D50-D89,1
+1209,Vasema puusaliigese endoproteesi loksumine,S00-T98,1
+1210,? Ventrikulaarne bigeminus,I00-I99,1
+1211,Liiteline peensooleiileus,K00-K93,1
+1212,"Parem, vasakul protees.",M00-M99,1
+1213,Lewy kehakeste tõbi,G00-G99,1
+1214,Oedema gravidarum,O00-O99,1
+1215,H. Pylori gastriit,K00-K93,1
+1216,Divertikuliit divertiikli perforatsioon,K00-K93,1
+1217,Sapikivitõbi koos sapijuha kiviga,K00-K93,1
+1218,Parema puusaliigese endoproteesi loksumine,S00-T98,1
+1219,Carcinoma parvocellulare,C00-D48,1
+1220,"Jõuetus, nõrkus",O00-O99,1
+1221,Kusepõie kõrval vasakul,K00-K93,1
+1222,-ägenemiste ja remissioonidega kulg-ägenemine,G00-G99,1
+1223,Infarctus cerebri,I00-I99,1
+1224,Parema puusaliigese endoproteesimine,M00-M99,1
+1225,Tugeva urtikariaalse komponendiga,L00-L99,1
+1226,Väljus kivi spontaanselt,K00-K93,1
+1227,Sealhulgas paremal diabeetiline jalg,E00-E90,1
+1228,Siinusrütm taastatud kardioversiooniga,I00-I99,1
+1229,Vasakpoolne pleuropneumoonia,J00-J99,1
+1230,": põlved, puusad",M00-M99,1
+1231,Incompetentia cervicis uteri,O00-O99,1
+1232,Polüüpektoomia järgselt,K00-K93,1
+1233,Fotoallergiline dermatiit päikesekaitsekreemile?,L00-L99,1
+1234,Armiga emakas,O00-O99,1
+1235,Eksokriinne puudulikkus,K00-K93,1
+1236,Siinusrütm taastatud elektrilise kardioversiooniga,I00-I99,1
+1237,Vasak hüppeliiges,S00-T98,1
+1238,Vasaku käe süvaveenid,I00-I99,1
+1239,Kahtlus sigmasoole divertiikuli verejooksule,K00-K93,1
+1240,Kahtlus neuroendokriinsele tuumorile,I00-I99,1
+1241,Kortikobasaalne degeneratsioon,G00-G99,1
+1242,Occlusio explantatis femoro-poplitealis sinistri,I00-I99,1
+1243,Struma nodosa colloidea.,E00-E90,1
+1244,"Võrkkestairre koos –rebendiga, osin",H00-H59,1
+1245,Histoloogiliselt minimaalne äge põletik,K00-K93,1
+1246,. Krooniline pingepeavalu.,G00-G99,1
+1247,"Korduv, siinusrütm ei taastunud",I00-I99,1
+1248,Korduv episood,I00-I99,1
+1249,. Vasak põlv.,M00-M99,1
+1250,Peaajuinfarkt (pea)ajuarterite emboolia tõttu(+),I00-I99,1
+1251,Torakaal- [rinna,S00-T98,1
+1252,Bilateraalne pneumoonia,J00-J99,1
+1253,- noroviirus enteriit.,A00-B99,1
+1254,Vasaku jala gangreen,I00-I99,1
+1255,Aksillaarne hüperhidroos,R00-R99,1
+1256,Guyoni kanali sündroom vasakul,G00-G99,1
+1257,Hormoonkreemidest indutseeritud,L00-L99,1
+1258,Guttata et diffusa disseminata.,L00-L99,1
+1259,Spinotserebellaarne ataksia,G00-G99,1
+1260,"Pahaloomuline kasvaja
+adenokartsinoom",C00-D48,1
+1261,Vasakul ureeteri distaalses osas,N00-N99,1
+1262,Radikaalse prostatektoomia järgne seroom,S00-T98,1
+1263,Parempoolne kubitaalkanali sündroom,G00-G99,1
+1264,Vasakul. Parem proteesitud.,M00-M99,1
+1265,Fototoksiline reaktsioon,L00-L99,1
+1266,"Paremal, tekitaja tuvastamata",J00-J99,1
+1267,Cysta paratubaris dextri,N00-N99,1
+1268,Sclerosis colli vesicae urinariae,N00-N99,1
+1269,Antigeen ja toksiin positiivsed,A00-B99,1
+1270,"Paremal, Escherichia coli",J00-J99,1
+1271,Liiteline peensoole sulgus,K00-K93,1
+1272,Tsütoloogiliselt persisteeruv emakakaela düsplaasia,N00-N99,1
+1273,"Kõnehäire, kerge hempiparees",I00-I99,1
+1274,Endoskoopilise polüpektoomia tüsistusena,K00-K93,1
+1275,Patella valu.,S00-T98,1
+1276,"Sekundaarne, tekkinud üle müelodüsplaasia",C00-D48,1
+1277,Käteekseem eksemiididega,L00-L99,1
+1278,Vasakpoolne; Acinetobacter junii tekkene,J00-J99,1
+1279,High grade liposarkoom,C00-D48,1
+1280,Metastaasid lülisambas,M00-M99,1
+1281,Vasak neer,N00-N99,1
+1282,Peritoneaaldialüüsist tingitud,K00-K93,1
+1283,Infusioonraviga korrigeerunud,E00-E90,1
+1284,Tõenäoliselt spontaanselt väljunud,K00-K93,1
+1285,Sõrmusrakuline kartsinoom,C00-D48,1
+1286,Krooniline konstipatsioon,K00-K93,1
+1287,"Vasaku , peabronh",C00-D48,1
+1288,Ataxia cerebellaris alcocholica,G00-G99,1
+1289,Maksa parenhüümi difuusne haigus?,K00-K93,1
+1290,Vegetatsioon trikuspidaalklapil,I00-I99,1
+1291,"Pahaloomuline kasvaja
+adenokartsinoom",None,1
+1292,Retsidiiv tuumor?,Z00-Z99,1
+1293,Käte  ekseem,L00-L99,1
+1294,Kortikobasaalne denegeratsioon,G00-G99,1
+1295,Arütmia  paroksüsm,I00-I99,1
+1296,Cruris sinistri,I00-I99,1
+1297,Siinusrütm taastunud,I00-I99,1
+1298,Primaarselt progresseeruv vorm,G00-G99,1
+1299,"Hilistekkene, mitteallergiline, perifeerse eosinofiiliaga",J00-J99,1
+1300,"Sapipõie kaelaosa kivi, abstsess",K00-K93,1
+1301,Leukotsütoklastiline vaskuliit,L00-L99,1
+1302,Histoloogiliselt eosinofiilne hüpersensitiivne dermatiit,L00-L99,1
+1303,Parempoolne kujunemisjärgus neeruabstsess,N00-N99,1
+1304,Lahenenud konservatiivselt,K00-K93,1
+1305,Kolostoomi prolaps,Z00-Z99,1
+1306,Pärakusong retsidiiv,N00-N99,1
+1307,Alanevas käärsooles,Q00-Q99,1
+1308,Häbemeabstsess paremal,N00-N99,1
+1309,Bariaatriline by-bass operatsioon,K00-K93,1
+1310,Candidotica kliiniliselt,L00-L99,1
+1311,. High grade liposarkoom,C00-D48,1
+1312,Vasakus hemisfääris,I00-I99,1
+1313,"Nahakahjustus, perifeerne vorm",M00-M99,1
+1314,Haava dehistents,S00-T98,1
+1315,Müofastsiaalsed valud torakaalosas vasakul,M00-M99,1
+1316,Arthritis rheumatoides,M00-M99,1
+1317,. Parema küünarliigese artroos.,M00-M99,1
+1318,Vasakul kubemes.,I00-I99,1
+1319,-ägenemiste ja remissioonidega kulg,G00-G99,1
+1320,- neuroborrelioos,A00-B99,1
+1321,Keemiaravist tingitud,R00-R99,1
+1322,. Vasaku labajala gangreen.,I00-I99,1
+1323,Nocardia tekkene.,J00-J99,1
+1324,Paremal pool.,M00-M99,1
+1325,Bartholini näärme tsüst (Vasakul),N00-N99,1
+1326,Ajukommotsioon (ajuvapustus),S00-T98,1
+1327,Võõrkeha  tupes,S00-T98,1
+1328,- vasakpoolne.,M00-M99,1
+1329,Sünnitamise takistus muu väärasendi,O00-O99,1
+1330,Kodade fibrillatsioon (paroksüsmaalne),I00-I99,1
+1331,Muud traumajärgsed gonart,M00-M99,1
+1332,Alajäseme monopleegia vasemal,G00-G99,1
+1333,Täielik või täpsustamata tüsistusteta,O00-O99,1
+1334,Vasakul jalal.,I00-I99,1
+1335,Kaela piirkonnas(paremal),I00-I99,1
+1336,"Labakäed, sõrmeliigesed",M00-M99,1
+1337,Vasema jala suurvarbal,L00-L99,1
+1338,Diagnoos ei kinnitu,D50-D89,1
+1339,Vasemas põlves,M00-M99,1
+1340,Fluidotorax bilat?Asteenia.,Z00-Z99,1
+1341,Vasemal käel,G00-G99,1
+1342,Muu spondüloos (+),M00-M99,1
+1343,Kerge kulg.,J00-J99,1
+1344,Aterosklerootiline kardiovaskulaarhaigus (nii kirjeldatud)?,I00-I99,1
+1345,Vasemal tümpanoplastikajärgne,H60-H95,1
+1346,Vasak pöidlaliiges,M00-M99,1
+1347,. Muud,None,1
+1348,- vasak  ?,S00-T98,1
+1349,/ Polypus fibroepithelialis.,None,1
+1350,- vasak õlg,M00-M99,1
+1351,"Hiliselagusega, ravi foonil kompenseeritud.",J00-J99,1
+1352,Väljapöörd-suurvarvas (omandatud)vasak.,M00-M99,1
+1353,"Puukentsefaliidid (viirusentsefaliidid), muu puukentsefaliit",A00-B99,1
+1354,Sensomotoorse afaasiaga.,I00-I99,1
+1355,Intermiteeruva kuluga,J00-J99,1
+1356,"Kerge kulg, raviga kontrollitud",J00-J99,1
+1357,"Kerge kulg, vahelduvate sümptomitega.",J00-J99,1
+1358,Vasakul dist . osas,N00-N99,1
+1359,Paremal õlavarrel,C00-D48,1
+1360,"Hilise algusega, mõõdukas obstruktsioon",J00-J99,1
+1361,/ angioma stellatum,I00-I99,1
+1362,"Intermiteeruv, kontrollitud",J00-J99,1
+1363,"Brutselloosi, toksoplasmoosi kahtlus",Z00-Z99,1
+1364,Subskapulaarlihase müosiit paremal,M00-M99,1
+1365,Vasakus k-käigus.,A00-B99,1
+1366,? Neurinoom?,M00-M99,1
+1367,/kilpnäärme patoloogia/,Z00-Z99,1
+1368,Parema kulmu piirkonnas,S00-T98,1
+1369,Vilistav hingamine {wheezing},R00-R99,1
+1370,Stridoroosne  hingamine {stridor},R00-R99,1
+1371,"Järelkatarakt, parem silm",H00-H59,1
+1372,Melanoma  malignum,C00-D48,1
+1373,"Hetkel siinusrütm
+hetkel siinusrütm",I00-I99,1
+1374,Parem rind- paranemas,A00-B99,1
+1375,- pseudoparalüütiline õlg vasemal,M00-M99,1
+1376,Mittereumaatiline mitraal(klapi)stenoos(kerge aste),I00-I99,1
+1377,Yasminelle -> Nuvaring,Z00-Z99,1
+1378,Ülemise temporaalse haru sulgus,H00-H59,1
+1379,"Hamartoomid bilateraalselt
+hamartoomid bilateraalselt",N00-N99,1
+1380,Ravi lõppenud,A00-B99,1
+1381,Kahtlus intersektsionaalsele sündroomile,M00-M99,1
+1382,Kaela ja nimmeosas.,M00-M99,1
+1383,Kõhu eessseina sirglihaste diastaas,K00-K93,1
+1384,Bakteriaalne vaginoos anamnestiliselt,A00-B99,1
+1385,Algav seniilkatarakt  parem silm,H00-H59,1
+1386,Küüneplaadi irdumine,L00-L99,1
+1387,"Hemorraagiline (munasarja) follikulaartsüst
+Paremal",N00-N99,1
+1388,Neevused seljal,C00-D48,1
+1389,Ninahingamise takistus,Z00-Z99,1
+1390,- parem kõrv,H60-H95,1
+1391,Kaasuva limaskestade tursega,L00-L99,1
+1392,Reaktiivne artriit ei kinnitunud,Z00-Z99,1
+1393,Dermoidtsüst paremal,C00-D48,1
+1394,Liikuv neer?,Z00-Z99,1
+1395,"Anamneesis
+Neuroendokriintuumor",Z00-Z99,1
+1396,Ja hematosalpinx,N00-N99,1
+1397,- kaela spondüloartroos,M00-M99,1
+1398,. Vaimne alaareng.,G00-G99,1
+1399,"Üliraske, planeerimisel hapnikravi",J00-J99,1
+1400,Käsivartel mõlemapoolselt,R00-R99,1
+1401,Parema jala tselluliit,L00-L99,1
+1402,"Kerge vorm
+kerge vorm",D50-D89,1
+1403,Suurel varbal,G00-G99,1
+1404,Carcinoma squamocellulare,C00-D48,1
+1405,Braunovidon salv,L00-L99,1
+1406,Lentigo solaris,L00-L99,1
+1407,Adenocarcinoma  endometrioides endometrii,C00-D48,1
+1408,Eosinofiilne põletik,J00-J99,1
+1409,Elongatio colli uteri,N00-N99,1
+1410,Parema alasagaras,J00-J99,1
+1411,Parem hüppeliiges.,S00-T98,1
+1412,Spondülogeensed muutused torakaalosas,R00-R99,1
+1413,Kahtlus süljenäärme probleemile,Z00-Z99,1
+1414,Kaela osteokondroos radikulopaatiata,M00-M99,1
+1415,/ veresoonte patoloogia/,Z00-Z99,1
+1416,"Capitis, piirdunud, südameramitest?",L00-L99,1
+1417,- parvoviirus,M00-M99,1
+1418,Parempoolne lobektoomia,E00-E90,1
+1419,Nimme - ristluu.,M00-M99,1
+1420,Muu melaniinliigpigmentumus. Solaar lentiigo.,L00-L99,1
+1421,Subduraalne traumaatiline hemorraagia- krooniline,S00-T98,1
+1422,Vasakul pool näo piirkonnas,A00-B99,1
+1423,"Jalgadel, kliiniliselt.",A00-B99,1
+1424,"Kerge , hootine",J00-J99,1
+1425,Sünkoopieelne seisund,O00-O99,1
+1426,Varvaste vahel,L00-L99,1
+1427,Autoimmuune türeodiit,E00-E90,1
+1428,"Kodutolmulest, kass, õietolmud",J00-J99,1
+1429,Meibomi näärmete düsfunktsioon,H00-H59,1
+1430,Paremas rinnas.,N00-N99,1
+1431,Munasarjade seroos-papillarne tsüstadenokartsinoom,C00-D48,1
+1432,"Infektsioonijärgne peavalu, kahtlus",G00-G99,1
+1433,- jalgadel,L00-L99,1
+1434,- hüperparatüreoos,M00-M99,1
+1435,Algav climax,N00-N99,1
+1436,Lülisamba nimmeosa distorsioon ja,None,1
+1437,- vasaku jala plantaarkõõlused,M00-M99,1
+1438,Arteriaalse geneesiga säärehaavandid.,I00-I99,1
+1439,Lyme borrelioosi tõttu,A00-B99,1
+1440,Kliiniliselt remissioonis,M00-M99,1
+1441,"Opereeritud,rekoarktatsioon stenditud",Q00-Q99,1
+1442,"Kahtlus haavand. koliidile, polüübile",Z00-Z99,1
+1443,"Mitraalklapil, opereeritud",I00-I99,1
+1444,Algav paremal käel,G00-G99,1
+1445,. vasak.,M00-M99,1
+1446,Voltide piirkond,A00-B99,1
+1447,Vasem labajalg,S00-T98,1
+1448,Lihasatroofia ja tundehäiretega.,S00-T98,1
+1449,"Proktosigmoidiit, mõõdukas ägenemine",K00-K93,1
+1450,"Remissiooni faasis
+remissiooni faasis",D50-D89,1
+1451,Emal munasarjavähk,Z00-Z99,1
+1452,Paremas hüppeliigeses,M00-M99,1
+1453,Vasaku kandluu kõõluse kinnituspiirkond.,M00-M99,1
+1454,Kopsupõletiku järgne lokaalne fibroos,J00-J99,1
+1455,"Vahelduvate sümptomitega, koormusel.",J00-J99,1
+1456,Funktsionaalne häälehäire,R00-R99,1
+1457,Kilpnäärme papillaarne kartsinoom,C00-D48,1
+1458,"Preproliferatiivne, osaliselt laserdatud",None,1
+1459,"Kombineeritud geneesiga (menopaus, glükokortikoidravi)",M00-M99,1
+1460,Vasem rind,N00-N99,1
+1461,"Neerupuudulikkus, südamepuudulikkus",K00-K93,1
+1462,Multiipelne sensoorne defitsiit,G00-G99,1
+1463,Karpaaltunneli sündroom - vasakul,G00-G99,1
+1464,Anamneesis vasakpoolne lobektomia,E00-E90,1
+1465,. Täpsustamata korduv depressioon,F00-F99,1
+1466,. Ninaneelunohu.,J00-J99,1
+1467,Primaarne biliaarne kolangiit,K00-K93,1
+1468,Mitraal(klapi) puudulikkus-.kerge,I00-I99,1
+1469,"Kerge obstruktsioon, ordineeritud prooviravi.",J00-J99,1
+1470,Vasakul radikaalop-i järgne,H60-H95,1
+1471,+ ulcus,K00-K93,1
+1472,Dystropha retinae /,H00-H59,1
+1473,Seisund peale radikaaloperatsiooni vasakul,H60-H95,1
+1474,Vasem õlg,M00-M99,1
+1475,"Vahelduvate sümptomitega, viiruindutseeritud obstruktsioon.",J00-J99,1
+1476,. Müofastsiaalsed valud.,M00-M99,1
+1477,Parempoolse hemianopsiaga,I00-I99,1
+1478,-kahtlus köhavariantsele astmale.,J00-J99,1
+1479,-köhavariantne astma?,J00-J99,1
+1480,Vasakul ägenemine,H60-H95,1
+1481,Astigmatism ?,H00-H59,1
+1482,.Ninaneelu köha,J00-J99,1
+1483,- peaaju mikroangiopaatia,I00-I99,1
+1484,. Muud põlvedes,None,1
+1485,Muu täpsustamata enneaegne depolarisatsioon.?,I00-I99,1
+1486,Radikulopaatia lülisamba nimmeosas,M00-M99,1
+1487,Vahelduv kõhukinnisus,K00-K93,1
+1488,"Krooniline proktalgia
+krooniline proktalgia",K00-K93,1
+1489,Mõlemal kõrval,H60-H95,1
+1490,"Muu konjunktiviit, kuiv silm",H00-H59,1
+1491,- parem,G00-G99,1
+1492,Patsient ei ilmunud kontrolli,Z00-Z99,1
+1493,: allergilise lööbe kahtlus,Z00-Z99,1
+1494,Imetamise foonil,N00-N99,1
+1495,Gaaside pidamatus,K00-K93,1
+1496,Antikoagulantravi fooni paranenud,I00-I99,1
+1497,Spiraali soov Fleree,Z00-Z99,1
+1498,Tservikogeensed lihaspinge peavalud,G00-G99,1
+1499,"Paistetus
+reaktiivne lümfisõlme suurenemine",R00-R99,1
+1500,Kahepoolse pleuropneumoonia järgne seisund,J00-J99,1
+1501,:vasak õlg,M00-M99,1
+1502,Vasak pöid,M00-M99,1
+1503,"Meditsiiniline abort, : metroendometriit",O00-O99,1
+1504,Vasakul käel?,G00-G99,1
+1505,"Häbeme piirkond, verrucosae",C00-D48,1
+1506,"Aerofaagia, kardia puudulikkus",K00-K93,1
+1507,Psoriaatiline artriit ei kinnistu.,Z00-Z99,1
+1508,Kaela mediaalne tsüst?,Z00-Z99,1
+1509,Allergia herilaemürgile,Z00-Z99,1
+1510,Rosaatsea? ?,L00-L99,1
+1511,- parem õlaliiges.,M00-M99,1
+1512,Mitespetsiifiline alaseljavalu,M00-M99,1
+1513,Mitraal(klapi) prolaps /kerge/,I00-I99,1
+1514,Vasemal kaenlaalusi,C00-D48,1
+1515,Kahtlus hüpolaktaasiale,Z00-Z99,1
+1516,"Harva määrinud, jälgida",N00-N99,1
+1517,Pedis sinistra,G00-G99,1
+1518,Paremal kesksagaras ja lingulas,J00-J99,1
+1519,Beckeri neevus,Q00-Q99,1
+1520,Kliiniline leid+ anamnees,L00-L99,1
+1521,"Teise kaelalüli murd, kinnine",S00-T98,1
+1522,Habituaalne luksatsioon,K00-K93,1
+1523,Düsplastil. piirikomponendiga  liitneevus,C00-D48,1
+1524,Rinnaga toitmise ajal,N00-N99,1
+1525,Vasak labakäsi,M00-M99,1
+1526,"Leucoplacia?, lichen sclerosus vulvae?",N00-N99,1
+1527,Vasakul dentogeenne,H60-H95,1
+1528,Vasak labakäsi,S00-T98,1
+1529,Menstruatsioonijärgne pruunikas voolus,N00-N99,1
+1530,Sekundaarne peavalu (infektsiooniga seotud).,G00-G99,1
+1531,"Munajuha[de]tekkene naiseviljatus
+Salpingectomia bilateralis",N00-N99,1
+1532,"Sugurakkude külmutamine
+sugurakkude külmutamine",Z00-Z99,1
+1533,- kalaluu,S00-T98,1
+1534,Alumiste pisarpunktide stenoos,H00-H59,1
+1535,- vasakul,R00-R99,1
+1536,Võõrkeha ei ole,S00-T98,1
+1537,Kliinilise leiu alusel,Q00-Q99,1
+1538,Contractiones praeparantes,O00-O99,1
+1539,Kannakõõluse kinnituskohal,M00-M99,1
+1540,/ pikk menstr./,N00-N99,1
+1541,Cysta ovariid dextri,C00-D48,1
+1542,/parem põlveliiges/,M00-M99,1
+1543,Subjektiivselt tükitunne kurgus.,R00-R99,1
+1544,Kolju- ja näoluud,C00-D48,1
+1545,"Mittetäielik, tüsistusteta, status post",O00-O99,1
+1546,Muu spondüloos lülisamba kaelaosas,M00-M99,1
+1547,- vasak tuhar.,A00-B99,1
+1548,Kuiv nahk,L00-L99,1
+1549,Aordi(klapi)stenoos(raske stenoos),I00-I99,1
+1550,Emakaarmi rasedus,O00-O99,1
+1551,Mao paiknemine väikeses vaagnas,K00-K93,1
+1552,Mõlemad randmed( parem>vasak),M00-M99,1
+1553,Kahtlus autoimmuunse geneesiga viljatusele.,N00-N99,1
+1554,Vasak labajalg,S00-T98,1
+1555,Vasak labakäsi,C00-D48,1
+1556,Vasakul jalal,G00-G99,1
+1557,Sinistroskolioos lumbaalosas,M00-M99,1
+1558,Mittediferentseerunud artriit.,M00-M99,1
+1559,Atroofiline kolpiit,N00-N99,1
+1560,- parem põlveliiges,S00-T98,1
+1561,. Roidemurd?,S00-T98,1
+1562,Krooniline alaseljavalu,M00-M99,1
+1563,Kapilaarsed veenilaiendid mõlamatel jalgadel,C00-D48,1
+1564,Muu rosaatsea. Kuperoosne nahk.,L00-L99,1
+1565,"Proliferatiivne,pan tehtud",None,1
+1566,Parema rinnanibu papilloom,N00-N99,1
+1567,"Nefropaatia, angiopaatia",E00-E90,1
+1568,+ huultepiirkonna kontusioon,S00-T98,1
+1569,Tsüstotseele ja enterotseele,N00-N99,1
+1570,Sõlmed kilpnäärmes,E00-E90,1
+1571,Võimalik ka molluscum?,L00-L99,1
+1572,. Status post tympanoplasticam.,H60-H95,1
+1573,Parema puusaliigese artroos,M00-M99,1
+1574,Paremas kõrvas.,H60-H95,1
+1575,"Südamekahjustusega hüpertooniatõbi (kongestiivse) südamepuudulikkusega,III.ok",I00-I99,1
+1576,Bimalleolaarme murd vasakul,None,1
+1577,"Kaelaosas.
+Müofastsiaalsed valud kaela-õlavöötmes.",M00-M99,1
+1578,Tuberkuloom paremas ülasagaras,A00-B99,1
+1579,Radiculopathia cervicalis.,M00-M99,1
+1580,Munajuharasedus paremal,O00-O99,1
+1581,"Kaela-, nimmeosas",M00-M99,1
+1582,-kahtlus köhavariantsele asmale,J00-J99,1
+1583,- vasakul kukekannus,M00-M99,1
+1584,Reumaatilise haiguse kahtl,Z00-Z99,1
+1585,Ebaselge erioloogiaga,R00-R99,1
+1586,Keskmise raskusega persistentne,J00-J99,1
+1587,- vasak lõualiiges.,M00-M99,1
+1588,?. Närvi pitsumis sündroom,M00-M99,1
+1589,Aurata migreen [tavaline migreen](+),G00-G99,1
+1590,"Kerge kulg, raviga kompenseeritud",J00-J99,1
+1591,. Köhavariantne.,J00-J99,1
+1592,Aordi(klapi)puudulikkus (mõõdukas),I00-I99,1
+1593,Uneapnoe kahtlus,Z00-Z99,1
+1594,Burkitti lümfoomi retsidiiv peaajus,C00-D48,1
+1595,Mõõduka raskusega,J00-J99,1
+1596,Mõõdukas persistene,J00-J99,1
+1597,Paremal perf,H60-H95,1
+1598,Paremal randmel,M00-M99,1
+1599,Multiformne erüteem? ?,L00-L99,1
+1600,Vasakpoolne kolmiknärvi neuropaatia.,G00-G99,1
+1601,Vasemal jalal,G00-G99,1
+1602,"Raske kulg, ägenemine",J00-J99,1
+1603,- puukborrelioos?,Z00-Z99,1
+1604,Keratokonj. sicca ?,H00-H59,1
+1605,Aksonaalne sensoor- motoorne neuropaatia,None,1
+1606,"Kahtlus põletikule, kivile paremal",K00-K93,1
+1607,Kahtlus gluteeni talumatusele,Z00-Z99,1
+1608,Rütmihäire suhtes,Z00-Z99,1
+1609,Kaela müofastsiaalsed valud.,M00-M99,1
+1610,Vasem küünarliiges,M00-M99,1
+1611,Vase hüppeliiges,M00-M99,1
+1612,Mõlemal põlvel,M00-M99,1
+1613,Posttraumaatiline haavand,L00-L99,1
+1614,Emaka verejooksud,C00-D48,1
+1615,Konisatsioonijärgne veritsus,N00-N99,1
+1616,Tagasenal ja funduses,C00-D48,1
+1617,Rohke gaaside teke,K00-K93,1
+1618,"Vestibulaarne migreen
+vestibulaarne migreen",G00-G99,1
+1619,Plaanis TE,J00-J99,1
+1620,Vasemal pool,G00-G99,1
+1621,Vasaku reie tagumisel küljel,C00-D48,1
+1622,Enneaegne menopaus,N00-N99,1
+1623,Necrobiosis lipoidica cruris dextri,E00-E90,1
+1624,"Autoimmuunprotsessi foonil
+autoimmuunprotsessi foonil",E00-E90,1
+1625,Aeroobne vaginiit,N00-N99,1
+1626,"Lööbeta, kehatüvi",L00-L99,1
+1627,. Staasekseem?,L00-L99,1
+1628,Sagedaste retsidiividega,A00-B99,1
+1629,Reaktiivne artriit,O00-O99,1
+1630,Põlvekontusioon [põrutus] parem,S00-T98,1
+1631,Fractura patellae sinistra sanata,S00-T98,1
+1632,Põletikuline liigeshaigus ei kinnitu,Z00-Z99,1
+1633,Paremal reiel kapillaarset tüüpi.,I00-I99,1
+1634,Alakõhus pidev valu,N00-N99,1
+1635,Paremal pool lõual,C00-D48,1
+1636,Vasakul küljel aksillaarjoonel,C00-D48,1
+1637,Anamneesis polüüp. Müoom.,Z00-Z99,1
+1638,- tyqladae fastsiit bilat,M00-M99,1
+1639,Intramuraalne ja ubmukoosene,C00-D48,1
+1640,"Üksikud, väga harva",I00-I99,1
+1641,Randme distensioon,S00-T98,1
+1642,Tsentraalne neuropaatiline valu.,R00-R99,1
+1643,Parema kõrva ees,C00-D48,1
+1644,"Siinustahhükardia, möödunud",O00-O99,1
+1645,Peanaha paremal poolel,R00-R99,1
+1646,Õlaliigesed bilateraalselt.,M00-M99,1
+1647,Naevus sebaceus,Q00-Q99,1
+1648,Muu melaniinliigpigmentumus; Lentigo simplex,L00-L99,1
+1649,Osteoproosi skriining,Z00-Z99,1
+1650,Lewy kehakeste dementsus,G00-G99,1
+1651,Vasak ranne,S00-T98,1
+1652,Parem küünarvars,S00-T98,1
+1653,- rinnak,None,1
+1654,"Kliiniliselt, seroloogiliselt",A00-B99,1
+1655,"Gonartroos, koksartroos",M00-M99,1
+1656,Kuklanärvi neuralgia,M00-M99,1
+1657,Parema õlaliigese rotatoorne artropaatia,M00-M99,1
+1658,Gaasi tamponaad paremas silmas,H00-H59,1
+1659,Väheste sümptomitega,J00-J99,1
+1660,- kahtlus hüpotüreoosile,E00-E90,1
+1661,Syndroma patellofemoralis bilat.,M00-M99,1
+1662,Algav taustaretinopaatia vasakus silmas,None,1
+1663,Rinnas tükk.,Z00-Z99,1
+1664,Lümfoplasmatsütaarne lümfoom.,C00-D48,1
+1665,Artriit Lyme tõve korral?,Z00-Z99,1
+1666,Silmasisese läodätse mehhaaniline tüsistus,S00-T98,1
+1667,: spondüloartroos nimmeosas,M00-M99,1
+1668,Vasakul perimandibulaarsel,L00-L99,1
+1669,"Parempoolne,tekitaja tuvastamata,tänaseks paranenud",J00-J99,1
+1670,Kaasuvalt peensoole ülaosa divertiiklid,K00-K93,1
+1671,"Paremal, minimaalne.",H60-H95,1
+1672,. kinnine (?),S00-T98,1
+1673,Ulatub emakaõõnde,C00-D48,1
+1674,Vasakul opereeritud,G00-G99,1
+1675,Maksa tsüstid,K00-K93,1
+1676,Vasemalt opereeritud,Q00-Q99,1
+1677,Akneiformne ravimlööve?,L00-L99,1
+1678,- uroinfektsioon?,Z00-Z99,1
+1679,Keskmine raskusaste aPAP-ravi,G00-G99,1
+1680,"Kodusel ventilaatorravil
+kodusel ventilaatorravil",J00-J99,1
+1681,Mycoplasma genitalium,A00-B99,1
+1682,Vent  es,I00-I99,1
+1683,"Raskekujuline, aPAP ravil",G00-G99,1
+1684,Armiga emakas,Z00-Z99,1
+1685,LASIKu järgne seisund,H00-H59,1
+1686,Cerazette foonil vaheveritsused,Z00-Z99,1
+1687,"Vasak põlv, artroskoopiajärgne seisund",M00-M99,1
+1688,Kahtlus vasemal,H60-H95,1
+1689,"Kõrvalkilpnäärme adenoom eemaldatud, remissioon",E00-E90,1
+1690,Perifeerse  neuropaatilise valu,M00-M99,1
+1691,Konsiatsioonijärgne veritsus,N00-N99,1
+1692,Sageli ägenev,A00-B99,1
+1693,Grav test uriinist posit.,Z00-Z99,1
+1694,Reieluu trohhanterite piirkonnas,M00-M99,1
+1695,Alzheimeri tõbi.,G00-G99,1
+1696,Cervicitis chronica.,N00-N99,1
+1697,Kõhuseina rasvumine,E00-E90,1
+1698,. kopsuemfüseem.,J00-J99,1
+1699,". vasak mediaalne, horisontaalne.",M00-M99,1
+1700,/ fibroepiteliaalne polüüp,None,1
+1701,Koormusest indutseeritud sümptomid,J00-J99,1
+1702,Ravi foonilosaliselt kompenseeritud,J00-J99,1
+1703,- õlaliigesed,M00-M99,1
+1704,Auraga migreen [klassikaline migreen](-),G00-G99,1
+1705,Reaktiivne artriit,Z00-Z99,1
+1706,Parempoolne spastiline hemiparees käsi>jalg,I00-I99,1
+1707,"Kodarluukeha [diafüüsi] murd, kinnine",S00-T98,1
+1708,Kerge obstrukstioon.,J00-J99,1
+1709,Esmane generaliseerunud (osteo)artroos. .,M00-M99,1
+1710,Esmane generaliseerunud (osteo)artroos. Polüartroos.,M00-M99,1
+1711,- parema randme osteoartroos,M00-M99,1
+1712,. Somatoformne vegetatiivne düsfunktsioon,F00-F99,1
+1713,Vasakul käsivarrel,None,1
+1714,Allergiline ?,H00-H59,1
+1715,Mõlemal põlvel,L00-L99,1
+1716,- dislokatsiooiga,S00-T98,1
+1717,Allergia kahtlus,Z00-Z99,1
+1718,Traumaatiline pneumotooraks [õhkrind]???,S00-T98,1
+1719,Keelemandli põletik,J00-J99,1
+1720,Paremal tuharal,L00-L99,1
+1721,Korduvate ühetunniste mälulünkadega?,G00-G99,1
+1722,- parem labakäsi,M00-M99,1
+1723,Paremal väliskõrval,A00-B99,1
+1724,- orbita tagune lisamass,H00-H59,1
+1725,-polypi ventriculi,K00-K93,1
+1726,Jälgimine põletikulise liigeshaiguse suhtes.,None,1
+1727,Vestibulaarfunktsiooni täpsustamata haigusseisund (-),H60-H95,1
+1728,Ravi foonil kompenseeritud.,J00-J99,1
+1729,Krooniline b-viirushepatiit delta-agensiga,A00-B99,1
+1730,Täpsustamata põletikuline spondülopaatia??,M00-M99,1
+1731,Ja kaelavalu paremal,H60-H95,1
+1732,Füüsiline ülekoormus.,M00-M99,1
+1733,Sõlmed paremas sagaras,E00-E90,1
+1734,Kahtlus psoriaatilisele artriidile.,Z00-Z99,1
+1735,Paremal silmal .,H00-H59,1
+1736,Küünrakontusioon [-põrutus] paremal,S00-T98,1
+1737,Dermatitis allergica,O00-O99,1
+1738,Gaasi tamponaad vasakus silmas,H00-H59,1
+1739,Mädanikuta mastiit,O00-O99,1
+1740,Konisatsiooni järgne,Z00-Z99,1
+1741,Õlavöötme ülekoormussündroom,M00-M99,1
+1742,Liited kõhuõõnes,K00-K93,1
+1743,Reed`i neevus,C00-D48,1
+1744,Mitmesed entesopaatiad  paremal käel,M00-M99,1
+1745,Omal soovil,Z00-Z99,1
+1746,Kahtlus endomeetriumipolüübile,N00-N99,1
+1747,Seoses infektsiooniga,L00-L99,1
+1748,Autoimmuunne trombotsütopeenia,O00-O99,1
+1749,Vasaku reie eespinnal,L00-L99,1
+1750,Diabeetiline triopaatia,E00-E90,1
+1751,Kahtlus uroinfektsioonile.,Z00-Z99,1
+1752,Komplitseeritud  kuseteede anamnees,N00-N99,1
+1753,-  paranemas.,J00-J99,1
+1754,Nekrootiline vaskuliit? villiline?ektüümid?pyoderma ganrgenosum?,L00-L99,1
+1755,Emakakaela düsplaasia ei kinnitunud,Z00-Z99,1
+1756,"Paroksüsmaalne, hetkel siinusrütm.",I00-I99,1
+1757,Primaarselt progresseeruva kuluga,G00-G99,1
+1758,Saatediagnoosiks kilpnäärme alatalitlus?,E00-E90,1
+1759,Parem peapool,R00-R99,1
+1760,Jämesoole patoloogia?,Z00-Z99,1
+1761,Kõrvavaigu kahtlus,Z00-Z99,1
+1762,"Preproliferatiivne,perifeerse isheemiaga",None,1
+1763,Ülekoormuse foonil,M00-M99,1
+1764,Parema õlaliigese rotaatormanseti kahjustus,M00-M99,1
+1765,"Raske, vasak puusaliiges",M00-M99,1
+1766,. Graviditas???,N00-N99,1
+1767,Parem rind,N00-N99,1
+1768,Sügelustunne genitaalide (psühhogeenne),N00-N99,1
+1769,Fibrotsüstilised muutused paremas rinnas,N00-N99,1
+1770,Allergiline riniit,O00-O99,1
+1771,Allergiline riniit ja konjuktiviit,O00-O99,1
+1772,"Vasakpoolne, paranenud",J00-J99,1
+1773,Seenhaiguse ravi järgselt,L00-L99,1
+1774,"Angioma stellatum
+angioma stellatum",C00-D48,1
+1775,Nutu käepärasus ja peavalud,N00-N99,1
+1776,Ebaselge etioloogiaga,H00-H59,1
+1777,Ovariaalne puudulikkus+mehepoolne viljakuse langus,N00-N99,1
+1778,- ANkle noncpecified arthitis,M00-M99,1
+1779,Abordi järgne,Z00-Z99,1
+1780,Infert prim.,N00-N99,1
+1781,Operatsiooni järgselt; liited,R00-R99,1
+1782,Dermatitis dyshidrotica manuum,L00-L99,1
+1783,Mõlemapoolne( endoproteesitud mõlemad puusad),M00-M99,1
+1784,Kahtlus uroinfektsioonile,Z00-Z99,1
+1785,Endometrioos anamneesis,N00-N99,1
+1786,Fascitis plantaris sinistri,M00-M99,1
+1787,Ebaregulaarne menses,N00-N99,1
+1788,Helicobacter pylori tiiter kõrge,K00-K93,1
+1789,Harva supraventrikulaarsed,I00-I99,1
+1790,"Nimmevalu, kroonilse ägenemine",M00-M99,1
+1791,Vasaku alumise pisarpunkti sulgus,H00-H59,1
+1792,Konisatsiooni järgselt,Z00-Z99,1
+1793,. kahtlus.,G00-G99,1
+1794,Pankreatogeenne; nefropaatia ja polüneuropaatia,E00-E90,1
+1795,Ebaselge tähendusega monoklonaalne gammopaatia,C00-D48,1
+1796,Paremalt opereeritud,Q00-Q99,1
+1797,Vasak reis,M00-M99,1
+1798,"Diabeetiline polüneuropaatia, retinopaatia",E00-E90,1
+1799,TIA-laadsed diploopiaga lühiatakid,H00-H59,1
+1800,"/isotiasolinoonid, muskus, formaldehüüd, kolofoonium",L00-L99,1
+1801,Prol. koos makulopaatiaga,None,1
+1802,"Laserdatud, kontrolli",H00-H59,1
+1803,Kahtlus medullaarsele kartsinoomile,E00-E90,1
+1804,Infektsiooniga haige kontaktne,Z00-Z99,1
+1805,Kahtlus astma köhavariandile,J00-J99,1
+1806,Paremal ägenemine.,H60-H95,1
+1807,. Kalduvus osteopeeniale.,R00-R99,1
+1808,Pindmine alaäge spongiootiline dermatiit,L00-L99,1
+1809,"Radikulopaatia, sümfüsiopaatia",R00-R99,1
+1810,"Imidasooldinüüluurea, formaldehüüd, lokaalanesteetikumide segu",L00-L99,1
+1811,Urachnus fistula?,Z00-Z99,1
+1812,Väljapöörd-suurvarvas (omandatud) bilat,M00-M99,1
+1813,"Seljal, retsidiiv",L00-L99,1
+1814,Arcus senilis,H00-H59,1
+1815,Pea piirkonnas,L00-L99,1
+1816,Aneemia?Kilpnäärme probleem.,Z00-Z99,1
+1817,"Väljapöörd-suurvarvas (omandatud), parem jalg",M00-M99,1
+1818,"Jälgimisele, kahtlus",J00-J99,1
+1819,Heberdeni sõlmed (artropaatiaga) ?,M00-M99,1
+1820,-erosiivne gastriit,K00-K93,1
+1821,Parem käsi,S00-T98,1
+1822,. Säär,None,1
+1823,- hemorragia,I00-I99,1
+1824,Raviga dekompenseeritud.,J00-J99,1
+1825,Parem kõrv kurt,H60-H95,1
+1826,Paremal puusaliigese endoprotees.,M00-M99,1
+1827,Mõõdukas obstruktsioon.,J00-J99,1
+1828,Cysta radicis linquae,R00-R99,1
+1829,. Vaskulaarne parkinsonistlik sündroom.,G00-G99,1
+1830,- järelseisund,M00-M99,1
+1831,Otsmikukoobaste düsplaasia,J00-J99,1
+1832,Põlvekontusioon [põrutus] paremal jalal,S00-T98,1
+1833,/ borrelioos/,Z00-Z99,1
+1834,-   myopicus,H00-H59,1
+1835,- vasaku käe pöial,A00-B99,1
+1836,"Puukentsefaliidid (viirusentsefaliidid), täpsustamata puukentsefaliit",A00-B99,1
+1837,Bilateraalselt Nocardia tekkene,J00-J99,1
+1838,Post oper.,M00-M99,1
+1839,"/aju ekspans.protsess,entsefaliit?/",Z00-Z99,1
+1840,Esmakordne diagnoos,J00-J99,1
+1841,Järgne seisund,J00-J99,1
+1842,Kardiaalne leid normis.,Z00-Z99,1
+1843,Parema sääre kolmpealihas,M00-M99,1
+1844,. Krooniline vertebrobasilaarne puudulikkus.,I00-I99,1
+1845,.Ägeda bronhiidi järgne seisund.,J00-J99,1
+1846,Parem kulm,S00-T98,1
+1847,- paremal,I00-I99,1
+1848,Bilateraalne papillaarne tsüstadenoom,C00-D48,1
+1849,Ja kurgumandlite põletik.,J00-J99,1
+1850,Astenopia /,H00-H59,1
+1851,- vasempoolne hemiparees,I00-I99,1
+1852,Liigese vigastusega.,S00-T98,1
+1853,Nimmes paremale,M00-M99,1
+1854,"Lõtv tetraparees, jalad>käed, distaalne>proksimaalne",G00-G99,1
+1855,Paremal. Tservikaaldiski protrusioon anamneesis,M00-M99,1
+1856,Kaasneva vasomotoorse komponendiga,J00-J99,1
+1857,- tromemboolia ?,I00-I99,1
+1858,Põletikuline ateroom,L00-L99,1
+1859,- polüartroosid,M00-M99,1
+1860,Sool lisalingudega,K00-K93,1
+1861,"Takistatud defekatsioon
+takistatud defekatsioon",K00-K93,1
+1862,Vasema kopsu alasagara karnifikatsioon,J00-J99,1
+1863,Sukliiniline hüpertüroos?,E00-E90,1
+1864,"Üliraske obstruktsioon, ägenemine",J00-J99,1
+1865,Paremal silmal,H00-H59,1
+1866,"Kask, lepp",J00-J99,1
+1867,"Uuritud, kindla patoloogiata",R00-R99,1
+1868,Keisrilõike järgne,Z00-Z99,1
+1869,Võimalik kuklanärvi neuralgia,G00-G99,1
+1870,"Tsüklihäired, kuumad hood",N00-N99,1
+1871,"Raskekujuline obstruktiivne
+raskekujuline obstruktiivne",G00-G99,1
+1872,Halo- neevused,C00-D48,1
+1873,Ebaregulaarsed pikad tsüklid,N00-N99,1
+1874,Muu melaniinliigpigmentumus. Lentigo simplex,L00-L99,1
+1875,Bakteriaalne vaginoos + tupeseen.,N00-N99,1
+1876,Kerge obstruktsioon.,J00-J99,1
+1877,"Munajuha[de]tekkene naiseviljatus
+Infertilitas primaria.",N00-N99,1
+1878,Parema küünra lahtine haav,S00-T98,1
+1879,Uuritud viirushepatiidi suhtes,Z00-Z99,1
+1880,Endometrioma ovarii sinistri,N00-N99,1
+1881,Nimmekanali ahenemine degeneratiivsetest muutustest,M00-M99,1
+1882,Puusakontusioon [-põrutus]; paremal,S00-T98,1
+1883,"Kahtlus interkostaalneuralgiale, stenokardiale ebatüüpiline.",R00-R99,1
+1884,Krooniline migreen (hemipleegiline sporaadiline).,G00-G99,1
+1885,Vasak labajalg,M00-M99,1
+1886,/infektsioosne mononukleoos/,Z00-Z99,1
+1887,"Raske obstruktsioon, suitsetaja",J00-J99,1
+1888,Suurenenud voolus,Z00-Z99,1
+1889,Ulatub limaskestani,C00-D48,1
+1890,Apogee+ perinaeelamembraani taastamine,Z00-Z99,1
+1891,Exacerb. ( tomatimahl),L00-L99,1
+1892,.Neuriborrelioosijärgne seisund.,G00-G99,1
+1893,Paremal küünarvarre piirkonnas,C00-D48,1
+1894,Bilat. labajalgadel,L00-L99,1
+1895,"Rangluumurd, lahtine",S00-T98,1
+1896,Kodutolmulestalistele; ninalimas eosinofiilid,J00-J99,1
+1897,Chondromalatio patellae bilateralis.,M00-M99,1
+1898,- vasema rinna fibroadenoom,C00-D48,1
+1899,Kapillaarset tüüpi mõlemal reiel,I00-I99,1
+1900,Post partum,R00-R99,1
+1901,"Autoimmuunne türeoidiit, sõlmed kilpnäärmes",E00-E90,1
+1902,Hemorroidektoomia järgne,R00-R99,1
+1903,Peetunud raseduse järgne kontroll,Z00-Z99,1
+1904,Kardetud seisundit ei leitud,Z00-Z99,1
+1905,"Kombineeritud: postmenopaus, hüpertüreoos",M00-M99,1
+1906,Oraalse allergia sündroomi näol,J00-J99,1
+1907,Kahtlus hematoomile,Z00-Z99,1
+1908,- Myopia magnae /,H00-H59,1
+1909,- jalad,I00-I99,1
+1910,Basalioom? keratoos,L00-L99,1
+1911,Haemophilus influenzae,J00-J99,1
+1912,Rasedustest positiivne.,N00-N99,1
+1913,Ja kranialgia,M00-M99,1
+1914,Bitemporaalne kvadrant,H00-H59,1
+1915,Silmasisese läätse mehhaaniline tüsistusod,S00-T98,1
+1916,/ vasak küünarliiges/,M00-M99,1
+1917,Vasakus neerus,N00-N99,1
+1918,"Vähene, võimalik põetud infektsioonijärgne",D50-D89,1
+1919,Pea piirkonans naha-alune sõlm,L00-L99,1
+1920,/ persiteeriv/.,I00-I99,1
+1921,Närvisüsteemi alkoholdegeneratsioon   .,G00-G99,1
+1922,Alkoholitekkene tserebellaarataksia .,G00-G99,1
+1923,"Intermiteeruv, köhavariantne",J00-J99,1
+1924,Tugev ärritusreaktsioon,J00-J99,1
+1925,"/guttata hüpomelanoos, lentiigod, ephelides",L00-L99,1
+1926,Rangluu-rinnaku liigesed,M00-M99,1
+1927,Peruu palsam,L00-L99,1
+1928,Äge respiratoorne viirusinfektsioon,O00-O99,1
+1929,Seos menstruatsioonitsükliga,K00-K93,1
+1930,. Kahtlus.,None,1
+1931,Raseduse kahtlus- ei kinnitunud,Z00-Z99,1
+1932,Laperdusarütmia paroksüsmid Holter-monitooringu alusel,I00-I99,1
+1933,Tsükli häire,N00-N99,1
+1934,Kahtlustatud haigust ei leitud,Z00-Z99,1
+1935,Tsükliväline veritsus,N00-N99,1
+1936,Köhavariantne astma,J00-J99,1
+1937,Rahutute jalgade sündroom ?,G00-G99,1
+1938,Bilateraalne vasak > parem,M00-M99,1
+1939,/ parem õlaliiges/,M00-M99,1
+1940,Reumaatiline aordi(klapi)stenoos (bioprotees),I00-I99,1
+1941,Fibroadenoomid paremas rinnas,C00-D48,1
+1942,"Tasakaaluhäired, alumise spastilise paraparees.",G00-G99,1
+1943,"Seedeprobleemid ,refluks,naha sügelemine,suu kuivus",Z00-Z99,1
+1944,Küünarnukis ja randmeliigeses,M00-M99,1
+1945,Küünrakontusioon [-põrutus] verevalumiga bursasse,S00-T98,1
+1946,Mõõdukas püsiobstruktsioon,J00-J99,1
+1947,Ravi katkestanud,J00-J99,1
+1948,Vasakul kaelalihased,M00-M99,1
+1949,Vasaku tonsilli abstsess,J00-J99,1
+1950,Põlvekontusioon [põrutus] vasakul,S00-T98,1
+1951,Radiculopathia thoracalis,M00-M99,1
+1952,. kinnine,None,1
+1953,"Sideme vahetus, õmbluste eemaldamine",Z00-Z99,1
+1954,Vasaku reiekontusioon,S00-T98,1
+1955,Tümpanoplastikajärgne vasakul,H60-H95,1
+1956,Vasakul tuharal,L00-L99,1
+1957,Muud esmased koksartroosid-parem.puusaliig.,M00-M99,1
+1958,Vasemal õlavõõtmel.,G00-G99,1
+1959,Muud täpsustatud peavalusündroomid    .,G00-G99,1
+1960,Krooniline pingepeavalu.,G00-G99,1
+1961,Ligamendi põletik?,M00-M99,1
+1962,Pöiall parem,M00-M99,1
+1963,Kahepoolne karpaalkanali sündroom.,G00-G99,1
+1964,/ bimalleolaarne murd.,None,1
+1965,Parkinsonistliku sündroomiga,I00-I99,1
+1966,Raviga kontrolli all,J00-J99,1
+1967,. Perforeerunud sapipõis. Sepsis,K00-K93,1
+1968,/status post operatsionem/,N00-N99,1
+1969,Võõrkeha granuloom.,L00-L99,1
+1970,Parema õla valu,M00-M99,1
+1971,"Vasakul, kahtlus seenele",H60-H95,1
+1972,"Nina all, hemangioomi järgne",L00-L99,1
+1973,Scimitari sündroom,Q00-Q99,1
+1974,Luutihedus osteopeenia faasis,R00-R99,1
+1975,Ninaesiku ragaad,J00-J99,1
+1976,+ Tuumor?,K00-K93,1
+1977,Tservikogeenne peavalu,G00-G99,1
+1978,Ravimite tarvitamine perikontseptsioni perioodil,Z00-Z99,1
+1979,"Kodutolmulesta allergia, kahtlus astmale",J00-J99,1
+1980,Üla- ja alalaul odex,S00-T98,1
+1981,Mõlem.Väljapöörd-suurvarvas (omandatud),M00-M99,1
+1982,"Operatiivselt korrigeeritud
+operatiivselt korrigeeritud",Q00-Q99,1
+1983,Pityriasis lichenoides chronica(morfoloogia),L00-L99,1
+1984,Cysta endometrioides bilateralis .,N00-N99,1
+1985,- vasak säär.,I00-I99,1
+1986,Emaka subtotaalne amputatsioonijärgne seisund.,N00-N99,1
+1987,Dermatitis dyshidrotica pedum,L00-L99,1
+1988,Op-tud parem puusaliiges. protees,M00-M99,1
+1989,Akustilis-gnostiline afaasia (raske),G00-G99,1
+1990,. Astmahoog.,J00-J99,1
+1991,Cysta vaginae,N00-N99,1
+1992,Müofastsiaalne valu vasakul kaela-õlavöötmes,M00-M99,1
+1993,Müokardiidi kahtlus,Z00-Z99,1
+1994,"Gonarthrosis bilateralis
+Gonarthrosis bilateralis",M00-M99,1
+1995,Kaasuvalt liited kõhukoopas,K00-K93,1
+1996,"Roiete hulgimurd, kinnine, paremal",None,1
+1997,Pideva iiveldusega.,K00-K93,1
+1998,Mõlemapoolne vasemal > paremal,G00-G99,1
+1999,Gonartrosis bilateralis,M00-M99,1
+2000,Hilistekkeline raske astma,J00-J99,1
+2001,Ebakindlus jalgades,R00-R99,1
+2002,Anaemia gravidarum.,Z00-Z99,1
+2003,"Kombineeritud: seniilne, epilepsia",M00-M99,1
+2004,- ventrik  ekstras saged.,I00-I99,1
+2005,ESS-Mirena soov.,Z00-Z99,1
+2006,"Raske, aPAP ravi testimine",G00-G99,1
+2007,Thrombosis sinus venosi?,I00-I99,1
+2008,Küüne vigastus,S00-T98,1
+2009,- veriköha,J00-J99,1
+2010,Parema õlaliigese endoprotees.,Z00-Z99,1
+2011,Opereeritud müoom,N00-N99,1
+2012,Anamneesis südamerütmihäired.,O00-O99,1
+2013,. Klebsiella oxytoca,J00-J99,1
+2014,Esmaavastatud diabeet,E00-E90,1
+2015,-kahtlus köhavariantsele astmale,J00-J99,1
+2016,Medikam. abordi järgselt,Z00-Z99,1
+2017,- vasak hüppeliiges,M00-M99,1
+2018,"Fastum geel, põlvedel",L00-L99,1
+2019,Keelepära tonsillid,J00-J99,1
+2020,Põlvekontusioon [põrutus]- vasem põlveliiges,S00-T98,1
+2021,Endometrioos ?,N00-N99,1
+2022,?  Ebaselge artriit,M00-M99,1
+2023,. Fluidometra.,N00-N99,1
+2024,"Algav seniilkatarakt, odex",H00-H59,1
+2025,Abordi järgne tervistumine,Z00-Z99,1
+2026,"Elamutolmulestad, kassi- koera epiteel",J00-J99,1
+2027,Verekiud rögas,R00-R99,1
+2028,Randmed bilat,M00-M99,1
+2029,Parem pöial,M00-M99,1
+2030,Düsplaasia ?,N00-N99,1
+2031,Fascitis plantaris bilat.,M00-M99,1
+2032,Serratia marcescens,J00-J99,1
+2033,Et intramuraalne,C00-D48,1
+2034,- mõlemapoolne,M00-M99,1
+2035,Parem randmekanal,G00-G99,1
+2036,- armisong vasakul alakõhus.,K00-K93,1
+2037,Postinfektsioosne köha,J00-J99,1
+2038,Kahtlus takistatud defekatsiooni sündroomile,K00-K93,1
+2039,Auraga migreen [klassikaline migreen]?,G00-G99,1
+2040,- peaaju kontusioon,None,1
+2041,Kahtlus neerufunktsioonihäirele,Z00-Z99,1
+2042,Mõlema rinna fibrotsüstilised muutused,N00-N99,1
+2043,Herpesviirusnakkused [herpes simplex]( korduv),A00-B99,1
+2044,Enam parem,G00-G99,1
+2045,Vasakul hemiparees,I00-I99,1
+2046,Intramuraalne ja subseroosne sõlm,C00-D48,1
+2047,Osalina mullheidik?,O00-O99,1
+2048,Esmakordne paroksüsm,I00-I99,1
+2049,Saktosalpinks paremal,N00-N99,1
+2050,Jala sekundaarne lümfiturse,I00-I99,1
+2051,Hulgiliigeste haaratus,M00-M99,1
+2052,Günekoloogilist patoloogiat ei leitud,Z00-Z99,1
+2053,Fikseeritud erüteem,Z00-Z99,1
+2054,Pärilik mikrosfärotsütaarne aneemia,D50-D89,1
+2055,Reumatol. haiguse suhtes.,Z00-Z99,1
+2056,Parempoolne krooniline,N00-N99,1
+2057,"Infektsioonijärgne, lahenenud",G00-G99,1
+2058,Allergia Acyclovirile,R00-R99,1
+2059,Mõlemad randmed,S00-T98,1
+2060,"Kahtlus, mis ei kinnitunud",S00-T98,1
+2061,Primarne biliaarne kolangiit,K00-K93,1
+2062,Uuritud infektsioonhaiguste suhtes,Z00-Z99,1
+2063,Barretti metaplaasia,K00-K93,1
+2064,Pernitsioosne aneemia,D50-D89,1
+2065,"Mikrokartsinoom, thyreoidectomia",C00-D48,1
+2066,Atüüpiline (kaelal),C00-D48,1
+2067,"Munajuha[de]tekkene naiseviljatus
+kaasuvana endometrioos",N00-N99,1
+2068,/sataus post/,J00-J99,1
+2069,Kuivnahksus kandadel,L00-L99,1
+2070,Parema käe esimene sõrm,L00-L99,1
+2071,Liigesevalu - puusaliigesed,M00-M99,1
+2072,. plica cubiti lateralis?,M00-M99,1
+2073,Parem põial,M00-M99,1
+2074,..Krooniline gastriit?Enterokoliit?,R00-R99,1
+2075,Vasem pöial,M00-M99,1
+2076,/ neurilemmoma,C00-D48,1
+2077,Varasem müokardiinfarktz,I00-I99,1
+2078,Paremal kuulmekile plastikajärgne perf,H60-H95,1
+2079,Oesophagitis ?,Z00-Z99,1
+2080,. Cephalgia sympthomatica.,G00-G99,1
+2081,Radikulopaatia cervicalis. Plexuse kahjustus?,M00-M99,1
+2082,Vasak õlavööde.,M00-M99,1
+2083,. Õlapiirkond,None,1
+2084,"Kahtlus, alustab prooviraviga",J00-J99,1
+2085,Bilat pöidlal,M00-M99,1
+2086,Kaela-rinnaosa piirkond?,None,1
+2087,Täpsustamata reuma. Fibromüalgia,M00-M99,1
+2088,Paremal kõrvanibul,L00-L99,1
+2089,Tugevate valude ja liikumishäirega,M00-M99,1
+2090,. Õlavars,None,1
+2091,-köhavariante?kerge kulg,J00-J99,1
+2092,/lülisamba patoloogia/,Z00-Z99,1
+2093,- jalad,G00-G99,1
+2094,".ägenemine, parempoolne",M00-M99,1
+2095,/luksatsioon paremal,M00-M99,1
+2096,/unearterite stenoos/,Z00-Z99,1
+2097,. Krooniline talumatu valu,R00-R99,1
+2098,Vasakul abstsedeerunud,J00-J99,1
+2099,"Rakenduse,ülekoormushaigus kutsehaigusena",M00-M99,1
+2100,Mao düspepsia,K00-K93,1
+2101,Täpsustamata äge konjunktiviit odex,H00-H59,1
+2102,Endometriosis genitalis,N00-N99,1
+2103,Medikamentoosse abordi järgne kontroll,Z00-Z99,1
+2104,Vasakull pool,G00-G99,1
+2105,Tsüstiline fibroos,N00-N99,1
+2106,Hüpergonadotroopne hüpogonadism,N00-N99,1
+2107,"Vasakul õlavarrel
+vasakul õlavarrel",L00-L99,1
+2108,Eesmise huule pikenemine,N00-N99,1
+2109,"Kaltsifikaadid , pankreatogeenne diabeet",K00-K93,1
+2110,Anamneesis dermatiidi põdemised,Z00-Z99,1
+2111,Postinfektsioosne köha,Z00-Z99,1
+2112,Ebaselge põhjusega,L00-L99,1
+2113,Parema sisemise unearteri oklusioon,I00-I99,1
+2114,Tupe tsüst,N00-N99,1
+2115,.Ägenemiste ja remissioonidega kulg.,G00-G99,1
+2116,Testid infektsioonhaiguste suhtes,Z00-Z99,1
+2117,Astma ja allergiline riniit,O00-O99,1
+2118,Kahtlus pahaloomususele,K00-K93,1
+2119,Parem säär,S00-T98,1
+2120,Hoidub submukoosele,C00-D48,1
+2121,"Kahepoolne, vasak käsi enam",G00-G99,1
+2122,"Keskmise/raske raskusega,  aC-PAP ravil",G00-G99,1
+2123,Haigestumine taandunud,J00-J99,1
+2124,Opereeritud paremal,H60-H95,1
+2125,Ebaselge infektsioonikolle,Z00-Z99,1
+2126,Määrimine menstruatsioonijärgselt ja eelselt,N00-N99,1
+2127,Subakromiaalne bursiit vasakul,M00-M99,1
+2128,"Vasakul> paremal
+vasakul> paremal",H60-H95,1
+2129,Paremal kahtlus otoskleroosile..,H60-H95,1
+2130,"Igapäevane, krooniline",G00-G99,1
+2131,Pikaajaline köha,Z00-Z99,1
+2132,Bilat hüppeliigesed,M00-M99,1
+2133,Vasak põlveliiges endoproteesitud,M00-M99,1
+2134,Vasak põlvel.,M00-M99,1
+2135,Jälgimine võimaliku maksahaiguse suhtes,Z00-Z99,1
+2136,Vasaku kõrva piirkonna põrutus,S00-T98,1
+2137,Paremal kolmiknärvi neuralgia?,R00-R99,1
+2138,Emakalea konisatsioon,Z00-Z99,1
+2139,Krooniline hepatiit ebaselge geneesiga,Z00-Z99,1
+2140,Parempoolse seemneväädi hüdrotseele,N00-N99,1
+2141,- vasak jalg,I00-I99,1
+2142,Diafragma kõrgseis,R00-R99,1
+2143,Parapelvikaalsed tsüstid,Q00-Q99,1
+2144,Polypus canalis cervicis uteri,N00-N99,1
+2145,Kukla piirkond,L00-L99,1
+2146,- vasem,G00-G99,1
+2147,Spinaalne klaudikatsioon.,M00-M99,1
+2148,Anamneesis hüpofüüsi apopleksia,G00-G99,1
+2149,Mõlemad labakäed,M00-M99,1
+2150,Ebaselge põhjusega kolestaas,K00-K93,1
+2151,Hamartoom maos,K00-K93,1
+2152,Ureetra polüüp,N00-N99,1
+2153,Munajuharasedus. Paremal.,O00-O99,1
+2154,"Mõõdukas raskusaste
+mõõdukas raskusaste",J00-J99,1
+2155,Sigmasoole pseudomelanoos,K00-K93,1
+2156,Bilateraalsed rinnatsüstid,N00-N99,1
+2157,. Osteopeenia.,R00-R99,1
+2158,Lapsel pärilik kuulmisnõrkus,Z00-Z99,1
+2159,Tsentraalne neuropaatiline valu,G00-G99,1
+2160,"Fibroostsüstiline mastopaatia
+Fibroostsüstiline mastopaatia",N00-N99,1
+2161,-alaneelu retensioonitsüst,J00-J99,1
+2162,"Loote neerud aplaasia, anhüdramnion",O00-O99,1
+2163,Paremal pool,M00-M99,1
+2164,Parem põsk,C00-D48,1
+2165,: mikrohematuuria,Z00-Z99,1
+2166,Fibroostsüstilised muutused paremas rinnas.,N00-N99,1
+2167,Emakakaela põletik,Z00-Z99,1
+2168,Vasaku põlveliigese algav artroos.,M00-M99,1
+2169,/ täpsustamata allergia,Z00-Z99,1
+2170,Rinnanäärme patol. osas.,Z00-Z99,1
+2171,Heberdeni sõlmed (artropaatiaga).,M00-M99,1
+2172,Heberdeni sõlmed (artropaatiaga). Polüartroos,M00-M99,1
+2173,/ subac.,H00-H59,1
+2174,. parem põlv.,M00-M99,1
+2175,Ebaselge etioloogiaga,R00-R99,1
+2176,Vasak temporormandibulaarliiges,M00-M99,1
+2177,Läbipõetud kopsupõletik,Z00-Z99,1
+2178,Täpsustamata dermatiit; lichen simplex?,L00-L99,1
+2179,Status post operatcionem,N00-N99,1
+2180,. kahtlus astmale.,J00-J99,1
+2181,- vasak.,M00-M99,1
+2182,Infert prim,N00-N99,1
+2183,?Allergia ?,H00-H59,1
+2184,. Vaskuliit?,Z00-Z99,1
+2185,Pöial vasak,M00-M99,1
+2186,+ koormusastma,J00-J99,1
+2187,Vasemas maksillaarsiinuses,J00-J99,1
+2188,/ Contusio capitis.,S00-T98,1
+2189,. Empüeem?,J00-J99,1
+2190,. Ravimlööve? Kontaktdermatiit? Lümfoom?,L00-L99,1
+2191,"Püsiobstruktsioon, keskmise raskusega kulg",J00-J99,1
+2192,"Õndraluumurd, kinnine",None,1
+2193,- Alzhemeri tõbi ?,G00-G99,1
+2194,Täpsustamata emakakael (recidiva?),C00-D48,1
+2195,Pikaaegne köha,Z00-Z99,1
+2196,Osalise kontrolliga,J00-J99,1
+2197,Jälgimine reaktiivse artriidi suhtes.,None,1
+2198,- vasakul pool,M00-M99,1
+2199,Kahtlus hilise algusega astmale.,J00-J99,1
+2200,Paremal pool,H00-H59,1
+2201,Kehakaalu tõus,Z00-Z99,1
+2202,"-raske kulg, püsiobstruktsioon",J00-J99,1
+2203,?  Uneapnoe ??,J00-J99,1
+2204,Kaele osas,M00-M99,1
+2205,"Pillide foonil
+pillide foonil",N00-N99,1
+2206,Düshidrootiline dermatiit kätel,L00-L99,1
+2207,Alopecia diffusa,L00-L99,1
+2208,Kerge neerupuudulikkus,I00-I99,1
+2209,"Perekonnaanamneesis
+neurofibromatoos perekonnaanamneesis",Z00-Z99,1
+2210,Reie ülaosa,L00-L99,1
+2211,Vasema õlaliigese osaline kontraktuur,M00-M99,1
+2212,Belli halvatus vasemal.,G00-G99,1
+2213,Kõrvetised ja iiveldus,O00-O99,1
+2214,"Kodutolmulest, kass, koer, õietolmud",J00-J99,1
+2215,Naba sees,C00-D48,1
+2216,Psühhotrauma foonil.,N00-N99,1
+2217,Imetamise nõustamine,Z00-Z99,1
+2218,Ureaplasma parvum positiivne.,N00-N99,1
+2219,"Postinfektsioosne köha
+postinfektsioosne köha",J00-J99,1
+2220,"Väljendunud asümmeetriaga
+väljendunud asümmeetriaga",Q00-Q99,1
+2221,Parempoolsest puusaliigese düsplaasiast tingitud,M00-M99,1
+2222,Sähvivad peavalud,G00-G99,1
+2223,Naba kõrval,C00-D48,1
+2224,"Parem põlveliiges
+parem põlveliiges",Z00-Z99,1
+2225,Kahtlus maksahaigusele,Z00-Z99,1
+2226,"Gaaside pidamatus
+Gaaside pidamatus",R00-R99,1
+2227,AKE-köha ?,Z00-Z99,1
+2228,"Kass , puude õietolm",J00-J99,1
+2229,"Krooniline, radikulaarse leiuta",M00-M99,1
+2230,Parem temporomand. liiges,M00-M99,1
+2231,Retentio post abortum medicamentosa,O00-O99,1
+2232,Paremal aksillaarselt,C00-D48,1
+2233,Hallux valgus bilateralis operata.,Z00-Z99,1
+2234,- vasdak käsi,G00-G99,1
+2235,. kahepoolne.,G00-G99,1
+2236,Vasakus maksillaarsiinuses,J00-J99,1
+2237,Vasakus rinnas komplitseeritud tsüst,N00-N99,1
+2238,Müofastsiaalne valu.,M00-M99,1
+2239,Monomorfne ventrikulaarne ekstrasüstoolia.,I00-I99,1
+2240,Diskogeenne lumbalgia,M00-M99,1
+2241,Rahutute jalgade sündroom.,G00-G99,1
+2242,"Mesenteriaalne pannikuliit, paranenud",K00-K93,1
+2243,Gonarthrosis bilat.,M00-M99,1
+2244,"Klaaskeha täpsustamata haigusseisund, hõljumid",H00-H59,1
+2245,Kahtlus astmale,Z00-Z99,1
+2246,Perm hüppeliiges,M00-M99,1
+2247,Radikulopaatia ?,M00-M99,1
+2248,Solarne keratoos,L00-L99,1
+2249,Chondromalacia genus bilat.,M00-M99,1
+2250,"Õlaliigese artroos, paremal",M00-M99,1
+2251,Sisemise liigeseproteesi mehhaanili,None,1
+2252,Sünnitusjärgne hematometra,O00-O99,1
+2253,. mortoni neurinoom .,G00-G99,1
+2254,Algav seniilkatarakt  vasak silm,H00-H59,1
+2255,Paremal küünarliigesel,L00-L99,1
+2256,Paremal kesksagaras.,J00-J99,1
+2257,Vajab kuuldeaparaati,H60-H95,1
+2258,Mõõdukalt väljendunud,M00-M99,1
+2259,Metüülisotiasolinoon+ metüülkloroisotiasolinoon,L00-L99,1
+2260,Entamoeba coli,K00-K93,1
+2261,Lewy keha dementsus,G00-G99,1
+2262,: ajuinfarkt?,Z00-Z99,1
+2263,Vasakpoolne lobektoomia,E00-E90,1
+2264,- osteopeenia,R00-R99,1
+2265,Kerge raskusega,J00-J99,1
+2266,Raskekujuline ; CPAP-ravi testimine,G00-G99,1
+2267,"Pahaloomuline kasvaja
+invasiivne duktaalkartsinoom",None,1
+2268,- Seroquel,G00-G99,1
+2269,Viiruslik erüteem,L00-L99,1
+2270,"Paremas kõrvas
+paremas kõrvas",H60-H95,1
+2271,Syndroma climacterica,N00-N99,1
+2272,Hemiparees vasakul,I00-I99,1
+2273,Keskmine/raske aPAP-ravi,G00-G99,1
+2274,Rinnanäärmesisene lümfisõlm paremal.,N00-N99,1
+2275,Nimmevalu- äge mittespetsiifiline alaseljavalu,M00-M99,1
+2276,Jääb jälgimisele,J00-J99,1
+2277,Vasem hüppeliiegs.,M00-M99,1
+2278,Bakteriaalne  vaginoos kahtlus,N00-N99,1
+2279,? külma toime?,L00-L99,1
+2280,Fleree soovitus,Z00-Z99,1
+2281,Kaela-õlavöötme müofastsiaalsed valud paremal,M00-M99,1
+2282,Basalioma? keratosis actinica?,L00-L99,1
+2283,"Kahepoolne, parem opereeritud",G00-G99,1
+2284,. Rectocele sanata.,Z00-Z99,1
+2285,Osteopeenia faasis,M00-M99,1
+2286,.Myoma magna,C00-D48,1
+2287,. Myoma magna,C00-D48,1
+2288,Vasema põlve,R00-R99,1
+2289,Silmakoopa deformatsioon osin,H00-H59,1
+2290,Parema neeru kujunemisjärgus neeruabstsess,N00-N99,1
+2291,"Seljal, paremal",C00-D48,1
+2292,. Vasem ranne.,M00-M99,1
+2293,Visanette ravi,N00-N99,1
+2294,Täpsustamata värisemine. M.Parkinsoni??,R00-R99,1
+2295,Peaajuinfarkt (pea)ajuarterite tromboosi tõttu?,I00-I99,1
+2296,Mitte kontrolli all,J00-J99,1
+2297,Allrgia ??,H00-H59,1
+2298,Hüpofüüsi verdumise järgne seisund,I00-I99,1
+2299,"Paremal>vasakul, väljendunud valusündroomiga.",G00-G99,1
+2300,"Reieluu hulgimurrud, kinnine",S00-T98,1
+2301,Vasak jalg,M00-M99,1
+2302,Vasaku silma alusi,C00-D48,1
+2303,Õlavöötme müofastsiaalsed valud,M00-M99,1
+2304,Siinussõlme nõrkuse tõttu,Z00-Z99,1
+2305,Kõrv kuiv,H60-H95,1
+2306,- renis polycystici.,N00-N99,1
+2307,Symptomatica (+),G00-G99,1
+2308,"-intermiteeruva kuluga, koormusastma.",J00-J99,1
+2309,Vasaku õlaliigese artroos?,M00-M99,1
+2310,"Püsiobstruktsiooniga, püsivate sümtomitega",J00-J99,1
+2311,Meniere tõbi,H60-H95,1
+2312,Generaliseerunud toonilis-kloonilste krambihoogudega.,G00-G99,1
+2313,- Chlam. Pneum.,J00-J99,1
+2314,Peaajuinfarkt (pea)ajuarterite emboolia tõttu?,I00-I99,1
+2315,Vasakul perf,H60-H95,1
+2316,Parem varusartroos,M00-M99,1
+2317,Infert prim. Ebaselge põhjus.,N00-N99,1
+2318,- algav,M00-M99,1
+2319,Neutrofiilne leukotsütoos,D50-D89,1
+2320,"Parem jalg
+parem jalg",A00-B99,1
+2321,Primaarselt generaliseerunud toonilis-kloonilised hood,G00-G99,1
+2322,Hüporenineemiline hüpoaldosteronism,E00-E90,1
+2323,Neeru allavaje?,N00-N99,1
+2324,/ neerupatoloogia/,Z00-Z99,1
+2325,Kõrvalestadel bilat.,L00-L99,1
+2326,Naba piirkonnas,C00-D48,1
+2327,Rindkere ülaosa,C00-D48,1
+2328,- vasema Achilleuse peritendinopaatia.,M00-M99,1
+2329,Parempoolne sekundaarne,H00-H59,1
+2330,Põsel ja kaela ülaosas,C00-D48,1
+2331,Konisatsioonijärgne kontroll,Z00-Z99,1
+2332,"Kapillaarset tüüpi
+Kapillaarset tüüpi",I00-I99,1
+2333,Herpesviirusnakkused [herpes simplex] genitalis,A00-B99,1
+2334,"Düsfunktsioon, paremal",H60-H95,1
+2335,Vasakul tuharal fibrolipoom,C00-D48,1
+2336,Intraduktaalsed papilloomid,C00-D48,1
+2337,Krooniline neuropaatiline valu.,R00-R99,1
+2338,Maksa funkts. häired,Z00-Z99,1
+2339,Endomeetriumi stromaalne sarkoom,C00-D48,1
+2340,"Kujunev rosaatsea?
+kujunev rosaatsea?",L00-L99,1
+2341,/  epididüümise tsüst/,N00-N99,1
+2342,- vasak > parem,M00-M99,1
+2343,Lülisamba kaela ja nimmeosa,M00-M99,1
+2344,. Sarkoidoosi suhtes,Z00-Z99,1
+2345,Kahtlus pahaloomulisusele,N00-N99,1
+2346,Rindadealune nahk,A00-B99,1
+2347,. Ülekaalulisus,Z00-Z99,1
+2348,Sinusiidiga kaasnev,G00-G99,1
+2349,Rinnaosa piirkond?,None,1
+2350,Allergiline? ärritus?,H00-H59,1
+2351,Infertilitas secundaria. Tubaarne?,N00-N99,1
+2352,"Lõual, kaelal",C00-D48,1
+2353,Fleree soov,Z00-Z99,1
+2354,Uterus myomatosus,C00-D48,1
+2355,Parem alajäse,Q00-Q99,1
+2356,- paranenud,N00-N99,1
+2357,"Kass, kodutolmulest",J00-J99,1
+2358,Infet prim,N00-N99,1
+2359,Bekteriaalne vaginoos,N00-N99,1
+2360,"Keskmises astmes 
+keskmises astmes",G00-G99,1
+2361,Düsplaasia tunnustega,C00-D48,1
+2362,Kerge vorm,D50-D89,1
+2363,Kahtlus demüeliniseerivale patoloogiale,Z00-Z99,1
+2364,"Intermitteeruv, köhavariantne",J00-J99,1
+2365,Klebsiella pneumoniae,J00-J99,1
+2366,Ähvardav raseduse katkemine,O00-O99,1
+2367,. Persisteeriv.,I00-I99,1
+2368,Kahtlus lichen planusele,Z00-Z99,1
+2369,- adenoom.,C00-D48,1
+2370,Kontratseptsioon nõustamine,Z00-Z99,1
+2371,"Paemal, kahtlus",M00-M99,1
+2372,Kuuldeaparaadi järjekorras,H60-H95,1
+2373,Laktoositaluvustesti alusel,E00-E90,1
+2374,Häiriv tupevoolus,Z00-Z99,1
+2375,/ kopsupatoloogia/,Z00-Z99,1
+2376,Müofastsiaalne lumbalgia.,M00-M99,1
+2377,"Parempoolne, munandimanuse peaosas",N00-N99,1
+2378,"Lumbaalsel, opereeritud",M00-M99,1
+2379,"Varasem diagnoos
+varasem diagnoos",J00-J99,1
+2380,Vasemal käel.,G00-G99,1
+2381,Primaarne skleorseeriv kolangiit,K00-K93,1
+2382,. Kahtlus.,M00-M99,1
+2383,Polüpoidne liitneevus,C00-D48,1
+2384,Vasak põlv artroosi ägenemine,M00-M99,1
+2385,Perifeerne isheemia,None,1
+2386,Anamneesis verevalumid,Z00-Z99,1
+2387,Fibrotsüstilised muutused vasemas rinnas,N00-N99,1
+2388,Et submucosum,C00-D48,1
+2389,Parem puusaliiges.,M00-M99,1
+2390,.(raske.) Vasak enam.,M00-M99,1
+2391,"Paremal, vasak- opereeritud",G00-G99,1
+2392,Varjatud vorm,E00-E90,1
+2393,Peritendiniit vasemal randmepiirkonnas,M00-M99,1
+2394,Mõlemad puusaproteesid.,Z00-Z99,1
+2395,Premenopaus ?,N00-N99,1
+2396,"Püsivate sümptomitega, mõõduka raskusega",J00-J99,1
+2397,Fibroepiteliaalne polüüp,None,1
+2398,"Kahtlus tööastmale
+kahtlus tööastmale",J00-J99,1
+2399,Neelamistakistuse tunne,K00-K93,1
+2400,Dermatis insecta,L00-L99,1
+2401,Sooletuumor ?,Z00-Z99,1
+2402,Mõlema puusaliigese artroos.,M00-M99,1
+2403,Vasak põlv.,Z00-Z99,1
+2404,Rahutu uni,G00-G99,1
+2405,? vasakul,H60-H95,1
+2406,"Nägu, dekoltee
+nägu, dekoltee",L00-L99,1
+2407,. Osteoporosis,M00-M99,1
+2408,Bilateraalselt hüppeliigestest,M00-M99,1
+2409,"Taastuvad suuaftid,Aftoosne stomatiit",None,1
+2410,- parem põlv,M00-M99,1
+2411,"Kahtlus, jälgimisel",J00-J99,1
+2412,Ninaneelunohust tingitud köha?,J00-J99,1
+2413,"Protrahheeritud kuluga, krooniline",I00-I99,1
+2414,Pideva valu sündroomiga,M00-M99,1
+2415,Fibroplastiline polüüp -,None,1
+2416,Muud klamüüdiahaigused.,None,1
+2417,.Äge bronhiit,None,1
+2418,Bursitis calcanei,M00-M99,1
+2419,Ärritatud soolesündroom?,Z00-Z99,1
+2420,Persistens (sanata),I00-I99,1
+2421,"Allergia , muu konjunktiviit",H00-H59,1
+2422,Guillaini-barré sündroom,G00-G99,1
+2423,Vasemas ninaesikus,L00-L99,1
+2424,Paroxysmalis (sanata),I00-I99,1
+2425,- osteoporoos?,Z00-Z99,1
+2426,? Äkiline vereringehäire ?,R00-R99,1
+2427,Karpaaltunneli sündroom bilat. (+),G00-G99,1
+2428,- paremal.,M00-M99,1
+2429,Nimmevalu (-),M00-M99,1
+2430,Neeru patoloogia,Z00-Z99,1
+2431,Parem jalg,S00-T98,1
+2432,Abdominaalne hüsterktoomia koos adneksidega,Z00-Z99,1
+2433,Postoperativa dextri,M00-M99,1
+2434,- treemor,Z00-Z99,1
+2435,Vasem .,M00-M99,1
+2436,Põhjus teadmata,J00-J99,1
+2437,Tsütoloogiliselt follikulaarne neoplaasia,E00-E90,1
+2438,Paremal alakõhus,R00-R99,1
+2439,Tehtud magu vähendav lõikus,D50-D89,1
+2440,"Astma, uneapnoe",Z00-Z99,1
+2441,Autoimmuune hepatiit,K00-K93,1
+2442,Algav Peyronie' haigus,N00-N99,1
+2443,Vasakul teise haru valu,G00-G99,1
+2444,Mirena asetamine narkoosis,Z00-Z99,1
+2445,/ stenoos söövitusest?,K00-K93,1
+2446,Endomeetriumi polüüp?,N00-N99,1
+2447,Põletikuline soolehaigu,Z00-Z99,1
+2448,Mäluhäire ja depressiivsete sümptomidega,R00-R99,1
+2449,Superfitsiaalne basalioom?,L00-L99,1
+2450,Mõlema puusaliigese algav artroos.,M00-M99,1
+2451,Süüfilise kahtlus,Z00-Z99,1
+2452,Tupeköndi  allavaje,N00-N99,1
+2453,Rindkerekontusioon - vasakul roided.,S00-T98,1
+2454,- erosiivne labakäeliigeste artroos,M00-M99,1
+2455,- bilat. vestibulopaatia,H60-H95,1
+2456,Apoplexia? Grav.?,R00-R99,1
+2457,Ventrikulaarne bigeminia,I00-I99,1
+2458,Korduvad raseduse peetumised,N00-N99,1
+2459,+ eesmine uveiit osin,H00-H59,1
+2460,Täpsutamata loomusega kasvaja maksillaarsiinuses,None,1
+2461,Parem küünarvars,C00-D48,1
+2462,Tservikogeensed peavalud,G00-G99,1
+2463,/tõenäoliselt  lihasvalu/,R00-R99,1
+2464,Siirdamisjärgne nõustamine ja immuniseerimine,Z00-Z99,1
+2465,Endomeetriumi polüüp,N00-N99,1
+2466,Söövituse järgne,K00-K93,1
+2467,Väljapöörd-suurvarvas (omandatud) /parem/,M00-M99,1
+2468,Kahtlus ületreeningule,R00-R99,1
+2469,Emakakela köndi polüüp,N00-N99,1
+2470,Ja kurgumandlite põletik,J00-J99,1
+2471,Ka hüpolaktaasia,K00-K93,1
+2472,"Krooniline, endometrioosi kahtlus",R00-R99,1
+2473,: obstruktiivne,J00-J99,1
+2474,- neuroloogiline düsuuria,Z00-Z99,1
+2475,- abik.,J00-J99,1
+2476,?- veritsus,I00-I99,1
+2477,Vasaku jala halvatus,G00-G99,1
+2478,Tupe eesseina allavaje,N00-N99,1
+2479,/ dermatofibroom,None,1
+2480,"Paremal, kahtlus",G00-G99,1
+2481,"Vahetult pärast sünnitust
+kõhuvalu",Z00-Z99,1
+2482,Downi sündroom lootel,Z00-Z99,1
+2483,Mõlemad kannakõõlused,M00-M99,1
+2484,- sanata,N00-N99,1
+2485,. Alakõhuvalud.,N00-N99,1
+2486,Candidiasis inquinalis,A00-B99,1
+2487,Allergiatestid tehtud,J00-J99,1
+2488,"Kaelaosas, müofastsiaalsed valud",M00-M99,1
+2489,Antibeebipillide foonil,N00-N99,1
+2490,Toiduainete talumatus,K00-K93,1
+2491,Lümfadenopaatia suhtes,Z00-Z99,1
+2492,Vasaku jalalaba mediaalsel pinnal,C00-D48,1
+2493,Vahelduv diploopia,H00-H59,1
+2494,"?, kobarpeavalu sündroom",G00-G99,1
+2495,Asteatootiline ekseem jalasäärtel,L00-L99,1
+2496,/ püogeenne granuloom,None,1
+2497,Vasakul põlvel,L00-L99,1
+2498,Kahtlus papillaarsele vähile,C00-D48,1
+2499,Mujal klassifitseeritud haiguste tekitajana,A00-B99,1
+2500,Trauma järgselt,Z00-Z99,1
+2501,"Vasak õlg
+vasak õlg",M00-M99,1
+2502,Emakakaela konisatsioon,Z00-Z99,1
+2503,Parema sääreluu keskosa mediaalpind.,M00-M99,1
+2504,"Asendusravil, sõlm kilpnäärmes",E00-E90,1
+2505,"Perekonnaanamneesis
+infantiilne mitokondriaalne entsefalomüopaatia",Z00-Z99,1
+2506,Epideermaalne sünnimärk seljal,C00-D48,1
+2507,Lihhenoidne keratoos,L00-L99,1
+2508,Peanahal ja kehatüvel,L00-L99,1
+2509,Ovultasiooni aegne valu,R00-R99,1
+2510,"Kahtlus, jälgimisel",G00-G99,1
+2511,Kukla-kandelüli-telglüli piirkond,None,1
+2512,"Kahepoolne, kroonilise kuluga",M00-M99,1
+2513,Täpsustamata hälbeline plasmaproteiin (hüpoproteieemia),R00-R99,1
+2514,. Septiiline šokk,A00-B99,1
+2515,"Paroxüsm, (lühike periood)",I00-I99,1
+2516,.  Vasakpoolne hemiparees.,G00-G99,1
+2517,Traumaatiline ajuödeem [-turse],S00-T98,1
+2518,Põlveõndla limapaunatsüst [Baker] vasakul,M00-M99,1
+2519,-krronilinse valu sündroom,R00-R99,1
+2520,.  Parempoolne spastiline hemiparees.,G00-G99,1
+2521,"Mõlemapoolne, retinatsioonist.",J00-J99,1
+2522,Primaarne kopsu (arteriaalne) hüpertensioon.,I00-I99,1
+2523,. Kopsuturse,I00-I99,1
+2524,Mujal klassi,S00-T98,1
+2525,Paremal (kahltus maliigsele efusioonile),J00-J99,1
+2526,Arütmia paroksusm,I00-I99,1
+2527,Raviga taandunud,J00-J99,1
+2528,"Enterobacter kobei
+Enterobacter kobei",A00-B99,1
+2529,"Enterococcus faecium
+Enterococcus faecium",A00-B99,1
+2530,"Candida albicans
+Candida albicans",A00-B99,1
+2531,"Rinna implantaadid 
+rinna implantaadid",N00-N99,1
+2532,Plaga septica,A00-B99,1
+2533,Kopsuturse; hüpokseemia,J00-J99,1
+2534,Vähene vöötlihaskahjustus lamamisest,M00-M99,1
+2535,Antikoagulantravi tüsistus?,R00-R99,1
+2536,Ruptura labii minoris bilateralis,O00-O99,1
+2537,Jämesoole perforatsiooni kahtlus,K00-K93,1
+2538,"Peritoneaaldialüüsi peritoniit, St. Epidermidis",K00-K93,1
+2539,Võimalik genees üle hüperkaltseemia,K00-K93,1
+2540,Arütmia paroksüsmid,I00-I99,1
+2541,"Hüperkapnia ja hüpokseemia, süvenemine",J00-J99,1
+2542,Hiatus hernia,K00-K93,1
+2543,Verekaotusejärgne aneemia,O00-O99,1
+2544,Kardiopulmonaalne puudulikkus,R00-R99,1
+2545,Ruptura labii minores sinister,O00-O99,1
+2546,Kahtlus palaviku tõttu,A00-B99,1
+2547,Parempoolne külotooraks,J00-J99,1
+2548,Makulopaatia ja taustaretinopaatia,None,1
+2549,Parem pool,N00-N99,1
+2550,Ruptura vaginae bilateralis.,O00-O99,1
+2551,Raoultella ornithinolytica,A00-B99,1
+2552,Septoplastika järgne,S00-T98,1
+2553,"Täpsustamata maksapuudulikkus,isheemiline polüorganpuudulikkus",K00-K93,1
+2554,Kroonilise haiguse aneemia: reumatoidartriit,D50-D89,1
+2555,Bilateraalne; bronhiektaasiatõve ägenemisel,J00-J99,1
+2556,Retentio cotyloides placentae,O00-O99,1
+2557,Hüpertooniline kriis,I00-I99,1
+2558,Spontaanne bakteriaalne peritoniit,R00-R99,1
+2559,Pulmokardiaalne puudulikkus,I00-I99,1
+2560,Seroosne eritis haavast,S00-T98,1
+2561,Tursest põhjustatuna,K00-K93,1
+2562,Ruotura mucosae vaginae,O00-O99,1
+2563,Raske sepsis,None,1
+2564,"Septilise šoki tüsistusena, möödunud",N00-N99,1
+2565,Kroonilise haiguse aneemia,D50-D89,1
+2566,Verejooks sigmasoole tuumorist,K00-K93,1
+2567,Portosüsteemne entsefalopaatia,G00-G99,1
+2568,Ruptura labii majoris bilateralis,O00-O99,1
+2569,Äge biliaarne pankreatiit,K00-K93,1
+2570,Ruptura labii minoris dextri.,O00-O99,1
+2571,Sigmasoole vähk,K00-K93,1
+2572,Ruptura labii minoris bilateralis.,O00-O99,1
+2573,Kasvaja kompressioonist seljaajule,G00-G99,1
+2574,Biliaarne pankreatiit,K00-K93,1
+2575,Vasakul alasagaras,J00-J99,1
+2576,Candida glabrata,A00-B99,1
+2577,"Terminaalne, hemodialüüs",N00-N99,1
+2578,Ekstrahepaatiline koletaas,R00-R99,1
+2579,Väline surve kasvaja massist,K00-K93,1
+2580,Prolapsus funiculi umbilicalis,O00-O99,1
+2581,"Septiline, ureemiline",G00-G99,1
+2582,Kasvajast läbikasvuga duocdeenumisse,K00-K93,1
+2583,"Klaaskehahemorraagia, odex",H00-H59,1
+2584,Kasvajast tingitud,J00-J99,1
+2585,Mehhaaniline surve kasvajast,K00-K93,1
+2586,Ruptura labii minores bilat.,O00-O99,1
+2587,"Tuharatel, paranemas",L00-L99,1
+2588,Parem põsk,I00-I99,1
+2589,Parema vatsakese puudulikus,I00-I99,1
+2590,Kasvajast verejooks krooniline,K00-K93,1
+2591,Krooniline verejooks kasvajast,K00-K93,1
+2592,"Vasakpoolne, kartsinomatoosne?",J00-J99,1
+2593,Leptospiroosist tingitud,A00-B99,1
+2594,"Leptospiroosist tingitud, eGFR paranemas",N00-N99,1
+2595,Säilunud süstoolse funktsiooniga,I00-I99,1
+2596,Entero-enteroanastomoosi dehistsents,S00-T98,1
+2597,Peaajutüve pitsumine,G00-G99,1
+2598,Ruptura labii minores sinistra,O00-O99,1
+2599,Enterobacter cloacae septitseemia,A00-B99,1
+2600,"Marevani üledoseering, makrohematuuria",R00-R99,1
+2601,Kahtlus rasvembooliale,I00-I99,1
+2602,Kasvajaline subiileus,K00-K93,1
+2603,Dialüüsisondi murdumine,S00-T98,1
+2604,Elustamisjärgne roidemurd,S00-T98,1
+2605,"Läbitehtud äge neerupuudulikkus, paranenud",None,1
+2606,Ajutüve pitsumisega,G00-G99,1
+2607,Kahepoolne pleuraefusioon; pleuravedelik hemorraagiline,J00-J99,1
+2608,Hemodialüüsi permanentse kateetri tromboos,S00-T98,1
+2609,Vasakpoolne neerupais,N00-N99,1
+2610,"Hüperkapnia, hüpokseemia",J00-J99,1
+2611,Sensoor-amnestiline osaline afaasia,R00-R99,1
+2612,Muu täpsustatud hüpotüreoos; autoimmuunne,E00-E90,1
+2613,Septiline shokk,K00-K93,1
+2614,"Äge kardiovaskulaarne puudulikkus, kopsuturse",I00-I99,1
+2615,Episiotomia. Ruptura mucosae vaginae.,O00-O99,1
+2616,Ruptura labii minores dextra.,O00-O99,1
+2617,Enterococcus faecium,A00-B99,1
+2618,Septilisest šokist,N00-N99,1
+2619,"Kahepoolne, Enterococcus faecium",J00-J99,1
+2620,Südamepuudulikkuse süvenemine seoses aneemiaga,I00-I99,1
+2621,Mõlemal säärel,L00-L99,1
+2622,Ruptura mucosae vaginae. Episiotomia.,O00-O99,1
+2623,Ruptura labii majores bilateralis,O00-O99,1
+2624,. Asthma bronchiale mixta.,J00-J99,1
+2625,Tserebrospinaalvedeliku leke,G00-G99,1
+2626,Täpsustamata stenokardia---?,I00-I99,1
+2627,.  Parema jala parees.,G00-G99,1
+2628,Vasak jalg; haavanditega; lipodermatoskleroos,I00-I99,1
+2629,"Epiduraalne hemorraagia [verevalum], jääknähud",None,1
+2630,Vasakpoolne sekundaarne,H00-H59,1
+2631,Parema käe valu,M00-M99,1
+2632,Aordi(klapi)stenoos kerges astmes,I00-I99,1
+2633,Valu vasakus küljes,R00-R99,1
+2634,"Normofrekventne, fikseerunud",I00-I99,1
+2635,- paroksüsmaalne( anamneesis),I00-I99,1
+2636,"Paroksüsmaalne, momendil siinusrütm",I00-I99,1
+2637,"Algav puudulikkus
+Algav puudulikkus",S00-T98,1
+2638,Parema labajala parees,G00-G99,1
+2639,Paroksüsmaalne anamneesis praegu siinusrütm,I00-I99,1
+2640,Konisatsiooni järgne tservitsiit,Z00-Z99,1
+2641,"Aordi(klapi)stenoos,kerges astmes",I00-I99,1
+2642,Algus teadmata,I00-I99,1
+2643,Muu täpsustatud vaskulaarne dementsus,F00-F99,1
+2644,-- (ravimite tekkene),K00-K93,1
+2645,Mõlemate puusaliigeste endoproteesid.,Z00-Z99,1
+2646,Keskmise obstruktsioon,J00-J99,1
+2647,. Hernia diaphragmatica.,K00-K93,1
+2648,. Hyperplasia prostatae.,N00-N99,1
+2649,- bilateralis,N00-N99,1
+2650,Ajuinfarktijärne vasakpoolne spastiline hemiparees.,I00-I99,1
+2651,- paroksüsmaalis,I00-I99,1
+2652,Paremal ( opereeritud.),C00-D48,1
+2653,Operatsiooni järgselt,J00-J99,1
+2654,Reumaatiline aordi(klapi)stenoos?,I00-I99,1
+2655,. Alloprotees.,M00-M99,1
+2656,Alkohoolne maksasteatoos,K00-K93,1
+2657,. Nimmevalu diskopaatiaga.,M00-M99,1
+2658,Väikeaju sündroom,G00-G99,1
+2659,Vasema puusaliigese endoprotees,Z00-Z99,1
+2660,Kuklaseis tagumine teisend.,O00-O99,1
+2661,- jääknähud,J00-J99,1
+2662,"Mitraal(klapi) puudulikkus, kerge aste",I00-I99,1
+2663,Sümptomaatiline epilepsia,G00-G99,1
+2664,Alkoholpolüneuropaatia ( algav),G00-G99,1
+2665,. Fibrillatio atriorum permanans.,I00-I99,1
+2666,. Cholelithiasis.,K00-K93,1
+2667,-  neuropaatiline valu,G00-G99,1
+2668,- sapi reflux makku,K00-K93,1
+2669,Ataksia ja diplopiaga,I00-I99,1
+2670,- emakakaela prolaps,N00-N99,1
+2671,Vasema alajäseme monoparees,G00-G99,1
+2672,Alajäsemete arterite ateroskleroos,I00-I99,1
+2673,Osteochondrosis cervicalis,M00-M99,1
+2674,.Dyslipidaemia mixta.,E00-E90,1
+2675,Sekundaarne pulmonaalhüpertensioon.,I00-I99,1
+2676,. Varasem müokardiinfarkt,I00-I99,1
+2677,Krooniline südame isheemiatõbi.,I00-I99,1
+2678,. Glükoosi tolerantsuse häire.,R00-R99,1
+2679,Ménière`i tõbi,H60-H95,1
+2680,Vasaku kehapoole spastiline hemipleegia,G00-G99,1
+2681,Mitraal(klapi) puudulikkus minima,I00-I99,1
+2682,"Paroksüsmaalne, isemööduv",I00-I99,1
+2683,Permanentne (permanentne),I00-I99,1
+2684,. Hemorraagiline šokk,O00-O99,1
+2685,Mittetoksiline hulgisõlmeline struuma (eutüreoidne),E00-E90,1
+2686,Paremal päkal,R00-R99,1
+2687,Munajuharasedus vasakul,O00-O99,1
+2688,Posit. serol.,J00-J99,1
+2689,/ kardias erosiivne gastriit,K00-K93,1
+2690,Spastiline dipleegia( anamneesis ),G00-G99,1
+2691,Raviga ohjatud,E00-E90,1
+2692,Karpaaltunneli sündroom paremal,G00-G99,1
+2693,Haavainfektsioon parema reie piirkonnas,L00-L99,1
+2694,-ventrikulaarne eksatrasüstoolia,I00-I99,1
+2695,"Mitraal(klapi) puudulikkus, kerges astmes",I00-I99,1
+2696,Jämesoole sopististõbi,K00-K93,1
+2697,Amyloidosis renum,E00-E90,1
+2698,Minestus (anamneesis),R00-R99,1
+2699,Parem säär.,M00-M99,1
+2700,-erosiivne antrumi gastriit,K00-K93,1
+2701,. Kalkuloosne,K00-K93,1
+2702,Totaalne sensomotoorne afaasia,I00-I99,1
+2703,"Vasakul, kergel kujul",G00-G99,1
+2704,- Hernia oesophagi,K00-K93,1
+2705,"Diabeet, hüpertensioon",N00-N99,1
+2706,Mitraal(klapi) puudulikkus kerge aterosklerootiline,I00-I99,1
+2707,. Asthma bronchiale,J00-J99,1
+2708,. Marevani üledoos,None,1
+2709,Supraventrikulaarsed ekstrasüstolid,I00-I99,1
+2710,Neerude põhjustatud hüpertensioon,I00-I99,1
+2711,. Struma nodosa retrosternalis.,E00-E90,1
+2712,Spastiline hemipleegia.,I00-I99,1
+2713,/ klamüüdia pneumoonia positiivne/.,J00-J99,1
+2714,. Täpsustamata peapööritus.,H60-H95,1
+2715,Duodenumi haavand,Z00-Z99,1
+2716,.  Vaskulaarne entsefalopaatia.,I00-I99,1
+2717,Kolangio- e spisoonekertsi,C00-D48,1
+2718,Exacerbata  E.Coli,N00-N99,1
+2719,Kahepoolne vestibulopaatia,H60-H95,1
+2720,Auraga migreen [klassikaline migreen].,G00-G99,1
+2721,Põlveliigeste artroos,M00-M99,1
+2722,"Paremas sagaras, healoomuline",E00-E90,1
+2723,Parempoolse  spastilise hemipareesiga,I00-I99,1
+2724,Parem opereeritud,M00-M99,1
+2725,"Reumaatiline mitraalklapi puudulikkus, kahtlus",I00-I99,1
+2726,Vasaku sääre süvaveen,I00-I99,1
+2727,. Cardiosclerosis atherosclerotica.,I00-I99,1
+2728,. Infarctus myocardii pristinus.,I00-I99,1
+2729,.  Cholelithiasis,K00-K93,1
+2730,Parempoolselt raske aste,H60-H95,1
+2731,Ja hematokolpos,N00-N99,1
+2732,Hernia oesophagi,K00-K93,1
+2733,Muud ägedad psühhootilised episoodid,F00-F99,1
+2734,Interkostaalneuralgia vasakul,G00-G99,1
+2735,"Kodune hapnikravi
+kodune hapnikravi",J00-J99,1
+2736,Parema põskkoopa,None,1
+2737,"Vasak, paremal protees",M00-M99,1
+2738,"Urosepsis, tekitaja teadmata",A00-B99,1
+2739,Ja duodeniit,K00-K93,1
+2740,Keemiaravist tingitud,D50-D89,1
+2741,"Leukopeenia, neutropeenia",R00-R99,1
+2742,Trahheostoom kõristenoosi tõttu,Z00-Z99,1
+2743,Kliiniliselt kandidiaas,K00-K93,1
+2744,"Suus, neelus, söögitorus",A00-B99,1
+2745,Kemoradiatsiooni järgne,R00-R99,1
+2746,Vasema alajäseme monopleegia,G00-G99,1
+2747,Mõlemad jalad amputeeritud reiest,I00-I99,1
+2748,Äge koorionamnioniit histoloogia alusel,O00-O99,1
+2749,Permanentne kodade virvendusarütmia.,I00-I99,1
+2750,Mõlemad põlved opereeritud,M00-M99,1
+2751,Abruptio placentae praematura partialis.,O00-O99,1
+2752,"Kombineeritud menopausijärgne, glükokortikoidhormooni tarvitamisega",M00-M99,1
+2753,"Kahtlus, analüüside vastused saabumata",D50-D89,1
+2754,Etioloogia ebaselge,D50-D89,1
+2755,/ vasak neer,N00-N99,1
+2756,Võimalik diabeetiline neerukahjustus,N00-N99,1
+2757,E. Coli,N00-N99,1
+2758,Asümptomaatiline bakteruuria,N00-N99,1
+2759,Vasaku jala süvaveenitromboos,I00-I99,1
+2760,Kahtlus kasvuhormooni liigproduktsioonile,E00-E90,1
+2761,Vasak munasari,N00-N99,1
+2762,Kaelaarterite ateroskleroos.,I00-I99,1
+2763,Vasakpoolne kurtus,H60-H95,1
+2764,-kilpnäärme patol.,Z00-Z99,1
+2765,"Aksonaalne, võimalik eksogeenne põhjus",G00-G99,1
+2766,"Anamneesi alusel, lokaliseerimata",I00-I99,1
+2767,/ pesrsisteeriv/,I00-I99,1
+2768,Seedetrakti verejooks,K00-K93,1
+2769,Gastritis atrophica,K00-K93,1
+2770,Kahtlus rebendile,I00-I99,1
+2771,"Periprotseduraalne, kardiomarkerite alusel.",I00-I99,1
+2772,Asendusravil; eutüreoos,E00-E90,1
+2773,Cystadenoma serosum ovarii dextri,C00-D48,1
+2774,Koldeline vorm,N00-N99,1
+2775,Meningioom para- ja intrasellaarselt,C00-D48,1
+2776,Adenokortikotroopne ja türeotroopne puudulikkus,E00-E90,1
+2777,"Uneparalüüs, elavad unenäod",G00-G99,1
+2778,"Epilepsia, raviks Tiotil",O00-O99,1
+2779,Pelvis angusta,O00-O99,1
+2780,Reflukshaigusest tingitud,J00-J99,1
+2781,. Sapipõe disfunktsioon,O00-O99,1
+2782,Loote neeru anomaalia,O00-O99,1
+2783,"Esmaselt dgn-tud, jälgimisel",I00-I99,1
+2784,Muud esmased koksartroosid vasakul,M00-M99,1
+2785,Hallux rigidus bilateralis,M00-M99,1
+2786,- vasaku neerupealise suurenemine,E00-E90,1
+2787,Diabetes gestationalis.,O00-O99,1
+2788,Tõenäoliselt septilise geneesiga,J00-J99,1
+2789,"VAsempoolne kopsupõletik, mõlemapoolne pleuraefusioon",O00-O99,1
+2790,Barret'i söögitoru,K00-K93,1
+2791,Paroksüsm; siinusrütm taastunud,I00-I99,1
+2792,Vasakpoolne kopsupõletik,J00-J99,1
+2793,Macleodi sündroom,J00-J99,1
+2794,Muu rindkerevalu ( täpsustatud),R00-R99,1
+2795,Munajuhade steriliseerimine naise soovil,Z00-Z99,1
+2796,Parema pindmise reiearteri stent,Z00-Z99,1
+2797,Cystadenoma serosum paraovarialis,N00-N99,1
+2798,Diabeedi ja hüpertooniatõve foonil,N00-N99,1
+2799,Valu õlavöötme lihastes,M00-M99,1
+2800,Autoimmuunne trombotütopeenia,O00-O99,1
+2801,Mitraalklapp proteseeritu,Z00-Z99,1
+2802,Oblitereeriv tromboangiit [buerger],I00-I99,1
+2803,- mõlemad puusaliigesed,Z00-Z99,1
+2804,Parema puusaliigese endoprotees,M00-M99,1
+2805,Kardioversiooni järgselt siinusrütm,I00-I99,1
+2806,Pelvioperitonitis adhaesiva,N00-N99,1
+2807,Parema niudearteri stendid,Z00-Z99,1
+2808,Intestinaalne metaplaasia,K00-K93,1
+2809,Suu-ja neelu Candida Crusei,A00-B99,1
+2810,Parema silmas,H00-H59,1
+2811,:krooniline väsimussündroom,F00-F99,1
+2812,Organiseeruv hematoom jääkmaos; kahtlus,A00-B99,1
+2813,Kombineeritud genees; korrigeeritud,E00-E90,1
+2814,Kliiniline kahtlus; paranenud,E00-E90,1
+2815,"Pikaajaline raske haigus, vaegtoitumine",D50-D89,1
+2816,Debilitas dolorum primaria.,O00-O99,1
+2817,-tentooriumi meningioom vasemal,None,1
+2818,"Healoomuline kasvaja
+mesoteliaalne tsüst",None,1
+2819,Mõlemate põlveliigeste endoproteesid,Z00-Z99,1
+2820,Morfoloogiliselt lamerakk-või suurrakk-kartsinoom,C00-D48,1
+2821,Dieetravil--> metformiin --> insuliinravil,O00-O99,1
+2822,"Bradü-tahhüfr vorm, kahtlus",I00-I99,1
+2823,Kombineeritud genees,D50-D89,1
+2824,Vaginoperineaalne fistul,N00-N99,1
+2825,Osteopoorislähedane leid reieluukaelas,M00-M99,1
+2826,Tõenäone vaskulaarne dementsus,None,1
+2827,"Kodade fibrillatsioon, tekkeaeg teadmata",I00-I99,1
+2828,Vasakpoolne paratubaarne tsüstike,N00-N99,1
+2829,Kateeter-indutseeritud; Corynebacterium jeikeium; paranenud,A00-B99,1
+2830,Hospitaalinfektsioon; Pseudomonas aeruginosa; paranenud,N00-N99,1
+2831,"Mõlemal säärel
+mõlemal säärel",I00-I99,1
+2832,Mõlema põlveliigese algav artroos,M00-M99,1
+2833,Postpolio sündroom,G00-G99,1
+2834,Mittereumaatiline trikuspidaal(klapi)stenoos,I00-I99,1
+2835,Kodusel hapnikravil,G00-G99,1
+2836,"Persisteeriv, hetkel siinusrütm, antikoagulantravil.",I00-I99,1
+2837,"Ainult pindluumurd, lahtine",None,1
+2838,Muud segatüüpi ärevushäired.,F00-F99,1
+2839,Mõlemal säärel,I00-I99,1
+2840,Bilateraalselt labajalgade piirkonnas,M00-M99,1
+2841,Jääb sageduskontrollile,I00-I99,1
+2842,"Postoperatiivne, parem pool",G00-G99,1
+2843,. Siinusrütmis,I00-I99,1
+2844,Puusaliigesed proteesitud,M00-M99,1
+2845,Põhjus ebaselge,L00-L99,1
+2846,"Parem põlveliiges, endoproteesitud",M00-M99,1
+2847,Perifeerne neuropaatiline valu,R00-R99,1
+2848,Vasak neer opereeritud,None,1
+2849,Diabetes gestationalis. Metformiinravi.,O00-O99,1
+2850,Aeg teadamata,I00-I99,1
+2851,Atroofiline gastriit,D50-D89,1
+2852,Serophenega indutseeritud rasedus,Z00-Z99,1
+2853,. HELLP-sündroom.,O00-O99,1
+2854,Mao antrumi hüperplastiline polüüp,K00-K93,1
+2855,Raskendatud õlgade vabastamine.,O00-O99,1
+2856,Lülisamba lumbaalosas,M00-M99,1
+2857,Osteopeenia lülisambas,M00-M99,1
+2858,Täpsustamata intratserebraalne hemorraagia,I00-I99,1
+2859,/ polütsüteemia/,D50-D89,1
+2860,"Vasak põlveliiges, revisioonendoproteesimine",Z00-Z99,1
+2861,". 
+Süvenemine",N00-N99,1
+2862,Mõlemad puusad endoproteesitud,M00-M99,1
+2863,Varasem müokardiinfarkt (teadmata aeg),I00-I99,1
+2864,Pollicis dextri,M00-M99,1
+2865,Metaboolne sündroom,E00-E90,1
+2866,Motoorsed - silmad,F00-F99,1
+2867,Mikrotsütaarne hüpokroomne aneemia,D50-D89,1
+2868,- operata,L00-L99,1
+2869,Profülaktiline ileostoom,Z00-Z99,1
+2870,. Parema reieluu murd.,M00-M99,1
+2871,Pikk prelininaarperiood,O00-O99,1
+2872,"Parempoolne, paranenud",J00-J99,1
+2873,Aksonaalne sensoorne neuropaatia,G00-G99,1
+2874,Ebaselge lokalisatsioon,A00-B99,1
+2875,"Gonartroos, labakäeliigeste artroos",M00-M99,1
+2876,"Polüneuropaatia, nefropaatia ja retinopaatia",E00-E90,1
+2877,Anamneesi alusel; lokaliseerimata,I00-I99,1
+2878,Reaktiivne artriit,M00-M99,1
+2879,Ventrikulaarsed ekstrasüstolid.,I00-I99,1
+2880,"Sensomotoorne afaasia, raske",R00-R99,1
+2881,Platsenta enneaegne irdumine,Z00-Z99,1
+2882,"Mõlemad puusaliigesed, vasak põlveliiges",Z00-Z99,1
+2883,Mao polüübid,C00-D48,1
+2884,Diverticulum Zenkeri,K00-K93,1
+2885,Vasemal ristluu piikonnas,L00-L99,1
+2886,Perioodiline jäsemete liigutamise häire,G00-G99,1
+2887,Dystokia colli uteri,O00-O99,1
+2888,Patoloogiliselt pikk preliminaarperiood,O00-O99,1
+2889,"Postoperatiivne , taastunud siinusrütm",I00-I99,1
+2890,Gonarthrosis sinistra post traumatica.,M00-M99,1
+2891,Dünaamiline iileus,K00-K93,1
+2892,"Hüperstimulatsioon, tromboosi oht",O00-O99,1
+2893,Parem jalg reiest amputeeritud,I00-I99,1
+2894,Uneapnoe (kahtlus),G00-G99,1
+2895,Ravimite manustamisega seotud,R00-R99,1
+2896,Adenoma prostatae,N00-N99,1
+2897,"Bilateraalne gonartroos, parempoolne koksartroos",M00-M99,1
+2898,Vasaku karotiidarteri oklusioon,I00-I99,1
+2899,Parem pindmine reiearter,Z00-Z99,1
+2900,Gastritis erosiva,K00-K93,1
+2901,Tekitaja tuvastamata,J00-J99,1
+2902,Kardiorenaalne aneemia,D50-D89,1
+2903,Kahtlus konkremendile vasakus neerus,N00-N99,1
+2904,Kodade virvendusarütmia paroksüsmid,I00-I99,1
+2905,Äge posthemorraagiline,D50-D89,1
+2906,Täpsustamata septitseemia (külvid steriilsed),A00-B99,1
+2907,Lamatishaavand paremal küljel,L00-L99,1
+2908,Mõlema neeruvaagna kivid,N00-N99,1
+2909,Kiire sünnitus,O00-O99,1
+2910,Radiaalne arm vasemas rinnas,N00-N99,1
+2911,Intraduktaalsed papilloomid vasemas rinnas,C00-D48,1
+2912,Osaline motoorne afaasia,I00-I99,1
+2913,"Tekitaja teadmata, paranenud",N00-N99,1
+2914,Fikseerunud normofrekventne virvendusarütmia,I00-I99,1
+2915,Parem puusaliiges endoproteesitud.,M00-M99,1
+2916,"Kahtlus, uuringud pooleli",K00-K93,1
+2917,Neeruarterite stenoos,I00-I99,1
+2918,Vasakul temporaalsel,G00-G99,1
+2919,"Healoomuline kasvaja
+paratubaarne tsüst",None,1
+2920,Ferritiini tase madal,D50-D89,1
+2921,Luxatio articulatio glenohumorales sinistra,S00-T98,1
+2922,Hüpokroomne normotsütaarne,D50-D89,1
+2923,Anaemia gravidarum,D50-D89,1
+2924,"Bilateralis operata
+bilateralis operata",I00-I99,1
+2925,Skolioos (opereeritud),O00-O99,1
+2926,Ravi bromokrüptiiniga,E00-E90,1
+2927,Väike subseroosne sõlm,C00-D48,1
+2928,"Braunovidon?,taruvaik?,Calendulae salv?",L00-L99,1
+2929,Sakrumi piirkonnas,L00-L99,1
+2930,Parema südamepoole puudulikkus,I00-I99,1
+2931,. Hyperplasia prostatae,N00-N99,1
+2932,Eczema dyshidroticum manum,L00-L99,1
+2933,Aterosklerootiline südamehaigus(ühe soone koronaarhaigus),I00-I99,1
+2934,. Kahtlus radiaaltunneli sündroomile.,G00-G99,1
+2935,Motoorne kõnehäire,I00-I99,1
+2936,Aordi(klapi)stenoos (raske stenoos),I00-I99,1
+2937,"Ravitud, retsidiivideta",C00-D48,1
+2938,Abruptio placentae praematura partialis,O00-O99,1
+2939,Südamerütmihäire (supraventrikulaarne paroksüsmaalne tahhükardia),O00-O99,1
+2940,Pancreas divisum,Q00-Q99,1
+2941,Parema jala pleegia,I00-I99,1
+2942,Aordi(klapi)stenoos - raske,I00-I99,1
+2943,Uriinikülvis Morganella morganii,N00-N99,1
+2944,Cysta ovarii sinistri,C00-D48,1
+2945,Ruptura labii minoris.,O00-O99,1
+2946,Emaka endometrioos - adenomüoos,N00-N99,1
+2947,Glükokortikoidravist põhjustatud,M00-M99,1
+2948,Kilpnäärme operatsioon,E00-E90,1
+2949,PUVA-vannist käelabadel.,L00-L99,1
+2950,Mitraal(klapi) prolaps (kerge),I00-I99,1
+2951,Anaemia ferripriva,D50-D89,1
+2952,Üliraske püsiobstruktsioon; mittesuitsetaja,J00-J99,1
+2953,Vasaku labajala gantreen.,I00-I99,1
+2954,Südamekahjustusega hüpertooniatõbi (kongestiivse) südamepuudulikkusega(-),I00-I99,1
+2955,"Impulsiivsed, histrioonilised jooned",Z00-Z99,1
+2956,Haavakülvis Proteus mirabilis,L00-L99,1
+2957,Raske segatüüpi kuulmislangus.,H60-H95,1
+2958,Osaline afaasia,I00-I99,1
+2959,"Ristluul, paremal puusal, kandadel",L00-L99,1
+2960,Mõlemalt poolt,N00-N99,1
+2961,Vasaku koja kõrvas,I00-I99,1
+2962,Parempoolne; tekitaja Klebsiella pneumoniae,J00-J99,1
+2963,.  Mõlema puusaliigese artroos.,M00-M99,1
+2964,"Kahepoolne, opereeritud",H00-H59,1
+2965,Aksonaalne sensoor-motoorne polüneuropaatia.,G00-G99,1
+2966,/ dieetravil,O00-O99,1
+2967,Müoomisõlmede enukleatsiooni järgselt,O00-O99,1
+2968,"Paroksüsmaalne, Xarelto ravil",I00-I99,1
+2969,"Erüteem, teleangiektaasiad näol",L00-L99,1
+2970,Bilateraalne unearterite stenoos,I00-I99,1
+2971,Aterosklerootiline südamehaigus (mõõdukas astmes),I00-I99,1
+2972,- biliaarne refluksgastriit,K00-K93,1
+2973,Unguium et inversa,L00-L99,1
+2974,Foetus mortus antenatalis.,O00-O99,1
+2975,"Mõlemad põlveliigesed, vasak puusaliiges",Z00-Z99,1
+2976,"Ägenemine, eksikoos",N00-N99,1
+2977,"Kodadevirvendusarütmia episood, siinusrütm taastunud",I00-I99,1
+2978,Spondüloartroos lülisamba kaelaosas,M00-M99,1
+2979,Glükokortikoidravist põhjustatud hüpokortisoleemia,E00-E90,1
+2980,"Kaelal, aksillaarsel",R00-R99,1
+2981,Krooniline transplantaadi nefropaatia,S00-T98,1
+2982,Muud täpsustatud somatoformsed häired(-),F00-F99,1
+2983,Kompressioonfraktuurid lülisamba nimmeosas,M00-M99,1
+2984,Parema neeru nefrektoomiajärgne seisund,N00-N99,1
+2985,Morganella morganii,N00-N99,1
+2986,Operatsioonide järgselt,N00-N99,1
+2987,Ülekaalukalt parema südamepoole puudulikkus,I00-I99,1
+2988,Mõlemapoolsed periovariaalsed ja peritubaarsed,N00-N99,1
+2989,Kõhuõõne liiteline haigus,K00-K93,1
+2990,Mõlemad põlveliigesed.,Z00-Z99,1
+2991,- healoomuline hüperplaasia,E00-E90,1
+2992,Täpsustamata käärsool (opereeritud),C00-D48,1
+2993,Perekondlik hüperbilirubineemia,O00-O99,1
+2994,Abrubtio placentae praematura partialis,O00-O99,1
+2995,"Stress-inkontinents, fekaalinkontinents",N00-N99,1
+2996,Mao antrumi erosioonid,D50-D89,1
+2997,Seotud uroinfektsiooniga,N00-N99,1
+2998,"Vasak põlveliiges, endoproteesitud",M00-M99,1
+2999,Sisemised ja välimised veenilaiendid,K00-K93,1
+3000,"Põlveliigesed, vasak puus",Z00-Z99,1
+3001,"Retinopaatia, nefropaatia, polüneuropaatia",E00-E90,1
+3002,Hüpertensiivse kriisi foonil,J00-J99,1
+3003,"Võrkkestairdeta rebendid, ódex",H00-H59,1
+3004,Kõhu eesseinale fikseeritud emakas,N00-N99,1
+3005,Paroksüsmaalne; siinusrütm taastunud,I00-I99,1
+3006,Gastropathia erosiva.,K00-K93,1
+3007,"Segatüüpi, domineerib pingutusuriinipidamatus",N00-N99,1
+3008,Sepsis. .,A00-B99,1
+3009,"Anamneesis paroksüsm, paregu siinusrütm",I00-I99,1
+3010,Uterus bicornis,Q00-Q99,1
+3011,Kahtlus rabdomüolüüsile,M00-M99,1
+3012,Metformiin + Lantus,O00-O99,1
+3013,Vasema sisemise unearteri stent,Z00-Z99,1
+3014,Vasaku sisemise unearteri stenoos,I00-I99,1
+3015,Välised  hemorroidid,I00-I99,1
+3016,Kõhukelme vaagnaosa endometrioos,N00-N99,1
+3017,"Pahaloomuline kasvaja
+operata",C00-D48,1
+3018,Tekitaja teadmata,N00-N99,1
+3019,Alimentaarne rauapuudus+krooniline neerupuudulikkus,D50-D89,1
+3020,Elustamisjärgne aspiratsioonpneumoonia,J00-J99,1
+3021,Follikuliit peanahal,L00-L99,1
+3022,Kõrgenenud kolesterool,E00-E90,1
+3023,Hypertonia gravidarum,O00-O99,1
+3024,"Bilateraalselt, pelvikaalsed",N00-N99,1
+3025,Glükoosi tolerantsuse häire,E00-E90,1
+3026,Postoperatiivne aneemia,D50-D89,1
+3027,Osaline enneaegne lootevee puhkemine,O00-O99,1
+3028,"Postoperatiivne hematoom, haava dehistsents",S00-T98,1
+3029,"Paroksüsmaalne, praegu siinusrütm",I00-I99,1
+3030,/ emakakael,Z00-Z99,1
+3031,Mõlemas kopsus eosinofiilsed infiltraadid,D50-D89,1
+3032,Resetseeritud munasarja hematoom,S00-T98,1
+3033,Ravi pooleli,A00-B99,1
+3034,Piirpahaloomuline  vasemas munasarjas,C00-D48,1
+3035,Vasema munasarja fibroos-biopsia,N00-N99,1
+3036,"Paroksüsmaalne, antikoagulantravil",I00-I99,1
+3037,- Sick sinus?,Z00-Z99,1
+3038,Algkolle teadmata,A00-B99,1
+3039,. Paroksüsmaalne kodade fibrillatsioon.,I00-I99,1
+3040,Kahtlus mitraalklapil,I00-I99,1
+3041,"Esmasdiagnoos, raske obstruktsioon",J00-J99,1
+3042,Lassitudo gravidarum,O00-O99,1
+3043,Paremal kubemesong,O00-O99,1
+3044,Vasak säär,L00-L99,1
+3045,Tekitaja tuvastamata; tsüstiit,N00-N99,1
+3046,"Diabeetiline nefropaatia, retinopaatia,  gastropaatia",E00-E90,1
+3047,- vasakpoolne,G00-G99,1
+3048,Staphylococcus aureus,N00-N99,1
+3049,": (dateerimata, hüpokinees ehhokardiograafial)",I00-I99,1
+3050,: algav ateroskleroos,I00-I99,1
+3051,Adipositas essentialis,E00-E90,1
+3052,Fikseerunud kodade virvendusarütmia. Marevanravil.,I00-I99,1
+3053,Mitraalklapi tugirõngas,Z00-Z99,1
+3054,Maksaa vasakus sagaras,E00-E90,1
+3055,Aordi(klapi)puudulikkus. Mõõdukas.,I00-I99,1
+3056,Autoimmuunne trombotsütopeenia,D50-D89,1
+3057,Mekoniaalne lootevesi,None,1
+3058,Pityrosporon follikuliit kliiniliselt,L00-L99,1
+3059,Mõlema kopsu alasagaras,I00-I99,1
+3060,"Spastiline hemipleegia, parem pool",G00-G99,1
+3061,"Postoperatiivne, persisteeruv",I00-I99,1
+3062,Uriinikülvis Pseudomonas aeruginosa,N00-N99,1
+3063,Aneemia neerupuudulikkuse korral,D50-D89,1
+3064,Klebsiella pneumoniae,N00-N99,1
+3065,Ebaselge põhjusega,K00-K93,1
+3066,Mao korpuse polüüp,K00-K93,1
+3067,Mao korpuse hüperplastilised polüübid,K00-K93,1
+3068,Streptococcus pneumoniae,J00-J99,1
+3069,CT-uuringul kahtlus feokromotsütoomile,E00-E90,1
+3070,Radioloogiliselt kondrokaltsinoos. Võimalik kaltsiumpürofosfaatartropaatia.,M00-M99,1
+3071,Kahtlus neerupuudulikkuse kujunemisele,O00-O99,1
+3072,Myoma uteri subserosum,O00-O99,1
+3073,Dikoriaalsed. Diamniaalsed.,O00-O99,1
+3074,Hydronephrosis dextri,O00-O99,1
+3075,Perioodiliste jäsemeliigutuste sündroom,G00-G99,1
+3076,Rinnaosas  S-kujuline skolioos.,M00-M99,1
+3077,Operatiivselt ravitud,H00-H59,1
+3078,Üliraske obstruktsioon,J00-J99,1
+3079,"Segahüperlipideemia, düslipideemia",E00-E90,1
+3080,Müofastsiaalsed valud,M00-M99,1
+3081,Herpes simplex,A00-B99,1
+3082,Vasema puusaliigese endoproteesimine,Z00-Z99,1
+3083,Muu korduv meeleoluhäire,F00-F99,1
+3084,"Vasakul jalal, säärel",L00-L99,1
+3085,.  Siinustahhükardia.,I00-I99,1
+3086,Vasemal rindkerel,A00-B99,1
+3087,+ steatoos,K00-K93,1
+3088,Residuaalne või hiline psüühikahäire,F00-F99,1
+3089,Alajäseme monoparees,G00-G99,1
+3090,. Dyslipidaemia mixta.,E00-E90,1
+3091,Mõlemal põlvel.,Z00-Z99,1
+3092,Mõlema põlve painutuskontraktuurid,M00-M99,1
+3093,. Myoma uteri,C00-D48,1
+3094,. Uroinfektsioon,N00-N99,1
+3095,Perforatio intestini ilei,K00-K93,1
+3096,Nabaväädi väljalangega tüsistunud,O00-O99,1
+3097,-gluteen enteropaatia,Z00-Z99,1
+3098,Vaskulaarne entsefalopaatia.,I00-I99,1
+3099,Pahaloomuline kasvaja.,C00-D48,1
+3100,. Ekstrasüstoolia.,I00-I99,1
+3101,"Täpsustamata epilepsia, kahtlus, jälgida.",G00-G99,1
+3102,Peale sooleop.,R00-R99,1
+3103,Uroloogil jälgimisel,N00-N99,1
+3104,Toofus paremal küünarnukil,M00-M99,1
+3105,"Fikseerunud, tekkeaeg teadmata",I00-I99,1
+3106,Gastropathia erythematosa ventriculi.,K00-K93,1
+3107,Hyperplasia prostatae.,N00-N99,1
+3108,Ebatäiuslik luuteke hulgifraktuuridega lapseeas,Q00-Q99,1
+3109,- supraventrikularne ekstrasüstoolia,I00-I99,1
+3110,Eatoni-lamberti sündroom,G00-G99,1
+3111,Muu krooniline valu (+),R00-R99,1
+3112,Algav koksartroos,M00-M99,1
+3113,Peaajuinfarkti jääknähud lakunaarsed infarktid,I00-I99,1
+3114,Mittereumaatiline trikuspidaal(klapi)puudulikkus( mõõdukas.),I00-I99,1
+3115,"Põlveliigesed, puusaliigesed",Z00-Z99,1
+3116,Krooniline ravimsõltuv.,G00-G99,1
+3117,Kaela-rinnaosa piirkond. Rindekerevalu,None,1
+3118,Songa operatsioonijärgne fistel.,S00-T98,1
+3119,"Mitraal(klapi) puudulikkus, raske",I00-I99,1
+3120,- dateerimata septalne,I00-I99,1
+3121,Rahutud jalad,G00-G99,1
+3122,. Müokardiit ?,Z00-Z99,1
+3123,Lõua pindmine vigastus,S00-T98,1
+3124,Põlvekontusioon [põrutus] - vasakul,S00-T98,1
+3125,"Alustab dieeti
+alustab dieeti",E00-E90,1
+3126,"Teadmata ajast
+teadmata ajast",I00-I99,1
+3127,"Epidermaalne neevus 
+epidermaalne neevus",C00-D48,1
+3128,Strabism altern./,H00-H59,1
+3129,"Algav seniilkatarakt, vasak silm",H00-H59,1
+3130,Düsplastiline liitneevus,C00-D48,1
+3131,"Polüneuropaatia, retinopaatia
+polüneuropaatia, retinopaatia",E00-E90,1
+3132,. Escherichia coli.,J00-J99,1
+3133,Vasem  pool nõrgem,G00-G99,1
+3134,Paroksüsmaalne tahhükardia?,R00-R99,1
+3135,Hüporenineemiline hüpoaldosteronism,R00-R99,1
+3136,. Syndroma oculi sicca,H00-H59,1
+3137,"Proteesendokradiit, anamneesis",I00-I99,1
+3138,Kõrge lahkliha,N00-N99,1
+3139,Oma higile,L00-L99,1
+3140,Lülisamba nimmeosas,M00-M99,1
+3141,Emaka endometrioos /,N00-N99,1
+3142,/ Adenomüoos,N00-N99,1
+3143,- põlveliigesesd.,M00-M99,1
+3144,"Parem ranne;
+Parem ranne",M00-M99,1
+3145,Mitraalklapi plastika: tugirõngas,Z00-Z99,1
+3146,? kahtlus anamnestiliselt; jälgimisel,L00-L99,1
+3147,Lülisamba lumbaalosa osteopeenia,M00-M99,1
+3148,Torakaalosa spondülootilised muutused,M00-M99,1
+3149,"Anamneesis, eelnevates diagnoosides",I00-I99,1
+3150,Haemangioma hepatis,C00-D48,1
+3151,. Segahüperlipideemia,E00-E90,1
+3152,Kerge obstruktiivne uneapnoe,G00-G99,1
+3153,Parem temporomandib. liiges.,M00-M99,1
+3154,Krooniline nimmevalu,M00-M99,1
+3155,Vasakul subaurikulaarselt,L00-L99,1
+3156,Jääkleid; valusündroomiga füüsilisel koormusel,M00-M99,1
+3157,Supraventrikulaarsed ja ventrikulaarsed ekstrasüstolid,I00-I99,1
+3158,Paremal enam väljendunud.,M00-M99,1
+3159,Vasak käsi; täpsustamisel.,M00-M99,1
+3160,Postmnopausaalne + hüperparatüreoos,M00-M99,1
+3161,Mitraalklapi diskprotees,Z00-Z99,1
+3162,"Persisteeriv, rivaroksabaanravil",I00-I99,1
+3163,Vasakul tümpanoplastikajärgne.,H60-H95,1
+3164,"Coxarthrosis bilateralis
+Coxarthrosis bilateralis",M00-M99,1
+3165,"Paremal põlveõndlusel
+paremal põlveõndlusel",C00-D48,1
+3166,Mao laparoskoopiline sleeve-resektsioon,K00-K93,1
+3167,"AC-liidus, parem",M00-M99,1
+3168,. Kõhuaordianeurüsm rebendit mainimata,I00-I99,1
+3169,-  mixt,H00-H59,1
+3170,/ põlveliiges/,M00-M99,1
+3171,. Krooniline hepatorenaalne puudulikkus,K00-K93,1
+3172,- lupjunud,C00-D48,1
+3173,- vasak,G00-G99,1
+3174,. Püsiobstruktsiooniga.,J00-J99,1
+3175,Emakakehapolüüp - näärmelis-tsüstiline polüüp.,N00-N99,1
+3176,Mittereumaatiline trikuspidaal(klapi)puudulikkus( mõõdukas),I00-I99,1
+3177,Koronaarspasmi kahtlus,I00-I99,1
+3178,. Lumbago.,M00-M99,1
+3179,Väljapöörd-suurvarvas (omandatud) mõlemal jalal,M00-M99,1
+3180,. Metab. sündroom,E00-E90,1
+3181,. Hulgipaikmed,None,1
+3182,Nimme piirkond,M00-M99,1
+3183,"Seropositiivne, Mycoplasma seropositiivne.",J00-J99,1
+3184,- asteeniline seisund,R00-R99,1
+3185,-  nõrk,H00-H59,1
+3186,"Parem õlaliiges, traumajärgne",M00-M99,1
+3187,Vasakul reiel,A00-B99,1
+3188,/ prillid lähivaatamiseks/,H00-H59,1
+3189,/paremal tuharal/,L00-L99,1
+3190,/vasakul Medata/,Z00-Z99,1
+3191,- kerge hemisündroom,G00-G99,1
+3192,Parem jalg,L00-L99,1
+3193,Koos spondüloartroosiga,M00-M99,1
+3194,"Vasakpoolne lobektoomia
+vasakpoolne lobektoomia",E00-E90,1
+3195,Ateroom vasakul pool kaelal,L00-L99,1
+3196,Karpaaltunneli sündroom - paremal,G00-G99,1
+3197,- ekstraduraalne  mittetraum. hemorraagia,I00-I99,1
+3198,Paremal puusaliigesel,Z00-Z99,1
+3199,"Bilateraalne, proteesitud",M00-M99,1
+3200,Diabeetiline vulvovaginiit,N00-N99,1
+3201,Vasak põlv?,M00-M99,1
+3202,"Mitraal(klapi) puudulikkus, isheemiline",I00-I99,1
+3203,Mõlemad käed,S00-T98,1
+3204,Ataxia cerebellaris.,G00-G99,1
+3205,Emaka osaline vahesein,Q00-Q99,1
+3206,Jalad> käed,G00-G99,1
+3207,Madal munandimaht,N00-N99,1
+3208,Maksatsirroosi staadium,K00-K93,1
+3209,. Lõhustav osteokondriit,M00-M99,1
+3210,Muud osteokondropaatiad.,M00-M99,1
+3211,Sternumi piirkonnas,L00-L99,1
+3212,Eeskapsliava suurend. järgselt,H00-H59,1
+3213,/nibude näärmetsüstid,N00-N99,1
+3214,Abordijärgne retensioon?,O00-O99,1
+3215,Neuropaatiline valu,R00-R99,1
+3216,Keratoconj.sicca ? /,H00-H59,1
+3217,Supraventrikulaarne paroksüsmaalne tahhükardia,O00-O99,1
+3218,- vasakul,S00-T98,1
+3219,"Järgne seisund
+järgne seisund",J00-J99,1
+3220,- parem hüppeliiges.,M00-M99,1
+3221,"Äge intoksikatsioon, deliiriumita",F00-F99,1
+3222,Muude tÄpsustatud organismide tekkene,J00-J99,1
+3223,Parem käsi,R00-R99,1
+3224,Gastriit?peptiline haavand?,R00-R99,1
+3225,Kerge küfoskolioos torakaalosas,M00-M99,1
+3226,/ polypus hyperplasticus ventriculi/,K00-K93,1
+3227,Anembryonia teises lootemunas,O00-O99,1
+3228,"Varasem, praegu siinusrütm",I00-I99,1
+3229,Südametransplantatsiooni järgne,I00-I99,1
+3230,Jälgimist vajav,E00-E90,1
+3231,"Raskekujuline osteoporoos, lülisamba kompressioonmurdudega",M00-M99,1
+3232,"Paremal, opereeritud",G00-G99,1
+3233,"Paremal, kerge",H60-H95,1
+3234,Soori järgne terv.,Z00-Z99,1
+3235,Insuliini resistentsus,N00-N99,1
+3236,Omartroos bilateraalne,M00-M99,1
+3237,Praegu eutüreoos ilma ravita,E00-E90,1
+3238,Müofastsiaalne valu,M00-M99,1
+3239,Labajalgade valu,M00-M99,1
+3240,Leucoplavia vulvae,N00-N99,1
+3241,Kahtlus allergilisele astmale,J00-J99,1
+3242,"Kaelamurd täpsustamata piirkonnas, kinnine",S00-T98,1
+3243,Vegetodystonia- hüpotensio tüüpi,R00-R99,1
+3244,-hemodünaamiliselt ebaoluline,Q00-Q99,1
+3245,Kerge vorm,M00-M99,1
+3246,Liigesevalu mõlemas.,M00-M99,1
+3247,Peroneaalnärvi  kahjustus,R00-R99,1
+3248,Väljapöörd-suurvarvas (omandatud) vasakul  rohkem,M00-M99,1
+3249,Kahtlus retsidiveeruvale kulule,I00-I99,1
+3250,. Polüübid,K00-K93,1
+3251,-  hyperm.,H00-H59,1
+3252,- põlveliigesed labakäe liigesed,M00-M99,1
+3253,Kerge vasakpoolne hemiparees,G00-G99,1
+3254,. sarkoidoos/kopsufibroos,Z00-Z99,1
+3255,Maokeha/ opereeritud/,C00-D48,1
+3256,. Diabeet ?,Z00-Z99,1
+3257,Vasemas kuulmekäigus,A00-B99,1
+3258,- trauma katkisest hambast,K00-K93,1
+3259,- bilateraalne,M00-M99,1
+3260,Polüneuropaatia ja dementsus.,S00-T98,1
+3261,Vasakus maks. siinuses,J00-J99,1
+3262,Kalduvusega osteoporoosile,M00-M99,1
+3263,- membr. inf.,I00-I99,1
+3264,Ravimite kõrvaltoime,L00-L99,1
+3265,Epigastriumi  piirkond,C00-D48,1
+3266,Parem õlg.,M00-M99,1
+3267,Kahtlus neelupolüübile,J00-J99,1
+3268,"Paistetus
+kaelal",R00-R99,1
+3269,Aordiklapi mehaaniline protees,Z00-Z99,1
+3270,Söögitorulahi song,Q00-Q99,1
+3271,. Ärritusdermatiit?,H00-H59,1
+3272,Kahtlus enterobiaasile,A00-B99,1
+3273,Eksematoid paremal säärel,L00-L99,1
+3274,Parema hüppeliigese artroos.,M00-M99,1
+3275,"Aeg teadmata
+aeg teadmata",I00-I99,1
+3276,Hüperlipideemia ja hüpertriglütserineemia,E00-E90,1
+3277,. Kahtlus,I00-I99,1
+3278,Opereeritud novembris,I00-I99,1
+3279,Bikuspiidne aordiklapp,Q00-Q99,1
+3280,"Ravitud operatsiooni, dieediga",E00-E90,1
+3281,/ polüüp/,K00-K93,1
+3282,Kliiniline diagnoos,K00-K93,1
+3283,Transabdominal cervicoisthmical cerclage,O00-O99,1
+3284,Mitraalklapi plastika tugirõngaga,Z00-Z99,1
+3285,Kahtlus astmale.,J00-J99,1
+3286,/kilpn.haigus /,Z00-Z99,1
+3287,Parema jala hüppeliiges,M00-M99,1
+3288,Sactosalpinx dextri,N00-N99,1
+3289,- uneapnoe?,Z00-Z99,1
+3290,Ekseem kätel ja labajalgadel,L00-L99,1
+3291,"Paremal šunt püsib, paranenud",H60-H95,1
+3292,Ja leukonühhia,L00-L99,1
+3293,Valu ja kõhukinnisusega,K00-K93,1
+3294,. Muud polüartroosid,M00-M99,1
+3295,Hyperemesis gravidarum,O00-O99,1
+3296,Vasak hüppeliges,M00-M99,1
+3297,Septum uteri,Q00-Q99,1
+3298,Jääknähud peale kopsutuberkuloosi põdemist,A00-B99,1
+3299,Sekundaarsed: hüpotüreoos.,G00-G99,1
+3300,Cordarone-keratopaatia paremal,H00-H59,1
+3301,. Kusepõiekael,C00-D48,1
+3302,Kõrge ferritiin,R00-R99,1
+3303,Candidiasis genitalis,A00-B99,1
+3304,. Helicobaktergastriit,K00-K93,1
+3305,Endoprotees vasakul,M00-M99,1
+3306,. Krüoglobulineemia,D50-D89,1
+3307,Vasakul maks siinuses,J00-J99,1
+3308,Krooniline (+),G00-G99,1
+3309,Vasak jalg,Z00-Z99,1
+3310,"Paroksüsmid, taastunud siinusrütm",I00-I99,1
+3311,-liiteline haigus,K00-K93,1
+3312,Ninaaluses piirkonnas,A00-B99,1
+3313,Aordi(klapi)stenooskeskmises astmes.,I00-I99,1
+3314,".
+( metaplasia intestinalis)",K00-K93,1
+3315,Vasaku Põlvekontusioon [põrutus],S00-T98,1
+3316,Mitraal(klapi) puudulikkus -mõõdukas,I00-I99,1
+3317,Aordi koarktatsioonist tingitud,I00-I99,1
+3318,: tsöliaakia?,Z00-Z99,1
+3319,- kuuldeaparaat,H60-H95,1
+3320,"Kerge, vasak>parem",G00-G99,1
+3321,Krooniline müeloproliferatiivhaigus; Müelofibroos (müeloidmetaplaasiaga),C00-D48,1
+3322,Paremas kopsus mittespets. kolded,Z00-Z99,1
+3323,"Tundlik õhuvahetusele, tolmule.",J00-J99,1
+3324,- vaiguk. väljapesu,Z00-Z99,1
+3325,Keemiaravi järgne.,G00-G99,1
+3326,. Onühhomükoos?,L00-L99,1
+3327,"Esmaselt elus, tahhükardia",I00-I99,1
+3328,Vasaku puusaliigese endoprotees,Z00-Z99,1
+3329,/mao polüüp/,K00-K93,1
+3330,Ebaselge nõrkus ja jõuetus,G00-G99,1
+3331,Käte liigeste valu,M00-M99,1
+3332,Kõhueesseina song?,Z00-Z99,1
+3333,Markantne torakaalne sinistroskolioos,M00-M99,1
+3334,Kaela ja õlavöötme osas,M00-M99,1
+3335,- klaudikatsioon.,I00-I99,1
+3336,Spondyloarthrosis deformans,M00-M99,1
+3337,. Maksaväline sapijuha,C00-D48,1
+3338,. St. post cholecystectomiam,K00-K93,1
+3339,. kahtlus,M00-M99,1
+3340,Muu täpsustatud katarakt(diabeetiline kae),H00-H59,1
+3341,Väljapöörd-suurvarvas (omandatud) vasak>parem,M00-M99,1
+3342,Kahtlus emakakaela endometrioidsele tsüstile,N00-N99,1
+3343,Altern.stabism /,H00-H59,1
+3344,Mitraal(klapi) puudulikkus-raske,I00-I99,1
+3345,Ninalimas eosinofiilid,J00-J99,1
+3346,Vaegpiimasus paremas rinnas.,O00-O99,1
+3347,- vaigukork vasakust kõrvast,Z00-Z99,1
+3348,Varikoosne  ekseem vasakul säärel,L00-L99,1
+3349,- ekstrasüst.,I00-I99,1
+3350,Kahtlus lühiajalistele paroksüsm.tahhükardiatele anamneesis,I00-I99,1
+3351,- jahutud jalad,G00-G99,1
+3352,Spondyloarthrosis lumbalis,M00-M99,1
+3353,Bilat. krooniline subduraalne hematoom.,None,1
+3354,"Ravitud operatsiooniga, dieediga",E00-E90,1
+3355,Vasak säär.,I00-I99,1
+3356,Aksillaarselt kontaktdermatiit deodorandile,L00-L99,1
+3357,Kõhukoopa liited,R00-R99,1
+3358,Vasakul käel.,G00-G99,1
+3359,Kahtus osteoporoosile,M00-M99,1
+3360,Astigmatism(sega ),H00-H59,1
+3361,Supravent  es,I00-I99,1
+3362,/ persisteeriv/.,I00-I99,1
+3363,"Umbsool, sanata",C00-D48,1
+3364,"Dermatofibroom ülaseljal, vasakul",C00-D48,1
+3365,Emakakaela õmblus,O00-O99,1
+3366,Põlveliigese sisemised kahjustused.,M00-M99,1
+3367,Kahtlus candida infektsioonile,K00-K93,1
+3368,Kilpnäärme patoloogia,Z00-Z99,1
+3369,- õlg,M00-M99,1
+3370,"""Pikselöögi peavalu""",G00-G99,1
+3371,- Pectus excavatum congenita,Q00-Q99,1
+3372,Vasakul jalal,I00-I99,1
+3373,Varasem müokardiinfarkt( võimalik vaheseinas),I00-I99,1
+3374,Kilpnäärme sõlm,Z00-Z99,1
+3375,? Allergia,H00-H59,1
+3376,Bakteriaalne vaginoos.,O00-O99,1
+3377,Teenaris puukild.,S00-T98,1
+3378,".
+Haemorrhoides interna incipiens.",I00-I99,1
+3379,Südamekahjustusega hüpertooniatõbi (kongestiivse) südamepuudulikkusegaIIaste,I00-I99,1
+3380,- sinistra,I00-I99,1
+3381,Mõlemapoolne( endoproteesitud),M00-M99,1
+3382,Kannakontusioon [-põrutus] paremal,S00-T98,1
+3383,Piimtsüst vasaku rinna alasagaras,O00-O99,1
+3384,-autoimmuunne türeoidiit?,Z00-Z99,1
+3385,Mitraalklapi bioprotees.,Z00-Z99,1
+3386,Parem kõrvalest,L00-L99,1
+3387,/paastusuhkru tõus/,E00-E90,1
+3388,Mittereumaatiline trikuspidaal(klapi)puudulikkus; raske,I00-I99,1
+3389,Murrujärgne seisund,S00-T98,1
+3390,Scoliosis et cyphosis toracolumbalis,M00-M99,1
+3391,Parem rohkem kui vasak,M00-M99,1
+3392,Ebaselge hingeldus koormusel,Z00-Z99,1
+3393,/veresoonte patoloogia/,Z00-Z99,1
+3394,- kõrvaloputus,Z00-Z99,1
+3395,Parem ja vasak põlv,Z00-Z99,1
+3396,Tupekülvis Streptococcus dysgalactiae,O00-O99,1
+3397,Mõõdukas torakaalosas,M00-M99,1
+3398,Kaela piirkonnas.,M00-M99,1
+3399,Fibroadenoom paremas rinnas,N00-N99,1
+3400,/ kognitiivne düsfunktsioon/,F00-F99,1
+3401,Vasakul (järelseisund),H60-H95,1
+3402,Beetablokaatori kõrvaltoime?,R00-R99,1
+3403,Fibrotsüstilised muutused,N00-N99,1
+3404,Epiretinaalne membraan osin; postop.,H00-H59,1
+3405,"Vasaku jalalaba nõrkusega, kõndimise",M00-M99,1
+3406,Ravimsõltuv valu,R00-R99,1
+3407,Korduvad vasaku õlaliigese luksatsioonid,M00-M99,1
+3408,Parem pool.,M00-M99,1
+3409,"Troofiline haavand
+troofiline haavand",I00-I99,1
+3410,-   mixt.,H00-H59,1
+3411,KOdade virvendusarütmia paroksüsmid,I00-I99,1
+3412,Täiskasvanute lülisamba osteokondroos kaelaosas,M00-M99,1
+3413,"Bilateraalsed fibroadenoomid
+Bilateraalsed fibroadenoomid",C00-D48,1
+3414,"Vasakpoolne, munandimanuse peaosas",N00-N99,1
+3415,Rütmihäire öösiti,I00-I99,1
+3416,Epiglottise tsüst?,None,1
+3417,Duktaalne adenoom paremas rinnas,C00-D48,1
+3418,Dysphonia functionalis,R00-R99,1
+3419,Parempoolne .,G00-G99,1
+3420,? ( kerge),H60-H95,1
+3421,/ parem randmeliiges/,M00-M99,1
+3422,Emakakeha pahaloomuline kasvaja.,C00-D48,1
+3423,Lumbalis sinistra,M00-M99,1
+3424,Vasem põlveliiges,M00-M99,1
+3425,- permanens,I00-I99,1
+3426,Kahtlus kroonilisele tsüstiidile,N00-N99,1
+3427,. Allergiidid?,L00-L99,1
+3428,Hingamisteede viirusinfektsioon,O00-O99,1
+3429,Maksa steatoos?,R00-R99,1
+3430,. Suuümbruse dermatiit,L00-L99,1
+3431,Paanikahäire (anamneesis),F00-F99,1
+3432,Kõhul atüüpiline? neevus,C00-D48,1
+3433,M. Darier',L00-L99,1
+3434,Vasakul alasagaras enim.,J00-J99,1
+3435,Raske obstruktsioon.,J00-J99,1
+3436,. Tonsillektoomiajärgne seisund.,J00-J99,1
+3437,Radiculopathia lumbosacralis,M00-M99,1
+3438,Mitraal(klapi) prolaps ( kerge),I00-I99,1
+3439,"Vasak õlavars, vasak labajalg",M00-M99,1
+3440,"., kahtlus",M00-M99,1
+3441,/  mao polüüp/,K00-K93,1
+3442,Parempoolne spastiline hemiparees,G00-G99,1
+3443,Kaelalülide ja nimmelülide piirk.,M00-M99,1
+3444,. Varem läbipõetud müokardiit,I00-I99,1
+3445,- arahnoidaaltsüst vasakul temporaalselt,G00-G99,1
+3446,"Põrutus,hematoomid vasakul pool kaelal",S00-T98,1
+3447,"Põrutus,hematoomid vasakul pool",S00-T98,1
+3448,:keskmise raskusega,G00-G99,1
+3449,Mycobacterium fortuitum,A00-B99,1
+3450,Anamneesi põhjal,E00-E90,1
+3451,"Haiguste somatisatsiooniga
+haiguste somatisatsiooniga",F00-F99,1
+3452,Tupe melanoom,C00-D48,1
+3453,Sünnitusjärgne retensioon?,O00-O99,1
+3454,"Vasakul, kerge",H60-H95,1
+3455,- kaelalihased.,M00-M99,1
+3456,Heterotoopne ossifikatsioon proteesi ümber,M00-M99,1
+3457,Mitraal(klapi) puudulikkus (kerge ),I00-I99,1
+3458,Kaela radikuliit,M00-M99,1
+3459,Vasak säär,M00-M99,1
+3460,Kahtlus türeotoksikoosile,E00-E90,1
+3461,"Paremal tuharal
+paremal tuharal",C00-D48,1
+3462,Välised hemorroidid,I00-I99,1
+3463,Dysplasia colli uteri?,N00-N99,1
+3464,. Vestibulaarfunktsiooni täpsustamata haigusseisund,H60-H95,1
+3465,? vasemas põlveõndlas,C00-D48,1
+3466,Fibrotsüstilised muutused rinnanäärmetes,N00-N99,1
+3467,Ingvinaalselt ja tuharavoldis piirkonnas,A00-B99,1
+3468,Vestibulaarfunktsiooni muud haigusseisundid -vestibulopaatia,H60-H95,1
+3469,:vasak kõrv,H60-H95,1
+3470,"Keskmine raskus, bilater",H60-H95,1
+3471,Abscessus subdiafragmalis,K00-K93,1
+3472,Vahelduvad sümptomid,J00-J99,1
+3473,Mõõdukas aordi(klapi)stenoos,I00-I99,1
+3474,- viiruslik?,I00-I99,1
+3475,Vasakul näopoolel,Q00-Q99,1
+3476,Paremal põsel,A00-B99,1
+3477,. Proteus mirabilis,J00-J99,1
+3478,. Täpsustamata krooniline gastriit,K00-K93,1
+3479,Silmakuivus. Ravimist indutseeritud.,R00-R99,1
+3480,- labajalg,M00-M99,1
+3481,Allergia cosoptile,H00-H59,1
+3482,Angioma stellatum,C00-D48,1
+3483,Tsüklivälised veritsused.,N00-N99,1
+3484,- vaskulaarne,G00-G99,1
+3485,: kahtlus köhavariantsele astmele,J00-J99,1
+3486,Mitraaklapi prolaps,I00-I99,1
+3487,Spondüloartroos tõenäoline,M00-M99,1
+3488,Rinnaosas vasempoolne,M00-M99,1
+3489,Ravimite ületarvitamisest tingitud peavalu,G00-G99,1
+3490,Kollasklehafaasi puudulikkus,N00-N99,1
+3491,Parem  säär,G00-G99,1
+3492,Vasaku hüppeliigese artroos.,M00-M99,1
+3493,Reumaatiline korea.,I00-I99,1
+3494,Günekologiline kontroll,Z00-Z99,1
+3495,"Pantsütopeenia, kahtlus hematoloogilisele patoloogiale",D50-D89,1
+3496,/ hüppeliiges/,M00-M99,1
+3497,Tunduvate liigeskontraktuuridega,M00-M99,1
+3498,Ümarkolle kopsus,Z00-Z99,1
+3499,- (seedimatus),K00-K93,1
+3500,"Müofastsiaalne valu kaela-õlavöötmes, paremal",M00-M99,1
+3501,Vasakul kaelal,L00-L99,1
+3502,Atroofiline arm,L00-L99,1
+3503,"Õlavöötmel, kaelas.",M00-M99,1
+3504,". tänav, maantee",None,1
+3505,.Paroksüsmaalne. Ravitud.,I00-I99,1
+3506,Mesenteriaalne ateroskleroos.,K00-K93,1
+3507,Ravitud sigmasoole polüüp,K00-K93,1
+3508,- alajäsemete oblitereeruv ateroskleroos,I00-I99,1
+3509,Allergiline riniit ja konjuktiviit,Z00-Z99,1
+3510,- opereeritud,N00-N99,1
+3511,Allergia ?,H00-H59,1
+3512,. Polyposis coloni sigmoidei,K00-K93,1
+3513,Vasakul käel,C00-D48,1
+3514,"Pärilik võrkkestadüstroofia
+.",H00-H59,1
+3515,Naha autosensibilisatsioon [iid-reaktsioonid]?,L00-L99,1
+3516,-vasak kõrv,H60-H95,1
+3517,Vasem õalliiges,M00-M99,1
+3518,Kahtlus hüpotüreoosile.,Z00-Z99,1
+3519,Väljapöörd-suurvarvas (omandatud)-  bilat,M00-M99,1
+3520,Leukoplaakia remis.,Z00-Z99,1
+3521,"-krooniline bronhiit,  emfüseem, suitsetaja",J00-J99,1
+3522,Teadvusekao hoogudega.,G00-G99,1
+3523,"Mitraal(klapi) puudulikkus, opereeritud",I00-I99,1
+3524,Kroonoiline traumajärgne peavalu,G00-G99,1
+3525,Isheemiatõve kahtlus,Z00-Z99,1
+3526,Interstitsiaalne (krooniline) tsüstiit-> bakterikandlus,N00-N99,1
+3527,"Bilateraalne leid, torakoplastia",A00-B99,1
+3528,Paremal käel,S00-T98,1
+3529,": õhupuudus, hingamisraskus",R00-R99,1
+3530,"Õlavöötmes,ülaseljas (tööasendiga seotud)",M00-M99,1
+3531,"Väljapöörd-suurvarvas (omandatud), bilateraalne",M00-M99,1
+3532,- kuulmisaparaat,H60-H95,1
+3533,/hernia hiatalis oesophagi magna/,K00-K93,1
+3534,Intermitteeruva kuluga,J00-J99,1
+3535,"Imetamise nõustamine
+imetamise nõustamine",Z00-Z99,1
+3536,"Ekstrasüstoolsed rütmitused, ventrikulaarsed",I00-I99,1
+3537,"Mõlemad põlved, vasak õlg",Z00-Z99,1
+3538,Candidiasis vaginalis,O00-O99,1
+3539,Parem õlavars,C00-D48,1
+3540,Kassi hammustusest,S00-T98,1
+3541,: seljaajuinfarkti jääknähud.,G00-G99,1
+3542,Väljapöörd-suurvarvas (omandatud) (mõlemal jalal),M00-M99,1
+3543,"Parem küünarliiges
+parem küünarliiges",M00-M99,1
+3544,Puudub füsiol.lordoos lülisamba kaelaosas,R00-R99,1
+3545,Healoomuline hüperbilirubineemia,E00-E90,1
+3546,"Deformeeriv spondüloartroos 
+deformeeriv spondüloartroos",M00-M99,1
+3547,Staphylococcus aureus,J00-J99,1
+3548,Rinna pahaloomuline kasvaja.,C00-D48,1
+3549,"Südamepuudulikkuse dekompensatsioon
+Südamepuudulikkuse dekompensatsioon",I00-I99,1
+3550,"Türeoidektoomiajärgne, asendusravil
+türeoidektoomiajärgne, asendusravil",E00-E90,1
+3551,Müofastsiaalne koormusvalu,M00-M99,1
+3552,Vasak küünarnukk,M00-M99,1
+3553,- labakäed ( kummikindad),L00-L99,1
+3554,Vasem pool,G00-G99,1
+3555,Parema õlavarrepõimiku sünnitraumajärgne kahjustus.,G00-G99,1
+3556,Parema käe kämbla piirkond.,L00-L99,1
+3557,Alajäsemetes koos nõrkustundega,R00-R99,1
+3558,Kahtlus põletikulisele soolehaigusele,K00-K93,1
+3559,Situs inversus,Z00-Z99,1
+3560,Paremas põlves,M00-M99,1
+3561,Paremal  reiel,L00-L99,1
+3562,Kõigi paikmete hemangioom. Angioomid.,C00-D48,1
+3563,Kerenahk. Nahanäsad.,C00-D48,1
+3564,Vasakpoolne absedeeruv pneumoonia,J00-J99,1
+3565,Allergia päikesekiirgusele,L00-L99,1
+3566,Mao korpuse hüperplastiline polüüp,K00-K93,1
+3567,Alalõua piirkonnas,C00-D48,1
+3568,"Anamneesi alusel
+anamneesi alusel",J00-J99,1
+3569,Diabetes gestationalis. Metformiinravil +Dieetravi,O00-O99,1
+3570,Mitraal(klapi) prolaps( kerge),I00-I99,1
+3571,Haavandiline koliit,O00-O99,1
+3572,Persistens; sanata,I00-I99,1
+3573,"Müofasiaalsed valud õlavöötmes, alaseljas",M00-M99,1
+3574,Reumaatiline aordi(klapi)stenoos (keskmine),I00-I99,1
+3575,Kaela osas,M00-M99,1
+3576,Zenkeri divertiikel,K00-K93,1
+3577,Kerge; köhavariantne; remissioonis,J00-J99,1
+3578,Vasempoolne omartroos,M00-M99,1
+3579,. Epicystostoma,N00-N99,1
+3580,Peaaju pahaloomuline kasvaja.,C00-D48,1
+3581,. Otsmikusagar,C00-D48,1
+3582,Pigmenteeritud purpuraalne dermatoos?,I00-I99,1
+3583,Kaela-õlavöötme müofastsiaalsed valud,M00-M99,1
+3584,- vaiguk. väljapesu.,Z00-Z99,1
+3585,- vasakul,H60-H95,1
+3586,-  myop,H00-H59,1
+3587,Rinnaosa piirkond gradus levis,None,1
+3588,- retroversio,N00-N99,1
+3589,Tühja sella sündroom,E00-E90,1
+3590,Põlveõndla limapaunatsüst [Baker] bilat.,M00-M99,1
+3591,Tolmulestad/kõrrelised/puude õietolm/kassikarvad,J00-J99,1
+3592,Kaela lülivaheketta haigusseisund.,M00-M99,1
+3593,Kerge parempoolne hemiparees,I00-I99,1
+3594,Pingepeavalu. krooniline ravimsõltuv,G00-G99,1
+3595,Bilat valudega,M00-M99,1
+3596,Tsüst vasakul,C00-D48,1
+3597,-parema põlve endoprotees,Z00-Z99,1
+3598,. Düstoopiline neer paremal,N00-N99,1
+3599,Varvastel. Psoriaas?,L00-L99,1
+3600,Käte liigeste artrootilised muutused,M00-M99,1
+3601,Paremal tuharal,Q00-Q99,1
+3602,. Motoorneuroni haigus,G00-G99,1
+3603,Kaela- ja kerevigastuste jääknähud.,S00-T98,1
+3604,. Lülisambamurru jääknähud,S00-T98,1
+3605,/osaline põiepidamatus/,N00-N99,1
+3606,Kerge aste.,J00-J99,1
+3607,"Pseudotumoroosne pankreatiit
+pseudotumoroosne pankreatiit",K00-K93,1
+3608,. Norskamine,R00-R99,1
+3609,Hingamise ebanormaalsused.,R00-R99,1
+3610,Kopsuveresoonte emboolia.,I00-I99,1
+3611,Vasakul nimme piirkonnas,C00-D48,1
+3612,"Paremal, proteesimise järgne seisund",M00-M99,1
+3613,Vasaku jala tallal,C00-D48,1
+3614,Täpsustamata meessuguelund,C00-D48,1
+3615,? ( saab Plaquenil-ravi),M00-M99,1
+3616,Kerges astmes,I00-I99,1
+3617,Mittereumaatiline trikuspidaal(klapi)puudulikkus( mõõdukas).,I00-I99,1
+3618,"/ hüpertensioon,kilpn,patol/",Z00-Z99,1
+3619,Interstitsiaalne (krooniline) tsüstiit  uroinfektsioon,N00-N99,1
+3620,- kaelaosa,M00-M99,1
+3621,Kahtlus radioloogiliselt,C00-D48,1
+3622,Mninatiibade all,L00-L99,1
+3623,Asümptomaatiline bakteruuria,O00-O99,1
+3624,Jämesoole düsbakterioos,K00-K93,1
+3625,"Emakas amputeeritud ,unehäired",N00-N99,1
+3626,Sekundaarne lümfiturse jalgadel,I00-I99,1
+3627,Rindade alusi,L00-L99,1
+3628,Valdavalt supraventrikulaarsed,I00-I99,1
+3629,Kerge vorm,G00-G99,1
+3630,Neerukivid ?,N00-N99,1
+3631,Parem käsi,L00-L99,1
+3632,"Mõlemapoolne, opereeritud",G00-G99,1
+3633,"Kuulmetõrve fn.-i häire,paremal",H60-H95,1
+3634,"Kahepoolne neurosensoorne kuulmisnõrkus,mürakahjustus.",H60-H95,1
+3635,Silmamuna degeneratsioonseisundid  parem silm,H00-H59,1
+3636,Paremal aksillaarsel,L00-L99,1
+3637,Paremas kardiofreenilises nurgas,C00-D48,1
+3638,Düsplastiline neevus,C00-D48,1
+3639,- mortoni neurinoom,G00-G99,1
+3640,. Muu krooniline valu,R00-R99,1
+3641,"Kodutolmulest, rohttaimed
+kodutolmulest, rohttaimed",J00-J99,1
+3642,Vasak >parem,M00-M99,1
+3643,Parema liigesjätke hüpertroofia   .,M00-M99,1
+3644,Dieediga korrigeeritud,E00-E90,1
+3645,Vasakus sagaras,E00-E90,1
+3646,Sekundaarne lümfiturse,I00-I99,1
+3647,Veritsused pärasoolest?,R00-R99,1
+3648,"Vasemas kõrvas
+vasemas kõrvas",H60-H95,1
+3649,Raske pulmonaalne puudulikkus,J00-J99,1
+3650,Seletamatu lastetus,N00-N99,1
+3651,Kaela ja nimme osas,M00-M99,1
+3652,- labajala parees paremal,G00-G99,1
+3653,Cysta ovarii sinistri.,N00-N99,1
+3654,- bilat.pöial,M00-M99,1
+3655,- vasakpoolne tservikogeenne peavalu,G00-G99,1
+3656,Täpsustamata põletikuline spondülopaatia ?(-),M00-M99,1
+3657,"Koksartroos,kolle vasakus õlavarreluus",Z00-Z99,1
+3658,"Õietolm, kass",J00-J99,1
+3659,Vasakul radikaaloperatsioonijärgselt,H60-H95,1
+3660,Vasakul põlvel,Z00-Z99,1
+3661,"Mitraal(klapi) prolaps,kerge mitraalklapi puudulikkus",I00-I99,1
+3662,Kilpnäärmehaiguse suhtes,Z00-Z99,1
+3663,Funktsionaalne düsfoonia,R00-R99,1
+3664,Paremas kannas,M00-M99,1
+3665,- hyposphagma,H00-H59,1
+3666,Mao polüüp,K00-K93,1
+3667,Reaktiivne- atorvastat?,G00-G99,1
+3668,". anamneesis, hetkel siinusrütm.",I00-I99,1
+3669,Psoriaasi osas,Z00-Z99,1
+3670,"Väljapöörd-suurvarvas (omandatud)- kahepoolne, raske",M00-M99,1
+3671,Ja vasakul vestibuliit.,J00-J99,1
+3672,"Ebaregulaarne menstruatsioon
+Ebaregulaarne menstruatsioon",N00-N99,1
+3673,Neevus? keratoos?,L00-L99,1
+3674,Paremal puusaliigesel endoprotees,Z00-Z99,1
+3675,"Nohu, köha",J00-J99,1
+3676,Vere doonorlusest,D50-D89,1
+3677,/scoplariopsis kolonisatsioon,A00-B99,1
+3678,Statiinravi ei ole pidev,E00-E90,1
+3679,- vasem põlveliiges,Z00-Z99,1
+3680,Pikem veritsus enne mensest,N00-N99,1
+3681,Sekundaarne hüpokortitsism,E00-E90,1
+3682,"Muu limapaunatsüst, prepatelaarne bursiit",M00-M99,1
+3683,Mõlema  puusaliigese endoproteesid,Z00-Z99,1
+3684,Korduvalt septoplastika tehtud,J00-J99,1
+3685,Liikuv neer?,R00-R99,1
+3686,Paremal kubemes,C00-D48,1
+3687,- meningioom vasakul parietaalselt,None,1
+3688,- rahutud jalad,R00-R99,1
+3689,- paremas kõrvas,H60-H95,1
+3690,- veritsus,I00-I99,1
+3691,Erosiivne (osteo)artroos labakäte liigestes,M00-M99,1
+3692,Alumine haru paremal.,G00-G99,1
+3693,- kahepoolselt,H60-H95,1
+3694,Vasakul perf.,H60-H95,1
+3695,Kliiniliselt jämesoole düsbakterioos,K00-K93,1
+3696,"Vererohkete, valulike mensestega",N00-N99,1
+3697,Reakt sünoviit,M00-M99,1
+3698,- kannakannus,M00-M99,1
+3699,Tasakaaluhäiretega liikumisraskusega,G00-G99,1
+3700,- supraskapulaarnärv vasemal,G00-G99,1
+3701,Psühhootiline häire,F00-F99,1
+3702,Raskete tasakaalu häiretega.,G00-G99,1
+3703,"Mõlemad õlaliigesed
+mõlemad õlaliigesed",M00-M99,1
+3704,"Alakõhuvalu, rohkem vasakul",R00-R99,1
+3705,Kesksagara pneumoonia järgne seisund,J00-J99,1
+3706,Rinnaosa-nimme piirkond,M00-M99,1
+3707,Mõlemal silmal,H00-H59,1
+3708,Hüpertüreoosi järgselt tekkinud,E00-E90,1
+3709,Silmamuna degeneratsioonseisundid osin,H00-H59,1
+3710,Lõhnatunne kadunud,R00-R99,1
+3711,Perikardi lipoom,C00-D48,1
+3712,Spondyloarthrosis deformans pars lumbosacralis,M00-M99,1
+3713,-hukkunud lootemuna?,O00-O99,1
+3714,Kuuldeaparaat olemas,H60-H95,1
+3715,Vasaku rohkem,M00-M99,1
+3716,- nimme ja kaelaosas,M00-M99,1
+3717,Nimme osas,M00-M99,1
+3718,Paremal küünarvarrel,M00-M99,1
+3719,Alajäseme vigastuste jääknähud.,S00-T98,1
+3720,"Võrkkestairdeta rebendid, operculum",H00-H59,1
+3721,. Umbsool,C00-D48,1
+3722,"Paistetus
+paremal  kuklapiirkonnas",R00-R99,1
+3723,Superfitsiaalne seenhaigus?,L00-L99,1
+3724,Krooniline igapäevane ravimsõltuvpeavalu,G00-G99,1
+3725,/polypus fibroepitelialis,None,1
+3726,Vaskul labakäel dors. pinnal,M00-M99,1
+3727,Vana Myopia magna /,H00-H59,1
+3728,Ja kõrvavalu,M00-M99,1
+3729,+ Hüpotüreoos ka,E00-E90,1
+3730,Endoproteesid põlemas põlves,M00-M99,1
+3731,Sage ventirkulaarne ekstrasüstoolia,I00-I99,1
+3732,- radiculopaatia?,M00-M99,1
+3733,Karpaaltunneli sündroom vasemal,G00-G99,1
+3734,Kaelaosa spondüloos radikulopaatiaga,M00-M99,1
+3735,Kaelaosas. ?,M00-M99,1
+3736,- claudicatio intermittens,I00-I99,1
+3737,Mittereumaatiline trikuspidaal(klapi)puudulikkus( kerge),I00-I99,1
+3738,Vasakule nimmeosas,M00-M99,1
+3739,"Emakakaela pahaloomuline kasvaja,  ?",C00-D48,1
+3740,-ravi ei talunud,M00-M99,1
+3741,-kilpnäärme eemaldamise järgne,E00-E90,1
+3742,Liskas ärritusdermatiit,A00-B99,1
+3743,Sagedaste hoogudega,G00-G99,1
+3744,"Mehepoolne viljatus?
+Mehepoolne viljatus?",N00-N99,1
+3745,/ resisteeriv/,I00-I99,1
+3746,"Traumajärgsed, parem õlaliiges",M00-M99,1
+3747,Vasakul maks siinuses.,J00-J99,1
+3748,Mõned desoained,J00-J99,1
+3749,"Dieet+ metformiinravi
+dieet+ metformiinravi",O00-O99,1
+3750,"Opereeritud, laparatoomia",N00-N99,1
+3751,Traumajärgne närvikahjustus?,Z00-Z99,1
+3752,Ekseem? eksemiidid? villiline?,L00-L99,1
+3753,Fibroosikolded paremas kopsus,Z00-Z99,1
+3754,Mõlemad puusaliigesed?,M00-M99,1
+3755,/pitted keratolysis,L00-L99,1
+3756,"Kass, koer, tolmulest, hallitusseen",J00-J99,1
+3757,Krooniline kardiopulmonaalne puudulikkus.,I00-I99,1
+3758,Kahtlus algavale astmale,J00-J99,1
+3759,Paremas neerus,N00-N99,1
+3760,"Põlved, parem hüppeliiges",M00-M99,1
+3761,Treemor kätes,G00-G99,1
+3762,Väljapöörd-suurvarvas (omandatud) (algav),M00-M99,1
+3763,Müofasiaalsed valud õlavöötmes.,M00-M99,1
+3764,Lühikesed episoodid Holteruuringul,I00-I99,1
+3765,/ ninahingamise takistus,J00-J99,1
+3766,Aksonaalne polüneuropaatia,G00-G99,1
+3767,"Vasakul, opereeritud",J00-J99,1
+3768,"Bilateraalne, paremal opereeritud",G00-G99,1
+3769,Tsirroosi kirjeldatud operatsiooni ajal,K00-K93,1
+3770,Suuhingamine / norskamine,R00-R99,1
+3771,Intertrigo candidotica suunurgas (kliiniliselt),A00-B99,1
+3772,-- opereeritud,E00-E90,1
+3773,. Tieze sündroom,M00-M99,1
+3774,Plantaarne vorm,L00-L99,1
+3775,Müofastsiaalne valu vasakus jalas,M00-M99,1
+3776,Allergiline riniit ja konjunktiviit,J00-J99,1
+3777,Muküplasma tekkene ?,J00-J99,1
+3778,Kavernoosne malformatsioon vasakul frontaalsagaras.,Q00-Q99,1
+3779,Vasakus kopsus,J00-J99,1
+3780,Tendinoos vasakus õlas.,M00-M99,1
+3781,Statiinravi foonil  hüpertriglütserideemia,E00-E90,1
+3782,"Kõhuvalu, kaalulangus, isutus",Z00-Z99,1
+3783,"Värske meniski- [võruketta]rebend
+paremal",S00-T98,1
+3784,Strabism alter. /,H00-H59,1
+3785,Spondyloarthrosis deformans cervicalis.,M00-M99,1
+3786,Emakakaela pahaloomuline kasvaja.,C00-D48,1
+3787,Esimesed sünnitusjärgsed menses,N00-N99,1
+3788,"Ventrikulaarne ekstrasüstoolia
+ventrikulaarne ekstrasüstoolia",I00-I99,1
+3789,. Skolioosi muud vormid,M00-M99,1
+3790,Tupe kandidiaas,Z00-Z99,1
+3791,-rahutute jalgade sündroom.,G00-G99,1
+3792,Chronica (-),G00-G99,1
+3793,/ pvasem põlveliiges/,M00-M99,1
+3794,Unerütmi häire,G00-G99,1
+3795,Syndroma posttrombotica.,I00-I99,1
+3796,"Väljapöörd-suurvarvas (omandatud), mõlemapoolne",M00-M99,1
+3797,-ravimindutseeritud suu limaskesta seeninfektsioon.,A00-B99,1
+3798,Aordi(klapi)puudulikkus (minimaalne),I00-I99,1
+3799,. Kuulmiaparaat,H60-H95,1
+3800,Vasem endoproteesitud,M00-M99,1
+3801,Peamiselt vereosiseid mõjustavad tegurid.,V01-Y98,1
+3802,. Antikoagulandid,V01-Y98,1
+3803,. Täpsustamata paik,V01-Y98,1
+3804,"Talumajapidamine, muu täpsustatud tegevusega",None,1
+3805,Mootorsõidukiõnnetuse hilisnähud (-),V01-Y98,1
+3806,"Liiklusõnnetus, muu täpsustamata tegevus",None,1
+3807,. Talumajapidamine,V01-Y98,1
+3808,"Kokkupuude [motor-]muruniidukiga, kodu",V01-Y98,1
+3809,Liiklus-ja muude sõidukiõnnetuste hilisnähud.,V01-Y98,1
+3810,. Mootorsõidukiõnnetuse hilisnähud,V01-Y98,1
+3811,"Talumajapidamine, sportlik tegevus",None,1
+3812,Mootorsõidukiõnnetuse hilisnähud(-),V01-Y98,1

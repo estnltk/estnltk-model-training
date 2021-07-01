@@ -1,0 +1,11 @@
+
+MATERJAL:
+V100368118032 03.01.2010 06:45 (võetud: 03.01.2010 00:00)
+
+VASTUSED:
+S,P-Glükoos 11.5 (mmol/L ) 
+S,P-Na 137 (136 .. 145 mmol/L ) 
+S,P-K 4.5 (3.4 .. 4.5 mmol/L ) 
+S,P-Kolesterool 7.1 (3.9 .. 7.8 mmol/L ) 
+fS,fP-HDL-Chol 0.92 (0.80 .. 2.10 mmol/L ) 
+fS,fP-LDL-Chol 4.53 (2.00 .. 5.30 mmol/L ) 

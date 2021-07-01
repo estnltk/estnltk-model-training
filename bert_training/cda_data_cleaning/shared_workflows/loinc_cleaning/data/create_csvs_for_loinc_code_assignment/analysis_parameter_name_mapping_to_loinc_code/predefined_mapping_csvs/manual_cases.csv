@@ -1,0 +1,1096 @@
+analysis_name, parameter_name, t_lyhend
+Happelis-aluseline tasakaal,ABE,aB-BE
+Happe-alus tasakaal arteriaalsest verest,Anion Gap,AnionGap (K+)
+Happe-alus tasakaal,Arteriaalse vere ja sissehingatava õhu hapniku osarõhkude su,aB-pO2/FiO2
+Happe-alus tasakaal venoosses veres,B-pH,vB-pH
+Happe-aluse tasakaal venoosses veres,B-pH,vB-pH
+Happe-alustasakaal arteriaalses veres,Shunt,aB-Shunt
+Happe-aluse tasakaal arteriaalses veres,Shunt,aB-Shunt
+Happe-alus tasakaal,Füsioloogiline shunt art,aB-Shunt
+Happe-aluse tasakaal,Füsioloogiline shunt art,aB-Shunt
+Happe-alustasakaal arteriaalses veres,HCO3,aP-HCO3
+Happe-aluse tasakaal arteriaalses veres,HCO3,aP-HCO3
+Happe-alus tasakaal,Vesinikkarbonaat arteriaalses veres,aP-HCO3
+Happe-aluse tasakaal,Vesinikkarbonaat arteriaalses veres,aP-HCO3
+Happe-alus tasakaal venoosses veres,cK,"S,P-K"
+Happe-alus2 tasakaal venoosses veres,cK,"S,P-K"
+Kaalium ja naatrium arteriaalses veres,Kaalium,"S,P-K"
+Kaalium ja naatrium arteriaalses veres,Naatrium,"S,P-Na"
+Happe-alus tasakaal venoosses veres,cNa,"S,P-Na"
+Happe-aluse tasakaal venoosses veres,cNa,"S,P-Na"
+Happe-alus tasakaal arteriaalsest verest,cNa,"S,P-Na"
+Happe-alustasakaal arteriaalses veres,p50,aB-p50
+Happe-aluse tasakaal arteriaalses veres,p50,aB-p50
+Happe-alus tasakaal arteriaalsest verest,pCO2,aB-pCO2
+Happe-aluse tasakaal arteriaalsest verest,pCO2,aB-pCO2
+Happe-aluse tasakaal arteriaalses veres,pCO2,aB-pCO2
+Happe-alus tasakaal venoosses veres,pCO2,vB-pCO2
+Happe-aluse tasakaal venoosses veres,pCO2,vB-pCO2
+Happe-alustasakaal arteriaalses veres,pCO2t,aB-pCO2t
+Happe-aluse tasakaal arteriaalses veres,pCO2t,aB-pCO2t
+Happe-alus tasakaal arteriaalsest verest,pCO2t,aB-pCO2t
+Happe-alus tasakaal arteriaalsest verest,pCO2 (t),aB-pCO2t
+Happe-alus tasakaal arteriaalsest verest,pH,aB-pH
+Happe-aluse tasakaal arteriaalsest verest,pH,aB-pH
+Happe-aluse tasakaal arteriaalses veres,pH,aB-pH
+Happe-alus tasakaal venoosses veres,pH,aB-pH
+Happe-aluse tasakaal venoosses veres,pH,aB-pH
+Happe-alustasakaal arteriaalses veres,pHt,aB-pHt
+Happe-aluse tasakaal arteriaalses veres,pHt,aB-pHt
+Happe-alus tasakaal arteriaalsest verest,pH (t),aB-pHt
+Happe-alus tasakaal venoosses veres,pH (t),vB-pHt
+Happe-alus tasakaal venoosses veres,pO2,vB-pO2
+Happe-aluse tasakaal venoosses veres,pO2,vB-pO2
+Happe-alus tasakaal arteriaalsest verest,pO2,aB-pO2
+Happe-aluse tasakaal arteriaalsest verest,pO2,aB-pO2
+Happe-aluse tasakaal arteriaalses veres,pO2,aB-pO2
+Happe-alustasakaal arteriaalses veres,pO2,aB-pO2
+Happe -aluse tasakaal arteriaalses veres,pO2,aB-pO2
+Happe-alustasakaal arteriaalses veres,pO2t,aB-pO2t
+Happe-aluse tasakaal arteriaalses veres,pO2t,aB-pO2t
+Happe-alus tasakaal arteriaalsest verest,pO2t,aB-pO2t
+Happe-alus tasakaal arteriaalsest verest,pO2 (t),aB-pO2t
+Happe-alus tasakaal arteriaalsest verest,sO2,aB-sO2
+Happe-aluse tasakaal arteriaalsest verest,sO2,aB-sO2
+Happe-aluse tasakaal arteriaalses veres,sO2,aB-sO2
+Happe-alus tasakaal venoosses veres,sO2,vB-sO2
+Happe-aluse tasakaal venoosses veres,sO2,vB-sO2
+Happe-alustasakaal arteriaalses veres,"ABE,c",aB-BE
+Happe-aluse tasakaal arteriaalses veres,AaDpO2,aB-AaDpO2
+Uriini uuring 10-parameetrilise testribaga,GLU,U-Gluc
+Uriini uuring 10-parameetrilise testribaga,SG,U-SG strip
+Uriini uuring 10-parameetrilise testribaga,UBG,U-Ubg strip
+Uriini uuring 10-parameetrilise testribaga,ERY,U-RBC strip
+Uriini uuring 10-parameetrilise testribaga,KET,U-Ket
+Uriini uuring 10-parameetrilise testribaga,PRO,U-Prot
+Uriini uuring 10-parameetrilise testribaga,LEU,U-WBC strip
+Uriini uuring 10-parameetrilise testribaga,BIL,U-Bil strip
+Happe-aluse tasakaal arteriaalses veres,ABE,aB-BE
+Happe-aluse tasakaalu uuring arteriaalses veres,FiO2,FiO2
+Hemogramm,Naatrium,"S,P-Na"
+Hemogramm,Kaalium,"S,P-K"
+Hemogramm,Glükoos,"S,P-Gluc"
+Hemogramm,Anioonide vahe,AnionGap (K+)
+Hemogramm,CRP,"S,P-CRP"
+Hemogramm,Uurea,"S,P-Urea"
+Hemogramm,Kreatiniin,"S,P-Crea"
+Hemogramm,eGFR,eGFR
+Hemogramm,ALAT,"S,P-ALAT"
+Hemogramm,PT%,P-PT%
+Hemogramm,CK-MBm,"S,P-CK-Mbm"
+Hemogramm,ASAT,"S,P-ASAT"
+Hemogramm,Valk,"S,P-Prot"
+Hemogramm,Troponiin T (kõrgtundlik),"S,P-cTnT-hs"
+Hemogramm,NT-proBNP,"S,P-NT-proBNP"
+Hemogramm,eGFR (CKD-EPI),eGFR (CKD-EPI)
+Hemogramm,Albumiin,"S,P-Alb"
+Hemogramm,Prokaltsitoniin,"S,P-PCT"
+Hemogramm,Kaltsium (ioniseeritud),"S,P-iCa"
+Hemogramm,ALP,"S,P-ALP"
+Hemogramm,Bilirubiin,"S,P-Bil"
+Hemogramm,Amülaas,"S,P-Amyl"
+Hemogramm,Kolesterool,"S,P-Chol"
+Hemogramm,D-dimeerid,P-D-Di
+Hemogramm,Erütrotsütaarsete antikehade sõeluuring kolme erütrotsüüdiga,"B-RBC Ab screen I, II. III"
+Hemogramm,Triglütseriidid,"fS,fP-Trigl"
+Hemogramm,GGT,"S,P-GGT"
+Hemogramm,Bilirubiin (konjugeeritud),"S,P-Bil-conj"
+Hemogramm,HDL,"S,P-HDL-Chol"
+Hemogramm,LDL,"S,P-LDL-Chol"
+Hemogramm,Erütrotsütaarsete antikehade sõeluuring kahe erütrotsüüdiga,"B-RBC Ab screen I, II"
+Hemogramm,LDH,"S,P-LDH"
+Hemogramm,Lipaas,"S,P-Lip"
+Hemogramm,CK,"S,P-CK"
+Hemogramm,Müoglobiin,"S,P-Myogl"
+Hemogramm,Magneesium,"S,P-Mg"
+Hemogramm,Vitamiin D (25-OH),"S,P-Vit D (25-OH)"
+Hemogramm,APTT,P-APTT
+Hemogramm 5-osalise leukogrammiga,Kaalium,"S,P-K"
+Hemogramm 5-osalise leukogrammiga,Naatrium,"S,P-Na"
+Hemogramm 5-osalise leukogrammiga,CRP,"S,P-CRP"
+Hemogramm 5-osalise leukogrammiga,Kreatiniin,"S,P-Crea"
+Hemogramm 5-osalise leukogrammiga,eGFR (CKD-EPI),eGFR (CKD-EPI)
+Hemogramm 5-osalise leukogrammiga,Glükoos,"S,P-Gluc"
+Hemogramm 5-osalise leukogrammiga,Albumiin,"S,P-Alb"
+Hemogramm 5-osalise leukogrammiga,ASAT,"S,P-ASAT"
+Hemogramm 5-osalise leukogrammiga,ALAT,"S,P-ALAT"
+Hemogramm 5-osalise leukogrammiga,Prokaltsitoniin,"S,P-PCT"
+Hemogramm 5-osalise leukogrammiga,Uurea,"S,P-Urea"
+Hemogramm 5-osalise leukogrammiga,Valk,"S,P-Prot"
+Hemogramm 5-osalise leukogrammiga,Kaltsium (ioniseeritud),"S,P-iCa"
+Hemogramm 5-osalise leukogrammiga,eGFR,eGFR
+Hemogramm 5-osalise leukogrammiga,Kusihape,"S,P-UA"
+Hemogramm 5-osalise leukogrammiga,Anioonide vahe,AnionGap (K+)
+Hemogramm 5-osalise leukogrammiga,Bilirubiin,"S,P-Bil"
+Hemogramm 5-osalise leukogrammiga,LDH,"S,P-LDH"
+Hemogramm 5-osalise leukogrammiga,ALP,"S,P-ALP"
+Hemogramm 5-osalise leukogrammiga,Kolesterool,"S,P-Chol"
+Hemogramm 5-osalise leukogrammiga,GGT,"S,P-GGT"
+Hemogramm 5-osalise leukogrammiga,PT%,P-PT%
+Hemogramm 5-osalise leukogrammiga,Neutrofiilid %,B-Neutrofiilid %
+Hemogramm 5-osalise leukogrammiga,Amülaas,"S,P-Amyl"
+Hemogramm 5-osalise leukogrammiga,Lipaas,"S,P-Lip"
+Hemogramm 5-osalise leukogrammiga,Fosfaat,"S,P-P"
+Hemogramm 5-osalise leukogrammiga,Kepptuumsed neutrofiilid %,B-Kepptuumsed neutrofiilid %
+Hemogramm 5-osalise leukogrammiga,Segmenttuumsed neutrofiilid %,B-Segmenttuumsed neutrofiilid %
+Hemogramm 5-osalise leukogrammiga,Lümfotsüüdid %,B-Lümfotsüüdid %
+Hemogramm 5-osalise leukogrammiga,Monotsüüdid %,B-Monotsüüdid %
+Hemogramm 5-osalise leukogrammiga,Kaltsium,"S,P-Ca"
+Hemogramm 5-osalise leukogrammiga,CK-MBm,"S,P-CK-MBm"
+Hemogramm 5-osalise leukogrammiga,Troponiin T (kõrgtundlik),"S,P-cTnT-hs"
+Hemogramm 5-osalise leukogrammiga,Eosinofiilid %,B-Eosinofiilid %
+Hemogramm 5-osalise leukogrammiga,NT-proBNP,"S,P-NT-proBNP"
+Hemogramm 5-osalise leukogrammiga,Magneesium,"S,P-Mg"
+Hemogramm 5-osalise leukogrammiga,Plasmarakud %,B-Plasmarakud %
+Hemogramm 5-osalise leukogrammiga,APTT,P-APTT
+Hemogramm 5-osalise leukogrammiga,Bilirubiin (konjugeeritud),"S,P-Bil-conj"
+Hemogramm 5-osalise leukogrammiga,D-dimeerid,P-D-Di
+Hemogramm 5-osalise leukogrammiga,Reaktiivsed lümfotsüüdid %,B-Reaktiivsed lümfotsüüdid %
+Hemogramm 5-osalise leukogrammiga,Basofiilid %,B-Basofiilid %
+Hemogramm 5-osalise leukogrammiga,Kloriid,"S,P-Cl"
+Hemogramm 5-osalise leukogrammiga,Alfa-2-globuliinid,S-a2-glob-Fr
+Hemogramm 5-osalise leukogrammiga,Beeta-1-globuliinid %,S-b1-glob-Fr%
+Hemogramm 5-osalise leukogrammiga,Gammaglobuliinid %,S-g-glob-Fr%
+Hemogramm 5-osalise leukogrammiga,M-komponent 1 %,S-M-spike1-Fr%
+Hemogramm 5-osalise leukogrammiga,Beeta-2-globuliinid %,S-b2-glob-Fr%
+Hemogramm 5-osalise leukogrammiga,Alfa-2-globuliinid %,S-a2-glob-Fr%
+Hemogramm 5-osalise leukogrammiga,M-komponent 1,S-M-spike1-Fr
+Hemogramm 5-osalise leukogrammiga,Beeta-1-globuliinid,S-b1-glob-Fr
+Hemogramm 5-osalise leukogrammiga,Albumiin %,S-Alb-Fr%
+Hemogramm 5-osalise leukogrammiga,Beeta-2-globuliinid,S-b2-glob-Fr
+Hemogramm 5-osalise leukogrammiga,Gammaglobuliinid,S-g-glob-Fr
+Hemogramm 5-osalise leukogrammiga,Alfa-1-globuliinid,S-a1-glob-Fr
+Hemogramm 5-osalise leukogrammiga,"Kaltsium (ioniseeritud, pH 7,4)","S,P-iCa (pH 7,4)"
+Hemogramm 5-osalise leukogrammiga,Alfa-1-globuliinid %,Alfa-1-globuliinid %
+Hemogramm 5-osalise leukogrammiga,Erütrotsütaarsete antikehade sõeluuring kolme erütrotsüüdiga,"B-RBC Ab screen I, II. III"
+Hemogramm 5-osalise leukogrammiga,Triglütseriidid,"fS,fP-Trigl"
+Hemogramm 5-osalise leukogrammiga,Trombiini aeg,P-TT
+Hemogramm 5-osalise leukogrammiga,Madalmolekulaarne hepariin,P-LMWH
+Hemogramm 5-osalise leukogrammiga,HDL,"S,P-HDL-Chol"
+Hemogramm 5-osalise leukogrammiga,FiO2,FiO2
+Hemogramm 5-osalise leukogrammiga,LDL,"S,P-LDL-Chol"
+Hemogramm 5-osalise leukogrammiga,Fibrinogeen,P-Fibr
+Hemogramm 5-osalise leukogrammiga,TSH,"S,P-TSH"
+Hemogramm 5-osalise leukogrammiga,fT3,"S,P-fT3"
+Hemogramm 5-osalise leukogrammiga,fT4,"S,P-fT4"
+Hemogramm 5-osalise leukogrammiga,NEUT Neutrofiilide arv,B-Neutrofiilid #
+Hemogramm 5-osalise leukogrammiga,Osmolaalsus,"S,P-Osmol"
+Hemogramm 5-osalise leukogrammiga,Homotsüsteiin,"S,P-Hcy"
+Hemogramm 5-osalise leukogrammiga,Erütrotsütaarsete antikehade sõeluuring kahe erütrotsüüdiga,"B-RBC Ab screen I, II"
+Hemogramm 5-osalise leukogrammiga,Ferritiin,"S,P-Fer"
+Hemogramm 5-osalise leukogrammiga,Raud,"S,P-Fe"
+Hemogramm 5-osalise leukogrammiga,Antitrombiin III,P-AT III
+Hemogramm 5-osalise leukogrammiga,Müoglobiin,"S,P-Myogl"
+Uriini ribaanalüüs,Erütrotsüüdid,U-RBC strip
+Uriini ribaanalüüs,Nitritid,U-Nit strip
+Uriini ribaanalüüs,Ketoonid,U-Ket strip
+Uriini ribaanalüüs,Leukotsüüdid,U-WBC strip
+Uriini ribaanalüüs,Bilirubiin,U-Bil strip
+Uriini ribaanalüüs,Urobilinogeen,U-Ubg strip
+Uriini ribaanalüüs,Ketokehad,U-Ket strip
+Uriini ribaanalüüs,Glükoos,U-Gluc strip
+Uriini ribaanalüüs,Valk,U-Prot strip
+Uriini ribaanalüüs,U-RBC Erütrotsüüdid,U-RBC strip
+Uriini ribaanalüüs,uriini erikaal,U-SG strip
+Uriini ribaanalüüs,uriini glükoos,U-Gluc strip
+Uriini ribaanalüüs,uriini bilirubiin,U-Bil strip
+Uriini ribaanalüüs,uriini erütrotsüüdid,U-RBC strip
+Uriini ribaanalüüs,uriini leukotsüüdid,
+Uriini ribaanalüüs,uriini valk,U-Prot strip
+Uriini ribaanalüüs,uriini nitritid,U-Nit strip
+Uriini ribaanalüüs,uriini ketoonid,U-Ket strip
+Uriini ribaanalüüs,uriini urobilinogeen,U-Ubg strip
+3-diffiga vere automaatuuring,B-Hct:,B-Hct
+3-diffiga vere automaatuuring,B-Hgb:,B-Hb
+3-diffiga vere automaatuuring,B-Mono-%:,B-Mono%
+3-diffiga vere automaatuuring,B-Mono-arv:,B-Mono#
+3-diffiga vere automaatuuring,B-PLT:,B-Plt
+3-diffiga vere automaatuuring,B-RBC:,B-RBC
+3-diffiga vere automaatuuring,B-WBC:,B-WBC
+3-diffiga vere automaatuuring,E-MCH:,B-MCH
+3-diffiga vere automaatuuring,E-MCHC:,B-MCHC
+3-diffiga vere automaatuuring,E-MCV:,B-MCV
+3-diffiga vere automaatuuring,MPV:,B-MPV
+3-diffiga vere automaatuuring,RDW%:,B-RDW-CV
+5-diffiga vere automaatuuring,Abs. arv Eosonofiilid:,B-Eo#
+5-diffiga vere automaatuuring,B-Hct:,B-Hct
+5-diffiga vere automaatuuring,B-Hgb:,B-Hb
+5-diffiga vere automaatuuring,B-PLT:,B-Plt
+5-diffiga vere automaatuuring,B-RBC:,B-RBC
+5-diffiga vere automaatuuring,B-WBC:,B-WBC
+5-diffiga vere automaatuuring,E-MCH:,B-MCH
+5-diffiga vere automaatuuring,E-MCHC:,B-MCHC
+5-diffiga vere automaatuuring,E-MCV:,B-MCV
+5-diffiga vere automaatuuring,Eosinofiilid:%,B-Eo%
+5-diffiga vere automaatuuring,MPV:,B-MPV
+5-diffiga vere automaatuuring,RDW%:,B-RDW-CV
+Abs. arv Eosinofiilid,Abs. arv Eosinofiilid,B-Eo#
+Alaniin aminotr,Alaniin aminotr,"S,P-ALAT"
+Alaniin aminotransferaas seeru,Alaniin aminotransferaas seeru,"S,P-ALAT"
+Alaniini aminot,Alaniini aminot,"S,P-ALAT"
+Alaniini aminotransf,Alaniini aminotransf,"S,P-ALAT"
+Alaniini aminotransferaas,Alaniini aminotransferaas,"S,P-ALAT"
+Alaniini aminotransferaas (ALT,Alaniini aminotransferaas (ALT,"S,P-ALAT"
+Alaniini aminotransferaas (GPT,Alaniini aminotransferaas (GPT,"S,P-ALAT"
+Alaniini aminotransferaas seer,Alaniini aminotransferaas seer,"S,P-ALAT"
+ALAT,ALAT,"S,P-ALAT"
+Alb/Crea,Alb/Crea,U-Alb/U-Crea
+Albumiini ja kreatiniini suhe,Albumiini ja kreatiniini suhe,U-Alb/U-Crea
+Albumiin juhuslikus uriinis,Albumiini ja kreatiniini suhe,U-Alb/U-Crea
+Albumiin juhuslikus uriinis,Albumiini ja kreatiniini suhe HK:1111,U-Alb/U-Crea
+Albumiin uriinis,Albumiin uriinis,U-Alb
+ALP,ALP,"S,P-ALP"
+ANA HEp-2,Tuumavastaste antikehade tüpiseerimine HEp-2 rakuliinil,"S,P-ANA IgG titr Hep2"
+ANA IgG,ANA IgG,"S,P-ANA IgG"
+ANA IgG paneel (blot,ANA IgG paneel,"S,P-ANA IgG panel IIF"
+ANA IgG paneel (blot,ANA IgG paneel HK:66715,"S,P-ANA IgG panel IIF"
+ANA IgG paneel seerumist,S-ANA IgG panel,"S,P-ANA IgG panel IIF"
+ANA IgG paneel seerumist,S-ANA_IgG_panel,"S,P-ANA IgG panel IIF"
+ANA IgG tiiter,S-ANA IgG titr,"S,P-ANA IgG titr"
+ANA IgG tiiter,S-ANA_IgG_titr,"S,P-ANA IgG titr"
+ANA IgG tiiter,Tuumavastase IgG tiiter,"S,P-ANA IgG titr"
+ANA - Tuumavastane IgG,ANA - Tuumavastane IgG,"S,P-ANA IgG"
+ANA - Tuumavastane IgG,S-ANA-Hep-2,"S,P-ANA IgG titr Hep2"
+ANA tüpiseerimine (Immunoblot),S-ANA Typ,"S,P-CTD IgG panel IB"
+ANA tüpiseerimine (Immunoblot),S-ANA_Typ_,"S,P-CTD IgG panel IB"
+Antinukleaarsed antikehad,S-aNA,"S,P-ANA Ab"
+Antinukleaarsed antikehad,S-aNA,"S,P-ANA Ab"
+ASAT,ASAT,"S,P-ASAT"
+Aspartaadi amin,Aspartaadi amin,"S,P-ASAT"
+Aspartaadi aminotran,Aspartaadi aminotran,"S,P-ASAT"
+Aspartaadi aminotransferaas,Aspartaadi aminotransferaas,"S,P-ASAT"
+Aspartaadi aminotransferaas (A,Aspartaadi aminotransferaas (A,"S,P-ASAT"
+Aspartaadi aminotransferaas (G,Aspartaadi aminotransferaas (G,"S,P-ASAT"
+Aspartaadi aminotransferaas se,Aspartaadi aminotransferaas se,"S,P-ASAT"
+Autoimmuundiagnostika,S-ANA HEp-,"S,P-ANA IgG titr Hep2"
+Autoimmuundiagnostika,S-ANA HEp-2,"S,P-ANA IgG titr Hep2"
+Autoimmuundiagnostika,S-ANA Ig,"S,P-ANA IgG"
+Autoimmuundiagnostika,S-ANA IgG,"S,P-ANA IgG"
+Autoimmuunuuringud,ANA - Tuumavastane IgG,"S,P-ANA IgG"
+Autoimmuunuuringud,ANA tüpiseerimine,"S,P-CTD IgG panel IB"
+Autoimmuunuuringud,Tuumavastased Ak-d,"S,P-ANA Ab"
+Autoimmuunuuringud,Tuumavastased Ak-d (ANA,"S,P-ANA Ab"
+Autoimmuunuuringud,Tuumavastased antikehad,"S,P-ANA Ab"
+Automaatliinil teostatud uuring,fP-GlucP /Glükoos paastuplasmas,"fS,fP-Gluc"
+Automaatliinil teostatud uuring,P-ALP Aluseline fosfataas,"S,P-ALP"
+Automaatliinil teostatud uuring,P-Chol Kolesterool,"S,P-Chol"
+Automaatliinil teostatud uuring,P-CK Kreatiniini kinaas,"S,P-CK"
+Automaatliinil teostatud uuring,P-CK-MBm Kreatiini kinaasi MB isoensüümi mass,"S,P-CK-MBm"
+Automaatliinil teostatud uuring,P-fT4 Vaba türoksiin plasmas,"S,P-fT4"
+Automaatliinil teostatud uuring,P-HDL-Chol HDL kolesterool,"S,P-HDL-Chol"
+Automaatliinil teostatud uuring,P-LDL-Chol LDL kolesterool,"S,P-LDL-Chol"
+Automaatliinil teostatud uuring,P-PCT Prokaltsitoniin,"S,P-PCT"
+Automaatliinil teostatud uuring,P-TSH Kilpnääret stimuleeriv hormoon plasmas,"S,P-TSH"
+Automaat uuring 3 osalise leukogrammiga,RDW-CW,B-RDW-CV
+B1-A3Diff,HCT:,B-Hct
+B1-A3Diff,HGB:,B-Hb
+B1-A3Diff,MCH:,B-MCH
+B1-A3Diff,MCHC:,B-MCHC
+B1-A3Diff,MCV:,B-MCV
+B1-A3Diff,MPV:,B-MPV
+B1-A3Diff,PCT:,B-Pct
+B1-A3Diff,PLT:,B-Plt
+B1-A3Diff,RDW%:,B-RDW-CV
+B1-A3Diff,RDW-CW:,B-RDW-CV
+B1-A3Diff,WBC:,B-WBC
+B1-Hemo-s,Segmenttuumsed neutrofiilid:,B-Segmenttuumsed neutrofiilid %
+B-A3Diff,HCT:,B-Hct
+B-A3Diff,MCH:,B-MCH
+B-A3Diff,MCHC:,B-MCHC
+B-A3Diff,MCV:,B-MCV
+B-A3Diff,MPV:,B-MPV
+B-A3Diff,PCT:,B-Pct
+B-A3Diff,PLT:,B-Plt
+B-A3Diff,RDW-CV:,B-RDW-CV
+B-A3Diff,RDW-SD:,B-RDW-SD
+BASO#,BASO#,B-Baso#
+BASO%,BASO%,B-Baso%
+Baso%,Baso%,B-Baso%
+BASO% Basofiili,BASO% Basofiili,B-Baso%
+BASO Basofiilide absoluutarv,BASO Basofiilide absoluutarv,B-Baso#
+BASO Basofiilide arv,BASO Basofiilide arv,B-Baso#
+BASO% Basofiilide su,BASO% Basofiilide su,B-Baso%
+BASO% Basofiilide suhtarv,BASO% Basofiilide suhtarv,B-Baso%
+Basofiilide arv,Basofiilide arv,B-Basofiilid #
+Basofiilide suh,Basofiilide suh,B-Basofiilid %
+Basofiilide suhtarv,Basofiilide suhtarv,B-Basofiilid %
+B-autom5diff,RBC HK:0000,B-RBC
+B-autom5diff,RDW HK:0000,B-RDW-CV
+B-Baso#,B-Baso#,B-Baso#
+B-Baso%,B-Baso%,B-Baso%
+B-CBC+Diff,BASO#:,B-Baso#
+B-CBC+Diff,BASO%:,B-Baso%
+B-CBC+Diff,EO#:,B-Eo#
+B-CBC+Diff,EO%:,B-Eo%
+B-CBC+Diff,HCT:,B-Hct
+B-CBC+Diff,HGB:,B-Hb
+B-CBC+Diff,IG#:,B-IG#
+B-CBC+Diff,IG%:,B-IG%
+B-CBC+Diff,LYMPH#:,B-Lymph#
+B-CBC+Diff,LYMPH%:,B-Lymph%
+B-CBC+Diff,MCH:,B-MCH
+B-CBC+Diff,MCHC:,B-MCHC
+B-CBC+Diff,MCV:,B-MCV
+B-CBC+Diff,MONO#:,B-Mono#
+B-CBC+Diff,MONO%:,B-Mono%
+B-CBC+Diff,MPV:,B-MPV
+B-CBC+Diff,NEUT#:,B-Neut#
+B-CBC+Diff,NEUT%:,B-Neut%
+B-CBC+Diff,PLT:,B-Plt
+B-CBC+Diff,RDW- CV:,B-RDW-CV
+B-CBC+Diff,WBC:,B-WBC
+B-Eo#,B-Eo#,B-Eo#
+B-Eo%,B-Eo%,B-Eo%
+B-HbA1C,B-HbA1c-IFCC:,B-HbA1c (IFCC)
+B-HbA1c (IFCC),B-HbA1c,B-HbA1c (IFCC)
+B-HbA1c-IFCC,B-HbA1c-IFCC,B-HbA1c (IFCC)
+B-Hct,B-Hct,B-Hct
+Biokeemia analüüs,Chol,"S,P-Chol"
+Biokeemia analüüs,EtOH Etanool,"S,P-EtOH"
+Biokeemia analüüs,fP-Ca,"S,P-Ca"
+Biokeemia analüüs,fP-Crea,"S,P-Crea"
+Biokeemia analüüs,fP-Gluc GTT 0 min,"fS,P-Gluc 0 min (pre 75 g Gluc PO)"
+Biokeemia analüüs,fP-Gluc plasma Glükoos plasmas,"fS,fP-Gluc"
+Biokeemia analüüs,fP-Trigl,"fS,fP-Trigl"
+Biokeemia analüüs,fP-Urea,"S,P-Urea"
+Biokeemia analüüs,fS-Chol,"S,P-Chol"
+Biokeemia analüüs,Kaltsium plasmas,"S,P-Ca"
+Biokeemia analüüs,P-ALP aluseline fosfataas,"S,P-ALP"
+Biokeemia analüüs,P-Chol,"S,P-Chol"
+Biokeemia analüüs,P-CK,"S,P-CK"
+Biokeemia analüüs,P-cTnThs Troponiin T seerumis,"S,P-cTnT-hs"
+Biokeemia analüüs,P-LDH,"S,P-LDH"
+Biokeemia analüüs,P-NT-proBNP (B-tüüpi natriureetilise propeptiidi N-fragment,"S,P-NT-proBNP"
+Biokeemia analüüs,P-Prot,"S,P-Prot"
+Biokeemia analüüs,S-cTnThs Troponiin T seerumis,"S,P-cTnT-hs"
+Biokeemia analüüs,S-NT-proBNP (B-tüüpi natriureetilise propeptiidi N-fragment,"S,P-NT-proBNP"
+Biokeemilised uuringud,S-Chol/HDL,"S,P-HDL-Chol"
+B-Lymph#,B-Lymph#,B-Lymph#
+B-Lymph%,B-Lymph%,B-Lymph%
+B-MCH,B-MCH,B-MCH
+B-MCHC,B-MCHC,B-MCHC
+B-MCV,B-MCV,B-MCV
+B-Mono#,B-Mono#,B-Mono#
+B-Mono%,B-Mono%,B-Mono%
+B-MPV,B-MPV,B-MPV
+B-Neut#,B-Neut#,B-Neut#
+B-Neut%,B-Neut%,B-Neut%
+B-PCT,B-PCT,B-Pct
+B-PLT,B-PLT,B-Plt
+B-Plt,B-Plt,B-Plt
+B-RBC,B-RBC,B-RBC
+B-RDW-CV,B-RDW-CV,B-RDW-CV
+B-WBC,B-WBC,B-WBC
+B-Vere äigepreparaadi mikroskoopia,Basofiilne sõmerus HK:0000,B-Basofiilne sõmerus
+B-Vere äigepreparaadi mikroskoopia,Hüpersegmentatsioon HK:0000,B-Hüpersegmentatsioon
+CBC+Diff,Eos %,B-Eo%
+CBC+Diff,Eosinofiilide abs arv,B-Eo#
+CBC+Diff,PLT x10e9/l,B-Plt
+CT-kaltsitoniin,CT-kaltsitoniin,"S,P-CT"
+DNA analüüs PCR-meetodil,PCR-Ureaplasma urealyticum antigeen,XXX-U urealyticum DNA
+eGFR,eGFR,eGFR
+eGFR (CKD-EPI),eGFR (CKD-EPI),eGFR (CKD-EPI)
+eGFR kiirus MDR,eGFR kiirus MDR,eGFR
+eGFR (MDRD),eGFR,eGFR
+eGFR (MDRD),eGFR :,eGFR
+Ekstraheeritavate tuumaantigeenide vastane IgG (paneel),S-ENA_IgG_panel,"S,P-ANA IgG panel IIF"
+Emakakaelakanalikaapelt PCR Ureaplasma urealyticumile (sh U parvum),Cx-U urealyticum/U parvum-PCR,XXX-U urealyticum/U parvum DNA
+Emakakaelakanalikaapelt PCR Ureaplasma urealyticumile (sh U parvum),Cx-U_urealyticum/U_parvum-PCR,XXX-U urealyticum/U parvum DNA
+E-MCH,E-MCH,B-MCH
+E-MCHC,E-MCHC,B-MCHC
+E-MCV,E-MCV,B-MCV
+EO#,EO#,B-Eo#
+EO%,EO%,B-Eo%
+Eo,Eo,B-Eo#
+Eo%,Eo%,B-Eo%
+EO% Eosinofiili,EO% Eosinofiili,B-Eo%
+EO Eosinofiilid,EO Eosinofiilid,B-Eo#
+EO Eosinofiilide abs,EO Eosinofiilide abs,B-Eo#
+EO Eosinofiilide absoluutarv,EO Eosinofiilide absoluutarv,B-Eo#
+EO Eosinofiilide arv,EO Eosinofiilide arv,B-Eo#
+EO% Eosinofiilide su,EO% Eosinofiilide su,B-Eo%
+EO% Eosinofiilide suhtarv,EO% Eosinofiilide suhtarv,B-Eo%
+% Eosinofiilid,Eosinofiilid%,B-Eo%
+Eosinofiilid #,Eosinofiilid #,B-Eo#
+Eosinofiilid %,Eosinofiilid %,B-Eo%
+Eosinofiilide a,Eosinofiilide a,B-Eo#
+Eosinofiilide arv,Eosinofiilide arv,B-Eo#
+Eosinofiilide s,Eosinofiilide s,B-Eo%
+Eosinofiilide suhtar,Eosinofiilide suhtar,B-Eo%
+Eosinofiilide suhtarv,Eosinofiilide suhtarv,B-Eo%
+Eosinofiilid veres %,Eosinofiilid veres %,B-Eo%
+Erinevad laboratoorsed analüüsid,ANA IgG paneel,"S,P-ANA IgG panel IIF"
+Erütrotsüüdid,Erütrotsüüdid,B-RBC
+fS-Crea,fS-Crea,"S,P-Crea"
+"fS,fP-HDL-Chol","fS,fP-HDL-Chol","S,P-HDL-Chol"
+"fS,fP-LDL-Chol","fS,fP-LDL-Chol","S,P-LDL-Chol"
+"fS,fP-Triglütseriidid","fS,fP-Triglütseriidid","fS,fP-Trigl"
+fs-Gluc,fs-Gluc,"fS,fP-Gluc"
+fS-HDL-Chol,fS-HDL-Chol,"S,P-HDL-Chol"
+fS-LDL-Chol,fS-LDL-Chol,"S,P-LDL-Chol"
+fS-Urea,fS-Urea,"S,P-Urea"
+fs-Urea,fs-Urea,"S,P-Urea"
+FT4,FT4,"S,P-fT4"
+fT4,fT4,"S,P-fT4"
+FT4 Vaba t?roksiin seerumis,FT4 Vaba t?roksiin seerumis,"S,P-fT4"
+FT4 Vaba türoks,FT4 Vaba türoks,"S,P-fT4"
+FT4 Vaba türoksiin seerumis,FT4 Vaba türoksiin seerumis,"S,P-fT4"
+Glükohemoglobii,Glükohemoglobii,B-HbA1c
+glükohemoglobii,glükohemoglobii,B-HbA1c
+Glükohemoglobiin,Glükohemoglobiin,B-HbA1c
+Glükohemoglobiin (IFCC),Glükohemoglobiin,B-HbA1c (IFCC)
+Glükohemoglobiin ver,Glükohemoglobiin ver,B-HbA1c
+Glükohemoglobiin veres,B-HbA1c-IFCC,B-HbA1c (IFCC)
+Glükohemoglobiin veres,Glükohemoglobiin veres,B-HbA1c
+Glükohemoglobiin veres (IFCC),Glükohemoglobiin veres,B-HbA1c (IFCC)
+Glükohemoglobiin veres (SI),Glükohemoglobiin veres,B-HbA1c
+Glükohemoglobiin veres (SI),HbA1c %,B-HbA1c
+Glükoos,Glükoos,"S,P-Gluc"
+Glükoosi profiil kapillaarverest,"gluc.13,00",fcB-Gluc
+glükoosi taluvuse proov,Glükoos paastuseerumis/paastuplasmas enne koormust,"fS,P-Gluc 0 min (pre 75 g Gluc PO)"
+glükoosi taluvuse proov,Glükoos seerumis/plasmas 120 minutit pärast koormust,"S,P-Gluc 120 min (post 75g Gluc PO)"
+Glükoos kapillaarverest,cB-Gluc,cB-Gluc POCT
+Glükoos paastu,Glükoos paastu,"fS,fP-Gluc"
+Glükoos paastuplasmas,Glükoos paastuplasmas,"fS,fP-Gluc"
+Glükoos paastu plasmas,Glükoos paastu plasmas,"fS,fP-Gluc"
+Glükoos paastuseerumis/-plasma,Glükoos paastuseerumis/-plasma,"fS,fP-Gluc"
+Glükoos seerumis,Glükoos seerumis,"S,P-Gluc"
+Happe-alus tasakaal,Glükoos korduv,"S,P-Gluc"
+HbA1c,HbA1c,B-HbA1c
+HbA1c %,HbA1c %,B-HbA1c
+HbA1c%,HbA1c%,B-HbA1c
+HbA1c (IFCC),HbA1c,B-HbA1c (IFCC)
+HbA1c (IFCC ?hik),HbA1c,B-HbA1c (IFCC)
+HbA1c (IFCC ühi,HbA1c (IFCC ühi,B-HbA1c (IFCC)
+HbA1c (IFCC ühik),HbA1c,B-HbA1c (IFCC)
+HCT,HCT,B-Hct
+Hct,Hct,B-Hct
+HCT Hematokritt,HCT Hematokritt,B-Hct
+HDL,HDL,"S,P-HDL-Chol"
+HDL kolest.,HDL kolest.,"S,P-HDL-Chol"
+HDL- kolesteroo,HDL- kolesteroo,"S,P-HDL-Chol"
+HDL-Kolesterool,HDL-Kolesterool,"S,P-HDL-Chol"
+HDL kolesterool,HDL kolesterool,"S,P-HDL-Chol"
+HDL-kolesterool,HDL-kolesterool,"S,P-HDL-Chol"
+HDL- kolesterool paastuseerumi,HDL- kolesterool paastuseerumi,"S,P-HDL-Chol"
+HDL-kolesterool seer,HDL-kolesterool seer,"S,P-HDL-Chol"
+HDL-kolesterool seerumis,HDL-kolesterool seerumis,"S,P-HDL-Chol"
+HDL-kolesterool seerumis/plasm,HDL-kolesterool seerumis/plasm,"S,P-HDL-Chol"
+Hematocrit,Hematocrit,B-Hct
+Hematokrit,Hematokrit,B-Hct
+Hematokrit %,Hematokrit %,B-Hct
+hematokrit,hematokrit,B-Hct
+hematokrit%,hematokrit%,B-Hct
+Hematokritt,Hematokritt,B-Hct
+Hematoloogilised ja uriini uuringud,Albumiini ja kreatiniini suhe,U-Alb/U-Crea
+Hematoloogilised ja uriini uuringud,Basofiilne sõmerus erütrotsüütides,B-Basofiilne sõmerus
+Hematoloogilised ja uriini uuringud,EO#,B-Eo#
+Hematoloogilised ja uriini uuringud,Hüpersegmentatsioon neutrofiilide,B-Hüpersegmentatsioon
+Hematoloogilised ja uriini uuringud,Hüpersegmentatsioon neutrofiilides,B-Hüpersegmentatsioon
+Hematoloogilised ja uriini uuringud,IG,B-IG#
+Hematoloogilised ja uriini uuringud,Nitritid,U-Nit strip
+Hematoloogilised uuringud,1 RDW%,B-RDW-CV
+Hematoloogilised uuringud,2 RDW%,B-RDW-CV
+Hematoloogilised uuringud,3 RDW%,B-RDW-CV
+Hematoloogilised uuringud,4 RDW%,B-RDW-CV
+Hematoloogilised uuringud,5 RDW%,B-RDW-CV
+Hematoloogilised uuringud,6 RDW%,B-RDW-CV
+Hematoloogilised uuringud,Abs. arv Eosonofiilid,B-Eo#
+Hematoloogilised uuringud,Basof. sõmerus,B-Basofiilne sõmerus
+Hematoloogilised uuringud,B-Diff-Eo-ar,B-Eo#
+Hematoloogilised uuringud,B-Diff-Eo-arv,B-Eo#
+Hematoloogilised uuringud,Eosinofiilide abs arv,B-Eo#
+Hematoloogilised uuringud,Erütrotsüütide basofiilne sumerus,B-Basofiilne sõmerus
+Hematoloogilised uuringud,Hüpersegmentatsioo,B-Hüpersegmentatsioon
+Hematoloogilised uuringud,IG,B-IG#
+Hematoloogilised uuringud,IG#,B-IG#
+Hematoloogilised uuringud,Lym+mono arv,B-Lymph# + Mono#
+Hematoloogilised uuringud,Neutrofiilide hüpersegmentatsioon,B-Hüpersegmentatsioon
+Hematoloogilised uuringud,P-PT-IN,P-PT-INR
+Hemoglobiin,Hemoglobiin,B-Hb
+Hemogramm 3 osalise leukogrammiga,Hematokrit:,B-Hct
+Hemogramm 3 osalise leukogrammiga,MCH:,B-MCH
+Hemogramm 3 osalise leukogrammiga,MCHC:,B-MCHC
+Hemogramm 3 osalise leukogrammiga,MCV:,B-MCV
+Hemogramm 3 osalise leukogrammiga,MPV:,B-MPV
+Hemogramm 3 osalise leukogrammiga,Trombotsüüdid:,B-Plt
+Hemogramm leukogrammiga,Hematogrit,B-Hct
+"Hemogramm, lihtne (mikroskoopia)",Segmenttuumsed neutrofiilid,B-Segmenttuumsed neutrofiilid %
+"Hemogramm, lihtne (mikroskoopia)",Segmenttuumsed neutrofiilid,B-Segmenttuumsed neutrofiilid %
+"Hemogramm, (mikroskoopia)",Basofiilne teralisus,B-Basofiilne sõmerus
+"Hemogramm, (mikroskoopia)",Basofiilne teralisus,B-Basofiilne sõmerus
+"Hemogramm, (mikroskoopia)",Segmenttuumseid,B-Segmenttuumsed neutrofiilid %
+"Hemogramm, (mikroskoopia)",Segmenttuumseid,B-Segmenttuumsed neutrofiilid %
+"Hemogramm, (mikroskoopia)",Tuuma hupersegmentatsioon,B-Hüpersegmentatsioon
+"Hemogramm, (mikroskoopia)",Tuuma hupersegmentatsioon,B-Hüpersegmentatsioon
+"Hemogramm, patoloogiline (mikroskoopia)",Segmenttuumsed neutrofiilid,B-Segmenttuumsed neutrofiilid %
+"Hemogramm, patoloogiline (vereäige mikroskoopia)",Segmenttuumsed neutrofiilid,B-Segmenttuumsed neutrofiilid %
+Hemogramm viieosalise leukogrammiga*,-10 INR,P-PT-INR
+Hemogramm viieosalise leukogrammiga*,-1 S-ANA IgG mustrid,"S,P-ANA IgG pattern"
+Hemogramm viieosalise leukogrammiga*,"-1 S,P-ANA IgG mustrid","S,P-ANA IgG pattern"
+Hemogramm viieosalise leukogrammiga*,-2 S-ANA IgG tiiter,"S,P-ANA IgG titr"
+Hemogramm viieosalise leukogrammiga*,"-2 S,P-ANA IgG tiiter","S,P-ANA IgG titr"
+Hemogramm viieosalise leukogrammiga*,5 S-ANA Ab,"S,P-ANA Ab"
+Hemogramm viieosalise leukogrammiga*,"5 S,P-ANA Ab","S,P-ANA Ab"
+Hemogramm viieosalise leukogrammiga*,Erütrotsütaarsete antikehade sõeluuring kahe erütrotsüüdiga,"B-RBC Ab screen I, II"
+Hemogramm viieosalise leukogrammiga*,U. urealyticum,XXX-U urealyticum DNA
+Hemostasiogramm,P-PT-INR - Protrombiini aeg- rahvusvaheline normitud suhe,P-PT-INR
+Hemostasiogramm,P-PTs - Protrombiini aeg sekundites,P-PT
+HGB,HGB,B-Hb
+Hgb,Hgb,B-Hb
+hgb,hgb,B-Hb
+HgbA1c,HgbA1c,B-HbA1c
+HGB Hemoglobiin,HGB Hemoglobiin,B-Hb
+IG,IG,B-IG#
+IG#,IG#,B-IG#
+IG%,IG%,B-IG%
+IG Ebak?psete granulots??dide,IG Ebak?psete granulots??dide,B-IG#
+IG% Ebak?psete granulots??dide,IG% Ebak?psete granulots??dide,B-IG%
+IG% Ebaküpsete,IG% Ebaküpsete,B-IG%
+IG Ebaküpsete g,IG Ebaküpsete g,B-IG#
+IG% Ebaküpsete granu,IG% Ebaküpsete granu,B-IG%
+IG Ebaküpsete granul,IG Ebaküpsete granul,B-IG#
+IG Ebaküpsete granulotsüüdide,IG Ebaküpsete granulotsüüdide,B-IG#
+IG% Ebaküpsete granulotsüüdide,IG% Ebaküpsete granulotsüüdide,B-IG%
+Immuunmeetoditel uuringud,ANA /Tuumavastane IgG seerumis,"S,P-ANA IgG"
+Immuunmeetoditel uuringud,CT / Kaltsitoniin,"S,P-CT"
+Immuunmeetoditel uuringud,FT4 / Vaba türoksiin,"S,P-fT4"
+Immuunmeetoditel uuringud,S-AMA M2 IgG ana,"S,P-AMA M2 IgG"
+Immuunmeetoditel uuringud,S-ANA Ab,"S,P-ANA Ab"
+Immuunmeetoditel uuringud,S-ANA-IB / ANA IgG paneel,"S,P-ANA Ab"
+Immuunmeetoditel uuringud,S-CentrB IgG ana,"S,P-CENP-B IgG"
+Immuunmeetoditel uuringud,S-dsDNA IgG ana,"S,P-dsDNA IgG"
+Immuunmeetoditel uuringud,S-Histone IgG ana,"S,P-Histone IgG"
+Immuunmeetoditel uuringud,S-Jo1 IgG ana,"S,P-Jo1 IgG"
+Immuunmeetoditel uuringud,S-Nucleos IgG ana,"S,P-Nucleos IgG"
+Immuunmeetoditel uuringud,S-pCNA IgG ana,"S,P-PCNA IgG"
+Immuunmeetoditel uuringud,S-PM/Scl100 IgG ana,"S,P-PM/Scl100 IgG"
+Immuunmeetoditel uuringud,S-Rib P Prot IgG ana,"S,P-Rib P Prot IgG"
+Immuunmeetoditel uuringud,"S-RNP,Sm IgG ana","S,P-RNP, Sm IgG"
+Immuunmeetoditel uuringud,S-Ro52 IgG ana,"S,P-Ro52 IgG"
+Immuunmeetoditel uuringud,S-Scl70 IgG ana,"S,P-Scl70 IgG"
+Immuunmeetoditel uuringud,S-Sm IgG ana,"S,P-Sm IgG"
+Immuunmeetoditel uuringud,S-SSA/Ro IgG ana,"S,P-SSA IgG"
+Immuunmeetoditel uuringud,S-SSB/La IgG ana,"S,P-SSB IgG"
+Immuunmeetoditel uuringud,Süsteemsete sidekoehaigustega seotud IgG seerumis,"S,P-ANA IgG"
+Immuunmeetoditel uuringud,TSH / Türeotropiin,"S,P-TSH"
+Immuunmeetoditel uuringud,Tuumavastased antikehad seerumis,"S,P-ANA Ab"
+Immuunmeetoditel uuringud,Ureaplasma urealyticum DNA emakakaelakanalikaapest,XXX-U urealyticum DNA
+Immuunmeetoditel uuringud,Ureaplasma urealyticum DNA ureetrakaapest,XXX-U urealyticum DNA
+Immuunmeetodi uuringud,Kaltsitoniin C,"S,P-CT"
+Immuunmeetodi uuringud,Kaltsitoniin CT,"S,P-CT"
+Immuunmeetodi uuringud,S-ANA Ab,"S,P-ANA Ab"
+Immuunmeetodi uuringud,S-ANA IgG panee,"S,P-ANA IgG panel IIF"
+Immuunmeetodi uuringud,S-ANA IgG paneel,"S,P-ANA IgG panel IIF"
+Kaltsitoniin,Kaltsitoniin,"S,P-CT"
+Kepptuumsed neutrofiilid %,Kepptuumsed neutrofiilid %,B-Kepptuumsed neutrofiilid %
+Kliiniline vereanalüüs,Erütrots. basofiilne sõmerlus,B-Basofiilne sõmerus
+Kliiniline vereanalüüs,Hematokritt,B-Hct
+Kliiniline vereanalüüs,IG - Ebaküpsed granulotsüüdid,B-IG#
+Kliiniline vereanalüüs,IG - Ebaküpsete granulotsüütide arv,B-IG#
+Kliiniline vereanalüüs,IG% - Ebaküpsete granulotsüütide suhtarv,B-IG%
+Kliiniline vereanalüüs,Segmenttuumsed neutrofiilid,B-Segmenttuumsed neutrofiilid %
+"kliiniline vereanalüüs- neutrof 1,68->1,79; biokeemia analüüs-",S-ALAT,"S,P-ALAT"
+"kliiniline vereanalüüs- neutrof 1,68->1,79; biokeemia analüüs-",S-ASAT,"S,P-ASAT"
+"Kliiniline vereanalüüs-normis; immuunmeetoditel uuringud (TSH,FT3, FT4,B10,B12)-normis; biokeemia analüüs:",S-ALAT,"S,P-ALAT"
+"Kliiniline vereanalüüs-normis; immuunmeetoditel uuringud (TSH,FT3, FT4,B10,B12)-normis; biokeemia analüüs:",S-ASAT,"S,P-ASAT"
+Kliiniline vere ja glükohemoglobiini,IG - Ebaküpsed granulotsüüdid,B-IG#
+Kliiniline vere ja glükohemoglobiini analüüs,"B-CBC-5Diff,RET",B-CBC-5Diff-NRBC-Ret
+Kliiniline vere ja glükohemoglobiini analüüs,Erütrots. basofiilne sõmerlus,B-Basofiilne sõmerus
+Kliiniline vere ja glükohemoglobiini analüüs,Erütrotsüütide aglomeratsioon,B-Aglomeratsioon
+Kliiniline vere ja glükohemoglobiini analüüs,Erütrotsüütide fragmentatsioon,B-Fragmentatsioon
+Kliiniline vere ja glükohemoglobiini analüüs,Erütrotsüütide hüpokromaasia,B-Hüpokromaasia
+Kliiniline vere ja glükohemoglobiini analüüs,Erütrotsüütide poikilotsütoos,B-Poikilotsütoos
+Kliiniline vere ja glükohemoglobiini analüüs,Erütrotsüütide polükromaasia,B-Polükromaasia
+Kliiniline vere ja glükohemoglobiini analüüs,ESR Erütrotsüütide settekiirus,B-ESR
+Kliiniline vere ja glükohemoglobiini analüüs,Hemogramm leukogrammita - CBC,B-CBC
+Kliiniline vere ja glükohemoglobiini analüüs,IG - Ebaküpsed granulotsüüdid,B-IG#
+Kliiniline vere ja glükohemoglobiini analüüs,IG - Ebaküpsed granulotsüüdid,B-IG#
+Kliiniline vere ja glükohemoglobiini analüüs,IG - Ebaküpsete granulotsüütide arv,B-IG#
+Kliiniline vere ja glükohemoglobiini analüüs,IG% - Ebaküpsete granulotsüütide suhtarv,B-IG%
+Kliiniline vere ja glükohemoglobiini analüüs,IPF-ebaküpsed trombotsüüdid,B-IPF
+Kliiniline vere ja glükohemoglobiini analüüs,Neutrofiilide toks. granulatsioon,B-Toksogeenne granulatsioon
+Kliiniline vere ja glükohemoglobiini analüüs,NRBC#,B-NRBC#
+Kliiniline vere ja glükohemoglobiini analüüs,RET‰,B-Ret%
+Kliiniline vere ja glükohemoglobiini analüüs,RET-He,B-RetHb
+Kliiniline vere ja glükohemoglobiini analüüs,Retikulotsüüdid,B-Ret#
+Kliiniline vere ja glükohemoglobiini analüüs,Segmenttuumsed neutrofiilid,B-Segmenttuumsed neutrofiilid %
+"Kliiniline vere ja glükohemoglobiini analüüs 13.00 - 9,0; 17.00 - 6,0; 21.00 - 5,5.",IG - Ebaküpsed granulotsüüdid,B-IG#
+Kliiniline vere ja glükohemoglobiini analüüs. Ravi muutusteta. INR-i kontroll tromboosi kab-s,IG - Ebaküpsed granulotsüüdid,B-IG#
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,fP-GlucP /Glükoos paastuplasmas,"fS,fP-Gluc"
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,fP-Lac-Gluc0 Glükoos paastuplasmas enne laktoosilahuse manus,"fS,fP-Gluc 0 min (pre Lactose PO)"
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,fP-Lac-Gluc20 Glükoos plasmas 20 min pärast laktoosilahuse m,"S,P-Gluc 20 min (post 50g Lactose PO)"
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,fP-Lac-Gluc40 Glükoos plasmas 40 min pärast laktoosilahuse m,"S,P-Gluc 40 min (post 50g Lactose PO)"
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,fP-Lac-Gluc60 Glükoos plasmas 60 min pärast laktoosilahuse m,"S,P-Gluc 60 min (post 2g Lactose/1kg BW PO)"
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,fS-Gluc Glükoos seerumis,"S,P-Gluc"
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,P-ALP Aluseline fosfataas,"S,P-ALP"
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,P-Chol Kolesterool,"S,P-Chol"
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,P-CK Kreatiniini kinaas,"S,P-CK"
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,P-CK-MBm Kreatiini kinaasi MB isoensüümi mass,"S,P-CK-MBm"
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,P-cTnT-hs Troponiin T,"S,P-cTnT-hs"
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,P-fT4 Vaba türoksiin plasmas,"S,P-fT4"
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,P-HDL-Chol HDL kolesterool,"S,P-HDL-Chol"
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,P-LDH Laktaadi dehüdrogenaas,"S,P-LDH"
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,P-LDL-Chol LDL kolesterool,"S,P-LDL-Chol"
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,P-NT-proBNP B-tüüpi natriureetiline propeptiidi N-fragment,"S,P-NT-proBNP"
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,P-PCT Prokaltsitoniin,"S,P-PCT"
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,P-TSH Kilpnääret stimuleeriv hormoon plasmas,"S,P-TSH"
+Kl keemia ja immunoloogia automaatliinil teostatud uuring,P-UA Kusihape,"S,P-UA"
+Kolesterool,Kolesterool,"S,P-Chol"
+Kolesterool see,Kolesterool see,"S,P-Chol"
+Kolesterool seerumis,Kolesterool seerumis,"S,P-Chol"
+Kolesterool seerumis/plasmas,Kolesterool seerumis/plasmas,"S,P-Chol"
+Kolesterool (ül,Kolesterool (ül,"S,P-Chol"
+Kolesterool (üld),Kolesterool,"S,P-Chol"
+Kreatiini kinaa,Kreatiini kinaa,"S,P-CK"
+Kreatiini kinaas,Kreatiini kinaas,"S,P-CK"
+Kreatiini kinaas seerumis,Kreatiini kinaas seerumis,"S,P-CK"
+Kreatiniin,Kreatiniin,"S,P-Crea"
+Kreatiniin paas,Kreatiniin paas,"S,P-Crea"
+Kreatiniin paastuseerumis,eGFR HK:0000,eGFR
+Kreatiniin paastuseerumis,Kreatiniin paastuseerumis,"S,P-Crea"
+Kreatiniin seer,Kreatiniin seer,"S,P-Crea"
+Kreatiniin urii,Kreatiniin urii,U-Crea
+Kreatiniin uriinis,Kreatiniin uriinis,U-Crea
+Külv U.urealyticum/parvum. M.hominis,Külv U.urealyticum/parvum. M.h,"XXX-M hominis, U urealyticum culture"
+Külv U.urealyticum/parvum. M.hominis emakakaelakanalikaapest,Külv U.urealyticum/parvum. M.h,"XXX-M hominis, U urealyticum culture"
+Külv U.urealyticum/parvum. M.hominis ureetrakaapest,Külv U.urealyticum/parvum. M.h,"XXX-M hominis, U urealyticum culture"
+LDL,LDL,"S,P-LDL-Chol"
+LDL kolest.,LDL kolest.,"S,P-LDL-Chol"
+LDL- kolesteroo,LDL- kolesteroo,"S,P-LDL-Chol"
+LDL-Kolesterool,LDL-Kolesterool,"S,P-LDL-Chol"
+LDL kolesterool,LDL kolesterool,"S,P-LDL-Chol"
+LDL-kolesterool,LDL-kolesterool,"S,P-LDL-Chol"
+LDL- kolesterool paastuseerumi,LDL- kolesterool paastuseerumi,"S,P-LDL-Chol"
+LDL- kolesterool see,LDL- kolesterool see,"S,P-LDL-Chol"
+LDL- kolesterool seerumis,LDL- kolesterool seerumis,"S,P-LDL-Chol"
+LDL-kolesterool seerumis/plasm,LDL-kolesterool seerumis/plasm,"S,P-LDL-Chol"
+Liikvori analüüs,CSF-baso,CSF-Basofiilid %
+Liikvori analüüs,CSF-Gluc Glükoos liikvoris,CSF-Gluc
+Liikvori analüüs,CSF-Gluc/S-Gluc Glükoosi suhe liikvoris ja seerumis,"CSF-Gluc/S,P-Gluc"
+Liikvori analüüs,CSF-monomakro Monotsüüdid/makrofaagid,CSF-Monotsüüdid/makrofaagid %
+Liikvori analüüs,CSF-WBC,CSF-WBC
+Liikvori analüüs,CSF-WBC Leukotsüüdid,CSF-WBC
+LTKH allhanked,U urealyticum DNA,XXX-U urealyticum DNA
+Lümfotsüütide suhtarv,Lümfotsüütide suhtarv,B-Lymph%
+LYMPH#,LYMPH#,B-Lymph#
+LYMPH%,LYMPH%,B-Lymph%
+Lymph%,Lymph%,B-Lymph%
+LYMPH Lümfotsüütide absoluutar,LYMPH Lümfotsüütide absoluutar,B-Lymph#
+LYMPH% Lümfotsüütide suhtarv,LYMPH% Lümfotsüütide suhtarv,B-Lymph%
+Lymph+monos,Lymph+monos,B-Lymph# + Mono#
+% lymphs+monos,lymphs+monos%,B-Lymph% + Mono%
+"Maksa autoimmuunhaigustega seotud autoantikehade uuring seerumist IF meetodil (ANA, AMA, ASMA,LKMA)",ANA,"S,P-ANA Ab"
+"Maksahaiguste Ab paneel (ANA, AMA, SMA, LKMA)",ANA HEp-2,"S,P-ANA IgG titr Hep2"
+MCH,MCH,B-MCH
+MCHC,MCHC,B-MCHC
+MCHC g/l,MCHC g/l,B-MCHC
+MCHC Keskmine h,MCHC Keskmine h,B-MCHC
+MCHC Keskmine hemogl,MCHC Keskmine hemogl,B-MCHC
+MCHC Keskmine hemoglobiini kon,MCHC Keskmine hemoglobiini kon,B-MCHC
+MCH Keskmine he,MCH Keskmine he,B-MCH
+MCH Keskmine hemoglo,MCH Keskmine hemoglo,B-MCH
+MCH Keskmine hemoglobiin erütr,MCH Keskmine hemoglobiin erütr,B-MCH
+MCH Keskmine hemoglobiini hulk,MCH Keskmine hemoglobiini hulk,B-MCH
+MCH pg,MCH pg,B-MCH
+MCV,MCV,B-MCV
+MCV Er?trots??tide keskmine ru,MCV Er?trots??tide keskmine ru,B-MCV
+MCV Erütrotsüüt,MCV Erütrotsüüt,B-MCV
+MCV Erütrotsüütide k,MCV Erütrotsüütide k,B-MCV
+MCV Erütrotsüütide keskmine ru,MCV Erütrotsüütide keskmine ru,B-MCV
+MCV fl,MCV fl,B-MCV
+M. hominis ja U. urealyticum (sh. U. parvum) külv emakakaelakanalikaapelt,Cx-M hominis U urealyticum,"XXX-M hominis, U urealyticum culture"
+M. hominis ja U. urealyticum (sh. U. parvum) külv emakakaelakanalikaapelt,Cx-M_hominis_U_urealyticum,"XXX-M hominis, U urealyticum culture"
+M. hominis ja U. urealyticum (sh. U. parvum) külv uriinist (esmasjoa),fvU-M hominis U urealyticum,"XXX-M hominis, U urealyticum culture"
+M. hominis ja U. urealyticum (sh. U. parvum) külv uriinist (esmasjoa),fvU-M_hominis_U_urealyticum,"XXX-M hominis, U urealyticum culture"
+Mikrobioloogilised uuringud,Ureaplasma urealyticu,XXX-U urealyticum DNA
+Mikrobioloogilised uuringud,Ureaplasma urealyticum,XXX-U urealyticum DNA
+MONO#,MONO#,B-Mono#
+MONO%,MONO%,B-Mono%
+Mono%,Mono%,B-Mono%
+MONO% Monotsüüt,MONO% Monotsüüt,B-Mono%
+MONO Monotsüütide absoluutarv,MONO Monotsüütide absoluutarv,B-Mono#
+MONO Monotsüütide ar,MONO Monotsüütide ar,B-Mono#
+MONO% Monotsüütide s,MONO% Monotsüütide s,B-Mono%
+MONO% Monotsüütide suhtarv,MONO% Monotsüütide suhtarv,B-Mono%
+% Monotsüüdid,Monotsüüdid%,B-Monotsüüdid %
+MPV,MPV,B-MPV
+MPV fl,MPV fl,B-MPV
+MPV Trombots??tide keskmine ma,MPV Trombots??tide keskmine ma,B-MPV
+MPV Trombotsüüt,MPV Trombotsüüt,B-MPV
+MPV Trombotsüütide k,MPV Trombotsüütide k,B-MPV
+MPV Trombotsüütide keskmine ma,MPV Trombotsüütide keskmine ma,B-MPV
+Mycoplasma hominis ja Ureaplasma urealyticum emakakaelakanalikaapelt,Cx-M hominis U urealyticum,"XXX-M hominis, U urealyticum culture"
+Mycoplasma hominis ja Ureaplasma urealyticum emakakaelakanalikaapelt,Cx-M_hominis_U_urealyticum,"XXX-M hominis, U urealyticum culture"
+Mycoplasma hominis ja Ureaplasma urealyticumi uuring esmasjoa uriinist,fvU-M hominis U urealyticum,"XXX-M hominis, U urealyticum culture"
+Mycoplasma hominis ja Ureaplasma urealyticumi uuring esmasjoa uriinist,fvU-M_hominis_U__urealyticum,"XXX-M hominis, U urealyticum culture"
+Mycoplasma hominis ja Ureaplasma urealyticumi uuring ureetrakaapelt,Um-M hominis U urealyticum,"XXX-M hominis, U urealyticum culture"
+Mycoplasma hominis ja Ureaplasma urealyticumi uuring ureetrakaapelt,Um-M_hominis_U_urealyticum,"XXX-M hominis, U urealyticum culture"
+"Mycoplasma, ureaplasma",Ureaplasma urealyticum,"XXX-M hominis, U urealyticum culture"
+NEUT#,NEUT#,B-Neut#
+NEUT%,NEUT%,B-Neut%
+NEUT Neutrofiilide absoluutarv,NEUT Neutrofiilide absoluutarv,B-Neut#
+NEUT% Neutrofiilide suhtarv,NEUT% Neutrofiilide suhtarv,B-Neut%
+Neutrofiilide a,Neutrofiilide a,B-Neutrofiilid #
+Neutrofiilide arv,Neutrofiilide arv,B-Neutrofiilid #
+Neutrofiilide s,Neutrofiilide s,B-Neutrofiilid %
+Neutrofiilide suhtarv,Neutrofiilide suhtarv,B-Neutrofiilid %
+NRBC#,NRBC#,B-NRBC#
+NRBC%,NRBC%,B-NRBC%
+"Paneel 1, PCR, emakakaelakanalikaapest",U. urealyticum/parvum,XXX-U urealyticum/U parvum DNA
+"Paneel 1, PCR, ureetrast",U. urealyticum,XXX-U urealyticum DNA
+"Paneel 1, PCR, ureetrast",U. urealyticum/parvum,XXX-U urealyticum/U parvum DNA
+PCR: Muu materjal,Ureaplasma urealyticum DN,XXX-U urealyticum DNA
+PCR: Sperma,Ureaplasma urealyticum DN,XXX-U urealyticum DNA
+PCR: Uriin (esmasjoa),Ureaplasma urealyticum DN,XXX-U urealyticum DNA
+PCT,PCT,B-Pct
+Pct,Pct,B-Pct
+PDW,PDW,B-PDW
+PDW %,PDW %,B-PDW-CV
+PLT,PLT,B-Plt
+Plt,Plt,B-Plt
+PLT Trombots??did,PLT Trombots??did,B-Plt
+PLT Trombotsüüd,PLT Trombotsüüd,B-Plt
+PLT Trombotsüüdid,PLT Trombotsüüdid,B-Plt
+P-PT,P-PT,P-PT
+P-PT/INR,P-PT/INR,P-PT-INR
+Prokaltsitoniin,Prokaltsitoniin,"S,P-PCT"
+Prokaltsitoniin,S- PCT,"S,P-PCT"
+Prokaltsitoniin,S-_PCT,"S,P-PCT"
+prokaltsitoniin,prokaltsitoniin,"S,P-PCT"
+Prokaltsitoniin seerumis,Prokaltsitoniin seerumis,"S,P-PCT"
+prokaltsitoniin seerumis,S-prokaltsit.,"S,P-PCT"
+Punktaadi analüüs,PlrF-Chol pleuravedelikus,PlrF-Chol
+Punktaadi analüüs,PlrF-Chol/S-Chol suhe pleuravedelikus/seerumis,"PrcF-Chol/S,P-Chol"
+Punktaadi analüüs,PlrF-WBC,PlrF-WBC
+Punktaadi analüüs,PrcF-Chol perikardivedelikus,PrcF-Chol
+Punktaadi analüüs,PrcF-Chol/S-Chol suhe perikardivedelikus/seerumis,"PrcF-Chol/S,P-Chol"
+Punktaadi analüüs,PrtF-Crea/P-Crea Kreatiniini suhe kõhuõõnevedelikus ja plas,"PrtF-Crea/S,P-Crea"
+Punktaadi analüüs,SynF-WBC,SynF-WBC
+RBC,RBC,B-RBC
+RBC Erütrotsüüd,RBC Erütrotsüüd,B-RBC
+RDW,RDW,B-RDW-CV
+RDW %,RDW %,B-RDW-CV
+RDW%,RDW%,B-RDW-CV
+RDW-CV,RDW-CV,B-RDW-CV
+RDW- CV,RDW- CV,B-RDW-CV
+RDW-CW,RDW-CW,B-RDW-CV
+RDW-CV Er?trots??tide anisots?,RDW-CV Er?trots??tide anisots?,B-RDW-CV
+RDW-CV Erütrots,RDW-CV Erütrots,B-RDW-CV
+RDW-CV Erütrotsüütid,RDW-CV Erütrotsüütid,B-RDW-CV
+RDW-CV Erütrotsüütide anisotsü,RDW-CV Erütrotsüütide anisotsü,B-RDW-CV
+RDW-CV Erütrotsüütide suurusja,RDW-CV Erütrotsüütide suurusja,B-RDW-CV
+RDW-SD,RDW-SD,B-RDW-SD
+S-ALAT,S-ALAT,"S,P-ALAT"
+S-ANA IgG,S-ANA IgG,"S,P-ANA IgG"
+S-ANA (Q),S-ANA,"S,P-ANA Ab"
+S-ASAT,S-ASAT,"S,P-ASAT"
+S-Chol,S-Chol,"S,P-Chol"
+S-Crea (eGFR),S-Crea:,"S,P-Crea"
+S-Creat,S-Creat,"S,P-Crea"
+Segmenttuumsed,Segmenttuumsed,B-Segmenttuumsed neutrofiilid %
+segmenttuumsed,segmenttuumsed,B-Segmenttuumsed neutrofiilid %
+Segmenttuumsed neutr,Segmenttuumsed neutr,B-Segmenttuumsed neutrofiilid %
+Segmenttuumsed neutrofiilid,Segmenttuumsed neutrofiilid,B-Segmenttuumsed neutrofiilid %
+Segmenttuumsed neutrofiilid %,Segmenttuumsed neutrofiilid %,B-Segmenttuumsed neutrofiilid %
+Segmenttuumsed neutrofiilid ve,Segmenttuumsed neutrofiilid ve,B-Segmenttuumsed neutrofiilid %
+Segmentuumseid,Segmentuumseid,B-Segmenttuumsed neutrofiilid %
+S-FT4,S-FT4,"S,P-fT4"
+S-fT4,S-fT4,"S,P-fT4"
+S-FT4 vaba türo,S-FT4 vaba türo,"S,P-fT4"
+S-Gluc,S-Gluc,"S,P-Gluc"
+S-HDL,S-HDL,"S,P-HDL-Chol"
+S-LDL,S-LDL,"S,P-LDL-Chol"
+S-Liver Ab panel,ANA HEp-2,"S,P-ANA IgG titr Hep2"
+"S,P-ALAT","S,P-ALAT","S,P-ALAT"
+"S,P-ASAT","S,P-ASAT","S,P-ASAT"
+"S,P-Chol","S,P-Chol","S,P-Chol"
+"S,P-Crea","S,P-Crea","S,P-Crea"
+S- PCT,S- PCT,"S,P-PCT"
+Spetsiifiliste antikehade kompleksne samastamine,S-ANA IgG panel,"S,P-ANA IgG panel IIF"
+"S,P-fT4","S,P-fT4","S,P-fT4"
+"S,P-Glükoos","S,P-Glükoos","S,P-Gluc"
+"S,P-HDL-Chol","S,P-HDL-Chol","S,P-HDL-Chol"
+"S,P-Kaltsitoniin","S,P-Kaltsitoniin","S,P-CT"
+"S,P-Kolesterool","S,P-Kolesterool","S,P-Chol"
+"S,P-Kreatiniin","S,P-Kreatiniin","S,P-Crea"
+"S,P-LDL-Chol","S,P-LDL-Chol","S,P-LDL-Chol"
+"S,P-TSH","S,P-TSH","S,P-TSH"
+"S,P-Uurea","S,P-Uurea","S,P-Urea"
+STLI laiendatud paneel: emakakaelakanali,Ureaplasma urealyticum DNA:,XXX-U urealyticum DNA
+STLI laiendatud paneel: emakakaelakanali kaabe,U urealyticum DNA,XXX-U urealyticum DNA
+STLI paneel 1 DNA ureetrast,U urealyticum/parvum,XXX-U urealyticum/U parvum DNA
+S-TSH,S-TSH,"S,P-TSH"
+Suguhaiguste laiendatud paneel ( DNA),U.urealyticum DNA,XXX-U urealyticum DNA
+S-Urea,S-Urea,"S,P-Urea"
+Triglütseriidid,Triglütseriidid,"fS,fP-Trigl"
+triglütseriidid,triglütseriidid,"fS,fP-Trigl"
+Triglütseriidid paastuseerumis,Triglütseriidid paastuseerumis,"fS,fP-Trigl"
+Triglütseriidid seer,Triglütseriidid seer,"fS,fP-Trigl"
+Triglütseriidid seerumis,Triglütseriidid seerumis,"fS,fP-Trigl"
+Trombokrit,Trombokrit,B-Pct
+Trombotsüüdid,Trombotsüüdid,B-Plt
+trombotsüüdid,trombotsüüdid,B-Plt
+trombotsüüdid 1,trombotsüüdid 1,B-Plt
+Trombotsüüdid 10E9,Trombotsüüdid 10E9,B-Plt
+Trombotsüüdid 10E9/l,Trombotsüüdid 10E9/l,B-Plt
+TSH,TSH,"S,P-TSH"
+TSH Kilpn??ret,TSH Kilpn??ret,"S,P-TSH"
+TSH Kilpn??ret stimuleeriv hor,TSH Kilpn??ret stimuleeriv hor,"S,P-TSH"
+TSH Kilpnääret,TSH Kilpnääret,"S,P-TSH"
+TSH Kilpnääret stimuleeriv hor,TSH Kilpnääret stimuleeriv hor,"S,P-TSH"
+TSH retseptorite vastased ak,TSH retseptorite vastased ak,"S,P-TSH"
+Tuumaantikehade tüpiseerimine (HEp-2),S-ANA-HEp-,"S,P-ANA IgG titr Hep2"
+Tuumavastane Ig,Tuumavastane Ig,"S,P-ANA IgG"
+Tuumavastane IgG,Tuumavastane IgG,"S,P-ANA IgG"
+Tuumavastane Ig G,S-ANA_Ig_G,"S,P-ANA IgG"
+Tuumavastane Ig G,Tuumavastane Ig G seerumis,"S,P-ANA IgG"
+Tuumavastane IgG (paneel),S-ANA_IgG_panel,"S,P-ANA IgG panel IIF"
+Tuumavastane IgG seerumis,S-ANA IgG,"S,P-ANA IgG"
+Tuumavastane IgG seerumis,S-ANA_IgG,"S,P-ANA IgG"
+tuumavastane IgG seerumis,S-ANA IgG,"S,P-ANA IgG"
+tuumavastane IgG seerumis,S-ANA_IgG,"S,P-ANA IgG"
+Tuumavastased a,Tuumavastased a,"S,P-ANA Ab"
+Tuumavastased Ak-d (ANA),S-ANA-Hep-2,"S,P-ANA IgG titr Hep2"
+Tuumavastased Ak-d (ANA),S-ANA-Hep-2,"S,P-ANA IgG titr Hep2"
+Tuumavastased Ak-d (ANA),S-ANA-IgG,"S,P-ANA IgG"
+Tuumavastased antikehad,ANA (antinukleaarsed Ak-d),"S,P-ANA Ab"
+Tuumavastased antikehad,S1-ANA,"S,P-ANA Ab"
+Tuumavastased antikehad,S1-ANA,"S,P-ANA Ab"
+Tuumavastased antikehad,S-aANA,"S,P-ANA Ab"
+Tuumavastased antikehad,S-aANA,"S,P-ANA Ab"
+Tuumavastased antikehad,S-ANA,"S,P-ANA Ab"
+Tuumavastased antikehad,S-ANA,"S,P-ANA Ab"
+Tuumavastased antikehad,S-aNA,"S,P-ANA Ab"
+Tuumavastased antikehad,S-aNA,"S,P-ANA Ab"
+Tuumavastased antikehad,S-ANA-IB/ANA IgG paneel,"S,P-ANA IgG panel IIF"
+Tuumavastased antikehad,S-ANA IgG tiiter,"S,P-ANA IgG titr"
+Tuumavastased antikehad,S-ANA_IgG_tiiter,"S,P-ANA IgG titr"
+Tuumavastased antikehad,Tuumavastane IgG seerumis,"S,P-ANA IgG"
+Tuumavastased antikehad,Tuumavastane IgG seerumis,"S,P-ANA IgG"
+Tuumavastased antikehad,Tuumavastased antikehad,"S,P-ANA Ab"
+Tuumavastased antikehad,Tuumavastased antikehad,"S,P-ANA Ab"
+"Tuumavastased antikehad, IgG tiiter",ANA IgG lõpptiiter,"S,P-ANA IgG titr"
+"Tuumavastased antikehad, IgG tiiter",S-aANA,"S,P-ANA Ab"
+"Tuumavastased antikehad, IgG tiiter",Tuumavastased antikehad,"S,P-ANA Ab"
+"Tuumavastased antikehad, IgG tiiter",Tuumavastased antikehad IgG tiiter,"S,P-ANA IgG titr"
+Tuumavastased IgG antikehad,S-ANA IgG,"S,P-ANA IgG"
+"Tuumavastased IgG antikehad, tiiter",ANA HEp-2,"S,P-ANA IgG titr Hep2"
+"Tuumavastased IgG antikehad, tiiter",ANA IgG lõpptiiter,"S,P-ANA IgG titr"
+"Tuumavastased IgG antikehad, tiiter",S-ANA,"S,P-ANA Ab"
+"Tuumavastased IgG antikehad, tiiter",Tuumavastased antikehad IgG tiiter,"S,P-ANA IgG titr"
+Tuumavastase Ig,Tuumavastase Ig,"S,P-ANA IgG"
+Tuumavastase IgG tiiter,S-ANA IgG titr,"S,P-ANA IgG titr"
+Tuumavastase IgG tiiter,S-ANA_IgG_titr,"S,P-ANA IgG titr"
+Tuumavastase IgG tiiter seerumis,S-ANA IgG titr,"S,P-ANA IgG titr"
+Tuumavastase IgG tiiter seerumis,S-ANA_IgG_titr,"S,P-ANA IgG titr"
+Tuumavastase IgG tiiter seerumis,Tuumavastased antikehad,"S,P-ANA Ab"
+Tuumavastase IgG tüpiseerimine,S-ANA IgG panel,"S,P-ANA IgG panel IIF"
+Tuumavastase IgG tüpiseerimine,Tuumavastase IgG tüpiseerimine,"S,P-ANA IgG titr Hep2"
+Tuumavastase IgG tüpiseerimine HEp-2 rakuliiniga,S-ANA HEp-2,"S,P-ANA IgG titr Hep2"
+Tuumavastaste antikehade tüpiseerimine HEp-2 rakuliiniga,S-ANA HEp-2,"S,P-ANA IgG titr Hep2"
+Tuumavastaste antikehade tüpiseerimine HEp-2 rakuliinil,S-ANA-HEp-2,"S,P-ANA IgG titr Hep2"
+Tuumavastaste antikehade tüpiseerimine HEp-2 rakuliinil,S-aNA-HEp-2,"S,P-ANA IgG titr Hep2"
+Tuumavastaste antikehade tüpiseerimine HEp-2 rakuliinil,S-aNA-HEp-2,"S,P-ANA IgG titr Hep2"
+U-Alb/U-Crea,Albumiini ja kreatiniini suhe:,U-Alb/U-Crea
+U-Alb/U-Crea,U-Alb/U-Crea,U-Alb/U-Crea
+U-Kreatiniin,U-Kreatiniin,U-Crea
+Ureaplasma DNA paneel emakakaelakanalikaapes,Ureaplasma urealyticum DNA emakakaelakanalikaapes,XXX-U urealyticum DNA
+Ureaplasma DNA uriinis,U urealyticum DNA uriinis,XXX-U urealyticum DNA
+Ureaplasma parvum/urealyticum DNA emakakaelakanalikaapes (paneel),Ureaplasma urealyticum,XXX-U urealyticum/U parvum DNA
+Ureaplasma parvum/urealyticum DNA emakakaelakanalikaapes (paneel),U urealyticum DNA,XXX-U urealyticum/U parvum DNA
+Ureaplasma parvum/urealyticum DNA tupekaapes (paneel),Ureaplasma urealyticum,XXX-U urealyticum/U parvum DNA
+Ureaplasma parvum/urealyticum DNA tupekaapes (paneel),U urealyticum DNA,XXX-U urealyticum/U parvum DNA
+Ureaplasma parvum/urealyticum DNA ureetrakaapes (paneel),Ureaplasma urealyticum,XXX-U urealyticum/U parvum DNA
+Ureaplasma parvum/urealyticum DNA ureetrakaapes (paneel),U urealyticum DNA,XXX-U urealyticum/U parvum DNA
+Ureaplasma parvum/urealyticum DNA uriinis (paneel),Ureaplasma urealyticum,XXX-U urealyticum/U parvum DNA
+Ureaplasma parvum/urealyticum DNA uriinis (paneel),U urealyticum DNA,XXX-U urealyticum/U parvum DNA
+Ureaplasma urealyticum,Ureaplasma urealyticum,XXX-U urealyticum DNA
+Ureaplasma urealyticum DNA,Ureaplasma urealyticum,XXX-U urealyticum DNA
+Ureaplasma urealyticum DNA,Ureaplasma_urealyticum,XXX-U urealyticum DNA
+Ureaplasma urealyticum DNA emakakanalikaapes,Cx-U_urealyticum_DNA,XXX-U urealyticum DNA
+Ureaplasma urealyticum DNA tupekaapes,Vag-U_urealyticum_DNA,XXX-U urealyticum DNA
+Ureaplasma urealyticum DNA ureetrakaapes,Um-U_urealyticum_DNA,XXX-U urealyticum DNA
+Ureaplasma urealyticum DNA uriinis (esmasjoa),fvU-U_urealyticum_DNA,XXX-U urealyticum DNA
+"Ureaplasma urealyticum ja parvum, PCR, ureetramaterjalist","Ureaplasma urealyticum,",XXX-U urealyticum/U parvum DNA
+"Ureaplasma urealyticum ja Ureplasma parvum, PCR, uriinist","Ureaplasma urealyticum, PCR, uriinist",XXX-U urealyticum/U parvum DNA
+Ureaplasma urealyticum/parvum DNA tupekaapes,Ureaplasma urealyticum/parvum DNA,XXX-U urealyticum/U parvum DNA
+"Ureaplasma urealyticum, PCR (emakakaelakanalikaapelt)",Cx-U urealyticum-PCR,XXX-U urealyticum DNA
+"Ureaplasma urealyticum, PCR (emakakaelakanalikaapelt)",Cx-U_urealyticum-PCR,XXX-U urealyticum DNA
+"Ureaplasma urealyticum, PCR, ureetrast","Ureplasma urealyticum, PCR, ureetrast",XXX-U urealyticum DNA
+Ureaplasma urealyticum/Ureaplasma parvum DNA emakakaelakanalikaapes,Ureaplasma urealyticum/Ureaplasma parvum PCR meetodil,XXX-U urealyticum/U parvum DNA
+"Ureaplasma urealyticum, Ureaplasma parvum, PCR, emakakaelakanalikaapest","Ureaplasma urealyticum,PCR",XXX-U urealyticum/U parvum DNA
+"Ureaplasma urealyticum, Ureaplasma parvum PCR, emakakaelakanali materjalis",Ureaplasma urealyticum,XXX-U urealyticum/U parvum DNA
+"Ureaplasma urealyticum, Ureaplasma parvum, PCR, emakakaelast","Ureaplasma urealyticum,PCR",XXX-U urealyticum/U parvum DNA
+Uriin,NIT,U-Nit strip
+Uriin,NIT HK:0000,U-Nit strip
+Uriin,pH HK:0000,U-pH strip
+Uriin,SG,U-SG strip
+Uriin,SG HK:0000,U-SG strip
+Uriini analüüs 10 parameetrilise testribaga,BIL,U-Bil strip
+Uriini analüüs 10 parameetrilise testribaga,BIL,U-Bil strip
+Uriini analüüs 10 parameetrilise testribaga,GLU,U-Gluc strip
+Uriini analüüs 10 parameetrilise testribaga,KET,U-Ket strip
+Uriini analüüs 10 parameetrilise testribaga,LEU,U-WBC strip
+Uriini analüüs 10 parameetrilise testribaga,NIT,U-Nit strip
+Uriini analüüs 10 parameetrilise testribaga,NIT,U-Nit strip
+Uriini analüüs 10 parameetrilise testribaga,PRO,U-Prot strip
+Uriini analüüs 10 parameetrilise testribaga,SG,U-SG strip
+Uriini analüüs 10 parameetrilise testribaga,UBG,U-Ubg strip
+Uriini analüüs 10-parameetrilise testribaga,Bilirubiin,U-Bil strip
+Uriini analüüs 10-parameetrilise testribaga,Erütrotsüüdid,U-RBC strip
+Uriini analüüs 10-parameetrilise testribaga,Erütrotsüüdid,U-RBC strip
+Uriini analüüs 10-parameetrilise testribaga,Glükoos,U-Gluc strip
+Uriini analüüs 10-parameetrilise testribaga,Ketoonid,U-Nit strip
+Uriini analüüs 10-parameetrilise testribaga,Ketoonid,U-Nit strip
+Uriini analüüs 10-parameetrilise testribaga,Leukotsüüdid,U-WBC strip
+Uriini analüüs 10-parameetrilise testribaga,Nitritid,U-Nit strip
+Uriini analüüs 10-parameetrilise testribaga,Nitritid,U-Nit strip
+Uriini analüüs 10-parameetrilise testribaga,Uriini erikaal,U-SG strip
+Uriini analüüs 10-parameetrilise testribaga,Uriini nitritid,U-Nit strip
+Uriini analüüs 10-parameetrilise testribaga,Uriini pH,U-pH strip
+Uriini analüüs 10-parameetrilise testribaga,Urobilinogeen,U-Ubg strip
+Uriini analüüs 10-parameetrilise testribaga,Valk,U-Prot strip
+Uriini analüüs 10-parameetrilise testribaga (uus),Nitritid,U-Nit strip
+Uriini analüüs 10-param. testribaga,Atsetoon KET,U-Nit strip
+Uriini analüüs 10-param. testribaga,Bilirubiin BIL,U-Bil strip
+Uriini analüüs 10-param. testribaga,Erikaal SG,U-SG strip
+Uriini analüüs 10-param. testribaga,Erütrotsüüdid ERY,U-RBC strip
+Uriini analüüs 10-param. testribaga,Glükoos GLU,U-Gluc strip
+Uriini analüüs 10-param. testribaga,Ketokehad KET,U-Ket strip
+Uriini analüüs 10-param. testribaga,Leukotsüüdid LEU,U-WBC strip
+Uriini analüüs 10-param. testribaga,Mikroobid NIT,U-Nit strip
+Uriini analüüs 10-param. testribaga,Nitrit NIT,U-Nit strip
+Uriini analüüs 10-param. testribaga,Nitrit NIT,U-Nit strip
+Uriini analüüs 10-param. testribaga,Reaktsioon PH,U-pH strip
+Uriini analüüs 10-param. testribaga,Suhkur GLU,U-Gluc strip
+Uriini analüüs 10-param. testribaga,Urobilinogeen UBG,U-Ubg strip
+Uriini analüüs 10-param. testribaga,Valk PRO,U-Prot strip
+Uriini ribaanalüüs*,-1 S-ANA IgG mustrid,"S,P-ANA IgG pattern"
+Uriini ribaanalüüs*,"-1 S,P-ANA IgG mustrid","S,P-ANA IgG pattern"
+Uriini ribaanalüüs*,-2 S-ANA IgG tiiter,"S,P-ANA IgG titr"
+Uriini ribaanalüüs*,"-2 S,P-ANA IgG tiiter","S,P-ANA IgG titr"
+Uriini ribaanalüüs*,5 S-ANA Ab,"S,P-ANA Ab"
+Uriini ribaanalüüs*,"5 S,P-ANA Ab","S,P-ANA Ab"
+Uriini ribaanalüüs*,Bilirubiin,U-Bil strip
+Uriini ribaanalüüs*,Erütrotsüüdid,U-RBC strip
+Uriini ribaanalüüs*,Glükoos,U-Gluc strip
+Uriini ribaanalüüs*,Ketokehad,U-Ket strip
+Uriini ribaanalüüs*,Leukotsüüdid,U-WBC strip
+Uriini ribaanalüüs*,pH uriinis,U-pH strip
+Uriini ribaanalüüs*,Urobilinogeen,U-Ubg strip
+Uriini ribaanalüüs*,U. urealyticum,XXX-U urealyticum DNA
+Uriini ribaanalüüs*,Valk,U-Prot strip
+Uriini ribaanalüüs 1,U urealyticum DNA,XXX-U urealyticum DNA
+Uriini sademe mikroskoopia*,-1 S-ANA IgG mustrid,"S,P-ANA IgG pattern"
+Uriini sademe mikroskoopia*,"-1 S,P-ANA IgG mustrid","S,P-ANA IgG pattern"
+Uriini sademe mikroskoopia*,-2 S-ANA IgG tiiter,"S,P-ANA IgG titr"
+Uriini sademe mikroskoopia*,"-2 S,P-ANA IgG tiiter","S,P-ANA IgG titr"
+Uriini sademe mikroskoopia*,5 S-ANA Ab,"S,P-ANA Ab"
+Uriini sademe mikroskoopia*,"5 S,P-ANA Ab","S,P-ANA Ab"
+Uriini sademe mikroskoopia*,U. urealyticum,XXX-U urealyticum DNA
+Uriini uuring 10-parameetrilise testribaga,KET,U-Ket strip
+Uriini uuring 10-parameetrilise testribaga,NIT,U-Nit strip
+Uriini uuringud,albumiin/kreatinii,U-Alb/U-Crea
+Uriini uuringud,albumiin/kreatiniin,U-Alb/U-Crea
+Uriini uuringud,Erütrotsüüdid,U-RBC strip
+Uriini uuringud,Leukotsüüdid,U-WBC strip
+Uurea,Uurea,"S,P-Urea"
+"U. urealyticum, U.parvum DNA emakakaelak",Ureaplasma urealyticum DNA:,XXX-U urealyticum/U parvum DNA
+"U. urealyticum, U.parvum DNA emakakaelakanalikaapes","Cx-U_urealyticum,_U_parvu",XXX-U urealyticum/U parvum DNA
+"U. urealyticum, U.parvum DNA emakakaelakanalikaapes","U._urealyticum,_U.parvum_DNA_em",XXX-U urealyticum/U parvum DNA
+"U. urealyticum, U.parvum DNA ureetrakaapes","Um-U_urealyticum,_U_parvu",XXX-U urealyticum/U parvum DNA
+"U. urealyticum, U.parvum DNA ureetrakaapes","U._urealyticum,_U.parvum_DNA_ur",XXX-U urealyticum/U parvum DNA
+Uurea paastusee,Uurea paastusee,"S,P-Urea"
+Uurea paastuseerumis,Uurea paastuseerumis,"S,P-Urea"
+Uurea seerumis,Uurea seerumis,"S,P-Urea"
+Vaba Türoksiin,66706 S-fT4,"S,P-fT4"
+Vaba Türoksiin,S-_fT4,"S,P-fT4"
+Vaba türoksiin,Vaba türoksiin,"S,P-fT4"
+Vaba türoksiin seeru,Vaba türoksiin seeru,"S,P-fT4"
+Vaba türoksiin seerumis,Vaba türoksiin seerumis,"S,P-fT4"
+Vaba türoksiin seerumis/plasma,Vaba türoksiin seerumis/plasma,"S,P-fT4"
+Valem,Segmenttuumsed neutrofiilid:,B-Segmenttuumsed neutrofiilid %
+Valem,Segmentuumseid,B-Segmenttuumsed neutrofiilid %
+WBC,WBC,B-WBC
+WBC Leukotsüüdi,WBC Leukotsüüdi,B-WBC
+WBC Leukotsüüdid,WBC Leukotsüüdid,B-WBC
+Vere automaatuuring,B-Hct:,B-Hct
+Vere automaatuuring,B-PLT:,B-Plt
+Vere automaatuuring,E-MCH,B-MCH
+Vere automaatuuring,E-MCH:,B-MCH
+Vere automaatuuring,E-MCHC,B-MCHC
+Vere automaatuuring,E-MCHC:,B-MCHC
+Vere automaatuuring,E-MCV,B-MCV
+Vere automaatuuring,E-MCV:,B-MCV
+Vere automaatuuring,MPV:,B-MPV
+Vere automaatuuring,PCT:,B-Pct
+Vere automaatuuring leukogrammita,"MCV, fL",B-MCV
+Vere automaatuuring leukogrammita,"PLT, 10^3/mL",B-Plt
+Vere automaatuuring leukogrammita,"PLT, 10^9/mL",B-Plt
+Vere automaatuuring leukogrammita,"RDW, %CV",B-RDW-CV
+Vereäige mikroskoopia kapillaarvereset,B-Basofüülid %,B-Basofiilid %
+Vereäige mikroskoopia täisverest,B-Basofüülid %,B-Basofiilid %
+VÄL,Tuumavastased antikeha,"S,P-ANA Ab"
+VÄL,Tuumavastased antikehad,"S,P-ANA Ab"
+VÄL,Ureaplasma urealyticum DN,XXX-U urealyticum DNA
+Välisanalüüsid,24 S- ANA IgG panee,"S,P-ANA IgG panel IIF"
+Välisanalüüsid,24 S- ANA IgG paneel,"S,P-ANA IgG panel IIF"
+Välisanalüüsid,S-ANA Ig,"S,P-ANA IgG"
+Välisanalüüsid,S-ANA Ig G,"S,P-ANA IgG"
+Väljast tellitud analüüsid,Ureaplasma urealyticum,XXX-U urealyticum DNA
+Inimese Papilloomiviirus Pcr Emakakaelakanalikaapest,HPV,XXX-HPV high risk DNA
+Inimese Papilloomiviiruse Dna Emakakaelakanalikaapes (Paneel),HPV DNA,XXX-HPV high risk DNA
+Inimese Papilloomiviirus Pcr Emakakaelakanalikaapes,HPV DNA,XXX-HPV high risk DNA
+Hpv Dna Emakakaelakanalikaapes,HPV DNA,XXX-HPV high risk DNA
+Hpv Dna Emakakaelakanalikaapes,HPV DNA emakakaelakanalikaapes,XXX-HPV high risk DNA
+Inimese Papilloomiviiruse Dna Emakakaelakanalikaapes (Paneel),"HPV DNA, tüüp",XXX-HPV high risk DNA
+Inimese Papilloomiviirus Pcr Emakakaelakanalikaapes,HPV genotüüp,XXX-HPV high risk DNA
+Inimese Papilloomiviirus Pcr Emakakaelakanalikaapest,HPV genotüüp,XXX-HPV high risk DNA
+Molekulaardiagnostika Uuringud,HPV genotüüp emakakaelakanalikaapes,XXX-HPV high risk DNA
+"Hpv Muud Genotüübid (31,33,35,39,45,51,52,56,58,59,66,68)",HPV muud genotüübid,XXX-HPV high risk DNA II
+50556-0 Uriini Ribaanalüüs,24518-3 Kaltsium/kreatiniin uriinis,U-Ca/U-Crea
+50556-0 Uriini Ribaanalüüs,34354-1 Fosfaat/kreatiniin uriinis,U-P/U-Creat
+50556-0 Uriini Ribaanalüüs,34366-5 Valk/kreatiniin uriinis,U-Prot/U-Crea
+57021-8 Hemogramm 5-Osalise Leukogrammiga,62238-1 eGFR,eGFR (CKD-EPI)
+Biokeemia Labor,S-eGFR,eGFR (CKD-EPI)
+"Egfr (Crea, Ckd-Epi)",62238-1 eGFR,eGFR (CKD-EPI)
+Hinnanguline Glomerulaarfiltratsiooni Kiirus,"S,P-eGFR",eGFR (CKD-EPI)
+Kreatiniini Kinaasi Mb Isoensüümi Mass Plasmas,P4-CK-MBm,"S,P-CK-MBm"
+Kreatiniini Kinaasi Mb Isoensüümi Mass Plasmas,P4-CK-MBm,"S,P-CK-MBm"
+Kreatiniin Ja Egfr Seerumis,Hinnanguline glomerulaafiltratsiooni kiirus,eGFR
+Kreatiniin Kinaasi Mb Isoensüümi Mass,CK-MBm STAT,"S,P-CK-MBm"
+Last_Sooviva_N-Pakett,S-CREA-BK,"S,P-Crea"
+Last_Sooviva_N-Pakett,S-EGFR-EPI-BK,eGFR (CKD-EPI)
+S-Crea-Bk,S-CREA-BK,"S,P-Crea"
+S-Crea (Egfr),eGFR :,eGFR
+S-Egfr-Bk,S-EGFR-BK,eGFR (CKD-EPI)
+S-Egfr-Epi-Bk,S-EGFR-EPI-BK,eGFR (CKD-EPI)
+Taimetoitl-Pakett,S-CREA-BK,"S,P-Crea"
+Taimetoitl-Pakett,S-EGFR-EPI-BK,eGFR (CKD-EPI)
+Terviseriski_Pakett,S-CREA-BK,"S,P-Crea"
+Terviseriski_Pakett,S-EGFR-BK,eGFR (CKD-EPI)
+Terviseriski_Pakett,S-EGFR-EPI-BK,eGFR (CKD-EPI)
+Terviseriski_Pakett-Kampaania,S-CREA-BK,"S,P-Crea"
+Terviseriski_Pakett-Kampaania,S-EGFR-EPI-BK,eGFR (CKD-EPI)
+Tervsportlase-Pakett,S-CREA-BK,"S,P-Crea"
+Tervsportlase-Pakett,S-EGFR-BK,eGFR (CKD-EPI)
+Tervsportlase-Pakett,S-EGFR-EPI-BK,eGFR (CKD-EPI)
+24356-8 Uriini Sademe Mikroskoopia,1756-6 Liikvori- ja seerumialbumiini suhe,CSF-Alb/S-Alb
+50556-0 Uriini Ribaanalüüs,1756-6 Liikvori- ja seerumialbumiini suhe,CSF-Alb/S-Alb
+57021-8 Hemogramm 5-Osalise Leukogrammiga,1756-6 Liikvori- ja seerumialbumiini suhe,CSF-Alb/S-Alb
+Alb / Kreat Suhe Uriinis,Albumiini / kreat suhe,U-Alb/U-Crea
+Albumiin, Pleuravedelikust,PlrF-Alb
+Albumiin Seerumis/Plasmas,61151-7,"S,P-Alb"
+Biokeemia Analüüs,S-Alb-el Albumiinid,"S,P-Alb"
+Biokeemia Analüüs,S-Alb-t Albumiin,"S,P-Alb-hs"
+Kl Keemia Ja Immunoloogia Automaatliinil Teostatud Uuring,S-Alb-hs Albumiin seerumis,"S,P-Alb-hs"
+Kl Keemia Ja Immunoloogia Automaatliinil Teostatud Uuring,S-PreAlb Prealbumiin seerumis,"S,P-PreAlb"
+Liikvori Analüüs,CSF-Alb/S-Alb Albumiini suhe liikvoris ja seerumis,CSF-Alb/S-Alb
+Liikvori- Ja Seerumialbumiini Suhe,1756-6,CSF-Alb/S-Alb
+Liikvori- Ja Seerumialbumiini Suhe,CSF-Alb/S2-Alb,CSF-Alb/S-Alb
+Prealbumiin Seerumis,S-PreAlb,"S,P-PreAlb"
+U-Alb/U- Crea,Albumiini ja kreatiniini suhe,U-Alb/U-Crea
+Uriini Ribaanalüüs (Ph),Liikvori- ja seerumialbumiini suhe,CSF-Alb/S-Alb
+Uriini Uuringud,Albumiini/kreatiniini suhe,U-Alb/U-Crea
+Uriini Uuringud,Albumiini / kreat suhe,U-Alb/U-Crea

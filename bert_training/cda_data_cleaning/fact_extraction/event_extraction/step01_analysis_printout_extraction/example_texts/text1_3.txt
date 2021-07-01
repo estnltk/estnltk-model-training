@@ -1,0 +1,61 @@
+
+________Kuupäev HK Hinnakirja kood
+01.02.2016 66202 Kliiniline veri
+RBC 0.00    ; HCT 0.00    ; MCV 0.00    ; HGB 0.00    ; MCH  0.00    ; MCHC 0.00    ; PLT  0.00    ; MPV  0.00    ; WBC 0.00    ; SR   0; Gly 0.00    ; CRV 4.10    ; Valem:; keppt.  0; segmt.  0; eos.    0; basof.  0; lümf.   0; monot.  0
+
+11.02.2016 66202 Kliiniline veri
+RBC 0.00    ; HCT 0.00    ; MCV 0.00    ; HGB 0.00    ; MCH  0.00    ; MCHC 0.00    ; PLT  0.00    ; MPV  0.00    ; WBC 0.00    ; SR   0; Gly 0.00    ; CRV 2.00    ; Valem:; keppt.  0; segmt.  0; eos.    0; basof.  0; lümf.   0; monot.  0
+
+25.02.2016 uriinik_lv uriinikülv
+uriinikülv
+
+
+VASTUS:  
+XXX-Aerobic culture Uriini
+st (keskjoa) külv aeroobsele mikrofloorale 
+Mikro
+obid  
+      Klebsiella pneumoniae ss. pneumoniae
+>10\5 PMÜ/ml 
+ 
+Antibiogramm:  
+Antibiootikum
+Klebsiella pneumoniae ss. pneumoniae         
+Am
+oxicillin/Clavulanic acid T         
+Ampicillin/S
+ulbactam T         
+Cefuroxime sodium T **
+
+Ciprofloxacin T         
+Gentamicin T *
+
+Trimethoprim/Sulfamethoxazole T         
+ 
+
+*Aminoglükosiidide (kui tüvi on nende suhtes tundl
+ik) kasutamine on lubatud ainult üks kord ööpäevas
+kõrges annuses 
+**Tsefuroksiimi (kui tüvi on sel
+le suhtes tundlik) kasutamine on täiskasvanutel an
+nuses 1,5g X 3 
+ 
+Haigekassa koodid:  66510, 665
+22, 66530(2) 
+ 
+Kinnitas:  <ANONYM id="0" type="per" morph="_H_ sg n"/>, HILLE-MAI  
+
+29.02.2016 08:47       
+ 
+
+ 
+Teostaja  <ANONYM id="1" type="per" morph="_H_ sg n"/>,
+<ANONYM id="2" type="per" morph="_H_ sg n"/>    
+       
+ 
+
+
+25.02.2016 66207 URIIN
+Erikaal: 1.015; Atset.: -; Valk: -     ; Suhkur: -  ; Urobil.: -; Bilir: -; Sade:                     ; Reakts.: 5       ; Leukots.: 500     ; bakterid: -       ; Erütrotsüüdid -
+
+						

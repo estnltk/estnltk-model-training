@@ -6,7 +6,8 @@ import psycopg2
 from psycopg2 import sql
 
 from cda_data_cleaning.common.table_buffer import TableBuffer
-from pipelines.step01_create_training_corpus.textprocessing.text_cleaning import clean, extract_sentences
+from pipelines.step01_create_training_corpus.textprocessing.text_cleaning import preprocess_to_estnltk_Text, \
+    clean_and_extract_sentences
 
 
 def clean_and_extract_sentences_db(db_config, source_schema, source_table, target_schema, target_table):
@@ -67,9 +68,8 @@ def clean_and_extract_sentences_db(db_config, source_schema, source_table, targe
             iterations += 1
 
             # Text processing
-            text = row[0]
-            cleaned_text = clean(text)
-            result = {'text': "\n".join(extract_sentences(cleaned_text))}
+            t = preprocess_to_estnltk_Text(row[0])
+            result = {'text': "\n".join(clean_and_extract_sentences(t))}
             # Adding the result into the target table
             tb.append([result])
         print("Processed ", iterations, "rows, time", str(timedelta(seconds=time.time() - start)))

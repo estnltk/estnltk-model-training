@@ -1,0 +1,108 @@
+,epi_id,analysis_name_raw,parameter_name_raw,value_raw,parameter_unit_raw,effective_time_raw,reference_values_raw,text_raw
+39,123456,,C-reaktiivne valk seerumis/pla...,42.8,mg/L,NaN,,|C-reaktiivne valk seerumis/pla...|42.8|208.6|125.6|65.2|mg/L| 
+41,123456,Hemogramm viieosalise leukogra...,BASO#,0.01,E9/L,NaN,,|BASO#|0.01|0.01|0.01|0.01|E9/L| 
+42,123456,Hemogramm viieosalise leukogra...,BASO%,0.1,%,NaN,,|BASO%|0.1|0.1|0.1|0.2|%| 
+43,123456,Hemogramm viieosalise leukogra...,EO#,0.0,E9/L,NaN,,|EO#|0.0|0.05|0.24|0.36|E9/L| 
+44,123456,Hemogramm viieosalise leukogra...,EO%,0.0,%,NaN,,|EO%|0.0|0.5|3.1|7.0|%| 
+45,123456,Hemogramm viieosalise leukogra...,HCT,45.3,%,NaN,,|HCT|45.3|36.7|36.5|36.7|%| 
+46,123456,Hemogramm viieosalise leukogra...,Hb,158,g/L,NaN,,|Hb|158|128|124|126|g/L| 
+47,123456,Hemogramm viieosalise leukogra...,LYMPH#,0.96,E9/L,NaN,,|LYMPH#|0.96|1.12|1.14|1.35|E9/L| 
+48,123456,Hemogramm viieosalise leukogra...,LYMPH%,5.2,%,NaN,,|LYMPH%|5.2|10.8|14.7|26.4|%| 
+49,123456,Hemogramm viieosalise leukogra...,MCH,29.2,pg,NaN,,|MCH|29.2|29.0|28.7|28.8|pg| 
+50,123456,Hemogramm viieosalise leukogra...,MCHC,349,g/L,NaN,,|MCHC|349|349|340|343|g/L| 
+51,123456,Hemogramm viieosalise leukogra...,MCV,83.6,fL,NaN,,|MCV|83.6|83.0|84.5|83.8|fL| 
+52,123456,Hemogramm viieosalise leukogra...,MONO#,1.21,E9/L,NaN,,|MONO#|1.21|0.47|0.46|0.5|E9/L| 
+53,123456,Hemogramm viieosalise leukogra...,MONO%,6.5,%,NaN,,|MONO%|6.5|4.5|5.9|9.8|%| 
+54,123456,Hemogramm viieosalise leukogra...,NEUT#,16.32,E9/L,NaN,,|NEUT#|16.32|8.69|5.93|2.9|E9/L| 
+55,123456,Hemogramm viieosalise leukogra...,NEUT%,88.2,%,NaN,,|NEUT%|88.2|84.1|76.2|56.6|%| 
+58,123456,Hemogramm viieosalise leukogra...,PLT,189.0,E9/L,NaN,,|PLT|189.0|146.0|162.0|170.0|E9/L| 
+59,123456,Hemogramm viieosalise leukogra...,RBC,5.42,E12/L,NaN,,|RBC|5.42|4.42|4.32|4.38|E12/L| 
+60,123456,Hemogramm viieosalise leukogra...,RDW,12.4,%,NaN,,|RDW|12.4|12.9|12.8|12.5|%| 
+61,123456,Hemogramm viieosalise leukogra...,WBC,18.5,E9/L,NaN,,|WBC|18.5|10.34|7.78|5.12|E9/L| 
+62,123456,Hemogramm viieosalise leukogra...,MPV,10.1,fL,NaN,,|MPV|10.1|10.3|10.4| |fL| 
+63,123456,Hemogramm viieosalise leukogra...,P-LCR,26.6,%,NaN,,|P-LCR|26.6|28.7|28.8| |%| 
+64,123456,Hemogramm viieosalise leukogra...,PDW,12.4,fL,NaN,,|PDW|12.4|13.1|12.5| |fL| 
+68,123456,Uriini ribaanalüüs,Bilirubiin uriinis,NEG, ,NaN,,|Bilirubiin uriinis|NEG| | | | | 
+69,123456,Uriini ribaanalüüs,Erikaal,1.019, ,NaN,,|Erikaal|1.019| | | | | 
+70,123456,Uriini ribaanalüüs,Erütrotsüüdid,10 /µL, ,NaN,,|Erütrotsüüdid|10 /µL| | | | | 
+71,123456,Uriini ribaanalüüs,Glükoos,NEG, ,NaN,,|Glükoos|NEG| | | | | 
+72,123456,Uriini ribaanalüüs,Ketokehad,15.0 mmol/L, ,NaN,,|Ketokehad|15.0 mmol/L| | | | | 
+73,123456,Uriini ribaanalüüs,Leukotsüüdid,NEG, ,NaN,,|Leukotsüüdid|NEG| | | | | 
+74,123456,Uriini ribaanalüüs,Nitrit,NEG, ,NaN,,|Nitrit|NEG| | | | | 
+75,123456,Uriini ribaanalüüs,Urobilinogeen,NEG, ,NaN,,|Urobilinogeen|NEG| | | | | 
+76,123456,Uriini ribaanalüüs,Valk,NEG, ,NaN,,|Valk|NEG| | | | | 
+77,123456,Uriini ribaanalüüs,pH uriinis,6.0,,NaN,,|pH uriinis|6.0| | | | 
+78,123456,,C-reaktiivne valk seerumis/pla...,208.6,mg/L,NaN,,|C-reaktiivne valk seerumis/pla...|42.8|208.6|125.6|65.2|mg/L| 
+80,123456,Hemogramm viieosalise leukogra...,BASO#,0.01,E9/L,NaN,,|BASO#|0.01|0.01|0.01|0.01|E9/L| 
+81,123456,Hemogramm viieosalise leukogra...,BASO%,0.1,%,NaN,,|BASO%|0.1|0.1|0.1|0.2|%| 
+82,123456,Hemogramm viieosalise leukogra...,EO#,0.05,E9/L,NaN,,|EO#|0.0|0.05|0.24|0.36|E9/L| 
+83,123456,Hemogramm viieosalise leukogra...,EO%,0.5,%,NaN,,|EO%|0.0|0.5|3.1|7.0|%| 
+84,123456,Hemogramm viieosalise leukogra...,HCT,36.7,%,NaN,,|HCT|45.3|36.7|36.5|36.7|%| 
+85,123456,Hemogramm viieosalise leukogra...,Hb,128,g/L,NaN,,|Hb|158|128|124|126|g/L| 
+86,123456,Hemogramm viieosalise leukogra...,LYMPH#,1.12,E9/L,NaN,,|LYMPH#|0.96|1.12|1.14|1.35|E9/L| 
+87,123456,Hemogramm viieosalise leukogra...,LYMPH%,10.8,%,NaN,,|LYMPH%|5.2|10.8|14.7|26.4|%| 
+88,123456,Hemogramm viieosalise leukogra...,MCH,29.0,pg,NaN,,|MCH|29.2|29.0|28.7|28.8|pg| 
+89,123456,Hemogramm viieosalise leukogra...,MCHC,349,g/L,NaN,,|MCHC|349|349|340|343|g/L| 
+90,123456,Hemogramm viieosalise leukogra...,MCV,83.0,fL,NaN,,|MCV|83.6|83.0|84.5|83.8|fL| 
+91,123456,Hemogramm viieosalise leukogra...,MONO#,0.47,E9/L,NaN,,|MONO#|1.21|0.47|0.46|0.5|E9/L| 
+92,123456,Hemogramm viieosalise leukogra...,MONO%,4.5,%,NaN,,|MONO%|6.5|4.5|5.9|9.8|%| 
+93,123456,Hemogramm viieosalise leukogra...,NEUT#,8.69,E9/L,NaN,,|NEUT#|16.32|8.69|5.93|2.9|E9/L| 
+94,123456,Hemogramm viieosalise leukogra...,NEUT%,84.1,%,NaN,,|NEUT%|88.2|84.1|76.2|56.6|%| 
+97,123456,Hemogramm viieosalise leukogra...,PLT,146.0,E9/L,NaN,,|PLT|189.0|146.0|162.0|170.0|E9/L| 
+98,123456,Hemogramm viieosalise leukogra...,RBC,4.42,E12/L,NaN,,|RBC|5.42|4.42|4.32|4.38|E12/L| 
+99,123456,Hemogramm viieosalise leukogra...,RDW,12.9,%,NaN,,|RDW|12.4|12.9|12.8|12.5|%| 
+100,123456,Hemogramm viieosalise leukogra...,WBC,10.34,E9/L,NaN,,|WBC|18.5|10.34|7.78|5.12|E9/L| 
+101,123456,Hemogramm viieosalise leukogra...,MPV,10.3,fL,NaN,,|MPV|10.1|10.3|10.4| |fL| 
+102,123456,Hemogramm viieosalise leukogra...,P-LCR,28.7,%,NaN,,|P-LCR|26.6|28.7|28.8| |%| 
+103,123456,Hemogramm viieosalise leukogra...,PDW,13.1,fL,NaN,,|PDW|12.4|13.1|12.5| |fL| 
+117,123456,,C-reaktiivne valk seerumis/pla...,125.6,mg/L,NaN,,|C-reaktiivne valk seerumis/pla...|42.8|208.6|125.6|65.2|mg/L| 
+118,123456,,Glükoos seerumis/plasmas,4.9,mmol/L,NaN,,|Glükoos seerumis/plasmas| | |4.9| |mmol/L| 
+119,123456,Hemogramm viieosalise leukogra...,BASO#,0.01,E9/L,NaN,,|BASO#|0.01|0.01|0.01|0.01|E9/L| 
+120,123456,Hemogramm viieosalise leukogra...,BASO%,0.1,%,NaN,,|BASO%|0.1|0.1|0.1|0.2|%| 
+121,123456,Hemogramm viieosalise leukogra...,EO#,0.24,E9/L,NaN,,|EO#|0.0|0.05|0.24|0.36|E9/L| 
+122,123456,Hemogramm viieosalise leukogra...,EO%,3.1,%,NaN,,|EO%|0.0|0.5|3.1|7.0|%| 
+123,123456,Hemogramm viieosalise leukogra...,HCT,36.5,%,NaN,,|HCT|45.3|36.7|36.5|36.7|%| 
+124,123456,Hemogramm viieosalise leukogra...,Hb,124,g/L,NaN,,|Hb|158|128|124|126|g/L| 
+125,123456,Hemogramm viieosalise leukogra...,LYMPH#,1.14,E9/L,NaN,,|LYMPH#|0.96|1.12|1.14|1.35|E9/L| 
+126,123456,Hemogramm viieosalise leukogra...,LYMPH%,14.7,%,NaN,,|LYMPH%|5.2|10.8|14.7|26.4|%| 
+127,123456,Hemogramm viieosalise leukogra...,MCH,28.7,pg,NaN,,|MCH|29.2|29.0|28.7|28.8|pg| 
+128,123456,Hemogramm viieosalise leukogra...,MCHC,340,g/L,NaN,,|MCHC|349|349|340|343|g/L| 
+129,123456,Hemogramm viieosalise leukogra...,MCV,84.5,fL,NaN,,|MCV|83.6|83.0|84.5|83.8|fL| 
+130,123456,Hemogramm viieosalise leukogra...,MONO#,0.46,E9/L,NaN,,|MONO#|1.21|0.47|0.46|0.5|E9/L| 
+131,123456,Hemogramm viieosalise leukogra...,MONO%,5.9,%,NaN,,|MONO%|6.5|4.5|5.9|9.8|%| 
+132,123456,Hemogramm viieosalise leukogra...,NEUT#,5.93,E9/L,NaN,,|NEUT#|16.32|8.69|5.93|2.9|E9/L| 
+133,123456,Hemogramm viieosalise leukogra...,NEUT%,76.2,%,NaN,,|NEUT%|88.2|84.1|76.2|56.6|%| 
+134,123456,Hemogramm viieosalise leukogra...,NRBC#,0.00,10/9 l,NaN,,|NRBC#| | |0.00|0.00|10/9 l| 
+135,123456,Hemogramm viieosalise leukogra...,NRBC%,0.0,/100 WBC,NaN,,|NRBC%| | |0.0|0.0|/100 WBC| 
+136,123456,Hemogramm viieosalise leukogra...,PLT,162.0,E9/L,NaN,,|PLT|189.0|146.0|162.0|170.0|E9/L| 
+137,123456,Hemogramm viieosalise leukogra...,RBC,4.32,E12/L,NaN,,|RBC|5.42|4.42|4.32|4.38|E12/L| 
+138,123456,Hemogramm viieosalise leukogra...,RDW,12.8,%,NaN,,|RDW|12.4|12.9|12.8|12.5|%| 
+139,123456,Hemogramm viieosalise leukogra...,WBC,7.78,E9/L,NaN,,|WBC|18.5|10.34|7.78|5.12|E9/L| 
+140,123456,Hemogramm viieosalise leukogra...,MPV,10.4,fL,NaN,,|MPV|10.1|10.3|10.4| |fL| 
+141,123456,Hemogramm viieosalise leukogra...,P-LCR,28.8,%,NaN,,|P-LCR|26.6|28.7|28.8| |%| 
+142,123456,Hemogramm viieosalise leukogra...,PDW,12.5,fL,NaN,,|PDW|12.4|13.1|12.5| |fL| 
+143,123456,Hemogramm viieosalise leukogra...,Kaalium seerumis,3.7,mmol/L,NaN,,|Kaalium seerumis| | |3.7| |mmol/L| 
+144,123456,Hemogramm viieosalise leukogra...,Kreatiniin seerumis/plasmas,66,µmol/L,NaN,,|Kreatiniin seerumis/plasmas| | |66| |µmol/L| 
+145,123456,Hemogramm viieosalise leukogra...,Naatrium seerumis/plasmas,142,mmol/L,NaN,,|Naatrium seerumis/plasmas| | |142| |mmol/L| 
+156,123456,,C-reaktiivne valk seerumis/pla...,65.2,mg/L,NaN,,|C-reaktiivne valk seerumis/pla...|42.8|208.6|125.6|65.2|mg/L| 
+158,123456,Hemogramm viieosalise leukogra...,BASO#,0.01,E9/L,NaN,,|BASO#|0.01|0.01|0.01|0.01|E9/L| 
+159,123456,Hemogramm viieosalise leukogra...,BASO%,0.2,%,NaN,,|BASO%|0.1|0.1|0.1|0.2|%| 
+160,123456,Hemogramm viieosalise leukogra...,EO#,0.36,E9/L,NaN,,|EO#|0.0|0.05|0.24|0.36|E9/L| 
+161,123456,Hemogramm viieosalise leukogra...,EO%,7.0,%,NaN,,|EO%|0.0|0.5|3.1|7.0|%| 
+162,123456,Hemogramm viieosalise leukogra...,HCT,36.7,%,NaN,,|HCT|45.3|36.7|36.5|36.7|%| 
+163,123456,Hemogramm viieosalise leukogra...,Hb,126,g/L,NaN,,|Hb|158|128|124|126|g/L| 
+164,123456,Hemogramm viieosalise leukogra...,LYMPH#,1.35,E9/L,NaN,,|LYMPH#|0.96|1.12|1.14|1.35|E9/L| 
+165,123456,Hemogramm viieosalise leukogra...,LYMPH%,26.4,%,NaN,,|LYMPH%|5.2|10.8|14.7|26.4|%| 
+166,123456,Hemogramm viieosalise leukogra...,MCH,28.8,pg,NaN,,|MCH|29.2|29.0|28.7|28.8|pg| 
+167,123456,Hemogramm viieosalise leukogra...,MCHC,343,g/L,NaN,,|MCHC|349|349|340|343|g/L| 
+168,123456,Hemogramm viieosalise leukogra...,MCV,83.8,fL,NaN,,|MCV|83.6|83.0|84.5|83.8|fL| 
+169,123456,Hemogramm viieosalise leukogra...,MONO#,0.5,E9/L,NaN,,|MONO#|1.21|0.47|0.46|0.5|E9/L| 
+170,123456,Hemogramm viieosalise leukogra...,MONO%,9.8,%,NaN,,|MONO%|6.5|4.5|5.9|9.8|%| 
+171,123456,Hemogramm viieosalise leukogra...,NEUT#,2.9,E9/L,NaN,,|NEUT#|16.32|8.69|5.93|2.9|E9/L| 
+172,123456,Hemogramm viieosalise leukogra...,NEUT%,56.6,%,NaN,,|NEUT%|88.2|84.1|76.2|56.6|%| 
+173,123456,Hemogramm viieosalise leukogra...,NRBC#,0.00,10/9 l,NaN,,|NRBC#| | |0.00|0.00|10/9 l| 
+174,123456,Hemogramm viieosalise leukogra...,NRBC%,0.0,/100 WBC,NaN,,|NRBC%| | |0.0|0.0|/100 WBC| 
+175,123456,Hemogramm viieosalise leukogra...,PLT,170.0,E9/L,NaN,,|PLT|189.0|146.0|162.0|170.0|E9/L| 
+176,123456,Hemogramm viieosalise leukogra...,RBC,4.38,E12/L,NaN,,|RBC|5.42|4.42|4.32|4.38|E12/L| 
+177,123456,Hemogramm viieosalise leukogra...,RDW,12.5,%,NaN,,|RDW|12.4|12.9|12.8|12.5|%| 
+178,123456,Hemogramm viieosalise leukogra...,WBC,5.12,E9/L,NaN,,|WBC|18.5|10.34|7.78|5.12|E9/L| 

@@ -1,0 +1,18 @@
+_regex_pattern_,grammar_symbol,regex_type,value,_group_,_priority_
+regex,string,string,string,callable,callable
+(STEMI|STENI),STEMI,diagnosis,STEMI,0,0
+"([,. :;]([Ss]te[mn]i|STEM|STEN)[,. :;])",STEMI,diagnosis,STEMI,0,1
+(NSTEMI?|nSTEMI?|nstemi?),STEMI,diagnosis,nstemi,0,0
+((non|NON|Non)[- ]*(STEMI?|stemi?)),STEMI,diagnosis,nstemi,0,0
+([Kk]oronaar[- ]*angioplastika|KORONAAR[- ]*ANGIOPLASTIKA|PTKA|[Pp]tka|PTKA),PTKA,diagnosis,PTKA,0,0
+([Kk]oronarograafia|[Kk]oronaar[- ]*angiograafia|KORONAROGRAAFIA|KORONAAR[- ]*ANGIOGRAAFIA|SKG|[Ss]kg),ANGIOGRAPHY,diagnosis,SKG,0,0
+(LBBB|lbbb|Lbbb),LBBB,diagnosis,LBBB,0,0
+([Tt]rombolüüs|[Tt]h?rombolysis|[Tt]h?rombol),THROMBOLYSIS,diagnosis,trombolüüs,0,0
+([Aa]ortokoronaarne [šs]unt(eerimine)?|A[KC]Š|a[kc]š),SHUNT,diagnosis,AKŠ,0,0
+(STENT|stent),STENT,diagnosis,STENT,0,0
+(paroksüsmaalne|paroksüsm|paroks|paroxys|parox|dekompens|opereeritud|fikseerunud|permanen(s|tne)|perifeerne|krooniline|persisten(s|tne)|persisteer[iu]v|kahtlus|seinaläbine),SPECIFICATION,diagnosis,spec,0,1
+[Tt]h?rombe[ck],THROMBECTOMY,diagnosis,trombektoomia,0,0
+[Hh]a?emipare,HEMIPARESIS,diagnosis,hemiparees,0,0
+[Ss]tenoo?s,STENOSIS,diagnosis,stenoos,0,0
+[Ss]teno[ck]ard,STENOCARDIA,diagnosis,stenokardia,0,0
+([Vv]irvendusarütmia|[Ff]ibrillats?),FIBRILLATION,diagnosis,fibrillatsioon,0,0

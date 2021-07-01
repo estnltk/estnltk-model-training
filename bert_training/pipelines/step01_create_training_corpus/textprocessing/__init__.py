@@ -1,1 +1,1 @@
-from .text_cleaning import tag_text, mergeSpans
+from .text_cleaning import mergeSpans

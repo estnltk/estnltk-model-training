@@ -1,0 +1,774 @@
+dirty_code	loinc_code(T-luhend)
+BASO#	B-Baso#
+BASO Basofiilide absoluutarv	B-Baso#
+BASO%	B-Baso%
+BASO% Basofiilide suhtarv	B-Baso%
+Basofiilid	B-Basofiilid %
+b-BASO#(basofiilidearv)	B-Baso#
+b-BASO%(basofiilidesuhtarv)	B-Baso%
+b-EO#(eosinofiilidearv)	B-Eo#
+b-EO%(eosinofiilidesuhtarv)	B-Eo%
+b-ESR(Erutrotsuutide settekiirus)	B-ESR
+b-HCT(hematokrit)	B-Hct
+b-HGB(hemoglobiin)	B-Hb
+b-HGB(Hemoglobiin veres)	B-Hb
+b-HG(Hemoglobiin veres)	B-Hb
+b-IG(Ebakupsed granulotsuudid)	B-IG#
+b-IG(Ebakupsete granulotsuutide arv)	B-IG#
+b-IG%(Ebakupsete granulotsuutide suhtarv)	B-IG%
+b-IG%(Ebakups.granulotsuutide %)	B-IG%
+b-MONO#(monotsuutidearv)	B-Mono#
+b-MONO%(monotsuutidesuhtarv)	B-Mono%
+b-MPV(trombots.keskminemaht)	B-MPV
+b-NEUT#(neutrofiilidearv)	B-Neut#
+b-NEUT%(neutrofiilidesuhtarv)	B-Neut%
+b-NRBC%(normoblastidesuhtarv)	B-NRBC%
+b-PCT(trombokrit)	B-Pct
+b-PDW(trombotsuutidesuurusjaotuvus)	B-PDW
+b-PLT(trombotsuudid)	B-Plt
+b-RBC(erutrotsuudid)	B-RBC
+b-RBC(Erutrotsuudid veres)	B-RBC
+b-RDW-CV(erutrotsuutidesuurusjaotuvus)	B-RDW-CV
+b-RET‰(retikulotsuutidesuhtarv)	B-Ret%
+b-WBC(leukotsuudid)	B-WBC
+b-WBC(Leukotsuudid taisverest)	B-WBC
+EO#	B-Eo#
+EO Eosinofiilide absoluutarv	B-Eo#
+EO%	B-Eo%
+EO% Eosinofiilide suhtarv	B-Eo%
+Eosinofiilid	B-Eosinofiilid %
+Erutrotsuutideanisotsutoos	B-Erutrotsuutide anisotsutoos
+Erutrotsuutidemakrotsutoos	B-Erutrotsuutide makrotsutoos
+Erutrotsuutidemikrotsutoos	B-Erutrotsuutide mikrotsutoos
+fP-Gluc	fS,fP-Gluc
+fP-PTH	S,P-PTH
+fS-Ca	S,P-Ca
+fS-C-pept	S,P-C-pept
+fS-Crea	S,P-Crea
+fS-CT	S,P-CT
+fS-Fe	S,P-Fe
+fS-Fol	S,P-Fol
+fS-Gluc	fS,fP-Gluc
+fs-Gluc	fS,fP-Gluc
+fS-HDL-Cho	S,P-HDL-Chol
+fS-HDL-Cho(HDL-Kolesterool)	S,P-HDL-Chol
+fS-HDL-Chol	S,P-HDL-Chol
+fS-HDL-Chol(HDL-Kolesterool)	S,P-HDL-Chol
+fS-HDL-Chol(HDL-kolesterool seerumis)	S,P-HDL-Chol
+fS-HDL(HDL-Kolesterool)	S,P-HDL-Chol
+fS-LDL-Cho	S,P-LDL-Chol
+fS-LDL-Chol	S,P-LDL-Chol
+fS-LDL-Cho(LDL-Kolesterool)	S,P-LDL-Chol
+fS-LDL-Chol(LDL-Kolesterool)	S,P-LDL-Chol
+fS-LDL-Chol(LDLkolesterool)	S,P-LDL-Chol
+fS-LDL-Chol(LDL-kolesterool seerumis)	S,P-LDL-Chol
+fS-LDL(LDL-Kolesterool)	S,P-LDL-Chol
+fS-P	S,P-P
+fS-PTH	S,P-PTH
+fS-RF	S,P-RF
+fS-Transf	S,P-Transf
+fS-Trigl	fS,fP-Trigl
+fS-Urea	S,P-Urea
+fs-Urea	S,P-Urea
+fS-VitB12	S,P-Vit B12
+Gumprechtivarjud	B-Gumprechti varjud
+HCT	B-Hct
+Hemogramm5-osaliseleukogrammiga-B-CBC-5Diff	B-CBC-5Diff
+Hemogramm5-osaliseleukogrammiga-CBC,DIFF(5)	B-CBC-5Diff
+Hemoglobiin	B-Hb
+Howelli-Jollykehakesed	B-Howelli-Jolly kehakesed
+Hupersegmentatsioon	B-Hupersegmentatsioon
+Kepptuumsedneutrofiilid	B-Kepptuumsed neutrofiilid %
+LYMPH% Lumfotsuutide suhtarv	B-Lymph%
+LYMPH Lumfotsuutide absoluutarv	B-Lymph#
+Lumfotsuudid	B-Lumfotsuudid %
+Lumfotsuutideatupism	B-Lumfotsuutide atupism
+MCV	B-MCV
+MONO#	B-Mono#
+MONO Monotsuutide absoluutarv	B-Mono#
+MONO%	B-Mono%
+MONO% Monotsuutide suhtarv	B-Mono%
+Monotsuudid	B-Monotsuudid %
+MPV	B-MPV
+NEUT#	B-Neut#
+NEUT Neutrofiilide absoluutarv	B-Neut#
+NEUT%	B-Neut%
+NEUT% Neutrofiilide suhtarv	B-Neut%
+Neutrofiilidevakuolisatsioon	B-Neutrofiilide vakuolisatsioon
+NRBC%	B-NRBC%
+P-ACTH	P-ACTH
+P-ALAT	S,P-ALAT
+P-ALP	S,P-ALP
+P-Amyl	S,P-Amyl
+P-ASAT	S,P-ASAT
+P-Bil	S,P-Bil
+P-BNP	S,P-BNP
+P-CgA	S,P-CgA
+P-CK-MBm	S,P-CK-MBm
+P-Crea	S,P-Crea
+P-CRP	S,P-CRP
+PCT	B-Pct
+P-cTnI	S,P-cTnI
+P-EtOH	S,P-EtOH
+P-Fibr	P-Fibr
+P-Fol	S,P-Fol
+P-fT3	S,P-fT3
+P-fT4	S,P-fT4
+P-GGT	S,P-GGT
+P-Gluc	S,P-Gluc
+P- Gluc	S,P-Gluc
+P-GTTgrv	GTT (pregnancy)
+P-HCVgenot	S,P-HCV genot
+P-Hcy	S,P-Hcy
+P-K	S,P-K
+P-Lac	P-Lac
+P-Lac	vP-Lac
+P-LC(P-LCR)	B-LCR
+P-LCR	B-LCR
+P-LCR(P-LCR)	B-LCR
+P-LCR(Suurte trombotsuutidearvu suhe trombotsuutide koguarvusse)	B-LCR
+P-LCR(trombots.suurtevormidesuhtarv)	B-LCR
+PLT	B-Plt
+P-Myogl	S,P-Myogl
+P-Na	S,P-Na
+P-NT-proBNP	S,P-NT-proBNP
+P-Oxcarb	S,P-Oxcarb
+P-P	S,P-P
+P-PCT	S,P-PCT
+p-pt%	P-PT-INR
+P-PTH	S,P-PTH
+P-RF	S,P-RF
+P-TPOIgG	S,P-TPO IgG
+P-Transf	S,P-Transf
+P-TSH	S,P-TSH
+P-UA	S,P-UA
+P-Urea	S,P-Urea
+P-VitB12	S,P-Vit B12
+RBC	B-RBC
+S-17-OHP	S,P-17-OHP
+S-AAT	S,P-AAT
+S-ACE	S,P-ACE
+S-AFP	S,P-AFP
+S-AGAIgA	S-AGA IgA
+S-AGA-IgA	S-AGA IgA
+S-AGAIgG	S-AGA IgG
+S-AGA-IgG	S-AGA IgG
+S-ALAT	S,P-ALAT
+S-Alb	S,P-Alb
+S-alb	S,P-Alb
+S-Aldo	S,P-Aldo
+S-ALP	S,P-ALP
+S-ALP2S	S,P-ALP
+S-ALT	S,P-ALAT
+S-Amyl	S,P-Amyl
+S-.Amyl.	S,P-Amyl
+S-Amyl-2	S,P-Amyl
+S-Amyl-pancr	S-pAmyl
+S-ANAIgG	S-ANA IgG
+S-Androst	S-Androst
+S-AOS	S,P-ASO
+S-ASAT	S,P-ASAT
+S-ASO	S,P-ASO
+S-AST	S,P-ASAT
+S-B12	S,P-Vit B12
+S-b2-M	S,P-b2-M
+S-BburgdorferiIgG	S-B burgdorferi IgG
+S-BburgdorferiIgM	S-B burgdorferi IgM
+S-Bil	S,P-Bil
+S-Bil 	S,P-Bil
+s-Bil	S,P-Bil
+S-Bil-conj	S,P-Bil-conj
+S-Bil-unconj	S,P-Bil-unconj
+S-BpertussisIgA	S-B pertussis IgA
+S-BpertussisIgG	S-B pertussis IgG
+S-BpertussisIgM	S-B pertussis IgM
+S-C1inhibitor	S-C1 inh
+S-C3	S,P-C3
+S-C4	S,P-C4
+S-CA	S,P-Ca
+S-Ca	S,P-Ca
+S-CA125	S,P-CA 125
+S-CA 125	S,P-CA 125
+S-Ca125	S,P-CA 125
+S-CA 15-3	S,P-CA 15-3
+S-CA15-3	S,P-CA 15-3
+S-Ca15-3	S,P-CA 15-3
+S-CA 19-9	S,P-CA 19-9
+S-CA19-9	S,P-CA 19-9
+S-Ca19-9	S,P-CA 19-9
+S-CA 72-4	S,P-CA 72-4
+S-CA72-4	S,P-CA 72-4
+S-Carba	S,P-Carba
+S-CEA	S,P-CEA
+S-CEA 	S,P-CEA
+S-Cea	S,P-CEA
+S-Cer	S,P-Cer
+S-Chol	S,P-Chol
+S-Chol.	S,P-Chol
+S-CK	S,P-CK
+S-CK-MB	S,P-CK-MB
+S-CK-MBa	S,P-CK-MB
+S-CK-MBm	S,P-CK-MBm
+S-Cl	S,P-Cl
+S-Cl 	S,P-Cl
+S-CMVIgG	S-CMV IgG
+S-CMVIgM	S-CMV IgM
+S-Cort	S,P-Cort
+S-Cort 	S,P-Cort
+S-C-pept	S,P-C-pept
+S-C-pept 	S,P-C-pept
+S-CpneumoniaeIgA	S-C pneumoniae IgA
+S-CpneumoniaeIgG	S-C pneumoniae IgG
+S-CpneumoniaeIgM	S-C pneumoniae IgM
+S-Crea	S,P-Crea
+S-Crea 	S,P-Crea
+S-CRP	S,P-CRP
+S-CRP 	S,P-CRP
+S-CRP-hs	S,P-CRP-hs
+S-CT	S,P-CT
+S-cTnT-hs	S,P-cTnT-hs
+S-CtrachomatisIgA	S-C trachomatis IgA
+S-CtrachomatisIgG	S-C trachomatis IgG
+S-CtrachomatisIgM	S-C trachomatis IgM
+S-Cu	S-Cu
+S-d1IgE	S-d1 IgE
+S-d2IgE	S-d2 IgE
+S-d3IgE	S-d3 IgE
+S-d70IgE	S-d70 IgE
+S-d71IgE	S-d71 IgE
+S-d73IgE	S-d73 IgE
+S-DHEAS	S,P-DHEAS
+S-Digox	S,P-Digox
+S-dsDNAIgG	S-dsDNA IgG
+S-e1IgE	S-e1 IgE
+S-E2	S,P-E2
+S-E2 	S,P-E2
+S-e3IgE	S-e3 IgE
+S-e5IgE	S-e5 IgE
+S-e84IgE	S-e84 IgE
+S-e87IgE	S-e87 IgE
+S-e91IgE	S-e91/e213 IgE
+Segmenttuumsedneutrofiilid	B-Segmenttuumsed neutrofiilid %
+S-EMAIgA	S-EMA IgA
+S-EPO	S,P-EPO
+S-Epo	S,P-EPO
+S-ETOH	S,P-EtOH
+S-EtOH	S,P-EtOH
+S-f12IgE	S-f12 IgE
+S-f13IgE	S-f13 IgE
+S-f14IgE	S-f14 IgE
+S-f17IgE	S-f17 IgE
+S-f1IgE	S-f1 IgE
+S-f204IgE	S-f204 IgE
+S-f20IgE	S-f20 IgE
+S-f24IgE	S-f24 IgE
+S-f25IgE	S-f25 IgE
+S-f2IgE	S-f2 IgE
+S-f31IgE	S-f31 IgE
+S-f35IgE	S-f35 IgE
+S-f36IgE	S-f36 IgE
+S-f3IgE	S-f3 IgE
+S-f41IgE	S-f41 IgE
+S-f49IgE	S-f49 IgE
+S-f5IgE	S-f5 IgE
+S-f75IgE	S-f75 IgE
+S-f76IgE	S-f76 IgE
+S-f77IgE	S-f77 IgE
+S-f78IgE	S-f78 IgE
+S-f79IgE	S-f79 IgE
+S-FAI	S,P-FAI
+S-FE	S,P-Fe
+S-Fe	S,P-Fe
+S-Fer	S,P-Fer
+S-Fol	S,P-Fol
+S-FPSA	S,P-fPSA
+S-fPSA	S,P-fPSA
+S-fPSA	S,P-fPSA%
+S-fPSA%	S,P-fPSA%
+S-FSH	S,P-FSH
+S-FT3	S,P-fT3
+S-fT3	S,P-fT3
+S-fT3 	S,P-fT3
+S-FT4	S,P-fT4
+S-fT4	S,P-fT4
+S-fT4 	S,P-fT4
+S-g6IgE	S-g6 IgE
+S-GGT	S,P-GGT
+S-GH	S,P-GH
+S-Gluc	S,P-Gluc
+S-HantavirusIgG	S-Hantavirus IgG
+S-Hapto	S,P-Hapto
+S-HBsAg	S-HBsAg
+S-hCG	S,P-hCG
+S-HDL	S,P-HDL-Chol
+S-HDL-Chol	S,P-HDL-Chol
+S-HDL-Chol(HDL kolesterool)	S,P-HDL-Chol
+S-HDL-Chol(HDLkolesterool)	S,P-HDL-Chol
+S-HDL(Korge tihedusega lipoproteiini kolesterool)	S,P-HDL-Chol
+S-HE4	S,P-HE4
+S-hGH	S,P-GH
+S-HpyloriIgA	S-H pylori IgA
+S-HpyloriIgG	S-H pylori IgG
+S-iCa	S,P-iCa
+S-ICAIgG	S-ICA IgG
+S-IgA	S,P-IgA
+S-IgE	S,P-IgE
+S-IGF-1	S,P-IGF-1
+S-IgG	S,P-IgG
+S-IgM	S,P-IgM
+S-IL-6	S,P-IL-6
+S-INS	S,P-Ins
+S-Ins	S,P-Ins
+S-K	S,P-K
+S-K 	S,P-K
+S-k80IgE	S-k80 IgE
+S-k82IgE	S-k82 IgE
+S-Lamotr	S,P-Lamotr
+S-LDH	S,P-LDH
+S-LDL	S,P-LDL-Chol
+S-LDL-Chol	S,P-LDL-Chol
+S-LDL-Chol(LDLkolesterool)	S,P-LDL-Chol
+S-LDL(Madala tihedusega lipoproteiini kolesterool)	S,P-LDL-Chol
+S-LH	S,P-LH
+S-LH 	S,P-LH
+S-Li	S,P-Li
+S-Lip	S,P-Lip
+S-Mg	S,P-Mg
+S-MpneumoniaeIgA	S-M pneumoniae IgA
+S-MpneumoniaeIgG	S-M pneumoniae IgG
+S-MpneumoniaeIgM	S-M pneumoniae IgM
+S-Myogl	S,P-Myogl
+S-Na	S,P-Na
+S-Na 	S,P-Na
+S-NT-proBNP	S,P-NT-proBNP
+S-P	S,P-P
+s,p-17-OHP(17-alfa-hudroksu-progesteroon)	S,P-17-OHP
+S-p1IgE	S-p1 IgE
+s,p-AA(Alfa-1-antitrupsiin)	S,P-AAT
+s,p-AAT(Alfa-1-antitrupsiin)	S,P-AAT
+s,p-AAT(alfa-1-antitrupsiin)	S,P-AAT
+s,p-ACE(7. Angiotensiini konverteeriv ensuum)	S,P-ACE
+s,p-ACE(Angiotensiini konverteeriv ensuum)	S,P-ACE
+s,p-AF(Alfa-fetoproteiin)	S,P-AFP
+s,p-AFP(Alfa-fetoproteiin)	S,P-AFP
+s,p-ALA(Alaniini aminotransferaas)	S,P-ALAT
+s,p-AL(Alaniini aminotransferaas)	S,P-ALAT
+s,p-Al(Albumiin)	S,P-Alb
+s,p-AL(Aluseline fosfataas)	S,P-ALP
+s,p-ALAT 1(Alaniini aminotransferaas)	S,P-ALAT
+s,p-ALAT 2(Alaniini aminotransferaas)	S,P-ALAT
+s,p-ALAT 3(Alaniini aminotransferaas)	S,P-ALAT
+s,p-ALAT(Alaniini aminotransferaas)	S,P-ALAT
+s,p-ALAT(alaniiniaminotransferaas)	S,P-ALAT
+s,p-ALAT(Alaniini aminotransferaas seerumis)	S,P-ALAT
+s,p-Alb 1(Albumiin)	S,P-Alb
+s,p-Alb 2(Albumiin)	S,P-Alb
+s,p-Alb 3(Albumiin)	S,P-Alb
+s,p-Alb(3. Albumiin seerumis)	S,P-Alb
+s,p-Alb(Albumiin)	S,P-Alb
+s,p-Alb(albumiin)	S,P-Alb
+s,p-Alb(Albumiin seerumis)	S,P-Alb
+s,p-Aldo(Aldosteroon)	S,P-Aldo
+s,p-ALP 1(Aluseline fosfataas)	S,P-ALP
+s,p-ALP 2(Aluseline fosfataas)	S,P-ALP
+s,p-ALP(Aluseline fosfataas)	S,P-ALP
+s,p-ALP(aluselinefosfataas)	S,P-ALP
+s,p-ALT(Alaniini aminotransferaas)	S,P-ALAT
+s,p-Amyl(Alfa-am�laas)	S,P-Amyl
+s,p-Amyl(Alfa-amulaas)	S,P-Amyl
+s,p-Amyl(alfa-Amulaas)	S,P-Amyl
+s,p-Amyl(alfa-amulaas)	S,P-Amyl
+s,p-Amyl(amulaas)	S,P-Amyl
+s,p-Amyl(Amulaas, pankreasespetsiifiline)	S,P-Amyl
+s,p-Amyl(Amulaas seerumis)	S,P-Amyl
+s,p-AOS(Antistreptolusiin O)	S,P-ASO
+S-PAP	S-pACP
+S-ParvovirusB19IgG	S-Parvovirus B19 IgG
+S-ParvovirusB19IgM	S-Parvovirus B19 IgM
+s,p-ASA(Aspartaadi aminotransferaas)	S,P-ASAT
+s,p-AS(Antistreptolusiin O)	S,P-ASO
+s,p-AS(Aspartaadi aminotransferaas)	S,P-ASAT
+s,p-ASAT 1(Aspartaadi aminotransferaas)	S,P-ASAT
+s,p-ASAT 2(Aspartaadi aminotransferaas)	S,P-ASAT
+s,p-ASAT 3(Aspartaadi aminotransferaas)	S,P-ASAT
+s,p-ASAT(Aspartaadi aminotransferaas)	S,P-ASAT
+s,p-ASAT(aspartaadiaminotransferaas)	S,P-ASAT
+s,p-ASAT(Aspartaadi aminotransferaas seerumis)	S,P-ASAT
+s,p-ASO(Antistreptolusiin O)	S,P-ASO
+s,p-ASO(antistreptolusiinO)	S,P-ASO
+s,p-ASO(Antistreptolusiin O seerumis)	S,P-ASO
+s,p-AST(Aspartaadi aminotransferaas)	S,P-ASAT
+s,p-B12(Vitamiin B12)	S,P-Vit B12
+s,p-B1(Vitamiin B12)	S,P-Vit B12
+s,p-b2-(Beeta-2-mikroglobuliin)	S,P-b2-M
+s,p-b2-M(Beeta-2-mikroglobuliin)	S,P-b2-M
+s,p-Bi(Bilirubiin)	U-Bil strip
+s,p-Bil 1(Bilirubiin)	U-Bil strip
+s,p-Bil 2(Bilirubiin)	U-Bil strip
+s,p-Bil(Bilirubiin)	S,P-Bil
+s,p-Bil(bilirubiin)	S,P-Bil
+s,p-Bil(Bilirubiin �ldine)	S,P-Bil
+s,p-Bil(Bilirubiin uldine)	S,P-Bil
+s,p-Bil(Bilirubiin, uldine)	S,P-Bil
+s,p-Bil-conj(bilirubiinkonjugeeritud)	S,P-Bil-conj
+s,p-Bil(Uldbilirubiin)	S,P-Bil
+s,p-BNP(B-tuupi N-terminaalne natriureetiline peptiid)	S,P-BNP
+s,p-C3(1. Komplemendi komponent C3)	S,P-C3
+s,p-C3(Komplemendi komponent C3)	S,P-C3
+s,p-C3(komplemendikomponentC3)	S,P-C3
+s,p-C4(1. Komplemendi komponent C4)	S,P-C4
+s,p-C4(Komplemendi komponent C4)	S,P-C4
+s,p-C4(komplemendikomponentC4)	S,P-C4
+s,p-CA 125(Kasvaja-antigeen CA 125)	S,P-CA 125
+s,p-CA-125(Kasvaja antigeen CA 125)	S,P-CA 125
+s,p-CA 12(Kasvaja-antigeen CA 125)	S,P-CA 125
+s,p-CA-12(Kasvaja antigeen CA 125)	S,P-CA 125
+s,p-CA 15-3(Kasvaja-antigeen CA 15-3)	S,P-CA 15-3
+s,p-CA 15-(Kasvaja-antigeen CA 15-3)	S,P-CA 15-3
+s,p-CA 19-9(Kasvaja-antigeen CA 19-9)	S,P-CA 19-9
+s,p-CA-19-9(Kasvaja antigeen CA 19-9 )	S,P-CA 19-9
+s,p-CA-19-9(Kasvaja antigeen CA 19-9)	S,P-CA 19-9
+s,p-CA-19-9(Kasvaja-antigeen CA 19-9)	S,P-CA 19-9
+s,p-CA 19-(Kasvaja-antigeen CA 19-9)	S,P-CA 19-9
+s,p-CA-19-(Kasvaja antigeen CA 19-9)	S,P-CA 19-9
+s,p-Ca 1(Kaltsium)	S,P-Ca
+s,p-Ca 2(Kaltsium)	S,P-Ca
+s,p-Ca 3(Kaltsium)	S,P-Ca
+s,p-CA 72-4(9. Kasvaja antigeen CA 72-4)	S,P-CA 72-4
+s,p-CA 72-4(Kasvaja antigeen CA 72-4)	S,P-CA 72-4
+S-PCAIgG	S-PCA IgG
+s,p-Ca(Kaltsium)	S,P-Ca
+s,p-Ca(kaltsium)	S,P-Ca
+s,p-Ca(Kaltsium seerumis)	S,P-Ca
+s,p-Carba(karbamasepiin)	S,P-Carba
+s,p-CEA(Kartsinoembruonaalne antigeen)	S,P-CEA
+s,p-CEA(kartsioembrionaalne antigeen)	S,P-CEA
+s,p-CE(Kartsinoembruonaalne antigeen)	S,P-CEA
+s,p-Cer(1. Tseruloplasmiin)	S,P-Cer
+s,p-Cer(Tseruloplasmiin)	S,P-Cer
+s,p-Cer(tseruloplasmiin)	S,P-Cer
+s,p-Ce(Tseruloplasmiin)	S,P-Cer
+s,p-CgA(Kromograniin A plasmas)	S,P-CgA
+s,p-ChE(Koliini esteraas)	S,P-ChE
+s,p-ChE(koliiniesteraas)	S,P-ChE
+s,p-Cho(Kolesterool)	S,P-Chol
+s,p-Chol(Kolesterool)	S,P-Chol
+s,p-Chol(kolesterool)	S,P-Chol
+s,p-Chol(Kolesterool seerumis)	S,P-Chol
+s,p-C(Kaltsitoniin )	S,P-CT
+s,p-C(Kaltsitoniin)	S,P-CT
+s,p-C(Kaltsium)	S,P-Ca
+s,p-CK(Kreatiini kinaas)	S,P-CK
+s,p-CK(kreatiinikinaas)	S,P-CK
+s,p-CK(Kreatiini kinaas seerumis)	S,P-CK
+s,p-CK(kreatiniinikinaas)	S,P-CK
+s,p-C(Kloriid)	S,P-Cl
+s,p-CK-MB(Kreatiini kinaasi MB isoensuum)	S,P-CK-MB
+s,p-CK-MBm(kreatiniinikinaasiMBisoensuumimass)	S,P-CK-MBm
+s,p-C(Komplemendi komponent C3)	S,P-C3
+s,p-C(Komplemendi komponent C4)	S,P-C4
+s,p-C(Kreatiini kinaas)	S,P-CK
+s,p-Cl(Kloriid)	S,P-Cl
+s,p-Cl(kloriid)	S,P-Cl
+s,p-Cl(Kloriidid)	S,P-Cl
+s,p-Cl(Kloriid seerumis)	S,P-Cl
+s,p-Cor(Kortisool)	S,P-Cort
+s,p-Cort(1. Kortisool)	S,P-Cort
+s,p-Cort(Kortisool)	S,P-Cort
+s,p-C-pep(C-peptiid)	S,P-C-pept
+s,p-C-pept(C-peptiid)	S,P-C-pept
+s,p- C-peptiid(C peptiid)	S,P-C-pept
+s,p-CR(C-reaktiivne valk)	S,P-CRP
+s,p-Crea 1(Kreatiniin)	S,P-Crea
+s,p-Crea 2(Kreatiniin)	S,P-Crea
+s,p-Crea 3(Kreatiniin)	S,P-Crea
+s,p-Crea 4(Kreatiniin)	S,P-Crea
+s,p-Crea 7(Kreatiniin)	S,P-Crea
+s,p-Crea 8(Kreatiniin)	S,P-Crea
+s,p-Crea(Kreatiniin)	S,P-Crea
+s,p-Crea(kreatiniin)	S,P-Crea
+s,p-Crea(Kreatiniin seerumis)	S,P-Crea
+s,p-Creat(Kreatiniin)	S,P-Crea
+s,p-Cre(Kreatiniin)	S,P-Crea
+s,p-CRP 10(C-reaktiivne valk)	S,P-CRP
+s,p-CRP 11(C-reaktiivne valk)	S,P-CRP
+s,p-CRP 12(C-reaktiivne valk)	S,P-CRP
+s,p-CRP 13(C-reaktiivne valk)	S,P-CRP
+s,p-CRP 1(C-reaktiivne valk)	S,P-CRP
+s,p-CRP 2(C-reaktiivne valk)	S,P-CRP
+s,p-CRP 3(C-reaktiivne valk)	S,P-CRP
+s,p-CRP 4(C-reaktiivne valk)	S,P-CRP
+s,p-CRP 7(C-reaktiivne valk)	S,P-CRP
+s,p-CRP 8(C-reaktiivne valk)	S,P-CRP
+s,p-CRP 9(C-reaktiivne valk)	S,P-CRP
+s,p-CRP(C-reaktiivne valk)	S,P-CRP
+s,p-CRP(C-reaktiivnevalk)	S,P-CRP
+s,p-CRP(C-reaktiivne valk seerumis)	S,P-CRP
+S-PCT	S,P-PCT
+s,p-CT(Kaltsitoniin )	S,P-CT
+s,p-CT(Kaltsitoniin)	S,P-CT
+s,p-cTnI(Troponiin I)	S,P-cTnI
+s,p-CysC(Tsustatiin C)	S,P-CysC
+s,p-Digo(Digoksiin)	S,P-Digox
+s,p-Digox(Digoksiin)	S,P-Digox
+s,p-Digox(digoksiin)	S,P-Digox
+s,p-E2(Östradiool)	S,P-E2
+s,p-EtOH(Etanool)	S,P-EtOH
+s,p-EtOH(Etanool seerumis, plasmas)	S,P-EtOH
+s,p-E(Östradiool)	S,P-E2
+s,p-Fe(Ferritiin)	S,P-Fe
+s,p-Fe(Raud)	S,P-Fe
+s,p-Fe(raud)	S,P-Fe
+s,p-Fer(Ferritiin)	S,P-Fer
+s,p-Fo(Folaat)	S,P-Fol
+s,p-Fol(Folaat)	S,P-Fol
+s,p-Fol(Foolhape)	S,P-Fol
+s,p-Fol (Q)	S,P-Fol
+s,p-(Fosfaat)	S,P-P
+s,p-fPSA( Vaba prostataspetsiifiline antigeen)	S,P-fPSA
+s,p-fPS( Vaba prostataspetsiifiline antigeen)	S,P-fPSA
+s,p-F(Raud)	S,P-Fe
+s,p-FS(Folliikuleid stimuleeriv hormoon)	S,P-FSH
+s,p-FSH(Folliikuleid stimuleeriv hormoon)	S,P-FSH
+s,p-FT3(Vaba trijoodturoniin)	S,P-fT3
+s,p-fT3(Vaba trijoodturoniin)	S,P-fT3
+s,p-FT4(Vaba T4)	S,P-fT4
+s,p-FT4(Vaba turoksiin)	S,P-fT4
+s,p-fT4(Vaba turoksiin)	S,P-fT4
+s,p-fT(Vaba trijoodturoniin)	S,P-fT3
+s,p-fT(Vaba turoksiin)	S,P-fT4
+s,p-GG(Gamma-Glutamuuli transferaas)	S,P-GGT
+s,p-GG(Gammaglutamuuli transferaas)	S,P-GGT
+s,p-GGT(Gamma-Glutam��li transferaas)	S,P-GGT
+s,p-GGT(Gamma-Glutamuuli transferaas)	S,P-GGT
+s,p-GGT(Gamma-glutamuuli transferaas)	S,P-GGT
+s,p-GGT(Gammaglutamuuli transferaas)	S,P-GGT
+s,p-GGT(gamma-glutamuulitransferaas)	S,P-GGT
+s,p-GH(Kasvuhormoon)	S,P-GH
+S-PGI	S-PG I
+S-PGII	S-PG II
+s,p-G(Kasvuhormoon)	S,P-GH
+s,p-Gluc(Gl�koos seerumis)	S,P-Gluc
+s,p-Gluc(Glukoos)	S,P-Gluc
+s,p-Gluc(glukoos)	S,P-Gluc
+s,p-Gluc(Glukoos seerumis)	S,P-Gluc
+s,p-Glu(Glukoos)	U-Gluc strip
+s,p-Hapto(haptoglobiin)	S,P-Hapto
+s,p-hCG(Koorioni gonadotropiin)	S,P-hCG
+s,p-hCG (totaal)(Koorioni gonadotropiin)	S,P-hCG
+s,p-Hcy(Homotsusteiin)	S,P-Hcy
+s,p-Hcy(homotsusteiin)	S,P-Hcy
+s,p- IgA(Immunoglobuliin A)	S,P-IgA
+s,p-IgA(Immuunglobuliin A)	S,P-IgA
+s,p-IgA(immuunglobuliinA)	S,P-IgA
+s,p-IgA(Immuunglobuliin A seerumis)	S,P-IgA
+s,p-Ig E(Immunoglobuliin E seerumis)	S,P-IgE
+s,p-IgE(Immuunglobuliin E)	S,P-IgE
+s,p-IGF-1(Insuliinisarnane kasvufaktor I)	S,P-IGF-1
+s,p-IgG(3. Immuunglobuliin G seerumis)	S,P-IgG
+s,p-IgG(Immuunglobuliin G)	S,P-IgG
+s,p-IgG(immuunglobuliinG)	S,P-IgG
+s,p-IgG(Immuunglobuliin G seerumis)	S,P-IgG
+s,p-Ig(Immuunglobuliin A)	S,P-IgA
+s,p-Ig(Immuunglobuliin E)	S,P-IgE
+s,p-Ig(Immuunglobuliin G)	S,P-IgG
+s,p-Ig(Immuunglobuliin M)	S,P-IgM
+s,p-IgM(Immuunglobuliin M)	S,P-IgM
+s,p-IgM(immuunglobuliinM)	S,P-IgM
+s,p-IgM(Immuunglobuliin M seerumis)	S,P-IgM
+s,p-In(Insuliin)	S,P-Ins
+s,p-Ins(Insuliin)	S,P-Ins
+s,p-K 10(Kaalium)	S,P-K
+s,p-K 11(Kaalium)	S,P-K
+s,p-K 1(Kaalium)	S,P-K
+s,p-K 2(Kaalium)	S,P-K
+s,p-K 3(Kaalium)	S,P-K
+s,p-K 4(Kaalium)	S,P-K
+s,p-K 7(Kaalium)	S,P-K
+s,p-K 8(Kaalium)	S,P-K
+s,p-K 9(Kaalium)	S,P-K
+s,p-(Kaalium)	S,P-K
+s,p-K(Kaalium)	S,P-K
+s,p-K(kaalium)	S,P-K
+s,p-K(Kaalium seerumis)	S,P-K
+s,p-LDH(Laktaadi dehudrogenaas )	S,P-LDH
+s,p-LDH(laktaadidehudrogenaas)	S,P-LDH
+s,p-LDH(Laktaadi dehudrogenaas seerumis)	S,P-LDH
+s,p-LD(Laktaadi dehudrogenaas )	S,P-LDH
+s,p-LD(Laktaadi dehudrogenaas seerumis)	S,P-LDL-Chol
+s,p-LH(Luteiniseeriv hormoon)	S,P-LH
+s,p-Li(3. Liitium seerumis)	S,P-Li
+s,p-Li(liitium)	S,P-Li
+s,p-Li(Lipaas)	S,P-Li
+s,p-Lip(Lipaas)	S,P-Lip
+s,p-Lip(lipaas)	S,P-Lip
+s,p-Lip( Q)	S,P-Lip
+s,p-L(Luteiniseeriv hormoon)	S,P-LH
+s,p-Lp(a)(lipoproteiina)	S,P-Lp(a)
+s,p-Mg(Magneesium)	S,P-Mg
+s,p-Mg(magneesium)	S,P-Mg
+s,p-Mg(Magneesium seerumis)	S,P-Mg
+s,p-M(Magneesium)	S,P-Mg
+s,p-Myogl(Muoglobiin)	S,P-Myogl
+s,p-Myogl(muoglobiin)	S,P-Myogl
+s,p-Myog(Muoglobiin)	S,P-Myogl
+s,p-Na 10(Naatrium)	S,P-Na
+s,p-Na 11(Naatrium)	S,P-Na
+s,p-Na 1(Naatrium)	S,P-Na
+s,p-Na 2(Naatrium)	S,P-Na
+s,p-Na 3(Naatrium)	S,P-Na
+s,p-Na 4(Naatrium)	S,P-Na
+s,p-Na 7(Naatrium)	S,P-Na
+s,p-Na 8(Naatrium)	S,P-Na
+s,p-Na 9(Naatrium)	S,P-Na
+s,p-Na(Naatrium)	S,P-Na
+s,p-Na(naatrium)	S,P-Na
+s,p-Na( Naatrium seerumis)	S,P-Na
+s,p-Na(Naatrium seerumis)	S,P-Na
+s,p-N(Naatrium)	S,P-Na
+s,p-Osteoca(osteokaltsiin)	S,P-Osteoca
+s,p-PAPP-A(Rasedusega seotud plasma protein A)	S,P-PAPP-A
+s,p-Paracet(paratsetamool)	S,P-Paracet
+s,p- PC(Prokaltsitoniin)	S,P-PCT
+s,p-PC(Prokaltsitoniin)	S,P-PCT
+s,p- PCT(Prokaltsitoniin)	S,P-PCT
+s,p-PCT(Prokaltsitoniin)	S,P-PCT
+s,p-PCT(prokaltsitoniin)	S,P-PCT
+s,p-P(Fosfaat)	S,P-P
+s,p-P(fosfaat)	S,P-P
+s,p-P(Fosfaat seerumis)	S,P-P
+s,p-Progesteroon(Progesteroon)	S,P-Prog
+s,p-Prog(Progesteroon)	S,P-Prog
+s,p-Prolaktiin(Prolaktiin)	S,P-Prol
+s,p-Prol(Prolaktiin)	S,P-Prol
+s,p-Pro(Progesteroon)	S,P-Prog
+s,p-Pro(Prolaktiin)	S,P-Prol
+s,p-Prot(�ldvalk)	S,P-Prot
+s,p-Prot(Uldvalk)	S,P-Prot
+s,p-Prot(valk)	S,P-Prot
+s,p-PSA(Prostataspetsiifiline antigeen)	S,P-PSA
+s,p-PS(Prostataspetsiifiline antigeen)	S,P-PSA
+s,p-PTH( Parathormoon)	S,P-PTH
+s,p-PTH(Parathormoon)	S,P-PTH
+s,p-PT( Parathormoon)	S,P-PTH
+s,p-PT(Parathormoon)	S,P-PTH
+S-PR-3Ab	S-PR3 IgG
+s,p-RF(Reumatoidfaktor)	S,P-RF
+s,p-RF(reumatoidfaktor)	S,P-RF
+S-Prl	S,P-Prol
+S-Prog	S,P-Prog
+S-Prokaltsitoniin	S,P-PCT
+S-Prol	S,P-Prol
+S-Prol 	S,P-Prol
+S-Prot	S,P-Prot
+S-Prot-Fr	S-Prot-Fr
+s,p-R(Reumatoidfaktor)	S,P-RF
+S-PSA	S,P-PSA
+s,p-Salic(salitsulaadid)	S,P-Salic
+s,p-SHBG(1. Suguhormoone siduv globuliin)	S,P-SHBG
+s,p-SHBG(Suguhormoone siduv globuliin)	S,P-SHBG
+s,p-SHBG(Suguhormoone siduv globuliin VANA)	S,P-SHBG
+s,p-SHB(Suguhormoone siduv globuliin)	S,P-SHBG
+s,p-Testosteroon(Testosteroon)	S,P-Testo
+s,p-Testo(Testosteroon)	S,P-Testo
+s,p-Test(Testosteroon)	S,P-Testo
+s,p-TG(Tureoglobuliin)	S,P-TG
+S-PTH	S,P-PTH
+s,p-Theoph(teofulliin)	S,P-Theoph
+s,p-TnI(Troponiin I)	S,P-cTnI
+s,p-Tn(Troponiin I)	S,P-cTnI
+s,p-TPO IgG(Tureoidperoksudaasi vastane IgG)	S,P-TPO IgG
+s,p-TPO Ig(Tureoidperoksudaasi vastane IgG)	S,P-TPO IgG
+s,p-Transf-sR(Transferriini lahustuvad retseptorid)	S,P-Transf-sR
+s,p-Transf-sR(transferriinilahustuvadretseptorid)	S,P-Transf-sR
+s,p-Transf(Transferriin)	S,P-Transf
+s,p-Transf(transferriin)	S,P-Transf
+s,p-Transf(Transferriin seerumis)	S,P-Transf
+s,p-Trans(Transferriin)	S,P-Transf
+s,p-Trigl(Triglutseriidid)	fS,fP-Trigl
+s,p-Trigl(triglutseriidid)	fS,fP-Trigl
+s,p-Trig(Triglutseriidid)	fS,fP-Trigl
+s,p-TSH(Tureotropiin ehk kilpnaaret stimuleeriv hormoon)	S,P-TSH
+s,p-T(Tureoglobuliin)	S,P-TG
+s,p-UA(Kusihape)	S,P-UA
+s,p-UA(kusihape)	S,P-UA
+s,p-UA(Kusihape seerumis)	S,P-UA
+s,p-U(Kusihape)	S,P-UA
+s,p-Urea 1(Uurea)	S,P-Urea
+s,p-Urea 2(Uurea)	S,P-Urea
+s,p-Urea 3(Uurea)	S,P-Urea
+s,p-Urea 4(Uurea)	S,P-Urea
+s,p-Urea 6(Uurea)	S,P-Urea
+s,p-Urea(Uurea)	S,P-Urea
+s,p-Urea(uurea)	S,P-Urea
+s,p-Urea(Uurea seerumis)	S,P-Urea
+s,p-Ure(Uurea)	S,P-Urea
+s,p-Valpr(valproaat)	S,P-Valpr
+s,p-VitD3(25-OH)(VitamiinD,25-hudroksu)	S,P-Vit D3 (25-OH)
+s,p-Yers03(IgG)	S,P-IgG
+s,p-Yers09(IGA)	S,P-IgA
+S-RF	S,P-RF
+S-Rf	S,P-RF
+S-RPR	S-RPR
+S-RubellavirusIgG	S-Rubella virus IgG
+S-RubellavirusIgM	S-Rubella virus IgM
+S-SHBG	S,P-SHBG
+S-SHBG 	S,P-SHBG
+S-SMAIgGtitr	S-SMA IgG titr
+S-sTransf	S,P-sTransf
+S-sTrf-r	S,P-Transf-sR
+S-Zn	S-Zn
+S-Zn (Q)	S-Zn
+S-t14IgE	S-t14 IgE
+S-t16IgE	S-t16 IgE
+S-t2IgE	S-t2 IgE
+S-T3	S,P-T3
+S-t3IgE	S-t3 IgE
+S-T4	S,P-T4
+S-t4IgE	S-t4 IgE
+S-t7IgE	S-t7 IgE
+S-TBA	S-TBA
+S-TBEVIgG	S-TBEV IgG
+S-TBEVIgM	S-TBEV IgM
+S-Testo	S,P-Testo
+S-testo	S,P-Testo
+S-TG	S,P-TG
+S-TG 	S,P-TG
+S-TGIgG	S-TG IgG
+S-TgondiiIgA	S-T gondii IgA
+S-TgondiiIgG	S-T gondii IgG
+S-T.gondiiIgG	S-T gondii IgG
+S-TgondiiIgGavd	S-T gondii IgG avd
+S-TgondiiIgM	S-T gondii IgM
+S-T.gondiiIgM	S-T gondii IgM
+S-TpallidumAb	S-T pallidum Ab
+S-TpallidumIgG	S-T pallidum IgG
+S-TpallidumIgM	S-T pallidum IgM
+S-TPOIgG	S,P-TPO IgG
+S-TPO IgG	S,P-TPO IgG
+S-Transf	S,P-Transf
+S-Transf-sR	S,P-Transf-sR
+S-Trf	S,P-Transf
+S-TrfS	S,P-Transf
+S-TRIgG	S-TR IgG
+S--TRIgG	S-TR IgG
+S-Trigl	fS,fP-Trigl
+S-TSH	S,P-TSH
+S-TSH 	S,P-TSH
+S-tTGIgA	S-tTG IgA
+S-UA	S,P-UA
+S-Urea	S,P-Urea
+S-Urea 	S,P-Urea
+S-w6IgE	S-w6 IgE
+S-w7IgE	S-w7 IgE
+S-w8IgE	S-w8 IgE
+S-Valpr	S,P-Valpr
+S-VitB12	S,P-Vit B12
+S-VitD(25-OH)	S,P-Vit D (25-OH)
+S-VitD3(25-OH)	S,P-Vit D3 (25-OH)
+S-VZVIgG	S-VZV IgG
+S-VZVIgM	S-VZV IgM
+Trombotsuutideagregaadid	B-Trombotsuutide agregaadid
+Trombotsuutideanisotsutoos	B-Trombotsuutide anisotsutoos
+Trombotsuutidemakrotsutoos	B-Trombotsuutide makrotsutoos
+WBC	B-WBC

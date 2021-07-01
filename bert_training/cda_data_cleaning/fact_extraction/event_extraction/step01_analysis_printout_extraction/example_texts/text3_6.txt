@@ -1,0 +1,83 @@
+28.03.2014 Elektrokardiograafia 
+Normaalne EKG.  
+28.03.2014 Ehhokardiograafia 
+Vasem vatsake: normaalse suurusega.  <ANONYM id="0" type="per" morph="_S_ sg g"/> paksus on normaalne. Üldine süstoolne funktsioon on normaalne. Visuaalselt  hinnatud EF 65-70%.  EF Simpsoni meetodi järgi 
+Vasema vatsakese diastoolne  funktsioon: on normaalne. 
+Vasem koda: normaalne. 
+Parem vatsake: suurus on normaalne.  Üldine süstoolne funktsioon on normaalne. 
+Parem koda: normaalne. 
+Aordikaar: normaalne. 
+Aordiklapp: kolmehõlmaline. Funktsioon  on normaalne.  Aordiklapi hõlmade liikuvus on normaalne. Aordiklapi stenoosi ei  esine. Aordiklapi regurgitatsiooni ei esine. 
+Aordi bulbus : normaalne. 
+Mitraalklapp: normaalne. Hõlmade  liikuvus on normaalne. Mitraalklapi stenoosi ei esine. Triviaalne  (füsioloogiline) mitraalregurgitatsioon. 
+Pulmonaalklapp: normaalne.  Pulmonaalklapi funktsioon on normaalne. 
+Trikuspidaalklapp: normaalne.  Triviaalne (füsioloogiline) trikuspidaalregurgitatsioon. 
+Pulmonaalhüpertensioon: ei esine. PAPs  25 mmHg 
+Alumine õõnesveen: on normaalne.   Kollabeerub inspiiriumis üle 50%. 
+Hinnatud parema koja rõhk: 5 mmHg 
+Perikardi õõs: vedelikku ei esine 
+Arvamus/Soovitused: 
+Normaalse suurusega, normaalse süstoolse ja diastoolse funktsiooniga vasak vatsake, EF 65-70%. Müokard normaalse paksusega, normokinees. Parem vatsake normaalse suurusega, normaalse süstolse funktsiooniga. Mõlemad kojad normaalse suurusega. Klappide struktuurid iseärasusteta. Triviaalsed (füsioloogilised) regurgitatsioonid mitraal- ja trikuspidaalklapil. Rõhk pulmonaalarteri süsteemis normis, PAPs 25 mmHg.  
+28.03.2014 Ultraheli doppleruuring jala süvaveenidest; UH doppleruuring jala süvaveenidest 
+Mõlema  jala süvaveenide doppleruuring: 
+Uuritud mõlema alajäseme süvaveene (v. femor. comm, v. femor. superfic, v. poplitea ning v. tibialis post) nii hallskaalas kui doppleriga.  
+Kõikides uuritud veenides verevool jälgitav, registreeritav normipärane verevoolukõver. Veenid komprimeeritavad, veenide diameeter ei ületa saatva arteri diameetrit.  
+Valsalva katsel süvaveenides retrograadsed verevoolu ei sedasta. 
+Arvamus/ Soovitused: 
+Leid viitab täielikule tromboosi rekanamilsatsioonile   
+   
+|              
+            Uuring 
+|28.03|Mõõtühik| 
+|Beeta-2-glükoproteiin 1 vastas...|Negatiivne| | 
+|Beeta-2-mikroglobuliin seerumi...|1212|ng/mL| 
+|C-hepatiidi viiruse vastased a...|Negatiivne| | 
+|C-reaktiivne valk seerumis/pla...|<1.0|mg/L| 
+|Erütrotsüütide settekiirus|7.0|mm/h| 
+|Ferritiin seerumis|14|ug/L| 
+|Folaat paastuseerumis|10.2|nmol/L| 
+|Glükoos seerumis/plasmas|5.6|mmol/L| 
+|HDL-kolesterool paastuseerumis|2.3|mmol/L| 
+|Hemogramm viieosalise leukogra...| | | 
+|BASO#|0.04|E9/L| 
+|BASO%|1.0|%| 
+|EO#|0.04|E9/L| 
+|EO%|1.0|%| 
+|HCT|38.2|%| 
+|Hb|124|g/L| 
+|LYMPH#|1.4|E9/L| 
+|LYMPH%|33.9|%| 
+|MCH|30.0|pg| 
+|MCHC|325|g/L| 
+|MCV|92.5|fL| 
+|MONO#|0.29|E9/L| 
+|MONO%|7.0|%| 
+|MPV|9.5|fL| 
+|NEUT#|2.36|E9/L| 
+|NEUT%|57.1|%| 
+|P-LCR|20.5|%| 
+|PLT|324.0|E9/L| 
+|RBC|4.13|E12/L| 
+|RDW|13.6|%| 
+|WBC|4.13|E9/L| 
+|Kaalium seerumis|4.7|mmol/L| 
+|Kardiolipiini vastased antikeh...|Negatiivne| | 
+|Kilpnääret stimuleeriv hormoon...|2.41|mIU/L| 
+|Kolesterool seerumis|5.4|mmol/L| 
+|Kreatiniin seerumis/plasmas|64|µmol/L| 
+|LDL-kolesterool paastuseerumis|2.9|mmol/L| 
+|Naatrium seerumis/plasmas|143|mmol/L| 
+|S-HIV1,2 Ag+Ab|Negatiivne| | 
+|Triglütseriidid paastuseerumis|0.7|mmol/L| 
+|Uurea paastuseerumis/paastupla...|5.1|mmol/L| 
+|Vaba trijoodtüroniin seerumis|4.74|pmol/L| 
+|Vaba türoksiin seerumis|14.9|pmol/L| 
+|Vereäige mikroskoopia| | | 
+|Basofiilid|1.5|%| 
+|Eosinofiilid|0.5|%| 
+|Kepptuumsed neutrofiilid|1.5|%| 
+|Lümfotsüüdid|34.0|%| 
+|Monotsüüdid|9.0|%| 
+|Segmenttuumsed neutrofiilid|53.5|%| 
+|Vitamiin B12 paastuseerumis|208|pmol/L| 
+|Vitamiin D (25-OH) seerumis|56|nmol/L|

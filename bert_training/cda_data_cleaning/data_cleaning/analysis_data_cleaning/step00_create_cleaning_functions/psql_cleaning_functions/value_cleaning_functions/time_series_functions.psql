@@ -1,0 +1,76 @@
+SET ROLE {role};
+
+-------------------------------------------------------------------------------------
+-- IS TIME SERIES
+-------------------------------------------------------------------------------------
+
+drop function if exists {schema}.is_time_series(value_raw  varchar);--, OUT all_patterns varchar);
+create or replace function {schema}.is_time_series(value_raw varchar)
+    returns boolean
+as
+$body$
+declare
+    int_pattern varchar :=  '(0|[1-9][0-9]*)';
+    time_int_pattern varchar := '((0[0-9]|1[0-9]|2[0-3]|[0-9]):[0-5][0-9])';
+    float_pattern varchar := '(([0-9]|[1-9][0-9]*)?[\.,][0-9]*)';
+    number_pattern varchar := format('([+-]?(%s|%s))', float_pattern, int_pattern);
+
+    range_pattern1 varchar := concat('(', '\s*[>=<=><]{{1,2}}\s*', number_pattern, ')');
+    range_pattern2 varchar := concat('(', number_pattern, '\s*\-\s*', number_pattern, ')'); -- 3-4 PROBLEEM 4..3 ka true
+    range_pattern3 varchar := concat('(', number_pattern, '\s*\.\.\s*', number_pattern, ')');
+    range_pattern varchar := format('(%s|%s|%s)', range_pattern1, range_pattern2, range_pattern3);
+
+    value_pattern varchar := concat('(', range_pattern, '\s*|\s*',  number_pattern, '\s*)');
+
+    time_series_pattern varchar := concat('^(', value_pattern, '\(', time_int_pattern, '\),', ')+$');
+begin
+    if value_raw ~ time_series_pattern then return True; end if;
+    return False;
+end
+$body$
+language plpgsql;
+
+
+drop function if exists {schema}.clean_time_series(time_series text);
+create or replace function {schema}.clean_time_series(time_series_raw text)
+returns text[]
+as
+$body$
+declare
+    value_and_time_list varchar[][]; -- e.g. "<0,50(13:14","<0,5(21:36",""
+    value_and_time varchar; -- e.g. "<0,50(13:14"
+    value varchar;
+    --hour varchar;
+    --minute varchar;
+    results varchar[][];
+begin
+    -- splitting time series: 1,0(04:43),<1,0(12:12), ->  1,0(04:43 and <1,0(12:12
+    value_and_time_list = string_to_array(time_series_raw, '),');
+
+    -- for each time series element seperate value, hour and minute
+    FOR i IN 1 .. array_length(value_and_time_list, 1) LOOP
+        value_and_time = value_and_time_list[i];
+        if value_and_time != '' then
+            value := regexp_replace(value_and_time, '\(.*$', '');
+            -- cleaning the value
+            if {schema}.match_float(value) then
+                value := {schema}.clean_floats(value);
+            elsif {schema}.is_range(value) then
+                value := {schema}.match_range(value);
+            end if;
+
+            -- including hour and minute makes clening step very complicated, leaving it out right now
+            -- hour := unnest(regexp_match(value_and_time, '(?<=\()(.*?)(?=:)'));
+            -- minute := unnest(regexp_match(value_and_time, '(?<=:)(.*?)(?=$)'));
+
+            results[i] = value;
+        end if;
+     end loop;
+
+    -- returns array of arrays, where elements are values that will be split onto seperate rows during cleaning
+    return results;
+end
+$body$
+language plpgsql;
+
+

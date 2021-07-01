@@ -1,0 +1,10 @@
+,epi_id,analysis_name_raw,parameter_name_raw,value_raw,parameter_unit_raw,effective_time_raw,reference_values_raw,text_raw
+5,123456,Hemogramm    None,WBC,5.67,,16.01.2009,"(null; 3,5 .. 8,8 E9/L ) ","WBC 5.67 (null; 3,5 .. 8,8 E9/L ) "
+6,123456,Hemogramm    None,RBC,5.13,,16.01.2009,"(4,2 .. 5,7 E12/L ) ","RBC 5.13 (4,2 .. 5,7 E12/L ) "
+7,123456,Hemogramm    None,HGB,106,,16.01.2009,(134 .. 170 g/L ) ,HGB 106 (134 .. 170 g/L ) 
+8,123456,Hemogramm    None,HCT,35,,16.01.2009,(40 .. 50 % ) ,HCT 35 (40 .. 50 % ) 
+9,123456,Hemogramm    None,MCV,68.8,,16.01.2009,(82 .. 98 fL ) ,MCV 68.8 (82 .. 98 fL ) 
+10,123456,Hemogramm    None,MCH,20.7,,16.01.2009,(27 .. 33 pg ) ,MCH 20.7 (27 .. 33 pg ) 
+11,123456,Hemogramm    None,MCHC,300,,16.01.2009,(317 .. 357 g/L ) ,MCHC 300 (317 .. 357 g/L ) 
+12,123456,Hemogramm    None,PLT,330,,16.01.2009,(145 .. 390 E9/L ) ,PLT 330 (145 .. 390 E9/L ) 
+13,123456,Hemogramm    None,RDW-CV,18.9,,16.01.2009,"(11,6 .. 14 % ) ","RDW-CV 18.9 (11,6 .. 14 % ) "

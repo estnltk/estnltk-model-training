@@ -1,0 +1,135 @@
+  
+15.01.2010 
+B-Tsüklosporiin 1615.0 (ng/mL )  
+
+15.01.2010
+SG 1.017 (1,015 .. 1,030 )  
+PH 6.0 (5.0 .. 8.0 )  
+NIT NEG (NEG )  
+LEU NEG (NEG )  
+PRO NEG (NEG )  
+GLU NEG (NEG )  
+KET NEG (NEG )  
+UBG 68 µmol/L (NEG )  
+<ANONYM id="14" type="per" morph="_Y_ ?"/> NEG (NEG )  
+ERY 25 /µL (NEG )  
+Uriini sademe mikroskoopia  
+erütrotsüüdid 2 (&lt;1 /hpf )  
+leukotsüüdid &lt;1 (&lt;4 )  
+lameepiteelid 3 (/hpf )  
+üleminekuepiteelid &lt;1  
+tuubulusepiteelid &lt;1  
+bakterid Mõõdukalt  
+
+16.01.2010 
+WBC 17.00 (3,5 .. 8,8 E9/L )  
+RBC 4.54 (3,9 .. 5,2 E12/L )  
+HGB 142 (117 .. 153 g/L )  
+HCT 41 (35 .. 46 % )  
+MCV 91.0 (82 .. 98 fL )  
+MCH 31.3 (27 .. 33 pg )  
+MCHC 344 (317 .. 357 g/L )  
+PLT 247 (145 .. 390 E9/L )  
+RDW-CV 16.5 (11,6 .. 14 % )  
+EO% 0.7 (1 .. 6 % )  
+BASO% 0.2 (0 .. 1 % )  
+MONO% 8.2 (2 .. 10 % )  
+LYMPH% 19.2 (20 .. 40 % )  
+NEUT% 71.7 (40 .. 80 % )  
+EO# 0.12 (&lt;0,5 E9/L )  
+BASO# 0.03 (&lt;0.1 E9/L )  
+MONO# 1.39 (0.2 .. 1 E9/L )  
+LYMPH# 3.26 (1 .. 3 E9/L )  
+NEUT# 12.20 (2 .. 7 E9/L )  
+
+16.01.2010 
+B-Tsüklosporiin 470.9 (ng/mL )  
+S,P-Uurea 5.1 (&lt;8.3 mmol/L )  
+S,P-CRP 1 (&lt;5 mg/L )  
+S,P-Na 136 (136 .. 145 mmol/L )  
+S,P-K 4.6 (3.4 .. 4.5 mmol/L )  
+S,P-ALP 124 (35 .. 105 U/L )  
+S,P-Kusihape 154 (143 .. 339 µmol/L )  
+S,P-Kolesterool 8.0 (3.3 .. 6.9 mmol/L )  
+Glomerulaarfiltratsiooni kiirus (eGFR) 106 (&gt;90 mL/min/1.73m2 )  
+S,P-Kreatiniin 56 (44 .. 80 µmol/L )  
+Patsiendi vanus 49 (aastat ) 
+
+18.01.2010
+WBC 13.81 (3,5 .. 8,8 E9/L )  
+RBC 4.51 (3,9 .. 5,2 E12/L )  
+HGB 138 (117 .. 153 g/L )  
+HCT 40 (35 .. 46 % )  
+MCV 89.6 (82 .. 98 fL )  
+MCH 30.6 (27 .. 33 pg )  
+MCHC 342 (317 .. 357 g/L )  
+PLT 230 (145 .. 390 E9/L )  
+RDW-CV 16.4 (11,6 .. 14 % )  
+
+18.01.2010 
+Uriini külv  
+Kasv negatiivne Negatiivne  
+
+18.01.2010 
+B-Tsüklosporiin 394.5 (ng/mL )  
+S,P-Uurea 5.2 (&lt;8.3 mmol/L ) 
+S,P-Na 133 (136 .. 145 mmol/L ) 
+S,P-K 5.2 (3.4 .. 4.5 mmol/L ) 
+Glomerulaarfiltratsiooni kiirus (eGFR) 111 (&gt;90 mL/min/1.73m2 ) 
+S,P-Kreatiniin 54 (44 .. 80 µmol/L ) 
+Patsiendi vanus 49 (aastat ) 
+
+19.01.2010 
+B-Tsüklosporiin 268.5 (ng/mL )  
+
+20.01.2010 
+KIRJELDUS: Neerutransplantaadi mõõdud 11 x 5 cm, neeruvaagen paisuvaba. RI - 0.74. Vedeliku kogumeid neeru ümber ei visualiseeru. 
+
+21.01.2010 
+B-Tsüklosporiin 324.8 (ng/mL )  
+
+25.01.2010 
+SG 1.014 (1,015 .. 1,030 ) 
+PH 6.0 (5.0 .. 8.0 ) 
+NIT NEG (NEG ) 
+LEU NEG (NEG ) 
+PRO NEG (NEG ) 
+GLU NEG (NEG ) 
+KET NEG (NEG ) 
+UBG NEG (NEG ) 
+<ANONYM id="15" type="per" morph="_Y_ ?"/> NEG (NEG ) 
+ERY NEG (NEG ) 
+Uriini sademe mikroskoopia  
+leukotsüüdid &lt;1 (&lt;4 )  
+lameepiteelid &lt;1  
+
+25.01.2010 
+WBC 13.94 (3,5 .. 8,8 E9/L )  
+RBC 4.57 (3,9 .. 5,2 E12/L )  
+HGB 141 (117 .. 153 g/L )  
+HCT 42 (35 .. 46 % )  
+MCV 91.0 (82 .. 98 fL )  
+MCH 30.9 (27 .. 33 pg )  
+MCHC 339 (317 .. 357 g/L )  
+PLT 228 (145 .. 390 E9/L )  
+RDW-CV 16.3 (11,6 .. 14 % )  
+
+25.01.2010 
+S,P-Uurea 6.9 (&lt;8.3 mmol/L )  
+S,P-Üldvalk 74 (64 .. 83 g/L )  
+S,P-CRP &lt;1 (&lt;5 )  
+S,P-Na 134 (136 .. 145 mmol/L )  
+S,P-K 5.1 (3.4 .. 4.5 mmol/L )  
+S,P-ASAT 20 (&lt;32 U/L )  
+S,P-ALAT 37 (&lt;33 U/L )  
+S,P-ALP 98 (35 .. 105 U/L )  
+S,P-Kusihape 228 (143 .. 339 µmol/L )  
+S,P-Kolesterool 7.4 (3.3 .. 6.9 mmol/L )  
+Glomerulaarfiltratsiooni kiirus (eGFR) 118 (&gt;90 mL/min/1.73m2 )  
+S,P-Kreatiniin 51 (44 .. 80 µmol/L )  
+Patsiendi vanus 49 (aastat ) 
+B-Tsüklosporiin 204.8 (ng/mL )  
+
+27.01.2010 
+KIRJELDUS: Neerutransplantaat mõõtmetega 11,5 x 5,6 cm, neeruvaagen paisuvaba, RI 0,72. Neeru lateraalküljel piirdunud vedelikukogum 6,5 x 2 cm.   VASTUSED:
+B-Tsüklosporiin 197.7 (ng/mL ) 

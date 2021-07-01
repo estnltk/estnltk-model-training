@@ -63,18 +63,13 @@ def get_number_spans(t, priority):
     return getSpanRangesF(t, "dates_numbers", priority, get_number_replacement)
 
 
-def tag_text(text, sentences=False):
+def preprocess_to_estnltk_Text(text):
+    text = text.strip()
     text = preprocess_text(text)
-    t = Text(text)
-    if sentences:
-        t.tag_layer(['tokens', 'words', 'sentences'])
-    else:
-        t.tag_layer(['tokens', 'words'])
-    return t
+    return Text(text)
 
 
-def get_span_ranges(text):
-    t = tag_text(text)
+def extract_span_ranges(t):
     spans = get_table_spans(t, 0)
     # spans = mergeSpans(spans, get_event_header_spans(t, 1))
     spans = mergeSpans(spans, get_anonymised_spans(t, 1))
@@ -95,15 +90,22 @@ def clean_text_with_spans(text, spans):
     return new_text
 
 
-def clean(text):
-    text = text.strip()
-    spans = get_span_ranges(text)
-    return clean_text_with_spans(text, spans)
+def clean(t):
+    spans = extract_span_ranges(t)
+    return clean_text_with_spans(t.text, spans)
 
 
-def extract_sentences(text):
-    t = tag_text(text, True)
+def extract_sentences(t):
     sentences = []
+    t.tag_layer(['tokens', 'words', 'sentences'])
     for sentence in t.sentences:
         sentences.append(" ".join(sentence.text))
     return sentences
+
+
+def clean_and_extract_sentences(t):
+    t.tag_layer(['tokens', 'words'])
+    spans = extract_span_ranges(t)
+    cleaned_text = clean_text_with_spans(t.text, spans)
+    t_cleaned = preprocess_to_estnltk_Text(cleaned_text)
+    return extract_sentences(t_cleaned)

@@ -1,0 +1,130 @@
+
+set role :role;
+
+drop table if exists :schema.elabor_parameter_name_to_loinc_mapping;
+create table :schema.elabor_parameter_name_to_loinc_mapping
+(
+	parameter_name text, 	
+	t_lyhend text,
+	t_nimetus text,
+	kasutatav_nimetus text,
+	loinc_code text,
+	substrate text,
+	evidence text
+);
+
+reset role;
+
+set search_path to :schema;
+\copy elabor_parameter_name_to_loinc_mapping from  ../data/elabor_parameter_name_to_loinc_mapping.csv with (delimiter ',', format csv, header);
+
+
+
+set role :role;
+
+drop table if exists :schema.elabor_parameter_name_unit_to_loinc_mapping;
+create table :schema.elabor_parameter_name_unit_to_loinc_mapping
+(
+	parameter_name text, 
+	t_yhik text, 
+	t_lyhend text,
+	t_nimetus text,
+	kasutatav_nimetus text,
+	loinc_code text,
+	substrate text,
+	evidence text
+);
+reset role;
+
+set search_path to :schema;
+\copy elabor_parameter_name_unit_to_loinc_mapping from  ../data/elabor_parameter_name_unit_to_loinc_mapping.csv with (delimiter ',', format csv, header);
+
+
+set role :role;
+
+drop table if exists :schema.parameter_name_to_loinc_mapping;
+create table :schema.parameter_name_to_loinc_mapping
+(
+	parameter_name text,
+	t_lyhend text,
+	loinc_code text,
+	substrate text,
+	evidence text
+);
+reset role;
+
+set search_path to :schema;
+\copy parameter_name_to_loinc_mapping from  ../data/parameter_name_to_loinc_mapping.csv with (delimiter ',', format csv, header);
+
+
+set role :role;
+
+drop table if exists :schema.parameter_name_unit_to_loinc_mapping;
+create table :schema.parameter_name_unit_to_loinc_mapping
+(
+	parameter_name text,
+	parameter_unit text,
+	t_lyhend text,
+	loinc_code text,
+	substrate text,
+	evidence text
+);
+reset role;
+
+set search_path to :schema;
+\copy parameter_name_unit_to_loinc_mapping from  ../data/parameter_name_unit_to_loinc_mapping.csv with (delimiter ',', format csv, header);
+
+
+
+set role :role;
+
+drop table if exists :schema.elabor_analysis_name_to_panel_loinc;
+create table :schema.elabor_analysis_name_to_panel_loinc
+(
+	parameter_name text, 	
+	t_lyhend text,
+	t_nimetus text,
+	kasutatav_nimetus text,
+	loinc_code text,
+	substrate text,
+	evidence text
+);
+
+reset role;
+
+set search_path to :schema;
+\copy elabor_analysis_name_to_panel_loinc from  ../data/elabor_analysis_name_to_panel_loinc.csv with (delimiter ',', format csv, header);
+
+drop table if exists :schema.analysis_parameter_name_to_loinc_mapping;
+create table :schema.analysis_parameter_name_to_loinc_mapping
+(	analysis_name text,
+	parameter_name text,
+	t_lyhend text,
+	loinc_code text,
+	substrate text,
+	evidence text
+);
+reset role;
+
+set search_path to :schema;
+\copy analysis_parameter_name_to_loinc_mapping from  ../data/analysis_parameter_name_to_loinc_mapping.csv with (delimiter ',', format csv, header);
+
+
+
+drop table if exists :schema.analysis_parameter_name_unit_to_loinc_mapping;
+create table :schema.analysis_parameter_name_unit_to_loinc_mapping
+(	analysis_name text,
+	parameter_name text,
+	parameter_unit text,
+	t_lyhend text,
+	loinc_code text,
+	substrate text,
+	evidence text
+);
+reset role;
+
+set search_path to :schema;
+\copy analysis_parameter_name_unit_to_loinc_mapping from  ../data/analysis_parameter_name_unit_to_loinc_mapping.csv with (delimiter ',', format csv, header);
+
+
+

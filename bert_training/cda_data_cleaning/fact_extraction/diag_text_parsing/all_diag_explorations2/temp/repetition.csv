@@ -1,0 +1,387 @@
+,0,1,2
+0,"Kliiniliselt
+kliiniliselt",A00-B99,36
+1,"Diffuusne
+diffuusne",L00-L99,22
+2,"Näol
+näol",L00-L99,18
+3,"Autoimmuunne tür[e]oidiit; hüpotüreoos
+hüpotüreoos",E00-E90,16
+4,"Raskekujuline
+raskekujuline",G00-G99,14
+5,"Oc.utr.
+oc.utr.",Z00-Z99,12
+6,"Köhavariantne
+köhavariantne",J00-J99,10
+7,"Sin.
+sin.",H60-H95,9
+8,"Kahtlus
+kahtlus",J00-J99,9
+9,"Kahtlus
+kahtlus",G00-G99,7
+10,"Oc.utr.
+oc.utr.",H00-H59,7
+11,"L-Thyroxinravil
+L-Thyroxinravil",E00-E90,6
+12,"Silmasisese e intraokulaarse läätse olemasolu; OD
+OD",Z00-Z99,6
+13,"Od
+od",H00-H59,5
+14,"Opereeritud
+opereeritud",I00-I99,5
+15,"Tablettravil
+tablettravil",E00-E90,5
+16,"Kätel
+kätel",L00-L99,5
+17,"2006a
+2006a",I00-I99,5
+18,"Pedum
+pedum",L00-L99,5
+19,E pk pk pT2N0M0G3  I st.  IIb--IIIkl. gr- 1999.a.,C00-D48,4
+20,"Peanahk
+peanahk",L00-L99,4
+21,"Algav seniilkatarakt; OU
+OU",H00-H59,4
+22,"Metformiinravil 
+metformiinravil",E00-E90,4
+23,"Remissioonis
+remissioonis",M00-M99,3
+24,"Dysplasticus
+dysplasticus",C00-D48,3
+25,"Algav seniilkatarakt; OD
+OD",H00-H59,3
+26,"Nimmeosas
+nimmeosas",M00-M99,3
+27,"Koormusindutseeritav
+koormusindutseeritav",J00-J99,3
+28,"Oc.sin.
+oc.sin.",H00-H59,3
+29,"Dex.
+dex.",H60-H95,3
+30,"Remissioonis
+remissioonis",L00-L99,3
+31,"Seniilne nukleaarkatarakt e tuumakae; od
+od",H00-H59,3
+32,"Paroksüsmaalne
+paroksüsmaalne",I00-I99,3
+33,"Kahtlus
+kahtlus",M00-M99,3
+34,"Vasakul
+vasakul",J00-J99,3
+35,"I healoomuline kasvaja; mikroprolaktinoom
+mikroprolaktinoom",None,3
+36,"Insuliinravil
+insuliinravil",E00-E90,3
+37,"Capitis
+capitis",L00-L99,3
+38,"Kerge
+kerge",G00-G99,3
+39,"Algav seniilkatarakt; os
+os",H00-H59,3
+40,"Oc.dex.
+oc.dex.",H00-H59,3
+41,"Oc.sin.
+oc.sin.",Z00-Z99,3
+42,"Dekompensatsioon
+dekompensatsioon",I00-I99,2
+43,"Krooniline
+krooniline",D50-D89,2
+44,"Mõlemapoolne
+mõlemapoolne",H60-H95,2
+45,"KMI-34
+KMI-34",E00-E90,2
+46,"Kesksagaras
+kesksagaras",J00-J99,2
+47,"Jalal
+jalal",L00-L99,2
+48,? ?,H60-H95,2
+49,"Kehatüvel
+kehatüvel",L00-L99,2
+50,"MODY2
+MODY2",E00-E90,2
+51,"Kahtlus
+kahtlus",I00-I99,2
+52,"Os
+os",H00-H59,2
+53,"Permanentne
+permanentne",I00-I99,2
+54,"Jalgadel
+jalgadel",A00-B99,2
+55,"Oc.dex.
+oc.dex.",Z00-Z99,2
+56,"Silmasisese e intraokulaarse läätse olemasolu; OS
+OS",Z00-Z99,2
+57,"Ninaneelunohu
+ninaneelunohu",J00-J99,2
+58,"Osteopeenia
+osteopeenia",M00-M99,2
+59,"Metformiinravil
+metformiinravil",E00-E90,2
+60,"Paremal
+paremal",M00-M99,2
+61,"Basalioma?
+Basalioma?",L00-L99,2
+62,"Kahtlus
+kahtlus",K00-K93,2
+63,"Huultel
+huultel",L00-L99,2
+64,"Nägu
+nägu",L00-L99,2
+65,"Munajuharasedus; paremal
+paremal",O00-O99,1
+66,"Muud antiepileptikumid ja sedatiiv-hüpnootilised ravimid; DRESS-sündroom
+DRESS-sündroom",S00-T98,1
+67,"Kõhukeelme vaagnaosa endometrioos
+i I aste",N00-N99,1
+68,Muud täpsustatud peavalusündroomid  . .,G00-G99,1
+69,"Liitneevus
+liitneevus",C00-D48,1
+70,"Täpsustamisel
+täpsustamisel",M00-M99,1
+71,"Keratokoonus; ou
+ou",H00-H59,1
+72,"Parempoolne 
+parempoolne",G00-G99,1
+73,"Kahtlus
+kahtlus",D50-D89,1
+74,"Vasemal
+vasemal",N00-N99,1
+75,"Os  . , võõrkeha korneas e silma sarvkestas",S00-T98,1
+76,"Kliiniliselt
+kliiniliselt",L00-L99,1
+77,"Teleangiektaasiad
+teleangiektaasiad",L00-L99,1
+78,Os  os,H00-H59,1
+79,"Prolactinoma
+Prolactinoma",E00-E90,1
+80,"Skrootumil
+skrootumil",L00-L99,1
+81,"Paremal
+paremal",Q00-Q99,1
+82,"Yasminelle
+Yasminelle",Z00-Z99,1
+83,"Seniilne nukleaarkatarakt e tuumakae; ou
+ou",H00-H59,1
+84,"Vasakule
+vasakule",J00-J99,1
+85,"Opereeritud
+opereeritud",E00-E90,1
+86,"Manuum
+manuum",L00-L99,1
+87,"Od .  , võõrkeha korneas e silma sarvkestas",S00-T98,1
+88,"Dex
+dex",N00-N99,1
+89,"Autoimmuunne tür[e]oidiit; sõlmelisus
+sõlmelisus",E00-E90,1
+90,"Tsütoloogiliste leidude hälbed; ASC-H 
+ASC-H",R00-R99,1
+91,"Õhupuudustunne
+õhupuudustunne",Z00-Z99,1
+92,"KMI-39
+KMI-39",E00-E90,1
+93,"Ostiofolliculitis
+ostiofolliculitis",L00-L99,1
+94,"Ou
+ou",H00-H59,1
+95,Od  Hypertensio ? ?,H00-H59,1
+96,"Sin
+sin",N00-N99,1
+97,"Immuuntrombotsütopeenia
+Immuuntrombotsütopeenia",D50-D89,1
+98,"Dex. II st. Occlusio a. fem. sup dex.
+dex. II st. Occlusio a. fem. sup dex.",I00-I99,1
+99,"Kahtlus
+kahtlus",Q00-Q99,1
+100,"Tür[e]otoksikoos difuusse struumaga; remissioonifaas
+remissioonifaas",E00-E90,1
+101,"Läbipõetud
+läbipõetud",I00-I99,1
+102,"10+1
+10+1",Z00-Z99,1
+103,"Jatrogeenne
+jatrogeenne",L00-L99,1
+104,"Intermiteeruv
+Intermiteeruv",J00-J99,1
+105,"Od  . , võõrkeha korneas e silma sarvkestas",S00-T98,1
+106,"Düsbakterioos
+düsbakterioos",R00-R99,1
+107,"Bilateralis
+Bilateralis",M00-M99,1
+108,"Hüperinsulineemia
+hüperinsulineemia",E00-E90,1
+109,"Rhinophyma
+rhinophyma",L00-L99,1
+110,"1.remissioon
+1.remissioon",C00-D48,1
+111,"E healoomuline kasvaja; polüüp
+polüüp",None,1
+112,"Ekseem
+ekseem",L00-L99,1
+113,"Od .  , palp.sup. et inf.",H00-H59,1
+114,"Sinineevus
+sinineevus",C00-D48,1
+115,"Odex
+odex",H00-H59,1
+116,"Võrkkestairdeta rebendid; OD
+OD",H00-H59,1
+117,"Sin.
+sin.",N00-N99,1
+118,"Jälgimisel
+jälgimisel",J00-J99,1
+119,"Remissioonis
+remissioonis",C00-D48,1
+120,"Genitaalidel
+genitaalidel",L00-L99,1
+121,"Vasempoolne
+vasempoolne",H60-H95,1
+122,"Sin
+sin",H60-H95,1
+123,"Dex
+dex",H60-H95,1
+124,"Sarvkestasiiriku seisund; ou
+ou",Z00-Z99,1
+125,"Sicca
+sicca",L00-L99,1
+126,"Kutseastma
+kutseastma",J00-J99,1
+127,"Os  . , võõrkeha konjunktiivikotis",S00-T98,1
+128,".
+.",Z00-Z99,1
+129,"SIN>DEX
+SIN>DEX",M00-M99,1
+130,"Kapsulaarne läätse pseudoeksfoliatsiooniga (esmane; residuaal- e) jääkglaukoom; od
+od",H00-H59,1
+131,"Remissioonis.
+Remissioonis.",M00-M99,1
+132,"Peopesad-tallad
+peopesad-tallad",L00-L99,1
+133,"Aspiraatorravil
+aspiraatorravil",J00-J99,1
+134,"Bilat
+bilat",H60-H95,1
+135,"Persist.
+persist.",I00-I99,1
+136,"Steroiddiabeet
+steroiddiabeet",E00-E90,1
+137,"Krooniline. Krooniline polüartriit, akt f I, liigesfunktsiooni puudulikkus I-II.",M00-M99,1
+138,"Bilateralis
+bilateralis",N00-N99,1
+139,"Opereeritud
+opereeritud",C00-D48,1
+140,"Vasakpoolne
+Vasakpoolne",J00-J99,1
+141,"Dermoidtsüst
+dermoidtsüst",C00-D48,1
+142,"Fikseerunud
+fikseerunud",I00-I99,1
+143,"2004
+2004",Z00-Z99,1
+144,"ICD-DDDR
+ICD-DDDR",Z00-Z99,1
+145,"Antikoagulantide (käesolev) pikaajaline kasutamine anamneesis
+anamneesis KATE",Z00-Z99,1
+146,"2004
+2004",I00-I99,1
+147,"Sadulemakas
+sadulemakas",O00-O99,1
+148,"KMI-31
+KMI-31",E00-E90,1
+149,"Od
+od",Z00-Z99,1
+150,"YAZ
+YAZ",Z00-Z99,1
+151,"Muu sarvkestaturse; os
+os",H00-H59,1
+152,"Vasakpoolne
+vasakpoolne",N00-N99,1
+153,"Parem
+parem",J00-J99,1
+154,"Võrkkestairdeta rebendid; OS
+OS",H00-H59,1
+155,"Raske
+raske",G00-G99,1
+156,"Peanahal
+peanahal",C00-D48,1
+157,Os os,Z00-Z99,1
+158,Müelopathia cervicalis ex lymphomae reg. cervicalis st. post post extrapathionem lymphormata reg. cervicalis C5-Th3.,G00-G99,1
+159,-  - a. poplitead bilat 43-  45%  sulgunud.,I00-I99,1
+160,"Mõõdukas tupedüsplaasia; VIN2
+VIN2",N00-N99,1
+161,"KMI-36,5
+KMI-36,5",E00-E90,1
+162,"Kerge
+kerge",M00-M99,1
+163,"Paranev
+Paranev",H60-H95,1
+164,"Asümp.bakteriuuria
+asümp.bakteriuuria",O00-O99,1
+165,"Bilat
+bilat",J00-J99,1
+166,"Angioma
+angioma",I00-I99,1
+167,"1998
+1998",I00-I99,1
+168,Gr. gr.,L00-L99,1
+169,"Sinistra
+sinistra",H60-H95,1
+170,"Komplikaatkatarakt e tüsistunud kae; OD
+OD",H00-H59,1
+171,"Osteokondroos
+osteokondroos",M00-M99,1
+172,"Antikoagulantide (käesolev) pikaajaline kasutamine anamneesis; Xarelto
+Xarelto",Z00-Z99,1
+173,"Ristluu-õndraluu mujal klassifitseerimata haigusseisundid; Coccygodynia
+Coccygodynia",M00-M99,1
+174,Müelopathia cervicalis ex lymphomae reg. cervicalis st. post post extrapathionem ly,G00-G99,1
+175,"Anamneesis
+anamneesis",I00-I99,1
+176,"Randmeliigesed
+randmeliigesed",M00-M99,1
+177,"Võrkkestairre koos –rebendiga; os
+os",H00-H59,1
+178,"Bilateraalne
+bilateraalne",I00-I99,1
+179,"Dieetravi
+Dieetravi",O00-O99,1
+180,"Allergiline?
+allergiline?",L00-L99,1
+181,"Asendusravil
+asendusravil",E00-E90,1
+182,"Vasakul
+vasakul",H60-H95,1
+183,"Müoopia e lühinägevus; od
+od",H00-H59,1
+184,"Hüpermetroopia e kaugelenägevus; os
+os",H00-H59,1
+185,"Sage
+sage",G00-G99,1
+186,"2012
+2012",I00-I99,1
+187,"Silmalaul
+silmalaul",L00-L99,1
+188,I I NYHA,I00-I99,1
+189,"Silmalau, k.a silmanurga nahk; os
+os",C00-D48,1
+190,"Difuusne idiopaatiline skeleti hüperostoos [DISH]; kahtlus
+kahtlus",M00-M99,1
+191,"Voltides
+voltides",L00-L99,1
+192,"Makuladruusid (degeneratiivsed); od
+od",H00-H59,1
+193,"Os
+os",Z00-Z99,1
+194,"PTKA+STENT  A4-A1 04 04 2010A,,PTKA+STENT A6-A1 07 04 2010a",Z00-Z99,1
+195,"Opereeritud
+opereeritud",J00-J99,1
+196,"Ureaplasmoos
+ureaplasmoos",A00-B99,1
+197,"Kaelaosas
+kaelaosas",M00-M99,1
+198,"Säärtel
+säärtel",L00-L99,1
+199,Peaajuinfarkt. Peaajuinfarkt (pea)ajuarterite emboolia tõttu,I00-I99,1
+200,"Kutsetolmustus
+kutsetolmustus",J00-J99,1
+201,Gr. gr. l/s,M00-M99,1
+202,"Kaubanduse ja teeninduse piirkond, muu täpsustatud tegevusega; fluerestseiin angiograafia uuringu järgselt, joodi mitte sisaldav fluerestseiin
+fluerestseiin angiograafia uuringu järgselt, joodi mitte sisaldav fluerestseiin",None,1

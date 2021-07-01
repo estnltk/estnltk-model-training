@@ -1,0 +1,17 @@
+exact_dirty_code;dirty_code_regex;loinc_code(T luhend);comment;
+hgb;;b-hb;"PERH uses HGB as Anal��si nimetus http://www.kliinikum.ee/yhendlabor/labor/index.php?mod=laborindeks_link&id=932Also, reference range(N:120-160; M:130-180 g/l) is close to a range (male: 14-18 g/dl female: 12-16 g/dl) given here(https://loinc.org/meetings/20100607/files/handout-meaningful-use-2010-incorporates-loinc-lab-test.pdf, page 9)";
+;p-lcr;b-lcr;P-LCR as Analuusi nimetus http://www.kliinikum.ee/yhendlabor/labor/index.php?mod=indeks_view&id=37;
+lym#;;b-lymph#;All LYM%,# come from PERH, according to a link(http://www.kliinikum.ee/yhendlabor/labor/index.php?mod=laborindeks_list&id=4&filter=control) PERH makes two types of lym-analyses: lymph and L�mfots��tid, but the last one only for percent, so I think that LYM from dirty analysis corresponds to LYMPH;
+lym%;;b-lymph%;See above;
+fs-crea(kreatiniin);;s,p-crea;There are no fS,fP-Crea among Loincs' codes.;
+fs-urea(uurea);;s,p-Urea;There are no fS,fP-Urea among Loincs' codes.;
+vb-cbc-2;;b-cbc;Gut feeling, in any case after parising HTML this vB-CBC-2 will be replaced by other analyses;?
+b1-cbc;;b-cbc;see above;?
+tsh/tureotropiin;;s,p-tsh;"T�reotropiin is a component of analysis, reference range is the same as
+http://synlab.ee/arstile/laboriteatmik/tulemuste-interpretatsioonid/immuunuuringud/tureotropiin-ehk-kilpnaaret-stimuleeriv-hormoon-s-tsh/";
+cb-gluc-p;;fcb-gluc;There is only one Gl�koos kapillaarses among loinc's codes and probably p means paastuveres;
+cb-gluco-p;;fcb-gluc;see above;
+s-alt;;s,p-alat;"display name from dirty analysis DB contains 'Alaniini aminotransferaas', which corresponds to ALAT.Also, some labs use ALT as anal��si nimetus: http://www.kliinikum.ee/yhendlabor/labor/index.php?mod=laborindeks_link&id=10232";
+s-ast;;s,p-asat;display name from dirty analysis contains 'Aspartaadi aminotransferaas' which correspondes to ASAT;
+;(s|p)-hdl;s,p-hdl-chol;display name from dirty analysis contains 'K�rge tihedusega lipoproteiini kolesterool';
+;(s|p)-ldl;s,p-ldl-chol;display name from dirty analysis contains 'Madala tihedusega lipoproteiini kolesterool';

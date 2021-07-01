@@ -1,0 +1,1089 @@
+,analysis_name,analysis_substrate,parameter_code,parameter_name,unit,count,System,Pleural,Pericardial,SerPla,VenoseBlood,CapillaryBlood,ArterialBlood,CSF,Blood,Plasma,Serum,Urine
+39,Histoloogia,nan,U-Barbarbituraadiduriinis,Diagnoos 1,,3,,False,False,False,False,False,False,False,False,False,False,True
+163,Histoloogia,nan,U-Kusih.kr.Kusihappekristallid,Arhiivi number,,6,,False,False,False,False,False,False,False,False,False,False,True
+165,Hematoloogilised uuringud,nan,U-Myc,RDW%,,9,,False,False,False,False,False,False,False,False,False,False,True
+229,Hematoloogilised uuringud,nan,U-Lepn,RDW%,,5,,False,False,False,False,False,False,False,False,False,False,True
+448,Hematoloogilised uuringud,nan,U-Uu/Up-PCR,RDW%,,4,,False,False,False,False,False,False,False,False,False,False,True
+453,Histoloogia,nan,U-ProtValkkvantitatiivselt,Diagnoos 1,,444,,False,False,False,False,False,False,False,False,False,False,True
+573,Histoloogia,nan,U-RBCErütrotsüüdid,Kirjeldus,,1483,,False,False,False,False,False,False,False,False,False,False,True
+582,Histoloogia,nan,U-Ctr-PCR,Arhiivi number,,22,,False,False,False,False,False,False,False,False,False,False,True
+606,Histoloogia,nan,U-ProtValkuriinis,Arhiivi number,,17,,False,False,False,False,False,False,False,False,False,False,True
+729,Hematoloogilised uuringud,nan,U-Metmetamfetamiinuriinis,RDW%,,5,,False,False,False,False,False,False,False,False,False,False,True
+843,Histoloogia,nan,U-Strepn,Diagnoos 1,,7,,False,False,False,False,False,False,False,False,False,False,True
+848,Histoloogia,nan,dU-M1M-komponent1uriinis,Lokatsioon,,4,,False,False,False,False,False,False,False,False,False,False,True
+897,Histoloogia,nan,dU-5-HIAA,Diagnoos 1,,2,,False,False,False,False,False,False,False,False,False,False,True
+899,Histoloogia,nan,U-Trva-PCR,Arhiivi number,,12,,False,False,False,False,False,False,False,False,False,False,True
+987,Hematoloogilised uuringud,nan,U-PPXpropoksüfeenuriinis,PLCR,,8,,False,False,False,False,False,False,False,False,False,False,True
+1039,Histoloogia,nan,U-METmetamfetamiinuriinis,Lokatsioon,,18,,False,False,False,False,False,False,False,False,False,False,True
+1130,Hematoloogilised uuringud,nan,U-Alb-elAlbumiinid(elektroforeesil),PLCR,,2,,False,False,False,False,False,False,False,False,False,False,True
+1138,Hematoloogilised uuringud,nan,U-Fylfentanüüluriinis,PLCR,,10,,False,False,False,False,False,False,False,False,False,False,True
+1216,Histoloogia,nan,dU-Prot-FrUriinivalkudeelektroforees,Diagnoos 1,,8,,False,False,False,False,False,False,False,False,False,False,True
+1225,Hematoloogilised uuringud,nan,U-CotKotiniinuriiniskvalitatiivne,PLCR,,1,,False,False,False,False,False,False,False,False,False,False,True
+1230,Histoloogia,nan,U-Sed-m.,Kirjeldus,,653,,False,False,False,False,False,False,False,False,False,False,True
+1286,Hematoloogilised uuringud,nan,U-DALA,RDW%,,3,,False,False,False,False,False,False,False,False,False,False,True
+1299,Histoloogia,nan,dU-Prot,Lokatsioon,,66,,False,False,False,False,False,False,False,False,False,False,True
+1346,Histoloogia,nan,U-AlbAlbumiinuriinis,Kirjeldus,,106,,False,False,False,False,False,False,False,False,False,False,True
+1348,Histoloogia,nan,U-TCAtritsükloantidepressandiduriinis,Arhiivi number,,11,,False,False,False,False,False,False,False,False,False,False,True
+1372,Histoloogia,nan,U-Bupr,Kirjeldus,,1,,False,False,False,False,False,False,False,False,False,False,True
+1408,Histoloogia,nan,U-Strepn,Arhiivi number,,7,,False,False,False,False,False,False,False,False,False,False,True
+1433,Histoloogia,nan,U-Ca.fos.krKaltsiumfosfaadikristallid,Diagnoos 1,,3,,False,False,False,False,False,False,False,False,False,False,True
+1458,Hematoloogilised uuringud,nan,U-uriini_autom._sademega,RDW%,,339,,False,False,False,False,False,False,False,False,False,False,True
+1471,Histoloogia,nan,U-Uu+Up-PCR,Lokatsioon,,6,,False,False,False,False,False,False,False,False,False,False,True
+1505,Hematoloogilised uuringud,nan,U-Mh-PCR,RDW%,,21,,False,False,False,False,False,False,False,False,False,False,True
+1527,Histoloogia,nan,U-Albumiin,Arhiivi number,,1,,False,False,False,False,False,False,False,False,False,False,True
+1569,Histoloogia,nan,U-KetKetokehad,Lokatsioon,,1483,,False,False,False,False,False,False,False,False,False,False,True
+1679,Histoloogia,nan,U-BilBilirubiin,Lokatsioon,,1484,,False,False,False,False,False,False,False,False,False,False,True
+1698,Histoloogia,nan,U-Alb-elAlbumiinid(elektroforeesil),Lokatsioon,,2,,False,False,False,False,False,False,False,False,False,False,True
+1832,Histoloogia,nan,U-S-Crea-Cmõõdetav(kretiniinikliirens),Kirjeldus,,13,,False,False,False,False,False,False,False,False,False,False,True
+1846,Histoloogia,nan,dU-PBGPorfobilinogeenööpäevasesuriinis,Diagnoos 1,,1,,False,False,False,False,False,False,False,False,False,False,True
+1872,Histoloogia,nan,U-Gva-PCR,Lokatsioon,,2,,False,False,False,False,False,False,False,False,False,False,True
+1940,Histoloogia,nan,dU-M1M-komponent1uriinis,Diagnoos 1,,4,,False,False,False,False,False,False,False,False,False,False,True
+1989,Histoloogia,nan,dU-Prot_,Lokatsioon,,3,,False,False,False,False,False,False,False,False,False,False,True
+2068,Hematoloogilised uuringud,nan,U-GlukGlükoosjuhuslikusuriinis,RDW%,,61,,False,False,False,False,False,False,False,False,False,False,True
+2078,Histoloogia,nan,dU-CreatKreatiniinööpäevasesuriinis,Arhiivi number,,7,,False,False,False,False,False,False,False,False,False,False,True
+2079,Histoloogia,nan,U-Gluc,Kirjeldus,,177,,False,False,False,False,False,False,False,False,False,False,True
+2092,Histoloogia,nan,U-UbgUrobilinogeen,Arhiivi number,,1488,,False,False,False,False,False,False,False,False,False,False,True
+2113,Histoloogia,nan,U-Bil.krBilirubiinikristallid,Lokatsioon,,1,,False,False,False,False,False,False,False,False,False,False,True
+2121,Histoloogia,nan,U-Uricult,Diagnoos 1,,183,,False,False,False,False,False,False,False,False,False,False,True
+2148,Hematoloogilised uuringud,nan,U-amyl,RDW%,,3,,False,False,False,False,False,False,False,False,False,False,True
+2298,Histoloogia,nan,U-OsmolOsmolaalsusuriinis,Lokatsioon,,4,,False,False,False,False,False,False,False,False,False,False,True
+2312,Histoloogia,nan,U-Cockokaiinuriinis,Arhiivi number,,3,,False,False,False,False,False,False,False,False,False,False,True
+2411,Histoloogia,nan,dU-Alb,Diagnoos 1,,6,,False,False,False,False,False,False,False,False,False,False,True
+2419,Histoloogia,nan,U-_Gluc_suhkur,Lokatsioon,,2,,False,False,False,False,False,False,False,False,False,False,True
+2428,Histoloogia,nan,U-KetKetokehad,Arhiivi number,,1483,,False,False,False,False,False,False,False,False,False,False,True
+2452,Hematoloogilised uuringud,nan,U-Bupr,RDW%,,1,,False,False,False,False,False,False,False,False,False,False,True
+2471,Hematoloogilised uuringud,nan,U-Sed-m,RDW%,,6752,,False,False,False,False,False,False,False,False,False,False,True
+2535,Histoloogia,nan,dU-NaNaatriumööpäevasesuriinis,Diagnoos 1,,4,,False,False,False,False,False,False,False,False,False,False,True
+2557,Hematoloogilised uuringud,nan,dU-KKaaliumööpäevasesuriinis,RDW%,,4,,False,False,False,False,False,False,False,False,False,False,True
+2567,Hematoloogilised uuringud,nan,U-Ngo-PCR,RDW%,,10,,False,False,False,False,False,False,False,False,False,False,True
+2586,Hematoloogilised uuringud,nan,U-ProtValkuriinis(elektroforees),RDW%,,1,,False,False,False,False,False,False,False,False,False,False,True
+2590,Histoloogia,nan,dU-ProtValk,Lokatsioon,,25,,False,False,False,False,False,False,False,False,False,False,True
+2591,Histoloogia,nan,U-amyl,Diagnoos 1,,3,,False,False,False,False,False,False,False,False,False,False,True
+2661,Histoloogia,nan,dU-ALBAlbumiinööpäevasesuriinis,Kirjeldus,,6,,False,False,False,False,False,False,False,False,False,False,True
+2692,Hematoloogilised uuringud,nan,dU-AlbAlbumiinööpäevasesuriinis,PLCR,,24,,False,False,False,False,False,False,False,False,False,False,True
+2791,Histoloogia,nan,U-amyl,Lokatsioon,,3,,False,False,False,False,False,False,False,False,False,False,True
+2876,Histoloogia,nan,U-Bupr,Arhiivi number,,1,,False,False,False,False,False,False,False,False,False,False,True
+2928,Histoloogia,nan,U-Mopopiaadiduriinis,Kirjeldus,,2,,False,False,False,False,False,False,False,False,False,False,True
+2956,Histoloogia,nan,U-M1M-komponent1uriinis,Arhiivi number,,1,,False,False,False,False,False,False,False,False,False,False,True
+3045,Histoloogia,nan,U-Sedim-m,Kirjeldus,,6,,False,False,False,False,False,False,False,False,False,False,True
+3121,Hematoloogilised uuringud,nan,U-ColVärvus,RDW%,,1476,,False,False,False,False,False,False,False,False,False,False,True
+3199,Histoloogia,nan,U-Ampnegamfetamiinjatemaderivaadiduriinis,Diagnoos 1,,23,,False,False,False,False,False,False,False,False,False,False,True
+3209,Histoloogia,nan,U-Sed-m,Arhiivi number,,6752,,False,False,False,False,False,False,False,False,False,False,True
+3228,Histoloogia,nan,U-PBGPorfobilinogeenuriinis,Kirjeldus,,3,,False,False,False,False,False,False,False,False,False,False,True
+3235,Hematoloogilised uuringud,nan,U-M.alb.,PLCR,,1,,False,False,False,False,False,False,False,False,False,False,True
+3313,Hematoloogilised uuringud,nan,U-AmylPAmülaasipankreasefraktsioonuriinis,PLCR,,2,,False,False,False,False,False,False,False,False,False,False,True
+3345,Hematoloogilised uuringud,nan,U-Barbarbituraadiduriinis,PLCR,,3,,False,False,False,False,False,False,False,False,False,False,True
+3373,Histoloogia,nan,U-BilBilirubiin,Arhiivi number,,1484,,False,False,False,False,False,False,False,False,False,False,True
+3464,Histoloogia,nan,U-Gluc,Arhiivi number,,177,,False,False,False,False,False,False,False,False,False,False,True
+3490,Histoloogia,nan,dU-Ca,Lokatsioon,,6,,False,False,False,False,False,False,False,False,False,False,True
+3510,Histoloogia,nan,U-Uu+Up-PCR,Arhiivi number,,6,,False,False,False,False,False,False,False,False,False,False,True
+3604,Hematoloogilised uuringud,nan,U-OXYoksükodoonuriinis,PLCR,,9,,False,False,False,False,False,False,False,False,False,False,True
+3640,Histoloogia,nan,U-Ca.fos.krKaltsiumfosfaadikristallid,Lokatsioon,,3,,False,False,False,False,False,False,False,False,False,False,True
+3676,Hematoloogilised uuringud,nan,U-sedim-suprav,PLCR,,305,,False,False,False,False,False,False,False,False,False,False,True
+3718,Histoloogia,nan,U-Ng-PCR,Lokatsioon,,4,,False,False,False,False,False,False,False,False,False,False,True
+3799,Histoloogia,nan,U-OsmolOsmolaalsusuriinis,Arhiivi number,,4,,False,False,False,False,False,False,False,False,False,False,True
+3899,Hematoloogilised uuringud,nan,U-uriini_valgu_ja_sademega,RDW%,,256,,False,False,False,False,False,False,False,False,False,False,True
+3920,Hematoloogilised uuringud,nan,U-Alb,RDW%,,34,,False,False,False,False,False,False,False,False,False,False,True
+3944,Hematoloogilised uuringud,nan,U-TCAtritsükloantidepressandiduriinis,PLCR,,11,,False,False,False,False,False,False,False,False,False,False,True
+3990,Histoloogia,nan,dU-MA,Kirjeldus,,28,,False,False,False,False,False,False,False,False,False,False,True
+4012,Histoloogia,nan,U-Ctr-PCR,Diagnoos 1,,22,,False,False,False,False,False,False,False,False,False,False,True
+4073,Histoloogia,nan,U-PPXpropoksüfeenuriinis,Arhiivi number,,8,,False,False,False,False,False,False,False,False,False,False,True
+4082,Histoloogia,nan,U-Bupr,Diagnoos 1,,1,,False,False,False,False,False,False,False,False,False,False,True
+4086,Histoloogia,nan,U-Prot-FrUriinivalkudeelektroforees,Lokatsioon,,5,,False,False,False,False,False,False,False,False,False,False,True
+4092,Histoloogia,nan,dU-ProtValkööpäevasesuriinis,Kirjeldus,,82,,False,False,False,False,False,False,False,False,False,False,True
+4094,Histoloogia,nan,U-Alb,Kirjeldus,,34,,False,False,False,False,False,False,False,False,False,False,True
+4115,Histoloogia,nan,U-Bil.krBilirubiinikristallid,Kirjeldus,,1,,False,False,False,False,False,False,False,False,False,False,True
+4183,Histoloogia,nan,U-Sed-m.,Diagnoos 1,,653,,False,False,False,False,False,False,False,False,False,False,True
+4264,Histoloogia,nan,U-Amylaas,Kirjeldus,,15,,False,False,False,False,False,False,False,False,False,False,True
+4296,Histoloogia,nan,dU-Cort,Lokatsioon,,1,,False,False,False,False,False,False,False,False,False,False,True
+4316,Histoloogia,nan,U-Fylfentanüüluriinis,Diagnoos 1,,10,,False,False,False,False,False,False,False,False,False,False,True
+4380,Histoloogia,nan,dU-Cu,Kirjeldus,,1,,False,False,False,False,False,False,False,False,False,False,True
+4405,Histoloogia,nan,U-_uriini_suhkur,Kirjeldus,,2,,False,False,False,False,False,False,False,False,False,False,True
+4450,Hematoloogilised uuringud,nan,U-PBGPorfobilinogeenuriinis,RDW%,,3,,False,False,False,False,False,False,False,False,False,False,True
+4509,Histoloogia,nan,U-uriini_automaat_uriinivalguga,Lokatsioon,,57,,False,False,False,False,False,False,False,False,False,False,True
+4547,Histoloogia,nan,dU-CreatKreatiniinööpäevasesuriinis,Kirjeldus,,7,,False,False,False,False,False,False,False,False,False,False,True
+4563,Histoloogia,nan,U-Alb/U-Crea,Lokatsioon,,416,,False,False,False,False,False,False,False,False,False,False,True
+4577,Hematoloogilised uuringud,nan,dU-Prot-FrUriinivalkudeelektroforees,RDW%,,8,,False,False,False,False,False,False,False,False,False,False,True
+4581,Histoloogia,nan,dU-DALA,Lokatsioon,,4,,False,False,False,False,False,False,False,False,False,False,True
+4620,Histoloogia,nan,U-METmetamfetamiinuriinis,Kirjeldus,,18,,False,False,False,False,False,False,False,False,False,False,True
+4647,Histoloogia,nan,U-Narco,Lokatsioon,,69,,False,False,False,False,False,False,False,False,False,False,True
+4655,Histoloogia,nan,U-Alb/glAlbumiinid/globuliiniduriinis,Arhiivi number,,1,,False,False,False,False,False,False,False,False,False,False,True
+4674,Histoloogia,nan,U-AmylPAmülaasipankreasefraktsioonuriinis,Kirjeldus,,2,,False,False,False,False,False,False,False,False,False,False,True
+4732,Histoloogia,nan,U-Amf.fos.kAmorfsefosfaadikristallid,Lokatsioon,,4,,False,False,False,False,False,False,False,False,False,False,True
+4776,Hematoloogilised uuringud,nan,U-Uricult,RDW%,,183,,False,False,False,False,False,False,False,False,False,False,True
+4802,Histoloogia,nan,U-AmylP/U-CreaPankr.amülaasijakreatiniinisuheuriinis,Diagnoos 1,,2,,False,False,False,False,False,False,False,False,False,False,True
+4861,Histoloogia,nan,dU-Crea,Diagnoos 1,,1,,False,False,False,False,False,False,False,False,False,False,True
+4929,Hematoloogilised uuringud,nan,U-Prot-FrUriinivalkudeelektroforees,RDW%,,5,,False,False,False,False,False,False,False,False,False,False,True
+4963,Histoloogia,nan,dU-MgMagneesiumööpäevasesuriinis,Diagnoos 1,,1,,False,False,False,False,False,False,False,False,False,False,True
+5033,Histoloogia,nan,U-UreaUureauriinis,Diagnoos 1,,1,,False,False,False,False,False,False,False,False,False,False,True
+5054,Histoloogia,nan,dU-AlbAlbumiinööpäevasesuriinis,Diagnoos 1,,24,,False,False,False,False,False,False,False,False,False,False,True
+5093,Histoloogia,nan,U-GlukGlükoosjuhuslikusuriinis,Arhiivi number,,61,,False,False,False,False,False,False,False,False,False,False,True
+5182,Hematoloogilised uuringud,nan,U-BZDbenzodiazepiinuriinis,PLCR,,13,,False,False,False,False,False,False,False,False,False,False,True
+5195,Hematoloogilised uuringud,nan,U-KetKetokehad,RDW%,,1483,,False,False,False,False,False,False,False,False,False,False,True
+5230,Hematoloogilised uuringud,nan,U-Bupr,PLCR,,1,,False,False,False,False,False,False,False,False,False,False,True
+5375,Histoloogia,nan,U-ProtValkuriinis(elektroforees),Diagnoos 1,,1,,False,False,False,False,False,False,False,False,False,False,True
+5434,Hematoloogilised uuringud,nan,U-Barbarbituraadiduriinis,RDW%,,3,,False,False,False,False,False,False,False,False,False,False,True
+5464,Histoloogia,nan,U-HPV-genotüüp-PCR,Kirjeldus,,1,,False,False,False,False,False,False,False,False,False,False,True
+5472,Hematoloogilised uuringud,nan,U-Sedim ,RDW%,,3,,False,False,False,False,False,False,False,False,False,False,True
+5504,Hematoloogilised uuringud,nan,U-Uu-PCR,RDW%,,20,,False,False,False,False,False,False,False,False,False,False,True
+5527,Histoloogia,nan,U-S-Crea-Cmõõdetav(kretiniinikliirens),Arhiivi number,,13,,False,False,False,False,False,False,False,False,False,False,True
+5541,Histoloogia,nan,U-f-kappa/lambda,Diagnoos 1,,15,,False,False,False,False,False,False,False,False,False,False,True
+5552,Histoloogia,nan,U-Prot_,Arhiivi number,,74,,False,False,False,False,False,False,False,False,False,False,True
+5591,Histoloogia,nan,U-Crea,Kirjeldus,,2,,False,False,False,False,False,False,False,False,False,False,True
+5616,Histoloogia,nan,U-ProtValkuriinis,Lokatsioon,,17,,False,False,False,False,False,False,False,False,False,False,True
+5643,Hematoloogilised uuringud,nan,U-Strepn,RDW%,,7,,False,False,False,False,False,False,False,False,False,False,True
+5821,Histoloogia,nan,dU-Alb-elAlbumiinid(elektroforeesil),Kirjeldus,,6,,False,False,False,False,False,False,False,False,False,False,True
+5899,Histoloogia,nan,U-Metmetamfetamiinuriinis,Diagnoos 1,,5,,False,False,False,False,False,False,False,False,False,False,True
+5937,Histoloogia,nan,U-Ca.oks.krKaltsiumoksalaadikristallid,Kirjeldus,,16,,False,False,False,False,False,False,False,False,False,False,True
+6016,Hematoloogilised uuringud,nan,dU-Kreat/Album,RDW%,,3,,False,False,False,False,False,False,False,False,False,False,True
+6042,Hematoloogilised uuringud,nan,U-uriini_valgu_ja_sademega,PLCR,,256,,False,False,False,False,False,False,False,False,False,False,True
+6051,Histoloogia,nan,dU-ALBAlbumiinööpäevasesuriinis,Lokatsioon,,6,,False,False,False,False,False,False,False,False,False,False,True
+6088,Histoloogia,nan,U-Metmetamfetamiinuriinis,Kirjeldus,,5,,False,False,False,False,False,False,False,False,False,False,True
+6089,Histoloogia,nan,U-AmylAmülaasuriinis,Diagnoos 1,,4,,False,False,False,False,False,False,False,False,False,False,True
+6090,Histoloogia,nan,U-Myc,Arhiivi number,,9,,False,False,False,False,False,False,False,False,False,False,True
+6142,Histoloogia,nan,U-Metmetamfetamiinuriinis,Arhiivi number,,5,,False,False,False,False,False,False,False,False,False,False,True
+6207,Histoloogia,nan,U-Mopopiaadiduriinis,Arhiivi number,,2,,False,False,False,False,False,False,False,False,False,False,True
+6280,Histoloogia,nan,U-BilBilirubiin,Diagnoos 1,,1484,,False,False,False,False,False,False,False,False,False,False,True
+6312,Histoloogia,nan,U-Ampnegamfetamiinjatemaderivaadiduriinis,Lokatsioon,,23,,False,False,False,False,False,False,False,False,False,False,True
+6316,Histoloogia,nan,U-Strip,Kirjeldus,,94919,,False,False,False,False,False,False,False,False,False,False,True
+6319,Histoloogia,nan,U-EtGlyetüleenglükooluriinis,Lokatsioon,,1,,False,False,False,False,False,False,False,False,False,False,True
+6350,Hematoloogilised uuringud,nan,U-Alb-2,RDW%,,7,,False,False,False,False,False,False,False,False,False,False,True
+6439,Hematoloogilised uuringud,nan,U-Prot_,RDW%,,74,,False,False,False,False,False,False,False,False,False,False,True
+6466,Hematoloogilised uuringud,nan,dU-Alb,RDW%,,6,,False,False,False,False,False,False,False,False,False,False,True
+6657,Histoloogia,nan,U-Uu+Up-PCR,Diagnoos 1,,6,,False,False,False,False,False,False,False,False,False,False,True
+6708,Histoloogia,nan,U-_Gluc_suhkur,Arhiivi number,,2,,False,False,False,False,False,False,False,False,False,False,True
+6736,Histoloogia,nan,U-N_gonorrhoeae_DNA,Lokatsioon,,6,,False,False,False,False,False,False,False,False,False,False,True
+6808,Hematoloogilised uuringud,nan,U-Myge-PCR,PLCR,,4,,False,False,False,False,False,False,False,False,False,False,True
+6813,Histoloogia,nan,dU-Alb-elAlbumiinid(elektroforeesil),Diagnoos 1,,6,,False,False,False,False,False,False,False,False,False,False,True
+6862,Hematoloogilised uuringud,nan,U-_Amyl,RDW%,,3,,False,False,False,False,False,False,False,False,False,False,True
+6900,Histoloogia,nan,dU-P,Arhiivi number,,4,,False,False,False,False,False,False,False,False,False,False,True
+7033,Hematoloogilised uuringud,nan,U-AmylP,RDW%,,2,,False,False,False,False,False,False,False,False,False,False,True
+7062,Hematoloogilised uuringud,nan,dU-CaKaltsiumööpäevasesuriinis,PLCR,,1,,False,False,False,False,False,False,False,False,False,False,True
+7142,Histoloogia,nan,U-Prot,Arhiivi number,,442,,False,False,False,False,False,False,False,False,False,False,True
+7162,Histoloogia,nan,U-Ecsecstasyuriinis,Lokatsioon,,18,,False,False,False,False,False,False,False,False,False,False,True
+7179,Histoloogia,nan,U-uriini_valgu_ja_sademega,Kirjeldus,,256,,False,False,False,False,False,False,False,False,False,False,True
+7218,Histoloogia,nan,U-Acetonatsetoonuriinis,Lokatsioon,,1,,False,False,False,False,False,False,False,False,False,False,True
+7222,Hematoloogilised uuringud,nan,U-Crea,RDW%,,2,,False,False,False,False,False,False,False,False,False,False,True
+7263,Histoloogia,nan,U-AlbAlbumiinuriinis,Arhiivi number,,106,,False,False,False,False,False,False,False,False,False,False,True
+7392,Histoloogia,nan,U-Ampamfetamiinjatemaderivaadiduriinis,Diagnoos 1,,1,,False,False,False,False,False,False,False,False,False,False,True
+7588,Hematoloogilised uuringud,nan,U-AmylAmülaasuriinis,RDW%,,4,,False,False,False,False,False,False,False,False,False,False,True
+7625,Hematoloogilised uuringud,nan,U-Ca.oks.krKaltsiumoksalaadikristallid,PLCR,,16,,False,False,False,False,False,False,False,False,False,False,True
+7653,Histoloogia,nan,U-uriini_autom,Kirjeldus,,902,,False,False,False,False,False,False,False,False,False,False,True
+7656,Hematoloogilised uuringud,nan,U-_Gluc_suhkur,PLCR,,2,,False,False,False,False,False,False,False,False,False,False,True
+7674,Histoloogia,nan,U-PorfPorfüriinid(uro-jakoproporfüriinid)uriinis,Lokatsioon,,3,,False,False,False,False,False,False,False,False,False,False,True
+7716,Hematoloogilised uuringud,nan,U-Mopopiaadiduriinis,PLCR,,2,,False,False,False,False,False,False,False,False,False,False,True
+7740,Histoloogia,nan,U-Myc,Lokatsioon,,9,,False,False,False,False,False,False,False,False,False,False,True
+7768,Histoloogia,nan,dU-OsmolOsmolaalsusööpäevasesuriinis,Kirjeldus,,2,,False,False,False,False,False,False,False,False,False,False,True
+7815,Histoloogia,nan,U-Bar,Diagnoos 1,,3,,False,False,False,False,False,False,False,False,False,False,True
+7856,Histoloogia,nan,U-Ngo-PCR,Arhiivi number,,10,,False,False,False,False,False,False,False,False,False,False,True
+7878,Histoloogia,nan,U-Metmetamfetamiinuriinis,Lokatsioon,,5,,False,False,False,False,False,False,False,False,False,False,True
+7914,Hematoloogilised uuringud,nan,dU-DALA-Delta-amiino-levuliinhapeööpäevasesuriinis,RDW%,,1,,False,False,False,False,False,False,False,False,False,False,True
+8033,Histoloogia,nan,U-SGErikaal,Kirjeldus,,1458,,False,False,False,False,False,False,False,False,False,False,True
+8066,Histoloogia,nan,U-Sedim ,Kirjeldus,,3,,False,False,False,False,False,False,False,False,False,False,True
+8130,Histoloogia,nan,U-Prot-FrUriinivalkudeelektroforees,Arhiivi number,,5,,False,False,False,False,False,False,False,False,False,False,True
+8137,Histoloogia,nan,U-ImmfixUriinivalkudeimmuunfiksatsioon,Arhiivi number,,1,,False,False,False,False,False,False,False,False,False,False,True
+8172,Histoloogia,nan,U-MeOHmetanooluriinis,Arhiivi number,,1,,False,False,False,False,False,False,False,False,False,False,True
+8296,Histoloogia,nan,U-Bzdbenzodiazepiinuriinis,Arhiivi number,,3,,False,False,False,False,False,False,False,False,False,False,True
+8298,Hematoloogilised uuringud,nan,dU-UreaUureaööpäevasesuriinis,PLCR,,27,,False,False,False,False,False,False,False,False,False,False,True
+8325,Hematoloogilised uuringud,nan,U-Mg-PCR,RDW%,,22,,False,False,False,False,False,False,False,False,False,False,True
+8396,Histoloogia,nan,dU-Catechol,Arhiivi number,,22,,False,False,False,False,False,False,False,False,False,False,True
+8469,Histoloogia,nan,U-Alb/U-CreaMikroalbuminuuria,Kirjeldus,,9,,False,False,False,False,False,False,False,False,False,False,True
+8515,Histoloogia,nan,U-Bar,Lokatsioon,,3,,False,False,False,False,False,False,False,False,False,False,True
+8539,Hematoloogilised uuringud,nan,U-Aer,PLCR,,50,,False,False,False,False,False,False,False,False,False,False,True
+8553,Histoloogia,nan,U-DALADelta-aminolevuliinhapeuriinis,Lokatsioon,,3,,False,False,False,False,False,False,False,False,False,False,True
+8559,Hematoloogilised uuringud,nan,U-WBCLeukotsüüdid,RDW%,,1487,,False,False,False,False,False,False,False,False,False,False,True
+8722,Histoloogia,nan,U-EtGlyetüleenglükooluriinis,Diagnoos 1,,1,,False,False,False,False,False,False,False,False,False,False,True
+8728,Hematoloogilised uuringud,nan,U-THCkannabinoididuriinis,PLCR,,23,,False,False,False,False,False,False,False,False,False,False,True
+8760,Histoloogia,nan,U-WBCLeukotsüüdid,Diagnoos 1,,1487,,False,False,False,False,False,False,False,False,False,False,True
+8769,Hematoloogilised uuringud,nan,U-BilBilirubiin,RDW%,,1484,,False,False,False,False,False,False,False,False,False,False,True
+8778,Histoloogia,nan,U-BZDbenzodiazepiinuriinis,Diagnoos 1,,13,,False,False,False,False,False,False,False,False,False,False,True
+8781,Histoloogia,nan,U-OsmolOsmolaalsusuriinis,Kirjeldus,,4,,False,False,False,False,False,False,False,False,False,False,True
+8853,Hematoloogilised uuringud,nan,U-Alb/U-Crea,PLCR,,252,,False,False,False,False,False,False,False,False,False,False,True
+8901,Hematoloogilised uuringud,nan,U-MeOHmetanooluriinis,PLCR,,1,,False,False,False,False,False,False,False,False,False,False,True
+8918,Histoloogia,nan,U-ProValk,Diagnoos 1,,1483,,False,False,False,False,False,False,False,False,False,False,True
+8947,Histoloogia,nan,U-OXYoksükodoonuriinis,Kirjeldus,,9,,False,False,False,False,False,False,False,False,False,False,True
+8973,Histoloogia,nan,dU-ProtValkööpäevasesuriinis,Arhiivi number,,82,,False,False,False,False,False,False,False,False,False,False,True
+8995,Histoloogia,nan,U-Amylaas,Arhiivi number,,15,,False,False,False,False,False,False,False,False,False,False,True
+9008,Histoloogia,nan,U-gam-glGammaglobuliiniduriinis,Kirjeldus,,3,,False,False,False,False,False,False,False,False,False,False,True
+9214,Histoloogia,nan,U-M1M-komponent1uriinis,Diagnoos 1,,1,,False,False,False,False,False,False,False,False,False,False,True
+9279,Histoloogia,nan,dU-UreaUureaööpäevasesuriinis,Arhiivi number,,27,,False,False,False,False,False,False,False,False,False,False,True
+9312,Hematoloogilised uuringud,nan,dU-M1M-komponent1uriinis,RDW%,,4,,False,False,False,False,False,False,False,False,False,False,True
+9320,Hematoloogilised uuringud,nan,U-KKaaliumuriinis,RDW%,,1,,False,False,False,False,False,False,False,False,False,False,True
+9326,Hematoloogilised uuringud,nan,dU-5-HIAA,RDW%,,2,,False,False,False,False,False,False,False,False,False,False,True
+9349,Histoloogia,nan,dU-DALA,Arhiivi number,,4,,False,False,False,False,False,False,False,False,False,False,True
+9387,Histoloogia,nan,U-Tbc-Bac,Lokatsioon,,13,,False,False,False,False,False,False,False,False,False,False,True
+9390,Histoloogia,nan,U-Amf.fos.kAmorfsefosfaadikristallid,Kirjeldus,,4,,False,False,False,False,False,False,False,False,False,False,True
+9420,Histoloogia,nan,U-uriini_automaat_uriinivalguga,Diagnoos 1,,57,,False,False,False,False,False,False,False,False,False,False,True
+9573,Hematoloogilised uuringud,nan,U-Alb-2,PLCR,,4,,False,False,False,False,False,False,False,False,False,False,True
+9598,Histoloogia,nan,U-uriini_autom,Diagnoos 1,,902,,False,False,False,False,False,False,False,False,False,False,True
+9607,Histoloogia,nan,dU-Catechol,Diagnoos 1,,22,,False,False,False,False,False,False,False,False,False,False,True
+9615,Histoloogia,nan,U-urilux,Diagnoos 1,,290,,False,False,False,False,False,False,False,False,False,False,True
+9622,Hematoloogilised uuringud,nan,U-Amyl,PLCR,,49,,False,False,False,False,False,False,False,False,False,False,True
+9671,Hematoloogilised uuringud,nan,U-Fylfentanüüluriinis,RDW%,,10,,False,False,False,False,False,False,False,False,False,False,True
+9770,Histoloogia,nan,dU-Cort,Arhiivi number,,1,,False,False,False,False,False,False,False,False,False,False,True
+9784,Histoloogia,nan,U-Ident,Lokatsioon,,23,,False,False,False,False,False,False,False,False,False,False,True
+9788,Hematoloogilised uuringud,nan,dU-MgMagneesiumööpäevasesuriinis,PLCR,,1,,False,False,False,False,False,False,False,False,False,False,True
+9810,Histoloogia,nan,dU-Kreat/Album,Arhiivi number,,3,,False,False,False,False,False,False,False,False,False,False,True
+9902,Histoloogia,nan,U-Prot_,Kirjeldus,,74,,False,False,False,False,False,False,False,False,False,False,True
+9927,Hematoloogilised uuringud,nan,U-CreaKreatiniin1.hommikusesuriinis,RDW%,,20,,False,False,False,False,False,False,False,False,False,False,True
+10014,Histoloogia,nan,dU-Alb,Lokatsioon,,6,,False,False,False,False,False,False,False,False,False,False,True
+10127,Histoloogia,nan,U-_Amyl,Lokatsioon,,3,,False,False,False,False,False,False,False,False,False,False,True
+10179,Histoloogia,nan,U-Strip,Lokatsioon,,94919,,False,False,False,False,False,False,False,False,False,False,True
+10184,Histoloogia,nan,U-Barbarbituraadiduriinis,Lokatsioon,,3,,False,False,False,False,False,False,False,False,False,False,True
+10209,Histoloogia,nan,U-urilux,Lokatsioon,,290,,False,False,False,False,False,False,False,False,False,False,True
+10303,Histoloogia,nan,U-Ca.fos.krKaltsiumfosfaadikristallid,Kirjeldus,,3,,False,False,False,False,False,False,False,False,False,False,True
+10394,Hematoloogilised uuringud,nan,U-Ident,RDW%,,23,,False,False,False,False,False,False,False,False,False,False,True
+10694,Hematoloogilised uuringud,nan,U-uriini_autom,RDW%,,902,,False,False,False,False,False,False,False,False,False,False,True
+10766,Histoloogia,nan,dU-Kreat/Album,Diagnoos 1,,3,,False,False,False,False,False,False,False,False,False,False,True
+10793,Histoloogia,nan,U-KetKetokehad,Diagnoos 1,,1483,,False,False,False,False,False,False,False,False,False,False,True
+10847,Histoloogia,nan,U-Amf.ur.krAmorfseuraadikristallid,Arhiivi number,,59,,False,False,False,False,False,False,False,False,False,False,True
+10868,Histoloogia,nan,dU-M1M-komponent1uriinis,Arhiivi number,,4,,False,False,False,False,False,False,False,False,False,False,True
+10931,Hematoloogilised uuringud,nan,U-Sedim ,PLCR,,1,,False,False,False,False,False,False,False,False,False,False,True
+11106,Histoloogia,nan,U-urilux,Arhiivi number,,290,,False,False,False,False,False,False,False,False,False,False,True
+11117,Histoloogia,nan,U-ProValk,Kirjeldus,,1483,,False,False,False,False,False,False,False,False,False,False,True
+11119,Histoloogia,nan,U-PBGPorfobilinogeenuriinis,Arhiivi number,,3,,False,False,False,False,False,False,False,False,False,False,True
+11120,Hematoloogilised uuringud,nan,U-UbgUrobilinogeen,RDW%,,1488,,False,False,False,False,False,False,False,False,False,False,True
+11275,Histoloogia,nan,U-Prot-Fr,Arhiivi number,,11,,False,False,False,False,False,False,False,False,False,False,True
+11330,Histoloogia,nan,U-Sedim ,Diagnoos 1,,3,,False,False,False,False,False,False,False,False,False,False,True
+11335,Histoloogia,nan,U-PorfPorfüriinid(uro-jakoproporfüriinid)uriinis,Diagnoos 1,,3,,False,False,False,False,False,False,False,False,False,False,True
+11390,Histoloogia,nan,U-Gva-PCR,Arhiivi number,,2,,False,False,False,False,False,False,False,False,False,False,True
+11414,Histoloogia,nan,U-C_trachomatis_DNA,Arhiivi number,,6,,False,False,False,False,False,False,False,False,False,False,True
+11464,Hematoloogilised uuringud,nan,U-S-Crea-Cmõõdetav(kreatiniinikliirens),RDW%,,8,,False,False,False,False,False,False,False,False,False,False,True
+11476,Hematoloogilised uuringud,nan,U-M1M-komponent1uriinis,RDW%,,1,,False,False,False,False,False,False,False,False,False,False,True
+11488,Histoloogia,nan,U-ColVärvus,Arhiivi number,,1476,,False,False,False,False,False,False,False,False,False,False,True
+11527,Histoloogia,nan,dU-Prot,Diagnoos 1,,66,,False,False,False,False,False,False,False,False,False,False,True
+11583,Hematoloogilised uuringud,nan,U-ProtValkuriinis,RDW%,,17,,False,False,False,False,False,False,False,False,False,False,True
+11668,Hematoloogilised uuringud,nan,U-C_trachomatis_DNA,RDW%,,6,,False,False,False,False,False,False,False,False,False,False,True
+11679,Hematoloogilised uuringud,nan,dU-ProtValkööpäevasesuriinis,RDW%,,82,,False,False,False,False,False,False,False,False,False,False,True
+11701,Histoloogia,nan,U-_Amyl,Diagnoos 1,,3,,False,False,False,False,False,False,False,False,False,False,True
+11738,Hematoloogilised uuringud,nan,U-Ampnegamfetamiinjatemaderivaadiduriinis,PLCR,,23,,False,False,False,False,False,False,False,False,False,False,True
+11774,Histoloogia,nan,U-ProtValkuriinis(elektroforees),Lokatsioon,,1,,False,False,False,False,False,False,False,False,False,False,True
+11847,Hematoloogilised uuringud,nan,U-Amylaas,RDW%,,15,,False,False,False,False,False,False,False,False,False,False,True
+11863,Histoloogia,nan,dU-ProtValk,Arhiivi number,,25,,False,False,False,False,False,False,False,False,False,False,True
+11879,Hematoloogilised uuringud,nan,U-Up-PCR,RDW%,,21,,False,False,False,False,False,False,False,False,False,False,True
+11925,Histoloogia,nan,U-Aer,Lokatsioon,,50,,False,False,False,False,False,False,False,False,False,False,True
+11935,Histoloogia,nan,U-HPV-genotüüp-PCR,Arhiivi number,,1,,False,False,False,False,False,False,False,False,False,False,True
+12036,Histoloogia,nan,U-Isoprisopropanooluriinis,Arhiivi number,,1,,False,False,False,False,False,False,False,False,False,False,True
+12061,Histoloogia,nan,U-sedim-suprav,Arhiivi number,,752,,False,False,False,False,False,False,False,False,False,False,True
+12079,Histoloogia,nan,dU-PorfPorfüriinid(uro-jakoproporfüriinid)ööpäevases,Diagnoos 1,,1,,False,False,False,False,False,False,False,False,False,False,True
+12080,Hematoloogilised uuringud,nan,U-Candida_albicans,PLCR,,1,,False,False,False,False,False,False,False,False,False,False,True
+12120,Histoloogia,nan,U-BilBilirubiin,Kirjeldus,,1484,,False,False,False,False,False,False,False,False,False,False,True
+12166,Hematoloogilised uuringud,nan,U-S-Crea-Cmõõdetav(kretiniinikliirens),PLCR,,13,,False,False,False,False,False,False,False,False,False,False,True
+12202,Histoloogia,nan,U-MOPopiaadiduriinis,Diagnoos 1,,13,,False,False,False,False,False,False,False,False,False,False,True
+12226,Hematoloogilised uuringud,nan,U-Albumiin,RDW%,,1,,False,False,False,False,False,False,False,False,False,False,True
+12244,Histoloogia,nan,dU-gam-glGammaglobuliiniduriinis,Arhiivi number,,6,,False,False,False,False,False,False,False,False,False,False,True
+12281,Histoloogia,nan,U-PCPfentsüklidiinuriinis,Kirjeldus,,10,,False,False,False,False,False,False,False,False,False,False,True
+12285,Histoloogia,nan,U-BARbarbituraadiduriinis,Kirjeldus,,12,,False,False,False,False,False,False,False,False,False,False,True
+12318,Hematoloogilised uuringud,nan,U-Ctr-PCR,RDW%,,22,,False,False,False,False,False,False,False,False,False,False,True
+12331,Hematoloogilised uuringud,nan,dU-DALA,PLCR,,4,,False,False,False,False,False,False,False,False,False,False,True
+12340,Hematoloogilised uuringud,nan,U-Mycobacterium-m,PLCR,,8,,False,False,False,False,False,False,False,False,False,False,True
+12376,Hematoloogilised uuringud,nan,U-Trifos.krTrifosfaadikristallid,PLCR,,2,,False,False,False,False,False,False,False,False,False,False,True
+12484,Histoloogia,nan,U-Uu+Up-PCR,Kirjeldus,,6,,False,False,False,False,False,False,False,False,False,False,True
+12613,Histoloogia,nan,U-Mycob,Lokatsioon,,5,,False,False,False,False,False,False,False,False,False,False,True
+12664,Histoloogia,nan,U-Mg-PCR,Arhiivi number,,22,,False,False,False,False,False,False,False,False,False,False,True
+12725,Histoloogia,nan,U-Myc,Kirjeldus,,9,,False,False,False,False,False,False,False,False,False,False,True
+12782,Hematoloogilised uuringud,nan,U-Alb-elAlbumiinid(elektroforeesil),RDW%,,2,,False,False,False,False,False,False,False,False,False,False,True
+12879,Histoloogia,nan,U-AmylP/U-CreaPankr.amülaasijakreatiniinisuheuriinis,Arhiivi number,,2,,False,False,False,False,False,False,False,False,False,False,True
+12882,Hematoloogilised uuringud,nan,U-GluGlükoos,RDW%,,1483,,False,False,False,False,False,False,False,False,False,False,True
+12888,Histoloogia,nan,U-ColVärvus,Kirjeldus,,1476,,False,False,False,False,False,False,False,False,False,False,True
+12976,Histoloogia,nan,U-Mtdmetadoonuriinis,Arhiivi number,,10,,False,False,False,False,False,False,False,False,False,False,True
+13009,Histoloogia,nan,U-Aer,Diagnoos 1,,50,,False,False,False,False,False,False,False,False,False,False,True
+13034,Histoloogia,nan,U-Ca.oks.krKaltsiumoksalaadikristallid,Diagnoos 1,,16,,False,False,False,False,False,False,False,False,False,False,True
+13112,Hematoloogilised uuringud,nan,U-Isoprisopropanooluriinis,PLCR,,1,,False,False,False,False,False,False,False,False,False,False,True
+13140,Histoloogia,nan,U-Bzdbenzodiazepiinuriinis,Lokatsioon,,3,,False,False,False,False,False,False,False,False,False,False,True
+13171,Histoloogia,nan,U-AmylP,Diagnoos 1,,2,,False,False,False,False,False,False,False,False,False,False,True
+13178,Histoloogia,nan,dU-MA,Lokatsioon,,28,,False,False,False,False,False,False,False,False,False,False,True
+13273,Histoloogia,nan,U-Candida_albicans,Kirjeldus,,1,,False,False,False,False,False,False,False,False,False,False,True
+13384,Histoloogia,nan,U-ClaLäbipaistvus,Arhiivi number,,1479,,False,False,False,False,False,False,False,False,False,False,True
+13390,Hematoloogilised uuringud,nan,U-Acetonatsetoonuriinis,RDW%,,1,,False,False,False,False,False,False,False,False,False,False,True
+13433,Hematoloogilised uuringud,nan,U-AmylP,PLCR,,1,,False,False,False,False,False,False,False,False,False,False,True
+13474,Histoloogia,nan,U-Mycobacterium-m,Diagnoos 1,,8,,False,False,False,False,False,False,False,False,False,False,True
+13507,Histoloogia,nan,U-PCPfentsüklidiinuriinis,Lokatsioon,,10,,False,False,False,False,False,False,False,False,False,False,True
+13524,Histoloogia,nan,U-uriini_valgu_ja_sademega,Lokatsioon,,256,,False,False,False,False,False,False,False,False,False,False,True
+13549,Histoloogia,nan,U-Lepn,Kirjeldus,,5,,False,False,False,False,False,False,False,False,False,False,True
+13563,Hematoloogilised uuringud,nan,U-Prot/Crevalgujakreatiniinisuhe,RDW%,,363,,False,False,False,False,False,False,False,False,False,False,True
+13571,Histoloogia,nan,U-Alb/Crea,Lokatsioon,,33,,False,False,False,False,False,False,False,False,False,False,True
+13586,Histoloogia,nan,U-Cockokaiinuriinis,Diagnoos 1,,3,,False,False,False,False,False,False,False,False,False,False,True
+13630,Histoloogia,nan,U-DALA,Kirjeldus,,3,,False,False,False,False,False,False,False,False,False,False,True
+13635,Histoloogia,nan,U-CotKotiniinuriiniskvalitatiivne,Lokatsioon,,1,,False,False,False,False,False,False,False,False,False,False,True
+13655,Hematoloogilised uuringud,nan,U-PBGPorfobilinogeenuriinis,PLCR,,3,,False,False,False,False,False,False,False,False,False,False,True
+13710,Hematoloogilised uuringud,nan,U-Amyl/U-CreaAmülaasijakreatiniinisuheuriinis,RDW%,,3,,False,False,False,False,False,False,False,False,False,False,True
+13739,Histoloogia,nan,dU-UreaUureaööpäevasesuriinis,Kirjeldus,,27,,False,False,False,False,False,False,False,False,False,False,True
+13822,Histoloogia,nan,dU-ImmfixUriinivalkudeimmuunfiksatsioon,Diagnoos 1,,4,,False,False,False,False,False,False,False,False,False,False,True
+13881,Histoloogia,nan,U-Ctr-PCR,Lokatsioon,,22,,False,False,False,False,False,False,False,False,False,False,True
+13931,Hematoloogilised uuringud,nan,U-Amf.fos.kAmorfsefosfaadikristallid,PLCR,,4,,False,False,False,False,False,False,False,False,False,False,True
+14108,Hematoloogilised uuringud,nan,U-ProValk,PLCR,,1483,,False,False,False,False,False,False,False,False,False,False,True
+14117,Hematoloogilised uuringud,nan,U-St.pneumonia,RDW%,,4,,False,False,False,False,False,False,False,False,False,False,True
+14125,Histoloogia,nan,U-ClaLäbipaistvus,Diagnoos 1,,1479,,False,False,False,False,False,False,False,False,False,False,True
+14138,Histoloogia,nan,U-Ampamfetamiinjatemaderivaadiduriinis,Lokatsioon,,1,,False,False,False,False,False,False,False,False,False,False,True
+14147,Hematoloogilised uuringud,nan,U-Sedim_,PLCR,,5,,False,False,False,False,False,False,False,False,False,False,True
+14163,Histoloogia,nan,U-S-Crea-Cmõõdetav(kretiniinikliirens),Lokatsioon,,13,,False,False,False,False,False,False,False,False,False,False,True
+14182,Hematoloogilised uuringud,nan,U-Coprop/U-Crea,PLCR,,4,,False,False,False,False,False,False,False,False,False,False,True
+14215,Histoloogia,nan,dU-CaKaltsiumööpäevasesuriinis,Arhiivi number,,1,,False,False,False,False,False,False,False,False,False,False,True
+14304,Histoloogia,nan,U-_Amyl,Kirjeldus,,3,,False,False,False,False,False,False,False,False,False,False,True
+14341,Hematoloogilised uuringud,nan,U-CreaKreatiniinuriinis,RDW%,,411,,False,False,False,False,False,False,False,False,False,False,True
+14349,Histoloogia,nan,U-Albumiin,Lokatsioon,,1,,False,False,False,False,False,False,False,False,False,False,True
+14371,Hematoloogilised uuringud,nan,dU-AlbAlbumiinööpäevasesuriinis,RDW%,,24,,False,False,False,False,False,False,False,False,False,False,True
+14449,Histoloogia,nan,U-Prot/Crevalgujakreatiniinisuhe,Arhiivi number,,363,,False,False,False,False,False,False,False,False,False,False,True
+14525,Histoloogia,nan,dU-ClKloriidööpäevasesuriinis,Lokatsioon,,1,,False,False,False,False,False,False,False,False,False,False,True
+14539,Histoloogia,nan,dU-OsmolOsmolaalsusööpäevasesuriinis,Lokatsioon,,2,,False,False,False,False,False,False,False,False,False,False,True
+14621,Histoloogia,nan,U-Myge-PCR,Kirjeldus,,4,,False,False,False,False,False,False,False,False,False,False,True
+14678,Hematoloogilised uuringud,nan,U-gam-glGammaglobuliiniduriinis,PLCR,,3,,False,False,False,False,False,False,False,False,False,False,True
+14916,Hematoloogilised uuringud,nan,dU-Alb,PLCR,,4,,False,False,False,False,False,False,False,False,False,False,True
+15076,Hematoloogilised uuringud,nan,U-ProtValkkvantitatiivselt,RDW%,,444,,False,False,False,False,False,False,False,False,False,False,True
+15106,Histoloogia,nan,U-Sedi-m,Kirjeldus,,11,,False,False,False,False,False,False,False,False,False,False,True
+15122,Histoloogia,nan,dU-ALBAlbumiinööpäevasesuriinis,Diagnoos 1,,6,,False,False,False,False,False,False,False,False,False,False,True
+15178,Hematoloogilised uuringud,nan,U-Ampamfetamiinjatemaderivaadiduriinis,RDW%,,1,,False,False,False,False,False,False,False,False,False,False,True
+15223,Hematoloogilised uuringud,nan,U-Sed-m.,RDW%,,653,,False,False,False,False,False,False,False,False,False,False,True
+15244,Hematoloogilised uuringud,nan,U-uriini_automaat_uriinivalguga,RDW%,,57,,False,False,False,False,False,False,False,False,False,False,True
+15254,Histoloogia,nan,U-SGErikaal,Diagnoos 1,,1458,,False,False,False,False,False,False,False,False,False,False,True
+15321,Histoloogia,nan,U-Mg-PCR,Lokatsioon,,22,,False,False,False,False,False,False,False,False,False,False,True
+15386,Histoloogia,nan,dU-P,Kirjeldus,,4,,False,False,False,False,False,False,False,False,False,False,True
+15474,Hematoloogilised uuringud,nan,dU-ALBAlbumiinööpäevasesuriinis,RDW%,,6,,False,False,False,False,False,False,False,False,False,False,True
+15493,Histoloogia,nan,U-CreaKreatiniin1.hommikusesuriinis,Arhiivi number,,20,,False,False,False,False,False,False,False,False,False,False,True
+15583,Hematoloogilised uuringud,nan,U-SGErikaal,RDW%,,1458,,False,False,False,False,False,False,False,False,False,False,True
+15617,Hematoloogilised uuringud,nan,dU-Cu,RDW%,,1,,False,False,False,False,False,False,False,False,False,False,True
+15628,Hematoloogilised uuringud,nan,dU-ClKloriidööpäevasesuriinis,RDW%,,1,,False,False,False,False,False,False,False,False,False,False,True
+15682,Histoloogia,nan,U-Bil.krBilirubiinikristallid,Arhiivi number,,1,,False,False,False,False,False,False,False,False,False,False,True
+15717,Histoloogia,nan,U-Trifos.krTrifosfaadikristallid,Lokatsioon,,2,,False,False,False,False,False,False,False,False,False,False,True
+15729,Histoloogia,nan,dU-gam-glGammaglobuliiniduriinis,Diagnoos 1,,6,,False,False,False,False,False,False,False,False,False,False,True
+15744,Hematoloogilised uuringud,nan,dU-UAKusihapeööpäevasesuriinis,PLCR,,4,,False,False,False,False,False,False,False,False,False,False,True
+15756,Histoloogia,nan,U-Uu/Up-PCR,Diagnoos 1,,4,,False,False,False,False,False,False,False,False,False,False,True
+15758,Histoloogia,nan,U-S-Crea-Cmõõdetav(kreatiniinikliirens),Arhiivi number,,8,,False,False,False,False,False,False,False,False,False,False,True
+15815,Hematoloogilised uuringud,nan,dU-Ca,PLCR,,4,,False,False,False,False,False,False,False,False,False,False,True
+15818,Hematoloogilised uuringud,nan,U-S-Crea-Cmõõdetav(kreatiniinikliirens),PLCR,,8,,False,False,False,False,False,False,False,False,False,False,True
+15819,Hematoloogilised uuringud,nan,U-KKaaliumuriinis,PLCR,,1,,False,False,False,False,False,False,False,False,False,False,True
+15835,Hematoloogilised uuringud,nan,U-NitNitrit,PLCR,,1488,,False,False,False,False,False,False,False,False,False,False,True
+15859,Histoloogia,nan,U-_Gluc_suhkur,Kirjeldus,,2,,False,False,False,False,False,False,False,False,False,False,True
+15932,Histoloogia,nan,dU-KKaaliumööpäevasesuriinis,Kirjeldus,,4,,False,False,False,False,False,False,False,False,False,False,True
+15969,Hematoloogilised uuringud,nan,dU-CreatKreatiniinööpäevasesuriinis,PLCR,,7,,False,False,False,False,False,False,False,False,False,False,True
+15971,Hematoloogilised uuringud,nan,U-Strip,RDW%,,94919,,False,False,False,False,False,False,False,False,False,False,True
+16009,Hematoloogilised uuringud,nan,U-Mycob,PLCR,,5,,False,False,False,False,False,False,False,False,False,False,True
+16120,Hematoloogilised uuringud,nan,U-AmylP/U-CreaPankr.amülaasijakreatiniinisuheuriinis,RDW%,,2,,False,False,False,False,False,False,False,False,False,False,True
+16134,Hematoloogilised uuringud,nan,U-Tbc-Bac,RDW%,,13,,False,False,False,False,False,False,False,False,False,False,True
+16210,Hematoloogilised uuringud,nan,U-Amyl/U-CreaAmülaasijakreatiniinisuheuriinis,PLCR,,3,,False,False,False,False,False,False,False,False,False,False,True
+16214,Hematoloogilised uuringud,nan,U-Myho-PCR,RDW%,,2,,False,False,False,False,False,False,False,False,False,False,True
+16354,Hematoloogilised uuringud,nan,U-RBCErütrotsüüdid,PLCR,,1483,,False,False,False,False,False,False,False,False,False,False,True
+16421,Histoloogia,nan,U-S-Crea-Cmõõdetav(kretiniinikliirens),Diagnoos 1,,13,,False,False,False,False,False,False,False,False,False,False,True
+16426,Histoloogia,nan,U-uriini_autom._sademega,Lokatsioon,,339,,False,False,False,False,False,False,False,False,False,False,True
+16441,Hematoloogilised uuringud,nan,U-Sedim_,RDW%,,12,,False,False,False,False,False,False,False,False,False,False,True
+16546,Histoloogia,nan,U-Gluc,Diagnoos 1,,177,,False,False,False,False,False,False,False,False,False,False,True
+16553,Histoloogia,nan,U-Amyl,Kirjeldus,,86,,False,False,False,False,False,False,False,False,False,False,True
+16679,Histoloogia,nan,dU-DALA,Kirjeldus,,4,,False,False,False,False,False,False,False,False,False,False,True
+16680,Histoloogia,nan,dU-Prot-FrUriinivalkudeelektroforees,Kirjeldus,,8,,False,False,False,False,False,False,False,False,False,False,True
+16743,Histoloogia,nan,U-Strepn,Lokatsioon,,7,,False,False,False,False,False,False,False,False,False,False,True
+16744,Histoloogia,nan,U-Acetonatsetoonuriinis,Diagnoos 1,,1,,False,False,False,False,False,False,False,False,False,False,True
+16869,Histoloogia,nan,U-THCkannabinoididuriinis,Lokatsioon,,23,,False,False,False,False,False,False,False,False,False,False,True
+16871,Hematoloogilised uuringud,nan,U-PorfPorfüriinid(uro-jakoproporfüriinid)uriinis,PLCR,,3,,False,False,False,False,False,False,False,False,False,False,True
+16881,Histoloogia,nan,dU-AlbAlbumiinööpäevasesuriinis,Lokatsioon,,24,,False,False,False,False,False,False,False,False,False,False,True
+16983,Histoloogia,nan,dU-OsmolOsmolaalsusööpäevasesuriinis,Diagnoos 1,,2,,False,False,False,False,False,False,False,False,False,False,True
+16999,Histoloogia,nan,U-Ngo-PCR,Kirjeldus,,10,,False,False,False,False,False,False,False,False,False,False,True
+17027,Histoloogia,nan,U-CreaKreatiniin1.hommikusesuriinis,Kirjeldus,,20,,False,False,False,False,False,False,False,False,False,False,True
+17054,Hematoloogilised uuringud,nan,dU-UreaUureaööpäevasesuriinis,RDW%,,27,,False,False,False,False,False,False,False,False,False,False,True
+17159,Histoloogia,nan,U-Sed-m.,Lokatsioon,,653,,False,False,False,False,False,False,False,False,False,False,True
+17195,Hematoloogilised uuringud,nan,U-uriini_autom._sademega,PLCR,,339,,False,False,False,False,False,False,False,False,False,False,True
+17207,Histoloogia,nan,U-Myho-PCR,Lokatsioon,,2,,False,False,False,False,False,False,False,False,False,False,True
+17209,Histoloogia,nan,U-S-Crea-Carvutuslik(kreatiniinikliirens),Kirjeldus,,16,,False,False,False,False,False,False,False,False,False,False,True
+17214,Hematoloogilised uuringud,nan,U-Ident,PLCR,,23,,False,False,False,False,False,False,False,False,False,False,True
+17266,Histoloogia,nan,dU-S-Crea,Diagnoos 1,,7,,False,False,False,False,False,False,False,False,False,False,True
+17271,Histoloogia,nan,U-uriini_automaat_uriinivalguga,Kirjeldus,,57,,False,False,False,False,False,False,False,False,False,False,True
+17293,Histoloogia,nan,U-Uu-PCR,Kirjeldus,,20,,False,False,False,False,False,False,False,False,False,False,True
+17338,Histoloogia,nan,U-Mtdmetadoonuriinis,Diagnoos 1,,10,,False,False,False,False,False,False,False,False,False,False,True
+17489,Histoloogia,nan,U-Mg-PCR,Diagnoos 1,,22,,False,False,False,False,False,False,False,False,False,False,True
+17578,Histoloogia,nan,U-S-Crea-Cmõõdetav(kreatiniinikliirens),Diagnoos 1,,8,,False,False,False,False,False,False,False,False,False,False,True
+17579,Histoloogia,nan,U-Alb,Diagnoos 1,,34,,False,False,False,False,False,False,False,False,False,False,True
+17655,Histoloogia,nan,U-S-Crea-Cmõõdetav(kreatiniinikliirens),Lokatsioon,,8,,False,False,False,False,False,False,False,False,False,False,True
+17705,Histoloogia,nan,U-Sedim-m,Diagnoos 1,,6,,False,False,False,False,False,False,False,False,False,False,True
+17708,Histoloogia,nan,U-CreaKreatiniinuriinis,Arhiivi number,,411,,False,False,False,False,False,False,False,False,False,False,True
+17733,Hematoloogilised uuringud,nan,U-MycQ,PLCR,,5,,False,False,False,False,False,False,False,False,False,False,True
+17778,Histoloogia,nan,U-Alb/U-Crea,Diagnoos 1,,416,,False,False,False,False,False,False,False,False,False,False,True
+17829,Histoloogia,nan,U-Prot,Lokatsioon,,442,,False,False,False,False,False,False,False,False,False,False,True
+17840,Histoloogia,nan,U-Mh-PCR,Diagnoos 1,,21,,False,False,False,False,False,False,False,False,False,False,True
+17903,Hematoloogilised uuringud,nan,U-S-Crea-Carvutuslik(kreatiniinikliirens),RDW%,,16,,False,False,False,False,False,False,False,False,False,False,True
+17941,Histoloogia,nan,U-ProtValkuriinis(elektroforees),Arhiivi number,,1,,False,False,False,False,False,False,False,False,False,False,True
+18028,Hematoloogilised uuringud,nan,U-Prot,PLCR,,333,,False,False,False,False,False,False,False,False,False,False,True
+18081,Histoloogia,nan,dU-Kreat/Album,Kirjeldus,,3,,False,False,False,False,False,False,False,False,False,False,True
+18101,Hematoloogilised uuringud,nan,dU-UAKusihapeööpäevasesuriinis,RDW%,,4,,False,False,False,False,False,False,False,False,False,False,True
+18221,Histoloogia,nan,U-N_gonorrhoeae_DNA,Kirjeldus,,6,,False,False,False,False,False,False,False,False,False,False,True
+18231,Histoloogia,nan,dU-Crea,Kirjeldus,,1,,False,False,False,False,False,False,False,False,False,False,True
+18243,Histoloogia,nan,U-Alb,Arhiivi number,,34,,False,False,False,False,False,False,False,False,False,False,True
+18335,Histoloogia,nan,U-ProtValkkvantitatiivselt,Lokatsioon,,444,,False,False,False,False,False,False,False,False,False,False,True
+18405,Histoloogia,nan,U-COCkokaiinuriinis,Arhiivi number,,13,,False,False,False,False,False,False,False,False,False,False,True
+18452,Hematoloogilised uuringud,nan,U-CreaKreatiniin1.hommikusesuriinis,PLCR,,20,,False,False,False,False,False,False,False,False,False,False,True
+18511,Histoloogia,nan,dU-PFosfaatööpäevasesuriinis,Kirjeldus,,2,,False,False,False,False,False,False,False,False,False,False,True
+18625,Hematoloogilised uuringud,nan,dU-PFosfaatööpäevasesuriinis,RDW%,,2,,False,False,False,False,False,False,False,False,False,False,True
+18667,Hematoloogilised uuringud,nan,dU-gam-glGammaglobuliiniduriinis,RDW%,,6,,False,False,False,False,False,False,False,False,False,False,True
+18716,Hematoloogilised uuringud,nan,dU-gam-glGammaglobuliiniduriinis,PLCR,,6,,False,False,False,False,False,False,False,False,False,False,True
+18724,Hematoloogilised uuringud,nan,U-AmylP/U-CreaPankr.amülaasijakreatiniinisuheuriinis,PLCR,,2,,False,False,False,False,False,False,False,False,False,False,True
+18748,Histoloogia,nan,dU-PFosfaatööpäevasesuriinis,Lokatsioon,,2,,False,False,False,False,False,False,False,False,False,False,True
+18754,Histoloogia,nan,dU-ClKloriidööpäevasesuriinis,Kirjeldus,,1,,False,False,False,False,False,False,False,False,False,False,True
+18791,Histoloogia,nan,dU-ProtValkööpäevasesuriinis,Diagnoos 1,,82,,False,False,False,False,False,False,False,False,False,False,True
+18848,Histoloogia,nan,U-COCkokaiinuriinis,Kirjeldus,,13,,False,False,False,False,False,False,False,False,False,False,True
+18862,Histoloogia,nan,U-Fylfentanüüluriinis,Lokatsioon,,10,,False,False,False,False,False,False,False,False,False,False,True
+18905,Hematoloogilised uuringud,nan,U-NitNitrit,RDW%,,1488,,False,False,False,False,False,False,False,False,False,False,True
+18920,Histoloogia,nan,dU-CreaKreatiniinööpäevasesuriinis,Arhiivi number,,50,,False,False,False,False,False,False,False,False,False,False,True
+18959,Hematoloogilised uuringud,nan,U-_uriini_suhkur,PLCR,,2,,False,False,False,False,False,False,False,False,False,False,True
+18978,Histoloogia,nan,dU-DALA,Diagnoos 1,,4,,False,False,False,False,False,False,False,False,False,False,True
+18982,Histoloogia,nan,U-uriini_autom,Lokatsioon,,902,,False,False,False,False,False,False,False,False,False,False,True
+19071,Histoloogia,nan,dU-AlbAlbumiinööpäevasesuriinis,Kirjeldus,,24,,False,False,False,False,False,False,False,False,False,False,True
+19126,Hematoloogilised uuringud,nan,U-UreaUureauriinis,PLCR,,1,,False,False,False,False,False,False,False,False,False,False,True
+19153,Histoloogia,nan,U-Mycob,Kirjeldus,,5,,False,False,False,False,False,False,False,False,False,False,True
+19170,Histoloogia,nan,U-Uu-PCR,Arhiivi number,,20,,False,False,False,False,False,False,False,False,False,False,True
+19180,Histoloogia,nan,U-Alb/U-CreaMikroalbuminuuria,Arhiivi number,,9,,False,False,False,False,False,False,False,False,False,False,True
+19194,Histoloogia,nan,U-KKaaliumuriinis,Kirjeldus,,1,,False,False,False,False,False,False,False,False,False,False,True
+19212,Hematoloogilised uuringud,nan,U-EtGlyetüleenglükooluriinis,PLCR,,1,,False,False,False,False,False,False,False,False,False,False,True
+19258,Histoloogia,nan,U-NaNaatriumuriinis,Kirjeldus,,1,,False,False,False,False,False,False,False,False,False,False,True
+19320,Histoloogia,nan,U-Myge-PCR,Diagnoos 1,,4,,False,False,False,False,False,False,False,False,False,False,True
+19326,Histoloogia,nan,U-Amylaas,Lokatsioon,,15,,False,False,False,False,False,False,False,False,False,False,True
+19335,Histoloogia,nan,U-NitNitrit,Lokatsioon,,1488,,False,False,False,False,False,False,False,False,False,False,True
+19404,Histoloogia,nan,U-Myho-PCR,Diagnoos 1,,2,,False,False,False,False,False,False,False,False,False,False,True
+19429,Histoloogia,nan,U-N_gonorrhoeae_DNA,Diagnoos 1,,6,,False,False,False,False,False,False,False,False,False,False,True
+19431,Histoloogia,nan,U-METmetamfetamiinuriinis,Diagnoos 1,,18,,False,False,False,False,False,False,False,False,False,False,True
+19487,Histoloogia,nan,U-EtGlyetüleenglükooluriinis,Kirjeldus,,1,,False,False,False,False,False,False,False,False,False,False,True
+19541,Histoloogia,nan,U-St.pneumonia,Diagnoos 1,,4,,False,False,False,False,False,False,False,False,False,False,True
+19560,Hematoloogilised uuringud,nan,dU-Catechol,RDW%,,22,,False,False,False,False,False,False,False,False,False,False,True
+19561,Histoloogia,nan,U-Alb/Crea,Diagnoos 1,,33,,False,False,False,False,False,False,False,False,False,False,True
+19564,Histoloogia,nan,dU-Amyl,Kirjeldus,,55,,False,False,False,False,False,False,False,False,False,False,True
+19598,Histoloogia,nan,U-Ngo-PCR,Diagnoos 1,,10,,False,False,False,False,False,False,False,False,False,False,True
+19618,Hematoloogilised uuringud,nan,U-RBCErütrotsüüdid,RDW%,,1483,,False,False,False,False,False,False,False,False,False,False,True
+19623,Hematoloogilised uuringud,nan,U-HPV-genotüüp-PCR,RDW%,,1,,False,False,False,False,False,False,False,False,False,False,True
+19644,Histoloogia,nan,U-Mtdmetadoonuriinis,Kirjeldus,,10,,False,False,False,False,False,False,False,False,False,False,True
+19735,Histoloogia,nan,dU-CaKaltsiumööpäevasesuriinis,Diagnoos 1,,1,,False,False,False,False,False,False,False,False,False,False,True
+19748,Hematoloogilised uuringud,nan,U-St.pneumonia,PLCR,,4,,False,False,False,False,False,False,False,False,False,False,True
+19764,Histoloogia,nan,U-Strip,Diagnoos 1,,94919,,False,False,False,False,False,False,False,False,False,False,True
+19844,Histoloogia,nan,U-Bil.krBilirubiinikristallid,Diagnoos 1,,1,,False,False,False,False,False,False,False,False,False,False,True
+19873,Hematoloogilised uuringud,nan,U-Amf.ur.krAmorfseuraadikristallid,PLCR,,59,,False,False,False,False,False,False,False,False,False,False,True
+19933,Hematoloogilised uuringud,nan,U-Crea,PLCR,,2,,False,False,False,False,False,False,False,False,False,False,True
+19955,Histoloogia,nan,U-Strepn,Kirjeldus,,7,,False,False,False,False,False,False,False,False,False,False,True
+19990,Hematoloogilised uuringud,nan,U-Sedi-m,RDW%,,11,,False,False,False,False,False,False,False,False,False,False,True
+20205,Histoloogia,nan,U-Sed-m,Diagnoos 1,,6752,,False,False,False,False,False,False,False,False,False,False,True
+20212,Histoloogia,nan,U-MOPopiaadiduriinis,Arhiivi number,,13,,False,False,False,False,False,False,False,False,False,False,True
+20227,Hematoloogilised uuringud,nan,U-Alb/U-CreaAlbumiinijakreatiniinisuheuriinis,PLCR,,111,,False,False,False,False,False,False,False,False,False,False,True
+20233,Hematoloogilised uuringud,nan,U-Alb,PLCR,,27,,False,False,False,False,False,False,False,False,False,False,True
+20324,Histoloogia,nan,U-Up-PCR,Kirjeldus,,21,,False,False,False,False,False,False,False,False,False,False,True
+20383,Histoloogia,nan,U-MeOHmetanooluriinis,Kirjeldus,,1,,False,False,False,False,False,False,False,False,False,False,True
+20432,Histoloogia,nan,U-M.alb.,Diagnoos 1,,1,,False,False,False,False,False,False,False,False,False,False,True
+20446,Histoloogia,nan,U-BARbarbituraadiduriinis,Lokatsioon,,12,,False,False,False,False,False,False,False,False,False,False,True
+20450,Histoloogia,nan,dU-5-HIAA,Arhiivi number,,2,,False,False,False,False,False,False,False,False,False,False,True
+20504,Hematoloogilised uuringud,nan,dU-PFosfaatööpäevasesuriinis,PLCR,,2,,False,False,False,False,False,False,False,False,False,False,True
+20549,Histoloogia,nan,U-Alb/glAlbumiinid/globuliiniduriinis,Diagnoos 1,,1,,False,False,False,False,False,False,False,False,False,False,True
+20587,Histoloogia,nan,U-Tbc,Diagnoos 1,,13,,False,False,False,False,False,False,False,False,False,False,True
+20589,Histoloogia,nan,U-f-kappa/lambda,Arhiivi number,,15,,False,False,False,False,False,False,False,False,False,False,True
+20609,Hematoloogilised uuringud,nan,U-Mg-PCR,PLCR,,22,,False,False,False,False,False,False,False,False,False,False,True
+20636,Histoloogia,nan,U-GlukGlükoosjuhuslikusuriinis,Kirjeldus,,61,,False,False,False,False,False,False,False,False,False,False,True
+20793,Hematoloogilised uuringud,nan,U-PPXpropoksüfeenuriinis,RDW%,,8,,False,False,False,False,False,False,False,False,False,False,True
+20876,Histoloogia,nan,U-Ca.fos.krKaltsiumfosfaadikristallid,Arhiivi number,,3,,False,False,False,False,False,False,False,False,False,False,True
+20925,Histoloogia,nan,U-NitNitrit,Arhiivi number,,1488,,False,False,False,False,False,False,False,False,False,False,True
+20984,Histoloogia,nan,U-ProtValkuriinis,Kirjeldus,,17,,False,False,False,False,False,False,False,False,False,False,True
+21082,Histoloogia,nan,dU-S-Crea,Kirjeldus,,7,,False,False,False,False,False,False,False,False,False,False,True
+21107,Hematoloogilised uuringud,nan,dU-NaNaatriumööpäevasesuriinis,PLCR,,4,,False,False,False,False,False,False,False,False,False,False,True
+21204,Histoloogia,nan,dU-MgMagneesiumööpäevasesuriinis,Lokatsioon,,1,,False,False,False,False,False,False,False,False,False,False,True
+21221,Hematoloogilised uuringud,nan,U-Prot-FrUriinivalkudeelektroforees,PLCR,,5,,False,False,False,False,False,False,False,False,False,False,True
+21251,Histoloogia,nan,U-CreaKreatiniinuriinis,Lokatsioon,,411,,False,False,False,False,False,False,False,False,False,False,True
+21338,Histoloogia,nan,dU-gam-glGammaglobuliiniduriinis,Lokatsioon,,6,,False,False,False,False,False,False,False,False,False,False,True
+21351,Histoloogia,nan,U-TCAtritsükloantidepressandiduriinis,Lokatsioon,,11,,False,False,False,False,False,False,False,False,False,False,True
+21381,Histoloogia,nan,U-MeOHmetanooluriinis,Lokatsioon,,1,,False,False,False,False,False,False,False,False,False,False,True
+21391,Hematoloogilised uuringud,nan,dU-CaKaltsiumööpäevasesuriinis,RDW%,,1,,False,False,False,False,False,False,False,False,False,False,True
+21447,Histoloogia,nan,U-PorfPorfüriinid(uro-jakoproporfüriinid)uriinis,Arhiivi number,,3,,False,False,False,False,False,False,False,False,False,False,True
+21489,Histoloogia,nan,dU-ALBAlbumiinööpäevasesuriinis,Arhiivi number,,6,,False,False,False,False,False,False,False,False,False,False,True
+21581,Histoloogia,nan,U-Trifos.krTrifosfaadikristallid,Arhiivi number,,2,,False,False,False,False,False,False,False,False,False,False,True
+21645,Hematoloogilised uuringud,nan,U-Sedim-m,RDW%,,6,,False,False,False,False,False,False,False,False,False,False,True
+21653,Hematoloogilised uuringud,nan,dU-S-Crea,RDW%,,7,,False,False,False,False,False,False,False,False,False,False,True
+21699,Histoloogia,nan,U-pHHappe-alusetasakaal,Lokatsioon,,1487,,False,False,False,False,False,False,False,False,False,False,True
+21707,Histoloogia,nan,U-Candida_albicans,Diagnoos 1,,1,,False,False,False,False,False,False,False,False,False,False,True
+21772,Hematoloogilised uuringud,nan,dU-ImmfixUriinivalkudeimmuunfiksatsioon,PLCR,,4,,False,False,False,False,False,False,False,False,False,False,True
+21792,Histoloogia,nan,dU-Alb,Kirjeldus,,6,,False,False,False,False,False,False,False,False,False,False,True
+21796,Histoloogia,nan,dU-MgMagneesiumööpäevasesuriinis,Kirjeldus,,1,,False,False,False,False,False,False,False,False,False,False,True
+21809,Hematoloogilised uuringud,nan,U-Prot-Fr,PLCR,,11,,False,False,False,False,False,False,False,False,False,False,True
+21841,Hematoloogilised uuringud,nan,U-CreaKreatiniinuriinis,PLCR,,411,,False,False,False,False,False,False,False,False,False,False,True
+21988,Histoloogia,nan,U-Alb-elAlbumiinid(elektroforeesil),Diagnoos 1,,2,,False,False,False,False,False,False,False,False,False,False,True
+22002,Histoloogia,nan,U-sedim-suprav,Diagnoos 1,,752,,False,False,False,False,False,False,False,False,False,False,True
+22006,Histoloogia,nan,U-Sedim_,Kirjeldus,,12,,False,False,False,False,False,False,False,False,False,False,True
+22027,Hematoloogilised uuringud,nan,U-MOPopiaadiduriinis,PLCR,,13,,False,False,False,False,False,False,False,False,False,False,True
+22046,Hematoloogilised uuringud,nan,U-Amylaas,PLCR,,15,,False,False,False,False,False,False,False,False,False,False,True
+22053,Histoloogia,nan,U-UbgUrobilinogeen,Lokatsioon,,1488,,False,False,False,False,False,False,False,False,False,False,True
+22085,Histoloogia,nan,dU-ProtValk,Kirjeldus,,25,,False,False,False,False,False,False,False,False,False,False,True
+22130,Histoloogia,nan,dU-Prot,Kirjeldus,,66,,False,False,False,False,False,False,False,False,False,False,True
+22137,Hematoloogilised uuringud,nan,U-MhUu,RDW%,,6,,False,False,False,False,False,False,False,False,False,False,True
+22207,Histoloogia,nan,U-Up-PCR,Lokatsioon,,21,,False,False,False,False,False,False,False,False,False,False,True
+22253,Hematoloogilised uuringud,nan,dU-ClKloriidööpäevasesuriinis,PLCR,,1,,False,False,False,False,False,False,False,False,False,False,True
+22386,Histoloogia,nan,U-Ident,Diagnoos 1,,23,,False,False,False,False,False,False,False,False,False,False,True
+22442,Hematoloogilised uuringud,nan,U-MhUu,PLCR,,6,,False,False,False,False,False,False,False,False,False,False,True
+22456,Histoloogia,nan,dU-K,Kirjeldus,,1,,False,False,False,False,False,False,False,False,False,False,True
+22476,Histoloogia,nan,U-Amf.fos.kAmorfsefosfaadikristallid,Arhiivi number,,4,,False,False,False,False,False,False,False,False,False,False,True
+22518,Hematoloogilised uuringud,nan,U-Kusih.kr.Kusihappekristallid,PLCR,,6,,False,False,False,False,False,False,False,False,False,False,True
+22531,Histoloogia,nan,U-RBCErütrotsüüdid,Arhiivi number,,1483,,False,False,False,False,False,False,False,False,False,False,True
+22535,Histoloogia,nan,U-sedim-suprav,Lokatsioon,,752,,False,False,False,False,False,False,False,False,False,False,True
+22631,Histoloogia,nan,dU-PBGPorfobilinogeenööpäevasesuriinis,Arhiivi number,,1,,False,False,False,False,False,False,False,False,False,False,True
+22684,Hematoloogilised uuringud,nan,U-Ecsecstasyuriinis,PLCR,,18,,False,False,False,False,False,False,False,False,False,False,True
+22686,Hematoloogilised uuringud,nan,U-MeOHmetanooluriinis,RDW%,,1,,False,False,False,False,False,False,False,False,False,False,True
+22764,Histoloogia,nan,U-Prot/Crevalgujakreatiniinisuhe,Kirjeldus,,363,,False,False,False,False,False,False,False,False,False,False,True
+22784,Hematoloogilised uuringud,nan,U-Uu+Up-PCR,PLCR,,6,,False,False,False,False,False,False,False,False,False,False,True
+22887,Hematoloogilised uuringud,nan,U-urilux,PLCR,,290,,False,False,False,False,False,False,False,False,False,False,True
+22923,Histoloogia,nan,U-Uu-PCR,Lokatsioon,,20,,False,False,False,False,False,False,False,False,False,False,True
+22961,Histoloogia,nan,dU-ImmfixUriinivalkudeimmuunfiksatsioon,Lokatsioon,,4,,False,False,False,False,False,False,False,False,False,False,True
+22976,Hematoloogilised uuringud,nan,U-Ca.fos.krKaltsiumfosfaadikristallid,PLCR,,3,,False,False,False,False,False,False,False,False,False,False,True
+23064,Histoloogia,nan,U-Amyl/U-CreaAmülaasijakreatiniinisuheuriinis,Lokatsioon,,3,,False,False,False,False,False,False,False,False,False,False,True
+23265,Histoloogia,nan,U-Trva-PCR,Diagnoos 1,,12,,False,False,False,False,False,False,False,False,False,False,True
+23339,Histoloogia,nan,U-S-Crea-Carvutuslik(kreatiniinikliirens),Diagnoos 1,,16,,False,False,False,False,False,False,False,False,False,False,True
+23394,Histoloogia,nan,U-Sedim_,Lokatsioon,,12,,False,False,False,False,False,False,False,False,False,False,True
+23402,Histoloogia,nan,U-Sedim ,Arhiivi number,,3,,False,False,False,False,False,False,False,False,False,False,True
+23404,Histoloogia,nan,U-Ampamfetamiinjatemaderivaadiduriinis,Arhiivi number,,1,,False,False,False,False,False,False,False,False,False,False,True
+23411,Histoloogia,nan,dU-ClKloriidööpäevasesuriinis,Arhiivi number,,1,,False,False,False,False,False,False,False,False,False,False,True
+23458,Histoloogia,nan,U-Ident,Arhiivi number,,23,,False,False,False,False,False,False,False,False,False,False,True
+23476,Histoloogia,nan,U-Crea,Diagnoos 1,,2,,False,False,False,False,False,False,False,False,False,False,True
+23484,Hematoloogilised uuringud,nan,U-Ampamfetamiinjatemaderivaadiduriinis,PLCR,,1,,False,False,False,False,False,False,False,False,False,False,True
+23526,Histoloogia,nan,U-Alb/U-Crea,Arhiivi number,,416,,False,False,False,False,False,False,False,False,False,False,True
+23536,Hematoloogilised uuringud,nan,U-Trva-PCR,PLCR,,12,,False,False,False,False,False,False,False,False,False,False,True
+23554,Histoloogia,nan,dU-UAKusihapeööpäevasesuriinis,Lokatsioon,,4,,False,False,False,False,False,False,False,False,False,False,True
+23599,Histoloogia,nan,dU-PorfPorfüriinid(uro-jakoproporfüriinid)ööpäevases,Lokatsioon,,1,,False,False,False,False,False,False,False,False,False,False,True
+23661,Histoloogia,nan,dU-Catechol,Kirjeldus,,22,,False,False,False,False,False,False,False,False,False,False,True
+23749,Hematoloogilised uuringud,nan,U-Isoprisopropanooluriinis,RDW%,,1,,False,False,False,False,False,False,False,False,False,False,True
+23757,Hematoloogilised uuringud,nan,U-DALA,PLCR,,3,,False,False,False,False,False,False,False,False,False,False,True
+23779,Histoloogia,nan,dU-Crea,Arhiivi number,,1,,False,False,False,False,False,False,False,False,False,False,True
+23877,Hematoloogilised uuringud,nan,U-Mtdmetadoonuriinis,RDW%,,10,,False,False,False,False,False,False,False,False,False,False,True
+23942,Histoloogia,nan,dU-UreaUureaööpäevasesuriinis,Diagnoos 1,,27,,False,False,False,False,False,False,False,False,False,False,True
+23964,Histoloogia,nan,dU-Amyl,Lokatsioon,,55,,False,False,False,False,False,False,False,False,False,False,True
+24020,Histoloogia,nan,U-AlbAlbumiinuriinis,Diagnoos 1,,106,,False,False,False,False,False,False,False,False,False,False,True
+24046,Histoloogia,nan,U-MOPopiaadiduriinis,Kirjeldus,,13,,False,False,False,False,False,False,False,False,False,False,True
+24056,Histoloogia,nan,U-AmylP/U-CreaPankr.amülaasijakreatiniinisuheuriinis,Kirjeldus,,2,,False,False,False,False,False,False,False,False,False,False,True
+24057,Histoloogia,nan,U-PPXpropoksüfeenuriinis,Diagnoos 1,,8,,False,False,False,False,False,False,False,False,False,False,True
+24113,Histoloogia,nan,U-CotKotiniinuriiniskvalitatiivne,Kirjeldus,,1,,False,False,False,False,False,False,False,False,False,False,True
+24125,Histoloogia,nan,U-SGErikaal,Arhiivi number,,1458,,False,False,False,False,False,False,False,False,False,False,True
+24187,Histoloogia,nan,U-CreaKreatiniin1.hommikusesuriinis,Diagnoos 1,,20,,False,False,False,False,False,False,False,False,False,False,True
+24336,Histoloogia,nan,U-Mg-PCR,Kirjeldus,,22,,False,False,False,False,False,False,False,False,False,False,True
+24384,Histoloogia,nan,U-Sed-m,Lokatsioon,,6752,,False,False,False,False,False,False,False,False,False,False,True
+24445,Histoloogia,nan,dU-KKaaliumööpäevasesuriinis,Arhiivi number,,4,,False,False,False,False,False,False,False,False,False,False,True
+24504,Histoloogia,nan,U-Ident,Kirjeldus,,23,,False,False,False,False,False,False,False,False,False,False,True
+24527,Histoloogia,nan,U-uriini_valgu_ja_sademega,Diagnoos 1,,256,,False,False,False,False,False,False,False,False,False,False,True
+24553,Histoloogia,nan,U-DALA,Lokatsioon,,3,,False,False,False,False,False,False,False,False,False,False,True
+24554,Histoloogia,nan,dU-NaNaatriumööpäevasesuriinis,Kirjeldus,,4,,False,False,False,False,False,False,False,False,False,False,True
+24596,Histoloogia,nan,U-M1M-komponent1uriinis,Kirjeldus,,1,,False,False,False,False,False,False,False,False,False,False,True
+24668,Histoloogia,nan,dU-S-Crea,Arhiivi number,,7,,False,False,False,False,False,False,False,False,False,False,True
+24675,Hematoloogilised uuringud,nan,U-Mycobacterium-m,RDW%,,8,,False,False,False,False,False,False,False,False,False,False,True
+24800,Hematoloogilised uuringud,nan,U-Sed-m.,PLCR,,653,,False,False,False,False,False,False,False,False,False,False,True
+24882,Histoloogia,nan,U-Mycobacterium-m,Kirjeldus,,8,,False,False,False,False,False,False,False,False,False,False,True
+24898,Histoloogia,nan,U-Ecsecstasyuriinis,Diagnoos 1,,18,,False,False,False,False,False,False,False,False,False,False,True
+25021,Histoloogia,nan,U-Sedim-m,Arhiivi number,,6,,False,False,False,False,False,False,False,False,False,False,True
+25055,Hematoloogilised uuringud,nan,U-Sedim-m,PLCR,,6,,False,False,False,False,False,False,False,False,False,False,True
+25261,Histoloogia,nan,U-C_trachomatis_DNA,Kirjeldus,,6,,False,False,False,False,False,False,False,False,False,False,True
+25290,Histoloogia,nan,U-Kusih.kr.Kusihappekristallid,Lokatsioon,,6,,False,False,False,False,False,False,False,False,False,False,True
+25295,Histoloogia,nan,U-Crea,Arhiivi number,,2,,False,False,False,False,False,False,False,False,False,False,True
+25366,Hematoloogilised uuringud,nan,dU-P,RDW%,,4,,False,False,False,False,False,False,False,False,False,False,True
+25410,Hematoloogilised uuringud,nan,U-Narco,RDW%,,69,,False,False,False,False,False,False,False,False,False,False,True
+25527,Histoloogia,nan,U-GluGlükoos,Diagnoos 1,,1483,,False,False,False,False,False,False,False,False,False,False,True
+25569,Histoloogia,nan,dU-PFosfaatööpäevasesuriinis,Diagnoos 1,,2,,False,False,False,False,False,False,False,False,False,False,True
+25597,Histoloogia,nan,U-AlbAlbumiinuriinis,Lokatsioon,,106,,False,False,False,False,False,False,False,False,False,False,True
+25667,Histoloogia,nan,U-C_trachomatis_DNA,Diagnoos 1,,6,,False,False,False,False,False,False,False,False,False,False,True
+25732,Histoloogia,nan,dU-Amyl,Diagnoos 1,,55,,False,False,False,False,False,False,False,False,False,False,True
+25836,Hematoloogilised uuringud,nan,U-Gva-PCR,RDW%,,2,,False,False,False,False,False,False,False,False,False,False,True
+25860,Histoloogia,nan,U-Amyl,Lokatsioon,,86,,False,False,False,False,False,False,False,False,False,False,True
+25880,Histoloogia,nan,U-Sedim,Diagnoos 1,,11099,,False,False,False,False,False,False,False,False,False,False,True
+25949,Histoloogia,nan,U-WBCLeukotsüüdid,Arhiivi number,,1487,,False,False,False,False,False,False,False,False,False,False,True
+26147,Histoloogia,nan,U-OXYoksükodoonuriinis,Diagnoos 1,,9,,False,False,False,False,False,False,False,False,False,False,True
+26156,Hematoloogilised uuringud,nan,U-urilux,RDW%,,290,,False,False,False,False,False,False,False,False,False,False,True
+26194,Hematoloogilised uuringud,nan,U-Trifos.krTrifosfaadikristallid,RDW%,,2,,False,False,False,False,False,False,False,False,False,False,True
+26275,Histoloogia,nan,U-Isoprisopropanooluriinis,Kirjeldus,,1,,False,False,False,False,False,False,False,False,False,False,True
+26390,Histoloogia,nan,U-Sedim_,Arhiivi number,,12,,False,False,False,False,False,False,False,False,False,False,True
+26572,Histoloogia,nan,U-Mopopiaadiduriinis,Diagnoos 1,,2,,False,False,False,False,False,False,False,False,False,False,True
+26653,Histoloogia,nan,U-Kusih.kr.Kusihappekristallid,Diagnoos 1,,6,,False,False,False,False,False,False,False,False,False,False,True
+26669,Hematoloogilised uuringud,nan,U-f-kappa/lambda,RDW%,,15,,False,False,False,False,False,False,False,False,False,False,True
+26691,Histoloogia,nan,dU-K,Arhiivi number,,1,,False,False,False,False,False,False,False,False,False,False,True
+26715,Histoloogia,nan,U-AmylPAmülaasipankreasefraktsioonuriinis,Arhiivi number,,2,,False,False,False,False,False,False,False,False,False,False,True
+26758,Histoloogia,nan,dU-5-HIAA,Lokatsioon,,2,,False,False,False,False,False,False,False,False,False,False,True
+26782,Histoloogia,nan,U-MOPopiaadiduriinis,Lokatsioon,,13,,False,False,False,False,False,False,False,False,False,False,True
+26878,Histoloogia,nan,U-Coprop/U-Crea,Lokatsioon,,4,,False,False,False,False,False,False,False,False,False,False,True
+26906,Histoloogia,nan,dU-CreatKreatiniinööpäevasesuriinis,Lokatsioon,,7,,False,False,False,False,False,False,False,False,False,False,True
+26983,Histoloogia,nan,dU-AlbAlbumiinööpäevasesuriinis,Arhiivi number,,24,,False,False,False,False,False,False,False,False,False,False,True
+27004,Histoloogia,nan,U-amyl,Kirjeldus,,3,,False,False,False,False,False,False,False,False,False,False,True
+27019,Hematoloogilised uuringud,nan,dU-Catechol,PLCR,,22,,False,False,False,False,False,False,False,False,False,False,True
+27073,Histoloogia,nan,U-Tbc-Bac,Diagnoos 1,,13,,False,False,False,False,False,False,False,False,False,False,True
+27075,Histoloogia,nan,dU-MgMagneesiumööpäevasesuriinis,Arhiivi number,,1,,False,False,False,False,False,False,False,False,False,False,True
+27080,Histoloogia,nan,U-Isoprisopropanooluriinis,Diagnoos 1,,1,,False,False,False,False,False,False,False,False,False,False,True
+27256,Hematoloogilised uuringud,nan,dU-ProtValkööpäevasesuriinis,PLCR,,82,,False,False,False,False,False,False,False,False,False,False,True
+27299,Histoloogia,nan,U-THCkannabinoididuriinis,Kirjeldus,,23,,False,False,False,False,False,False,False,False,False,False,True
+27404,Hematoloogilised uuringud,nan,dU-Alb-elAlbumiinid(elektroforeesil),PLCR,,6,,False,False,False,False,False,False,False,False,False,False,True
+27426,Histoloogia,nan,U-NaNaatriumuriinis,Lokatsioon,,1,,False,False,False,False,False,False,False,False,False,False,True
+27535,Histoloogia,nan,U-Mycob,Diagnoos 1,,5,,False,False,False,False,False,False,False,False,False,False,True
+27588,Histoloogia,nan,U-Sedim,Lokatsioon,,11099,,False,False,False,False,False,False,False,False,False,False,True
+27600,Hematoloogilised uuringud,nan,U-Gva-PCR,PLCR,,2,,False,False,False,False,False,False,False,False,False,False,True
+27645,Hematoloogilised uuringud,nan,U-TCAtritsükloantidepressandiduriinis,RDW%,,11,,False,False,False,False,False,False,False,False,False,False,True
+27682,Histoloogia,nan,U-Alb/U-CreaAlbumiinijakreatiniinisuheuriinis,Arhiivi number,,111,,False,False,False,False,False,False,False,False,False,False,True
+27804,Histoloogia,nan,U-RBCErütrotsüüdid,Lokatsioon,,1483,,False,False,False,False,False,False,False,False,False,False,True
+27894,Histoloogia,nan,dU-DALA-Delta-amiino-levuliinhapeööpäevasesuriinis,Lokatsioon,,1,,False,False,False,False,False,False,False,False,False,False,True
+27923,Histoloogia,nan,U-AmylP,Kirjeldus,,2,,False,False,False,False,False,False,False,False,False,False,True
+27974,Hematoloogilised uuringud,nan,U-Mtdmetadoonuriinis,PLCR,,10,,False,False,False,False,False,False,False,False,False,False,True
+28017,Hematoloogilised uuringud,nan,U-Uu/Up-PCR,PLCR,,4,,False,False,False,False,False,False,False,False,False,False,True
+28101,Histoloogia,nan,U-ProtValkkvantitatiivselt,Kirjeldus,,444,,False,False,False,False,False,False,False,False,False,False,True
+28222,Histoloogia,nan,U-uriini_autom,Arhiivi number,,902,,False,False,False,False,False,False,False,False,False,False,True
+28227,Histoloogia,nan,U-Albumiin,Kirjeldus,,1,,False,False,False,False,False,False,False,False,False,False,True
+28284,Histoloogia,nan,U-uriini_autom._sademega,Arhiivi number,,339,,False,False,False,False,False,False,False,False,False,False,True
+28420,Histoloogia,nan,U-ImmfixUriinivalkudeimmuunfiksatsioon,Kirjeldus,,1,,False,False,False,False,False,False,False,False,False,False,True
+28430,Histoloogia,nan,U-uriini_automaat_uriinivalguga,Arhiivi number,,57,,False,False,False,False,False,False,False,False,False,False,True
+28529,Histoloogia,nan,U-Prot-Fr,Lokatsioon,,11,,False,False,False,False,False,False,False,False,False,False,True
+28544,Histoloogia,nan,U-Gluc,Lokatsioon,,177,,False,False,False,False,False,False,False,False,False,False,True
+28563,Histoloogia,nan,dU-Cu,Lokatsioon,,1,,False,False,False,False,False,False,False,False,False,False,True
+28586,Histoloogia,nan,U-AmylAmülaasuriinis,Lokatsioon,,4,,False,False,False,False,False,False,False,False,False,False,True
+28676,Histoloogia,nan,dU-PBGPorfobilinogeenööpäevasesuriinis,Lokatsioon,,1,,False,False,False,False,False,False,False,False,False,False,True
+28690,Histoloogia,nan,U-Sed-m.,Arhiivi number,,653,,False,False,False,False,False,False,False,False,False,False,True
+28777,Histoloogia,nan,U-uriini_valgu_ja_sademega,Arhiivi number,,256,,False,False,False,False,False,False,False,False,False,False,True
+28846,Histoloogia,nan,U-ProValk,Arhiivi number,,1483,,False,False,False,False,False,False,False,False,False,False,True
+28910,Histoloogia,nan,dU-NaNaatriumööpäevasesuriinis,Lokatsioon,,4,,False,False,False,False,False,False,False,False,False,False,True
+29007,Histoloogia,nan,U-GluGlükoos,Kirjeldus,,1483,,False,False,False,False,False,False,False,False,False,False,True
+29036,Hematoloogilised uuringud,nan,U-f-kappa/lambda,PLCR,,15,,False,False,False,False,False,False,False,False,False,False,True
+29091,Histoloogia,nan,dU-ClKloriidööpäevasesuriinis,Diagnoos 1,,1,,False,False,False,False,False,False,False,False,False,False,True
+29100,Histoloogia,nan,U-uriini_autom._sademega,Kirjeldus,,339,,False,False,False,False,False,False,False,False,False,False,True
+29111,Histoloogia,nan,U-Uu/Up-PCR,Kirjeldus,,4,,False,False,False,False,False,False,False,False,False,False,True
+29121,Hematoloogilised uuringud,nan,U-Sedi-m,PLCR,,11,,False,False,False,False,False,False,False,False,False,False,True
+29138,Histoloogia,nan,U-Alb/U-CreaMikroalbuminuuria,Diagnoos 1,,9,,False,False,False,False,False,False,False,False,False,False,True
+29143,Histoloogia,nan,U-AmylPAmülaasipankreasefraktsioonuriinis,Diagnoos 1,,2,,False,False,False,False,False,False,False,False,False,False,True
+29211,Hematoloogilised uuringud,nan,U-BARbarbituraadiduriinis,PLCR,,12,,False,False,False,False,False,False,False,False,False,False,True
+29274,Hematoloogilised uuringud,nan,U-Tbc-Bac,PLCR,,13,,False,False,False,False,False,False,False,False,False,False,True
+29276,Histoloogia,nan,U-ColVärvus,Lokatsioon,,1476,,False,False,False,False,False,False,False,False,False,False,True
+29327,Histoloogia,nan,U-Bupr,Lokatsioon,,1,,False,False,False,False,False,False,False,False,False,False,True
+29373,Hematoloogilised uuringud,nan,U-Amf.ur.krAmorfseuraadikristallid,RDW%,,59,,False,False,False,False,False,False,False,False,False,False,True
+29412,Hematoloogilised uuringud,nan,U-Sed-m,PLCR,,5291,,False,False,False,False,False,False,False,False,False,False,True
+29422,Hematoloogilised uuringud,nan,U-S-Crea-Cmõõdetav(kretiniinikliirens),RDW%,,13,,False,False,False,False,False,False,False,False,False,False,True
+29558,Histoloogia,nan,U-Ca.oks.krKaltsiumoksalaadikristallid,Lokatsioon,,16,,False,False,False,False,False,False,False,False,False,False,True
+29607,Histoloogia,nan,U-Alb/U-CreaAlbumiinijakreatiniinisuheuriinis,Lokatsioon,,111,,False,False,False,False,False,False,False,False,False,False,True
+29620,Histoloogia,nan,U-Uricult,Arhiivi number,,183,,False,False,False,False,False,False,False,False,False,False,True
+29680,Histoloogia,nan,U-Fentfentanüüluriinis,Lokatsioon,,2,,False,False,False,False,False,False,False,False,False,False,True
+29709,Histoloogia,nan,dU-CaKaltsiumööpäevasesuriinis,Kirjeldus,,1,,False,False,False,False,False,False,False,False,False,False,True
+29725,Histoloogia,nan,U-Mh-PCR,Lokatsioon,,21,,False,False,False,False,False,False,False,False,False,False,True
+29748,Histoloogia,nan,U-Barbarbituraadiduriinis,Arhiivi number,,3,,False,False,False,False,False,False,False,False,False,False,True
+29778,Hematoloogilised uuringud,nan,U-NaNaatriumuriinis,RDW%,,1,,False,False,False,False,False,False,False,False,False,False,True
+29833,Hematoloogilised uuringud,nan,U-Alb/Crea,RDW%,,33,,False,False,False,False,False,False,False,False,False,False,True
+30021,Hematoloogilised uuringud,nan,U-OXYoksükodoonuriinis,RDW%,,9,,False,False,False,False,False,False,False,False,False,False,True
+30074,Histoloogia,nan,dU-Crea,Lokatsioon,,1,,False,False,False,False,False,False,False,False,False,False,True
+30103,Histoloogia,nan,U-M.alb.,Kirjeldus,,1,,False,False,False,False,False,False,False,False,False,False,True
+30149,Histoloogia,nan,U-Myc,Diagnoos 1,,9,,False,False,False,False,False,False,False,False,False,False,True
+30274,Histoloogia,nan,U-Trva-PCR,Kirjeldus,,12,,False,False,False,False,False,False,False,False,False,False,True
+30277,Histoloogia,nan,U-CotKotiniinuriiniskvalitatiivne,Diagnoos 1,,1,,False,False,False,False,False,False,False,False,False,False,True
+30366,Hematoloogilised uuringud,nan,U-Fentfentanüüluriinis,RDW%,,2,,False,False,False,False,False,False,False,False,False,False,True
+30384,Histoloogia,nan,dU-OsmolOsmolaalsusööpäevasesuriinis,Arhiivi number,,2,,False,False,False,False,False,False,False,False,False,False,True
+30386,Histoloogia,nan,U-Alb-2,Kirjeldus,,7,,False,False,False,False,False,False,False,False,False,False,True
+30457,Hematoloogilised uuringud,nan,U-AmylPAmülaasipankreasefraktsioonuriinis,RDW%,,2,,False,False,False,False,False,False,False,False,False,False,True
+30467,Histoloogia,nan,U-GluGlükoos,Lokatsioon,,1483,,False,False,False,False,False,False,False,False,False,False,True
+30486,Histoloogia,nan,U-pHHappe-alusetasakaal,Diagnoos 1,,1487,,False,False,False,False,False,False,False,False,False,False,True
+30510,Hematoloogilised uuringud,nan,U-Tbc,PLCR,,13,,False,False,False,False,False,False,False,False,False,False,True
+30514,Histoloogia,nan,dU-Cu,Diagnoos 1,,1,,False,False,False,False,False,False,False,False,False,False,True
+30527,Hematoloogilised uuringud,nan,U-Alb/U-CreaAlbumiinijakreatiniinisuheuriinis,RDW%,,111,,False,False,False,False,False,False,False,False,False,False,True
+30544,Hematoloogilised uuringud,nan,U-BZDbenzodiazepiinuriinis,RDW%,,13,,False,False,False,False,False,False,False,False,False,False,True
+30549,Hematoloogilised uuringud,nan,U-Myge-PCR,RDW%,,4,,False,False,False,False,False,False,False,False,False,False,True
+30550,Histoloogia,nan,U-Alb-2,Arhiivi number,,7,,False,False,False,False,False,False,False,False,False,False,True
+30559,Histoloogia,nan,U-ProtValkkvantitatiivselt,Arhiivi number,,444,,False,False,False,False,False,False,False,False,False,False,True
+30565,Hematoloogilised uuringud,nan,U-Ng-PCR,PLCR,,4,,False,False,False,False,False,False,False,False,False,False,True
+30694,Hematoloogilised uuringud,nan,U-GlukGlükoosjuhuslikusuriinis,PLCR,,61,,False,False,False,False,False,False,False,False,False,False,True
+30741,Hematoloogilised uuringud,nan,dU-Kreat/Album,PLCR,,3,,False,False,False,False,False,False,False,False,False,False,True
+30851,Histoloogia,nan,U-METmetamfetamiinuriinis,Arhiivi number,,18,,False,False,False,False,False,False,False,False,False,False,True
+30914,Histoloogia,nan,U-Prot-Fr,Kirjeldus,,11,,False,False,False,False,False,False,False,False,False,False,True
+30956,Hematoloogilised uuringud,nan,U-NaNaatriumuriinis,PLCR,,1,,False,False,False,False,False,False,False,False,False,False,True
+31001,Hematoloogilised uuringud,nan,U-KetKetokehad,PLCR,,1483,,False,False,False,False,False,False,False,False,False,False,True
+31021,Hematoloogilised uuringud,nan,U-Bar,RDW%,,3,,False,False,False,False,False,False,False,False,False,False,True
+31087,Hematoloogilised uuringud,nan,U-Trva-PCR,RDW%,,12,,False,False,False,False,False,False,False,False,False,False,True
+31091,Histoloogia,nan,U-_uriini_suhkur,Lokatsioon,,2,,False,False,False,False,False,False,False,False,False,False,True
+31101,Histoloogia,nan,U-Sedim ,Lokatsioon,,3,,False,False,False,False,False,False,False,False,False,False,True
+31144,Histoloogia,nan,U-MycQ,Diagnoos 1,,5,,False,False,False,False,False,False,False,False,False,False,True
+31176,Histoloogia,nan,U-Uu/Up-PCR,Arhiivi number,,4,,False,False,False,False,False,False,False,False,False,False,True
+31190,Histoloogia,nan,U-UreaUureauriinis,Arhiivi number,,1,,False,False,False,False,False,False,False,False,False,False,True
+31256,Histoloogia,nan,U-KKaaliumuriinis,Lokatsioon,,1,,False,False,False,False,False,False,False,False,False,False,True
+31391,Histoloogia,nan,U-AmylAmülaasuriinis,Arhiivi number,,4,,False,False,False,False,False,False,False,False,False,False,True
+31419,Hematoloogilised uuringud,nan,U-Alb/glAlbumiinid/globuliiniduriinis,PLCR,,1,,False,False,False,False,False,False,False,False,False,False,True
+31420,Histoloogia,nan,U-Amf.ur.krAmorfseuraadikristallid,Lokatsioon,,59,,False,False,False,False,False,False,False,False,False,False,True
+31428,Histoloogia,nan,U-gam-glGammaglobuliiniduriinis,Arhiivi number,,3,,False,False,False,False,False,False,False,False,False,False,True
+31479,Histoloogia,nan,U-Amyl/U-CreaAmülaasijakreatiniinisuheuriinis,Arhiivi number,,3,,False,False,False,False,False,False,False,False,False,False,True
+31543,Histoloogia,nan,U-AmylP,Arhiivi number,,2,,False,False,False,False,False,False,False,False,False,False,True
+31591,Histoloogia,nan,U-Amyl,Diagnoos 1,,86,,False,False,False,False,False,False,False,False,False,False,True
+31622,Histoloogia,nan,U-ClaLäbipaistvus,Lokatsioon,,1479,,False,False,False,False,False,False,False,False,False,False,True
+31676,Hematoloogilised uuringud,nan,U-ColVärvus,PLCR,,1476,,False,False,False,False,False,False,False,False,False,False,True
+31696,Histoloogia,nan,dU-UAKusihapeööpäevasesuriinis,Arhiivi number,,4,,False,False,False,False,False,False,False,False,False,False,True
+31806,Histoloogia,nan,dU-Amyl,Arhiivi number,,55,,False,False,False,False,False,False,False,False,False,False,True
+31992,Histoloogia,nan,U-WBCLeukotsüüdid,Lokatsioon,,1487,,False,False,False,False,False,False,False,False,False,False,True
+32075,Hematoloogilised uuringud,nan,U-S-Crea-Carvutuslik(kreatiniinikliirens),PLCR,,16,,False,False,False,False,False,False,False,False,False,False,True
+32084,Hematoloogilised uuringud,nan,U-M1M-komponent1uriinis,PLCR,,1,,False,False,False,False,False,False,False,False,False,False,True
+32249,Histoloogia,nan,U-AmylP/U-CreaPankr.amülaasijakreatiniinisuheuriinis,Lokatsioon,,2,,False,False,False,False,False,False,False,False,False,False,True
+32347,Hematoloogilised uuringud,nan,U-AmylAmülaasuriinis,PLCR,,4,,False,False,False,False,False,False,False,False,False,False,True
+32462,Histoloogia,nan,U-Uu-PCR,Diagnoos 1,,20,,False,False,False,False,False,False,False,False,False,False,True
+32629,Histoloogia,nan,U-_Amyl,Arhiivi number,,3,,False,False,False,False,False,False,False,False,False,False,True
+32700,Hematoloogilised uuringud,nan,dU-MA,PLCR,,2,,False,False,False,False,False,False,False,False,False,False,True
+32707,Histoloogia,nan,U-CreaKreatiniin1.hommikusesuriinis,Lokatsioon,,20,,False,False,False,False,False,False,False,False,False,False,True
+32734,Histoloogia,nan,dU-CreatKreatiniinööpäevasesuriinis,Diagnoos 1,,7,,False,False,False,False,False,False,False,False,False,False,True
+32752,Histoloogia,nan,U-Up-PCR,Diagnoos 1,,21,,False,False,False,False,False,False,False,False,False,False,True
+32887,Hematoloogilised uuringud,nan,dU-5-HIAA,PLCR,,2,,False,False,False,False,False,False,False,False,False,False,True
+32915,Histoloogia,nan,U-Ampnegamfetamiinjatemaderivaadiduriinis,Kirjeldus,,23,,False,False,False,False,False,False,False,False,False,False,True
+32927,Histoloogia,nan,U-TCAtritsükloantidepressandiduriinis,Diagnoos 1,,11,,False,False,False,False,False,False,False,False,False,False,True
+32959,Hematoloogilised uuringud,nan,U-Ctr-PCR,PLCR,,22,,False,False,False,False,False,False,False,False,False,False,True
+32978,Histoloogia,nan,U-MeOHmetanooluriinis,Diagnoos 1,,1,,False,False,False,False,False,False,False,False,False,False,True
+33088,Histoloogia,nan,dU-M1M-komponent1uriinis,Kirjeldus,,4,,False,False,False,False,False,False,False,False,False,False,True
+33287,Histoloogia,nan,dU-Alb-elAlbumiinid(elektroforeesil),Lokatsioon,,6,,False,False,False,False,False,False,False,False,False,False,True
+33292,Histoloogia,nan,U-GluGlükoos,Arhiivi number,,1483,,False,False,False,False,False,False,False,False,False,False,True
+33309,Hematoloogilised uuringud,nan,U-MOPopiaadiduriinis,RDW%,,13,,False,False,False,False,False,False,False,False,False,False,True
+33314,Histoloogia,nan,U-Gva-PCR,Kirjeldus,,2,,False,False,False,False,False,False,False,False,False,False,True
+33418,Hematoloogilised uuringud,nan,U-ProtValkkvantitatiivselt,PLCR,,444,,False,False,False,False,False,False,False,False,False,False,True
+33429,Histoloogia,nan,U-Coprop/U-Crea,Arhiivi number,,4,,False,False,False,False,False,False,False,False,False,False,True
+33445,Histoloogia,nan,U-BZDbenzodiazepiinuriinis,Lokatsioon,,13,,False,False,False,False,False,False,False,False,False,False,True
+33609,Histoloogia,nan,U-C_trachomatis_DNA,Lokatsioon,,6,,False,False,False,False,False,False,False,False,False,False,True
+33639,Histoloogia,nan,U-Alb/Crea,Arhiivi number,,33,,False,False,False,False,False,False,False,False,False,False,True
+33741,Hematoloogilised uuringud,nan,U-ProtValkuriinis,PLCR,,17,,False,False,False,False,False,False,False,False,False,False,True
+33748,Histoloogia,nan,U-Sed-m,Kirjeldus,,6752,,False,False,False,False,False,False,False,False,False,False,True
+33757,Histoloogia,nan,U-pHHappe-alusetasakaal,Arhiivi number,,1487,,False,False,False,False,False,False,False,False,False,False,True
+33764,Hematoloogilised uuringud,nan,U-Albumiin,PLCR,,1,,False,False,False,False,False,False,False,False,False,False,True
+33856,Histoloogia,nan,dU-K,Diagnoos 1,,1,,False,False,False,False,False,False,False,False,False,False,True
+33867,Histoloogia,nan,U-DALA,Arhiivi number,,3,,False,False,False,False,False,False,False,False,False,False,True
+33924,Histoloogia,nan,dU-PBGPorfobilinogeenööpäevasesuriinis,Kirjeldus,,1,,False,False,False,False,False,False,False,False,False,False,True
+33943,Hematoloogilised uuringud,nan,U-AlbAlbumiinuriinis,PLCR,,106,,False,False,False,False,False,False,False,False,False,False,True
+34018,Histoloogia,nan,U-Amf.fos.kAmorfsefosfaadikristallid,Diagnoos 1,,4,,False,False,False,False,False,False,False,False,False,False,True
+34174,Hematoloogilised uuringud,nan,U-C_trachomatis_DNA,PLCR,,6,,False,False,False,False,False,False,False,False,False,False,True
+34209,Histoloogia,nan,dU-Prot_,Kirjeldus,,3,,False,False,False,False,False,False,False,False,False,False,True
+34269,Histoloogia,nan,dU-P,Diagnoos 1,,4,,False,False,False,False,False,False,False,False,False,False,True
+34382,Hematoloogilised uuringud,nan,U-Bil.krBilirubiinikristallid,PLCR,,1,,False,False,False,False,False,False,False,False,False,False,True
+34406,Hematoloogilised uuringud,nan,U-Strepn,PLCR,,7,,False,False,False,False,False,False,False,False,False,False,True
+34420,Histoloogia,nan,dU-Ca,Diagnoos 1,,6,,False,False,False,False,False,False,False,False,False,False,True
+34558,Histoloogia,nan,U-S-Crea-Cmõõdetav(kreatiniinikliirens),Kirjeldus,,8,,False,False,False,False,False,False,False,False,False,False,True
+34611,Histoloogia,nan,dU-PFosfaatööpäevasesuriinis,Arhiivi number,,2,,False,False,False,False,False,False,False,False,False,False,True
+34663,Histoloogia,nan,dU-KKaaliumööpäevasesuriinis,Lokatsioon,,4,,False,False,False,False,False,False,False,False,False,False,True
+34679,Histoloogia,nan,U-KKaaliumuriinis,Diagnoos 1,,1,,False,False,False,False,False,False,False,False,False,False,True
+34699,Histoloogia,nan,U-Tbc,Lokatsioon,,13,,False,False,False,False,False,False,False,False,False,False,True
+34762,Hematoloogilised uuringud,nan,U-UreaUureauriinis,RDW%,,1,,False,False,False,False,False,False,False,False,False,False,True
+34812,Hematoloogilised uuringud,nan,U-Bzdbenzodiazepiinuriinis,RDW%,,3,,False,False,False,False,False,False,False,False,False,False,True
+34828,Histoloogia,nan,dU-DALA-Delta-amiino-levuliinhapeööpäevasesuriinis,Kirjeldus,,1,,False,False,False,False,False,False,False,False,False,False,True
+34855,Histoloogia,nan,dU-Prot-FrUriinivalkudeelektroforees,Arhiivi number,,8,,False,False,False,False,False,False,False,False,False,False,True
+34876,Hematoloogilised uuringud,nan,U-Alb/glAlbumiinid/globuliiniduriinis,RDW%,,1,,False,False,False,False,False,False,False,False,False,False,True
+34884,Histoloogia,nan,U-PPXpropoksüfeenuriinis,Lokatsioon,,8,,False,False,False,False,False,False,False,False,False,False,True
+35039,Histoloogia,nan,U-GlukGlükoosjuhuslikusuriinis,Diagnoos 1,,61,,False,False,False,False,False,False,False,False,False,False,True
+35131,Histoloogia,nan,dU-KKaaliumööpäevasesuriinis,Diagnoos 1,,4,,False,False,False,False,False,False,False,False,False,False,True
+35133,Histoloogia,nan,U-CotKotiniinuriiniskvalitatiivne,Arhiivi number,,1,,False,False,False,False,False,False,False,False,False,False,True
+35136,Hematoloogilised uuringud,nan,U-Ca.fos.krKaltsiumfosfaadikristallid,RDW%,,3,,False,False,False,False,False,False,False,False,False,False,True
+35155,Hematoloogilised uuringud,nan,U-OsmolOsmolaalsusuriinis,RDW%,,4,,False,False,False,False,False,False,False,False,False,False,True
+35164,Hematoloogilised uuringud,nan,U-Coprop/U-Crea,RDW%,,4,,False,False,False,False,False,False,False,False,False,False,True
+35179,Hematoloogilised uuringud,nan,dU-DALA,RDW%,,4,,False,False,False,False,False,False,False,False,False,False,True
+35259,Hematoloogilised uuringud,nan,U-Amyl,RDW%,,86,,False,False,False,False,False,False,False,False,False,False,True
+35270,Hematoloogilised uuringud,nan,dU-ALBAlbumiinööpäevasesuriinis,PLCR,,6,,False,False,False,False,False,False,False,False,False,False,True
+35324,Histoloogia,nan,U-f-kappa/lambda,Kirjeldus,,15,,False,False,False,False,False,False,False,False,False,False,True
+35400,Histoloogia,nan,U-Amyl/U-CreaAmülaasijakreatiniinisuheuriinis,Diagnoos 1,,3,,False,False,False,False,False,False,False,False,False,False,True
+35411,Histoloogia,nan,U-UreaUureauriinis,Lokatsioon,,1,,False,False,False,False,False,False,False,False,False,False,True
+35471,Histoloogia,nan,dU-CaKaltsiumööpäevasesuriinis,Lokatsioon,,1,,False,False,False,False,False,False,False,False,False,False,True
+35480,Hematoloogilised uuringud,nan,dU-ProtValk,RDW%,,25,,False,False,False,False,False,False,False,False,False,False,True
+35503,Histoloogia,nan,U-Lepn,Diagnoos 1,,5,,False,False,False,False,False,False,False,False,False,False,True
+35560,Hematoloogilised uuringud,nan,U-Candida_albicans,RDW%,,1,,False,False,False,False,False,False,False,False,False,False,True
+35677,Hematoloogilised uuringud,nan,dU-Cort,PLCR,,1,,False,False,False,False,False,False,False,False,False,False,True
+35756,Hematoloogilised uuringud,nan,dU-Cort,RDW%,,1,,False,False,False,False,False,False,False,False,False,False,True
+35792,Hematoloogilised uuringud,nan,U-MycQ,RDW%,,5,,False,False,False,False,False,False,False,False,False,False,True
+35880,Histoloogia,nan,U-ProtValkuriinis(elektroforees),Kirjeldus,,1,,False,False,False,False,False,False,False,False,False,False,True
+35967,Histoloogia,nan,dU-ProtValk,Diagnoos 1,,25,,False,False,False,False,False,False,False,False,False,False,True
+36019,Histoloogia,nan,U-NaNaatriumuriinis,Arhiivi number,,1,,False,False,False,False,False,False,False,False,False,False,True
+36096,Histoloogia,nan,U-BZDbenzodiazepiinuriinis,Arhiivi number,,13,,False,False,False,False,False,False,False,False,False,False,True
+36172,Histoloogia,nan,U-SGErikaal,Lokatsioon,,1458,,False,False,False,False,False,False,False,False,False,False,True
+36210,Histoloogia,nan,U-Tbc,Arhiivi number,,13,,False,False,False,False,False,False,False,False,False,False,True
+36233,Hematoloogilised uuringud,nan,U-ProValk,RDW%,,1483,,False,False,False,False,False,False,False,False,False,False,True
+36310,Histoloogia,nan,U-Sedim_,Diagnoos 1,,12,,False,False,False,False,False,False,False,False,False,False,True
+36314,Histoloogia,nan,dU-PorfPorfüriinid(uro-jakoproporfüriinid)ööpäevases,Arhiivi number,,1,,False,False,False,False,False,False,False,False,False,False,True
+36340,Histoloogia,nan,U-ColVärvus,Diagnoos 1,,1476,,False,False,False,False,False,False,False,False,False,False,True
+36405,Histoloogia,nan,U-Prot-Fr,Diagnoos 1,,11,,False,False,False,False,False,False,False,False,False,False,True
+36423,Hematoloogilised uuringud,nan,U-_uriini_suhkur,RDW%,,2,,False,False,False,False,False,False,False,False,False,False,True
+36427,Histoloogia,nan,U-Sedim-m,Lokatsioon,,6,,False,False,False,False,False,False,False,False,False,False,True
+36441,Histoloogia,nan,dU-P,Lokatsioon,,4,,False,False,False,False,False,False,False,False,False,False,True
+36457,Histoloogia,nan,U-_Gluc_suhkur,Diagnoos 1,,2,,False,False,False,False,False,False,False,False,False,False,True
+36474,Histoloogia,nan,U-Cockokaiinuriinis,Lokatsioon,,3,,False,False,False,False,False,False,False,False,False,False,True
+36488,Histoloogia,nan,U-Sedi-m,Arhiivi number,,11,,False,False,False,False,False,False,False,False,False,False,True
+36549,Histoloogia,nan,U-urilux,Kirjeldus,,290,,False,False,False,False,False,False,False,False,False,False,True
+36584,Histoloogia,nan,U-f-kappa/lambda,Lokatsioon,,15,,False,False,False,False,False,False,False,False,False,False,True
+36601,Histoloogia,nan,dU-Ca,Kirjeldus,,6,,False,False,False,False,False,False,False,False,False,False,True
+36608,Histoloogia,nan,U-AmylPAmülaasipankreasefraktsioonuriinis,Lokatsioon,,2,,False,False,False,False,False,False,False,False,False,False,True
+36620,Histoloogia,nan,U-TCAtritsükloantidepressandiduriinis,Kirjeldus,,11,,False,False,False,False,False,False,False,False,False,False,True
+36626,Histoloogia,nan,U-Sedim,Arhiivi number,,11099,,False,False,False,False,False,False,False,False,False,False,True
+36704,Histoloogia,nan,U-PBGPorfobilinogeenuriinis,Lokatsioon,,3,,False,False,False,False,False,False,False,False,False,False,True
+36789,Hematoloogilised uuringud,nan,U-THCkannabinoididuriinis,RDW%,,23,,False,False,False,False,False,False,False,False,False,False,True
+36793,Histoloogia,nan,U-BZDbenzodiazepiinuriinis,Kirjeldus,,13,,False,False,False,False,False,False,False,False,False,False,True
+36796,Histoloogia,nan,U-Kusih.kr.Kusihappekristallid,Kirjeldus,,6,,False,False,False,False,False,False,False,False,False,False,True
+36925,Histoloogia,nan,U-St.pneumonia,Lokatsioon,,4,,False,False,False,False,False,False,False,False,False,False,True
+36952,Hematoloogilised uuringud,nan,dU-CreaKreatiniinööpäevasesuriinis,PLCR,,50,,False,False,False,False,False,False,False,False,False,False,True
+36978,Hematoloogilised uuringud,nan,U-Ngo-PCR,PLCR,,10,,False,False,False,False,False,False,False,False,False,False,True
+36990,Hematoloogilised uuringud,nan,U-BARbarbituraadiduriinis,RDW%,,12,,False,False,False,False,False,False,False,False,False,False,True
+37033,Hematoloogilised uuringud,nan,U-CotKotiniinuriiniskvalitatiivne,RDW%,,1,,False,False,False,False,False,False,False,False,False,False,True
+37089,Hematoloogilised uuringud,nan,U-Alb/U-CreaMikroalbuminuuria,RDW%,,9,,False,False,False,False,False,False,False,False,False,False,True
+37127,Histoloogia,nan,U-Ecsecstasyuriinis,Arhiivi number,,18,,False,False,False,False,False,False,False,False,False,False,True
+37172,Histoloogia,nan,U-Strip,Arhiivi number,,94919,,False,False,False,False,False,False,False,False,False,False,True
+37242,Histoloogia,nan,U-Tbc-Bac,Kirjeldus,,13,,False,False,False,False,False,False,False,False,False,False,True
+37256,Histoloogia,nan,U-Prot_,Diagnoos 1,,74,,False,False,False,False,False,False,False,False,False,False,True
+37275,Hematoloogilised uuringud,nan,dU-OsmolOsmolaalsusööpäevasesuriinis,RDW%,,2,,False,False,False,False,False,False,False,False,False,False,True
+37331,Histoloogia,nan,U-Bzdbenzodiazepiinuriinis,Diagnoos 1,,3,,False,False,False,False,False,False,False,False,False,False,True
+37355,Histoloogia,nan,U-MycQ,Kirjeldus,,5,,False,False,False,False,False,False,False,False,False,False,True
+37372,Histoloogia,nan,U-Crea,Lokatsioon,,2,,False,False,False,False,False,False,False,False,False,False,True
+37373,Histoloogia,nan,U-Alb,Lokatsioon,,34,,False,False,False,False,False,False,False,False,False,False,True
+37394,Histoloogia,nan,U-M.alb.,Arhiivi number,,1,,False,False,False,False,False,False,False,False,False,False,True
+37492,Histoloogia,nan,U-Ampnegamfetamiinjatemaderivaadiduriinis,Arhiivi number,,23,,False,False,False,False,False,False,False,False,False,False,True
+37544,Histoloogia,nan,dU-Alb-elAlbumiinid(elektroforeesil),Arhiivi number,,6,,False,False,False,False,False,False,False,False,False,False,True
+37553,Hematoloogilised uuringud,nan,U-Ampnegamfetamiinjatemaderivaadiduriinis,RDW%,,23,,False,False,False,False,False,False,False,False,False,False,True
+37566,Hematoloogilised uuringud,nan,dU-P,PLCR,,4,,False,False,False,False,False,False,False,False,False,False,True
+37592,Histoloogia,nan,U-COCkokaiinuriinis,Diagnoos 1,,13,,False,False,False,False,False,False,False,False,False,False,True
+37652,Histoloogia,nan,dU-Ca,Arhiivi number,,6,,False,False,False,False,False,False,False,False,False,False,True
+37659,Hematoloogilised uuringud,nan,dU-CreatKreatiniinööpäevasesuriinis,RDW%,,7,,False,False,False,False,False,False,False,False,False,False,True
+37718,Hematoloogilised uuringud,nan,dU-MgMagneesiumööpäevasesuriinis,RDW%,,1,,False,False,False,False,False,False,False,False,False,False,True
+37730,Hematoloogilised uuringud,nan,U-Narco,PLCR,,69,,False,False,False,False,False,False,False,False,False,False,True
+37738,Histoloogia,nan,U-PBGPorfobilinogeenuriinis,Diagnoos 1,,3,,False,False,False,False,False,False,False,False,False,False,True
+37812,Histoloogia,nan,U-Trifos.krTrifosfaadikristallid,Diagnoos 1,,2,,False,False,False,False,False,False,False,False,False,False,True
+37823,Hematoloogilised uuringud,nan,U-Bil.krBilirubiinikristallid,RDW%,,1,,False,False,False,False,False,False,False,False,False,False,True
+37852,Histoloogia,nan,U-THCkannabinoididuriinis,Arhiivi number,,23,,False,False,False,False,False,False,False,False,False,False,True
+37950,Hematoloogilised uuringud,nan,U-Fentfentanüüluriinis,PLCR,,2,,False,False,False,False,False,False,False,False,False,False,True
+38065,Hematoloogilised uuringud,nan,U-Prot-Fr,RDW%,,11,,False,False,False,False,False,False,False,False,False,False,True
+38136,Histoloogia,nan,U-Ctr-PCR,Kirjeldus,,22,,False,False,False,False,False,False,False,False,False,False,True
+38145,Histoloogia,nan,U-DALADelta-aminolevuliinhapeuriinis,Arhiivi number,,3,,False,False,False,False,False,False,False,False,False,False,True
+38223,Histoloogia,nan,U-Ca.oks.krKaltsiumoksalaadikristallid,Arhiivi number,,16,,False,False,False,False,False,False,False,False,False,False,True
+38225,Histoloogia,nan,U-Alb-elAlbumiinid(elektroforeesil),Kirjeldus,,2,,False,False,False,False,False,False,False,False,False,False,True
+38277,Hematoloogilised uuringud,nan,U-Uu-PCR,PLCR,,20,,False,False,False,False,False,False,False,False,False,False,True
+38331,Histoloogia,nan,dU-gam-glGammaglobuliiniduriinis,Kirjeldus,,6,,False,False,False,False,False,False,False,False,False,False,True
+38358,Hematoloogilised uuringud,nan,dU-NaNaatriumööpäevasesuriinis,RDW%,,4,,False,False,False,False,False,False,False,False,False,False,True
+38644,Histoloogia,nan,dU-NaNaatriumööpäevasesuriinis,Arhiivi number,,4,,False,False,False,False,False,False,False,False,False,False,True
+38734,Histoloogia,nan,U-Fylfentanüüluriinis,Arhiivi number,,10,,False,False,False,False,False,False,False,False,False,False,True
+38788,Hematoloogilised uuringud,nan,U-Mycob,RDW%,,5,,False,False,False,False,False,False,False,False,False,False,True
+38804,Histoloogia,nan,U-NitNitrit,Kirjeldus,,1488,,False,False,False,False,False,False,False,False,False,False,True
+38895,Histoloogia,nan,dU-Prot-FrUriinivalkudeelektroforees,Lokatsioon,,8,,False,False,False,False,False,False,False,False,False,False,True
+38970,Histoloogia,nan,U-Uu/Up-PCR,Lokatsioon,,4,,False,False,False,False,False,False,False,False,False,False,True
+39064,Histoloogia,nan,U-Fylfentanüüluriinis,Kirjeldus,,10,,False,False,False,False,False,False,False,False,False,False,True
+39081,Hematoloogilised uuringud,nan,U-pHHappe-alusetasakaal,PLCR,,1487,,False,False,False,False,False,False,False,False,False,False,True
+39091,Histoloogia,nan,U-UbgUrobilinogeen,Kirjeldus,,1488,,False,False,False,False,False,False,False,False,False,False,True
+39149,Histoloogia,nan,dU-Kreat/Album,Lokatsioon,,3,,False,False,False,False,False,False,False,False,False,False,True
+39223,Hematoloogilised uuringud,nan,U-Ecsecstasyuriinis,RDW%,,18,,False,False,False,False,False,False,False,False,False,False,True
+39229,Histoloogia,nan,U-Aer,Kirjeldus,,50,,False,False,False,False,False,False,False,False,False,False,True
+39232,Histoloogia,nan,U-Amf.ur.krAmorfseuraadikristallid,Kirjeldus,,59,,False,False,False,False,False,False,False,False,False,False,True
+39298,Histoloogia,nan,U-HPV-genotüüp-PCR,Lokatsioon,,1,,False,False,False,False,False,False,False,False,False,False,True
+39332,Histoloogia,nan,U-ImmfixUriinivalkudeimmuunfiksatsioon,Diagnoos 1,,1,,False,False,False,False,False,False,False,False,False,False,True
+39339,Histoloogia,nan,dU-ImmfixUriinivalkudeimmuunfiksatsioon,Kirjeldus,,4,,False,False,False,False,False,False,False,False,False,False,True
+39348,Histoloogia,nan,U-Coprop/U-Crea,Kirjeldus,,4,,False,False,False,False,False,False,False,False,False,False,True
+39391,Histoloogia,nan,U-Ecsecstasyuriinis,Kirjeldus,,18,,False,False,False,False,False,False,False,False,False,False,True
+39437,Histoloogia,nan,U-HPV-genotüüp-PCR,Diagnoos 1,,1,,False,False,False,False,False,False,False,False,False,False,True
+39465,Histoloogia,nan,U-Prot/Crevalgujakreatiniinisuhe,Lokatsioon,,363,,False,False,False,False,False,False,False,False,False,False,True
+39482,Histoloogia,nan,U-OXYoksükodoonuriinis,Lokatsioon,,9,,False,False,False,False,False,False,False,False,False,False,True
+39490,Hematoloogilised uuringud,nan,U-Gluc,PLCR,,165,,False,False,False,False,False,False,False,False,False,False,True
+39560,Histoloogia,nan,U-Ng-PCR,Arhiivi number,,4,,False,False,False,False,False,False,False,False,False,False,True
+39603,Hematoloogilised uuringud,nan,U-PCPfentsüklidiinuriinis,PLCR,,10,,False,False,False,False,False,False,False,False,False,False,True
+39633,Histoloogia,nan,U-Uricult,Kirjeldus,,183,,False,False,False,False,False,False,False,False,False,False,True
+39661,Hematoloogilised uuringud,nan,dU-Prot_,RDW%,,3,,False,False,False,False,False,False,False,False,False,False,True
+39689,Histoloogia,nan,U-_uriini_suhkur,Arhiivi number,,2,,False,False,False,False,False,False,False,False,False,False,True
+39693,Hematoloogilised uuringud,nan,U-Gluc,RDW%,,177,,False,False,False,False,False,False,False,False,False,False,True
+39703,Histoloogia,nan,U-Amyl,Arhiivi number,,86,,False,False,False,False,False,False,False,False,False,False,True
+39707,Histoloogia,nan,U-Prot-FrUriinivalkudeelektroforees,Kirjeldus,,5,,False,False,False,False,False,False,False,False,False,False,True
+39796,Histoloogia,nan,U-BARbarbituraadiduriinis,Diagnoos 1,,12,,False,False,False,False,False,False,False,False,False,False,True
+39873,Hematoloogilised uuringud,nan,U-Prot/Crevalgujakreatiniinisuhe,PLCR,,363,,False,False,False,False,False,False,False,False,False,False,True
+39882,Histoloogia,nan,U-Amyl/U-CreaAmülaasijakreatiniinisuheuriinis,Kirjeldus,,3,,False,False,False,False,False,False,False,False,False,False,True
+39918,Hematoloogilised uuringud,nan,U-WBCLeukotsüüdid,PLCR,,1487,,False,False,False,False,False,False,False,False,False,False,True
+39934,Histoloogia,nan,U-Ng-PCR,Kirjeldus,,4,,False,False,False,False,False,False,False,False,False,False,True
+39960,Hematoloogilised uuringud,nan,dU-S-Crea,PLCR,,4,,False,False,False,False,False,False,False,False,False,False,True
+40030,Histoloogia,nan,dU-CreaKreatiniinööpäevasesuriinis,Diagnoos 1,,50,,False,False,False,False,False,False,False,False,False,False,True
+40044,Histoloogia,nan,U-RBCErütrotsüüdid,Diagnoos 1,,1483,,False,False,False,False,False,False,False,False,False,False,True
+40065,Histoloogia,nan,U-Candida_albicans,Lokatsioon,,1,,False,False,False,False,False,False,False,False,False,False,True
+40099,Hematoloogilised uuringud,nan,U-ClaLäbipaistvus,PLCR,,1479,,False,False,False,False,False,False,False,False,False,False,True
+40164,Histoloogia,nan,U-Narco,Kirjeldus,,69,,False,False,False,False,False,False,False,False,False,False,True
+40167,Histoloogia,nan,U-Mh-PCR,Arhiivi number,,21,,False,False,False,False,False,False,False,False,False,False,True
+40190,Histoloogia,nan,U-Trva-PCR,Lokatsioon,,12,,False,False,False,False,False,False,False,False,False,False,True
+40231,Hematoloogilised uuringud,nan,U-N_gonorrhoeae_DNA,RDW%,,6,,False,False,False,False,False,False,False,False,False,False,True
+40323,Histoloogia,nan,dU-Prot_,Arhiivi number,,3,,False,False,False,False,False,False,False,False,False,False,True
+40342,Hematoloogilised uuringud,nan,U-Tbc,RDW%,,13,,False,False,False,False,False,False,False,False,False,False,True
+40368,Hematoloogilised uuringud,nan,U-Aer,RDW%,,50,,False,False,False,False,False,False,False,False,False,False,True
+40402,Histoloogia,nan,U-Trifos.krTrifosfaadikristallid,Kirjeldus,,2,,False,False,False,False,False,False,False,False,False,False,True
+40429,Histoloogia,nan,dU-CreaKreatiniinööpäevasesuriinis,Lokatsioon,,50,,False,False,False,False,False,False,False,False,False,False,True
+40453,Histoloogia,nan,U-Ng-PCR,Diagnoos 1,,4,,False,False,False,False,False,False,False,False,False,False,True
+40463,Histoloogia,nan,U-N_gonorrhoeae_DNA,Arhiivi number,,6,,False,False,False,False,False,False,False,False,False,False,True
+40470,Hematoloogilised uuringud,nan,U-N_gonorrhoeae_DNA,PLCR,,6,,False,False,False,False,False,False,False,False,False,False,True
+40509,Histoloogia,nan,dU-ImmfixUriinivalkudeimmuunfiksatsioon,Arhiivi number,,4,,False,False,False,False,False,False,False,False,False,False,True
+40590,Histoloogia,nan,dU-DALA-Delta-amiino-levuliinhapeööpäevasesuriinis,Diagnoos 1,,1,,False,False,False,False,False,False,False,False,False,False,True
+40608,Hematoloogilised uuringud,nan,dU-Crea,RDW%,,1,,False,False,False,False,False,False,False,False,False,False,True
+40654,Histoloogia,nan,U-St.pneumonia,Kirjeldus,,4,,False,False,False,False,False,False,False,False,False,False,True
+40695,Histoloogia,nan,U-gam-glGammaglobuliiniduriinis,Lokatsioon,,3,,False,False,False,False,False,False,False,False,False,False,True
+40766,Histoloogia,nan,U-Alb-elAlbumiinid(elektroforeesil),Arhiivi number,,2,,False,False,False,False,False,False,False,False,False,False,True
+40892,Histoloogia,nan,dU-S-Crea,Lokatsioon,,7,,False,False,False,False,False,False,False,False,False,False,True
+40917,Hematoloogilised uuringud,nan,U-COCkokaiinuriinis,PLCR,,13,,False,False,False,False,False,False,False,False,False,False,True
+40992,Histoloogia,nan,U-Prot_,Lokatsioon,,74,,False,False,False,False,False,False,False,False,False,False,True
+41006,Histoloogia,nan,U-NaNaatriumuriinis,Diagnoos 1,,1,,False,False,False,False,False,False,False,False,False,False,True
+41026,Hematoloogilised uuringud,nan,U-DALADelta-aminolevuliinhapeuriinis,PLCR,,3,,False,False,False,False,False,False,False,False,False,False,True
+41035,Hematoloogilised uuringud,nan,dU-Prot,RDW%,,66,,False,False,False,False,False,False,False,False,False,False,True
+41048,Hematoloogilised uuringud,nan,U-Metmetamfetamiinuriinis,PLCR,,5,,False,False,False,False,False,False,False,False,False,False,True
+41059,Hematoloogilised uuringud,nan,U-Alb/Crea,PLCR,,27,,False,False,False,False,False,False,False,False,False,False,True
+41085,Hematoloogilised uuringud,nan,U-DALADelta-aminolevuliinhapeuriinis,RDW%,,3,,False,False,False,False,False,False,False,False,False,False,True
+41161,Histoloogia,nan,U-Narco,Diagnoos 1,,69,,False,False,False,False,False,False,False,False,False,False,True
+41294,Hematoloogilised uuringud,nan,U-Myho-PCR,PLCR,,2,,False,False,False,False,False,False,False,False,False,False,True
+41335,Histoloogia,nan,U-Myho-PCR,Arhiivi number,,2,,False,False,False,False,False,False,False,False,False,False,True
+41341,Histoloogia,nan,U-MhUu,Arhiivi number,,6,,False,False,False,False,False,False,False,False,False,False,True
+41345,Histoloogia,nan,U-PCPfentsüklidiinuriinis,Diagnoos 1,,10,,False,False,False,False,False,False,False,False,False,False,True
+41369,Hematoloogilised uuringud,nan,dU-Crea,PLCR,,1,,False,False,False,False,False,False,False,False,False,False,True
+41371,Histoloogia,nan,U-PCPfentsüklidiinuriinis,Arhiivi number,,10,,False,False,False,False,False,False,False,False,False,False,True
+41451,Histoloogia,nan,U-gam-glGammaglobuliiniduriinis,Diagnoos 1,,3,,False,False,False,False,False,False,False,False,False,False,True
+41484,Histoloogia,nan,U-DALA,Diagnoos 1,,3,,False,False,False,False,False,False,False,False,False,False,True
+41503,Hematoloogilised uuringud,nan,U-Strip,PLCR,,66758,,False,False,False,False,False,False,False,False,False,False,True
+41582,Hematoloogilised uuringud,nan,U-Up-PCR,PLCR,,21,,False,False,False,False,False,False,False,False,False,False,True
+41645,Histoloogia,nan,U-WBCLeukotsüüdid,Kirjeldus,,1487,,False,False,False,False,False,False,False,False,False,False,True
+41648,Histoloogia,nan,U-Candida_albicans,Arhiivi number,,1,,False,False,False,False,False,False,False,False,False,False,True
+41654,Histoloogia,nan,dU-Cort,Diagnoos 1,,1,,False,False,False,False,False,False,False,False,False,False,True
+41657,Histoloogia,nan,U-Bar,Kirjeldus,,3,,False,False,False,False,False,False,False,False,False,False,True
+41660,Hematoloogilised uuringud,nan,U-Bzdbenzodiazepiinuriinis,PLCR,,3,,False,False,False,False,False,False,False,False,False,False,True
+41677,Histoloogia,nan,U-Ngo-PCR,Lokatsioon,,10,,False,False,False,False,False,False,False,False,False,False,True
+41722,Hematoloogilised uuringud,nan,U-Alb/U-Crea,RDW%,,416,,False,False,False,False,False,False,False,False,False,False,True
+41744,Hematoloogilised uuringud,nan,U-Ng-PCR,RDW%,,4,,False,False,False,False,False,False,False,False,False,False,True
+41773,Histoloogia,nan,U-Lepn,Lokatsioon,,5,,False,False,False,False,False,False,False,False,False,False,True
+41774,Hematoloogilised uuringud,nan,U-Alb/U-CreaMikroalbuminuuria,PLCR,,5,,False,False,False,False,False,False,False,False,False,False,True
+41789,Histoloogia,nan,U-Mopopiaadiduriinis,Lokatsioon,,2,,False,False,False,False,False,False,False,False,False,False,True
+41845,Histoloogia,nan,U-Bzdbenzodiazepiinuriinis,Kirjeldus,,3,,False,False,False,False,False,False,False,False,False,False,True
+41848,Hematoloogilised uuringud,nan,dU-DALA-Delta-amiino-levuliinhapeööpäevasesuriinis,PLCR,,1,,False,False,False,False,False,False,False,False,False,False,True
+41985,Histoloogia,nan,U-Fentfentanüüluriinis,Arhiivi number,,2,,False,False,False,False,False,False,False,False,False,False,True
+42009,Hematoloogilised uuringud,nan,U-Sedim,RDW%,,11099,,False,False,False,False,False,False,False,False,False,False,True
+42027,Hematoloogilised uuringud,nan,dU-PorfPorfüriinid(uro-jakoproporfüriinid)ööpäevases,PLCR,,1,,False,False,False,False,False,False,False,False,False,False,True
+42031,Hematoloogilised uuringud,nan,U-BilBilirubiin,PLCR,,1484,,False,False,False,False,False,False,False,False,False,False,True
+42054,Histoloogia,nan,U-MycQ,Lokatsioon,,5,,False,False,False,False,False,False,False,False,False,False,True
+42079,Histoloogia,nan,dU-Prot,Arhiivi number,,66,,False,False,False,False,False,False,False,False,False,False,True
+42132,Hematoloogilised uuringud,nan,dU-Ca,RDW%,,6,,False,False,False,False,False,False,False,False,False,False,True
+42147,Hematoloogilised uuringud,nan,dU-K,RDW%,,1,,False,False,False,False,False,False,False,False,False,False,True
+42219,Hematoloogilised uuringud,nan,U-Amf.fos.kAmorfsefosfaadikristallid,RDW%,,4,,False,False,False,False,False,False,False,False,False,False,True
+42285,Hematoloogilised uuringud,nan,dU-Amyl,RDW%,,55,,False,False,False,False,False,False,False,False,False,False,True
+42385,Hematoloogilised uuringud,nan,U-ProtValkuriinis(elektroforees),PLCR,,1,,False,False,False,False,False,False,False,False,False,False,True
+42479,Histoloogia,nan,dU-Catechol,Lokatsioon,,22,,False,False,False,False,False,False,False,False,False,False,True
+42542,Hematoloogilised uuringud,nan,U-_Gluc_suhkur,RDW%,,2,,False,False,False,False,False,False,False,False,False,False,True
+42589,Histoloogia,nan,U-MhUu,Kirjeldus,,6,,False,False,False,False,False,False,False,False,False,False,True
+42607,Hematoloogilised uuringud,nan,U-PorfPorfüriinid(uro-jakoproporfüriinid)uriinis,RDW%,,3,,False,False,False,False,False,False,False,False,False,False,True
+42615,Histoloogia,nan,dU-DALA-Delta-amiino-levuliinhapeööpäevasesuriinis,Arhiivi number,,1,,False,False,False,False,False,False,False,False,False,False,True
+42621,Hematoloogilised uuringud,nan,U-EtGlyetüleenglükooluriinis,RDW%,,1,,False,False,False,False,False,False,False,False,False,False,True
+42634,Histoloogia,nan,U-Bar,Arhiivi number,,3,,False,False,False,False,False,False,False,False,False,False,True
+42661,Hematoloogilised uuringud,nan,dU-Amyl,PLCR,,10,,False,False,False,False,False,False,False,False,False,False,True
+42740,Hematoloogilised uuringud,nan,U-ClaLäbipaistvus,RDW%,,1479,,False,False,False,False,False,False,False,False,False,False,True
+42778,Histoloogia,nan,U-_uriini_suhkur,Diagnoos 1,,2,,False,False,False,False,False,False,False,False,False,False,True
+42900,Histoloogia,nan,U-Narco,Arhiivi number,,69,,False,False,False,False,False,False,False,False,False,False,True
+42950,Hematoloogilised uuringud,nan,U-Uu+Up-PCR,RDW%,,6,,False,False,False,False,False,False,False,False,False,False,True
+42952,Histoloogia,nan,U-KetKetokehad,Kirjeldus,,1483,,False,False,False,False,False,False,False,False,False,False,True
+42997,Histoloogia,nan,U-THCkannabinoididuriinis,Diagnoos 1,,23,,False,False,False,False,False,False,False,False,False,False,True
+43019,Histoloogia,nan,U-Up-PCR,Arhiivi number,,21,,False,False,False,False,False,False,False,False,False,False,True
+43104,Histoloogia,nan,U-sedim-suprav,Kirjeldus,,752,,False,False,False,False,False,False,False,False,False,False,True
+43112,Histoloogia,nan,U-DALADelta-aminolevuliinhapeuriinis,Diagnoos 1,,3,,False,False,False,False,False,False,False,False,False,False,True
+43135,Histoloogia,nan,U-Lepn,Arhiivi number,,5,,False,False,False,False,False,False,False,False,False,False,True
+43166,Hematoloogilised uuringud,nan,U-gam-glGammaglobuliiniduriinis,RDW%,,3,,False,False,False,False,False,False,False,False,False,False,True
+43172,Histoloogia,nan,U-MhUu,Lokatsioon,,6,,False,False,False,False,False,False,False,False,False,False,True
+43186,Histoloogia,nan,U-Mycob,Arhiivi number,,5,,False,False,False,False,False,False,False,False,False,False,True
+43425,Histoloogia,nan,U-AmylP,Lokatsioon,,2,,False,False,False,False,False,False,False,False,False,False,True
+43438,Hematoloogilised uuringud,nan,U-Sedim,PLCR,,9577,,False,False,False,False,False,False,False,False,False,False,True
+43461,Hematoloogilised uuringud,nan,U-ImmfixUriinivalkudeimmuunfiksatsioon,RDW%,,1,,False,False,False,False,False,False,False,False,False,False,True
+43462,Hematoloogilised uuringud,nan,U-Uricult,PLCR,,183,,False,False,False,False,False,False,False,False,False,False,True
+43662,Histoloogia,nan,U-Fentfentanüüluriinis,Diagnoos 1,,2,,False,False,False,False,False,False,False,False,False,False,True
+43690,Histoloogia,nan,dU-Cort,Kirjeldus,,1,,False,False,False,False,False,False,False,False,False,False,True
+43794,Hematoloogilised uuringud,nan,U-Ca.oks.krKaltsiumoksalaadikristallid,RDW%,,16,,False,False,False,False,False,False,False,False,False,False,True
+43800,Histoloogia,nan,U-NitNitrit,Diagnoos 1,,1488,,False,False,False,False,False,False,False,False,False,False,True
+43840,Hematoloogilised uuringud,nan,U-HPV-genotüüp-PCR,PLCR,,1,,False,False,False,False,False,False,False,False,False,False,True
+43856,Histoloogia,nan,U-OXYoksükodoonuriinis,Arhiivi number,,9,,False,False,False,False,False,False,False,False,False,False,True
+43945,Histoloogia,nan,dU-Cu,Arhiivi number,,1,,False,False,False,False,False,False,False,False,False,False,True
+43957,Histoloogia,nan,U-St.pneumonia,Arhiivi number,,4,,False,False,False,False,False,False,False,False,False,False,True
+44004,Hematoloogilised uuringud,nan,dU-Prot-FrUriinivalkudeelektroforees,PLCR,,8,,False,False,False,False,False,False,False,False,False,False,True
+44071,Hematoloogilised uuringud,nan,U-SGErikaal,PLCR,,1458,,False,False,False,False,False,False,False,False,False,False,True
+44087,Histoloogia,nan,dU-K,Lokatsioon,,1,,False,False,False,False,False,False,False,False,False,False,True
+44174,Histoloogia,nan,U-Isoprisopropanooluriinis,Lokatsioon,,1,,False,False,False,False,False,False,False,False,False,False,True
+44186,Histoloogia,nan,U-Alb/U-CreaMikroalbuminuuria,Lokatsioon,,9,,False,False,False,False,False,False,False,False,False,False,True
+44220,Histoloogia,nan,U-Tbc-Bac,Arhiivi number,,13,,False,False,False,False,False,False,False,False,False,False,True
+44274,Histoloogia,nan,U-Aer,Arhiivi number,,50,,False,False,False,False,False,False,False,False,False,False,True
+44318,Histoloogia,nan,U-M.alb.,Lokatsioon,,1,,False,False,False,False,False,False,False,False,False,False,True
+44323,Hematoloogilised uuringud,nan,U-M.alb.,RDW%,,1,,False,False,False,False,False,False,False,False,False,False,True
+44333,Histoloogia,nan,dU-PorfPorfüriinid(uro-jakoproporfüriinid)ööpäevases,Kirjeldus,,1,,False,False,False,False,False,False,False,False,False,False,True
+44368,Hematoloogilised uuringud,nan,dU-ProtValk,PLCR,,25,,False,False,False,False,False,False,False,False,False,False,True
+44441,Histoloogia,nan,dU-UAKusihapeööpäevasesuriinis,Kirjeldus,,4,,False,False,False,False,False,False,False,False,False,False,True
+44491,Histoloogia,nan,U-UreaUureauriinis,Kirjeldus,,1,,False,False,False,False,False,False,False,False,False,False,True
+44545,Hematoloogilised uuringud,nan,U-sedim-suprav,RDW%,,752,,False,False,False,False,False,False,False,False,False,False,True
+44547,Histoloogia,nan,U-CreaKreatiniinuriinis,Diagnoos 1,,411,,False,False,False,False,False,False,False,False,False,False,True
+44561,Hematoloogilised uuringud,nan,U-AlbAlbumiinuriinis,RDW%,,106,,False,False,False,False,False,False,False,False,False,False,True
+44571,Histoloogia,nan,U-Sedi-m,Diagnoos 1,,11,,False,False,False,False,False,False,False,False,False,False,True
+44720,Hematoloogilised uuringud,nan,dU-Prot,PLCR,,60,,False,False,False,False,False,False,False,False,False,False,True
+44845,Hematoloogilised uuringud,nan,dU-CreaKreatiniinööpäevasesuriinis,RDW%,,50,,False,False,False,False,False,False,False,False,False,False,True
+44868,Histoloogia,nan,U-MhUu,Diagnoos 1,,6,,False,False,False,False,False,False,False,False,False,False,True
+44875,Hematoloogilised uuringud,nan,U-GluGlükoos,PLCR,,1483,,False,False,False,False,False,False,False,False,False,False,True
+44940,Histoloogia,nan,dU-Alb,Arhiivi number,,6,,False,False,False,False,False,False,False,False,False,False,True
+44944,Histoloogia,nan,U-Alb/U-CreaAlbumiinijakreatiniinisuheuriinis,Kirjeldus,,111,,False,False,False,False,False,False,False,False,False,False,True
+44952,Hematoloogilised uuringud,nan,U-Bar,PLCR,,3,,False,False,False,False,False,False,False,False,False,False,True
+44988,Hematoloogilised uuringud,nan,U-Mopopiaadiduriinis,RDW%,,2,,False,False,False,False,False,False,False,False,False,False,True
+44989,Histoloogia,nan,U-Barbarbituraadiduriinis,Kirjeldus,,3,,False,False,False,False,False,False,False,False,False,False,True
+45009,Histoloogia,nan,U-Alb/glAlbumiinid/globuliiniduriinis,Lokatsioon,,1,,False,False,False,False,False,False,False,False,False,False,True
+45029,Histoloogia,nan,U-MycQ,Arhiivi number,,5,,False,False,False,False,False,False,False,False,False,False,True
+45039,Histoloogia,nan,dU-ProtValkööpäevasesuriinis,Lokatsioon,,82,,False,False,False,False,False,False,False,False,False,False,True
+45149,Histoloogia,nan,U-Tbc,Kirjeldus,,13,,False,False,False,False,False,False,False,False,False,False,True
+45162,Histoloogia,nan,dU-5-HIAA,Kirjeldus,,2,,False,False,False,False,False,False,False,False,False,False,True
+45223,Hematoloogilised uuringud,nan,U-Cockokaiinuriinis,PLCR,,3,,False,False,False,False,False,False,False,False,False,False,True
+45228,Histoloogia,nan,U-uriini_autom._sademega,Diagnoos 1,,339,,False,False,False,False,False,False,False,False,False,False,True
+45231,Hematoloogilised uuringud,nan,dU-PBGPorfobilinogeenööpäevasesuriinis,RDW%,,1,,False,False,False,False,False,False,False,False,False,False,True
+45436,Histoloogia,nan,U-Coprop/U-Crea,Diagnoos 1,,4,,False,False,False,False,False,False,False,False,False,False,True
+45540,Hematoloogilised uuringud,nan,dU-M1M-komponent1uriinis,PLCR,,4,,False,False,False,False,False,False,False,False,False,False,True
+45573,Hematoloogilised uuringud,nan,U-Mh-PCR,PLCR,,21,,False,False,False,False,False,False,False,False,False,False,True
+45576,Histoloogia,nan,U-BARbarbituraadiduriinis,Arhiivi number,,12,,False,False,False,False,False,False,False,False,False,False,True
+45584,Histoloogia,nan,U-S-Crea-Carvutuslik(kreatiniinikliirens),Lokatsioon,,16,,False,False,False,False,False,False,False,False,False,False,True
+45648,Histoloogia,nan,dU-MA,Arhiivi number,,28,,False,False,False,False,False,False,False,False,False,False,True
+45676,Histoloogia,nan,U-ProtValkuriinis,Diagnoos 1,,17,,False,False,False,False,False,False,False,False,False,False,True
+45705,Hematoloogilised uuringud,nan,dU-MA,RDW%,,28,,False,False,False,False,False,False,False,False,False,False,True
+45718,Histoloogia,nan,U-Prot/Crevalgujakreatiniinisuhe,Diagnoos 1,,363,,False,False,False,False,False,False,False,False,False,False,True
+45760,Histoloogia,nan,dU-MA,Diagnoos 1,,28,,False,False,False,False,False,False,False,False,False,False,True
+45813,Histoloogia,nan,U-Uricult,Lokatsioon,,183,,False,False,False,False,False,False,False,False,False,False,True
+45833,Histoloogia,nan,U-DALADelta-aminolevuliinhapeuriinis,Kirjeldus,,3,,False,False,False,False,False,False,False,False,False,False,True
+45859,Histoloogia,nan,U-KKaaliumuriinis,Arhiivi number,,1,,False,False,False,False,False,False,False,False,False,False,True
+45904,Hematoloogilised uuringud,nan,U-COCkokaiinuriinis,RDW%,,13,,False,False,False,False,False,False,False,False,False,False,True
+45916,Hematoloogilised uuringud,nan,dU-KKaaliumööpäevasesuriinis,PLCR,,4,,False,False,False,False,False,False,False,False,False,False,True
+45947,Hematoloogilised uuringud,nan,dU-OsmolOsmolaalsusööpäevasesuriinis,PLCR,,2,,False,False,False,False,False,False,False,False,False,False,True
+45978,Histoloogia,nan,U-Myge-PCR,Arhiivi number,,4,,False,False,False,False,False,False,False,False,False,False,True
+45990,Histoloogia,nan,U-Amf.ur.krAmorfseuraadikristallid,Diagnoos 1,,59,,False,False,False,False,False,False,False,False,False,False,True
+46060,Histoloogia,nan,U-EtGlyetüleenglükooluriinis,Arhiivi number,,1,,False,False,False,False,False,False,False,False,False,False,True
+46107,Histoloogia,nan,U-ProValk,Lokatsioon,,1483,,False,False,False,False,False,False,False,False,False,False,True
+46180,Histoloogia,nan,U-Alb/Crea,Kirjeldus,,33,,False,False,False,False,False,False,False,False,False,False,True
+46220,Hematoloogilised uuringud,nan,U-Cockokaiinuriinis,RDW%,,3,,False,False,False,False,False,False,False,False,False,False,True
+46407,Histoloogia,nan,dU-UAKusihapeööpäevasesuriinis,Diagnoos 1,,4,,False,False,False,False,False,False,False,False,False,False,True
+46420,Histoloogia,nan,U-Gva-PCR,Diagnoos 1,,2,,False,False,False,False,False,False,False,False,False,False,True
+46431,Histoloogia,nan,U-Mycobacterium-m,Arhiivi number,,8,,False,False,False,False,False,False,False,False,False,False,True
+46460,Histoloogia,nan,U-Acetonatsetoonuriinis,Kirjeldus,,1,,False,False,False,False,False,False,False,False,False,False,True
+46472,Histoloogia,nan,U-ImmfixUriinivalkudeimmuunfiksatsioon,Lokatsioon,,1,,False,False,False,False,False,False,False,False,False,False,True
+46484,Histoloogia,nan,U-Fentfentanüüluriinis,Kirjeldus,,2,,False,False,False,False,False,False,False,False,False,False,True
+46495,Histoloogia,nan,U-Prot,Diagnoos 1,,442,,False,False,False,False,False,False,False,False,False,False,True
+46526,Hematoloogilised uuringud,nan,U-METmetamfetamiinuriinis,RDW%,,18,,False,False,False,False,False,False,False,False,False,False,True
+46567,Histoloogia,nan,U-Alb-2,Diagnoos 1,,7,,False,False,False,False,False,False,False,False,False,False,True
+46576,Histoloogia,nan,U-Alb/U-Crea,Kirjeldus,,416,,False,False,False,False,False,False,False,False,False,False,True
+46577,Hematoloogilised uuringud,nan,dU-ImmfixUriinivalkudeimmuunfiksatsioon,RDW%,,4,,False,False,False,False,False,False,False,False,False,False,True
+46593,Histoloogia,nan,U-Mycobacterium-m,Lokatsioon,,8,,False,False,False,False,False,False,False,False,False,False,True
+46597,Histoloogia,nan,U-GlukGlükoosjuhuslikusuriinis,Lokatsioon,,61,,False,False,False,False,False,False,False,False,False,False,True
+46676,Hematoloogilised uuringud,nan,U-uriini_autom,PLCR,,902,,False,False,False,False,False,False,False,False,False,False,True
+46710,Hematoloogilised uuringud,nan,U-ImmfixUriinivalkudeimmuunfiksatsioon,PLCR,,1,,False,False,False,False,False,False,False,False,False,False,True
+46724,Histoloogia,nan,dU-Prot_,Diagnoos 1,,3,,False,False,False,False,False,False,False,False,False,False,True
+46762,Histoloogia,nan,U-ClaLäbipaistvus,Kirjeldus,,1479,,False,False,False,False,False,False,False,False,False,False,True
+46886,Histoloogia,nan,U-PorfPorfüriinid(uro-jakoproporfüriinid)uriinis,Kirjeldus,,3,,False,False,False,False,False,False,False,False,False,False,True
+46920,Histoloogia,nan,U-Mh-PCR,Kirjeldus,,21,,False,False,False,False,False,False,False,False,False,False,True
+46960,Histoloogia,nan,U-Ampamfetamiinjatemaderivaadiduriinis,Kirjeldus,,1,,False,False,False,False,False,False,False,False,False,False,True
+46993,Histoloogia,nan,U-PPXpropoksüfeenuriinis,Kirjeldus,,8,,False,False,False,False,False,False,False,False,False,False,True
+46996,Histoloogia,nan,dU-CreaKreatiniinööpäevasesuriinis,Kirjeldus,,50,,False,False,False,False,False,False,False,False,False,False,True
+47000,Histoloogia,nan,U-Cockokaiinuriinis,Kirjeldus,,3,,False,False,False,False,False,False,False,False,False,False,True
+47005,Histoloogia,nan,U-Amylaas,Diagnoos 1,,15,,False,False,False,False,False,False,False,False,False,False,True
+47080,Hematoloogilised uuringud,nan,dU-Alb-elAlbumiinid(elektroforeesil),RDW%,,6,,False,False,False,False,False,False,False,False,False,False,True
+47131,Hematoloogilised uuringud,nan,U-pHHappe-alusetasakaal,RDW%,,1487,,False,False,False,False,False,False,False,False,False,False,True
+47136,Hematoloogilised uuringud,nan,U-Prot_,PLCR,,54,,False,False,False,False,False,False,False,False,False,False,True
+47148,Histoloogia,nan,U-S-Crea-Carvutuslik(kreatiniinikliirens),Arhiivi number,,16,,False,False,False,False,False,False,False,False,False,False,True
+47177,Histoloogia,nan,U-Alb/glAlbumiinid/globuliiniduriinis,Kirjeldus,,1,,False,False,False,False,False,False,False,False,False,False,True
+47222,Histoloogia,nan,U-Sedim,Kirjeldus,,11099,,False,False,False,False,False,False,False,False,False,False,True
+47337,Histoloogia,nan,U-CreaKreatiniinuriinis,Kirjeldus,,411,,False,False,False,False,False,False,False,False,False,False,True
+47356,Hematoloogilised uuringud,nan,U-OsmolOsmolaalsusuriinis,PLCR,,4,,False,False,False,False,False,False,False,False,False,False,True
+47437,Histoloogia,nan,U-Prot-FrUriinivalkudeelektroforees,Diagnoos 1,,5,,False,False,False,False,False,False,False,False,False,False,True
+47449,Histoloogia,nan,U-Myge-PCR,Lokatsioon,,4,,False,False,False,False,False,False,False,False,False,False,True
+47466,Histoloogia,nan,U-Sedi-m,Lokatsioon,,11,,False,False,False,False,False,False,False,False,False,False,True
+47474,Histoloogia,nan,U-OsmolOsmolaalsusuriinis,Diagnoos 1,,4,,False,False,False,False,False,False,False,False,False,False,True
+47484,Histoloogia,nan,U-COCkokaiinuriinis,Lokatsioon,,13,,False,False,False,False,False,False,False,False,False,False,True
+47525,Histoloogia,nan,U-amyl,Arhiivi number,,3,,False,False,False,False,False,False,False,False,False,False,True
+47871,Hematoloogilised uuringud,nan,U-Prot,RDW%,,442,,False,False,False,False,False,False,False,False,False,False,True
+47982,Hematoloogilised uuringud,nan,U-Lepn,PLCR,,5,,False,False,False,False,False,False,False,False,False,False,True
+48017,Histoloogia,nan,U-Alb-2,Lokatsioon,,7,,False,False,False,False,False,False,False,False,False,False,True
+48077,Histoloogia,nan,U-Acetonatsetoonuriinis,Arhiivi number,,1,,False,False,False,False,False,False,False,False,False,False,True
+48237,Histoloogia,nan,U-Myho-PCR,Kirjeldus,,2,,False,False,False,False,False,False,False,False,False,False,True
+48267,Histoloogia,nan,U-Prot,Kirjeldus,,442,,False,False,False,False,False,False,False,False,False,False,True
+48305,Histoloogia,nan,U-Albumiin,Diagnoos 1,,1,,False,False,False,False,False,False,False,False,False,False,True
+48315,Histoloogia,nan,dU-UreaUureaööpäevasesuriinis,Lokatsioon,,27,,False,False,False,False,False,False,False,False,False,False,True
+48331,Histoloogia,nan,U-Alb/U-CreaAlbumiinijakreatiniinisuheuriinis,Diagnoos 1,,111,,False,False,False,False,False,False,False,False,False,False,True
+48369,Histoloogia,nan,U-Mtdmetadoonuriinis,Lokatsioon,,10,,False,False,False,False,False,False,False,False,False,False,True
+48510,Hematoloogilised uuringud,nan,dU-Prot_,PLCR,,2,,False,False,False,False,False,False,False,False,False,False,True
+48537,Hematoloogilised uuringud,nan,U-UbgUrobilinogeen,PLCR,,1488,,False,False,False,False,False,False,False,False,False,False,True
+48608,Hematoloogilised uuringud,nan,U-METmetamfetamiinuriinis,PLCR,,18,,False,False,False,False,False,False,False,False,False,False,True
+48613,Histoloogia,nan,U-AmylAmülaasuriinis,Kirjeldus,,4,,False,False,False,False,False,False,False,False,False,False,True
+48643,Hematoloogilised uuringud,nan,U-PCPfentsüklidiinuriinis,RDW%,,10,,False,False,False,False,False,False,False,False,False,False,True
+48661,Hematoloogilised uuringud,nan,dU-PBGPorfobilinogeenööpäevasesuriinis,PLCR,,1,,False,False,False,False,False,False,False,False,False,False,True
+48745,Hematoloogilised uuringud,nan,U-Myc,PLCR,,9,,False,False,False,False,False,False,False,False,False,False,True
+48774,Hematoloogilised uuringud,nan,dU-PorfPorfüriinid(uro-jakoproporfüriinid)ööpäevases,RDW%,,1,,False,False,False,False,False,False,False,False,False,False,True
+48811,Hematoloogilised uuringud,nan,U-Acetonatsetoonuriinis,PLCR,,1,,False,False,False,False,False,False,False,False,False,False,True
+48839,Histoloogia,nan,U-UbgUrobilinogeen,Diagnoos 1,,1488,,False,False,False,False,False,False,False,False,False,False,True
+48876,Histoloogia,nan,U-M1M-komponent1uriinis,Lokatsioon,,1,,False,False,False,False,False,False,False,False,False,False,True
+48884,Histoloogia,nan,U-pHHappe-alusetasakaal,Kirjeldus,,1487,,False,False,False,False,False,False,False,False,False,False,True
+49055,Hematoloogilised uuringud,nan,U-Kusih.kr.Kusihappekristallid,RDW%,,6,,False,False,False,False,False,False,False,False,False,False,True
+49065,Hematoloogilised uuringud,nan,U-uriini_automaat_uriinivalguga,PLCR,,57,,False,False,False,False,False,False,False,False,False,False,True

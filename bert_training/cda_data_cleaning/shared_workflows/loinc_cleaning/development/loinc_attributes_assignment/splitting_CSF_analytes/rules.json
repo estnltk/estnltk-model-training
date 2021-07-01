@@ -1,0 +1,13 @@
+{
+
+  "PRAHT": {"name": "", "rules": {"parameter_name": {"endswith": [], "startswith": [], "equals": []}, "parameter_code": {"endswith": [], "startswith": [], "equals": []}, "analysis_name": {"endswith": [], "startswith": [], "equals": []}}, "link": "", "comment": ""},
+  "Laktaat": {"name": "", "rules": {"parameter_name": {"endswith": [], "startswith": [], "equals": []}, "parameter_code": {"endswith": [], "startswith": [], "equals": []}, "analysis_name": {"endswith": [], "startswith": [], "equals": []}}, "link": "", "comment": ""},
+  "Glükoos": {"name": "", "rules": {"parameter_name": {"endswith": [], "startswith": [], "equals": []}, "parameter_code": {"endswith": [], "startswith": [], "equals": []}, "analysis_name": {"endswith": [], "startswith": [], "equals": []}}, "link": "", "comment": ""},
+  "Tsütoos": {"name": "", "rules": {"parameter_name": {"endswith": [], "startswith": [], "equals": []}, "parameter_code": {"endswith": [], "startswith": [], "equals": []}, "analysis_name": {"endswith": [], "startswith": [], "equals": []}}, "link": "", "comment": ""},
+  "Valk": {"name": "", "rules": {"parameter_name": {"endswith": [], "startswith": [], "equals": []}, "parameter_code": {"endswith": [], "startswith": [], "equals": []}, "analysis_name": {"endswith": [], "startswith": [], "equals": []}}, "link": "", "comment": ""},
+  "PMN": {"name": "", "rules": {"parameter_name": {"endswith": [], "startswith": [], "equals": []}, "parameter_code": {"endswith": [], "startswith": [], "equals": []}, "analysis_name": {"endswith": [], "startswith": [], "equals": []}}, "link": "", "comment": "Neutrofiilid"},
+  "MN": {"name": "", "rules": {"parameter_name": {"endswith": [], "startswith": [], "equals": []}, "parameter_code": {"endswith": [], "startswith": [], "equals": []}, "analysis_name": {"endswith": [], "startswith": [], "equals": []}}, "link": "", "comment": "Lümfotsüüdid"},
+  "RBC": {"name": "", "rules": {"parameter_name": {"endswith": [], "startswith": [], "equals": []}, "parameter_code": {"endswith": [], "startswith": [], "equals": []}, "analysis_name": {"endswith": [], "startswith": [], "equals": []}}, "link": "", "comment": ""},
+  "WBC": {"name": "", "rules": {"parameter_name": {"endswith": [], "startswith": [], "equals": []}, "parameter_code": {"endswith": [], "startswith": [], "equals": []}, "analysis_name": {"endswith": [], "startswith": [], "equals": []}}, "link": "", "comment": ""}
+
+}

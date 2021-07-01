@@ -1,0 +1,136 @@
+,epi_id,analysis_name_raw,parameter_name_raw,value_raw,parameter_unit_raw,effective_time_raw,reference_values_raw,text_raw
+2,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,B-CBC-5Diff,tehtud,,04.03.2015,,B-CBC-5Diff tehtud
+3,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,WBC,4 - 10*10*9/l 8.59,,04.03.2015,,WBC 4 - 10*10*9/l 8.59
+4,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,RBC,"M4,5-6,0; N:4,0-5,5 x 10*12/l 4.84",,04.03.2015,,"RBC M4,5-6,0; N:4,0-5,5 x 10*12/l 4.84"
+5,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,HGB,N:120-160; M:130-180 g/l 140,,04.03.2015,,HGB N:120-160; M:130-180 g/l 140
+6,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,HCT,"M:0,4-0,52;N:0,36-0,47 l/l0.420",,04.03.2015,,"HCT M:0,4-0,52;N:0,36-0,47 l/l0.420"
+7,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,MCV,80 - 98 fl 86.8,,04.03.2015,,MCV 80 - 98 fl 86.8
+8,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,MCH,"28 - 34 pg 28.9
+MCHC 320 - 360 g/l 333",,04.03.2015,,"MCH 28 - 34 pg 28.9
+MCHC 320 - 360 g/l 333"
+9,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,RDW-CV,"11 - 16 % 13.4
+RDW-SD 37-46 fl 42.1",,04.03.2015,,"RDW-CV 11 - 16 % 13.4
+RDW-SD 37-46 fl 42.1"
+10,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,PLT,150 - 400 x 10*9/l 404,,04.03.2015,,PLT 150 - 400 x 10*9/l 404
+11,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,PCT,"0,17-0,35 % 0.39",,04.03.2015,,"PCT 0,17-0,35 % 0.39"
+12,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,MPV,8-12 fL 9.5,,04.03.2015,,MPV 8-12 fL 9.5
+13,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,PDW,9- 14 % 10.2,,04.03.2015,,PDW 9- 14 % 10.2
+14,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,P-LCR,15-35 % 20.6,,04.03.2015,,P-LCR 15-35 % 20.6
+15,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,LYM%,20 - 40 %19.4,,04.03.2015,,LYM% 20 - 40 %19.4
+16,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,NEUT%,46 - 80 % 68.6,,04.03.2015,,NEUT% 46 - 80 % 68.6
+17,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,MONO%,"2 - 10 % 8.5
+EO% 1 - 4 % 3.0",,04.03.2015,,"MONO% 2 - 10 % 8.5
+EO% 1 - 4 % 3.0"
+18,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,BASO%,0 - 1 % 0.5,,04.03.2015,,BASO% 0 - 1 % 0.5
+19,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,IG%,"- Ebaküps.granulotsüütide % 0 - 0,5 % 1.0",,04.03.2015,,"IG% - Ebaküps.granulotsüütide % 0 - 0,5 % 1.0"
+20,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,LYM#,"1,0-3,6x10*9/l 1.67",,04.03.2015,,"LYM# 1,0-3,6x10*9/l 1.67"
+21,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,NEUT#,"2,2-7,6x10*9/l 5.89",,04.03.2015,,"NEUT# 2,2-7,6x10*9/l 5.89"
+22,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,MONO#,"0,2-1,0x10*9/l 0.73",,04.03.2015,,"MONO# 0,2-1,0x10*9/l 0.73"
+23,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,EO#,"0,1-0,4x10*9/l 0.26",,04.03.2015,,"EO# 0,1-0,4x10*9/l 0.26"
+24,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,BASO#,"0,0-0,1x10*9/l 0.04",,04.03.2015,,"BASO# 0,0-0,1x10*9/l 0.04"
+25,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,IG,"- Ebaküpsed granulotsüüdid 0 - 0,03 10*9/L 0.09",,04.03.2015,,"IG - Ebaküpsed granulotsüüdid 0 - 0,03 10*9/L 0.09"
+27,123456,\n\nBiokeemia analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:41\n\n\nMaterjal                             ,P-K,"kaalium 3,5-5,1 mmol/L 4.4",,04.03.2015,,"P-K kaalium 3,5-5,1 mmol/L 4.4"
+28,123456,\n\nBiokeemia analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:41\n\n\nMaterjal                             ,P-ALAT,"alaniini aminotransferaas N: <31 U/L, M:<41 U/L 35
+S-ASAT (aspartaadi aminotransferaas) N:<32 U/L,M:<38 U/L 24",,04.03.2015,,"P-ALAT alaniini aminotransferaas N: <31 U/L, M:<41 U/L 35
+S-ASAT (aspartaadi aminotransferaas) N:<32 U/L,M:<38 U/L 24"
+29,123456,\n\nBiokeemia analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:41\n\n\nMaterjal                             ,S-CRP,(C-reaktiivne valk) <5 mg/L 25.18,,04.03.2015,,S-CRP (C-reaktiivne valk) <5 mg/L 25.18
+30,123456,\n\nBiokeemia analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:41\n\n\nMaterjal                             ,fP-Crea,"(kreatiniin) N:44-80, M:62-106 _mol/L 131",,04.03.2015,,"fP-Crea (kreatiniin) N:44-80, M:62-106 _mol/L 131"
+31,123456,\n\nBiokeemia analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:41\n\n\nMaterjal                             ,P-CK,"(kreatiniini kinaas) N:26-140,M:38-174 U/L 23",,04.03.2015,,"P-CK (kreatiniini kinaas) N:26-140,M:38-174 U/L 23"
+32,123456,\n\nBiokeemia analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:41\n\n\nMaterjal                             ,P-Na,(naatrium) 136-145 mmol/L 140,,04.03.2015,,P-Na (naatrium) 136-145 mmol/L 140
+33,123456,\n\nBiokeemia analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:41\n\n\nMaterjal                             ,fP-Gluc,"plasma Glükoos plasmas 4,1-5,9 mmol/L 4.3",,04.03.2015,,"fP-Gluc plasma Glükoos plasmas 4,1-5,9 mmol/L 4.3"
+34,123456,\n\nBiokeemia analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:41\n\n\nMaterjal                             ,eGFR,"hinnanguline glomerulaarfiltratsiooni kiirus< 60 neerufunkts. langus,>= 60 -< 90 võimalik neerukahjustus, >=90 norm,< 18aast.ei kehti 38",,04.03.2015,,"eGFR hinnanguline glomerulaarfiltratsiooni kiirus< 60 neerufunkts. langus,>= 60 -< 90 võimalik neerukahjustus, >=90 norm,< 18aast.ei kehti 38"
+35,123456,\n\nBiokeemia analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:41\n\n\nMaterjal                             ,"
+
+
+Kokkuvõte",patsiendi ravist,,04.03.2015,,"
+
+
+Kokkuvõte patsiendi ravist"
+36,123456,\n\nBiokeemia analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:41\n\n\nMaterjal                             ,"
+Ambulatoorseleravile",rahuldavas üldseisundis.,,04.03.2015,,"
+Ambulatoorseleravile rahuldavas üldseisundis."
+37,123456,\n\nBiokeemia analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:41\n\n\nMaterjal                             ,"
+
+
+Seisundväljakirjutamisel",paranemine,,04.03.2015,,"
+
+
+Seisundväljakirjutamisel paranemine"
+38,123456,\n\nBiokeemia analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:41\n\n\nMaterjal                             ,"
+paranemine",,,04.03.2015,,"
+paranemine"
+39,123456,\n\nBiokeemia analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:41\n\n\nMaterjal                             ,"
+
+Re_iimi","ja ravialased soovitused, sh taastusraviks",,04.03.2015,,"
+
+Re_iimi ja ravialased soovitused, sh taastusraviks"
+40,123456,\n\nBiokeemia analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:41\n\n\nMaterjal                             ,1,"ASPIRIN tabl 100mg. 1 tabl x 1 peale sööki.2 CONTROLOC tabl 40mg. 1 tabl x 1 enne söökivõi söögi ajal.3 IMDUR tabl 60mg. Arteriaalse _undimaterjali (a.radialis) tõttu võtta 3 kuud. Esimesed 2 kuud 1 tabl x 1, kolmas kuu 0,5 tabl x 1.4BETALOC ZOK tabl 50mg. 1 tabl hommikul + 0,5 tablõhtul. Kui pulss aeglustub <55x/min, vähendada doosi (näiteks 0,5 tabl x 2 või 50mg x 1).5 CORDARONE tabl 200mg. 1 tablett hommikul 5 korda nädalas.Kui pulsisagedus aeglustub <55x/min, jätta võtmiskord vahele või lõpetada võtmine. Kui süda on 3 nädalat rütmis püsinud, võib lõpetada.6 KALINOR kaps 600mg. 1 kaps x 1. Vajalik kontrollida kaaliumiveres (soovitav 9.03). Vajadusel doosi tõsta või vähendada.7 TULIP tabl 20mg. 1 tabl x 1.8 XANAX tabl 0,25mg. Vajadusel ärevuse korral 1 - 2 tabletti päevas.9 HYDROCORTISON tabl 10mg. Võtta 1,5tablhommikul + 1 tabl lõuna ajal + 0,5 tabl õhtul. Vajadusel operatsioonijärgsete valude korral võtta lisaks Paracetamoli 500-1000mg 1-2 korda päevas. Raviarst: Kardioloog: <ANONYM id=""41"" type=""per"" morph=""_H_ sg n""/>, <ANONYM id=""42"" type=""per"" morph=""_H_ sg n""/> kardioloogia(E170) Tel: 6171370Osakond: Kardiokirurgia MK 04.03.2015",,04.03.2015,,"1 ASPIRIN tabl 100mg. 1 tabl x 1 peale sööki.2 CONTROLOC tabl 40mg. 1 tabl x 1 enne söökivõi söögi ajal.3 IMDUR tabl 60mg. Arteriaalse _undimaterjali (a.radialis) tõttu võtta 3 kuud. Esimesed 2 kuud 1 tabl x 1, kolmas kuu 0,5 tabl x 1.4BETALOC ZOK tabl 50mg. 1 tabl hommikul + 0,5 tablõhtul. Kui pulss aeglustub <55x/min, vähendada doosi (näiteks 0,5 tabl x 2 või 50mg x 1).5 CORDARONE tabl 200mg. 1 tablett hommikul 5 korda nädalas.Kui pulsisagedus aeglustub <55x/min, jätta võtmiskord vahele või lõpetada võtmine. Kui süda on 3 nädalat rütmis püsinud, võib lõpetada.6 KALINOR kaps 600mg. 1 kaps x 1. Vajalik kontrollida kaaliumiveres (soovitav 9.03). Vajadusel doosi tõsta või vähendada.7 TULIP tabl 20mg. 1 tabl x 1.8 XANAX tabl 0,25mg. Vajadusel ärevuse korral 1 - 2 tabletti päevas.9 HYDROCORTISON tabl 10mg. Võtta 1,5tablhommikul + 1 tabl lõuna ajal + 0,5 tabl õhtul. Vajadusel operatsioonijärgsete valude korral võtta lisaks Paracetamoli 500-1000mg 1-2 korda päevas. Raviarst: Kardioloog: <ANONYM id=""41"" type=""per"" morph=""_H_ sg n""/>, <ANONYM id=""42"" type=""per"" morph=""_H_ sg n""/> kardioloogia(E170) Tel: 6171370Osakond: Kardiokirurgia MK 04.03.2015"
+43,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,B-CBC-5Diff,tehtud,,04.03.2015,,B-CBC-5Diff tehtud
+44,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,WBC,4 - 10*10*9/l 8.59,,04.03.2015,,WBC 4 - 10*10*9/l 8.59
+45,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,RBC,"M4,5-6,0; N:4,0-5,5 x 10*12/l 4.84",,04.03.2015,,"RBC M4,5-6,0; N:4,0-5,5 x 10*12/l 4.84"
+46,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,HGB,N:120-160; M:130-180 g/l 140,,04.03.2015,,HGB N:120-160; M:130-180 g/l 140
+47,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,HCT,"M:0,4-0,52;N:0,36-0,47 l/l0.420",,04.03.2015,,"HCT M:0,4-0,52;N:0,36-0,47 l/l0.420"
+48,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,MCV,80 - 98 fl 86.8,,04.03.2015,,MCV 80 - 98 fl 86.8
+49,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,MCH,"28 - 34 pg 28.9
+MCHC 320 - 360 g/l 333",,04.03.2015,,"MCH 28 - 34 pg 28.9
+MCHC 320 - 360 g/l 333"
+50,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,RDW-CV,"11 - 16 % 13.4
+RDW-SD 37-46 fl 42.1",,04.03.2015,,"RDW-CV 11 - 16 % 13.4
+RDW-SD 37-46 fl 42.1"
+51,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,PLT,150 - 400 x 10*9/l 404,,04.03.2015,,PLT 150 - 400 x 10*9/l 404
+52,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,PCT,"0,17-0,35 % 0.39",,04.03.2015,,"PCT 0,17-0,35 % 0.39"
+53,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,MPV,8-12 fL 9.5,,04.03.2015,,MPV 8-12 fL 9.5
+54,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,PDW,9- 14 % 10.2,,04.03.2015,,PDW 9- 14 % 10.2
+55,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,P-LCR,15-35 % 20.6,,04.03.2015,,P-LCR 15-35 % 20.6
+56,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,LYM%,20 - 40 %19.4,,04.03.2015,,LYM% 20 - 40 %19.4
+57,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,NEUT%,46 - 80 % 68.6,,04.03.2015,,NEUT% 46 - 80 % 68.6
+58,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,MONO%,"2 - 10 % 8.5
+EO% 1 - 4 % 3.0",,04.03.2015,,"MONO% 2 - 10 % 8.5
+EO% 1 - 4 % 3.0"
+59,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,BASO%,0 - 1 % 0.5,,04.03.2015,,BASO% 0 - 1 % 0.5
+60,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,IG%,"- Ebaküps.granulotsüütide % 0 - 0,5 % 1.0",,04.03.2015,,"IG% - Ebaküps.granulotsüütide % 0 - 0,5 % 1.0"
+61,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,LYM#,"1,0-3,6x10*9/l 1.67",,04.03.2015,,"LYM# 1,0-3,6x10*9/l 1.67"
+62,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,NEUT#,"2,2-7,6x10*9/l 5.89",,04.03.2015,,"NEUT# 2,2-7,6x10*9/l 5.89"
+63,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,MONO#,"0,2-1,0x10*9/l 0.73",,04.03.2015,,"MONO# 0,2-1,0x10*9/l 0.73"
+64,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,EO#,"0,1-0,4x10*9/l 0.26",,04.03.2015,,"EO# 0,1-0,4x10*9/l 0.26"
+65,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,BASO#,"0,0-0,1x10*9/l 0.04",,04.03.2015,,"BASO# 0,0-0,1x10*9/l 0.04"
+66,123456,\n\n\nKliiniline vere ja glükohemoglobiini analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:44\n\n\nMaterjal,IG,"- Ebaküpsed granulotsüüdid 0 - 0,03 10*9/L 0.09",,04.03.2015,,"IG - Ebaküpsed granulotsüüdid 0 - 0,03 10*9/L 0.09"
+68,123456,\n\nBiokeemia analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:41\n\n\nMaterjal,P-K,"kaalium 3,5-5,1 mmol/L 4.4",,04.03.2015,,"P-K kaalium 3,5-5,1 mmol/L 4.4"
+69,123456,\n\nBiokeemia analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:41\n\n\nMaterjal,P-ALAT,"alaniini aminotransferaas N: <31 U/L, M:<41 U/L 35
+S-ASAT (aspartaadi aminotransferaas) N:<32 U/L,M:<38 U/L 24",,04.03.2015,,"P-ALAT alaniini aminotransferaas N: <31 U/L, M:<41 U/L 35
+S-ASAT (aspartaadi aminotransferaas) N:<32 U/L,M:<38 U/L 24"
+70,123456,\n\nBiokeemia analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:41\n\n\nMaterjal,S-CRP,(C-reaktiivne valk) <5 mg/L 25.18,,04.03.2015,,S-CRP (C-reaktiivne valk) <5 mg/L 25.18
+71,123456,\n\nBiokeemia analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:41\n\n\nMaterjal,fP-Crea,"(kreatiniin) N:44-80, M:62-106 _mol/L 131",,04.03.2015,,"fP-Crea (kreatiniin) N:44-80, M:62-106 _mol/L 131"
+72,123456,\n\nBiokeemia analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:41\n\n\nMaterjal,P-CK,"(kreatiniini kinaas) N:26-140,M:38-174 U/L 23",,04.03.2015,,"P-CK (kreatiniini kinaas) N:26-140,M:38-174 U/L 23"
+73,123456,\n\nBiokeemia analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:41\n\n\nMaterjal,P-Na,(naatrium) 136-145 mmol/L 140,,04.03.2015,,P-Na (naatrium) 136-145 mmol/L 140
+74,123456,\n\nBiokeemia analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:41\n\n\nMaterjal,fP-Gluc,"plasma Glükoos plasmas 4,1-5,9 mmol/L 4.3",,04.03.2015,,"fP-Gluc plasma Glükoos plasmas 4,1-5,9 mmol/L 4.3"
+75,123456,\n\nBiokeemia analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:41\n\n\nMaterjal,eGFR,"hinnanguline glomerulaarfiltratsiooni kiirus< 60 neerufunkts. langus,>= 60 -< 90 võimalik neerukahjustus, >=90 norm,< 18aast.ei kehti 38",,04.03.2015,,"eGFR hinnanguline glomerulaarfiltratsiooni kiirus< 60 neerufunkts. langus,>= 60 -< 90 võimalik neerukahjustus, >=90 norm,< 18aast.ei kehti 38"
+76,123456,\n\nBiokeemia analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:41\n\n\nMaterjal,"
+
+
+Kokkuvõte",patsiendi ravist,,04.03.2015,,"
+
+
+Kokkuvõte patsiendi ravist"
+77,123456,\n\nBiokeemia analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:41\n\n\nMaterjal,"
+Ambulatoorseleravile",rahuldavas üldseisundis.,,04.03.2015,,"
+Ambulatoorseleravile rahuldavas üldseisundis."
+78,123456,\n\nBiokeemia analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:41\n\n\nMaterjal,"
+
+
+Seisundväljakirjutamisel",paranemine,,04.03.2015,,"
+
+
+Seisundväljakirjutamisel paranemine"
+79,123456,\n\nBiokeemia analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:41\n\n\nMaterjal,"
+paranemine",,,04.03.2015,,"
+paranemine"
+80,123456,\n\nBiokeemia analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:41\n\n\nMaterjal,"
+
+Re_iimi","ja ravialased soovitused, sh taastusraviks",,04.03.2015,,"
+
+Re_iimi ja ravialased soovitused, sh taastusraviks"
+81,123456,\n\nBiokeemia analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:41\n\n\nMaterjal,1,"ASPIRIN tabl 100mg. 1 tabl x 1 peale sööki.2 CONTROLOC tabl 40mg. 1 tabl x 1 enne söökivõi söögi ajal.3 IMDUR tabl 60mg. Arteriaalse _undimaterjali (a.radialis) tõttu võtta 3 kuud. Esimesed 2 kuud 1 tabl x 1, kolmas kuu 0,5 tabl x 1.4BETALOC ZOK tabl 50mg. 1 tabl hommikul + 0,5 tablõhtul. Kui pulss aeglustub <55x/min, vähendada doosi (näiteks 0,5 tabl x 2 või 50mg x 1).5 CORDARONE tabl 200mg. 1 tablett hommikul 5 korda nädalas.Kui pulsisagedus aeglustub <55x/min, jätta võtmiskord vahele või lõpetada võtmine. Kui süda on 3 nädalat rütmis püsinud, võib lõpetada.6 KALINOR kaps 600mg. 1 kaps x 1. Vajalik kontrollida kaaliumiveres (soovitav 9.03). Vajadusel doosi tõsta või vähendada.7 TULIP tabl 20mg. 1 tabl x 1.8 XANAX tabl 0,25mg. Vajadusel ärevuse korral 1 - 2 tabletti päevas.9 HYDROCORTISON tabl 10mg. Võtta 1,5tablhommikul + 1 tabl lõuna ajal + 0,5 tabl õhtul. Vajadusel operatsioonijärgsete valude korral võtta lisaks Paracetamoli 500-1000mg 1-2 korda päevas. Raviarst: Kardioloog: <ANONYM id=""41"" type=""per"" morph=""_H_ sg n""/>, <ANONYM id=""42"" type=""per"" morph=""_H_ sg n""/> kardioloogia(E170) Tel: 6171370Osakond: Kardiokirurgia MK 04.03.2015",,04.03.2015,,"1 ASPIRIN tabl 100mg. 1 tabl x 1 peale sööki.2 CONTROLOC tabl 40mg. 1 tabl x 1 enne söökivõi söögi ajal.3 IMDUR tabl 60mg. Arteriaalse _undimaterjali (a.radialis) tõttu võtta 3 kuud. Esimesed 2 kuud 1 tabl x 1, kolmas kuu 0,5 tabl x 1.4BETALOC ZOK tabl 50mg. 1 tabl hommikul + 0,5 tablõhtul. Kui pulss aeglustub <55x/min, vähendada doosi (näiteks 0,5 tabl x 2 või 50mg x 1).5 CORDARONE tabl 200mg. 1 tablett hommikul 5 korda nädalas.Kui pulsisagedus aeglustub <55x/min, jätta võtmiskord vahele või lõpetada võtmine. Kui süda on 3 nädalat rütmis püsinud, võib lõpetada.6 KALINOR kaps 600mg. 1 kaps x 1. Vajalik kontrollida kaaliumiveres (soovitav 9.03). Vajadusel doosi tõsta või vähendada.7 TULIP tabl 20mg. 1 tabl x 1.8 XANAX tabl 0,25mg. Vajadusel ärevuse korral 1 - 2 tabletti päevas.9 HYDROCORTISON tabl 10mg. Võtta 1,5tablhommikul + 1 tabl lõuna ajal + 0,5 tabl õhtul. Vajadusel operatsioonijärgsete valude korral võtta lisaks Paracetamoli 500-1000mg 1-2 korda päevas. Raviarst: Kardioloog: <ANONYM id=""41"" type=""per"" morph=""_H_ sg n""/>, <ANONYM id=""42"" type=""per"" morph=""_H_ sg n""/> kardioloogia(E170) Tel: 6171370Osakond: Kardiokirurgia MK 04.03.2015"
+82,123456,\n\nBiokeemia analüüs\n\nRerentsväärtus\n\n02.03.2015 08:55:41\n\n\nMaterjal,"
+",,,04.03.2015,,"
+"

@@ -1,0 +1,467 @@
+dirty_code	loinc_code(T-luhend)
+AFP(Alfa-fetoproteiin)	S,P-AFP
+ALAT(Alaniini aminotransferaas seerumis)	S,P-ALAT
+Amikatsiin(Amikatsiin)	Is-Amikacin
+Amoksitsilliin+klavulaanhape(Amoksitsilliin+klavulaanhape)	Is-Amoxicillin+Clavulanate
+Ampitsilliin(Ampitsilliin)	Is-Ampicillin
+Ampitsilliin+sulbaktaam(Ampitsilliin+sulbaktaam)	Is-Ampicillin+Sulbactam
+Amulaas(Amulaas uriinis)	S,P-Amyl
+APTT(Aktiveeritud osalise tromboplastiini aeg)	P-APTT
+Asitromutsiin(Asitromutsiin)	Is-Azithromycin
+BASO%(BASO%)	B-Baso%
+BASO(Basofiilid protsent)%	B-Baso%
+ B-Baso#(Basofiilide arv)	B-Baso#
+B-Baso(Basofiilide arv)	B-Baso#
+B-Baso#(Basofiilide arv)	B-Baso#
+b-BASO#(basofiilidearv)	B-Baso#
+ B-Baso%(Basofiilide suhtarv)	B-Baso%
+B-Baso(Basofiilide suhtarv)	B-Baso%
+B-Baso%(Basofiilide suhtarv)	B-Baso%
+b-BASO%(basofiilidesuhtarv)	B-Baso%
+B-CyA(Tsuklosporiin)	B-CyA
+B-CyA(tsuklosporiinA)	B-CyA
+ B-Eo#(Eosinofiilide arv)	B-Eo#
+B-Eo(Eosinofiilide arv)	B-Eo#
+B-Eo#(Eosinofiilide arv)	B-Eo#
+b-EO#(eosinofiilidearv)	B-Eo#
+ B-Eo%(Eosinofiilide suhtarv)	B-Eo%
+B-Eo(Eosinofiilide suhtarv)	B-Eo%
+B-Eo%(Eosinofiilide suhtarv)	B-Eo%
+b-EO%(eosinofiilidesuhtarv)	B-Eo%
+B-ESR(Erutrotsuutide settekiirus)	B-ESR
+b-ESR(Erutrotsuutide settekiirus)	B-ESR
+B-HbA1c(glukohemoglobiin)	B-HbA1c
+ B-Hb(Hemoglobiin veres)	B-Hb
+B-Hb(Hemoglobiin veres)	B-Hb
+ B-Hct(Hematokrit)	B-Hct
+B-Hct(Hematokrit)	B-Hct
+b-HCT(hematokrit)	B-Hct
+ B-Hct(Hematokritt)	B-Hct
+B-Hct(Hematokritt)	B-Hct
+B-IG#(Ebak�psete granulots��tide arv)	B-IG#
+B-IG%(Ebak�psete granulots��tide suhtarv)	B-IG%
+b-IG(Ebakupsed granulotsuudid)	B-IG#
+ B-IG#(Ebakupsete granulotsuutide arv)	B-IG#
+B-IG(Ebakupsete granulotsuutide arv)	B-IG#
+B-IG#(Ebakupsete granulotsuutide arv)	B-IG#
+b-IG(Ebakupsete granulotsuutide arv)	B-IG#
+ B-IG%(Ebakupsete granulotsuutide suhtarv)	B-IG%
+B-IG(Ebakupsete granulotsuutide suhtarv)	B-IG%
+B-IG%(Ebakupsete granulotsuutide suhtarv)	B-IG%
+b-IG%(Ebakupsete granulotsuutide suhtarv)	B-IG%
+b-IG%(Ebakups.granulotsuutide %)	B-IG%
+Bilirubiin(Bilirubiin)	U-Bil strip
+B-IRF(Ebakupsete retikulotsuutide fraktsioon)	B-IRF
+B-K(Kaalium)	B-K
+B-Lymph#(L�mfots��tide arv)	B-Lymph#
+B-Lymph%(L�mfots��tide suhtarv)	B-Lymph%
+ B-Lymph#(Lumfotsuutide arv)	B-Lymph#
+B-Lymph(Lumfotsuutide arv)	B-Lymph#
+B-Lymph#(Lumfotsuutide arv)	B-Lymph#
+ B-Lymph%(Lumfotsuutide suhtarv)	B-Lymph%
+B-Lymph(Lumfotsuutide suhtarv)	B-Lymph%
+B-Lymph%(Lumfotsuutide suhtarv)	B-Lymph%
+B-MCV(Er�trots��tide keskmine maht)	B-MCV
+B-MCV(Erutrotsuudi keskmine maht)	B-MCV
+ B-MCV(Erutrotsuutide keskmine maht)	B-MCV
+B-MCV(Erutrotsuutide keskmine maht)	B-MCV
+B-Mn(Mangaan taisveres)	B-Mn
+B-Mono#(Monots��tide arv)	B-Mono#
+B-Mono%(Monots��tide suhtarv)	B-Mono%
+ B-Mono#(Monotsuutide arv)	B-Mono#
+B-Mono(Monotsuutide arv)	B-Mono#
+B-Mono#(Monotsuutide arv)	B-Mono#
+b-MONO#(monotsuutidearv)	B-Mono#
+ B-Mono%(Monotsuutide suhtarv)	B-Mono%
+B-Mono(Monotsuutide suhtarv)	B-Mono%
+B-Mono%(Monotsuutide suhtarv)	B-Mono%
+b-MONO%(monotsuutidesuhtarv)	B-Mono%
+b-MPV(trombots.keskminemaht)	B-MPV
+B-MPV(Trombots��tide keskmine maht)	B-MPV
+ B-MPV(Trombotsuutide keskmine maht)	B-MPV
+B-MPV(Trombotsuutide keskmine maht)	B-MPV
+B-Na(Naatrium)	B-Na
+ B-Neut#(Neutrofiilide arv)	B-Neut#
+B-Neut(Neutrofiilide arv)	B-Neut#
+B-Neut#(Neutrofiilide arv)	B-Neut#
+b-NEUT#(neutrofiilidearv)	B-Neut#
+ B-Neut%(Neutrofiilide suhtarv)	B-Neut%
+B-Neut(Neutrofiilide suhtarv)	B-Neut%
+B-Neut%(Neutrofiilide suhtarv)	B-Neut%
+b-NEUT%(neutrofiilidesuhtarv)	B-Neut%
+b-NRBC%(normoblastidesuhtarv)	B-NRBC%
+B-PCT(Trombokrit)	B-Pct
+b-PCT(trombokrit)	B-Pct
+b-PDW(trombotsuutidesuurusjaotuvus)	B-PDW
+b-PLT(trombotsuudid)	B-Plt
+B-RBC(Er�trots��did veres)	B-RBC
+b-RBC(erutrotsuudid)	B-RBC
+ B-RBC(Erutrotsuudid veres)	B-RBC
+B-RBC(Erutrotsuudid veres)	B-RBC
+b-RBC(Erutrotsuudid veres)	B-RBC
+b-RDW-CV(erutrotsuutidesuurusjaotuvus)	B-RDW-CV
+B-RetHb(Retikulotsuutide hemoglobiinisisaldus)	B-RetHb
+B-Ret(Retikolotsuutide suhtarv)	B-Ret%
+B-Ret(Retikulotsuutide arv)	B-Ret#
+B-Ret#(Retikulotsuutide arv)	B-Ret#
+B-WBC(Leukots��did)	B-WBC
+ B-WBC(Leukotsuudid)	B-WBC
+B-WBC(Leukotsuudid)	B-WBC
+b-WBC(leukotsuudid)	B-WBC
+ B-WBC(Leukotsuudid taisverest)	B-WBC
+B-WBC(Leukotsuudid taisverest)	B-WBC
+b-WBC(Leukotsuudid taisverest)	B-WBC
+CSF-Alb(3. Albumiin liikvoris)	CSF-Alb
+CSF-Alb(Albumiin liikvoris)	CSF-Alb
+CSF-B burgdorferi IgG(Borrelia burgdorferi vastane IgG liikvoris)	CSF-B burgdorferi IgG
+CSF-B burgdorferi IgM(Borrelia burgdorferi vastane IgM liikvoris)	CSF-B burgdorferi IgM
+CSF-DiffA(Liikvori tsutoosi uuring analusaatoril)	CSF-Diff a
+CSF-Gluc(Glukoos liikvoris)	CSF-Gluc
+CSF-IgG(3. Immuunglobuliin G liikvoris)	CSF-IgG
+CSF-IgG(Immuunglobuliin G liikvoris)	CSF-IgG
+CSF-IgG(Immuunoglobuliin G liikvoris)	CSF-IgG
+CSF-Lac(Laktaat liikvoris)	CSF-Lac
+CSF-Prot(3. Valk liikvoris)	CSF-Prot
+CSF-Prot(Valk liikvoris)	CSF-Prot
+CSF-TBEV IgG(Puukentsefaliidi viiruse vastane IgG liikvoris)	CSF-TBEV IgG
+CSF-TBEV IgM(Puukentsefaliidi viiruse vastane IgM liikvoris)	CSF-TBEV IgM
+Doksutsukliin(Doksutsukliin)	Is-Doxycycline
+dU-ALB(Albumiin ööpaevases uriinis)	dU-Alb
+dU-Alb(Albumiin ööpaevases uriinis)	dU-Alb
+dU-Cort(Kortisool ööpaevauriinis)	dU-Cort
+dU-Crea(Kreatiniin ööpaevases uriinis)	dU-Crea
+dU-DALA(Delta-amiino-levuliinhape ööpaevases uriinis)	dU-DALA
+dU-K(Kaalium ööpaevases uriinis)	dU-K
+dU-Meta(Metanefriin ööpaevauriinis)	dU-Meta
+dU-Na(Naatrium ööpaevases uriinis)	dU-Na
+dU-Normeta(Normetanefriin ööpaevauriinis)	dU-Normeta
+dU-Prot(Valk)	dU-Prot
+dU-Prot(Valk ööpaevases uriinis)	dU-Prot
+dU-Prot(valk ööpaevases uriinis)	dU-Prot
+dU-Urea(Uurea ööpaevases uriinis)	dU-Urea
+EBV EA IgG(Epstein-Barri viiruse varase antigeeni vastaste IgG antikehade uuring)	S-EBV EA IgG
+EBV EA IgM(Epstein-Barri viiruse varase antigeeni vastaste IgM antikehade uuring)	S-EBV EA IgM
+EBV NA IgG(Epstein-Barri viiruse tuuma antigeeni vastaste IgG antikehade uuring)	S-EBV NA IgG                                  
+eGFR(hinnanguline glomerulaarfiltratsiooni kiirus)	eGFR
+EMA Ig A(Endomuusiumi vastane Ig A seerumis)	S-EMA IgA
+EO%(EO%)	B-Eo%
+EO(Eosinofiilid protsent)%	B-Eo%
+Erikaal(Erikaal)	U-SG strip
+Ertapeneem(Ertapeneem)	Is-Ertapenem
+Erutromutsiin(Erutromutsiin)	Is-Erythromycin
+Erutromutsiin(= Klaritromutsiin)	Is-Erythromycin
+Ferritiin(Ferritiin)	S,P-Fer
+Ferritiin(Ferritiin seerumis)	S,P-Fer
+Fusidiin(Fusidiin)	Is-Fusidate
+Gentamutsiin(Gentamutsiin)	Is-Gentamicin
+Gentamutsiin(Gentamutsiin SAU)	Is-Gentamicin
+Glukoos(Glukoos)	U-Gluc strip
+Hematokrit(Hematokritt)	B-Hct
+hemoglobiin(hemoglobiin)	B-Hb
+HGB(HGB)	B-Hb
+IGF-1(IGF-1)	S,P-IGF-1
+IG%(IG%)	B-IG%
+Imipeneem(Imipeneem)	Is-Imipenem
+Imipeneem(imipeneem MIC)	Is-Imipenem
+INR(INR)	INR
+IRF(IRF)	B-IRF
+Josamutsiin(Josamutsiin)	Is-Josamycine
+Kaalium(Kaalium seerumis)	S,P-K
+Klaritromutsiin(Klaritromutsiin)	Is-Clarithromycin
+Klindamutsiin(Klindamutsiin)	Is-Clindamycin
+Kolesterool(Kolesterool seerumis)	S,P-Chol
+Kreatiniin(Kreatiniin)	S,P-Crea
+Kreatiniin(Kreatiniin seerumis)	S,P-Crea
+Kusihape(Kusihape seerumis)	S,P-UA
+Kusihappe kristallid(Kusihappe kristallid)	U-Kusihappe kristallid
+Lipaas(Lipaas)	S,P-Lip
+LYMPH(Lumfotsuudid protsent)%	B-Lymph%
+LYMPH%(LYMPH%)	B-Lymph%
+Makrofaagid(Makrofaagid)	U-Makrofaagid
+MCV(Erutrotsuudi keskmine maht)	B-MCV
+MCV(MCV)	B-MCV
+Meropeneem(Meropeneem)	Is-Meropenem
+Meropeneem(Meropenem)	Is-Meropenem
+MONO%(MONO%)	B-Mono%
+MONO(Monotsuudid protsent)%	B-Mono%
+MPV(MPV)	B-MPV
+ MPV(Trombotsuutide keskmine maht)	B-MPV
+MPV(Trombotsuutide keskmine maht)	B-MPV
+Muoglobiin(Muoglobiin)	S,P-Myogl
+Naatrium( Naatrium seerumis)	S,P-Na
+NEUT%(NEUT%)	B-Neut%
+Nitrofurantoiin(Nitrofurantoiin)	Is-Nitrofurantoin
+Norfloksatsiin(Norfloksatsiin)	Is-Norfloxacin
+Ofloksatsiin(Ofloksatsiin)	Is-Ofloxacin
+Oksatsilliin(Oksatsilliin)	Is-Oxacillin
+Oksatsilliin(Oksatsilliin KONS)	Is-Oxacillin
+PCT(Trombokrit)	B-Pct
+Penitsilliin(Penitsilliin)	Is-Penicillin
+pH(pH)	U-pH strip
+Piperatsilliin+tasobaktaam(Piperatsilliin+tasobaktaam)	Is-Piperacillin+Tazobactam
+PlrF-DiffA(Pleuravedeliku tsutoosi uuring analusaatoril)	PlrF-Diff a
+PlrF-Prot(pleuravedelikus)	PlrF-Prot
+PrcF-DiffA(Perikardivedeliku tsutoosi uuring analusaatoril)	PrcF-Diff a
+PrcF-Prot(perikardivedelikus)	PrcF-Prot
+Pristinamutsiin(Pristinamutsiin)	Is-Pristinamycin
+Protrombiini suhe(Protrombiini suhe)	P-PT%
+Rasvsilindrid(Rasvsilindrid)	U-Rasvsilindrid
+RBC(RBC)	B-RBC
+RET%(RET%)	B-Ret%
+Rifampitsiin(Rifampitsiin)	Is-Rifampin
+s,p-17-OHP(17-alfa-hudroksu-progesteroon)	S,P-17-OHP
+s,p-AAT(Alfa-1-antitrupsiin)	S,P-AAT
+s,p-AAT(alfa-1-antitrupsiin)	S,P-AAT
+s,p-ACE(7. Angiotensiini konverteeriv ensuum)	S,P-ACE
+s,p-ACE(Angiotensiini konverteeriv ensuum)	S,P-ACE
+s,p-AFP(Alfa-fetoproteiin)	S,P-AFP
+s,p-ALAT(Alaniini aminotransferaas)	S,P-ALAT
+s,p-ALAT(alaniiniaminotransferaas)	S,P-ALAT
+s,p-ALAT(Alaniini aminotransferaas seerumis)	S,P-ALAT
+s,p-Alb(3. Albumiin seerumis)	S,P-Alb
+s,p-Alb(Albumiin)	S,P-Alb
+s,p-Alb(albumiin)	S,P-Alb
+s,p-Alb(Albumiin seerumis)	S,P-Alb
+s,p-Aldo(Aldosteroon)	S,P-Aldo
+s,p-ALP(Aluseline fosfataas)	S,P-ALP
+s,p-ALP(aluselinefosfataas)	S,P-ALP
+s,p-Amyl(Alfa-am�laas)	S,P-Amyl
+s,p-Amyl(Alfa-amulaas)	S,P-Amyl
+s,p-Amyl(alfa-Amulaas)	S,P-Amyl
+s,p-Amyl(alfa-amulaas)	S,P-Amyl
+s,p-Amyl(amulaas)	S,P-Amyl
+s,p-Amyl(Amulaas, pankreasespetsiifiline)	S,P-Amyl
+s,p-Amyl(Amulaas seerumis)	S,P-Amyl
+s,p-ASAT(Aspartaadi aminotransferaas)	S,P-ASAT
+s,p-ASAT(aspartaadiaminotransferaas)	S,P-ASAT
+s,p-ASAT(Aspartaadi aminotransferaas seerumis)	S,P-ASAT
+s,p-ASO(Antistreptolusiin O)	S,P-ASO
+s,p-ASO(antistreptolusiinO)	S,P-ASO
+s,p-ASO(Antistreptolusiin O seerumis)	S,P-ASO
+s,p-b2-M(Beeta-2-mikroglobuliin)	S,P-b2-M
+s,p-Bil(Bilirubiin)	S,P-Bil
+s,p-Bil(bilirubiin)	S,P-Bil
+s,p-Bil(Bilirubiin �ldine)	S,P-Bil
+s,p-Bil(Bilirubiin uldine)	S,P-Bil
+s,p-Bil(Bilirubiin, uldine)	S,P-Bil
+s,p-Bil-conj(bilirubiinkonjugeeritud)	S,P-Bil-conj
+s,p-Bil(Uldbilirubiin)	S,P-Bil
+s,p-BNP(B-tuupi N-terminaalne natriureetiline peptiid)	S,P-BNP
+s,p-C3(1. Komplemendi komponent C3)	S,P-C3
+s,p-C3(Komplemendi komponent C3)	S,P-C3
+s,p-C3(komplemendikomponentC3)	S,P-C3
+s,p-C4(1. Komplemendi komponent C4)	S,P-C4
+s,p-C4(Komplemendi komponent C4)	S,P-C4
+s,p-C4(komplemendikomponentC4)	S,P-C4
+s,p-CA 125(Kasvaja-antigeen CA 125)	S,P-CA 125
+s,p-CA 15-3(Kasvaja-antigeen CA 15-3)	S,P-CA 15-3
+s,p-CA 19-9(Kasvaja-antigeen CA 19-9)	S,P-CA 19-9
+s,p-CA 72-4(9. Kasvaja antigeen CA 72-4)	S,P-CA 72-4
+s,p-CA 72-4(Kasvaja antigeen CA 72-4)	S,P-CA 72-4
+s,p-Ca(Kaltsium)	S,P-Ca
+s,p-Ca(kaltsium)	S,P-Ca
+s,p-Ca(Kaltsium seerumis)	S,P-Ca
+s,p-Carba(karbamasepiin)	S,P-Carba
+s,p-CEA(Kartsinoembruonaalne antigeen)	S,P-CEA
+s,p-CEA(kartsioembrionaalne antigeen)	S,P-CEA
+s,p-Cer(1. Tseruloplasmiin)	S,P-Cer
+s,p-Cer(Tseruloplasmiin)	S,P-Cer
+s,p-Cer(tseruloplasmiin)	S,P-Cer
+s,p-CgA(Kromograniin A plasmas)	S,P-CgA
+s,p-ChE(Koliini esteraas)	S,P-ChE
+s,p-ChE(koliiniesteraas)	S,P-ChE
+s,p-Chol(Kolesterool)	S,P-Chol
+s,p-Chol(kolesterool)	S,P-Chol
+s,p-Chol(Kolesterool seerumis)	S,P-Chol
+s,p-CK(Kreatiini kinaas)	S,P-CK
+s,p-CK(kreatiinikinaas)	S,P-CK
+s,p-CK(Kreatiini kinaas seerumis)	S,P-CK
+s,p-CK(kreatiniinikinaas)	S,P-CK
+s,p-CK-MB(Kreatiini kinaasi MB isoensuum)	S,P-CK-MB
+s,p-CK-MBm(kreatiniinikinaasiMBisoensuumimass)	S,P-CK-MBm
+s,p-Cl(Kloriid)	S,P-Cl
+s,p-Cl(kloriid)	S,P-Cl
+s,p-Cl(Kloriidid)	S,P-Cl
+s,p-Cl(Kloriid seerumis)	S,P-Cl
+s,p-Cort(1. Kortisool)	S,P-Cort
+s,p-Cort(Kortisool)	S,P-Cort
+s,p-C-pept(C-peptiid)	S,P-C-pept
+s,p-Crea(Kreatiniin)	S,P-Crea
+s,p-Crea(kreatiniin)	S,P-Crea
+s,p-Crea(Kreatiniin seerumis)	S,P-Crea
+s,p-CRP(C-reaktiivne valk)	S,P-CRP
+s,p-CRP(C-reaktiivnevalk)	S,P-CRP
+s,p-CRP(C-reaktiivne valk seerumis)	S,P-CRP
+s,p-CT(Kaltsitoniin )	S,P-CT
+s,p-CT(Kaltsitoniin)	S,P-CT
+s,p-cTnI(Troponiin I)	S,P-cTnI
+s,p-CysC(Tsustatiin C)	S,P-CysC
+s,p-Digox(Digoksiin)	S,P-Digox
+s,p-Digox(digoksiin)	S,P-Digox
+s,p-E2(Östradiool)	S,P-E2
+s,p-EtOH(Etanool)	S,P-EtOH
+s,p-EtOH(Etanool seerumis, plasmas)	S,P-EtOH
+s,p-Fe(Ferritiin)	S,P-Fe
+s,p-Fe(Raud)	S,P-Fe
+s,p-Fe(raud)	S,P-Fe
+s,p-Fer(Ferritiin)	S,P-Fer
+s,p-Fol(Folaat)	S,P-Fol
+s,p-Fol(Foolhape)	S,P-Fol
+s,p-Fol (Q)	S,P-Fol
+s,p-fPSA( Vaba prostataspetsiifiline antigeen)	S,P-fPSA
+s,p-FSH(Folliikuleid stimuleeriv hormoon)	S,P-FSH
+s,p-GGT(Gamma-Glutam��li transferaas)	S,P-GGT
+s,p-GGT(Gamma-Glutamuuli transferaas)	S,P-GGT
+s,p-GGT(Gamma-glutamuuli transferaas)	S,P-GGT
+s,p-GGT(Gammaglutamuuli transferaas)	S,P-GGT
+s,p-GGT(gamma-glutamuulitransferaas)	S,P-GGT
+s,p-GH(Kasvuhormoon)	S,P-GH
+s,p-Gluc(Gl�koos seerumis)	S,P-Gluc
+s,p-Gluc(Glukoos)	S,P-Gluc
+s,p-Gluc(glukoos)	S,P-Gluc
+s,p-Gluc(Glukoos seerumis)	S,P-Gluc
+s,p-Hapto(haptoglobiin)	S,P-Hapto
+S,P-Hapto(Haptoglobiin seerumis, plasmas)	S,P-Hapto
+s,p-hCG(Koorioni gonadotropiin)	S,P-hCG
+s,p-Hcy(Homotsusteiin)	S,P-Hcy
+s,p-Hcy(homotsusteiin)	S,P-Hcy
+s,p- IgA(Immunoglobuliin A)	S,P-IgA
+s,p-IgA(Immuunglobuliin A)	S,P-IgA
+s,p-IgA(immuunglobuliinA)	S,P-IgA
+s,p-IgA(Immuunglobuliin A seerumis)	S,P-IgA
+s,p-Ig E(Immunoglobuliin E seerumis)	S,P-IgE
+s,p-IgE(Immuunglobuliin E)	S,P-IgE
+s,p-IGF-1(Insuliinisarnane kasvufaktor I)	S,P-IGF-1
+s,p-IgG(3. Immuunglobuliin G seerumis)	S,P-IgG
+s,p-IgG(Immuunglobuliin G)	S,P-IgG
+s,p-IgG(immuunglobuliinG)	S,P-IgG
+s,p-IgG(Immuunglobuliin G seerumis)	S,P-IgG
+s,p-IgM(Immuunglobuliin M)	S,P-IgM
+s,p-IgM(immuunglobuliinM)	S,P-IgM
+s,p-IgM(Immuunglobuliin M seerumis)	S,P-IgM
+s,p-Ins(Insuliin)	S,P-Ins
+s,p-K(Kaalium)	S,P-K
+s,p-K(kaalium)	S,P-K
+s,p-K(Kaalium seerumis)	S,P-K
+s,p-LDH(Laktaadi dehudrogenaas )	S,P-LDH
+s,p-LDH(laktaadidehudrogenaas)	S,P-LDH
+s,p-LDH(Laktaadi dehudrogenaas seerumis)	S,P-LDH
+s,p-LH(Luteiniseeriv hormoon)	S,P-LH
+s,p-Li(3. Liitium seerumis)	S,P-Li
+s,p-Li(liitium)	S,P-Li
+s,p-Li(Lipaas)	S,P-Li
+s,p-Lip(Lipaas)	S,P-Lip
+s,p-Lip(lipaas)	S,P-Lip
+s,p-Lip( Q)	S,P-Lip
+s,p-Lp(a)(lipoproteiina)	S,P-Lp(a)
+s,p-Mg(Magneesium)	S,P-Mg
+s,p-Mg(magneesium)	S,P-Mg
+s,p-Mg(Magneesium seerumis)	S,P-Mg
+s,p-Myogl(Muoglobiin)	S,P-Myogl
+s,p-Myogl(muoglobiin)	S,P-Myogl
+s,p-Na(Naatrium)	S,P-Na
+s,p-Na(naatrium)	S,P-Na
+s,p-Na( Naatrium seerumis)	S,P-Na
+s,p-Na(Naatrium seerumis)	S,P-Na
+s,p-Osteoca(osteokaltsiin)	S,P-Osteoca
+s,p-PAPP-A(Rasedusega seotud plasma protein A)	S,P-PAPP-A
+s,p-Paracet(paratsetamool)	S,P-Paracet
+s,p- PCT(Prokaltsitoniin)	S,P-PCT
+s,p-PCT(Prokaltsitoniin)	S,P-PCT
+s,p-PCT(prokaltsitoniin)	S,P-PCT
+s,p-P(Fosfaat)	S,P-P
+s,p-P(fosfaat)	S,P-P
+s,p-P(Fosfaat seerumis)	S,P-P
+s,p-Prog(Progesteroon)	S,P-Prog
+s,p-Prol(Prolaktiin)	S,P-Prol
+s,p-Prot(�ldvalk)	S,P-Prot
+s,p-Prot(Uldvalk)	S,P-Prot
+s,p-Prot(valk)	S,P-Prot
+s,p-PSA(Prostataspetsiifiline antigeen)	S,P-PSA
+s,p-PTH( Parathormoon)	S,P-PTH
+s,p-PTH(Parathormoon)	S,P-PTH
+s,p-RF(Reumatoidfaktor)	S,P-RF
+s,p-RF(reumatoidfaktor)	S,P-RF
+s,p-Salic(salitsulaadid)	S,P-Salic
+s,p-SHBG(1. Suguhormoone siduv globuliin)	S,P-SHBG
+s,p-SHBG(Suguhormoone siduv globuliin)	S,P-SHBG
+s,p-SHBG(Suguhormoone siduv globuliin VANA)	S,P-SHBG
+s,p-Testo(Testosteroon)	S,P-Testo
+s,p-TG(Tureoglobuliin)	S,P-TG
+s,p-Theoph(teofulliin)	S,P-Theoph
+s,p-TPO IgG(Tureoidperoksudaasi vastane IgG)	S,P-TPO IgG
+s,p-Transf-sR(Transferriini lahustuvad retseptorid)	S,P-Transf-sR
+s,p-Transf-sR(transferriinilahustuvadretseptorid)	S,P-Transf-sR
+s,p-Transf(Transferriin)	S,P-Transf
+s,p-Transf(transferriin)	S,P-Transf
+s,p-Transf(Transferriin seerumis)	S,P-Transf
+s,p-TSH(Tureotropiin ehk kilpnaaret stimuleeriv hormoon)	S,P-TSH
+s,p-UA(Kusihape)	S,P-UA
+s,p-UA(kusihape)	S,P-UA
+s,p-UA(Kusihape seerumis)	S,P-UA
+s,p-Urea(Uurea)	S,P-Urea
+s,p-Urea(uurea)	S,P-Urea
+s,p-Urea(Uurea seerumis)	S,P-Urea
+s,p-Valpr(valproaat)	S,P-Valpr
+s,p-VitD3(25-OH)(VitamiinD,25-hudroksu)	S,P-Vit D3 (25-OH)
+St-Calpro(Kalprotektiin roojas)	St-Calpro
+SynF-DiffA(liigesevedeliku tsutoosi uuring analusaatoril)	SynF-Diff a
+Tetratsukliin(Tetratsukliin)	Is-Tetracycline
+transferriin(transferriin)	S,P-Transf
+Trombotsuudid(Trombotsuudid)	B-Plt
+Tsefepiim(Tsefepiim)	Is-Cefepime
+Tsefoksitiin(Tsefoksitiin)	Is-Cefoxitin
+Tsefotaksiim(CTX) MIK	Is-Cefotaxime
+Tsefotaksiim(Tsefotaksiim)	Is-Cefotaxime
+Tseftasidiim(Tseftasidiim)	Is-Ceftazidime
+Tsiprofloksatsiin(Tsiprofloksatsiin)	Is-Ciprofloxacin
+U-Alb(Albumiin uriinis )	U-Alb
+U-Alb(Albumiin uriinis)	U-Alb
+U-Alb/ U-Crea(Albumiini ja kreatiniini suhe uriinis)	U-Alb/U-Crea
+U-Alb/U-Crea(Albumiini ja kreatiniini suhe uriinis)	U-Alb/U-Crea
+U-Amp(Amfetamiinid uriinis)	U-Amp
+U-Amyl(Alfa-Amulaas uriinis)	U-Amyl
+U-Amyl(Amulaas uriinis)	U-Amyl
+U-Amyl/U-Crea(Amulaasi ja kreatiniini suhe uriinis)	U-Amyl/U-Crea
+U-BAR(barbituraadid uriinis)	U-Bar
+U-Bar(Barbituraadid uriinis)	U-Bar
+U-Bar(barbituraadid uriinis)	U-Bar
+u-bil	U-Bil strip
+U-Bil(Bilirubiin uriinis)	U-Bil strip
+U-BZD(benzodiazepiin uriinis)	U-Bzd
+U-Bzd(benzodiazepiin uriinis)	U-Bzd
+U-COC(Kokaiin uriinis)	U-Coc
+U-COC(kokaiin uriinis)	U-Coc
+U-Coc(kokaiin uriinis)	U-Coc
+U-Cort(Kortisool uriinis)	U-Cort
+U-Crea(Kreatiniin uriinis)	U-Crea
+U-Crea(kreatiniin uriinis)	U-Crea
+U-Cu(Vask uriinis)	U-Cu
+U-Ecs(ecstasy uriinis )	U-Ecs
+U-Fent(Fentanuul uriinis)	U-Fent
+U-Fent(fentanuul uriinis)	U-Fent
+u-ket	U-Ket strip
+U-K(Kaalium uriinis)	U-K
+U-MET(metamfetamiin uriinis)	U-Met
+U-Met(metamfetamiin uriinis)	U-Met
+U-MOP(opiaadid uriinis)	U-Mop
+U-Mop(opiaadid uriinis)	U-Mop
+U-Mtd(metadoon uriinis)	U-Mtd
+U-Na(Naatrium uriinis)	U-Na
+u-nit	U-Nit strip
+U-Nit(Nitritid uriinis)	U-Nit strip
+U-OXY(oksukodoon uriinis)	U-Oxy
+U-PBG(Porfobilinogeen uriinis)	U-PBG
+U-PCP(fentsuklidiin uriinis)	U-PCP
+U-PPX(propoksufeen uriinis)	U-PPX
+U-Prot(Valk uriinis)	U-Prot
+Urobilinogeen(Urobilinogeen)	U-Ubg strip
+U-TCA(tritsukloantidepressandid uriinis)	U-TCA
+U-THC(Kannabinoidid uriinis )	U-THC
+U-THC(kannabinoidid uriinis)	U-THC
+u-ubg	U-Ubg strip
+U-Urea(Uurea uriinis)	U-Urea
+Vahajad silindrid(Vahajad silindrid)	U-Vahajad silindrid
+Valk(Valk)	U-Prot strip
+Vankomutsiin(Vankomutsiin)	Is-Vancomycin
+WBC(WBC)	B-WBC

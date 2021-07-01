@@ -1,0 +1,278 @@
+Näita Referentsväärtusi ja ühikuid
+Analüüsid
+
+
+
+
+     
+
+
+
+Analüüs
+
+Parameeter
+
+
+
+Vastus (16.04.2017) 
+
+
+ 
+Kl keemia ja immunoloogia automaatliinil teostatud uuring 
+
+e-GFR 
+
+ 
+99 
+ 
+Kl keemia jaimmunoloogia automaatliinil teostatud uuring 
+
+fP-GlucP /Glükoos paastuplasmas 
+
+ 
+4.4 
+ 
+Klkeemia ja immunoloogia automaatliinil teostatud uuring 
+
+P-ALAT Alaniini aminotransferaas 
+
+ 
+22 
+ 
+Kl keemia ja immunoloogia automaatliinil teostatud uuring 
+
+P-ASAT Aspartaadi aminotransferaas 
+
+ 
+19 
+ 
+Kl keemia ja immunoloogia automaatliinil teostatud uuring 
+
+P-Bil Bilirubiin 
+
+ 
+4 
+ 
+Kl keemia ja immunoloogia automaatliinil teostatud uuring 
+
+P-Crea Kreatiniin plasmas
+
+ 
+63 
+ 
+Kl keemia ja immunoloogia automaatliinil teostatud uuring 
+
+P-CRP C-reaktiivne valk
+
+ 
+_lt;1 
+ 
+Kl keemia ja immunoloogia automaatliinil teostatud uuring 
+
+P-K Kaalium 
+
+ 
+4.5 
+ 
+Kl keemia ja immunoloogia automaatliinilteostatud uuring 
+
+P-Na Naatrium 
+
+ 
+143 
+ 
+Kl keemia ja immunoloogia automaatliinil teostatud uuring 
+
+P-Urea Uurea plasmas 
+
+ 
+6.1 
+ 
+Kliiniline vere ja glükohemoglobiini analüüs 
+
+BASO# 
+
+ 
+0.02 
+ 
+Kliiniline vere ja glükohemoglobiini analüüs 
+
+BASO% 
+
+ 
+0.3 
+ 
+Kliiniline vere ja glükohemoglobiini analüüs 
+
+B-CBC-5Diff 
+ 
+tehtud 
+ 
+Kliiniline vere ja glükohemoglobiini analüüs 
+
+EO# 
+
+ 
+0.09 
+ 
+Kliiniline vere ja glükohemoglobiini analüüs 
+
+EO% 
+
+ 
+1.1 
+ 
+Kliiniline vere ja glükohemoglobiini analüüs 
+
+HCT 
+
+ 
+43.1 
+ 
+Kliiniline vere ja glükohemoglobiini analüüs 
+
+HGB 
+
+ 
+138 
+ 
+Kliiniline vere ja glükohemoglobiini analüüs 
+
+IG% - Ebaküps.granulotsüütide % 
+
+ 
+0.1 
+ 
+Kliiniline vere ja glükohemoglobiini analüüs 
+
+IG -Ebaküpsed granulotsüüdid 
+
+ 
+0.01 
+ 
+Kliiniline vere ja glükohemoglobiini analüüs 
+
+LYM# 
+
+
+2.13 
+ 
+Kliiniline vere ja glükohemoglobiinianalüüs 
+
+LYM% 
+
+ 
+26.7 
+ 
+Kliiniline vereja glükohemoglobiini analüüs 
+
+MCH 
+
+ 
+28.9 
+ 
+Kliiniline vere ja glükohemoglobiini analüüs 
+
+MCHC 
+
+ 
+320 
+ 
+Kliiniline vere ja glükohemoglobiini analüüs 
+
+MCV 
+
+ 
+90.2 
+ 
+Kliiniline vere ja glükohemoglobiini analüüs 
+
+MONO# 
+
+ 
+0.63 
+ 
+Kliiniline vere ja glükohemoglobiini analüüs 
+
+MONO% 
+
+ 
+7.9 
+ 
+Kliiniline vere ja glükohemoglobiini analüüs 
+
+MPV 
+
+ 
+11.2 
+ 
+Kliiniline vere ja glükohemoglobiini analüüs 
+
+NEUT# 
+
+ 
+5.10 
+ 
+Kliiniline vere ja glükohemoglobiini analüüs 
+
+NEUT% 
+
+ 
+64.0 
+ 
+Kliiniline vere ja glükohemoglobiini analüüs 
+
+PCT 
+
+ 
+0.26 
+ 
+Kliiniline vere ja glükohemoglobiini analüüs 
+
+PDW 
+
+ 
+13.5 
+ 
+Kliiniline vere ja glükohemoglobiini analüüs 
+
+P-LCR 
+
+
+35.6 
+ 
+Kliiniline vere ja glükohemoglobiinianalüüs 
+
+PLT 
+
+ 
+231 
+ 
+Kliiniline vere jaglükohemoglobiini analüüs 
+
+RBC 
+
+ 
+4.78 
+
+Kliiniline vere ja glükohemoglobiini analüüs 
+
+RDW-CV 
+
+ 
+15.2 
+ 
+Kliiniline vere ja glükohemoglobiini analüüs 
+
+RDW-SD 
+
+ 
+50.3 
+ 
+Kliiniline vere ja glükohemoglobiini analüüs 
+
+WBC
+
+ 
+7.97 
+

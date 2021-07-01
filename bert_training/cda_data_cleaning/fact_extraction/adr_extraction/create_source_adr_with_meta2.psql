@@ -1,0 +1,134 @@
+DROP TABLE IF EXISTS grammarextractor.source_adr_with_meta;
+
+CREATE TABLE grammarextractor.source_adr_with_meta AS
+  SELECT ev.id, ev.texts_id, ev.epi_id,ev.epi_time,  ev.epi_type, ev.pat_id,
+  ev.schema, ev.table, ev.field, ev.start, ev.end, ev.date, ev.date_raw,
+         ev.text,  di.diag_medical_type, di.diag_code_raw, di.diag_name_raw,
+         di.diag_text_raw, di.diag_statistical_type_raw, di.diag_code, di.diag_name,
+         di.diag_name_additional, di.diag_statistical_type,
+         dr.drug_code_raw, dr.drug_code_display_name_raw, dr.effective_time
+  FROM work.run201805141641_events as ev
+  left join 
+  (
+  select epi_id,  array_agg(diag_medical_type) as diag_medical_type,
+       array_agg(diag_code_raw) as diag_code_raw,
+       array_agg(diag_name_raw) as diag_name_raw,
+         array_agg(diag_text_raw) as diag_text_raw,
+       array_agg(diag_statistical_type_raw) as diag_statistical_type_raw,
+       array_agg(diag_code) as diag_code,
+       array_agg(diag_name) as diag_name,
+         array_agg(diag_name_additional) as diag_name_additional,
+       array_agg(diag_statistical_type) as diag_statistical_type
+from work.run201805141641_diagnosis group by epi_id ) as di
+  on ev.epi_id = di.epi_id
+  left join 
+  (
+	select
+       epi_id,
+       array_agg(drug_code_raw) as drug_code_raw ,
+        array_agg(drug_code_display_name_raw) as drug_code_display_name_raw,
+        array_agg(effective_time) as effective_time
+   from work.run201805141641_drug_entry group by epi_id 
+  ) as dr 
+  on ev.epi_id = dr.epi_id
+
+  LIMIT 0;
+  
+  ALTER TABLE grammarextractor.source_adr_with_meta OWNER TO
+  egcut_epi_grammarextractor_create;
+  
+  grant select on grammarextractor.source_adr_with_meta to egcut_epi_grammarextractor_read;
+  
+  ALTER TABLE grammarextractor.source_adr_with_meta
+  ADD COLUMN text_id BIGSERIAL PRIMARY KEY;
+  
+  COMMENT ON COLUMN grammarextractor.source_adr_with_meta.text_id IS 'unique text id';
+  
+  
+
+INSERT INTO grammarextractor.source_adr_with_meta
+
+select 
+ev.id, ev.texts_id, ev.epi_id,ev.epi_time,  ev.epi_type, ev.pat_id,
+  ev.schema, ev.table, ev.field, ev.start, ev.end, ev.date, ev.date_raw,
+         ev.text,  di.diag_medical_type, di.diag_code_raw, di.diag_name_raw,
+         di.diag_text_raw, di.diag_statistical_type_raw, di.diag_code, di.diag_name,
+         di.diag_name_additional, di.diag_statistical_type,
+         dr.drug_code_raw, dr.drug_code_display_name_raw, dr.effective_time
+
+ from work.run201805141641_events as ev
+               left join
+               (
+  select epi_id,  array_agg(diag_medical_type) as diag_medical_type,
+       array_agg(diag_code_raw) as diag_code_raw,
+       array_agg(diag_name_raw) as diag_name_raw,
+         array_agg(diag_text_raw) as diag_text_raw,
+       array_agg(diag_statistical_type_raw) as diag_statistical_type_raw,
+       array_agg(diag_code) as diag_code,
+       array_agg(diag_name) as diag_name,
+         array_agg(diag_name_additional) as diag_name_additional,
+       array_agg(diag_statistical_type) as diag_statistical_type
+from work.run201805141641_diagnosis group by epi_id ) as di
+  
+  left join 
+  (
+	select
+       epi_id,
+       array_agg(drug_code_raw) as drug_codes ,
+        array_agg(drug_code_display_name_raw) as drug_names
+   from work.run201805141641_drug_entry group by epi_id 
+  ) as dr 
+               
+               
+               
+where ev.epi_id IN
+        (
+        
+        select distinct epi_id from (
+select epi_id from original.main_diagnosis where main_diag_code ~*
+'(Z88.*|Y88\.0|Y59.*|Y58.*|Y57.*|Y56.*|Y55.*|Y54.*|Y53.*|Y52.*|Y51.*|Y50.*|Y49.*|Y48.*|Y47.*|Y46.*|Y45.*|Y44.*|Y43.*|Y42.*|Y41.*|Y40.*|T88\.7|T88\.6|T50.*|T49.*|T48.*|T47.*|T46.*|T45.*|T44.*|T43.*|T42.*|T41.*|T40.*|T39.*|T38.*|T37.*|T36.*|N14\.2|N14\.1|N14|M87\.1|M83\.5|M81\.4|M80\.4|M34\.2|M32\.0|M10\.2|L64\.0|L56\.1|L56\.0|L27\.1|L27\.0|L25\.1|L24\.4|L23\.3|L10\.5|J70\.3|J70\.2|I95\.2|I42\.7|H40\.6|H26\.3|G72\.0|G62\.0|G61\.0|G44\.4|G25\.6|G25\.4|G25\.1|G24\.0|G21\.1|E66\.1|E27\.3|E24\.2|E23\.1|E16\.0|E06\.4|E03\.2|D64\.2|D61\.1|D59\.2|D59\.0|D52\.1)'
+
+UNION
+  select epi_id from original.by_illness_diagnosis where by_illness_diag_code ~*
+'(Z88.*|Y88\.0|Y59.*|Y58.*|Y57.*|Y56.*|Y55.*|Y54.*|Y53.*|Y52.*|Y51.*|Y50.*|Y49.*|Y48.*|Y47.*|Y46.*|Y45.*|Y44.*|Y43.*|Y42.*|Y41.*|Y40.*|T88\.7|T88\.6|T50.*|T49.*|T48.*|T47.*|T46.*|T45.*|T44.*|T43.*|T42.*|T41.*|T40.*|T39.*|T38.*|T37.*|T36.*|N14\.2|N14\.1|N14|M87\.1|M83\.5|M81\.4|M80\.4|M34\.2|M32\.0|M10\.2|L64\.0|L56\.1|L56\.0|L27\.1|L27\.0|L25\.1|L24\.4|L23\.3|L10\.5|J70\.3|J70\.2|I95\.2|I42\.7|H40\.6|H26\.3|G72\.0|G62\.0|G61\.0|G44\.4|G25\.6|G25\.4|G25\.1|G24\.0|G21\.1|E66\.1|E27\.3|E24\.2|E23\.1|E16\.0|E06\.4|E03\.2|D64\.2|D61\.1|D59\.2|D59\.0|D52\.1)'
+
+UNION
+    select epi_id from original.complication_diagnosis where compl_diag_code ~*
+'(Z88.*|Y88\.0|Y59.*|Y58.*|Y57.*|Y56.*|Y55.*|Y54.*|Y53.*|Y52.*|Y51.*|Y50.*|Y49.*|Y48.*|Y47.*|Y46.*|Y45.*|Y44.*|Y43.*|Y42.*|Y41.*|Y40.*|T88\.7|T88\.6|T50.*|T49.*|T48.*|T47.*|T46.*|T45.*|T44.*|T43.*|T42.*|T41.*|T40.*|T39.*|T38.*|T37.*|T36.*|N14\.2|N14\.1|N14|M87\.1|M83\.5|M81\.4|M80\.4|M34\.2|M32\.0|M10\.2|L64\.0|L56\.1|L56\.0|L27\.1|L27\.0|L25\.1|L24\.4|L23\.3|L10\.5|J70\.3|J70\.2|I95\.2|I42\.7|H40\.6|H26\.3|G72\.0|G62\.0|G61\.0|G44\.4|G25\.6|G25\.4|G25\.1|G24\.0|G21\.1|E66\.1|E27\.3|E24\.2|E23\.1|E16\.0|E06\.4|E03\.2|D64\.2|D61\.1|D59\.2|D59\.0|D52\.1)'
+
+UNION
+  select epi_id from original.outer_cause_diagnosis where outer_cause_diag_code ~*
+'(Z88.*|Y88\.0|Y59.*|Y58.*|Y57.*|Y56.*|Y55.*|Y54.*|Y53.*|Y52.*|Y51.*|Y50.*|Y49.*|Y48.*|Y47.*|Y46.*|Y45.*|Y44.*|Y43.*|Y42.*|Y41.*|Y40.*|T88\.7|T88\.6|T50.*|T49.*|T48.*|T47.*|T46.*|T45.*|T44.*|T43.*|T42.*|T41.*|T40.*|T39.*|T38.*|T37.*|T36.*|N14\.2|N14\.1|N14|M87\.1|M83\.5|M81\.4|M80\.4|M34\.2|M32\.0|M10\.2|L64\.0|L56\.1|L56\.0|L27\.1|L27\.0|L25\.1|L24\.4|L23\.3|L10\.5|J70\.3|J70\.2|I95\.2|I42\.7|H40\.6|H26\.3|G72\.0|G62\.0|G61\.0|G44\.4|G25\.6|G25\.4|G25\.1|G24\.0|G21\.1|E66\.1|E27\.3|E24\.2|E23\.1|E16\.0|E06\.4|E03\.2|D64\.2|D61\.1|D59\.2|D59\.0|D52\.1)'
+
+UNION
+  select epi_id from original.other_diagnosis where other_diag_code ~*
+'(Z88.*|Y88\.0|Y59.*|Y58.*|Y57.*|Y56.*|Y55.*|Y54.*|Y53.*|Y52.*|Y51.*|Y50.*|Y49.*|Y48.*|Y47.*|Y46.*|Y45.*|Y44.*|Y43.*|Y42.*|Y41.*|Y40.*|T88\.7|T88\.6|T50.*|T49.*|T48.*|T47.*|T46.*|T45.*|T44.*|T43.*|T42.*|T41.*|T40.*|T39.*|T38.*|T37.*|T36.*|N14\.2|N14\.1|N14|M87\.1|M83\.5|M81\.4|M80\.4|M34\.2|M32\.0|M10\.2|L64\.0|L56\.1|L56\.0|L27\.1|L27\.0|L25\.1|L24\.4|L23\.3|L10\.5|J70\.3|J70\.2|I95\.2|I42\.7|H40\.6|H26\.3|G72\.0|G62\.0|G61\.0|G44\.4|G25\.6|G25\.4|G25\.1|G24\.0|G21\.1|E66\.1|E27\.3|E24\.2|E23\.1|E16\.0|E06\.4|E03\.2|D64\.2|D61\.1|D59\.2|D59\.0|D52\.1)' ) as foo
+
+ );
+
+
+alter table grammarextractor.source_adr_with_meta
+  ADD COLUMN table_field varchar;
+  
+  UPDATE grammarextractor.source_adr_with_meta
+set table_field = concat("table", '_', field);
+
+alter table grammarextractor.source_adr_with_meta
+  ADD COLUMN drug_code_display_name_raw_ varchar;
+  
+  alter table grammarextractor.source_adr_with_meta
+  ADD COLUMN diag_name_ varchar;
+  
+  alter table grammarextractor.source_adr_with_meta
+  ADD COLUMN diag_text_ varchar;
+
+UPDATE grammarextractor.source_adr_with_meta
+set drug_code_display_name_raw_ = replace(drug_code_display_name_raw, ' ', '_');
+
+UPDATE grammarextractor.source_adr_with_meta
+set diag_name_ = replace(diag_name, ' ', '_');
+
+UPDATE grammarextractor.source_adr_with_meta
+set diag_text_ = replace(diag_text_raw, ' ', '_');
+
+

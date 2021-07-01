@@ -1,0 +1,28 @@
+VASTUSED: 
+Hemogramm viieosalise leukogrammiga  
+WBC 8.80 (4,5 .. 10,4 E9/L)  
+NEUT# 6.53 (1,8 .. 7,8 E9/L)  
+LYMPH# 1.57 (1,0 .. 3,5 E9/L)  
+MONO# 0.47 (0.2 .. 1,0 E9/L)  
+EO# 0.20 (0,01 .. 0,4 E9/L)  
+BASO# 0.03 (<0,1 E9/L)  
+NEUT% 74.3 (40 .. 80 %)  
+LYMPH% 17.8 (15 .. 45 %)  
+MONO% 5.3 (2 .. 10 %)  
+EO% 2.3 (<6 %)  
+BASO% 0.3 (0 .. 1 %)  
+RBC 4.81 (4,4 .. 5,4 E12/L)  
+Hb 142 (134 .. 170 g/L)  
+HCT 42.5 (40.0 .. 50.0 %)  
+MCV 88.4 (82 .. 99 fL)  
+MCH 29.5 (27 .. 33 pg)  
+MCHC 334 (317 .. 357 g/L)  
+RDW 12.9 (12,3 .. 15,1 %)  
+PLT 217 (150 .. 450 E9/L)  
+MPV 10.7 (9 .. 12,1 fL)  
+PDW 12.9 (9 .. 14 fL)  
+P-LCR 30.8 (15 .. 35 %)  
+Protrombiini aeg   
+INR 0.94 (0,80 .. 1,20 )   
+Protrombiini suhe  109.0 (70 .. 130 %)    
+06.04.2013

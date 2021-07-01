@@ -1,0 +1,13 @@
+dirty_code	analysis_name	loinc_code(T-luhend)
+B-CBC+Diff	Hemogramm viieosalise leukogrammiga	B-CBC-5Diff
+B-CBC+Diff	Hemogramm kolmeosalise leukogrammiga	B-CBC-3Diff
+B-CBC-Diff	Hemogramm viieosalise leukogrammiga	B-CBC-5Diff
+B-CBC-Diff	Hemogramm kolmeosalise leukogrammiga	B-CBC-3Diff
+B-CBC+Diff	Hemogramm 5-osalise leukogrammiga	B-CBC-5Diff
+B-CBC+Diff	Hemogramm 3-osalise leukogrammiga	B-CBC-3Diff
+B-CBC-Diff	Hemogramm 5-osalise leukogrammiga	B-CBC-5Diff
+B-CBC-Diff	Hemogramm 3-osalise leukogrammiga	B-CBC-3Diff
+B-CBC+Diff	Vere automaatuuring 5-osalise leukogrammiga	B-CBC-5Diff
+B-CBC+Diff	Vere automaatuuring 3-osalise leukogrammiga	B-CBC-3Diff
+B-CBC-Diff	Vere automaatuuring 5-osalise leukogrammiga	B-CBC-5Diff
+B-CBC-Diff	Vere automaatuuring 3-osalise leukogrammiga	B-CBC-3Diff

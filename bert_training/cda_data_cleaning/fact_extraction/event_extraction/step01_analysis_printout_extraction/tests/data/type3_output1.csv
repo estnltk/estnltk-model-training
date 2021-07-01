@@ -1,0 +1,39 @@
+,epi_id,analysis_name_raw,parameter_name_raw,value_raw,parameter_unit_raw,effective_time_raw,reference_values_raw,text_raw
+41,123456,,AB0 veregrupp,B, ,07.04,,|AB0 veregrupp|B| | 
+42,123456,,RhD veregrupp,Positiivne, ,07.04,,|RhD veregrupp|Positiivne| | 
+43,123456,,Aktiveeritud osalise trombopla...,35.4,sek,07.04,,|Aktiveeritud osalise trombopla...|35.4|sek| 
+44,123456,,Amülaas (pankreasespetsiifilin...,31,U/L,07.04,,|Amülaas (pankreasespetsiifilin...|31|U/L| 
+45,123456,,Bilirubiin seerumis,8,µmol/L,07.04,,|Bilirubiin seerumis|8|µmol/L| 
+46,123456,,C-reaktiivne valk,<1.0,mg/L,07.04,,|C-reaktiivne valk|<1.0|mg/L| 
+47,123456,,Erütrotsütaarsete antikehade s...,Antikehi ei leidu, ,07.04,,|Erütrotsütaarsete antikehade s...|Antikehi ei leidu| | 
+48,123456,,Glükoos seerumis,4.8,mmol/L,07.04,,|Glükoos seerumis|4.8|mmol/L| 
+49,123456,Hemogramm viieosalise leukogra...,BASO#,0.01,E9/L,07.04,,|BASO#|0.01|E9/L| 
+50,123456,Hemogramm viieosalise leukogra...,BASO%,0.1,%,07.04,,|BASO%|0.1|%| 
+51,123456,Hemogramm viieosalise leukogra...,EO#,0.06,E9/L,07.04,,|EO#|0.06|E9/L| 
+52,123456,Hemogramm viieosalise leukogra...,EO%,0.9,%,07.04,,|EO%|0.9|%| 
+53,123456,Hemogramm viieosalise leukogra...,HCT,43.5,%,07.04,,|HCT|43.5|%| 
+54,123456,Hemogramm viieosalise leukogra...,Hb,138,g/L,07.04,,|Hb|138|g/L| 
+55,123456,Hemogramm viieosalise leukogra...,LYMPH#,1.74,E9/L,07.04,,|LYMPH#|1.74|E9/L| 
+56,123456,Hemogramm viieosalise leukogra...,LYMPH%,25.8,%,07.04,,|LYMPH%|25.8|%| 
+57,123456,Hemogramm viieosalise leukogra...,MCH,30.3,pg,07.04,,|MCH|30.3|pg| 
+58,123456,Hemogramm viieosalise leukogra...,MCHC,317,g/L,07.04,,|MCHC|317|g/L| 
+59,123456,Hemogramm viieosalise leukogra...,MCV,95.4,fL,07.04,,|MCV|95.4|fL| 
+60,123456,Hemogramm viieosalise leukogra...,MONO#,0.45,E9/L,07.04,,|MONO#|0.45|E9/L| 
+61,123456,Hemogramm viieosalise leukogra...,MONO%,6.7,%,07.04,,|MONO%|6.7|%| 
+62,123456,Hemogramm viieosalise leukogra...,MPV,10.0,fL,07.04,,|MPV|10.0|fL| 
+63,123456,Hemogramm viieosalise leukogra...,NEUT#,4.48,E9/L,07.04,,|NEUT#|4.48|E9/L| 
+64,123456,Hemogramm viieosalise leukogra...,NEUT%,66.5,%,07.04,,|NEUT%|66.5|%| 
+65,123456,Hemogramm viieosalise leukogra...,P-LCR,24.1,%,07.04,,|P-LCR|24.1|%| 
+66,123456,Hemogramm viieosalise leukogra...,PDW,11.2,fL,07.04,,|PDW|11.2|fL| 
+67,123456,Hemogramm viieosalise leukogra...,PLT,258,E9/L,07.04,,|PLT|258|E9/L| 
+68,123456,Hemogramm viieosalise leukogra...,RBC,4.56,E12/L,07.04,,|RBC|4.56|E12/L| 
+69,123456,Hemogramm viieosalise leukogra...,RDW,12.8,%,07.04,,|RDW|12.8|%| 
+70,123456,Hemogramm viieosalise leukogra...,WBC,6.74,E9/L,07.04,,|WBC|6.74|E9/L| 
+71,123456,Hemogramm viieosalise leukogra...,Kaalium seerumis,4.2,mmol/L,07.04,,|Kaalium seerumis|4.2|mmol/L| 
+72,123456,Hemogramm viieosalise leukogra...,Kreatiniin seerumis,62,µmol/L,07.04,,|Kreatiniin seerumis|62|µmol/L| 
+73,123456,Hemogramm viieosalise leukogra...,Kusihape seerumis,175,µmol/L,07.04,,|Kusihape seerumis|175|µmol/L| 
+74,123456,Hemogramm viieosalise leukogra...,Lipaas paastuseerumis,45,U/L,07.04,,|Lipaas paastuseerumis|45|U/L| 
+75,123456,Hemogramm viieosalise leukogra...,Naatrium seerumis,141,mmol/L,07.04,,|Naatrium seerumis|141|mmol/L| 
+77,123456,Hemogramm viieosalise leukogra...,INR,1.03, ,07.04,,|INR|1.03| | 
+78,123456,Hemogramm viieosalise leukogra...,Protrombiini suhe,91.4,%,07.04,,|Protrombiini suhe|91.4|%| 
+79,123456,Hemogramm viieosalise leukogra...,Uurea paastuseerumis,3.5,mmol/L,07.04,,|Uurea paastuseerumis|3.5|mmol/L| 

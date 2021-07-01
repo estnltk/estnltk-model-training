@@ -1,0 +1,94 @@
+-- NB! parameter_names must be without õ,ä,ö,ü
+
+
+DO $$
+begin
+raise notice 'Analysis name parameter_name to loinc mapping has rows:';
+end;
+$$;
+
+-------------------------------------------------------------------------------------------------------
+-- Import data from predefined csv files
+-------------------------------------------------------------------------------------------------------
+set role :role;
+
+drop table if exists :schema.manual_cases;
+create table :schema.manual_cases
+(
+	analysis_name text,
+	parameter_name text,
+	t_lyhend text
+);
+reset role;
+
+set search_path to :schema;
+\copy manual_cases from 'create_csvs_for_loinc_code_assignment/analysis_parameter_name_mapping_to_loinc_code/predefined_mapping_csvs/manual_cases.csv' with (delimiter ',', format csv, header);
+
+reset role;
+-------------------------------------------------------------------------------------------------------
+-- Create parameter_name  mapping to loinc code
+-------------------------------------------------------------------------------------------------------
+set role :role;
+
+drop table if exists :schema.analysis_parameter_name_to_loinc_mapping;
+create table :schema.analysis_parameter_name_to_loinc_mapping (
+  analysis_name text,
+  parameter_name text,
+  t_lyhend text,
+  loinc_code text,
+  substrate text,
+  evidence text
+);
+
+reset role;
+
+
+-- filling analysis_name, parameter_name and t_lyhend
+insert into :schema.analysis_parameter_name_to_loinc_mapping (analysis_name, parameter_name, t_lyhend, evidence)
+  select analysis_name, parameter_name, t_lyhend, 'manual' from :schema.manual_cases;
+
+
+-------------------------------------------------------------------------------------------------------
+-- finding corresponding loinc_code and substrate
+-------------------------------------------------------------------------------------------------------
+update :schema.analysis_parameter_name_to_loinc_mapping as p
+set loinc_code = e.loinc_no,
+    substrate  = e.system
+from classifications.elabor_analysis as e
+where upper(e.t_lyhend) = upper(p.t_lyhend);
+
+
+-------------------------------------------------------------------------------------------------------
+-- Do not know, if some substrates belong to urine or blood
+-- Therefore the CASE ... WHEN ... statement can be improved
+-------------------------------------------------------------------------------------------------------
+update :schema.analysis_parameter_name_to_loinc_mapping
+set substrate = case
+                    when substrate in
+                         ('Ser', 'Bld/Tiss', 'Bld.dot', 'RBC', 'Plas', 'BldA', 'BldC', 'BldMV', 'BldV', 'BldCo',
+                          'BldCoV', 'BldCoA', 'Bld^newborn', 'Ser+Bld', 'BldA+Inhl gas', 'Bld/Bone mar', 'BldA+BldMV',
+                          'Bld.pos growth', 'BldA+Resp.alv')
+                        then 'Bld'
+                    when substrate in ('Stool', 'Urine sed') then 'Urine'
+                    when substrate in
+                         ('Periton fld+Ser/Plas', 'Ser/Plas+Plr fld', 'Ser/Plas.maternal^fetus', 'Ser/Plas+Synv fld',
+                          'Ser+Plas') then 'Ser/Plas'
+                    when substrate in ('XXX','') then NULL
+                    else substrate
+    end;
+
+-- fully manual mapping, do not know estonian t_lyhend
+insert into :schema.analysis_parameter_name_to_loinc_mapping (
+  analysis_name,
+  parameter_name,
+  t_lyhend,
+  loinc_code,
+  substrate,
+  evidence)
+values ('Happe-alus tasakaal','Hematokrit arteriaalses veres', NULL,'32354-3','Bld','manual'),
+	('Happe-alus tasakaal','Glükoos arteriaalses veres',NULL,'41651-1','Bld','manual');
+
+
+set search_path to :schema;
+\copy (select distinct on (analysis_name, parameter_name, t_lyhend, loinc_code, substrate) analysis_name, parameter_name, t_lyhend, loinc_code, substrate, evidence from analysis_parameter_name_to_loinc_mapping where loinc_code is not null) to 'create_csvs_for_loinc_code_assignment/results/analysis_parameter_name_to_loinc_mapping.csv' With (delimiter ',', format csv, header)
+

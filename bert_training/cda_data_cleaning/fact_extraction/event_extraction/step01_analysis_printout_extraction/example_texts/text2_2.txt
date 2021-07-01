@@ -1,0 +1,153 @@
+01.06.2014 12:13 - <ANONYM id="1" type="per" morph="_H_ sg n"/>, <ANONYM id="2" type="per" morph="_H_ sg n"/> 
+ANALÜÜSIDE TELLIMUS nr: 644188  
+MATERJAL: 
+KL0000125433 Uriin 01.06.2014 11:57 (võetud: 01.06.2014 11:37)  
+VASTUSED: 
+Uriini ribaanalüüs   
+pH uriinis 7.0 (5.0 .. 8.0 )   
+Erütrotsüüdid NEG (NEG )   
+Nitrit NEG (NEG )   
+Valk NEG (NEG )   
+Glükoos  NEG (NEG )   
+Erikaal 1.009 ↓ (1,015 .. 1,025 )   
+Urobilinogeen NEG (NEG )   
+Bilirubiin uriinis NEG (NEG )   
+Leukotsüüdid NEG (NEG )   
+Ketokehad NEG (NEG )    
+01.06.2014 12:23 - <ANONYM id="3" type="per" morph="_H_ sg n"/>, ELE-LIIS 
+ANALÜÜSIDE TELLIMUS nr: 644184  
+MATERJAL: 
+IP0016557997 vB 01.06.2014 11:54 (võetud: 01.06.2014 11:53)  
+VASTUSED: 
+Uurea paastuseerumis/paastuplasmas 5.5 (<7.2 mmol/L)   
+Glükoos seerumis/plasmas 5.9 (4.6 .. 6.4 mmol/L)   
+C-reaktiivne valk seerumis/plasmas 1.1 (<5.0 mg/L)   
+Hinnanguline glomerulaarfiltratsiooni kiirus (CKD-EPI valemi j.) 80 (>60 ml/min/1.73m2)   
+Kreatiniin seerumis/plasmas 70 (44 .. 80 µmol/L)   
+Kaalium seerumis 4.8 (3.5 .. 5.1 mmol/L)   
+Naatrium seerumis/plasmas 143 (136 .. 145 mmol/L)    
+01.06.2014 12:31 - <ANONYM id="4" type="per" morph="_H_ sg n"/>, <ANONYM id="5" type="per" morph="_H_ sg n"/> 
+ANALÜÜSIDE TELLIMUS nr: 644186  
+MATERJAL: 
+IP0016558530 vB 01.06.2014 11:55 (võetud: 01.06.2014 11:54)  
+VASTUSED: 
+Erütrotsütaarsete antikehade sõeluuring kahe erütrotsüüdiga Antikehi ei leidu (Antikehi ei leidu )   
+AB0-veregrupi ja Rh(D) kinnitav määramine   
+AB0 veregrupp 0   
+RhD veregrupp Positiivne    
+01.06.2014 15:29 - <ANONYM id="6" type="per" morph="_H_ sg n"/>, <ANONYM id="7" type="per" morph="_H_ sg n"/> 
+ANALÜÜSIDE TELLIMUS nr: 644187  
+MATERJAL: 
+T00104704 B 4NC-katsutis 01.06.2014 11:56 (võetud: 01.06.2014 11:54) 
+IP0016558005 vB 01.06.2014 11:55 (võetud: 01.06.2014 11:54) 
+IP0016558001 Veri (helesinises) 01.06.2014 11:55 (võetud: 01.06.2014 11:54)  
+VASTUSED: 
+Erütrotsüütide settekiirus 13.0 (<30 mm/h)   
+Aktiveeritud osalise tromboplastiini aeg 31.3 (26 .. 39 sek)   
+Hemogramm viieosalise leukogrammiga   
+WBC 3.96 ↓ (4,1 .. 9,4 E9/L)   
+NEUT# 1.87 (1,8 .. 7,8 E9/L)   
+LYMPH# 1.6 (1,0 .. 3,5 E9/L)   
+MONO# 0.37 (0.2 .. 1,0 E9/L)   
+EO# 0.1 (0,01 .. 0,4 E9/L)   
+BASO# 0.02 (<0,1 E9/L)   
+NEUT% 47.3 (40 .. 80 %)   
+LYMPH% 40.4 (15 .. 45 %)   
+MONO% 9.3 (2 .. 10 %)   
+EO% 2.5 (<6 %)   
+BASO% 0.5 (0 .. 1 %)   
+RBC 4.54 (3,9 .. 5,2 E12/L)   
+Hb 132 (117 .. 153 g/L)   
+HCT 40.0 (35.0 .. 46.0 %)   
+MCV 88.1 (82 .. 99 fL)   
+MCH 29.1 (27 .. 33 pg)   
+PLT 249.0 (150 .. 450 E9/L)   
+Protrombiini aeg   
+INR 1.01 (0,80 .. 1,20 )   
+Protrombiini suhe 99.0 (70 .. 130 %)    
+02.06.2014 10:40 - <ANONYM id="8" type="per" morph="_H_ sg n"/>, <ANONYM id="9" type="per" morph="_H_ sg n"/> - D04118 - E100 - anestesioloogia 
+Plexus brachialis vasakul visualiseeritud ultraheliga blokaadi tegemiseks . 
+7943 - Ühe piirkonna arterite ja veenide ultraheliuuring, 02.06.2014 
+Tellija: <ANONYM id="10" type="per" morph="_H_ sg n"/>, <ANONYM id="11" type="per" morph="_H_ sg n"/> - D05044, Teostaja: <ANONYM id="12" type="per" morph="_H_ sg n"/>, <ANONYM id="13" type="per" morph="_H_ sg n"/> - D04118   
+02.06.2014 15:09 - <ANONYM id="14" type="per" morph="_H_ sg n"/>, <ANONYM id="15" type="per" morph="_H_ sg n"/> - D03782 - E340 - radioloogia 
+Röntgenuuringud 
+RÖ õlavarreluust 2-s 
+Teostatud: 01.06.2014 11:57  
+Tellimuse vastus nr: 14-153189-1 
+OSTEOARTHROSIS DEFORMANS HUMERO-SCAPULARIS SIN IV STAD. :NECROSIS AVASCULARIS SUBCHONDRALIS CAPITIS HUMERI  
+02.06.2014 15:09 - <ANONYM id="16" type="per" morph="_H_ sg n"/>, <ANONYM id="17" type="per" morph="_H_ sg n"/> - D03782 - E340 - radioloogia 
+Röntgenuuringud 
+RÖ rindkerest PA, AP (otse) 
+Teostatud: 01.06.2014 11:57  
+Tellimuse vastus nr: 14-153190-1 
+NORMILEID  
+03.06.2014 06:56 - <ANONYM id="18" type="per" morph="_H_ sg n"/>, <ANONYM id="19" type="per" morph="_H_ sg n"/> 
+ANALÜÜSIDE TELLIMUS nr: 645957  
+MATERJAL: 
+IP0016557996 vB 03.06.2014 06:32 (võetud: 03.06.2014 06:31)  
+VASTUSED: 
+Hemogramm viieosalise leukogrammiga   
+WBC 4.32 (4,1 .. 9,4 E9/L)   
+NEUT# 3.18 (1,8 .. 7,8 E9/L)   
+LYMPH# 0.73 ↓ (1,0 .. 3,5 E9/L)   
+MONO# 0.39 (0.2 .. 1,0 E9/L)   
+EO# 0.01 (0,01 .. 0,4 E9/L)   
+BASO# 0.01 (<0,1 E9/L)   
+NEUT% 73.7 (40 .. 80 %)   
+LYMPH% 16.9 (15 .. 45 %)   
+MONO% 9.0 (2 .. 10 %)   
+EO% 0.2 (<6 %)   
+BASO% 0.2 (0 .. 1 %)   
+RBC 3.48 ↓ (3,9 .. 5,2 E12/L)   
+Hb 100 ↓ (117 .. 153 g/L)   
+HCT 30.8 ↓ (35.0 .. 46.0 %)   
+MCV 88.5 (82 .. 99 fL)   
+MCH 28.7 (27 .. 33 pg)   
+PLT 207.0 (150 .. 450 E9/L)    
+03.06.2014 07:23 - <ANONYM id="20" type="per" morph="_H_ sg n"/>, <ANONYM id="21" type="per" morph="_H_ sg n"/> 
+ANALÜÜSIDE TELLIMUS nr: 645964  
+MATERJAL: 
+IP0016557992 vB 03.06.2014 06:43 (võetud: 03.06.2014 06:15)  
+VASTUSED: 
+Uurea paastuseerumis/paastuplasmas 3.9 (<7.2 mmol/L)   
+Glükoos seerumis/plasmas 8.2 ↑ (4.6 .. 6.4 mmol/L)   
+C-reaktiivne valk seerumis/plasmas 82.2 ↑ (<5.0 mg/L)   
+Hinnanguline glomerulaarfiltratsiooni kiirus (CKD-EPI valemi j.) 94 (>60 ml/min/1.73m2)   
+Kreatiniin seerumis/plasmas 61 (44 .. 80 µmol/L)   
+Kaalium seerumis 4.0 (3.5 .. 5.1 mmol/L)   
+Naatrium seerumis/plasmas 139 (136 .. 145 mmol/L)    
+03.06.2014 12:37 - <ANONYM id="22" type="per" morph="_H_ sg n"/>, <ANONYM id="23" type="per" morph="_H_ sg n"/> - Y0134 - E380 - taastusravi ja füsiaatria 
+1. FT: 1. postop. päev. Pt. üldpalatis. 
+Pt väga uimane, kurdab iiveludust ja pearinglust, ei saa silmi lahti hoida. 
+Näidatud esmased harj-d - küünarliigese sõrmede ROM, pendliharjutus.  
+TR016 - Füsioteraapia(30 min), 03.06.2014 
+Tellija: <ANONYM id="24" type="per" morph="_H_ sg n"/>, <ANONYM id="25" type="per" morph="_H_ sg n"/> - D05044, Teostaja: <ANONYM id="26" type="per" morph="_H_ sg n"/>, <ANONYM id="27" type="per" morph="_H_ sg n"/> - Y0134   
+03.06.2014 15:24 - <ANONYM id="28" type="per" morph="_H_ sg n"/>, <ANONYM id="29" type="per" morph="_H_ sg n"/> 
+ANALÜÜSIDE TELLIMUS nr: 647228  
+MATERJAL: 
+IP0016605877 vB 03.06.2014 15:18 (võetud: 03.06.2014 15:17)  
+VASTUSED: 
+Hemogramm viieosalise leukogrammiga   
+WBC 5.67 (4,1 .. 9,4 E9/L)   
+NEUT# 3.91 (1,8 .. 7,8 E9/L)   
+LYMPH# 0.97 ↓ (1,0 .. 3,5 E9/L)   
+MONO# 0.76 (0.2 .. 1,0 E9/L)   
+EO# 0.02 (0,01 .. 0,4 E9/L)   
+BASO# 0.01 (<0,1 E9/L)   
+NEUT% 68.9 (40 .. 80 %)   
+LYMPH% 17.1 (15 .. 45 %)   
+MONO% 13.4 ↑ (2 .. 10 %)   
+EO% 0.4 (<6 %)   
+BASO% 0.2 (0 .. 1 %)   
+RBC 3.51 ↓ (3,9 .. 5,2 E12/L)   
+Hb 103 ↓ (117 .. 153 g/L)   
+HCT 31.2 ↓ (35.0 .. 46.0 %)   
+MCV 88.9 (82 .. 99 fL)   
+MCH 29.3 (27 .. 33 pg)   
+PLT 181.0 (150 .. 450 E9/L)    
+04.06.2014 08:42 - <ANONYM id="30" type="per" morph="_H_ sg n"/>, <ANONYM id="31" type="per" morph="_H_ sg n"/> - D03782 - E340 - radioloogia 
+Röntgenuuringud 
+RÖ õlaliigesest 2-s 
+Teostatud: 03.06.2014 09:31  
+Tellimuse vastus nr: 14-154803-1 
+HEMIARTHROPLASTICA ET ENDOPROTHESIS CAPITIS HUMERI SINISTRI SINE COMPLICATIONE

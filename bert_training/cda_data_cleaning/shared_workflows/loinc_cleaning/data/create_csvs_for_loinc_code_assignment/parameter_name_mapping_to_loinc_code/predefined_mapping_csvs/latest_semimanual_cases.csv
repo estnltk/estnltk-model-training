@@ -1,0 +1,35 @@
+dirty_code,loinc_code(T-luhend)
+B-Plt(Trombots??????tide arv),B-Plt
+ B-PLT(Trombotsuudid),B-Plt
+B-PLT(Trombotsuudid),B-Plt
+ B-Plt(Trombotsuutide arv),B-Plt
+B-Plt(Trombotsuutide arv),B-Plt
+B-PLT(Trombotsuutide uldarv),B-Plt
+FT3/Vabatrijoodturoniin,"S,P-fT3"
+FT4/Vabaturoksiin,"S,P-fT4"
+FT4\Vabaturoksiin,"S,P-fT4"
+FT4 Vaba turoksiin seerumis,"S,P-fT4"
+PL(PLT),B-Plt
+PLT(PLT),B-Plt
+PLT(Trombotsuudid),B-Plt
+PLT(Trombotsuutide arv),B-Plt
+"s,p-FT3(Vaba trijoodturoniin)","S,P-fT3"
+"s,p-fT3(Vaba trijoodturoniin)","S,P-fT3"
+"s,p-FT4(Vaba T4)","S,P-fT4"
+"s,p-FT4(Vaba turoksiin)","S,P-fT4"
+"s,p-fT4(Vaba turoksiin)","S,P-fT4"
+ U-Bil,U-Bil strip
+U-Bil,U-Bil strip
+u-bil,U-Bil strip
+ U-Ket,U-Ket strip
+U-Ket,U-Ket strip
+u-ket,U-Ket strip
+ U-Nit,U-Nit strip
+U-Nit,U-Nit strip
+u-nit,U-Nit strip
+ U-pH,U-pH strip
+U-pH,U-pH strip
+ U-UBG,U-Ubg strip
+U-UBG,U-Ubg strip
+u-ubg,U-Ubg strip
+vB-PLT-m,B-Plt

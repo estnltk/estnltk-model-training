@@ -1,0 +1,120 @@
+component,analyte,property,system,time_aspect,scale,loinc_number_array,method_typ_array
+Alanine aminotransferase,ALAT,CCnc,Bld,Pt,Qn,{76625-3},{null}
+Alanine aminotransferase,ALAT,CCnc,Ser/Plas,Pt,Qn,"{1742-6,1743-4,1744-2,48134-1}","{No addition of P-5'-P,With P-5'-P,null}"
+Albumin,Alb,MCnc,Bld,Pt,Qn,{76631-1},{BCP}
+Albumin,Alb,MCnc,Ser/Plas,Pt,Qn,"{11062-7,14014-5,14338-8,1751-7,1758-2,17844-2,18264-2,1968-7,1970-3,21058-3,2612-0,2862-1,2877-9,40046-5,40047-3,40048-1,40049-9,40050-7,40051-5,40052-3,40053-1,40054-9,40055-6,40056-4,40057-2,40058-0,40059-8,40060-6,40061-4,40062-2,40063-0,46099-8,46130-1,61151-7,61152-5,6793-4,86921-4}","{BCG,BCP,Electrophoresis,IA,Incubation.1M,Nephelometry,null}"
+Alkaline phosphatase,ALP,CCnc,Ser/Plas,Pt,Qn,"{12806-6,13874-3,13875-0,16182-8,16336-0,1777-2,1778-0,1779-8,1780-6,1781-4,1782-2,20426-3,32135-6,32351-9,32352-7,33063-9,33421-9,6768-6,6769-4,71365-1,71366-9,71367-7}","{Heat stability,Levamisole inhibition,null}"
+Amylase,Amyl,CCnc,Bld,Pt,Qn,{76630-3},{null}
+Amylase,Amyl,CCnc,Ser/Plas,Pt,Qn,"{1798-8,1802-8,1803-6,1804-4,1805-1,1806-9,1807-7,1808-5,1809-3,2591-6,69357-2,69359-8,69360-6}",{null}
+Antistreptolysin O,ASO,ACnc,Ser/Plas,Pt,Qn,{null},{null}
+Aspartate aminotransferase,ASAT,CCnc,Ser/Plas,Pt,Qn,"{1920-8,30239-8,48136-6,88112-8}","{No addition of P-5'-P,With P-5'-P,null}"
+Basophil,Baso,NCnc,Bld,Pt,Qn,"{26444-0,32154-7,32349-3,33785-7,34910-0,704-7,705-4}","{Automated count,Manual count,null}"
+Basophil,Baso,Num,Bld,Pt,Qn,{null},{null}
+Basophil,Baso,unknown,Bld,Pt,Qn,{null},{null}
+Bilirubin,Bil,SCnc,Ser/Plas,Pt,Qn,"{14629-0,14630-8,14631-6,22665-4,29760-6,33899-6}",{null}
+Bilirubin conjugated,Bil_conj,SCnc,Ser/Plas,Pt,Qn,{null},{null}
+Calcium,Ca,SCnc,fSP,Pt,Qn,{null},{null}
+Calcium,Ca,SCnc,Ser/Plas,Pt,Qn,"{12180-6,1381-3,1382-1,1383-9,13959-2,16512-6,16513-4,16514-2,16515-9,16516-7,16517-5,16519-1,16523-3,16524-1,18281-6,19072-8,1995-0,2000-8,29265-6,40223-0,40224-8,40225-5,40226-3,40227-1,40228-9,40229-7,40230-5,40231-3,40232-1,40233-9,40234-7,40235-4,40236-2,40237-0,40238-8,40239-6,40240-4,40241-2,40242-0,40243-8,40244-6,40245-3,40246-1,40247-9,57468-1,57469-9,57471-5,57473-1,57566-2,57567-0,57568-8,57569-6,59148-7}","{Calculated,ISE,null}"
+Calcium ionized,iCa,SCnc,Bld,Pt,Qn,{null},{null}
+Calcium ionized,iCa,SCnc,Ser/Plas,Pt,Qn,{null},{null}
+Chloride,Cl,SCnc,Bld,Pt,Qn,"{2069-3,56625-7}",{null}
+Chloride,Cl,SCnc,Ser/Plas,Pt,Qn,"{2075-0,54369-4}",{null}
+Cholesterol,Chol,SCnc,Ser/Plas,Pt,Qn,"{14646-4,14647-2,22748-8,25371-6,26015-8,26017-4,32289-1,39469-2,54373-6,55840-3,56132-4,56133-2,56134-0,56135-7,56535-8,66126-4,69419-0,70201-9,70202-7,70203-5,70204-3,74517-4}","{Calculated,Direct assay,null}"
+C-reactive protein,CRP,MCnc,Bld,Pt,Qn,{null},{null}
+C-reactive protein,CRP,MCnc,cB,Pt,Qn,{null},{null}
+C-reactive protein,CRP,MCnc,Ser/Plas,Pt,Qn,{null},{null}
+?Creatine?,Crea,SCnc,Bld,Pt,Qn,{null},{null}
+?Creatine?,Crea,SCnc,fSP,Pt,Qn,{null},{null}
+?Creatine?,Crea,SCnc,Ser/Plas,Pt,Qn,{null},{null}
+?Creatine?,Crea,unknown,Bld,Pt,Qn,{null},{null}
+Creatine kinase,CK,CCnc,Bld,Pt,Qn,{null},{null}
+Creatine kinase,CK,CCnc,Ser/Plas,Pt,Qn,"{2152-7,2153-5,2154-3,2155-0,2157-6,32673-6,6773-6}","{EIA,Electrophoresis,null}"
+Creatine kinase-muscle/brain,CK-MB,MCnc,Ser/Plas,Pt,Qn,{null},{null}
+Eosinophil,Eo,NCnc,Bld,Pt,Qn,"{26449-9,32154-7,32349-3,33802-0,34912-6,711-2,712-0}","{Automated count,Manual count,null}"
+Eosinophil,Eo,Num,Bld,Pt,Qn,{null},{null}
+Eosinophil,Eo,unknown,Bld,Pt,Qn,{null},{null}
+Erythrocyte sedimentation rate,ESR,unknown,Bld,Pt,Qn,{null},{null}
+Erythrocyte sedimentation rate,ESR,Vel,Bld,Pt,Qn,"{18184-2,30341-2,43402-7,4537-7,4538-5,4539-3,82477-1}","{15M reading,Photometric,Zetafuge,Westergren,Westergren.2H reading,Wintrobe,null}"
+Gamma-glutamyltransferase,GGT,CCnc,Ser/Plas,Pt,Qn,{null},{null}
+Glucose,Gluc,SCnc,Bld,Pt,Qn,"{15074-8,53553-4,72516-8,76629-5}","{Estimated from glycated hemoglobin,Test strip.automated,null}"
+Glucose,Gluc,SCnc,cB,Pt,Qn,{null},{null}
+Glucose,Gluc,SCnc,fSP,Pt,Qn,{null},{null}
+Glucose,Gluc,SCnc,Ser/Plas,Pt,Qn,"{14749-6,14751-2,14752-0,14753-8,14754-6,14755-3,14756-1,14757-9,14758-7,14759-5,14761-1,14762-9,14763-7,14764-5,14765-2,14766-0,14767-8,14768-6,14769-4,14771-0,14995-5,14996-3,25663-6,25665-1,25666-9,25668-5,25669-3,25671-9,25672-7,25673-5,25674-3,25676-8,25677-6,25679-2,25680-0,30251-3,30252-1,30253-9,30263-8,30264-6,30265-3,30266-1,30267-9,32319-6,32320-4,32321-2,32322-0,32359-2,34056-2,34057-0,34058-8,34059-6,34060-4,40148-9,40149-7,40150-5,40151-3,40152-1,40153-9,40154-7,40155-4,40156-2,40157-0,40158-8,40159-6,40160-4,40161-2,40162-0,40163-8,40164-6,40165-3,40166-1,40167-9,40168-7,40169-5,40170-3,40171-1,40172-9,40173-7,40174-5,40175-2,40176-0,40177-8,40178-6,40179-4,40180-2,40181-0,40182-8,40183-6,40184-4,40185-1,40186-9,40187-7,40188-5,40189-3,40190-1,40191-9,40192-7,40193-5,40194-3,40195-0,40196-8,40197-6,40198-4,40199-2,40200-8,40201-6,40202-4,40203-2,40204-0,40205-7,40206-5,40207-3,40208-1,40209-9,40210-7,40211-5,40212-3,40213-1,40214-9,40215-6,40216-4,40217-2,40218-0,40219-8,40220-6,40221-4,40222-2,40276-8,40277-6,40278-4,40279-2,40280-0,40285-9,40286-7,40287-5,40294-1,40318-8,40319-6,40320-4,40321-2,40322-0,40323-8,40324-6,44919-9,45052-8,45053-6,45054-4,45055-1,45056-9,45298-7,45299-5,47583-0,47584-8,47585-5,47586-3,47587-1,47588-9,47589-7,47590-5,47591-3,47592-1,47593-9,47595-4,47622-6,47859-4,48109-3,51419-0,51426-5,51597-3,53093-1,53094-9,53474-3,53475-0,53476-8,53480-0,53481-8,53482-6,53483-4,53484-2,53485-9,53486-7,53487-5,54248-0,54249-8,54250-6,54251-4,54252-2,54253-0,54254-8,54255-5,54256-3,54257-1,54258-9,54259-7,54260-5,54261-3,54262-1,54263-9,54264-7,54265-4,54266-2,54267-0,54268-8,54269-6,54270-4,54271-2,54272-0,54273-8,54274-6,54275-3,54276-1,54277-9,54392-6,54393-4,54394-2,54395-9,54396-7,54397-5,54398-3,54399-1,54400-7,54401-5,54495-7,54496-5,54497-3,54498-1,54499-9,55351-1,55352-9,55381-8,55479-0,55480-8,55481-6,55482-4,55483-2,55484-0,55485-7,55486-5,55487-3,55492-3,55493-1,55494-9,55495-6,55496-4,55497-2,55498-0,55499-8,58506-7,58509-1,58513-3,58515-8,58517-4,58519-0,59157-8,59812-8,59814-4,59815-1,69941-3,69942-1,69943-9,69944-7,70208-4,72895-6,72896-4,72900-4,72901-2,72902-0,74084-5,75405-1,75637-9,77681-5}",{null}
+Glycated hemoglobin,HbA1c,MFr,Bld,Pt,Qn,{null},{null}
+Glycated hemoglobin,HbA1c,SFr,Bld,Pt,Qn,{null},{null}
+Hematocrit,HCT,VFr,Bld,Pt,Qn,"{20570-8,31100-1,4544-3,4545-0,48703-3}","{Automated count,Estimated,Impedance,Spun,null}"
+Hemoglobin,HGB,MCnc,Bld,Pt,Qn,"{15082-1,20509-6,31157-1,39533-5,40549-8,40550-6,41995-2,42243-6,46423-0,4683-9,48725-6,53857-9,55782-7,718-7,76139-5,76141-1,86912-3}","{Calculated,Electrophoresis,HPLC,Oximetry,null}"
+"High-density lipoprotein, ""good cholesterol""",HDL,SCnc,fSP,Pt,Qn,{null},{null}
+"High-density lipoprotein, ""good cholesterol""",HDL,SCnc,Ser/Plas,Pt,Qn,{null},{null}
+Immunoglobulin,IG,NCnc,Bld,Pt,Qn,{null},{null}
+Immunoglobulin,IG,NFr,Bld,Pt,Qn,{null},{null}
+Immunoglobulin,IG,unknown,Bld,Pt,Qn,{null},{null}
+Immunoglobulin a,IgA,MCnc,Ser/Plas,Pt,Qn,{null},{null}
+Immunoglobulin e,IgE,ACnc,Bld,Pt,Qn,{null},{null}
+Immunoglobulin e,IgE,ACnc,Ser/Plas,Pt,Qn,{null},{null}
+Immunoglobulin g,IgG,MCnc,Ser/Plas,Pt,Qn,{null},{null}
+Immunoglobulin m,IgM,MCnc,Ser/Plas,Pt,Qn,{null},{null}
+International normalized ratio,INR,RelTime,Bld,Pt,Qn,{null},{null}
+International normalized ratio,INR,RelTime,Ser/Plas,Pt,Qn,{null},{null}
+Iron,Fe,MCnc,Ser/Plas,Pt,Qn,"{14074-9,2498-4,2500-7,2501-5,50198-1,50199-9,50200-5,50201-3,50202-1,50203-9,50204-7,50205-4,74943-2,9356-7}",{null}
+Iron,Fe,SCnc,fSP,Pt,Qn,{null},{null}
+Iron,Fe,SCnc,Ser/Plas,Pt,Qn,"{14798-3,14800-7,22753-8}",{null}
+Lactate dehydrogenase,LDH,CCnc,Bld,Pt,Qn,{null},{null}
+Lactate dehydrogenase,LDH,CCnc,Ser/Plas,Pt,Qn,"{14804-9,14805-6,19248-4,2532-0,2535-3,2537-9,2538-7,2540-3,2541-1,2543-7,2544-5,2546-0,2547-8,2549-4}","{Chemical separation,Electrophoresis,Reaction: lactate to pyruvate,Reaction: pyruvate to lactate,null}"
+Lactate dehydrogenase,LDH,unknown,Ser/Plas,Pt,Qn,{null},{null}
+Low-density lipoprotein,LDL,SCnc,fSP,Pt,Qn,{null},{null}
+Low-density lipoprotein,LDL,SCnc,Ser/Plas,Pt,Qn,{null},{null}
+Lymphocytes,Lymph,NCnc,Bld,Pt,Qn,"{11130-2,26474-7,26477-0,29262-3,30114-3,30115-0,30181-2,30364-4,30412-1,30418-8,30464-2,33832-7,33834-3,35039-7,35040-5,35081-9,35082-7,43743-4,6863-5,731-0,732-8,734-4,9560-4,9562-0}","{Automated count,Flow cytometry,Manual count,null}"
+Lymphocytes,Lymph,Num,Bld,Pt,Qn,{null},{null}
+Lymphocytes,Lymph,unknown,Bld,Pt,Qn,{null},{null}
+Magnesium,Mg,SCnc,Ser/Plas,Pt,Qn,"{11554-3,2600-5,2601-3,55937-7,65362-6}",{null}
+Mean cell hemoglobin/ mean corpuscular hemoglobin,MCH,EntMass,Bld,Pt,Qn,{null},{null}
+Mean corpuscular hemoglobin concentration,MCHC,MCnc,Bld,Pt,Qn,{null},{null}
+Mean corpuscular volume,MCV,EntVol,Bld,Pt,Qn,{null},{null}
+Mean platelet volume,MPV,EntVol,Bld,Pt,Qn,{null},{null}
+Mean platelet volume,MPV,unknown,Bld,Pt,Qn,{null},{null}
+Monocyte,Mono,NCnc,Bld,Pt,Qn,"{26484-6,29260-7,30440-2,32154-7,32349-3,33841-8,33855-8,34924-1,34926-6,35081-9,742-7,743-5}","{Automated count,Manual count,null}"
+Monocyte,Mono,Num,Bld,Pt,Qn,{null},{null}
+Monocyte,Mono,unknown,Bld,Pt,Qn,{null},{null}
+Neutrophil,Neut,NCnc,Bld,Pt,Qn,"{26499-4,26507-4,30229-9,30449-3,30451-9,751-8,752-6,753-4,763-3,766-6,768-2}","{Automated count,Manual count,null}"
+Neutrophil,Neut,Num,Bld,Pt,Qn,{null},{null}
+Neutrophil,Neut,unknown,Bld,Pt,Qn,{null},{null}
+Nucleated red blood cell,NRBC,unknown,Bld,Pt,Qn,{null},{null}
+Pancreatic amylase,AmylP,CCnc,Ser/Plas,Pt,Qn,{null},{null}
+Phosphate,P,SCnc,fSP,Pt,Qn,{null},{null}
+Phosphate,P,SCnc,Ser/Plas,Pt,Qn,"{14879-1,25498-7,55972-4,62236-5}",{null}
+Platelet distribution width,PDW,EntVol,Bld,Pt,Qn,{32207-3},{Automated count}
+Platelet distribution width,PDW,Ratio,Bld,Pt,Qn,{51631-0},{null}
+Platelet distribution width,PDW,unknown,Bld,Pt,Qn,{null},{null}
+Platelet large cell ratio,LCR,NFr,Bld,Pt,Qn,{null},{null}
+Platelet large cell ratio,LCR,NFr,Ser/Plas,Pt,Qn,{null},{null}
+Platelets,PLT,NCnc,Bld,Pt,Qn,"{15201-7,26515-7,49497-1,51632-8,5907-1,71692-8,777-3,778-1}","{Automated count,Estimate,Manual count,null}"
+Platelets,PLT,unknown,Bld,Pt,Qn,{null},{null}
+Potassium,K,SCnc,Bld,Pt,Qn,"{6298-4,74353-4}",{null}
+Potassium,K,SCnc,Ser/Plas,Pt,Qn,"{12812-4,12813-2,2823-3,29349-8,34548-8,51618-7,86919-8}",{null}
+Procalcitonin,PCT,MCnc,Ser/Plas,Pt,Qn,"{33959-8,75241-0}","{IA,null}"
+Procalcitonin,Trombokrit,VFr,Bld,Pt,Qn,{null},{null}
+Protein,Prot,MCnc,Bld,Pt,Qn,"{2662-5,71426-1}","{High sensitivity,null}"
+Protein,Prot,MCnc,Ser/Plas,Pt,Qn,"{10835-7,10878-7,12722-5,12723-3,14051-7,14164-8,1834-1,1836-6,18489-5,1869-7,1870-5,1871-3,1872-1,1873-9,1875-4,1876-2,1877-0,1878-8,1879-6,1880-4,1881-2,1882-0,1883-8,1884-6,1885-3,1886-1,1988-5,20577-3,2483-6,2573-4,2574-2,2575-9,2576-7,2663-3,2685-6,2729-2,2885-2,30522-7,33358-3,33654-5,33658-6,33667-7,33962-2,34907-6,35360-7,35388-8,35559-4,38491-7,39804-0,4503-9,48407-1,48499-8,49628-1,50796-2,50797-0,51002-4,51003-2,51004-0,51435-6,53962-7,54216-7,55724-9,57668-6,57669-4,58832-7,59008-3,59996-9,59997-7,59998-5,59999-3,60000-7,60001-5,60002-3,60003-1,60004-9,6772-8,6883-3,74101-7,83073-7,88054-2,9346-8}","{Calculated,Electrophoresis,High sensitivity,IA,null}"
+Red blood  cell,RBC,NCnc,Bld,Pt,Qn,{null},{null}
+Red blood  cell,RBC,unknown,Bld,Pt,Qn,{null},{null}
+Red cell distribution width,RDW,EntVol,Bld,Pt,Qn,{null},{null}
+Red cell distribution width,RDW,Ratio,Bld,Pt,Qn,{null},{null}
+Red cell distribution width,RDW,unknown,Bld,Pt,Qn,{null},{null}
+Rheumatoid factor,RF,ACnc,fSP,Pt,Qn,{null},{null}
+Rheumatoid factor,RF,ACnc,Ser/Plas,Pt,Qn,"{11572-5,13191-2}",{null}
+Sodium,Na,SCnc,Bld,Pt,Qn,"{2947-0,74353-4}",{null}
+Sodium,Na,SCnc,Ser/Plas,Pt,Qn,"{2951-2,34548-8,51419-0,74688-3}",{null}
+Thyroid stimulating hormone,TSH,ACnc,Bld,Pt,Qn,{null},{null}
+Thyroid stimulating hormone,TSH,ACnc,Ser/Plas,Pt,Qn,{null},{null}
+Transferrin,Transf,MCnc,Bld,Pt,Qn,{null},{null}
+Transferrin,Transf,MCnc,fSP,Pt,Qn,{null},{null}
+Transferrin,Transf,MCnc,Ser/Plas,Pt,Qn,"{12949-4,30248-9,3034-6}",{null}
+Triglycerides,Trigl,SCnc,Bld,Pt,Qn,{null},{null}
+Triglycerides,Trigl,SCnc,fSP,Pt,Qn,{null},{null}
+Triglycerides,Trigl,SCnc,Ser/Plas,Pt,Qn,{null},{null}
+Urea,Urea,SCnc,Bld,Pt,Qn,"{59570-2,72903-8}",{null}
+Urea,Urea,SCnc,fSP,Pt,Qn,{null},{null}
+Urea,Urea,SCnc,Ser/Plas,Pt,Qn,"{14937-7,22664-7,39776-0,39777-8}",{null}
+White blood cell,WBC,NCnc,Bld,Pt,Qn,{null},{null}
+White blood cell,WBC,unknown,Bld,Pt,Qn,{null},{null}

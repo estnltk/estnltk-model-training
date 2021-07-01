@@ -1,0 +1,37 @@
+drop function if exists work.clean_analysis_name(analysis_name_raw text);
+create or replace function work.clean_analysis_name(analysis_name_raw text)
+    returns text
+    as
+$body$
+declare
+    analysis_name varchar := analysis_name_raw;
+begin
+
+    if analysis_name_raw is not null then
+        --a1 ALAT  ->	ALAT
+        --a20 ASAT ->	ASAT
+        --a139 Valk->	Valk
+        --a2041 Hb ->	HB
+        -- TODO SQL JAOKS TOPELT { }
+        -- a2042 etc are parameter_codes
+        if(analysis_name_raw ~ '^[a][0-9]{4}') then analysis_name := regexp_replace(analysis_name, '^[a][0-9]{4}',''); end if;
+        if(analysis_name_raw ~ '^[a][0-9]{3}') then analysis_name := regexp_replace(analysis_name, '^[a][0-9]{3}',''); end if;
+        if(analysis_name_raw ~ '^[a][0-9]{2}') then analysis_name := regexp_replace(analysis_name, '^[a][0-9]{2}',''); end if;
+        if(analysis_name_raw ~ '^[a][0-9]{1}') then analysis_name := regexp_replace(analysis_name, '^[a][0-9]{1}',''); end if;
+
+        -- unify ANONYM
+        -- <ANONYM id="10" type="per" morph="_S_ pl g"/> fraktsioonid seerumis elektroforeetiliselt -> <ANONYM> fraktsioonid seerumis elektroforeetiliselt
+        if(analysis_name_raw like '%ANONYM%') then analysis_name := regexp_replace(analysis_name, '<ANONYM(.+)/>', '<ANONYM>'); end if;
+
+        -- removes whitespaces from begin and end
+        analysis_name := trim(both from analysis_name);
+    end if;
+
+    if analysis_name_raw is null or analysis_name_raw = 'Parameetri nimetus' or analysis_name_raw = 'Paramteeri nimetus' then
+        analysis_name := null;
+    end if;
+
+    return analysis_name;
+end
+$body$
+language plpgsql;

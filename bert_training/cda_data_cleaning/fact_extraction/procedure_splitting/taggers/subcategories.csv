@@ -1,0 +1,20 @@
+_regex_pattern_,grammar_symbol,regex_type,value,_group_,_priority_
+regex,string,string,callable,callable,callable
+"KIRJELDUS ?:",SUBCATEGORY,subcategory,lambda m: m.group(0).strip(),0,0
+"[Kk]irjeldus ?:",SUBCATEGORY,subcategory,lambda m: m.group(0).strip(),0,0
+"\n[\t ]*KIRJELDUS[\t ]*\n",SUBCATEGORY,subcategory,lambda m: m.group(0).strip(),0,0
+"\n[\t ]*Kirjeldus(ed)?[\t ]*\n",SUBCATEGORY,subcategory,lambda m: m.group(0).strip(),0,0
+"PÕHJENDUS ?:",SUBCATEGORY,subcategory,lambda m: m.group(0).strip(),0,0
+"[Pp]õhjendus ?:",SUBCATEGORY,subcategory,lambda m: m.group(0).strip(),0,0
+"\n[\t ]*LEID ?:",SUBCATEGORY,subcategory,lambda m: m.group(0).strip(),0,0
+"\n[\t ]*[Ll]eid ?:",SUBCATEGORY,subcategory,lambda m: m.group(0).strip(),0,0
+"[\t ]*KOKKUVÕTE ?:",SUBCATEGORY,subcategory,lambda m: m.group(0).strip(),0,0
+"[\t ]*Kokkuvõte ?:",SUBCATEGORY,subcategory,lambda m: m.group(0).strip(),0,0
+"[\t ]*KOKKUVÕTE[\t ]*\n",SUBCATEGORY,subcategory,lambda m: m.group(0).strip(),0,0
+"[\t ]*JÄRELDUS ?:",SUBCATEGORY,subcategory,lambda m: m.group(0).strip(),0,0
+"[\t ]*Järeldus ?:",SUBCATEGORY,subcategory,lambda m: m.group(0).strip(),0,0
+"[\t ]*ARVAMUS ?:?[\t ]*\n",SUBCATEGORY,subcategory,lambda m: m.group(0).strip(),0,0
+"[\t ]*Arvamus ?:",SUBCATEGORY,subcategory,lambda m: m.group(0).strip(),0,0
+"[\t ]*Arvamus ?/ ?Soovitused ?:",SUBCATEGORY,subcategory,lambda m: m.group(0).strip(),0,0
+"[\t ]*Soovitused ?:",SUBCATEGORY,subcategory,lambda m: m.group(0).strip(),0,0
+"[\t ]*(ARVAMUS ?/)?SOOVITUSED ?:?",SUBCATEGORY,subcategory,lambda m: m.group(0).strip(),0,0

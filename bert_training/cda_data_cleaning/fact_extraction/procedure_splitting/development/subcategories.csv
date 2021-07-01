@@ -1,0 +1,4 @@
+_regex_pattern_,grammar_symbol,regex_type,value,_group_,_priority_
+regex,string,string,callable,callable,callable
+"(KIRJELDUS|[Kk]irjeldus):",SUBCATEGORY,subcategory,lambda m: m.group(0),0,0
+"(PÕHJENDUS:|[Pp]õhjendus:)\s?",SUBCATEGORY,subcategory,lambda m: m.group(0),0,0

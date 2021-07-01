@@ -1,0 +1,55 @@
+SET ROLE {role};
+            
+drop function if exists {schema}.clean_analysis_name(analysis_name_raw text);
+create or replace function {schema}.clean_analysis_name(analysis_name_raw text)
+returns text
+as
+$body$
+declare
+analysis_name varchar := analysis_name_raw;
+begin
+
+if analysis_name_raw is null or
+   analysis_name_raw = 'Parameetri nimetus' or
+   analysis_name_raw = 'Paramteeri nimetus' or
+   analysis_name_raw = 'NaN'
+then
+    return null;
+end if;
+
+if analysis_name_raw is not null then
+    --removes repeating white spaces[11,16]
+    analysis_name := trim(regexp_replace(analysis_name_raw, '\s+', ' ', 'g'));
+    analysis_name := regexp_replace(analysis_name, '\*', '', 'g'); -- replace *
+
+    --a1 ALAT  ->	ALAT
+    --a20 ASAT ->	ASAT
+    --a139 Valk->	Valk
+    --a2041 Hb ->	HB
+    -- a2042 etc are parameter_codes
+    if(analysis_name_raw ~ '^[a][0-9]{{4}}')
+        then analysis_name := regexp_replace(analysis_name, '^[a][0-9]{{4}}',''); end if;
+    if(analysis_name_raw ~ '^[a][0-9]{{3}}')
+        then analysis_name := regexp_replace(analysis_name, '^[a][0-9]{{3}}',''); end if;
+    if(analysis_name_raw ~ '^[a][0-9]{{2}}') 
+        then analysis_name := regexp_replace(analysis_name, '^[a][0-9]{{2}}',''); end if;
+    if(analysis_name_raw ~ '^[a][0-9]{{1}}')
+        then analysis_name := regexp_replace(analysis_name, '^[a][0-9]{{1}}',''); end if;
+
+    -- unify ANONYM
+    -- <ANONYM id="10" type="per" morph="_S_ pl g"/> fraktsioonid seerumis elektroforeetiliselt ->
+    -- -> <ANONYM> fraktsioonid seerumis elektroforeetiliselt
+    --if(analysis_name_raw like '%ANONYM%') then 
+    -- analysis_name := regexp_replace(analysis_name, '<ANONYM(.+)/>', '<ANONYM>'); end if;
+
+    -- standardize name 'Uriini analüüs'
+    if analysis_name = 'Uriini analüüs' then analysis_name := 'Uriini ribaanalüüs'; end if;
+
+    -- removes whitespaces from begin and end
+    analysis_name := initcap(trim(both from analysis_name));
+end if;
+
+return analysis_name;
+end
+$body$
+language plpgsql;

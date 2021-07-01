@@ -1,0 +1,52 @@
+Näita Referentsväärtusija ühikuid
+Analüüsid
+
+
+
+
+
+      
+
+
+
+Analüüs
+
+Parameeter
+
+
+
+Vastus (08.05.2015 12:34:00) 
+
+Vastus (08.05.2015 12:38:00) 
+
+ Naatrium seerumis/plasmas*   145  
+ Hemogramm viieosalise leukogrammiga*     
+ Uurea paastuseerumis/paastuplasmas*   5.2  
+ AB0-veregrupi ja Rh(D) kinnitav määramine*    <ANONYM id="87" type="per" morph="_Y_ ?"/> RhD positiivne 
+ WBC   8.01  
+ RBC   5.53  
+ MCV   87.3  
+ MCH   29.7  
+ Hb164  
+ HCT   48.3  
+ PLT   416  
+ NEUT%   67.9  
+ LYMPH%   17.5  
+ MONO%   8.4  
+ EO%   5.2
+ BASO%   1.0  
+ NEUT#   5.44  
+ LYMPH#   1.40
+ MONO#   0.67  
+ EO#   0.42  
+ BASO#   0.08
+ Erütrotsütaarsete antikehade sõeluuring kahe erütrotsüüdiga*    Antikehi ei leidu 
+ Protrombiini suhe   104.9  
+ Protrombiini aeg plasmas*     
+ INR   0.96  
+ C-reaktiivne valk seerumis/plasmas*   3.0  
+ Glükoos paastuseerumis/paastuplasmas*6.0  
+ Hinnanguline glomerulaarfiltratsiooni kiirus (CKD-EPI valemi j.)   82  
+ Kaalium seerumis/plasmas*   4.6  
+ Kreatiniin seerumis/plasmas*91  
+

@@ -1,0 +1,126 @@
+------------------------------------------------------------------------------------------
+-- 1. table for collecting different counts
+------------------------------------------------------------------------------------------
+
+set search_path to {schema};
+
+drop table if exists {temp};
+create table {temp} as
+    (select cast((select count(*)
+                  from {source}) as numeric)            as row_count,
+            (select count(*)
+             from {source}
+             where loinc_code is not null)                                       as loinced_count,
+            (select count(*)
+             from {source}
+             where effective_time is not null)                                   as effective_time_count,
+            (select count(*)
+             from {source}
+             where parameter_unit is not null)                                   as parameter_unit_count,
+            (select count(*)
+             from {source}
+             where loinc_code is not null
+               and effective_time is not null
+               and parameter_unit is not null)                                   as loinced_with_time_and_unit_count,
+            (select count(*)
+             from (select distinct epi_id, time_series_block
+                   from {source}
+                   where time_series_block is not null
+                  ) as tbl)                                                      as time_series_count,
+            (select count(*)
+             from {source}
+             where time_series_block is not null)                                as time_series_count2,
+            (select count(*)
+             from {source}
+             where id_entry is not null
+               and id_html is not null)                                          as matched_count,
+            (select count(*)
+             from {source}
+             where match_description in ('only_html', 'only_entry'))             as single_source_count,
+            (select count(*)
+             from {source}
+             where match_description in ('unresolved_entry', 'unresolved_html')) as unmatched_count,
+            (select count(*)
+             from (select *
+                   from {source}
+                   where match_description = 'unresolved_entry'
+                  ) as entry
+                      full outer join
+                  (select *
+                   from {source}
+                   where match_description = 'unresolved_html'
+                  ) as html
+                  on html.epi_id = entry.epi_id and html.value = entry.value
+             where html.value is null
+                or entry.value is null)                                          as unmatched_value_theoretically_count,
+            (select sum(abs(unmatched_entry - unmatched_html))
+             from (select epi_id, count(*) as unmatched_entry
+                      from {source}
+                      where match_description = 'unresolved_entry'
+                      group by epi_id
+                  ) as entry
+                      full outer join
+                  (select epi_id, count(*) as unmatched_html
+                      from {source}
+                      where match_description = 'unresolved_html'
+                      group by epi_id
+                  ) as html
+                  on html.epi_id = entry.epi_id
+             limit 10)                                                           as unmatched_count_theoretically_count
+    )
+;
+
+
+------------------------------------------------------------------------------------------
+-- 2. table with description, count and the percentage out of all rows
+------------------------------------------------------------------------------------------
+drop table if exists {target};
+set role {role};
+create table {target}
+(
+    description     varchar,
+    selection_count bigint,
+    percentage      bigint
+);
+reset role;
+
+insert into {target}  (description, selection_count, percentage)
+(select 'Number of rows:', row_count, 100
+    from {temp})
+union
+(select 'Number of LOINCED entries:', loinced_count, round(100 * loinced_count/row_count, 2)
+    from {temp})
+union
+(select 'Number of entries with measurement time:', effective_time_count, round(100 * effective_time_count/row_count, 2)
+    from {temp})
+union
+(select 'Number of entries with measurement unit:', parameter_unit_count, round(100 * parameter_unit_count/row_count, 2)
+    from {temp})
+union
+(select 'Number of LOINCED entries with with time and measurement unit:', loinced_with_time_and_unit_count, round(100 * loinced_with_time_and_unit_count/row_count, 2)
+    from {temp})
+union
+(select 'Number of timeseries:', time_series_count, round(100 * time_series_count/row_count, 2)
+    from {temp})
+union
+(select 'Number of timeseries components:', time_series_count2, round(100 * time_series_count2/row_count, 2)
+    from {temp})
+union
+(select 'Number of matched entries:', matched_count, round(100 * matched_count/row_count, 2)
+    from {temp})
+union
+(select 'Number of entries with single source:', single_source_count, round(100 * single_source_count/row_count, 2)
+    from {temp})
+union
+(select 'Number of unmatched entries:', unmatched_count, round(100 * unmatched_count/row_count, 2)
+    from {temp})
+union
+(select 'Number of theoretically unmatchable entries based on value:', unmatched_value_theoretically_count, round(100 * unmatched_value_theoretically_count/row_count, 2)
+    from {temp})
+union
+(select 'Number of theoretically unmatchable entries based on counts:', unmatched_count_theoretically_count, round(100 * unmatched_count_theoretically_count/row_count, 2)
+    from {temp})
+;
+
+drop table {temp};
+select * from {target};

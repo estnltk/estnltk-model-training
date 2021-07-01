@@ -1,7 +1,7 @@
 import unittest
 
 from pipelines.step01_create_training_corpus.textprocessing import tag_text
-from pipelines.step01_create_training_corpus.textprocessing.text_cleaning import get_span_ranges, clean, \
+from pipelines.step01_create_training_corpus.textprocessing.text_cleaning import extract_span_ranges, clean, \
     extract_sentences
 
 

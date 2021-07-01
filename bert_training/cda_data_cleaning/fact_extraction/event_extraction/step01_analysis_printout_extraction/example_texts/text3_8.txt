@@ -1,0 +1,230 @@
+
+                                     UURINGUD JA PROTSEDUURID 
+  
+|Uuring|22.02|23.02|24.02|25.02|26.02|27.02|Mõõtühik| 
+|Alaniini aminotransferaas seer...|14| | | | | |U/L| 
+|Albumiin seerumis| | |34| | | |g/L| 
+|Aluseline fosfataas seerumis|74| | | | | |U/L| 
+|Aspartaadi aminotransferaas se...|28| | | | | |U/L| 
+|B-tüüpi natriureetilise propep...|1542| | | | | |ng/L| 
+|Bilirubiin (konjugeeritud) see...|1.8| | | | | |µmol/L| 
+|Bilirubiin seerumis|6| | | | | |µmol/L| 
+|C-reaktiivne valk| 
+|00:00|00:00| 
+|4.8|5.6 ↑| 
+                                     
+| | | | | |mg/L| 
+|D-dimeerid|0.27| | | | | |µg/ml| 
+|Gammaglutamüüli transferaas se...|19| | | | | |U/L| 
+|Glükohemoglobiin|6.2| | | | | |%| 
+|Glükohemoglobiin veres|44| | | | | |mmol/mol| 
+|Glükoos seerumis| 
+|00:00|00:00| 
+|9.3 ↑|14.7 ↑| 
+                                     
+| | |6.1| | |mmol/L| 
+|HDL-kolesterool paastuseerumis|1.7| | | | | |mmol/L| 
+|Happe-aluse tasakaalu uuring a...| | | | | | | | 
+|BE arteriaalses veres|-5.4| | | | | |mmol/L| 
+|HCO3 arteriaalses veres|19.9| | | | | |mmol/L| 
+|pCO2t arteriaalses veres|40.3| | | | | |mmHg| 
+|pHt  arteriaalses veres|7.314| | | | | | | 
+|pO2t arteriaalses veres|132.0| | | | | |mmHg| 
+|sO2 arteriaalses veres|98| | | | | |%| 
+|Hemogramm viieosalise leukogra...| | | | | | | | 
+|BASO#| 
+|00:00|00:00| 
+|0.03|0.01| 
+                                     
+|0.00|0.01| | | |E9/L| 
+|BASO%| 
+|00:00|00:00| 
+|0.2|0.1| 
+                                     
+|0.0|0.1| | | |%| 
+|EO#| 
+|00:00|00:00| 
+|0.10|0.00| 
+                                     
+|0.00|0.07| | | |E9/L| 
+|EO%| 
+|00:00|00:00| 
+|0.7 ↓|0.0 ↓| 
+                                     
+|0.0|0.7| | | |%| 
+|HCT| 
+|00:00|00:00| 
+|43.8|45.5| 
+                                     
+|37.2|36.7| | | |%| 
+|Hb| 
+|00:00|00:00| 
+|141|144| 
+                                     
+|117|115| | | |g/L| 
+|LYMPH#| 
+|00:00|00:00| 
+|4.33 ↑|0.88 ↓| 
+                                     
+|1.44|1.37| | | |E9/L| 
+|LYMPH%| 
+|00:00|00:00| 
+|30.0|6.2 ↓| 
+                                     
+|10.8|14.3| | | |%| 
+|MCH| 
+|00:00|00:00| 
+|26.8 ↓|26.3 ↓| 
+                                     
+|25.8|25.8| | | |pg| 
+|MCHC| 
+|00:00|00:00| 
+|322|316 ↓| 
+                                     
+|315|313| | | |g/L| 
+|MCV| 
+|00:00|00:00| 
+|83.3|83.0| 
+                                     
+|82.1|82.3| | | |fL| 
+|MONO#| 
+|00:00|00:00| 
+|1.12 ↑|0.23| 
+                                     
+|1.36|1.16| | | |E9/L| 
+|MONO%| 
+|00:00|00:00| 
+|7.8|1.6 ↓| 
+                                     
+|10.2|12.1| | | |%| 
+|MPV| 
+|00:00|00:00| 
+|11.0|12.6 ↑| 
+                                     
+|12.0|11.8| | | |fL| 
+|NEUT#| 
+|00:00|00:00| 
+|8.85 ↑|13.15 ↑| 
+                                     
+|10.51|6.95| | | |E9/L| 
+|NEUT%| 
+|00:00|00:00| 
+|61.3|92.1 ↑| 
+                                     
+|79.0|72.8| | | |%| 
+|P-LCR| 
+|00:00|00:00| 
+|36.6 ↑|44.5 ↑| 
+                                     
+|41.7|41.5| | | |%| 
+|PDW| 
+|00:00|00:00| 
+|15.9 ↑|17.1 ↑| 
+                                     
+|16.0|17.5| | | |fL| 
+|PLT| 
+|00:00|00:00| 
+|147 ↓|177| 
+                                     
+|130|120| | | |E9/L| 
+|RBC| 
+|00:00|00:00| 
+|5.26 ↑|5.48 ↑| 
+                                     
+|4.53|4.46| | | |E12/L| 
+|RDW| 
+|00:00|00:00| 
+|16.1 ↑|16.4 ↑| 
+                                     
+|16.4|16.5| | | |%| 
+|WBC| 
+|00:00|00:00| 
+|14.43 ↑|14.27 ↑| 
+                                     
+|13.31|9.56| | | |E9/L| 
+|Kaalium seerumis| 
+|00:00|00:00| 
+|4.3|5.1| 
+                                     
+| |4.0|4.1|4.6| |mmol/L| 
+|Kilpnääret stimuleeriv hormoon...| 
+|00:00|00:00| 
+|9.48 ↑|7.20 ↑| 
+                                     
+| | | | | |mIU/L| 
+|Kolesterool seerumis|6.5| | | | | |mmol/L| 
+|Kreatiini kinaasi MB isoensüüm...| 
+|00:00|00:00| 
+|4|8 ↑| 
+                                     
+| | | | | |ug/L| 
+|Kreatiniin seerumis|94| |104|100|88| |µmol/L| 
+|LDL-kolesterool paastuseerumis|4.51| | | | | |mmol/L| 
+|Laktaat arteriaalses veres|2.0| | | | | |mmol/L| 
+|Lipaas paastuseerumis|24| | | | | |U/L| 
+|Naatrium seerumis| 
+|00:00|00:00| 
+|137|139| 
+                                     
+| |143|143|144| |mmol/L| 
+|Peitveri roojas| | | |POSITIIVNE| | | | 
+|Protrombiini aeg| | | | | | | | 
+|INR|1.06| |1.38|1.79|2.68|2.86| | 
+|Protrombiini suhe|86.9| |56.9|40.7|26.2|24.3|%| 
+|S-Crea+eGFR (MDRD valemi j.)|44| | | | | |mL/min/1,73 m2| 
+|Kreatiniin seerumis|105| | | | | |µmol/L| 
+|Triglütseriidid paastuseerumis|1.1| | | | | |mmol/L| 
+|Troponiin T seerumis (kõrgtund...| 
+|00:00|00:00| 
+|31 ↑|36 ↑| 
+                                     
+| | | | | |ng/L| 
+|Türeoidperoksüdaasi vastane Ig...|23.24| | | | | |kIU/L| 
+|Uriini ribaanalüüs| | | | | | | | 
+|Bilirubiin uriinis|NEG| |NEG| | | | | 
+|Erikaal|1.014| |1.009| | | | | 
+|Erütrotsüüdid|10 /µL| |NEG| | | | | 
+|Glükoos|NEG| |NEG| | | | | 
+|Ketokehad|NEG| |NEG| | | | | 
+|Leukotsüüdid|NEG| |NEG| | | | | 
+|Nitrit|NEG| |NEG| | | | | 
+|Urobilinogeen|NEG| |NEG| | | | | 
+|Valk|5.00 g/L| |NEG| | | | | 
+|pH uriinis|7.0| |5.0| | | | | 
+|Uurea paastuseerumis|9.3| | | | | |mmol/L| 
+|Vaba trijoodtüroniin seerumis|4.07| | | | | |pmol/L| 
+|Vaba türoksiin seerumis|13.0| | | | | |pmol/L| 
+|Valk ööpäevases uriinis| | | |0.29| | |g/l| 
+                                     
+                                     
+  
+22.02.2013 13:18 - RUMJANTSEVA, KSENIA - D07645 - E600 - üldarstiabi 
+RÖ rindkerest PA, AP (otse) 
+KLIINILISED ANDMED: profülaktiline 
+RÖNTGENOGRAMM RINDKEREELUNDITEST P-A SUUNAS: 
+LEID: Diafragmakuplid kumerad, selgepiirilised, tavalisel kõrgusel. Lateraalsiinused vabad.  
+Hiilused rahuldava struktuursusega. Kopsujoonis rõhutatud. Mõlemapoolselt kopsude alaväljades on alveolaarset tüüpi varjustust. Paremal interloobium rõhutatud. Südame vari on ristimõõdus laienenud.  
+Mediastiinumi foonil lisavarje esile ei tule. 
+Lülisambas väljendunud degeneratiivsed muutused. 
+Vasaku kopsu ülasagara operatsioonist õmblusmaterjal. 
+---Arvamus/Soovitused: Pneumonia bilat. Kopsupais. 
+                                     
+22.02.2013 14:06 - MASIK, SIRJE - D02700 - E170 - kardioloogia 
+Ehhokardiograafia 
+Vasem vatsake: normaalse suurusega.  Müokardi ekstsentriline hüpertroofia: raske, rohkem hüpertrofeerunud vahesein  IVSd 2.1 cm . Üldine süstoolne funktsioon on hüperkineetiline. Visuaalselt  hinnatud EF üle 70%. 
+Vasema vatsakese diastoolne  funktsioon: E/E' alusel restriktiivne täitumine. 
+Vasem koda: kergelt dilateerunud LA  Area 21.1 cm² . 
+Parem vatsake: suurus on normaalne.  Üldine süstoolne funktsioon on normaalne TAPSE 2.0 cm . 
+Aordiklapp: Kõigil hõlmadel on  kaltsinoos.  Aordiklapi hõlmade liikuvus on piiratud. AVA planimeetriliselt 1.6  cm² 
+Aordi bulbus : normaalne. 
+Mitraalklapp: Mõlemad hõlmad on  fibrootilised.  Mitraalrõnga kaltsinoos. Kerge kuni keskmise raskusega   mitraalregurgitatsioon. 
+Pulmonaalklapp: ei ole  visualiseeritav. 
+Trikuspidaalklapp: Keskmise raskusega  trikuspidaalregurgitatsioon. 
+Pulmonaalhüpertensioon: esineb. 
+Alumine õõnesveen: dilateerunud.   Kollabeerub inspiiriumis üle 50%. 
+Hinnatud parema koja rõhk:  5-10mmHg 
+Kodade vahesein: ei ole hinnatav. 
+Pleuraõõned: : Fluidothorax sin  
+---Uuring siinustahhükardia foonil. Kergelt dilateerunud vasak koda. Väga väljendunud vaheseina  hüpertroofiaga, väike, hüperkineetiline, restriktiivse lõõgastushäirega vasak vatsake. Vatsakese sisese rõhu tõus, max gradient 37 mmHg? Parema vatsakese süstoolne fn normis. Aordiklapi hõlmad fibrokaltsinoosiga, liikuvus piiratud, AVA planimeetriliselt 1.6 cm²- kerge aordistenoos. Mitraalrõnga kaltsinoos, hõlmad fibrootilised, kerge rõhugradiendi tõus tingutud väljendunud vaheseina hüpertroofiast (SAM).Mõõdukas trikuspidaal- j mitraalregurgitatsioon. Pulmonaalhüpertensioon  PAPs 71-76mmHG.Pleura efusioon. 
+Soovitav   dünaamika, aordiklapifn., vatsakeste sisese rõhu hindamiseks.
+

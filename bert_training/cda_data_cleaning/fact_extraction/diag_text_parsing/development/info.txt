@@ -1,0 +1,14 @@
+(STEMI|STENI)
+([,. :;]([Ss]te[mn]i|STEM|STEN)[,. :;])
+(NSTEMI?|nSTEMI?|nstemi?)
+((non|NON|Non)\s*-?\s*(STEMI?|stemi?))
+([Kk]oronaar[- ]*angioplastika|KORONAAR[- ]*ANGIOPLASTIKA|PTKA|[Pp]tka)
+([Kk]oronarograafia|[Kk]oronaar[- ]*angiograafia|KORONAROGRAAFIA|KORONAAR[- ]*ANGIOGRAAFIA|SKG|[Ss]kg)
+(LBBB|lbbb|Lbbb)
+
+Trombolüüs
+Aorto-koronaarne šunteerimine (AKŠ)
+
+
+insult: diag_code ~ '^I6(1|3)'
+infarkt: I21, I22, I25 ja alamdiagnoosid (I21.1 jnejne)

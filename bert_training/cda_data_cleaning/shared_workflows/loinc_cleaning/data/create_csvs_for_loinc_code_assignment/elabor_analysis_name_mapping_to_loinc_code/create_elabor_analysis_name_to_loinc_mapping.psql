@@ -1,0 +1,114 @@
+
+DO $$
+begin
+raise notice 'Elabor analysis_name to loinc mapping';
+end;
+$$;
+
+
+set role :role;
+
+drop table if exists :schema.elabor_analysis_name_to_panel_loinc;
+create table :schema.elabor_analysis_name_to_panel_loinc
+(
+    analysis_name     varchar,
+    t_lyhend          varchar,
+    t_nimetus         varchar,
+    kasutatav_nimetus varchar,
+    loinc_code        varchar,
+    substrate         varchar,
+    evidence          varchar
+);
+
+reset role;
+
+select *
+from :schema.elabor_analysis_name_to_panel_loinc;
+-- case where analysis_name = t_lyhend
+insert into :schema.elabor_analysis_name_to_panel_loinc(analysis_name, t_lyhend, t_nimetus,
+                                                                 kasutatav_nimetus, loinc_code, substrate, evidence)
+select t_lyhend, t_lyhend, t_nimetus, kasutatav_nimetus, loinc_no, system, 't_lyhend'
+from classifications.elabor_analysis
+where vastuskood = 'Paneel';
+
+
+-- case where parameter_name = t_nimetus and t_nimetus is unique
+insert into :schema.elabor_analysis_name_to_panel_loinc(analysis_name, t_lyhend, t_nimetus,
+                                                                 kasutatav_nimetus, loinc_code, substrate, evidence)
+select t_nimetus, t_lyhend, t_nimetus, kasutatav_nimetus, loinc_no as loinc_code, system, 't_nimetus'
+from classifications.elabor_analysis
+where t_nimetus in (
+    --list of uniquely mapped t_nimetus
+    select t_nimetus
+    from (
+             select t_nimetus, array_agg(distinct t_lyhend) as t_lyhendid
+             from classifications.elabor_analysis
+             where vastuskood = 'Paneel'
+             group by t_nimetus
+         ) as c
+    where array_length(c.t_lyhendid, 1) = 1
+);
+
+
+-- case where parameter_name = kasutatav_nimetus and kasutatav_nimetus is unique
+insert into :schema.elabor_analysis_name_to_panel_loinc(analysis_name, t_lyhend, t_nimetus,
+                                                                 kasutatav_nimetus, loinc_code, substrate, evidence)
+select kasutatav_nimetus, t_lyhend, t_nimetus, kasutatav_nimetus, loinc_no, system, 'kasutatav_nimetus'
+from classifications.elabor_analysis
+where kasutatav_nimetus in (
+    --list of uniquely mapped kasutatav_nimetus
+    select kasutatav_nimetus
+    from (
+             select kasutatav_nimetus, array_agg(distinct t_lyhend) as t_lyhendid
+             from classifications.elabor_analysis
+             where vastuskood = 'Paneel'
+             group by kasutatav_nimetus
+         ) as c
+    where array_length(c.t_lyhendid, 1) = 1
+);
+
+-- fully manual mapping
+insert into :schema.elabor_analysis_name_to_panel_loinc(analysis_name, t_lyhend, t_nimetus,
+                                                                 kasutatav_nimetus, loinc_code, substrate, evidence)
+values ('CBC-5Diff Hemogramm viieosalise leukogrammiga', 'B-CBC-5Diff', 'Hemogramm viieosalise leukogrammiga',
+        'Hemogramm 5-osalise leukogrammiga', '57021-8', 'bld', 'manual');
+
+insert into :schema.elabor_analysis_name_to_panel_loinc(analysis_name, t_lyhend, t_nimetus,
+                                                                 kasutatav_nimetus, loinc_code, substrate, evidence)
+values ('CBC-5Diff Hemogramm viieosalise leukogrammiga*', 'B-CBC-5Diff', 'Hemogramm viieosalise leukogrammiga',
+        'Hemogramm 5-osalise leukogrammiga', '57021-8', 'bld', 'manual');
+
+insert into :schema.elabor_analysis_name_to_panel_loinc(analysis_name, t_lyhend, t_nimetus,
+                                                                 kasutatav_nimetus, loinc_code, substrate, evidence)
+values ('CBC Hemogramm', 'B-CBC', 'Hemogramm', 'Hemogramm', '58410-2', 'bld', 'manual');
+
+insert into :schema.elabor_analysis_name_to_panel_loinc(analysis_name, t_lyhend, t_nimetus,
+                                                                 kasutatav_nimetus, loinc_code, substrate, evidence)
+values ('Kreatiniin seerumis', 'S,P-Crea', 'Kreatiniin', 'Kreatiniin seerumis/plasmas', '14682-9', 'bld', 'manual');
+
+insert into :schema.elabor_analysis_name_to_panel_loinc(analysis_name, t_lyhend, t_nimetus,
+                                                                 kasutatav_nimetus, loinc_code, substrate, evidence)
+values ('Vere automaatuuring 5-osalise leukogrammiga', 'B-CBC-5Diff', 'Hemogramm viieosalise leukogrammiga',
+        'Hemogramm 5-osalise leukogrammiga', '57021-8', 'bld', 'manual');
+
+
+
+
+update :schema.elabor_analysis_name_to_panel_loinc
+set substrate = case
+                    when substrate in
+                         ('Ser', 'Bld/Tiss', 'Bld.dot', 'RBC', 'Plas', 'BldA', 'BldC', 'BldMV', 'BldV', 'BldCo',
+                          'BldCoV', 'BldCoA', 'Bld^newborn', 'Ser+Bld', 'BldA+Inhl gas', 'Bld/Bone mar', 'BldA+BldMV',
+                          'Bld.pos growth', 'BldA+Resp.alv')
+                        then 'Bld'
+                    when substrate in ('Stool', 'Urine sed') then 'Urine'
+                    when substrate in
+                         ('Periton fld+Ser/Plas', 'Ser/Plas+Plr fld', 'Ser/Plas.maternal^fetus', 'Ser/Plas+Synv fld',
+                          'Ser+Plas') then 'Ser/Plas'
+                    when substrate in ('XXX','') then NULL
+                    else substrate
+    end;
+
+set search_path to :schema;
+\copy (select distinct on (analysis_name, t_lyhend, loinc_code, substrate) analysis_name, t_lyhend, t_nimetus, kasutatav_nimetus, loinc_code, substrate, evidence from elabor_analysis_name_to_panel_loinc) to 'create_csvs_for_loinc_code_assignment/results/elabor_analysis_name_to_panel_loinc.csv' With (delimiter ',', format csv, header)
+

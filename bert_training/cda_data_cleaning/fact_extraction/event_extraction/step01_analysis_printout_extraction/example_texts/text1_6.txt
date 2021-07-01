@@ -1,0 +1,18 @@
+
+________Kuupäev HK Hinnakirja kood
+02.06.2015 66207 URIIN
+Erikaal: 1.015; Atset.:  ; Valk:       ; Suhkur:    ; Urobil.:  ; Bilir:  ; Sade: EP 2-3-3            ; Reakts.: 5       ; Leukots.: 3-3-4   ; bakterid:         ; Erütrotsüüdid 1-0-1
+
+02.06.2015 66202 Kliiniline veri
+RBC 5.03; HCT 40.8; MCV 81 ; HGB 127; MCH  25; MCHC 31 ; PLT  257; MPV  9.9 ; WBC 6.29; SR   5; Gly     ; CRV     ; Valem:; keppt.  0; segmt.  0; eos.    0; basof.  0; lümf.   0; monot.  0
+
+27.08.2015 66207 URIIN
+Erikaal: 1.010; Atset.:  ; Valk:       ; Suhkur:    ; Urobil.:  ; Bilir:  ; Sade:                     ; Reakts.: 6.5     ; Leukots.:         ; bakterid:         ; Erütrotsüüdid
+
+27.08.2015 66202 Kliiniline veri
+RBC 4.84; HCT 39.9; MCV 82 ; HGB 124; MCH  25; MCHC 31 ; PLT  279; MPV  9.6 ; WBC 9.90; SR   0; Gly     ; CRV     ; Valem:; keppt.  0; segmt.  0; eos.    0; basof.  0; lümf.   0; monot.  0
+
+27.08.2015 66202 Kliiniline veri
+RBC     ; HCT     ; MCV    ; HGB    ; MCH    ; MCHC    ; PLT     ; MPV      ; WBC     ; SR   3; Gly     ; CRV     ; Valem:; keppt.  0; segmt.  0; eos.    0; basof.  0; lümf.   0; monot.  0
+
+						

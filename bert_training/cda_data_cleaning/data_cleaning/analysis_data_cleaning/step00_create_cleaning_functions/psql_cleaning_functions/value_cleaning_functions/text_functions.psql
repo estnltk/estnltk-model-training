@@ -1,0 +1,45 @@
+SET ROLE {role};
+
+-------------------------------------------------------------------------------------
+-- MATCH TEXT
+-------------------------------------------------------------------------------------
+
+-- string is considered text if it contains only characters
+create or replace function {schema}.match_text (text text)
+    returns boolean
+as
+$body$
+declare
+    match_text boolean := False;
+begin
+    -- matching float
+    if text ~ '^\s*[^0-9]+\s*$' then match_text := True;
+    end if;
+    return match_text;
+end
+$body$
+language plpgsql;
+
+-------------------------------------------------------------------------------------
+-- IS TEXT
+-------------------------------------------------------------------------------------
+
+create or replace function {schema}.is_text(text text)
+    returns boolean
+as
+$body$
+declare
+begin
+    if match_text(text) then return True; end if;
+    return False;
+end
+$body$
+language plpgsql;
+
+
+
+
+
+
+
+
