@@ -51,7 +51,7 @@ def clean_and_extract_sentences_tsv_par(in_tsv_path, out_txt_path, temp_dir_path
     os.system("mkdir " + cleaned_dir + " ")
     XARGS_CMD = ("ls {} | "
                  "xargs -n 1 -P {} -I{} "
-                 "python -m {}/text_collection_processing_tsv.py {}{} {}{}{} ")
+                 "python {}/text_collection_processing_tsv.py {}{} {}{}{} ")
 
     XARGS_CMD = XARGS_CMD.format(shard_dir, threads, '{}', os.path.dirname(os.path.abspath(__file__)), shard_dir, '{}',
                                  cleaned_dir, '{}', '.txt')

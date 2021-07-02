@@ -1,7 +1,7 @@
 import csv
 import sys
 
-from .textprocessing.text_cleaning import extract_segments, preprocess_to_estnltk_Text, clean_and_extract_sentences, \
+from textprocessing.text_cleaning import extract_segments, preprocess_to_estnltk_Text, clean_and_extract_sentences, \
     remove_beginning_symbols
 
 
