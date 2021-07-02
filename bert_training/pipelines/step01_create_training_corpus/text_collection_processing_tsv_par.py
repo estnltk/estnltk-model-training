@@ -6,12 +6,12 @@ from os.path import isfile, join
 import pandas as pd
 
 
-def clean_and_extract_sentences_tsv_par(in_tsv_path, out_tsv_path, temp_dir_path, shards=32, threads=32,
+def clean_and_extract_sentences_tsv_par(in_tsv_path, out_txt_path, temp_dir_path, shards=32, threads=32,
                                         make_shards=True):
     """
     A parallelized pipeline that converts and cleans text from a source tsv file into usable form for training a BERT model.
     :param in_tsv_path: path to the source .tsv file
-    :param out_tsv_path: path to the output .tsv file
+    :param out_txt_path: path to the output .tsv file
     :param temp_dir_path: the parallelization process splits the source tsv file into shards. The shards will be stored
      in this temp directory under <temp_dir_path>/shards. Also <temp_dir_path>/cleaned is created to store cleaned shards.
      After cleaning, the cleaned shards are put back together. However these directories wont be cleaned automatically
@@ -51,18 +51,21 @@ def clean_and_extract_sentences_tsv_par(in_tsv_path, out_tsv_path, temp_dir_path
     os.system("mkdir " + cleaned_dir + " ")
     XARGS_CMD = ("ls {} | "
                  "xargs -n 1 -P {} -I{} "
-                 "python {}/text_collection_processing_tsv.py {}{} {}{} ")
+                 "python -m {}/text_collection_processing_tsv.py {}{} {}{}{} ")
 
     XARGS_CMD = XARGS_CMD.format(shard_dir, threads, '{}', os.path.dirname(os.path.abspath(__file__)), shard_dir, '{}',
-                                 cleaned_dir, '{}')
+                                 cleaned_dir, '{}', '.txt')
     os.system(XARGS_CMD)
     os.system("echo cleaned, now putting 1 big file back together! ")
 
     # combining the files
     files = [f for f in listdir(cleaned_dir) if isfile(join(cleaned_dir, f))]
 
-    combined_csv = pd.concat([pd.read_csv(cleaned_dir + f, header=0) for f in files])
-    combined_csv.to_csv(out_tsv_path, index=False, encoding='utf-8')
+    with open(out_txt_path, 'w', encoding="utf-8") as outfile:
+        for fname in files:
+            with open(cleaned_dir + fname) as infile:
+                for line in infile:
+                    outfile.write(line)
 
 
 if __name__ == "__main__":

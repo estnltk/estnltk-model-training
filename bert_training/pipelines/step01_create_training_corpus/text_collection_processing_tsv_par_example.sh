@@ -9,8 +9,8 @@
 ##SBATCH --mail-user=meelis.perli@gmail.com
 
 
-export TSV_IN=/gpfs/space/projects/stacc_health/data_for_mperli/egcut_epi_mperli_epi_texts_small.tsv
-export TSV_OUT=/gpfs/space/projects/stacc_health/medBERT/cleaned_med_texts/egcut_epi_mperli_epi_texts_small_cleaned2.tsv
+export TSV_IN=/gpfs/space/projects/stacc_health/medBERT/cleaned_med_texts/egcut_epi_mperli_texts_10000.tsv
+export TSV_OUT=/gpfs/space/projects/stacc_health/medBERT/cleaned_med_texts/egcut_epi_mperli_texts_10000_cleaned.txt
 export TEMP_DIR=/gpfs/space/projects/stacc_health/medBERT/cleaned_med_texts/
 
 module load any/python/3.8.3-conda
