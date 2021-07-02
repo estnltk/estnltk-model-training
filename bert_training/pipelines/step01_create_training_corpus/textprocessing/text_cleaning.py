@@ -69,6 +69,22 @@ def preprocess_to_estnltk_Text(text):
     return Text(text)
 
 
+def remove_beginning_symbols(text):
+    while len(text) > 0 and text[0] in {'*', '.', '-', ':', '|'}:
+        text = text[1:]
+    return text
+
+
+def extract_segments(text):
+    t = Text(text)
+    event_token_tagger.tag(t)
+    event_header_tagger.tag(t)
+    event_segments_tagger.tag(t)
+
+    # removing very small
+    return [i for i in t.event_segments.text if len(i) > 2]
+
+
 def extract_span_ranges(t):
     spans = get_table_spans(t, 0)
     # spans = mergeSpans(spans, get_event_header_spans(t, 1))

@@ -1,8 +1,9 @@
+import csv
+
 from estnltk.corpus_processing.parse_koondkorpus import parse_tei_corpora
 
 from pipelines.step01_create_training_corpus.textprocessing.text_cleaning import clean_and_extract_sentences, \
-    extract_sentences
-
+    extract_sentences, extract_segments, preprocess_to_estnltk_Text, remove_beginning_symbols
 
 
 def clean_and_extract_sentences_corpus(corp_path, out_file_path, clean=False):
@@ -21,4 +22,3 @@ def clean_and_extract_sentences_corpus(corp_path, out_file_path, clean=False):
                 sentences = extract_sentences(text_obj)
             out_file.write("\n".join(sentences))
             out_file.write("\n")
-
