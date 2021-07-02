@@ -43,7 +43,7 @@ class textCleaningTestsCases(unittest.TestCase):
 
     def test_spans_after_merge(self):
         text = load_test_file(
-            "../cda_data_cleaning/fact_extraction/event_extraction/step01_analysis_printout_extraction/example_texts/text6_3.txt")
+            "../pipelines/step01_create_training_corpus/textprocessing/cda_data_cleaning/fact_extraction/event_extraction/step01_analysis_printout_extraction/example_texts/text6_3.txt")
         text = clean(text)
         extract_sentences(text)
 

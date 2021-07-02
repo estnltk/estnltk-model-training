@@ -2,7 +2,7 @@ import csv
 
 from estnltk.corpus_processing.parse_koondkorpus import parse_tei_corpora
 
-from pipelines.step01_create_training_corpus.textprocessing.text_cleaning import clean_and_extract_sentences, \
+from textprocessing.text_cleaning import clean_and_extract_sentences, \
     extract_sentences, extract_segments, preprocess_to_estnltk_Text, remove_beginning_symbols
 
 

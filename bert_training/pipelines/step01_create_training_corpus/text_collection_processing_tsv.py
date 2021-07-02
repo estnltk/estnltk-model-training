@@ -5,7 +5,7 @@ from os.path import isfile, join
 
 import pandas as pd
 
-from pipelines.step01_create_training_corpus.textprocessing.text_cleaning import extract_segments, \
+from textprocessing.text_cleaning import extract_segments, \
     preprocess_to_estnltk_Text, clean_and_extract_sentences, remove_beginning_symbols
 
 

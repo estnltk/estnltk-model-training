@@ -1,18 +1,19 @@
 from estnltk import Text
-from estnltk.taggers import DateTagger
-
-from cda_data_cleaning.common.preprocess_text import preprocess_text
-from cda_data_cleaning.fact_extraction.event_extraction.step01_analysis_printout_extraction.taggers import \
-    Type2StartEndTagger, Type1StartEndTagger, Type3StartEndTagger, Type4StartEndTagger, Type5StartEndTagger, \
-    Type6StartEndTagger, Type7StartEndTagger, SegmentsTagger
-from cda_data_cleaning.fact_extraction.event_extraction.step02_create_events_collection.taggers import \
-    EventHeaderTagger, EventSegmentsTagger, EventTokenTagger, AnonymisedTagger
-from cda_data_cleaning.fact_extraction.measurement_extraction.development.taggers import RobustDateNumberTagger
-from pipelines.step01_create_training_corpus.textprocessing.span_merging import mergeSpans
-from pipelines.step01_create_training_corpus.textprocessing.layer_modifications import getSpanRangesR, getSpanRangesF, \
-    get_anon_replacement, get_number_replacement
 
 # Table taggers
+from cda_data_cleaning.fact_extraction.common.taggers.robust_date_number_tagger.robust_date_number_tagger import \
+    RobustDateNumberTagger
+from cda_data_cleaning.fact_extraction.event_extraction.step01_analysis_printout_extraction.taggers import \
+    Type2StartEndTagger, Type3StartEndTagger, Type1StartEndTagger, Type4StartEndTagger, Type5StartEndTagger, \
+    Type6StartEndTagger, Type7StartEndTagger, SegmentsTagger
+from cda_data_cleaning.fact_extraction.event_extraction.step02_create_events_collection.taggers import \
+    EventTokenTagger, EventHeaderTagger, EventSegmentsTagger, AnonymisedTagger
+from cda_data_cleaning.common.preprocess_text import \
+    preprocess_text
+from layer_modifications import getSpanRangesR, getSpanRangesF, \
+    get_number_replacement, get_anon_replacement
+from span_merging import mergeSpans
+
 type1_tagger = Type1StartEndTagger()
 type2_tagger = Type2StartEndTagger()
 type3_tagger = Type3StartEndTagger()

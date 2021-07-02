@@ -5,8 +5,8 @@ from tqdm import tqdm
 import psycopg2
 from psycopg2 import sql
 
-from cda_data_cleaning.common.table_buffer import TableBuffer
-from pipelines.step01_create_training_corpus.textprocessing.text_cleaning import preprocess_to_estnltk_Text, \
+from textprocessing.cda_data_cleaning.common.table_buffer import TableBuffer
+from textprocessing.text_cleaning import preprocess_to_estnltk_Text, \
     clean_and_extract_sentences
 
 
