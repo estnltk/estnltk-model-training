@@ -8,6 +8,26 @@ import pandas as pd
 
 def clean_and_extract_sentences_tsv_par(in_tsv_path, out_tsv_path, temp_dir_path, shards=32, threads=32,
                                         make_shards=True):
+    """
+    A parallelized pipeline that converts and cleans text from a source tsv file into usable form for training a BERT model.
+    :param in_tsv_path: path to the source .tsv file
+    :param out_tsv_path: path to the output .tsv file
+    :param temp_dir_path: the parallelization process splits the source tsv file into shards. The shards will be stored
+     in this temp directory under <temp_dir_path>/shards. Also <temp_dir_path>/cleaned is created to store cleaned shards.
+     After cleaning, the cleaned shards are put back together. However these directories wont be cleaned automatically
+    :param shards: The number of shards you'd like to make
+    :param threads: The number of threads you are using. Note: should be equal or lower than the number of shards.
+    :param make_shards: Set True to remake the shards. Should be disabled if shards are already created and you
+     don't want to overwrite them.
+    :return:
+    """
+
+    shards = int(shards)
+    threads = int(threads)
+    make_shards = bool(make_shards)
+    if shards < threads:
+        threads = shards
+
     shard_dir = temp_dir_path + "shards/"
     cleaned_dir = temp_dir_path + "cleaned/"
 
@@ -31,7 +51,7 @@ def clean_and_extract_sentences_tsv_par(in_tsv_path, out_tsv_path, temp_dir_path
     os.system("mkdir " + cleaned_dir + " ")
     XARGS_CMD = ("ls {} | "
                  "xargs -n 1 -P {} -I{} "
-                 "python {}/text_collection_processing_tsv.py clean_and_extract_sentences_tsv {}{} {}{} ")
+                 "python {}/text_collection_processing_tsv.py {}{} {}{} ")
 
     XARGS_CMD = XARGS_CMD.format(shard_dir, threads, '{}', os.path.dirname(os.path.abspath(__file__)), shard_dir, '{}',
                                  cleaned_dir, '{}')
@@ -44,7 +64,7 @@ def clean_and_extract_sentences_tsv_par(in_tsv_path, out_tsv_path, temp_dir_path
     combined_csv = pd.concat([pd.read_csv(cleaned_dir + f, header=0) for f in files])
     combined_csv.to_csv(out_tsv_path, index=False, encoding='utf-8')
 
+
 if __name__ == "__main__":
     a = sys.argv[1:]
     clean_and_extract_sentences_tsv_par(*a)
-

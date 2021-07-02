@@ -1,12 +1,17 @@
 import csv
 import sys
 
-
-from textprocessing.text_cleaning import extract_segments, \
-    preprocess_to_estnltk_Text, clean_and_extract_sentences, remove_beginning_symbols
+from .textprocessing.text_cleaning import extract_segments, preprocess_to_estnltk_Text, clean_and_extract_sentences, \
+    remove_beginning_symbols
 
 
 def clean_and_extract_sentences_tsv(in_tsv_path, out_tsv_path):
+    """
+        A pipeline that converts and cleans text from a source tsv file into usable form for training a BERT model.
+        :param in_tsv_path: path to the source .tsv file
+        :param out_tsv_path: path to the output .tsv file
+        :return:
+        """
     file = open(in_tsv_path, newline='', encoding='utf-8')
     outfile = open(out_tsv_path, 'w', newline='', encoding='utf-8')
     read_tsv = csv.reader(file, delimiter="\t")
@@ -35,6 +40,7 @@ def clean_and_extract_sentences_tsv(in_tsv_path, out_tsv_path):
 
     file.close()
     outfile.close()
+
 
 if __name__ == "__main__":
     a = sys.argv[1:]

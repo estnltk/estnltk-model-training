@@ -2,8 +2,7 @@ import sys
 
 from estnltk.corpus_processing.parse_koondkorpus import parse_tei_corpora
 
-from textprocessing.text_cleaning import clean_and_extract_sentences, \
-    extract_sentences
+from .textprocessing.text_cleaning import clean_and_extract_sentences, extract_sentences
 
 
 def clean_and_extract_sentences_corpus(corp_path, out_file_path, clean=False):

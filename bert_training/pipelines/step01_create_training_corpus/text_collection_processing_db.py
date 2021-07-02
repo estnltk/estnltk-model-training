@@ -6,9 +6,8 @@ from tqdm import tqdm
 import psycopg2
 from psycopg2 import sql
 
-from textprocessing.cda_data_cleaning.common.table_buffer import TableBuffer
-from textprocessing.text_cleaning import preprocess_to_estnltk_Text, \
-    clean_and_extract_sentences
+from .textprocessing.cda.table_buffer import TableBuffer
+from .textprocessing.text_cleaning import preprocess_to_estnltk_Text, clean_and_extract_sentences
 
 
 def clean_and_extract_sentences_db(db_config, source_schema, source_table, target_schema, target_table):
