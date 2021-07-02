@@ -1,2 +1,0 @@
-08.10.2013  Kliiniline veri
-RBC 4.89; HCT 50.7; MCV 104; HGB 177; MCH  36; MCHC 349; PLT  256; MPV  5.4 ; WBC 8.4 ; SR   0; Gly 7.5 ; CRV     ; Valem:; keppt.  0; segmt.  0; eos.    0; basof.  0; lümf.   0;

@@ -1,4 +1,0 @@
-_regex_pattern_,grammar_symbol,regex_type,value,_group_,_priority_,price_code
-regex,string,string,string,callable,callable,callable
-"[Hh]innakoodid:(\s)*(((, )*([0-9]{4,5}( ?x ?[0-9])?))+)",PRICECODE,pricecode,whatever,0,0,lambda m: m.group(2).strip()
-"((([0-9]{4,5}( ?x ?[0-9])?(, )*)+))",PRICECODE,pricecode,whatever,0,0,lambda m: m.group(1).strip()

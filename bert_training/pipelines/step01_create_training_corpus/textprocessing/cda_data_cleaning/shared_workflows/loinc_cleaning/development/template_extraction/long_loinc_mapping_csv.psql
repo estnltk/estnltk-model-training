@@ -1,1 +1,0 @@
-\copy (select * from analysiscleaning.long_loinc_mapping) to 'long_loinc_mapping.csv' with (delimiter ',', format csv, header)

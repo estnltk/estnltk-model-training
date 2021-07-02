@@ -77,4 +77,3 @@ def clean_and_extract_sentences_tsv_par(in_tsv_path, out_tsv_path, temp_dir_path
 
     combined_csv = pd.concat([pd.read_csv(cleaned_dir + f, header=0) for f in files])
     combined_csv.to_csv(out_tsv_path, index=False, encoding='utf-8')
-

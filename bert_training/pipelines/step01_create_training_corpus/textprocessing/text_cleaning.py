@@ -1,19 +1,32 @@
 from estnltk import Text
 
 # Table taggers
+from .cda.preprocess_text import preprocess_text
+from .cda.table.segments_tagger_all_types import SegmentsTagger
+from .cda.table.type1_start_end_tagger import Type1StartEndTagger
+from .cda.table.type2_start_end_tagger import Type2StartEndTagger
+from .cda.table.type3_start_end_tagger import Type3StartEndTagger
+from .cda.table.type4_start_end_tagger import Type4StartEndTagger
+from .cda.table.type5_start_end_tagger import Type5StartEndTagger
+from .cda.table.type6_start_end_tagger import Type6StartEndTagger
+from .cda.table.type7_start_end_tagger import Type7StartEndTagger
 
-from layer_modifications import getSpanRangesR, getSpanRangesF, \
+# Event taggers
+from .cda.events.event_header_tagger import EventHeaderTagger
+from .cda.events.event_segments_tagger import EventSegmentsTagger
+from .cda.events.event_token_tagger import EventTokenTagger
+
+# Anon tagger
+from .cda.anon.anonymised_tagger import AnonymisedTagger
+
+# Dates and Numbers
+from .cda.numbers.robust_date_number_tagger import RobustDateNumberTagger
+
+from .layer_modifications import getSpanRangesR, getSpanRangesF, \
     get_number_replacement, get_anon_replacement
-from cda_data_cleaning.fact_extraction.common.taggers.robust_date_number_tagger.robust_date_number_tagger import \
-    RobustDateNumberTagger
-from cda_data_cleaning.fact_extraction.event_extraction.step01_analysis_printout_extraction.taggers import \
-    Type2StartEndTagger, Type1StartEndTagger, Type3StartEndTagger, Type4StartEndTagger, Type5StartEndTagger, \
-    Type6StartEndTagger, Type7StartEndTagger, SegmentsTagger
-from cda_data_cleaning.fact_extraction.event_extraction.step02_create_events_collection.taggers import \
-    EventTokenTagger, EventHeaderTagger, EventSegmentsTagger, AnonymisedTagger
-from cda_data_cleaning.common.preprocess_text import \
-    preprocess_text
-from span_merging import mergeSpans
+
+
+from .span_merging import mergeSpans
 
 type1_tagger = Type1StartEndTagger()
 type2_tagger = Type2StartEndTagger()

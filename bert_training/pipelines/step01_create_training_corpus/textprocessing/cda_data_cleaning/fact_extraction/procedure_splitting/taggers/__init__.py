@@ -1,3 +1,0 @@
-from .subcategory_tagger import SubcategoryTagger
-from .subcategory_segments_tagger import SubcategorySegmentsTagger
-from .pricecode_tagger import PriceTagger

@@ -1,8 +1,0 @@
-,epi_id,analysis_name_raw,parameter_name_raw,value_raw,parameter_unit_raw,effective_time_raw,reference_values_raw,text_raw
-3,123456,URIIN,<ANONYM,"id=""2""",,16.01.2013,,"<ANONYM id=""2"" type=""per"" morph=""_S_ sg n""/>: 1     "
-4,123456,URIIN,<ANONYM,"id=""3""",,16.01.2013,,"<ANONYM id=""3"" type=""per"" morph=""_S_ sg n""/>: 2  "
-5,123456,URIIN,Urobil.:,-,,16.01.2013,,Urobil.: -
-6,123456,URIIN,Bilir:,-,,16.01.2013,,Bilir: -
-7,123456,URIIN,<ANONYM,"id=""4""",,16.01.2013,,"<ANONYM id=""4"" type=""per"" morph=""_H_ sg n""/>:                     "
-9,123456,URIIN,Leukots.:,-,,16.01.2013,,Leukots.: -       
-10,123456,URIIN,bakterid:,neg,,16.01.2013,,bakterid: neg     ;

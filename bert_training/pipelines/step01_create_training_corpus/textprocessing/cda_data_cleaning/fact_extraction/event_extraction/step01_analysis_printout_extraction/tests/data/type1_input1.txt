@@ -1,2 +1,0 @@
-06.06.2018 66202 Kliiniline veri
-RBC 4.45    ; HCT 40.40   ; MCV 90.80   ; HGB 133.00  ; MCH  29.90   ; MCHC 329.00  ; PLT  193.00  ; MPV  0.00    ; WBC 5.70    ; SR   0; Gly 0.00    ; CRV 0.00    ; <ANONYM id="1" type="per" morph="_S_ sg n"/>:; keppt.  0; segmt.  0; eos.    0; basof.  0; lümf.   0;

@@ -1,5 +1,0 @@
-Nimi: <ANONYM id="0" type="per" morph="_H_ sg n"/>, Kalle
-<ANONYM id="1" type="per" morph="_H_ sg g"/> Uuringu kuupäev: 31.01.2014
-Isikukood: <ANONYM id="2" type="ssn" />
-registreerida telefoni teel: <ANONYM id="9" type="landline" />
-Arsti nimi <ANONYM id="33" type="per" morph="_H_ sg n;_H_ sg g,_H_ pl g"/> Arsti allkiri
