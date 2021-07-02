@@ -1,4 +1,4 @@
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.estnltk_patches.taggers import TextSegmentsTagger
+from cda_data_cleaning.estnltk_patches.taggers import TextSegmentsTagger
 from estnltk.taggers import Tagger
 
 

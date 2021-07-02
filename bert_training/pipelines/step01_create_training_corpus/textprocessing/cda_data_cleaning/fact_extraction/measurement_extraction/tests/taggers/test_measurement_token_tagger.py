@@ -1,7 +1,7 @@
 from pprint import pprint
 
 from estnltk import Text
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction.measurement_extraction.taggers import MeasurementTokenTagger
+from cda_data_cleaning.fact_extraction.measurement_extraction.taggers import MeasurementTokenTagger
 
 
 tagger = MeasurementTokenTagger()

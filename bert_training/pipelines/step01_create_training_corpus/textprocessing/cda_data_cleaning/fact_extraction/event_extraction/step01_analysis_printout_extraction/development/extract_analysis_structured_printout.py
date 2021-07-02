@@ -4,9 +4,9 @@ from tqdm import tqdm
 from psycopg2 import sql
 from datetime import timedelta
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import TableBuffer
+from cda_data_cleaning.common.table_buffer import TableBuffer
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction import (
+from cda_data_cleaning.fact_extraction.event_extraction.analysis_printout_extraction.analysis_text_parser import (
     Type1Parser,
     Type2Parser,
     Type3Parser,
@@ -14,7 +14,7 @@ from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fa
     Type6Parser,
     Type7Parser,
 )
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.common.luigi_tasks.cda_batch_task import CDABatchTask
+from cda_data_cleaning.common.luigi_tasks.cda_batch_task import CDABatchTask
 
 # export PYTHONPATH=~/Repos/cda-data-cleaning:$PYTHONPATH
 # sourceschema="work"

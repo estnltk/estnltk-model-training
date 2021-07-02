@@ -5,10 +5,10 @@ from estnltk import Text
 from psycopg2 import sql
 from datetime import timedelta
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import preprocess_text
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import TableBuffer
+from cda_data_cleaning.common.preprocess_text import preprocess_text
+from cda_data_cleaning.common.table_buffer import TableBuffer
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.common.luigi_tasks.cda_subtask import CDASubtask
+from cda_data_cleaning.common.luigi_tasks.cda_subtask import CDASubtask
 from .taggers.type1_start_end_tagger import Type1StartEndTagger
 from .taggers.type2_start_end_tagger import Type2StartEndTagger
 from .taggers.type3_start_end_tagger import Type3StartEndTagger
@@ -17,7 +17,7 @@ from .taggers.type5_start_end_tagger import Type5StartEndTagger
 from .taggers.type6_start_end_tagger import Type6StartEndTagger
 from .taggers.type7_start_end_tagger import Type7StartEndTagger
 from .taggers.segments_tagger_all_types import SegmentsTagger
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction import (
+from cda_data_cleaning.fact_extraction.event_extraction.step01_analysis_printout_extraction.texts_extraction_conf import (
     EXTRACTABLE_TABLE_FIELDS,
 )
 

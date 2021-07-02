@@ -1,9 +1,9 @@
 import luigi
 from psycopg2 import sql
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import read_config
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import CDABatchTask
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import create_connection
+from cda_data_cleaning.common.read_config import read_config
+from cda_data_cleaning.common.luigi_tasks import CDABatchTask
+from cda_data_cleaning.common.db_operations import create_connection
 
 
 class DeleteAllTables(CDABatchTask):

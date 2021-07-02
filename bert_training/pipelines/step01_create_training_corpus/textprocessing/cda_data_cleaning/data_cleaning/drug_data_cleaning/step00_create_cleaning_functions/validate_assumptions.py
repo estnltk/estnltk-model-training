@@ -1,6 +1,6 @@
 import luigi
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import CDABatchTask
+from cda_data_cleaning.common.luigi_tasks import CDABatchTask
 
 
 class ValidateAssumptions(CDABatchTask):

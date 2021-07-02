@@ -8,7 +8,7 @@ from configuration import WORK_SCHEMA
 from configuration import database_connection_string
 from configuration import role_name
 from configuration import luigi_targets_folder
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import write_empty_file
+from cda_data_cleaning.common.utils import write_empty_file
 
 loinc_mapping_table_name = "long_loinc_mapping"  # Target table where we will put CSV content
 

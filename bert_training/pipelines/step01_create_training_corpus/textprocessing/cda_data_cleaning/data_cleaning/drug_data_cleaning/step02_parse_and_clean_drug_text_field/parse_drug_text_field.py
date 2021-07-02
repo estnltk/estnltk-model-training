@@ -6,8 +6,8 @@ from psycopg2 import sql
 from estnltk import Text
 from tqdm import tqdm
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import TableBuffer
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import CDASubtask
+from cda_data_cleaning.common.table_buffer import TableBuffer
+from cda_data_cleaning.common.luigi_tasks import CDASubtask
 
 from .taggers.drug_tagger import DrugTagger
 from .taggers.drug_grammar_token_tagger import DrugGrammarTokenTagger

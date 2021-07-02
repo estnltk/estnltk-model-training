@@ -1,14 +1,16 @@
 import luigi
+import os
 import time
+import psycopg2
 from psycopg2.sql import SQL, Identifier, Literal
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import CDAJob, CDASubtask, EmptyTask
+from cda_data_cleaning.common.luigi_tasks import CDAJob, CDASubtask, EmptyTask
 
 from estnltk import Text
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import etsa_date_string_to_date
+from cda_data_cleaning.common import etsa_date_string_to_date
 
 # Kui AnonymisedTagger-it on siin vaja, siis võiks ta kuhugi commonisse tõsta.
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction import AnonymisedTagger
+from cda_data_cleaning.fact_extraction.event_extraction.step02_create_events_collection.taggers import AnonymisedTagger
 
 # vaata sinna faili sisse ja otsusta milliste tabelite millised veerud on vajalikud
 from .procedure_texts_extraction_conf import EXTRACTABLE_TABLE_FIELDS, map_table_to_effective_time_field

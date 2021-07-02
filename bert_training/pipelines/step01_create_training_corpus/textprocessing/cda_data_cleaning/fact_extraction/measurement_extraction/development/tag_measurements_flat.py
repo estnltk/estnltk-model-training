@@ -2,7 +2,7 @@ import luigi
 import os
 
 from estnltk.taggers import FlattenTagger
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import get_postgres_storage
+from cda_data_cleaning.common import get_postgres_storage
 
 
 def luigi_targets_folder(prefix):

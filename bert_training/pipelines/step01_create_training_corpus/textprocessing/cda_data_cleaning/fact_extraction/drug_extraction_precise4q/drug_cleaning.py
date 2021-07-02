@@ -1,11 +1,14 @@
 import os
+import re
 import luigi
 
 from psycopg2 import sql
+from estnltk import Text
+from tqdm import tqdm
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import read_config
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import luigi_targets_folder
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import create_connection
+from cda_data_cleaning.common.read_config import read_config
+from cda_data_cleaning.common.luigi_targets import luigi_targets_folder
+from cda_data_cleaning.common.db_operations import create_connection
 
 from .drug_extraction import ExtractPrecise4qDrugEntries
 

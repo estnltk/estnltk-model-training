@@ -1,7 +1,7 @@
 from estnltk import Text
 from estnltk.converters import layer_to_dict
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction import AnonymisedTagger
+from cda_data_cleaning.fact_extraction.event_extraction.step02_create_events_collection.taggers import AnonymisedTagger
 
 
 def test_anonymised_tagger():

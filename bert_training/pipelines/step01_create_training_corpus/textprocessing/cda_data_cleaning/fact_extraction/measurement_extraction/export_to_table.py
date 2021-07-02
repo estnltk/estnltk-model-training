@@ -3,9 +3,10 @@ import os
 import time
 from psycopg2.sql import SQL, Identifier, Literal
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.shared_workflows import ApplyLoincMapping
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import luigi_targets_folder
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import CDASubtask
+from cda_data_cleaning.shared_workflows import ApplyLoincMapping
+from .measurements_extraction import ExtractMeasurements
+from cda_data_cleaning.common.luigi_targets import luigi_targets_folder
+from cda_data_cleaning.common.luigi_tasks import CDASubtask, EmptyTask
 
 # manually extracted regex_types of objective findings
 objective_finding_regex_types = (

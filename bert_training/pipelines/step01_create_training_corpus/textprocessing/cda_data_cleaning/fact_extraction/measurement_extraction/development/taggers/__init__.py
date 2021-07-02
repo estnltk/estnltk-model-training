@@ -6,3 +6,5 @@ from .measurement_token_tagger import MeasurementTokenTagger
 from .bone_density_tagger import BoneDensityTagger
 from .weight_change_tagger import WeightChangeTagger
 from .measurement_tagger import MeasurementTagger
+from .alcohol_tagger import AlcoholTagger
+from .smoking_tagger import SmokingTagger

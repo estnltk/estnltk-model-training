@@ -1,9 +1,9 @@
 import luigi
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import CDAJob
+from cda_data_cleaning.common.luigi_tasks import CDAJob
 
 # @TODO Currently developing
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.data_cleaning.analysis_data_cleaning import CreateCleaningFunctions
+from cda_data_cleaning.data_cleaning.analysis_data_cleaning.step00_create_cleaning_functions.create_cleaning_functions import CreateCleaningFunctions
 from .step00_create_raw_tables.create_ambulatory_case import CreateAmbulatoryCaseTable
 from .step00_create_raw_tables.create_patient import CreatePatientTable
 from .step00_create_raw_tables.create_department_stay import CreateDepartmentStayTable

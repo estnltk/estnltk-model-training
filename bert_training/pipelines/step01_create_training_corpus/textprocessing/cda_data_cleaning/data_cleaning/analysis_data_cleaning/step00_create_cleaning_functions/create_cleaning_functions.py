@@ -2,9 +2,9 @@ import os
 import luigi
 from psycopg2 import sql
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import CDATask
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import CDABatchTask
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.common.luigi_tasks.evaluate_sql_script import EvaluateSQLScript
+from cda_data_cleaning.common.luigi_tasks import CDATask
+from cda_data_cleaning.common.luigi_tasks import CDABatchTask
+from cda_data_cleaning.common.luigi_tasks.evaluate_sql_script import EvaluateSQLScript
 
 
 class CreateCleaningFunctions(CDABatchTask):

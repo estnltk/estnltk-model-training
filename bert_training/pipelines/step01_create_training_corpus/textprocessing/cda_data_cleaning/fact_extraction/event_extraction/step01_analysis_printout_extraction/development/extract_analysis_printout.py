@@ -5,11 +5,11 @@ from estnltk import Text
 from psycopg2 import sql
 from datetime import timedelta
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import preprocess_text
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import TableBuffer
+from cda_data_cleaning.common.preprocess_text import preprocess_text
+from cda_data_cleaning.common.table_buffer import TableBuffer
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.common.luigi_tasks.cda_batch_task import CDABatchTask
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction import (
+from cda_data_cleaning.common.luigi_tasks.cda_batch_task import CDABatchTask
+from cda_data_cleaning.fact_extraction.event_extraction.analysis_printout_extraction.taggers import (
     Type1StartEndTagger,
     Type2StartEndTagger,
     Type3StartEndTagger,
@@ -20,7 +20,7 @@ from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fa
     SegmentsTagger,
 )
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction import (
+from cda_data_cleaning.fact_extraction.event_extraction.analysis_printout_extraction.texts_extraction_conf import (
     EXTRACTABLE_TABLE_FIELDS,
 )
 

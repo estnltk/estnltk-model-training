@@ -3,9 +3,8 @@ import time
 from psycopg2.sql import SQL, Identifier, Literal
 from estnltk import Text
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import CDATask, CDASubtask, CDAJob, \
-    EmptyTask
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction.event_extraction.step02_create_events_collection.taggers.anonymised_tagger import (
+from cda_data_cleaning.common.luigi_tasks import CDATask, CDASubtask, CDAJob, CDABatchTask, EmptyTask
+from cda_data_cleaning.fact_extraction.event_extraction.step02_create_events_collection.taggers.anonymised_tagger import (
     AnonymisedTagger,
 )
 

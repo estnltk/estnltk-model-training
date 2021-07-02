@@ -3,14 +3,14 @@ import time
 from psycopg2.sql import SQL, Identifier, Literal
 from estnltk import Text
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import CDATask, CDASubtask, CDAJob, \
-    EmptyTask
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import etsa_date_string_to_date
+from cda_data_cleaning.common.luigi_tasks import CDATask, CDASubtask, CDAJob, CDABatchTask, EmptyTask
+from cda_data_cleaning.common import etsa_date_string_to_date
+from cda_data_cleaning.common import get_postgres_storage
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction.event_extraction.step02_create_events_collection.taggers.anonymised_tagger import (
+from cda_data_cleaning.fact_extraction.event_extraction.step02_create_events_collection.taggers.anonymised_tagger import (
     AnonymisedTagger,
 )
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction.text_extraction import (
+from cda_data_cleaning.fact_extraction.text_extraction.texts_extraction_conf import (
     EXTRACTABLE_TABLE_FIELDS,
     map_table_to_effective_time_field,
 )

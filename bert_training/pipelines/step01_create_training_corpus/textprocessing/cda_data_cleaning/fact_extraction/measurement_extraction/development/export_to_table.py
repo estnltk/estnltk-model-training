@@ -3,7 +3,7 @@ import os
 import time
 from psycopg2.sql import SQL, Identifier, Literal
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import get_postgres_storage
+from cda_data_cleaning.common import get_postgres_storage
 from . import luigi_targets_folder
 from .tag_measurements_dev import TagMeasurementsDev
 

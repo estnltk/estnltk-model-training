@@ -4,14 +4,14 @@ from tqdm import tqdm
 from psycopg2 import sql
 from datetime import timedelta
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import TableBuffer
+from cda_data_cleaning.common.table_buffer import TableBuffer
 from .analysis_text_parser.type1 import Type1Parser
 from .analysis_text_parser.type2 import Type2Parser
 from .analysis_text_parser.type3 import Type3Parser
 from .analysis_text_parser.type4 import Type4Parser
 from .analysis_text_parser.type6 import Type6Parser
 from .analysis_text_parser.type7 import Type7Parser
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.common.luigi_tasks.cda_subtask import CDASubtask
+from cda_data_cleaning.common.luigi_tasks.cda_subtask import CDASubtask
 
 
 # export PYTHONPATH=~/Repos/cda-data-cleaning:$PYTHONPATH

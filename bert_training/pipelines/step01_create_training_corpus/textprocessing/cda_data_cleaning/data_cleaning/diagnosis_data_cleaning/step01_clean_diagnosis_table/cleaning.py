@@ -1,4 +1,4 @@
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import get_icd10_data, ICD10
+from cda_data_cleaning.data_cleaning.diagnosis_data_cleaning.step01_clean_diagnosis_table.icd10 import get_icd10_data, ICD10
 from legacy.utils import add_to_dict, add_to_value_dict, print_dict
 from shutil import copyfile
 import time

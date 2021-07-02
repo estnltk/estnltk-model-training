@@ -7,17 +7,17 @@ from psycopg2 import sql
 from estnltk import Text
 from datetime import timedelta
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import read_config
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import create_connection, insert_to_database
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import luigi_targets_folder
+from cda_data_cleaning.common.read_config import read_config
+from cda_data_cleaning.common.db_operations import create_connection, insert_to_database
+from cda_data_cleaning.common.luigi_targets import luigi_targets_folder
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction.procedure_splitting import (
+from cda_data_cleaning.fact_extraction.procedure_splitting.development.taggers.new_study_taggers.pricecode_tagger import (
     PriceTagger,
 )
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction.procedure_splitting import (
+from cda_data_cleaning.fact_extraction.procedure_splitting.development.taggers.new_study_taggers.study_tagger import (
     StudyTagger,
 )
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction.procedure_splitting.development.taggers.new_study_taggers.study_header_tagger import (
+from cda_data_cleaning.fact_extraction.procedure_splitting.development.taggers.new_study_taggers.study_header_tagger import (
     StudyHeaderTagger,
 )
 

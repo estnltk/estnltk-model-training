@@ -615,7 +615,7 @@ def main():
     # Kõik ühikud üle vaatamiseks.
     # TODO generated/units.csv jääb tühjaks
     df[["unit", "count"]].groupby("unit").apply(lambda x: x["count"].sum()).sort_values(by="unit").to_csv(
-        os.path.join(directory, "generated/units.csv")
+        os.path.join(directory, "./generated/units.csv")
     )
 
     #################################

@@ -1,7 +1,7 @@
 # This file here should replace configuration.py (as it is legacy in the sense of new configuration file)
 # Yet, some stuff is missing from read_config.py and db_operations.py for our purposes, to support some older tasks
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import create_database_connection_string
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import read_config
+from cda_data_cleaning.common.db_operations import create_database_connection_string
+from cda_data_cleaning.common.read_config import read_config
 
 
 # Used to be POSTGRES_USERNAME and POSTGRES_PASSWORD;

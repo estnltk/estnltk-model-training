@@ -1,16 +1,15 @@
 import luigi
 from psycopg2 import sql
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import CDASubtask
+from cda_data_cleaning.common.luigi_tasks import CDASubtask
 
 
 class CleanAnalysisEntryTable(CDASubtask):
     """
-    Assumptions: analysis_entry table has columns 'analysis_name_raw', 'parameter_name_raw', 'reference_values_raw',
+    Assumptions: analysis_entry table has columns 'analysis_name_raw', 'parameter_name_raw', 'parameter_unit_raw',
            'effective_time_raw' and 'value_raw'
 
-    Creates columns 'analysis_name', 'parameter_name', 'effective_time', 'reference_value' and 'value'
-    which contain cleaned values
+    Creates columns 'analysis_name', 'parameter_name', 'effective_time' and 'value' which contain cleaned values
     """
 
     config_file = luigi.Parameter()
@@ -24,11 +23,13 @@ class CleanAnalysisEntryTable(CDASubtask):
     def run(self):
         self.log_current_action("Clean analysis entry table")
         self.log_schemas()
+        # self.log_dependencises("Working with tables {source} and {target} \n".format(
+        #     source=self.source_table, target=self.target_table))
 
         conn = self.create_postgres_connection(self.config_file)
         cur = conn.cursor()
 
-        # applying cleaning functions
+        # TODO: almost identical code with clean_analysis_html'ga
         cur.execute(
             sql.SQL(
                 """
@@ -36,6 +37,11 @@ class CleanAnalysisEntryTable(CDASubtask):
             set search_path to {schema};
             drop table if exists {schema}.{target};
             create table {schema}.{target} as
+            --with cleaned_values as
+            --(
+            --   select *, {schema}.clean_values(value_raw, parameter_unit_raw) as cleaned_value
+            --    from {schema}.{source}
+            --)
             select *,
                   {schema}.clean_analysis_name(analysis_name_raw) as analysis_name,
                   {schema}.clean_parameter_name(parameter_name_raw) as parameter_name,
@@ -71,7 +77,7 @@ class CleanAnalysisEntryTable(CDASubtask):
             )
         )
         conn.commit()
+
         cur.close()
         conn.close()
-        self.log_current_time("Clean analysis entry finishing time")
         self.mark_as_complete()

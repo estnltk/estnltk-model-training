@@ -5,8 +5,10 @@ import luigi
 import pandas as pd
 import sqlalchemy as sq
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.shared_workflows.loinc_cleaning.development.loinc_attributes_assignment import \
-    loincing, experiments
+from cda_data_cleaning.shared_workflows.loinc_cleaning.development.loinc_attributes_assignment import (
+    loincing,
+    experiments,
+)
 from legacy.utils import write_empty_file
 from configuration import luigi_targets_folder, WORK_SCHEMA, database_connection_string
 

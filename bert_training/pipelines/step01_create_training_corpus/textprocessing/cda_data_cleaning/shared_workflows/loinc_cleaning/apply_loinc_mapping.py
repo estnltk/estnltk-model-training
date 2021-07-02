@@ -1,7 +1,10 @@
 import luigi
 from psycopg2 import sql
+import time
+from datetime import timedelta
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import CDASubtask
+
+from cda_data_cleaning.common.luigi_tasks import CDASubtask
 from .create_loinc_mappings import CreateAllLoincMappings
 
 

@@ -1,6 +1,6 @@
 import os
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import PACKAGE_PATH
+from cda_data_cleaning import PACKAGE_PATH
 from . import read_config
 
 

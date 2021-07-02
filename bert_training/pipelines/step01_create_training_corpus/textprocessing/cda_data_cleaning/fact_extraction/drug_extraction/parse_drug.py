@@ -1,5 +1,5 @@
 import luigi
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import CDAJob
+from cda_data_cleaning.common.luigi_tasks import CDAJob
 
 from estnltk import Text
 from datetime import datetime

@@ -2,8 +2,8 @@ import os
 import luigi
 from psycopg2 import sql
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import import_csv_file
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import CDASubtask
+from cda_data_cleaning.common.db_operations import import_csv_file
+from cda_data_cleaning.common.luigi_tasks import CDASubtask
 
 
 class ImportPossibleUnitsTable(CDASubtask):

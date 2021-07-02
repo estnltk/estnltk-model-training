@@ -1,9 +1,9 @@
 import luigi
 import os
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import get_postgres_storage
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import luigi_targets_folder
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction import layer_tagger
+from cda_data_cleaning.common import get_postgres_storage
+from cda_data_cleaning.common.luigi_targets import luigi_targets_folder
+from cda_data_cleaning.fact_extraction.legacy.create_layer_conf import layer_tagger
 
 
 class CreateLayer(luigi.Task):

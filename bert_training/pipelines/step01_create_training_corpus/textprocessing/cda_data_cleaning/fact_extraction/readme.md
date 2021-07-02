@@ -4,14 +4,14 @@
 
 This is a general luigi task for tagging a detached layer `LAYER` on a collection `COLLECTION`.
 
-The intended usage is as follows
+The intended usage is as follows 
 
 ```python
 import luigi
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction import CreateLayer
-
+from cda_data_cleaning.fact_extraction import CreateLayer
 
 class TagNewLayer(luigi.Task):
+
     ...
 
     def requires(self):
@@ -29,20 +29,17 @@ The layer is created by running luigi sub-tasks (`CreateLayerBlock`) where the n
 is equal to the luigi `ẁorkers` parameter.
 
 The layer dependencies are resolved. So, for instace,
-
 ```python
 import luigi
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction import
-    CreateTextsCollection
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction import CreateLayer
-
+from cda_data_cleaning.fact_extraction.event_extraction.step01_create_text_collection.create_texts_collection import CreateTextsCollection
+from cda_data_cleaning.fact_extraction import CreateLayer
 
 class TagNewLayer(luigi.Task):
     ...
 
     def requires(self):
-        return [CreateLayer(self.prefix, self.config_file, 'texts', 'event_segments',
-                            CreateTextsCollection(self.prefix, self.config_file))]
+
+        return [CreateLayer(self.prefix, self.config_file, 'texts', 'event_segments', CreateTextsCollection(self.prefix, self.config_file))]
 
     ...
 ```

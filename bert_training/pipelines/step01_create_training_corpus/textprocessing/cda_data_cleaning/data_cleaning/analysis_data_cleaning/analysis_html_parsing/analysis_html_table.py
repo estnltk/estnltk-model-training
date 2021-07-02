@@ -6,7 +6,7 @@ from IPython.core.display import display, HTML
 from typing import NamedTuple
 from typing import Callable
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.common.html_parsing import parse_body, get_labels, count_header_rows, count_body_columns
+from cda_data_cleaning.common.html_parsing import parse_body, get_labels, count_header_rows, count_body_columns
 
 from .type_1 import get_subtype_for_type1, parse_type1
 from .type_2 import get_subtype_for_type2, parse_type2

@@ -1,7 +1,7 @@
 import luigi
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import CDAJob, EmptyTask
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction import CreateLayer
+from cda_data_cleaning.common.luigi_tasks import CDAJob, CDASubtask, EmptyTask
+from cda_data_cleaning.fact_extraction import CreateLayer
 
 from .taggers.smoking_tagger import SmokingTagger
 from .taggers.alcohol_tagger import AlcoholTagger

@@ -3,9 +3,9 @@ from lxml import html
 from psycopg2 import sql
 from datetime import datetime
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import CDASubtask
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import TableBuffer
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.data_cleaning.analysis_data_cleaning import AnalysisHtmlTable
+from cda_data_cleaning.common.luigi_tasks import CDASubtask
+from cda_data_cleaning.common.table_buffer import TableBuffer
+from cda_data_cleaning.data_cleaning.analysis_data_cleaning.analysis_html_parsing import AnalysisHtmlTable
 
 
 class ParseAnalysisHtmlTable(CDASubtask):

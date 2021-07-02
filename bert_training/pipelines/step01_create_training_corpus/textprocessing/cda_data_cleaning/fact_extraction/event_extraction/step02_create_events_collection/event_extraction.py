@@ -1,8 +1,8 @@
 import luigi
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import CDAJob
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction.text_extraction import CreateTextsCollection
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction import (
+from cda_data_cleaning.common.luigi_tasks import CDAJob, EmptyTask
+from cda_data_cleaning.fact_extraction.text_extraction.create_texts_collection import CreateTextsCollection
+from cda_data_cleaning.fact_extraction.event_extraction.step02_create_events_collection.create_events_collection import (
     CreateEventsCollection,
 )
 

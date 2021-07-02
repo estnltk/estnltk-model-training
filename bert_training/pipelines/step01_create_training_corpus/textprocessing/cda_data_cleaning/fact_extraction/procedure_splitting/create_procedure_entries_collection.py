@@ -1,10 +1,10 @@
 import luigi
 
 from estnltk.layer_operations import split_by
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import CDAJob, CDASubtask
+from cda_data_cleaning.common.luigi_tasks import CDAJob, CDASubtask, EmptyTask
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction import CreateLayer
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction import EventSegmentsTagger, EventHeaderTagger, EventTokenTagger
+from cda_data_cleaning.fact_extraction import CreateLayer
+from cda_data_cleaning.fact_extraction.event_extraction.step02_create_events_collection.taggers import EventSegmentsTagger, EventHeaderTagger, EventTokenTagger
 from .create_procedure_texts_collection import CreateProcedureTextsCollection, PROCEDURE_TEXTS_COLLECTION
 
 

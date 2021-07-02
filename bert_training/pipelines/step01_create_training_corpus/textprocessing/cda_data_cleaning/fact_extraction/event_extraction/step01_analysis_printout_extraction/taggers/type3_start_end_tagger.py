@@ -77,7 +77,7 @@ class Type3StartEndTagger(Tagger):
         conflict_resolving_strategy: str = "MAX",
         overlapped: bool = True,
         output_layer: str = "printout_type3",
-    ) -> object:
+    ):
         self.output_attributes = output_attributes
         self.output_layer = output_layer
         self.input_layers: List[str] = []

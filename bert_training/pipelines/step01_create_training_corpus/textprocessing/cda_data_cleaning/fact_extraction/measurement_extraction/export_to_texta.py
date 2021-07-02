@@ -3,9 +3,9 @@ import os
 
 from estnltk.converters import TextaExporter
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import get_postgres_storage, read_config
+from cda_data_cleaning.common import get_postgres_storage, read_config
 from .measurements_extraction import ExtractMeasurements
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import luigi_targets_folder
+from cda_data_cleaning.common.luigi_targets import luigi_targets_folder
 
 class ExportMeasurementsToTEXTA(luigi.Task):
 

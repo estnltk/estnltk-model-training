@@ -4,6 +4,13 @@ from .common_tasks.create_layer import CreateLayer  # object parameter for tagge
 # from cda_data_cleaning.fact_extraction.event_extraction.step01_create_text_collection.create_texts_collection import (
 #    CreateTextsCollection,
 # )
+from cda_data_cleaning.fact_extraction.event_extraction.step02_create_events_collection.create_events_collection import (
+    CreateEventsCollection,
+)
+
+from cda_data_cleaning.fact_extraction.event_extraction.step02_create_events_collection.event_extraction import (
+    ExtractEvents,
+)
 
 from .measurement_extraction.measurements_extraction import ExtractMeasurements
 from .measurement_extraction.export_to_table import ExportMeasurementsToTable

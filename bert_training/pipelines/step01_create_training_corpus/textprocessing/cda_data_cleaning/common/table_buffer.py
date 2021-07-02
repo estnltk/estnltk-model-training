@@ -1,5 +1,5 @@
 import pandas as pd
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import insert_to_database
+from cda_data_cleaning.common.db_operations import insert_to_database
 
 
 class TableBuffer:

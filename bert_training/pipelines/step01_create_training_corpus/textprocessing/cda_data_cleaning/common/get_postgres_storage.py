@@ -1,5 +1,5 @@
 from contextlib import contextmanager
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import read_config
+from cda_data_cleaning.common.read_config import read_config
 from estnltk.storage import PostgresStorage
 
 

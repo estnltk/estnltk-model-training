@@ -1,7 +1,7 @@
 import re
 import os
 from estnltk.taggers import TaggerTester
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction import CancerStageTagger
+from cda_data_cleaning.fact_extraction.common.taggers.cancer_stage_tagger.cancer_stage_tagger import CancerStageTagger
 
 
 def run_tester(type_nr: int):

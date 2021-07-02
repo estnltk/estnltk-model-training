@@ -11,9 +11,9 @@ import csv
 # In[2]:
 
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction.drug_extraction.taggers.drug_tagger import DrugFieldPartTagger, DrugTagger
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import create_connection
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import read_config
+from cda_data_cleaning.fact_extraction.drug_extraction.taggers.drug_tagger import DrugFieldPartTagger, DrugTagger
+from cda_data_cleaning.common.db_operations import create_connection
+from cda_data_cleaning.common import read_config
 
 
 # In[3]:

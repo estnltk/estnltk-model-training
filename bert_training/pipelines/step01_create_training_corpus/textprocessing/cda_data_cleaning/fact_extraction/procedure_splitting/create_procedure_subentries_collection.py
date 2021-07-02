@@ -3,9 +3,9 @@ import os
 
 from estnltk.layer_operations import split_by
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import get_postgres_storage
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import luigi_targets_folder
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction import CreateLayer
+from cda_data_cleaning.common import get_postgres_storage
+from cda_data_cleaning.common.luigi_targets import luigi_targets_folder
+from cda_data_cleaning.fact_extraction.legacy import CreateLayer
 from .create_procedure_entries_collection import CreateProcedureEntriesCollection, PROCEDURE_ENTRIES_COLLECTION
 
 

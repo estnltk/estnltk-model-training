@@ -2,8 +2,8 @@ import luigi
 from psycopg2 import sql
 
 from typing import Union, TYPE_CHECKING
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import CDASubtask
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import CDABatchTask
+from cda_data_cleaning.common.luigi_tasks import CDASubtask
+from cda_data_cleaning.common.luigi_tasks import CDABatchTask
 
 
 class CreateFinalTable(CDABatchTask):

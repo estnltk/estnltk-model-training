@@ -3,7 +3,7 @@ from lxml import html
 from typing import List
 import pandas as pd
 from copy import copy
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.common.html_parsing.table_parsing import is_date
+from cda_data_cleaning.common.html_parsing.table_parsing import is_date
 
 
 def get_subtype_for_type3(table: lxml.html.HtmlElement, labels: List[str]):

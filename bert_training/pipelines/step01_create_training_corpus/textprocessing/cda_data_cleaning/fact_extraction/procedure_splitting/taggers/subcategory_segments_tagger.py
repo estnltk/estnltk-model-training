@@ -1,4 +1,6 @@
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.estnltk_patches.taggers.text_segments_tagger import TextSegmentsTagger
+from typing import Optional, Tuple
+
+from cda_data_cleaning.estnltk_patches.taggers.text_segments_tagger import TextSegmentsTagger
 from estnltk.taggers import Tagger
 
 

@@ -1,7 +1,7 @@
 import os
 import pathlib
 from common.read_and_update import DatabaseConnector
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import Cleaner, Report
+from cda_data_cleaning.data_cleaning.diagnosis_data_cleaning.step01_clean_diagnosis_table.cleaning import Cleaner, Report
 from sqlalchemy import and_
 
 cleaner = Cleaner()

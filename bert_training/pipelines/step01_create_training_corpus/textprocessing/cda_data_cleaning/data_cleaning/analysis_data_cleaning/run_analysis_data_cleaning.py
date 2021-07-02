@@ -1,7 +1,7 @@
 import luigi
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import CDAJob
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.shared_workflows import ApplyLoincMapping
+from cda_data_cleaning.common.luigi_tasks import CDAJob
+from cda_data_cleaning.shared_workflows.loinc_cleaning.apply_loinc_mapping import ApplyLoincMapping
 
 from .step00_create_cleaning_functions.create_cleaning_functions import CreateCleaningFunctions
 from .step01_create_and_clean_analysis_entry_table.create_analysis_entry import CreateAnalysisEntryTable

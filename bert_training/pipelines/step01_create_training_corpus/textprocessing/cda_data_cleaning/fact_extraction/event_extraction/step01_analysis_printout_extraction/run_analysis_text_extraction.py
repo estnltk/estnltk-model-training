@@ -1,27 +1,27 @@
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import CDAJob
+from cda_data_cleaning.common.luigi_tasks import CDAJob
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.data_cleaning.analysis_data_cleaning import (
+from cda_data_cleaning.data_cleaning.analysis_data_cleaning.step00_create_cleaning_functions.create_cleaning_functions import (
     CreateCleaningFunctions,
 )
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction import (
+from cda_data_cleaning.fact_extraction.event_extraction.step01_analysis_printout_extraction.create_analysis_printout_tables import (
     CreateAnalysisPrintoutTables,
 )
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction import (
+from cda_data_cleaning.fact_extraction.event_extraction.step01_analysis_printout_extraction.extract_analysis_printout import (
     ExtractAnalysisPrintout,
 )
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction.event_extraction.step01_analysis_printout_extraction.extract_analysis_structured_printout import (
+from cda_data_cleaning.fact_extraction.event_extraction.step01_analysis_printout_extraction.extract_analysis_structured_printout import (
     ExtractStructuredPrintout,
 )
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction import (
+from cda_data_cleaning.fact_extraction.event_extraction.step01_analysis_printout_extraction.import_possible_units import (
     ImportPossibleUnitsTable,
 )
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction import (
+from cda_data_cleaning.fact_extraction.event_extraction.step01_analysis_printout_extraction.clean_analysis_printout import (
     CleanAnalysisPrintoutTable,
 )
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction import (
+from cda_data_cleaning.fact_extraction.event_extraction.step01_analysis_printout_extraction.quality_overview_of_results import (
     QualityOverviewOfResults,
 )
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction import (
+from cda_data_cleaning.fact_extraction.event_extraction.step01_analysis_printout_extraction.create_printout_layer import (
     CreatePrintoutLayer,
 )
 

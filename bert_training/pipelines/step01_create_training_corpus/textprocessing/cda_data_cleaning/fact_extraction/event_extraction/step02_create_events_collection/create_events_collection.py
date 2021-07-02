@@ -3,9 +3,9 @@ import time
 from psycopg2.sql import SQL, Identifier, Literal
 
 from estnltk.layer_operations import split_by, extract_sections
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import CDAJob, CDASubtask
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction import CreateLayer
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction import (
+from cda_data_cleaning.common.luigi_tasks import CDAJob, CDASubtask, EmptyTask
+from cda_data_cleaning.fact_extraction import CreateLayer
+from cda_data_cleaning.fact_extraction.event_extraction.step02_create_events_collection.taggers import (
     EventTokenTagger,
     EventHeaderTagger,
     EventSegmentsTagger,

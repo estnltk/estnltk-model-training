@@ -1,8 +1,8 @@
 import luigi
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import CDASubtask
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import create_database_connection_string
-import pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.data_cleaning.diagnosis_data_cleaning.step01_clean_diagnosis_table.clean_values as clean
+from cda_data_cleaning.common.luigi_tasks import CDASubtask
+from cda_data_cleaning.common.db_operations import create_database_connection_string
+import cda_data_cleaning.data_cleaning.diagnosis_data_cleaning.step01_clean_diagnosis_table.clean_values as clean
 
 
 class CleanDiagnosisTable(CDASubtask):

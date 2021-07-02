@@ -1,6 +1,6 @@
 from typing import List
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction import RobustDateNumberTagger
+from cda_data_cleaning.fact_extraction.common.taggers.robust_date_number_tagger.robust_date_number_tagger import RobustDateNumberTagger
 from . import RobustUnitTagger
 from . import MeasurementObjectTagger
 from . import SubjectTagger

@@ -1,8 +1,8 @@
 import luigi
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import CDASubtask
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction import CreateLayer
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction import (
+from cda_data_cleaning.common.luigi_tasks import CDASubtask, EmptyTask
+from cda_data_cleaning.fact_extraction.common_tasks import CreateLayer
+from cda_data_cleaning.fact_extraction.event_extraction.step01_analysis_printout_extraction.taggers import (
     Type1StartEndTagger,
     Type2StartEndTagger,
     Type3StartEndTagger,

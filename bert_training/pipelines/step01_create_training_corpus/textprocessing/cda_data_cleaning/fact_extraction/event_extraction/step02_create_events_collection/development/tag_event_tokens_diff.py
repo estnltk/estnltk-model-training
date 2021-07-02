@@ -2,8 +2,8 @@ import luigi
 
 import os
 
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning import luigi_targets_folder
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction import CreateLayer
+from cda_data_cleaning.common.luigi_targets import luigi_targets_folder
+from cda_data_cleaning.fact_extraction.legacy import CreateLayer
 
 
 class TagEventTokensDiff(luigi.Task):

@@ -1,7 +1,7 @@
 from pprint import pprint
 
 from estnltk import Text
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.fact_extraction import RobustDateNumberTagger
+from cda_data_cleaning.fact_extraction.common.taggers.robust_date_number_tagger.robust_date_number_tagger import RobustDateNumberTagger
 
 
 tagger = RobustDateNumberTagger(conflict_resolving_strategy="ALL")

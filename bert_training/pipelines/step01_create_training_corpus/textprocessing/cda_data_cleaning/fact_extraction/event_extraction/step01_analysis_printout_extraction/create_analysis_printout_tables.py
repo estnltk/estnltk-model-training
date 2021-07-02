@@ -1,6 +1,6 @@
 import luigi
 from psycopg2 import sql
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.common.luigi_tasks.cda_subtask import CDASubtask
+from cda_data_cleaning.common.luigi_tasks.cda_subtask import CDASubtask
 
 # export PYTHONPATH=~/Repos/cda-data-cleaning:$PYTHONPATH
 # targettable="run_202010171513_analysis_procedure"

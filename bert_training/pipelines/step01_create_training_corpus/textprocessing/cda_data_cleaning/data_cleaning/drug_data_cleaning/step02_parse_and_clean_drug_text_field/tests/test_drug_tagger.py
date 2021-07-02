@@ -1,10 +1,10 @@
 import re
 import os
 from estnltk.taggers import TaggerTester
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.data_cleaning.drug_data_cleaning import (
+from cda_data_cleaning.data_cleaning.drug_data_cleaning.step02_parse_and_clean_drug_text_field.taggers.drug_tagger import (
     DrugTagger,
 )
-from pipelines.step01_create_training_corpus.textprocessing.cda_data_cleaning.data_cleaning.drug_data_cleaning import (
+from cda_data_cleaning.data_cleaning.drug_data_cleaning.step02_parse_and_clean_drug_text_field.taggers.drug_grammar_token_tagger import (
     DrugGrammarTokenTagger,
 )
 
