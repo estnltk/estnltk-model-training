@@ -1,3 +1,4 @@
+import sys
 import time
 from datetime import timedelta
 
@@ -83,3 +84,7 @@ def clean_and_extract_sentences_db(db_config, source_schema, source_table, targe
 
     cur.close()
     conn.close()
+
+if __name__ == "__main__":
+    a = sys.argv[1:]
+    clean_and_extract_sentences_db(*a)

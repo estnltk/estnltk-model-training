@@ -1,3 +1,5 @@
+import sys
+
 from estnltk.corpus_processing.parse_koondkorpus import parse_tei_corpora
 
 from textprocessing.text_cleaning import clean_and_extract_sentences, \
@@ -20,3 +22,8 @@ def clean_and_extract_sentences_corpus(corp_path, out_file_path, clean=False):
                 sentences = extract_sentences(text_obj)
             out_file.write("\n".join(sentences))
             out_file.write("\n")
+
+
+if __name__ == "__main__":
+    a = sys.argv[1:]
+    clean_and_extract_sentences_corpus(*a)
