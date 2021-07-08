@@ -2,15 +2,16 @@ import sys
 import time
 from datetime import timedelta
 
+from estnltk import Text
 from tqdm import tqdm
 import psycopg2
 from psycopg2 import sql
 
 from .textprocessing.cda.table_buffer import TableBuffer
-from .textprocessing.text_cleaning import preprocess_to_estnltk_Text, clean_and_extract_sentences
+from .textprocessing.text_cleaning import preprocess_to_estnltk_Text, reformat_sentences
 
 
-def clean_and_extract_sentences_db(db_config, source_schema, source_table, target_schema, target_table):
+def clean_and_extract_sentences_db(db_config, source_schema, source_table, target_schema, target_table, clean=None):
     """
     Takes texts ('raw_text' column) from source table.schema, cleans then separates sentences and puts the result into
      target schema.table (text column)
@@ -26,6 +27,8 @@ def clean_and_extract_sentences_db(db_config, source_schema, source_table, targe
     :param source_table: The table that contains the texts which will be processed ('raw_text' column)
     :param target_schema: The schema, that contains the target_table
     :param target_table: The name of the resulting table. Must have column: 'text'
+    :param clean: Function, that cleans takes an EstNLTK object as an argument and cleans it.
+        There are two pre-made cleaning functions in this package {clean_med, clean_med_r_events}
     :return:
     """
     conn = psycopg2.connect(db_config)
@@ -68,10 +71,12 @@ def clean_and_extract_sentences_db(db_config, source_schema, source_table, targe
             iterations += 1
 
             # Text processing
-            t = preprocess_to_estnltk_Text(row[0])
-            result = {'text': "\n".join(clean_and_extract_sentences(t))}
+            text_obj = Text(row[0])
+            if clean is not None:
+                text_obj = clean(text_obj)
+            sentences = reformat_sentences(text_obj)
             # Adding the result into the target table
-            tb.append([result])
+            tb.append([sentences])
         print("Processed ", iterations, "rows, time", str(timedelta(seconds=time.time() - start)))
 
     # flush the remaining rows
@@ -83,6 +88,7 @@ def clean_and_extract_sentences_db(db_config, source_schema, source_table, targe
 
     cur.close()
     conn.close()
+
 
 if __name__ == "__main__":
     a = sys.argv[1:]

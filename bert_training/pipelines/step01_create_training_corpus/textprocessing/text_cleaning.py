@@ -25,7 +25,6 @@ from .cda.numbers.robust_date_number_tagger import RobustDateNumberTagger
 from .layer_modifications import getSpanRangesR, getSpanRangesF, \
     get_number_replacement, get_anon_replacement
 
-
 from .span_merging import mergeSpans
 
 type1_tagger = Type1StartEndTagger()
@@ -90,8 +89,7 @@ def remove_beginning_symbols(text):
     return text
 
 
-def extract_segments(text):
-    t = Text(text)
+def extract_segments(t):
     event_token_tagger.tag(t)
     event_header_tagger.tag(t)
     event_segments_tagger.tag(t)
@@ -102,7 +100,6 @@ def extract_segments(text):
 
 def extract_span_ranges(t):
     spans = get_table_spans(t, 0)
-    # spans = mergeSpans(spans, get_event_header_spans(t, 1))
     spans = mergeSpans(spans, get_anonymised_spans(t, 1))
     spans = mergeSpans(spans, get_number_spans(t, 2))
     return spans
@@ -126,17 +123,37 @@ def clean(t):
     return clean_text_with_spans(t.text, spans)
 
 
-def extract_sentences(t):
+def reformat_sentences(t):
+    if not isinstance(t, list):
+        t = [t]
+
     sentences = []
-    t.tag_layer(['tokens', 'words', 'sentences'])
-    for sentence in t.sentences:
-        sentences.append(" ".join(sentence.text))
-    return sentences
+    for text_obj in t:
+        text_obj.tag_layer(['tokens', 'words', 'sentences'])
+        s = []
+        for sentence in text_obj.sentences:
+            i = " ".join(sentence.text)
+            # if sentence does not end with ".", "!" or "?", then add another one
+            # Also adding very small sentences
+            if len(s) != 0 and (len(s[-1]) != 0 and s[-1][-1] not in {".", "!", "?"} or len(sentence.text) < 3):
+                s[-1] += i
+            else:
+                s.append(i)
+
+        sentences.append("\n".join(s))
+    return "\n".join(sentences)
 
 
-def clean_and_extract_sentences(t):
+def clean_med(t):
     t.tag_layer(['tokens', 'words'])
     spans = extract_span_ranges(t)
     cleaned_text = clean_text_with_spans(t.text, spans)
     t_cleaned = preprocess_to_estnltk_Text(cleaned_text)
-    return extract_sentences(t_cleaned)
+    return t_cleaned
+
+
+def clean_med_r_events(t):
+    cleaned = []
+    for segment in extract_segments(t):
+        cleaned.append(clean_med(Text(segment)))
+    return cleaned

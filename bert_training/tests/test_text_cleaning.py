@@ -2,7 +2,7 @@ import unittest
 
 from pipelines.step01_create_training_corpus.textprocessing import tag_text
 from pipelines.step01_create_training_corpus.textprocessing.text_cleaning import extract_span_ranges, clean, \
-    extract_sentences
+    reformat_sentences
 
 
 def load_test_file(path):
@@ -45,7 +45,7 @@ class textCleaningTestsCases(unittest.TestCase):
         text = load_test_file(
             "../pipelines/step01_create_training_corpus/textprocessing/cda_data_cleaning/fact_extraction/event_extraction/step01_analysis_printout_extraction/example_texts/text6_3.txt")
         text = clean(text)
-        extract_sentences(text)
+        reformat_sentences(text)
 
         self.assertEqual(True, False)
 
