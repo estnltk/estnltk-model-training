@@ -1,6 +1,9 @@
 import unittest
 
-from pipelines.step02_BERT_pre_training.tokenization.vocabulary_creator import create_vocabulary
+from tokenizers import Tokenizer
+from transformers import BertTokenizerFast
+
+from pipelines.step02_BERT_pre_training.tokenizing.vocabulary_creator import create_vocabulary
 
 
 def load_test_file(path):
@@ -20,32 +23,27 @@ def file_len(path):
 
 class textCleaningTestsCases(unittest.TestCase):
 
-    def vocabulary_creation_testing(self, mode):
-        vocab_path = "C:/Users/Meelis/PycharmProjects/medbert/data/model_{}.txt".format(mode)
-        input = "C:/Users/Meelis/PycharmProjects/medbert/data/corp_res_clean_r_events_exp.txt"
-        size = 3000
-        create_vocabulary(vocab_path, size, input, mode=mode)
-        actual = load_test_file(vocab_path)
-
-        # testing that vocabulary size and the argument size are equal
-        self.assertEqual(size, file_len(vocab_path))
+    def test_vocabulary_creation_unigram(self):
+        model_path = "C:/Users/Meelis/PycharmProjects/medbert/data/test_model"
+        input = ["C:/Users/Meelis/PycharmProjects/medbert/data/tsv_res_clean_r_events_exp.tsv"]
+        size = 6000
+        special_tokens = ["[PAD]", "[UNK]", "[CLS]", "[SEP]", "[MASK]", "<INT>",
+                          "<FLOAT>", "<DATE>", "<XXX>", "<ADJ>", "<NAME>", "<ADV>", "<INJ>"]
+        create_vocabulary(model_path, input, size, special_tokens=special_tokens)
+        actual = load_test_file(model_path + "/vocab.txt")
 
         # testing that the vocabulary contains ctrl symbols
         for i in "[PAD]", "[UNK]", "[CLS]", "[SEP]", "[MASK]":
             self.assertIn(i, actual)
 
-
-    def test_vocabulary_creation_unigram(self):
-        self.vocabulary_creation_testing("unigram")
-
-    def test_vocabulary_creation_bpe(self):
-        self.vocabulary_creation_testing("bpe")
-
-    def test_vocabulary_creation_char(self):
-        self.vocabulary_creation_testing("char")
-
-    def test_vocabulary_creation_word(self):
-        self.vocabulary_creation_testing("word")
+    def test_vocabulary_on_text(self):
+        additional_special_tokens = ["<INT>", "<FLOAT>", "<DATE>", "<XXX>", "<ADJ>", "<NAME>", "<ADV>", "<INJ>"]
+        tokenizer = BertTokenizerFast.from_pretrained("C:/Users/Meelis/PycharmProjects/medbert/data/test_model/",
+                                                  do_lower_case=False,
+                                                  additional_special_tokens=additional_special_tokens)
+        output = tokenizer.encode("<XXX> <FLOAT> , võrreldes eelmise visiidiga <DATE> .", )
+        print(output)
+        print(tokenizer.decode(output))
 
 
 if __name__ == '__main__':

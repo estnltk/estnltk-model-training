@@ -1,3 +1,4 @@
+import csv
 import os
 
 from estnltk import Text
@@ -75,10 +76,11 @@ def _process(recorded_data, clean, return_data):
 
 
 def _write(return_data, out_path):
-    with open(out_path, 'w', encoding='utf-8') as out:
+    with open(out_path, 'w', newline='', encoding='utf-8') as out:
+        tsv_writer = csv.writer(out, delimiter="\t")
+        tsv_writer.writerow(["text"])
         while True:
             res = return_data.get()
             if res == "<END>":
                 break
-            out.write(res)
-            out.write("\n\n")
+            tsv_writer.writerow([res])

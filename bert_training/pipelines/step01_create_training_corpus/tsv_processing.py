@@ -27,11 +27,13 @@ def clean_and_extract_sentences_tsv(in_tsv_path, out_path, text_col_i=1, clean=N
         clean = clean_med_r_events
 
     file = open(in_tsv_path, newline='', encoding='utf-8')
-    out_file = open(out_path, 'w', encoding='utf-8')
-    read_tsv = csv.reader(file, delimiter="\t")
+    out_file = open(out_path, 'w', newline='', encoding='utf-8')
+    tsv_reader = csv.reader(file, delimiter="\t")
+    tsv_writer = csv.writer(out_file, delimiter="\t")
 
-    for i, row in enumerate(read_tsv):
+    for i, row in enumerate(tsv_reader):
         if i == 0:
+            tsv_writer.writerow([row[text_col_i]])
             continue
 
         if len(row) < text_col_i:
@@ -41,8 +43,7 @@ def clean_and_extract_sentences_tsv(in_tsv_path, out_path, text_col_i=1, clean=N
         if clean is not None:
             text_obj = clean(text_obj)
         sentences = reformat_sentences(text_obj)
-        out_file.write(sentences)
-        out_file.write("\n\n")
+        tsv_writer.writerow([sentences])
 
     file.close()
     out_file.close()
