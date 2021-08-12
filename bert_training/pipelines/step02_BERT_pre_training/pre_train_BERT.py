@@ -18,7 +18,7 @@ from pipelines.step02_BERT_pre_training.tokenizing.vocabulary_creator import cre
 
 def pre_train_BERT(model_path: str, input_files, training_args: TrainingArguments = None, vocab_size: int = 3000,
                    bert_config: BertConfig = None, mlm_probability: float = 0.15,
-                   nsp_probability=0.5,
+                   nsp_probability: float = 0.5,
                    model_init: Callable[[], PreTrainedModel] = None,
                    callbacks: Optional[List[TrainerCallback]] = None,
                    optimizers: Tuple[torch.optim.Optimizer, torch.optim.lr_scheduler.LambdaLR] = (None, None),

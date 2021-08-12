@@ -1,4 +1,7 @@
+import os
 import unittest
+from os.path import isdir
+from pathlib import Path
 
 from tokenizers import Tokenizer
 from transformers import BertTokenizerFast
@@ -22,10 +25,16 @@ def file_len(path):
 
 
 class textCleaningTestsCases(unittest.TestCase):
+    ROOT_DIR = str(Path(__file__).parent.parent)
 
     def test_vocabulary_creation_unigram(self):
-        model_path = "C:/Users/Meelis/PycharmProjects/medbert/data/test_model"
-        input = ["C:/Users/Meelis/PycharmProjects/medbert/data/tsv_res_clean_r_events_exp.tsv"]
+
+        model_path = self.ROOT_DIR + "/data/test_model"
+        input = [self.ROOT_DIR + "/data/tsv_res_clean_r_events_exp.tsv"]
+
+        if not isdir(model_path):
+            os.mkdir(model_path)
+
         size = 6000
         special_tokens = ["[PAD]", "[UNK]", "[CLS]", "[SEP]", "[MASK]", "<INT>",
                           "<FLOAT>", "<DATE>", "<XXX>", "<ADJ>", "<NAME>", "<ADV>", "<INJ>"]
@@ -38,7 +47,7 @@ class textCleaningTestsCases(unittest.TestCase):
 
     def test_vocabulary_on_text(self):
         additional_special_tokens = ["<INT>", "<FLOAT>", "<DATE>", "<XXX>", "<ADJ>", "<NAME>", "<ADV>", "<INJ>"]
-        tokenizer = BertTokenizerFast.from_pretrained("C:/Users/Meelis/PycharmProjects/medbert/data/test_model/",
+        tokenizer = BertTokenizerFast.from_pretrained(self.ROOT_DIR + "/data/test_model/",
                                                   do_lower_case=False,
                                                   additional_special_tokens=additional_special_tokens)
         output = tokenizer.encode("<XXX> <FLOAT> , võrreldes eelmise visiidiga <DATE> .", )
