@@ -25,17 +25,21 @@ class PretrainingDatasetCases(unittest.TestCase):
         os.mkdir(model_path)
         size = 6000
         special_tokens = ["[PAD]", "[UNK]", "[CLS]", "[SEP]", "[MASK]", "<INT>",
-                          "<FLOAT>", "<DATE>", "<XXX>", "<ADJ>", "<NAME>", "<ADV>", "<INJ>"]
+                          "<FLOAT>", "<DATE>", "<XXX>", "<ADJ>", "<NAME>", "<ADV>", "<INJ>", "<br>"]
         create_vocabulary(model_path, train_files, size, special_tokens=special_tokens)
 
     # This is just for manual testing
     def test_tokenizer(self):
+        additional_special_tokens = ["<INT>", "<FLOAT>", "<DATE>", "<XXX>", "<ADJ>", "<NAME>", "<ADV>", "<INJ>", "<br>"]
+
         model_path = self.ROOT_DIR + "/data/test_model_tok_12341234124"
         input = [self.ROOT_DIR + "/data/corp_res_clean_r_events_par.tsv"]
         self.create_test_vocab(model_path, input)
 
         # loading the tokenizer
-        tokenizer = BertTokenizerFast.from_pretrained(model_path)
+        tokenizer = BertTokenizerFast.from_pretrained(model_path,
+                                                      do_lower_case=False,
+                                                      additional_special_tokens=additional_special_tokens)
 
         # loading the dataset
         dataset = load_dataset("csv", data_files={'train': input})['train']
@@ -45,6 +49,7 @@ class PretrainingDatasetCases(unittest.TestCase):
         print(m)
         for i in range(10):
             print(tokenizer.decode(input_ids[i]))
+            print(input_ids[i])
             print(dataset_enc['next_sentence_label'][i])
 
 

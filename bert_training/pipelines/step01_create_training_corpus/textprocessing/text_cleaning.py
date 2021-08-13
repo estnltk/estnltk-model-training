@@ -1,3 +1,5 @@
+import re
+
 from estnltk import Text
 
 # Table taggers
@@ -48,6 +50,10 @@ anon_tagger = AnonymisedTagger()
 date_num_tagger = RobustDateNumberTagger()
 
 
+def replace_row_change_symbols(t):
+    return Text(t.text.replace("\n", " <br> "))
+
+
 def get_table_spans(t, priority):
     type1_tagger.tag(t)
     type2_tagger.tag(t)
@@ -83,12 +89,6 @@ def preprocess_to_estnltk_Text(text):
     return Text(text)
 
 
-def remove_beginning_symbols(text):
-    while len(text) > 0 and text[0] in {'*', '.', '-', ':', '|'}:
-        text = text[1:]
-    return text
-
-
 def extract_segments(t):
     event_token_tagger.tag(t)
     event_header_tagger.tag(t)
@@ -99,8 +99,9 @@ def extract_segments(t):
 
 
 def extract_span_ranges(t):
-    spans = get_table_spans(t, 0)
-    spans = mergeSpans(spans, get_anonymised_spans(t, 1))
+    # spans = get_table_spans(t, 0)
+    spans = get_anonymised_spans(t, 1)
+    # spans = mergeSpans(spans, get_anonymised_spans(t, 1))
     spans = mergeSpans(spans, get_number_spans(t, 2))
     return spans
 
@@ -118,9 +119,27 @@ def clean_text_with_spans(text, spans):
     return new_text
 
 
+"""
 def clean(t):
     spans = extract_span_ranges(t)
     return clean_text_with_spans(t.text, spans)
+"""
+
+
+def remove_beginning_symbols(text):
+    while len(text) > 0 and text[0] in {'*', '.', '-', ':', '|', ' '}:
+        text = text[1:]
+    return text
+
+
+def remove_excess_br(text):
+    # removing duplicates
+    text = re.sub("(<br> *)+", " <br> ", text)
+    # removing from start
+    text = re.sub("^ ?<br> ", "", text)
+    # removing from end
+    text = re.sub(" ?<br> $", "", text)
+    return text
 
 
 def reformat_sentences(t):
@@ -135,6 +154,8 @@ def reformat_sentences(t):
             i = " ".join(sentence.text)
             # if sentence does not end with ".", "!" or "?", then add another one
             # Also adding very small sentences
+            i = remove_excess_br(i)
+            i = remove_beginning_symbols(i)
             if len(s) != 0 and (len(s[-1]) != 0 and s[-1][-1] not in {".", "!", "?"} or len(sentence.text) < 3):
                 s[-1] += i
             else:
@@ -145,6 +166,7 @@ def reformat_sentences(t):
 
 
 def clean_med(t):
+    t = replace_row_change_symbols(t)
     t.tag_layer(['tokens', 'words'])
     spans = extract_span_ranges(t)
     cleaned_text = clean_text_with_spans(t.text, spans)

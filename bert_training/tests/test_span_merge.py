@@ -1,6 +1,6 @@
 import unittest
 
-from pipelines.step01_create_training_corpus.textprocessing import mergeSpans
+from pipelines.step01_create_training_corpus.textprocessing.span_merging import mergeSpans
 
 
 class span_testing(unittest.TestCase):

@@ -75,8 +75,10 @@ class TextCleaningTestsCases(unittest.TestCase):
 
         torch.cuda.empty_cache()
         special_tokens = ["[PAD]", "[UNK]", "[CLS]", "[SEP]", "[MASK]"]
-        additional_special_tokens = ["<INT>", "<FLOAT>", "<DATE>", "<XXX>", "<ADJ>", "<NAME>", "<ADV>", "<INJ>"]
+        additional_special_tokens = ["<INT>", "<FLOAT>", "<DATE>", "<XXX>", "<ADJ>", "<NAME>", "<ADV>", "<INJ>", "<br>"]
         training_files = [self.ROOT_DIR + "/data/corp_res_clean_r_events_par.tsv"]
+
+        # just a sample config. These params arent usually used.
         config = BertConfig(
             hidden_size=480,
             max_position_embeddings=1024,

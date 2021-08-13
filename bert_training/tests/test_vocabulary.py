@@ -37,7 +37,7 @@ class textCleaningTestsCases(unittest.TestCase):
 
         size = 6000
         special_tokens = ["[PAD]", "[UNK]", "[CLS]", "[SEP]", "[MASK]", "<INT>",
-                          "<FLOAT>", "<DATE>", "<XXX>", "<ADJ>", "<NAME>", "<ADV>", "<INJ>"]
+                          "<FLOAT>", "<DATE>", "<XXX>", "<ADJ>", "<NAME>", "<ADV>", "<INJ>", "<br>"]
         create_vocabulary(model_path, input, size, special_tokens=special_tokens)
         actual = load_test_file(model_path + "/vocab.txt")
 
@@ -46,7 +46,7 @@ class textCleaningTestsCases(unittest.TestCase):
             self.assertIn(i, actual)
 
     def test_vocabulary_on_text(self):
-        additional_special_tokens = ["<INT>", "<FLOAT>", "<DATE>", "<XXX>", "<ADJ>", "<NAME>", "<ADV>", "<INJ>"]
+        additional_special_tokens = ["<INT>", "<FLOAT>", "<DATE>", "<XXX>", "<ADJ>", "<NAME>", "<ADV>", "<INJ>", "<br>"]
         tokenizer = BertTokenizerFast.from_pretrained(self.ROOT_DIR + "/data/test_model/",
                                                   do_lower_case=False,
                                                   additional_special_tokens=additional_special_tokens)
