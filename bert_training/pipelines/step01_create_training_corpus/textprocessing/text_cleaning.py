@@ -118,6 +118,15 @@ def clean_text_with_spans(text, spans):
     new_text += text[start:len(text)]
     return new_text
 
+def remove_excess_br(text):
+    # removing duplicates
+    text = re.sub("(<br> *)+", " <br> ", text)
+    # removing from start
+    text = re.sub("^ *<br> +", "", text)
+    # removing from end
+    text = re.sub(" *<br> *$", "", text)
+    return text
+
 
 """
 def clean(t):
@@ -129,16 +138,6 @@ def clean(t):
 def remove_beginning_symbols(text):
     while len(text) > 0 and text[0] in {'*', '.', '-', ':', '|', ' '}:
         text = text[1:]
-    return text
-
-
-def remove_excess_br(text):
-    # removing duplicates
-    text = re.sub("(<br> *)+", " <br> ", text)
-    # removing from start
-    text = re.sub("^ ?<br> ", "", text)
-    # removing from end
-    text = re.sub(" ?<br> $", "", text)
     return text
 
 
@@ -154,8 +153,11 @@ def reformat_sentences(t):
             i = " ".join(sentence.text)
             # if sentence does not end with ".", "!" or "?", then add another one
             # Also adding very small sentences
-            i = remove_excess_br(i)
             i = remove_beginning_symbols(i)
+            # removing excess line symbols
+            i = remove_excess_br(i)
+            # removing duplicated spaces
+            i = re.sub(' +', ' ', i)
             if len(s) != 0 and (len(s[-1]) != 0 and s[-1][-1] not in {".", "!", "?"} or len(sentence.text) < 3):
                 s[-1] += i
             else:

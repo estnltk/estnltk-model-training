@@ -31,7 +31,7 @@ class textCleaningTestsCases(unittest.TestCase):
     def test_text_cleaning_event_header(self):
         text = "30.06.2021.\n Siin lauses peaks header olema"
         expected = "Siin lauses peaks header olema"
-        actual = clean_med_r_events(Text(text))[0].text
+        actual = reformat_sentences(clean_med_r_events(Text(text))[0])
         self.assertEqual(expected, actual)
 
     def test_text_cleaning_event_numbers(self):
@@ -42,8 +42,8 @@ class textCleaningTestsCases(unittest.TestCase):
 
     def test_next_line_symbol_swap(self):
         text = "\n See on rida\nsee on teine rida.\n"
-        expected = "See on rida <br> see on teine rida."
-        actual = clean_med(Text(text)).text
+        expected = "See on rida <br> see on teine rida ."
+        actual = reformat_sentences(clean_med(Text(text)))
         self.assertEqual(expected, actual)
 
 if __name__ == '__main__':
