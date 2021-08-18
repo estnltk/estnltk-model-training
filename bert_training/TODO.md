@@ -5,10 +5,10 @@ Kuskil on Sveni algne spec, aga seda ei ole siin repos.
 Järgnevas on toodud mõningad tähelepanekud mis ei ole niivõrd speciga seoses, 
 vaid lihtsalt mõned ebakohad mis võiks leida tähelepanu ja parendamist.
 
-* [ ] Step01.ipynb ja Step02.ipynb seest viidatud joonised (.png failid) ei ole Gitlabi  
+* [x] Step01.ipynb ja Step02.ipynb seest viidatud joonised (.png failid) ei ole Gitlabi  
   keskkonnas (nt https://gitlab.cs.ut.ee/health-informatics/medbert/-/blob/master/Step02.ipynb)
   ega nt IntelliJ IDEA keskkonnas nähtavad, ei renderdu (katkise pildi ikoon).
-* [ ] Jooniste algkoodi/alg-faili pole (pole võimalik joonist kohendada)
+* [x] Jooniste algkoodi/alg-faili pole (pole võimalik joonist kohendada)
   * Variant 1: Lisada algfail, mida saab muuta
   * Variant 2: Teha joonis millegagi, mille algkoodi/alg-faili saab muutmiseks avada ja 
     PNG maha salvestada; nt [yEd](https://www.yworks.com/products/yed)
