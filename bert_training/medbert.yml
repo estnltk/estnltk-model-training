@@ -1,0 +1,73 @@
+# The name of the environment matching the repository name
+name: medbert
+
+# Based on this name one can operate like so (assuming 'conda --version' is 4.7.12 or newer):
+#   To create this environment: conda env create -f medbert.yml
+#   ...        and then use it: conda activate medbert
+#   ...and later on deactivate: conda deactivate
+#
+# Updating based on updated/modified medbert.yml file:
+#   conda deactivate
+#   # NB! Not sure do we need '--prune' option or not, seems to depend on conda version, needs further investigation
+#   conda env update -f medbert.yml
+#   conda activate medbert
+#
+# To remove this whole environment with associated packages:
+#   conda remove --name medbert --all
+#
+# To see all installed dependencies and their exact versions:
+#   conda list --name medbert
+
+
+# Channels in the order of importance; in general, we prefer conda-forge
+# Specific channels (estnltk etc) are given in dependencies section, where needed
+channels:
+  - conda-forge
+  - defaults
+
+# We start with python, and then include everything we need (main libraries, not their dependencies)
+# Most libraries are listed so that micro version is left free (should be safe)
+dependencies:
+  # Python 3.8.11 is available since 2021-06-28
+  # Python 3.8 because it is the highest Python version currently supported by EstNLTK v1.6.8b0
+  - python=3.8.10
+
+  # Main libraries, i.e. those that are imported from our Python files
+  # TODO: Add other main libraries
+  - estnltk::estnltk=1.6.8b0           # Initially 1.6.8b0. Pre-processing for BERT pre-training.
+  #- joblib=1.0.*                      # Initially 1.0.1; estnltk installs 1.0.1. Lightweight pipelining with Python functions.
+  #- tqdm=4.61.*                       # Initially 4.61.1; 4.62.1 is available: after estnltk install there is 4.62.1 available, after datasets 4.49.0 is available
+  #- regex=2021.4.*                    # Initially 2021.4.4; 2021.8.3 is available; after estnltk install there is 2021.8.3 available
+  #- matplotlib=3.4.*                  # Initially 3.4.2; after estnltk install there is 3.4.3 available
+  #- numpy=1.20.*                      # Initially 1.20.3; 1.21.2 is available; after estnltk install there is 1.21.2 available, pytorch pulls it down to 1.19.2
+
+  # Various taggers use typing; DB is one possible input
+  - typing_extensions=3.10.0.*         # Initially 3.10.0.0
+  - psycopg2=2.9.*                     # Initially 2.9.1
+
+  # BERT related packages: PyTorch
+  - pytorch::pytorch=1.9.0             # Initially 1.9.0
+
+  # BERT related packages: Transformers
+  # Pulls in also tokenizers-0.10.1 -- and thus no need to install initial 0.10.3?
+  - huggingface::transformers=4.8.1    # Initially 4.7.0, huggingface offers 4.8.1 (using this - can we?). conda-forge offers v4.9.2, can we upgrade?
+  #- huggingface::tokenizers=0.10.3    # Initially 0.10.3, available from huggingface channel; conda-forge offers 0.10.1
+
+  # BERT related packages: Datasets - Open library of NLP datasets by HuggingFace.
+  - huggingface::datasets=1.10.*       # Initially 1.10.2; 1.11.0 is available - should we upgrade?
+
+  # Development support
+  # TODO: Add other development support libraries, including notebook/jupyterlab support, testing
+  # TODO: What hooks or executions are needed to enforce flake8, black and other house-keeping tools?
+  #       Currently, no conf-s related to flake8 or black (e.g. .flake8, pyproject.toml).
+  #- flake8=3.9.*          # Style Guide Enforcement
+  #- black=19.10b0         # Code formatter. Q: Can we use 21.7b0? Why not?
+  - notebook=6.4.*         # Classical jupyter notebook; run as 'jupyter notebook'. Alternative is jupyterlab (3.1.*).
+
+  # Use pip for dependencies that are not available via conda i.e. no way to install/manage via conda
+  # Comment thoroughly why is it needed.
+  # For now, only template/example on how to declare pip itself and pip-based dependencies:
+  ##- pip=21.1.*   # estnltk installs 21.2.4 as dep
+  ##- pip:
+  ##    - somepackage1==1.2.*
+  ##    - somepackage2==3.4.*
