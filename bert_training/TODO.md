@@ -15,7 +15,7 @@ vaid lihtsalt mõned ebakohad mis võiks leida tähelepanu ja parendamist.
   * Variant 3: Teha joons ASCII tekstina, nt https://asciiflow.com/
                (või selle vanema variandi https://asciiflow.com/legacy/) vmt abilise abil
 * Testid ja näited:
-  * [ ] Kas 1000-realisest failist (nt `"\\data\\egcut_epi_mperli_texts_1000.tsv"`) 
+  * [x] Kas 1000-realisest failist (nt `"\\data\\egcut_epi_mperli_texts_1000.tsv"`) 
     mis ei saa repos olla (sest me ei taha siin päris andmeid hoida)
     saaks teha repos hoitava 10-realise faili, mis on formaadilt sama 
     (ja seega oleks hästi täpselt näha, et mis kujul lubatud/oodatud sisendformaadid on) 
