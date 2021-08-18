@@ -1,6 +1,23 @@
 # IntelliJ IDEA
 /.idea/
 
+# BERT and testing:
+# - Ignoring generated vocab.txt files
+# - test_model_tok_* folder is actually smth like 'test_model_tok_12341234124'
+/data/test_model/
+/data/test_model_tok_*/
+
+# - Files produced by running all tests
+/data/corp_res_clean.tsv
+/data/corp_res_clean_r_events.tsv
+/data/corp_res_clean_r_events_par.tsv
+/data/corp_res_no_clean.tsv
+/data/tsv_res_clean.tsv
+/data/tsv_res_clean_r_events.tsv
+/data/tsv_res_clean_r_events_par.tsv
+/data/tsv_res_no_clean.tsv
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
