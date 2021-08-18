@@ -26,6 +26,7 @@ While pre-training, it also displays diagnostics (MLM and NSP scores)
 Fine-tunes a BERT model
 
 Inputs:
+ * pre-trained model
  * tagged text files
  * tagged EstNLTK collections
 
@@ -34,5 +35,6 @@ Inputs:
 Fine-tunes a specific BERT model
 
 Inputs:
+ * pre-trained model
  * Task name
  * pre-processed data
