@@ -37,3 +37,12 @@ or running tests in some TestCase class:
 ```
 (medbert) $ python -m unittest tests.test_pretraining_ds.PretrainingDatasetCases
 ```
+
+
+## Run one particular test
+
+Example:
+
+```
+(medbert) $ python -m unittest tests.test_step01_pipelines.TextCleaningTestsCases.test_tsv_to_bert_input_pipeline_clean_par
+```
