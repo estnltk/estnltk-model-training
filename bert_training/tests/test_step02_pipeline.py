@@ -9,8 +9,14 @@ import torch
 
 from pipelines.step02_BERT_pre_training.pre_train_BERT import pre_train_BERT
 
+# These tests are slow, since training is slow. We ignore them by default ('0'),
+# and run only when explicitly asked (RUN_SLOW_TESTS=1 python -m unittest ...)
+RUN_SLOW_TESTS = int(os.getenv('RUN_SLOW_TESTS', '0'))
 
-# Warning! These tests are slow, since training is slow
+
+# To execute slow tests use for example:
+#   RUN_SLOW_TESTS=1 python -m unittest tests/test_step02_pipeline.py
+@unittest.skipIf(not RUN_SLOW_TESTS, "Warning! These tests are slow, since training is slow")
 class TextCleaningTestsCases(unittest.TestCase):
     ROOT_DIR = str(Path(__file__).parent.parent)
 
@@ -105,6 +111,7 @@ class TextCleaningTestsCases(unittest.TestCase):
         model = BertForPreTraining.from_pretrained(model_path)
         self.assertTrue(isinstance(model, BertForPreTraining))
         shutil.rmtree(model_path)
+
 
 if __name__ == '__main__':
     unittest.main()
