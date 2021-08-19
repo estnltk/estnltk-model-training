@@ -1,7 +1,11 @@
 # The name of the environment matching the repository name
 name: medbert
 
-# Based on this name one can operate like so (assuming 'conda --version' is 4.7.12 or newer):
+# In HPC, before creating and activating use:
+#   module load miniconda3/4.8.2
+# This module provides conda 4.8.2 and Python 3.8.1.
+#
+# Based on the conda env name one can operate like so (assuming 'conda --version' is 4.7.12 or newer):
 #   To create this environment: conda env create -f medbert.yml
 #   ...        and then use it: conda activate medbert
 #   ...and later on deactivate: conda deactivate

@@ -46,3 +46,58 @@ The initial take on it is at [./medbert.yml](medbert.yml) - this needs additiona
 * testing locally and in the UTHPC environment, with notebooks, tests and real pipeline
 * upgrading libraries where possible
 * clean-up of remarks/notes once working environment is in place
+
+
+## Conda environment setup in UTHPC
+
+```
+$ ssh <username>@rocket.hpc.ut.ee
+$ cd path/to/your/bert-project
+$ git clone https://gitlab.cs.ut.ee/health-informatics/medbert.git
+```
+
+Load module with `conda` so that you can create our medbert environment:
+
+```
+$ module list
+No modules loaded
+
+$ module load miniconda3/4.8.2
+$ module list
+
+Currently Loaded Modules:
+  1) miniconda3/4.8.2
+
+$ conda --version
+conda 4.8.2
+```
+
+Create the environment:
+
+```
+$ conda env create -f medbert.yml
+```
+
+To check environment content use:
+
+```
+$ conda list --name=medbert
+# packages in environment at /gpfs/space/home/<username>/.conda/envs/medbert:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                 conda_forge    conda-forge
+...
+estnltk                   1.6.8b0                     3.8    estnltk
+...
+pytorch                   1.9.0           py3.8_cuda11.1_cudnn8.0.5_0    pytorch
+...
+zlib                      1.2.11            h516909a_1010    conda-forge
+zstd                      1.5.0                ha95c52a_0    conda-forge
+```
+
+Check that tests pass:
+
+```
+$ sbatch tests/sbatch_quick_tests.sh
+$ cat slurm-<job-id>.out 
+```
