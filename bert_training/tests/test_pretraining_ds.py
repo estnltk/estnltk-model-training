@@ -28,8 +28,7 @@ class PretrainingDatasetCases(unittest.TestCase):
                           "<FLOAT>", "<DATE>", "<XXX>", "<ADJ>", "<NAME>", "<ADV>", "<INJ>", "<br>"]
         create_vocabulary(model_path, train_files, size, special_tokens=special_tokens)
 
-    # This is just for manual testing
-    def test_tokenizer(self):
+    def test_NSP_dataset_creation(self):
         additional_special_tokens = ["<INT>", "<FLOAT>", "<DATE>", "<XXX>", "<ADJ>", "<NAME>", "<ADV>", "<INJ>", "<br>"]
 
         model_path = self.ROOT_DIR + "/data/test_model_tok_12341234124"
@@ -44,13 +43,14 @@ class PretrainingDatasetCases(unittest.TestCase):
         # loading the dataset
         dataset = load_dataset("csv", data_files={'train': input})['train']
         dataset_enc = create_dataset_for_NSP(dataset, tokenizer, nsp_probability=0.5)
-        input_ids = dataset_enc['input_ids']
-        m = np.mean(dataset_enc['next_sentence_label'])
-        print(m)
-        for i in range(10):
-            print(tokenizer.decode(input_ids[i]))
-            print(input_ids[i])
-            print(dataset_enc['next_sentence_label'][i])
+
+        # testing that the number of sentence pairs is correct
+        sentences = 0
+        for doc in dataset["text"]:
+            sentences += len(doc.split("\n"))-1
+
+        self.assertEqual(len(dataset_enc), sentences)
+
 
 
 if __name__ == '__main__':
