@@ -98,6 +98,15 @@ zstd                      1.5.0                ha95c52a_0    conda-forge
 Check that tests pass:
 
 ```
+# Loads SLURM module, activates conda environment and executes 'python -m unittest discover -vvv':
 $ sbatch tests/sbatch_quick_tests.sh
+Submitted batch job <job-id>
+
 $ cat slurm-<job-id>.out 
+```
+
+or use wrapper-script that will follow (`tail -f`) created SLURM log-file automatically:
+
+```
+$ bash tests/run_quick_tests.sh
 ```
