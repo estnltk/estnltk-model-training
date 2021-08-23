@@ -1,11 +1,11 @@
 #!/bin/bash
 #SBATCH -J mb_all_tests
-#SBATCH --partition=testing
+#SBATCH --partition=main
 #SBATCH --cpus-per-task=4
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --mem=8G
-#SBATCH -t 02:00:00
+#SBATCH -t 03:00:00
 
 # Note that testing partition has time limit 120 minutes:
 #   sbatch: error: You have requested too much time or specified no time limit for your job to run on a partition.
