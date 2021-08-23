@@ -5,7 +5,12 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --mem=8G
-#SBATCH -t 03:00:00
+#SBATCH -t 02:00:00
+
+# Note that testing partition has time limit 120 minutes:
+#   sbatch: error: You have requested too much time or specified no time limit for your job to run on a partition.
+#                  Maximum for partition 'testing' is 120 minutes and you requested 180 minutes
+#   sbatch: error: Batch job submission failed: Requested time limit is invalid (missing or exceeds some limit)
 
 # Submit this job so:
 #   sbatch sbatch_all_tests.sh
