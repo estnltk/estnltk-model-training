@@ -8,6 +8,9 @@
 
 # Meant to be run from medbert repository root:
 #   bash tests/run_quick_tests.sh
+# You can do also
+#   RUN_SLOW_TESTS=1 bash tests/run_quick_tests.sh
+# but this will be eventually cancelled due to time limit (10min) configured in sbatch_quick_tests.sh.
 
 # On successful job submission, SLURM prints new job identifier to the standard output.
 # Like so:
