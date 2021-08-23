@@ -21,6 +21,8 @@ vaid lihtsalt mõned ebakohad mis võiks leida tähelepanu ja parendamist.
     (ja seega oleks hästi täpselt näha, et mis kujul lubatud/oodatud sisendformaadid on) 
     aga sisult piisavalt obfuskeeritud 
     (üle digiloo otsides selliseid fraase ei leiaks, inimesi kuidagi ei identifitseeriks)?
+  * [ ] TEMPORARY: Current errors locally (vt faili [tests/README.md](tests/README.md))
+  * [ ] TEMPORARY: Current errors in tests on UTHPC (vt faili [tests/README.md](tests/README.md))
 * Setup: 
   * [ ] Kirjeldada algne env setup/keskkonna setup (Pythoni ja teekide muretu install), sh
         et mida saab teha/testida lokaalselt, ja mis vajab GPUsid / UTHPC keskkonda; vt ka [Step00.md](Step00.md)

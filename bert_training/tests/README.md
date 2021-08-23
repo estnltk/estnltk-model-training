@@ -47,9 +47,110 @@ Example:
 (medbert) $ python -m unittest tests.test_step01_pipelines.TextCleaningTestsCases.test_tsv_to_bert_input_pipeline_clean_par
 ```
 
+## TEMPORARY: Current errors locally
+
+Seis [68f9c9f](https://gitlab.cs.ut.ee/health-informatics/medbert/-/tree/68f9c9f8216a6e41fa5a151a73c1bd5d4c69357b):
+
+```
+$ python -m unittest discover -vvv
+...
+ok
+test_vocabulary_on_text (tests.test_vocabulary.textCleaningTestsCases) ... [2, 8, 6, 17, 56, 81, 69, 69, 111, 73, 105, 41, 111, 75, 109, 56, 108, 118, 114, 64, 74, 7, 19, 3]
+[CLS] <XXX> <FLOAT>, võrreldes eelmise visiidiga <DATE>. [SEP]
+ok
+
+======================================================================
+ERROR: tests.test_step03_datasets (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: tests.test_step03_datasets
+Traceback (most recent call last):
+File "/Users/ha/miniconda3/envs/medbert/lib/python3.8/unittest/loader.py", line 436, in _find_test_path
+module = self._get_module_from_name(name)
+File "/Users/ha/miniconda3/envs/medbert/lib/python3.8/unittest/loader.py", line 377, in _get_module_from_name
+__import__(name)
+File "/Users/ha/Repos/repos-cs-ut/medbert/tests/test_step03_datasets.py", line 7, in <module>
+from pipelines.step03a_BERT_fine_tuning.datasets.sequence_classification import encode_sequence_classification_dataset
+ModuleNotFoundError: No module named 'pipelines.step03a_BERT_fine_tuning.datasets.sequence_classification'
+
+
+======================================================================
+ERROR: tests.test_step03_pipelines (unittest.loader._FailedTest)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: tests.test_step03_pipelines
+Traceback (most recent call last):
+File "/Users/ha/miniconda3/envs/medbert/lib/python3.8/unittest/loader.py", line 436, in _find_test_path
+module = self._get_module_from_name(name)
+File "/Users/ha/miniconda3/envs/medbert/lib/python3.8/unittest/loader.py", line 377, in _get_module_from_name
+__import__(name)
+File "/Users/ha/Repos/repos-cs-ut/medbert/tests/test_step03_pipelines.py", line 4, in <module>
+from pipelines.step03a_BERT_fine_tuning.fine_tune_BERT import finetune_BERT_model_on_sequence_classification
+File "/Users/ha/Repos/repos-cs-ut/medbert/pipelines/step03a_BERT_fine_tuning/fine_tune_BERT.py", line 3, in <module>
+from pipelines.step03a_BERT_fine_tuning.datasets.sequence_classification import encode_sequence_classification_dataset
+ModuleNotFoundError: No module named 'pipelines.step03a_BERT_fine_tuning.datasets.sequence_classification'
+
+
+----------------------------------------------------------------------
+Ran 27 tests in 36.046s
+
+FAILED (errors=2, skipped=2)
+```
+
+Vist mingi fail sequence_classification.py commitimata?
+
 
 ## TEMPORARY: Current errors in tests on UTHPC
 
+Harry: Mul on tihtipeale selle EstNLTK ja punkt.zip-iga alati mingi häda. Ennevanasti on olnud õiguste probleeme.
+
+Näen, et (Est)NLTK tekitab struktuuri:
+
+```
+/gpfs/space/home/{username}/nltk_data
+    tokenizers/
+        punkt/
+            PY3/
+                README
+                czech.pickle
+                danish.pickle
+                dutch.pickle
+                english.pickle
+                estonian.pickle
+                finnish.pickle
+                french.pickle
+                german.pickle
+                greek.pickle
+                italian.pickle
+                norwegian.pickle
+                polish.pickle
+                portuguese.pickle
+                russian.pickle
+                slovene.pickle
+                spanish.pickle
+                swedish.pickle
+                turkish.pickle
+            README
+            czech.pickle
+            danish.pickle
+            dutch.pickle
+            english.pickle
+            estonian.pickle
+            finnish.pickle
+            french.pickle
+            german.pickle
+            greek.pickle
+            italian.pickle
+            norwegian.pickle
+            polish.pickle
+            portuguese.pickle
+            russian.pickle
+            slovene.pickle
+            spanish.pickle
+            swedish.pickle
+            turkish.pickle
+        punkt.zip
+```
+
+Vead testidega (seisus [4b261dc](https://gitlab.cs.ut.ee/health-informatics/medbert/-/tree/4b261dcd566f40c60a4d23a3dabcfcc3792b85df)):
 ```
 $ cat slurm-19906010.out
 Calling: eval "$(conda shell.bash hook)"
