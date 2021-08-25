@@ -71,6 +71,13 @@ class TextCleaningTestsCases(unittest.TestCase):
             shutil.rmtree(model_path)
         self.assertFalse(isdir(model_path))
 
+        # NOTE: While running tests we see the output (with transformers 4.8.1):
+        #   test_pretraining_with_more_params (tests.test_step02_pipeline.TextCleaningTestsCases) ...
+        #   PyTorch: setting up devices
+        #   The default value for the training argument `--report_to` will change
+        #   in v5 (from all installed integrations to none).
+        #   In v5, you will need to use `--report_to all` to get the same behavior as now.
+        #   You should start updating your code and make this info disappear :-).
         training_args = TrainingArguments(
             output_dir=model_path,
             overwrite_output_dir=True,
