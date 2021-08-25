@@ -16,7 +16,7 @@ RUN_SLOW_TESTS = int(os.getenv('RUN_SLOW_TESTS', '0'))
 
 # To execute slow tests use for example:
 #   RUN_SLOW_TESTS=1 python -m unittest tests/test_step02_pipeline.py
-@unittest.skipIf(not RUN_SLOW_TESTS, "Warning! These tests are slow, since training is slow")
+#@unittest.skipIf(not RUN_SLOW_TESTS, "Warning! These tests are slow, since training is slow")
 class TextCleaningTestsCases(unittest.TestCase):
     ROOT_DIR = str(Path(__file__).parent.parent)
 
@@ -64,7 +64,7 @@ class TextCleaningTestsCases(unittest.TestCase):
         shutil.rmtree(model_path)
 
     def test_pretraining_with_more_params(self):
-        model_path = self.ROOT_DIR + "/data/test_model_1234125352"
+        model_path = self.ROOT_DIR + "/data/test_model"
 
         # if dir already exists, then delete it
         if isdir(model_path):
@@ -110,7 +110,7 @@ class TextCleaningTestsCases(unittest.TestCase):
         # checking if the model can be loaded
         model = BertForPreTraining.from_pretrained(model_path)
         self.assertTrue(isinstance(model, BertForPreTraining))
-        shutil.rmtree(model_path)
+        #shutil.rmtree(model_path)
 
 
 if __name__ == '__main__':

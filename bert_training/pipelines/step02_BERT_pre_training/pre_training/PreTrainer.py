@@ -25,9 +25,9 @@ class PreTrainer(Trainer):
 
         self.nsp_losses = []
         self.mlm_losses = []
-        if self.args.logging_strategy == IntervalStrategy.STEPS:
-            self.nsp_losses = [0] * args.logging_steps
-            self.mlm_losses = [0] * args.logging_steps
+        if self.args is not None and self.args.logging_steps is not None and self.args.logging_strategy == IntervalStrategy.STEPS:
+            self.nsp_losses = [0] * self.args.logging_steps
+            self.mlm_losses = [0] * self.args.logging_steps
 
     def compute_loss(self, model, inputs, return_outputs=False):
         """
@@ -41,7 +41,7 @@ class PreTrainer(Trainer):
             labels = None
         outputs = model(**inputs)
 
-        if self.args.logging_strategy == IntervalStrategy.STEPS:
+        if self.args.logging_strategy == IntervalStrategy.STEPS and self.args.logging_steps is not None:
             self.nsp_losses[self.state.global_step % self.args.logging_steps] = outputs[-1].cpu().detach().numpy()
             self.mlm_losses[self.state.global_step % self.args.logging_steps] = outputs[-2].cpu().detach().numpy()
         else:
