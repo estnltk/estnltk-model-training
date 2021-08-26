@@ -60,6 +60,9 @@ dependencies:
   # BERT related packages: Datasets - Open library of NLP datasets by HuggingFace.
   - huggingface::datasets=1.10.*       # Initially 1.10.2; 1.11.0 is available - should we upgrade?
 
+  # Various metrics for BERT evaluation
+  - scikit-learn=0.24.*
+
   # Development support
   # TODO: Add other development support libraries, including notebook/jupyterlab support, testing
   # TODO: What hooks or executions are needed to enforce flake8, black and other house-keeping tools?

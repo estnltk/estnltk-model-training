@@ -17,7 +17,7 @@ class TextCleaningTestsCases(unittest.TestCase):
         model_path = "bert-base-cased"
         data_path = self.ROOT_DIR + "/data/newsCorpora_subset.tsv"
         self.assertTrue(True)
-        #finetune_BERT_model_on_sequence_classification(model_path, data_path, lowercase="False")
+        finetune_BERT_model_on_sequence_classification(model_path, data_path, lowercase="False")
 
 if __name__ == '__main__':
     unittest.main()

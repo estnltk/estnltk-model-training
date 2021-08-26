@@ -1,10 +1,7 @@
-import csv
+
 import unittest
 from pathlib import Path
-
-import pandas as pd
-from datasets import load_metric, load_dataset
-from transformers import AutoTokenizer, BertForSequenceClassification
+from transformers import AutoTokenizer
 
 from pipelines.step03a_BERT_fine_tuning.datasets.sequence_classification import encode_sequence_classification_dataset
 

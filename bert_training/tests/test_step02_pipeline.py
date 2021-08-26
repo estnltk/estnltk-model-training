@@ -20,6 +20,9 @@ RUN_SLOW_TESTS = int(os.getenv('RUN_SLOW_TESTS', '0'))
 class TextCleaningTestsCases(unittest.TestCase):
     ROOT_DIR = str(Path(__file__).parent.parent)
 
+    def tearDown(self):
+        shutil.rmtree(self.model_path)
+
     def check_if_model_files_exist(self, model_path):
         self.assertTrue(exists(model_path + "/config.json"))
         self.assertTrue(exists(model_path + "/pytorch_model.bin"))
@@ -35,41 +38,43 @@ class TextCleaningTestsCases(unittest.TestCase):
         """
 
         torch.cuda.empty_cache()
-        model_path = self.ROOT_DIR + "/data/test_model_1234125352"
+        self.model_path = self.ROOT_DIR + "/data/test_model_step02_minimal"
         training_files = [self.ROOT_DIR + "/data/corp_res_clean_r_events_par.tsv"]
 
-        if isdir(model_path):
-            shutil.rmtree(model_path)
+        # if dir already exists, then delete it
+        if isdir(self.model_path):
+            shutil.rmtree(self.model_path)
 
-        self.assertFalse(isdir(model_path))
+        self.assertFalse(isdir(self.model_path))
 
-        pre_train_BERT(model_path, training_files)
+        pre_train_BERT(self.model_path, training_files)
 
         # checking if it created a new model
-        self.assertTrue(isdir(model_path))
+        self.assertTrue(isdir(self.model_path))
 
         # checking if model files were created
-        self.check_if_model_files_exist(model_path)
+        self.check_if_model_files_exist(self.model_path)
 
         # checking if it created a checkpoint
-        self.assertTrue(isdir(model_path + "/checkpoint-500"))
+        self.assertTrue(isdir(self.model_path + "/checkpoint-500"))
 
         # checking if the model can be loaded
-        model = BertForPreTraining.from_pretrained(model_path)
+        model = BertForPreTraining.from_pretrained(self.model_path)
         self.assertTrue(isinstance(model, BertForPreTraining))
 
         # checking if the tokenizer can be loaded
-        tokenizer = BertTokenizerFast.from_pretrained(model_path)
+        tokenizer = BertTokenizerFast.from_pretrained(self.model_path)
         self.assertTrue(isinstance(tokenizer, BertTokenizerFast))
-        shutil.rmtree(model_path)
+
 
     def test_pretraining_with_more_params(self):
-        model_path = self.ROOT_DIR + "/data/test_model"
+        self.model_path = self.ROOT_DIR + "/data/test_model_step02_params"
 
         # if dir already exists, then delete it
-        if isdir(model_path):
-            shutil.rmtree(model_path)
-        self.assertFalse(isdir(model_path))
+        if isdir(self.model_path):
+            shutil.rmtree(self.model_path)
+
+        self.assertFalse(isdir(self.model_path))
 
         # NOTE: While running tests we see the output (with transformers 4.8.1):
         #   test_pretraining_with_more_params (tests.test_step02_pipeline.TextCleaningTestsCases) ...
@@ -79,7 +84,7 @@ class TextCleaningTestsCases(unittest.TestCase):
         #   In v5, you will need to use `--report_to all` to get the same behavior as now.
         #   You should start updating your code and make this info disappear :-).
         training_args = TrainingArguments(
-            output_dir=model_path,
+            output_dir=self.model_path,
             overwrite_output_dir=True,
             num_train_epochs=1,
             per_device_train_batch_size=8,
@@ -97,27 +102,27 @@ class TextCleaningTestsCases(unittest.TestCase):
             max_position_embeddings=1024,
             vocab_size=1234,
         )
-        pre_train_BERT(model_path,
+        pre_train_BERT(self.model_path,
                        training_files,
                        training_args=training_args, bert_config=config,
                        vocab_size=4000, lowercase=False, max_length=128, truncation=True, padding=True,
                        special_tokens=special_tokens, additional_special_tokens=additional_special_tokens)
 
         # checking if model files were created
-        self.check_if_model_files_exist(model_path)
+        self.check_if_model_files_exist(self.model_path)
 
-        tokenizer = BertTokenizerFast.from_pretrained(model_path)
+        tokenizer = BertTokenizerFast.from_pretrained(self.model_path)
         self.assertEqual(4000, len(tokenizer.get_vocab().keys()))
 
         # testing that the configs match and vocab size is taken from argument
-        conf = BertConfig.from_pretrained(model_path)
+        conf = BertConfig.from_pretrained(self.model_path)
         config.vocab_size = 4000
         self.assertDictEqual(conf.to_dict(), config.to_dict())
 
         # checking if the model can be loaded
-        model = BertForPreTraining.from_pretrained(model_path)
+        model = BertForPreTraining.from_pretrained(self.model_path)
         self.assertTrue(isinstance(model, BertForPreTraining))
-        #shutil.rmtree(model_path)
+
 
 
 if __name__ == '__main__':
