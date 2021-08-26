@@ -6,7 +6,7 @@ speciality.
 
 Will be further standardised and trained on HWISC data.
 
-Thesis: https://comserv.cs.ut.ee/ati_thesis/datasheet.php?language=en
+Thesis: https://comserv.cs.ut.ee/ati_thesis/datasheet.php?id=72225&year=2021
 
 
 ## Summary - Thesis Abstract
