@@ -110,3 +110,47 @@ or use wrapper-script that will follow (`tail -f`) created SLURM log-file automa
 ```
 $ bash tests/run_quick_tests.sh
 ```
+
+
+## Conda environment update in UTHPC
+
+If you have existing conda environment, then apply its updates so:
+
+```
+$ ssh <username>@rocket.hpc.ut.ee
+[username@rocket]$ cd path/to/your/bert-project/medbert
+[username@rocket medbert]$ module load miniconda3/4.8.2
+[username@rocket medbert]$ conda env update -f medbert.yml
+Collecting package metadata (repodata.json): done
+Solving environment: \ 
+...
+
+```
+
+## Warning: 'The environment is inconsistent, please check the package plan carefully'
+
+Updating might result in warnings like:
+
+```
+The environment is inconsistent, please check the package plan carefully
+The following packages are causing the inconsistency:
+
+- pytorch/linux-64::pytorch==1.9.0=py3.8_cuda11.1_cudnn8.0.5_0
+- conda-forge/linux-64::cudatoolkit==11.1.1=h6406543_8
+
+done
+```
+
+Does it matter? How to fix?
+
+There are various suggestions: 
+https://stackoverflow.com/questions/55527354/the-environment-is-inconsistent-please-check-the-package-plan-carefully
+
+Which might or might not to work. However, the last resort is to re-create the environment fully:
+
+```
+conda remove --name medbert --all
+conda env create -f medbert.yml
+```
+
+But after `conda env update -f medbert.yml` the message can still show up :(
