@@ -23,6 +23,12 @@ You can do it like so:
 (medbert) $ RUN_SLOW_TESTS=1 python -m unittest discover -vvv
 ```
 
+On Windows following seems to work:
+
+```
+(medbert) $ setx RUN_SLOW_TESTS "1" && python -m unittest discover -vvv
+```
+
 
 ## Running certain specific pipeline / test file / test cases
 
