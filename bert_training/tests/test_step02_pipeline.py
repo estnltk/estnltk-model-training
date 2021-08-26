@@ -4,7 +4,7 @@ import unittest
 from os.path import isdir, exists
 from pathlib import Path
 
-from transformers import TrainingArguments, IntervalStrategy, BertForPreTraining, BertTokenizerFast, BertConfig
+from transformers import TrainingArguments, BertForPreTraining, BertTokenizerFast, BertConfig
 import torch
 
 from pipelines.step02_BERT_pre_training.pre_train_BERT import pre_train_BERT
@@ -16,7 +16,7 @@ RUN_SLOW_TESTS = int(os.getenv('RUN_SLOW_TESTS', '0'))
 
 # To execute slow tests use for example:
 #   RUN_SLOW_TESTS=1 python -m unittest tests/test_step02_pipeline.py
-#@unittest.skipIf(not RUN_SLOW_TESTS, "Warning! These tests are slow, since training is slow")
+@unittest.skipIf(not RUN_SLOW_TESTS, "Warning! These tests are slow, since training is slow")
 class TextCleaningTestsCases(unittest.TestCase):
     ROOT_DIR = str(Path(__file__).parent.parent)
 

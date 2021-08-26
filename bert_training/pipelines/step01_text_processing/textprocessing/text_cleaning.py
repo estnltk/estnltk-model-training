@@ -176,7 +176,7 @@ def clean_med(t):
     return t_cleaned
 
 
-def clean_med_r_events(t):
+def clean_med_events(t):
     cleaned = []
     for segment in extract_segments(t):
         cleaned.append(clean_med(Text(segment)))

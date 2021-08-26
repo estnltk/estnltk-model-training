@@ -3,7 +3,6 @@ import unittest
 from os.path import isdir
 from pathlib import Path
 
-from tokenizers import Tokenizer
 from transformers import BertTokenizerFast
 
 from pipelines.step02_BERT_pre_training.tokenizing.vocabulary_creator import create_vocabulary
@@ -48,8 +47,8 @@ class textCleaningTestsCases(unittest.TestCase):
     def test_vocabulary_on_text(self):
         additional_special_tokens = ["<INT>", "<FLOAT>", "<DATE>", "<XXX>", "<ADJ>", "<NAME>", "<ADV>", "<INJ>", "<br>"]
         tokenizer = BertTokenizerFast.from_pretrained(self.ROOT_DIR + "/data/test_model/",
-                                                  do_lower_case=False,
-                                                  additional_special_tokens=additional_special_tokens)
+                                                      do_lower_case=False,
+                                                      additional_special_tokens=additional_special_tokens)
         output = tokenizer.encode("<XXX> <FLOAT> , võrreldes eelmise visiidiga <DATE> .", )
         print(output)
         print(tokenizer.decode(output))

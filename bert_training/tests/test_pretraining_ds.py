@@ -1,21 +1,19 @@
 import os
 import shutil
 import unittest
-import numpy as np
-from os.path import isdir, exists
+
+from os.path import isdir
 from pathlib import Path
 
 from datasets import load_dataset
-from transformers import BertTokenizer, BertTokenizerFast
+from transformers import BertTokenizerFast
 
-from pipelines.step01_create_training_corpus.textprocessing.pretraining_dataset import PreTrainingDataset
 from pipelines.step02_BERT_pre_training.tokenizing.text_dataset_for_NSP import create_dataset_for_NSP
 from pipelines.step02_BERT_pre_training.tokenizing.vocabulary_creator import create_vocabulary
 
 
 class PretrainingDatasetCases(unittest.TestCase):
     ROOT_DIR = str(Path(__file__).parent.parent)
-
     def create_test_vocab(self, model_path, train_files):
         # if dir already exists, then delete it
         if isdir(model_path):
@@ -47,10 +45,9 @@ class PretrainingDatasetCases(unittest.TestCase):
         # testing that the number of sentence pairs is correct
         sentences = 0
         for doc in dataset["text"]:
-            sentences += len(doc.split("\n"))-1
+            sentences += len(doc.split("\n")) - 1
 
         self.assertEqual(len(dataset_enc), sentences)
-
 
 
 if __name__ == '__main__':

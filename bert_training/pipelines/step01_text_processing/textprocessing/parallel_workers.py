@@ -4,7 +4,7 @@ import os
 from estnltk import Text
 from joblib._multiprocessing_helpers import mp
 
-from .text_cleaning import reformat_sentences, clean_med_r_events, clean_med
+from .text_cleaning import reformat_sentences, clean_med_events, clean_med
 
 
 def clean_and_extract_parallel(data_input_f, data_input_args, out_path, max_processes=3, clean=None):
@@ -22,7 +22,7 @@ def clean_and_extract_parallel(data_input_f, data_input_args, out_path, max_proc
         clean = clean_med
 
     elif clean == "clean_med_r_events":
-        clean = clean_med_r_events
+        clean = clean_med_events
 
     max_processes = int(max_processes)
 

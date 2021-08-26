@@ -8,10 +8,10 @@ import psycopg2
 from psycopg2 import sql
 
 from .textprocessing.cda.table_buffer import TableBuffer
-from .textprocessing.text_cleaning import preprocess_to_estnltk_Text, reformat_sentences
+from .textprocessing.text_cleaning import reformat_sentences
 
 
-def clean_and_extract_sentences_db(db_config, source_schema, source_table, target_schema, target_table, clean=None):
+def clean_and_extract(db_config, source_schema, source_table, target_schema, target_table, clean=None):
     """
     Takes texts ('raw_text' column) from source table.schema, cleans then separates sentences and puts the result into
      target schema.table (text column)
@@ -92,4 +92,4 @@ def clean_and_extract_sentences_db(db_config, source_schema, source_table, targe
 
 if __name__ == "__main__":
     a = sys.argv[1:]
-    clean_and_extract_sentences_db(*a)
+    clean_and_extract(*a)

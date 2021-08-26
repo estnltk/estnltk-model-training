@@ -8,7 +8,7 @@ import numpy as np
 
 
 def eval_pretrained_BERT(model_path, input_files, nsp_probability=0.5, mlm_probability=0.15, tokenizer_args=None,
-                         tokenization_args=None, training_args=None, callbacks=None, verbose=True):
+                         tokenization_args=None, training_args=None, callbacks=None, verbose=False):
     """
         :param model_path: (string) path to the model directory, if the directory does not exist, then it is created
         :param input_files: (string or [string]) path(s) to the input .tsv files
@@ -19,7 +19,7 @@ def eval_pretrained_BERT(model_path, input_files, nsp_probability=0.5, mlm_proba
         :param training_args: (dict, default=None), Arguments used in training. If None, the default training
          args will be used (except do_train will be True and output_dir will be the model path). (See: https://huggingface.co/transformers/main_classes/trainer.html#transformers.TrainingArguments)
         :param callbacks: A list of callbacks to customize the training loop. (see https://huggingface.co/transformers/main_classes/callback.html)
-        :param verbose: (boolean, default=True), displays metrics if True.
+        :param verbose: (boolean, default=False), displays metrics if True.
         :returns tuple(mlm_metrics, nsp_metric)
         """
 
@@ -38,7 +38,7 @@ def eval_pretrained_BERT(model_path, input_files, nsp_probability=0.5, mlm_proba
                     res.append(pred[i][j])
                     lab.append(el)
 
-        precision, recall, f1, _ = precision_recall_fscore_support(lab, res, average='weighted')
+        precision, recall, f1, _ = precision_recall_fscore_support(lab, res, average='weighted', zero_division=0)
         acc = accuracy_score(lab, res)
         return {'accuracy': acc, 'precision': precision, 'recall': recall, 'f1': f1}
 
@@ -68,7 +68,7 @@ def eval_pretrained_BERT(model_path, input_files, nsp_probability=0.5, mlm_proba
     def nsp_compute_metrics(pred):
         labels = pred.label_ids
         preds = np.argmax(pred.predictions, axis=-1)
-        precision, recall, f1, _ = precision_recall_fscore_support(labels, preds, average='weighted')
+        precision, recall, f1, _ = precision_recall_fscore_support(labels, preds, average='weighted', zero_division=0)
         acc = accuracy_score(labels, preds)
         return {'accuracy': acc, 'precision': precision, 'recall': recall, 'f1': f1}
 

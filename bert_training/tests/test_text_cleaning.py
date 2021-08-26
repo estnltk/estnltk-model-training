@@ -2,8 +2,8 @@ import unittest
 
 from estnltk import Text
 
-from pipelines.step01_create_training_corpus.textprocessing.text_cleaning import extract_span_ranges, \
-    reformat_sentences, clean_med, clean_med_r_events
+from pipelines.step01_text_processing.textprocessing.text_cleaning import extract_span_ranges, \
+    reformat_sentences, clean_med, clean_med_events
 
 
 def load_test_file(path):
@@ -31,7 +31,7 @@ class textCleaningTestsCases(unittest.TestCase):
     def test_text_cleaning_event_header(self):
         text = "30.06.2021.\n Siin lauses peaks header olema"
         expected = "Siin lauses peaks header olema"
-        actual = reformat_sentences(clean_med_r_events(Text(text))[0])
+        actual = reformat_sentences(clean_med_events(Text(text))[0])
         self.assertEqual(expected, actual)
 
     def test_text_cleaning_event_numbers(self):

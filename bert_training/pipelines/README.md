@@ -1,6 +1,6 @@
 # Pipelines
 
-## Step01 - Create training Corpus
+## Step01 - Corpus
 
 Cleans and turns text collections into form that is ready to be tokenized
 Inputs:
