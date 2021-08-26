@@ -5,7 +5,7 @@
 #SBATCH --nodes=1
 #SBATCH --ntasks-per-node=1
 #SBATCH --mem=500M
-#SBATCH -t 00:10:00
+#SBATCH -t 02:00:00
 
 # Submit this job so:
 #   sbatch sbatch_quick_tests.sh
