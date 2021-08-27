@@ -53,6 +53,22 @@ class TextCleaningTestsCases(unittest.TestCase):
         expected = self.get_all_lines_from_tsv(exp_path)
         self.assertEqual(actual, expected)
 
+    # In following tests the text part is either from multi-column files or from single-column file,
+    # in both cases column is titled as 'text'. Text itself looks like so:
+    #   "24.02.2015 - Kaebusteta
+    #   19.02.2015 -
+    #    Tööstaaž: praegu töötab tarkvara arendajana . Tööstaaž selles töökohas - 4  a., üldine -5,5  a. varasemad ametid - samalaadne"
+    # And output, depending from cleaning method should be either:
+    # clean_med:
+    #   "<DATE> - Kaebusteta <br> <DATE> - <br> Tööstaaž : praegu töötab tarkvara arendajana .
+    #   Tööstaaž selles töökohas - <INT> a. , üldine - <FLOAT> a. varasemad ametid - samalaadne"
+    # clean_med_events:
+    #   "Kaebusteta
+    #   Tööstaaž : praegu töötab tarkvara arendajana .
+    #   Tööstaaž selles töökohas - <INT> a. , üldine - <FLOAT> a. varasemad ametid - samalaadne"
+    #
+    # Actual tested inputs are a bit larger.
+    # Main tested method is pipelines/step01_text_processing/tsv.py -> clean_and_extract(...)
     def test_tsv_to_bert_input_pipeline_clean_none(self):
         corp_path = self.ROOT_DIR + "/data/egcut_epi_mperli_texts_template.tsv"
         corp_path2 = self.ROOT_DIR + "/data/egcut_epi_mperli_texts_template_text_only.tsv"
