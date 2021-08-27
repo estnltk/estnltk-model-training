@@ -5,7 +5,7 @@ from pipelines.step01_text_processing.textprocessing.parallel_workers import cle
 from .textprocessing.text_cleaning import reformat_sentences
 
 
-def clean_and_extract(corp_path, out_file_path, max_processes=1, clean=None):
+def clean_and_extract(corp_path, out_file_path, max_processes=1, clean=None, verbose=False):
     """
     Cleans (optinal) and extract se:param corp_path: path to the corpus directory that contains .xml files
     :param corp_path: Path to the corpus
@@ -14,11 +14,11 @@ def clean_and_extract(corp_path, out_file_path, max_processes=1, clean=None):
          you use a cheap clean function (if at all) than an expensive one.
     :param clean: Function, that cleans takes an EstNLTK object as an argument and cleans it.
     There are two pre-made cleaning functions in this package {clean_med, clean_med_r_events}
-
+    :param verbose: to show progress or not
     """
 
     if max_processes >= 3:
-        _clean_and_extract_par(corp_path, out_file_path, max_processes, clean)
+        _clean_and_extract_par(corp_path, out_file_path, max_processes, clean, verbose)
     # if too few processes are used, then use 1 process
     else:
         with open(out_file_path, "w", newline='', encoding="utf-8") as out_file:
@@ -31,7 +31,7 @@ def clean_and_extract(corp_path, out_file_path, max_processes=1, clean=None):
                 tsv_writer.writerow([sentences])
 
 
-def _clean_and_extract_par(corp_path, out_file_path, max_processes=3, clean=None):
+def _clean_and_extract_par(corp_path, out_file_path, max_processes=3, clean=None, verbose=False):
     """
         Cleans (optinal) and extract sentences from a corpus.
         :param corp_path: path to the corpus directory that contains .xml files
@@ -41,7 +41,7 @@ def _clean_and_extract_par(corp_path, out_file_path, max_processes=3, clean=None
         :param clean: Function, that cleans takes an EstNLTK object as an argument and cleans it.
         There are two pre-made cleaning functions in this package {clean_med, clean_med_r_events}
         """
-    clean_and_extract_parallel(_read_corpus, (corp_path,), out_file_path, max_processes, clean)
+    clean_and_extract_parallel(_read_corpus, (corp_path,), out_file_path, max_processes, clean, verbose=verbose)
 
 
 def _read_corpus(recorded_data, corpus_path):

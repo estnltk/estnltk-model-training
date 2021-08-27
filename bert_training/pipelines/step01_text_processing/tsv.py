@@ -7,7 +7,7 @@ from .textprocessing.text_cleaning import reformat_sentences, clean_med_events, 
 
 
 def clean_and_extract(in_tsv_path, out_path, text_col_i=1, max_processes=1, clean=None, tsv_newline='',
-                      tsv_encoding='utf-8', tsv_delimiter="\t"):
+                      tsv_encoding='utf-8', tsv_delimiter="\t", verbose=False):
     """
         A pipeline that converts and cleans text from a source tsv file into usable form for training a BERT model.
         :param in_tsv_path: path to the source .tsv file
@@ -20,11 +20,12 @@ def clean_and_extract(in_tsv_path, out_path, text_col_i=1, max_processes=1, clea
         :param tsv_delimiter: default = ''
         :param tsv_encoding: default = utf-8
         :param tsv_newline: default = \t
+        :param verbose: to show progress or not
         """
     if max_processes >= 3:
         _clean_and_extract_par(in_tsv_path, out_path, text_col_i,
                                max_processes=max_processes, clean=clean, tsv_newline=tsv_newline,
-                               tsv_encoding=tsv_encoding, tsv_delimiter=tsv_delimiter)
+                               tsv_encoding=tsv_encoding, tsv_delimiter=tsv_delimiter, verbose=verbose)
     else:
         _clean_and_extract(in_tsv_path, out_path, text_col_i, clean=clean, tsv_newline=tsv_newline,
                            tsv_encoding=tsv_encoding, tsv_delimiter=tsv_delimiter)
@@ -67,9 +68,9 @@ def _clean_and_extract(in_tsv_path, out_path, text_col_i=1, clean=None, tsv_newl
 # multiprocess
 def _clean_and_extract_par(tsv_path, out_path, text_col_i=1,
                            max_processes=3, clean=None, tsv_newline='',
-                           tsv_encoding='utf-8', tsv_delimiter="\t"):
+                           tsv_encoding='utf-8', tsv_delimiter="\t", verbose=False):
     clean_and_extract_parallel(_read_tsv, (tsv_path, text_col_i, tsv_newline, tsv_encoding, tsv_delimiter),
-                               out_path, max_processes, clean)
+                               out_path, max_processes, clean, verbose)
 
 
 def _read_tsv(recorded_data, tsv_path, text_col_i, newline='', encoding='utf-8', delimiter="\t"):

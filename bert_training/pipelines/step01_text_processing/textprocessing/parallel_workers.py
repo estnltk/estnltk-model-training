@@ -7,7 +7,7 @@ from joblib._multiprocessing_helpers import mp
 from .text_cleaning import reformat_sentences, clean_med_events, clean_med
 
 
-def clean_and_extract_parallel(data_input_f, data_input_args, out_path, max_processes=3, clean=None):
+def clean_and_extract_parallel(data_input_f, data_input_args, out_path, max_processes=3, clean=None, verbose=False):
     """
     A parallelized pipeline that converts and cleans text from a source tsv file into usable form for training a BERT model.
     :param data_input_f:
@@ -17,6 +17,7 @@ def clean_and_extract_parallel(data_input_f, data_input_args, out_path, max_proc
      you use a cheap clean function (if at all) than an expensive one.
     :param clean: Function, that cleans takes an EstNLTK object as an argument and cleans it.
     There are two pre-made cleaning functions in this package {clean_med, clean_med_r_events}
+    :param verbose: to show progress or not
     """
     if clean == "clean_med":
         clean = clean_med
@@ -30,8 +31,9 @@ def clean_and_extract_parallel(data_input_f, data_input_args, out_path, max_proc
     while threads < 3:
         threads += 1
     threads -= 2
-    os.system("echo max process_count: " + str(mp.cpu_count()))
-    os.system("echo using 1 for inputstream, 1 for outputstream and " + str(threads) + " for processing")
+    if verbose:
+        os.system("echo max process_count: " + str(mp.cpu_count()))
+        os.system("echo using 1 for inputstream, 1 for outputstream and " + str(threads) + " for processing")
 
     recorded_data = mp.Queue(10000)
     return_data = mp.Queue(10000)
@@ -52,16 +54,20 @@ def clean_and_extract_parallel(data_input_f, data_input_args, out_path, max_proc
     for i in range(threads):
         recorded_data.put(Text("<END>"))
     recorded_data.close()
-    os.system("echo file-reader finished")
+
+    if verbose:
+        os.system("echo file-reader finished")
 
     for i in jobs:
         i.join()
-        os.system("echo a processing thread finished")
+        if verbose:
+            os.system("echo a processing thread finished")
 
     return_data.put("<END>")
     return_data.close()
     writer.join()
-    os.system("echo Writer finished")
+    if verbose:
+        os.system("echo Writer finished")
 
 
 def _process(recorded_data, clean, return_data):
