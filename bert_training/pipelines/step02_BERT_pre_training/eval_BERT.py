@@ -4,6 +4,7 @@ from sklearn.metrics import precision_recall_fscore_support, accuracy_score
 from transformers import DataCollatorForLanguageModeling, Trainer, BertForNextSentencePrediction, BertForMaskedLM, \
     AutoTokenizer, TrainingArguments
 
+from pipelines.step02_BERT_pre_training.pre_training.Helpers import training_args_deprecation_fix
 from pipelines.step02_BERT_pre_training.tokenizing.text_dataset_for_NSP import create_dataset_for_NSP
 import numpy as np
 
@@ -53,7 +54,7 @@ def eval_pretrained_BERT(model_path, input_files, nsp_probability=0.5, mlm_proba
     model = BertForMaskedLM.from_pretrained(model_path)
     trainer = Trainer(
         model=model,
-        args=None if training_args is None else TrainingArguments(**training_args),
+        args=TrainingArguments(**training_args_deprecation_fix(training_args)),
         eval_dataset=dataset_enc,
         data_collator=data_collator,
         tokenizer=tokenizer,
@@ -77,7 +78,7 @@ def eval_pretrained_BERT(model_path, input_files, nsp_probability=0.5, mlm_proba
     dataset_enc = dataset_enc.rename_column("next_sentence_label", "labels")
     trainer = Trainer(
         model=model,
-        args=training_args,
+        args=TrainingArguments(**training_args_deprecation_fix(training_args)),
         eval_dataset=dataset_enc,
         tokenizer=tokenizer,
         callbacks=callbacks,

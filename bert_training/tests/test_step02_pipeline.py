@@ -66,7 +66,6 @@ class TextCleaningTestsCases(unittest.TestCase):
         tokenizer = BertTokenizerFast.from_pretrained(self.model_path)
         self.assertTrue(isinstance(tokenizer, BertTokenizerFast))
 
-
     def test_pretraining_with_more_params(self):
         self.model_path = self.ROOT_DIR + "/data/test_model_step02_params"
 
@@ -76,20 +75,13 @@ class TextCleaningTestsCases(unittest.TestCase):
 
         self.assertFalse(isdir(self.model_path))
 
-        # NOTE: While running tests we see the output (with transformers 4.8.1):
-        #   test_pretraining_with_more_params (tests.test_step02_pipeline.TextCleaningTestsCases) ...
-        #   PyTorch: setting up devices
-        #   The default value for the training argument `--report_to` will change
-        #   in v5 (from all installed integrations to none).
-        #   In v5, you will need to use `--report_to all` to get the same behavior as now.
-        #   You should start updating your code and make this info disappear :-).
-        training_args = TrainingArguments(
-            output_dir=self.model_path,
-            overwrite_output_dir=True,
-            num_train_epochs=1,
-            per_device_train_batch_size=8,
-            per_device_eval_batch_size=8,
-        )
+        training_args = {
+            "output_dir": self.model_path,
+            "overwrite_output_dir": True,
+            "num_train_epochs": 1,
+            "per_device_train_batch_size": 8,
+            "per_device_eval_batch_size": 8
+        }
 
         torch.cuda.empty_cache()
         special_tokens = ["[PAD]", "[UNK]", "[CLS]", "[SEP]", "[MASK]"]
@@ -122,7 +114,6 @@ class TextCleaningTestsCases(unittest.TestCase):
         # checking if the model can be loaded
         model = BertForPreTraining.from_pretrained(self.model_path)
         self.assertTrue(isinstance(model, BertForPreTraining))
-
 
 
 if __name__ == '__main__':

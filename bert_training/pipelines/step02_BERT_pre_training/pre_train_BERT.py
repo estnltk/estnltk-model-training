@@ -11,12 +11,13 @@ from transformers import BertConfig, BertTokenizerFast, DataCollatorForLanguageM
     TrainingArguments, TrainerCallback, PreTrainedModel
 
 from pipelines.step02_BERT_pre_training.pre_training.BertForPreTrainingMod import BertForPreTrainingMod
+from pipelines.step02_BERT_pre_training.pre_training.Helpers import training_args_deprecation_fix
 from pipelines.step02_BERT_pre_training.pre_training.PreTrainer import PreTrainer
 from pipelines.step02_BERT_pre_training.tokenizing.text_dataset_for_NSP import create_dataset_for_NSP
 from pipelines.step02_BERT_pre_training.tokenizing.vocabulary_creator import create_vocabulary
 
 
-def pre_train_BERT(model_path: str, input_files, training_args: TrainingArguments = None, vocab_size: int = 3000,
+def pre_train_BERT(model_path: str, input_files, training_args: dict = None, vocab_size: int = 3000,
                    bert_config: BertConfig = None, mlm_probability: float = 0.15,
                    nsp_probability: float = 0.5,
                    model_init: Callable[[], PreTrainedModel] = None,
@@ -26,7 +27,7 @@ def pre_train_BERT(model_path: str, input_files, training_args: TrainingArgument
     """
     :param model_path: (string) path to the model directory, if the directory does not exist, then it is created
     :param input_files: (string or [string]) path(s) to the input .tsv files
-    :param training_args: (TrainingArguments, default=None), Arguments used in training. If None, the default training
+    :param training_args: (dict, default=None), Arguments used in training. If None, the default training
      args will be used (except do_train will be True and output_dir will be the model path). (See: https://huggingface.co/transformers/main_classes/trainer.html#transformers.TrainingArguments)
     :param vocab_size: (int) The number of tokens to add into the vocabulary or is in the provided vocabulary (including the    special tokens)
     :param bert_config: (BertConfig object, default=None) bert config (See https://huggingface.co/transformers/model_doc/bert.html#bertconfig)
@@ -87,8 +88,7 @@ def pre_train_BERT(model_path: str, input_files, training_args: TrainingArgument
 
     # if training_args is not provided, then create a basic one
     if training_args is None:
-        training_args = TrainingArguments(output_dir=model_path,
-                                          do_train=True)
+        training_args = {"output_dir": model_path, "do_train": True}
 
     # initializing the data collator
     data_collator = DataCollatorForLanguageModeling(
@@ -100,7 +100,7 @@ def pre_train_BERT(model_path: str, input_files, training_args: TrainingArgument
     # initializing the trainer
     trainer = PreTrainer(
         model=model,
-        args=training_args,
+        args=TrainingArguments(**training_args_deprecation_fix(training_args)),
         data_collator=data_collator,
         train_dataset=dataset_enc,
         tokenizer=tokenizer,
