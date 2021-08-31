@@ -12,14 +12,14 @@ def clean_and_extract(in_tsv_path, out_path, text_col_i=1, max_processes=1, clea
         A pipeline that converts and cleans text from a source tsv file into usable form for training a BERT model.
         :param in_tsv_path: path to the source .tsv file
         :param out_path: path to the output .txt file
-        :param text_col_i: index of the column, that contains text to be cleaned and extracted
+        :param text_col_i: index of the column (zero-based), that contains text to be cleaned and extracted
         :param max_processes: The number of processes you want to create and use. Note that you don't need as many if
          you use a cheap clean function (if at all) than an expensive one.
         :param clean: Function, that cleans takes an EstNLTK object as an argument and cleans it.
         There are two pre-made cleaning functions in this package {clean_med, clean_med_r_events}
-        :param tsv_delimiter: default = ''
-        :param tsv_encoding: default = utf-8
-        :param tsv_newline: default = \t
+        :param tsv_newline: default = '', used for output file (input newline assumed to be '')
+        :param tsv_encoding: default = 'utf-8', used for output file (input file assumed to be in utf-8)
+        :param tsv_delimiter: default = "\t", used for input and output file, both
         :param verbose: to show progress or not
         """
     if max_processes >= 3:
