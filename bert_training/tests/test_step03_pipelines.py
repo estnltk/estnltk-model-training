@@ -4,8 +4,9 @@ import unittest
 from pathlib import Path
 
 from transformers import BertForSequenceClassification
+from transformers.file_utils import PaddingStrategy
 
-from pipelines.step03a_BERT_fine_tuning.SequenceClassification import finetune_BERT
+from pipelines.step03_BERT_fine_tuning.SequenceClassification import finetune_BERT
 
 RUN_SLOW_TESTS = int(os.getenv('RUN_SLOW_TESTS', '0'))
 

@@ -2,7 +2,7 @@ import unittest
 from pathlib import Path
 from transformers import AutoTokenizer
 
-from pipelines.step03a_BERT_fine_tuning import SequenceClassification
+from pipelines.step03_BERT_fine_tuning import SequenceClassification
 
 
 class step03DatasetTestsCases(unittest.TestCase):

@@ -16,7 +16,7 @@ def finetune_BERT(model_path, save_model=True, dataset_args=None, map_args=None,
                   callbacks: Optional[List[TrainerCallback]] = None,
                   optimizers: Tuple[torch.optim.Optimizer, torch.optim.lr_scheduler.LambdaLR] = (None, None)):
     """
-    Fine tunes a bert model
+    Fine-tunes a bert model on a sequence classification task
     :param model_path: (str) Path to the pretrained BERT model
     :param save_model: (bool, default=True) To save a model or not
     :param dataset_args: (dict, default=None) A dictionary that can contain:
@@ -62,7 +62,7 @@ def finetune_BERT(model_path, save_model=True, dataset_args=None, map_args=None,
         preds = np.argmax(pred.predictions, axis=-1)
         precision, recall, f1, _ = precision_recall_fscore_support(labels, preds, average='weighted', zero_division=0)
         acc = accuracy_score(labels, preds)
-        return {'accuracy': acc, 'precision': precision, 'recall': recall, 'f1': f1}
+        return {'accuracy': float(acc), 'precision': float(precision), 'recall': float(recall), 'f1': float(f1)}
 
     model = BertForSequenceClassification.from_pretrained(model_path, num_labels=len(cls_to_index))
 
@@ -128,17 +128,17 @@ def encode_dataset(tokenizer, train_data_paths="", eval_data_paths="", class_to_
         # converting classes set to a list and sorting it so it would be deterministic
         classes = list(classes)
         classes.sort()
+        classes = [str(i) for i in classes]
 
         # assigning an index to a class and vice versa
         class_to_index = {v: k for k, v in enumerate(classes)}
         index_to_class = {k: v for k, v in enumerate(classes)}
     else:
         index_to_class = {v: k for k, v in class_to_index.items()}
-
     # tokenization function
     def tokenize(batch):
         tokenized_sentences = tokenizer(text=batch[text_col], **tokenization_args)
-        tokenized_sentences['label'] = [class_to_index[i] for i in batch[y_col]]
+        tokenized_sentences['label'] = [class_to_index[str(i)] for i in batch[y_col]]
         return tokenized_sentences
 
     return dataset.map(tokenize, **map_args), class_to_index, index_to_class
