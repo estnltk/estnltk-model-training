@@ -6,7 +6,7 @@ from pathlib import Path
 from transformers import BertForSequenceClassification
 from transformers.file_utils import PaddingStrategy
 
-from pipelines.step03_BERT_fine_tuning.SequenceClassification import finetune_BERT
+from pipelines.step03_BERT_fine_tuning import SequenceClassification, TokenClassification
 
 RUN_SLOW_TESTS = int(os.getenv('RUN_SLOW_TESTS', '0'))
 
@@ -55,7 +55,8 @@ class TextCleaningTestsCases(unittest.TestCase):
         }
 
         # fine-tuning the model
-        res = finetune_BERT(model_path, True, dataset_args, map_args, tokenizer_args, tokenization_args, training_args)
+        res = SequenceClassification.finetune_BERT(model_path, True, dataset_args, map_args, tokenizer_args,
+                                                   tokenization_args, training_args)
 
         model = BertForSequenceClassification.from_pretrained(self.output_dir)
 
@@ -103,7 +104,8 @@ class TextCleaningTestsCases(unittest.TestCase):
         }
 
         # First fine-tuning the model
-        finetune_BERT(model_path, True, dataset_args, map_args, tokenizer_args, tokenization_args, training_args)
+        SequenceClassification.finetune_BERT(model_path, True, dataset_args, map_args, tokenizer_args,
+                                             tokenization_args, training_args)
 
         # creating a new dataset_args dict to use eval dataset
         dataset_args = {
@@ -113,8 +115,61 @@ class TextCleaningTestsCases(unittest.TestCase):
             "skiprows": 0,
             "delimiter": "\t"
         }
-        res = finetune_BERT(self.output_dir, True, dataset_args, map_args, tokenizer_args, tokenization_args,
-                            training_args)
+        res = SequenceClassification.finetune_BERT(self.output_dir, True, dataset_args, map_args, tokenizer_args,
+                                                   tokenization_args,
+                                                   training_args)
+
+        # checking if keys exist in ds.
+        for k in ['eval_loss', 'eval_accuracy', 'eval_precision', 'eval_recall', 'eval_f1']:
+            self.assertTrue(k in res.keys())
+
+    def test_finetuning_and_eval_of_token_classification_model(self):
+        # setting parameters
+        model_path = "tartuNLP/EstBERT"
+        self.output_dir = self.ROOT_DIR + "/data/test_model_step03_token_classification"
+        input_files = [self.ROOT_DIR + "/data/step03_tok_class_horisont_example.tsv"]
+
+        dataset_args = {
+            "train_data_paths": input_files,
+            "text_col": "text",
+            "y_col": "y",
+            "skiprows": 0,
+            "delimiter": "\t"
+        }
+        map_args = {
+            "batched": True,
+        }
+        tokenizer_args = {
+            "lowercase": False,
+        }
+        tokenization_args = {
+            "max_length": 128,
+            "padding": "max_length",
+            "truncation": True
+        }
+        training_args = {
+            "output_dir": self.output_dir,
+            "overwrite_output_dir": True,
+            "num_train_epochs": 1,
+            "per_device_train_batch_size": 8,
+            "per_device_eval_batch_size": 8
+        }
+
+        # First fine-tuning the model
+        TokenClassification.finetune_BERT(model_path, True, dataset_args, map_args, tokenizer_args, tokenization_args,
+                                          training_args)
+
+        # creating a new dataset_args dict to use eval dataset
+        dataset_args = {
+            "eval_data_paths": input_files,
+            "text_col": "text",
+            "y_col": "y",
+            "skiprows": 0,
+            "delimiter": "\t"
+        }
+        res = TokenClassification.finetune_BERT(self.output_dir, True, dataset_args, map_args, tokenizer_args,
+                                                tokenization_args,
+                                                training_args)
 
         # checking if keys exist in ds.
         for k in ['eval_loss', 'eval_accuracy', 'eval_precision', 'eval_recall', 'eval_f1']:

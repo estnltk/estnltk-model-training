@@ -135,10 +135,11 @@ def encode_dataset(tokenizer, train_data_paths="", eval_data_paths="", class_to_
         index_to_class = {k: v for k, v in enumerate(classes)}
     else:
         index_to_class = {v: k for k, v in class_to_index.items()}
+
     # tokenization function
     def tokenize(batch):
         tokenized_sentences = tokenizer(text=batch[text_col], **tokenization_args)
         tokenized_sentences['label'] = [class_to_index[str(i)] for i in batch[y_col]]
         return tokenized_sentences
 
-    return dataset.map(tokenize, **map_args), class_to_index, index_to_class
+    return dataset.map(tokenize, remove_columns=[text_col, y_col], **map_args), class_to_index, index_to_class
