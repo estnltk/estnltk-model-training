@@ -116,5 +116,6 @@ class TextCleaningTestsCases(unittest.TestCase):
         self.assertTrue(isinstance(model, BertForPreTraining))
 
 
+
 if __name__ == '__main__':
     unittest.main()

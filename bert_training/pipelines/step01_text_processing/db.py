@@ -1,7 +1,7 @@
 import sys
 import time
 from datetime import timedelta
-
+from estnltk.storage.postgres import BlockQuery
 from estnltk import Text
 from tqdm import tqdm
 import psycopg2

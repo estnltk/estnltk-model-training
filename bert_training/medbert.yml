@@ -32,13 +32,13 @@ channels:
 # We start with python, and then include everything we need (main libraries, not their dependencies)
 # Most libraries are listed so that micro version is left free (should be safe)
 dependencies:
-  # Python 3.8.11 is available since 2021-06-28
-  # Python 3.8 because it is the highest Python version currently supported by EstNLTK v1.6.8b0
-  - python=3.8.10
+  # Updated to 3.8.11
+  # Python 3.8 because it is the highest Python version currently supported by EstNLTK v1.6.9b0
+  - python=3.8.11
 
   # Main libraries, i.e. those that are imported from our Python files
   # TODO: Add other main libraries
-  - estnltk::estnltk=1.6.8b0           # Initially 1.6.8b0. Pre-processing for BERT pre-training.
+  - estnltk::estnltk=1.6.9b            # Updated to 1.6.9b to fix BlockQuery bug.
   #- joblib=1.0.*                      # Initially 1.0.1; estnltk installs 1.0.1. Lightweight pipelining with Python functions.
   #- tqdm=4.61.*                       # Initially 4.61.1; 4.62.1 is available: after estnltk install there is 4.62.1 available, after datasets 4.49.0 is available
   #- regex=2021.4.*                    # Initially 2021.4.4; 2021.8.3 is available; after estnltk install there is 2021.8.3 available
@@ -76,7 +76,8 @@ dependencies:
   # Use pip for dependencies that are not available via conda i.e. no way to install/manage via conda
   # Comment thoroughly why is it needed.
   # For now, only template/example on how to declare pip itself and pip-based dependencies:
-  ##- pip=21.1.*   # estnltk installs 21.2.4 as dep
-  ##- pip:
-  ##    - somepackage1==1.2.*
-  ##    - somepackage2==3.4.*
+  - pip=21.1.*   # estnltk installs 21.2.4 as dep
+
+  - pip:
+      # Allows the creation of temporary postgre databases. Useful for testing
+      - git+https://github.com/tk0miya/testing.postgresql.git@c81ded434d00ec8424de0f9e1f4063c778c6aaa8

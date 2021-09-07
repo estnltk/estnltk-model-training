@@ -1,5 +1,6 @@
 import csv
 import unittest
+
 from pathlib import Path
 
 from pipelines.step01_text_processing import corpus, tsv
