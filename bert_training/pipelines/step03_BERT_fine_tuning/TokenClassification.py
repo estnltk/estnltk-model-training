@@ -1,5 +1,5 @@
 import csv
-from typing import Optional, Tuple, List
+from typing import Optional, Tuple, List, Union
 
 import datasets
 import numpy as np
@@ -10,52 +10,104 @@ from transformers import TrainerCallback, AutoTokenizer, BertConfig, BertForToke
     TrainingArguments
 
 from pipelines.step02_BERT_pre_training.pre_training.Helpers import training_args_deprecation_fix
+from pipelines.step03_BERT_fine_tuning.dataloaders import Tokens
 
 
-def finetune_BERT(model_path, save_model=True, dataset_args=None, map_args=None, tokenizer_args=None,
-                  tokenization_args=None, training_args=None, compute_metrics=None,
+def finetune_BERT(model_path: str,
+                  data_loader: Union[Tokens.Tsv, Tokens.EstNLTKCol],
+                  label_all_subword_units: bool = True,
+                  save_model: bool = True,
+                  map_args: Optional[dict] = None,
+                  tokenizer_args: Optional[dict] = None,
+                  tokenization_args: Optional[dict] = None,
+                  training_args: dict = None,
+                  compute_metrics=None,
                   callbacks: Optional[List[TrainerCallback]] = None,
                   optimizers: Tuple[torch.optim.Optimizer, torch.optim.lr_scheduler.LambdaLR] = (None, None)):
     """
     Fine-tunes a bert model on a sequence classification task
     :param model_path: (str) Path to the pretrained BERT model
+    :param data_loader: (Union[Sequences.Tsv, Sequences.EstNLTKCol]) A class that is used to read the input data
+    :param label_all_subword_units: (bool = True) to label all subword units or only the first
     :param save_model: (bool, default=True) To save a model or not
-    :param dataset_args: (dict, default=None) A dictionary that can contain:
-        :param tokenizer: (transformers.PreTrainedTokenize) See: https://huggingface.co/transformers/main_classes/tokenizer.html#pretrainedtokenizer
-        :param train_data_paths: (str or list of str, default="") path or paths to files, that contain training data
-        :param eval_data_paths: (str or list of str, default="") path or paths to files, that contain evaluation data
-        :param label_all_subword_units: (bool, default=False) if set to True, the function labels all subword units, if False, then only the first
-        :param class_to_index: (dict, default=None) a dictionary that maps classes/labels to indices
-        :param has_header_col: (bool, default=True) Set to True if the column names are in the dataset. If False then set text_col and y_col as integers!
-        :param text_col: (str or int, default="text") The column name or index in which the sentences are
-        :param y_col: (str or int, default="y") The column name or index of the response variable
-        :param skiprows: (int, default=0) skips described rows in the data files
-        :param delimiter: (str, default="\t") the delimiter in the data files
-    :param map_args: (dict, default=None) See: https://huggingface.co/docs/datasets/package_reference/main_classes.html?highlight=map#datasets.Dataset.map
-    :param tokenizer_args: (dict, default=None) See: https://huggingface.co/transformers/model_doc/bert.html#berttokenizerfast
-    :param tokenization_args: (dict, default=None) See: https://huggingface.co/transformers/internal/tokenization_utils.html#transformers.tokenization_utils_base.PreTrainedTokenizerBase.__call__
-    :param training_args: (dict, default=None), Arguments used in training. If None, the default training
+    :param map_args: (Optional[dict] = None) See: https://huggingface.co/docs/datasets/package_reference/main_classes.html?highlight=map#datasets.Dataset.map
+    :param tokenizer_args: (Optional[dict] = None) See: https://huggingface.co/transformers/model_doc/bert.html#berttokenizerfast
+    :param tokenization_args: (Optional[dict] = None) See: https://huggingface.co/transformers/internal/tokenization_utils.html#transformers.tokenization_utils_base.PreTrainedTokenizerBase.__call__
+    :param training_args: (Optional[dict] = None), Arguments used in training. If None, the default training
          args will be used (except do_train will be True and output_dir will be the model path). (See: https://huggingface.co/transformers/main_classes/trainer.html#transformers.TrainingArguments)
-    :param compute_metrics: (function, default=None), Function that calculates metrics. If None then accuracy, precision, recall and f1 scores are calculated
-    :param callbacks: (list of functions, default=None) A list of callbacks to customize the training loop. (see https://huggingface.co/transformers/main_classes/callback.html)
-    :param optimizers: (A tuple containing the optimizer and the scheduler, default = (None, None)) Will default to an instance of AdamW on your model and a scheduler given by get_linear_schedule_with_warmup() controlled by args.
-    :return: If eval_dataset is provided, then it returns the results of the evaluation. Otherwise None.
+    :param compute_metrics: (function = None), Function that calculates metrics. If None then accuracy, precision, recall and f1 scores are calculated
+    :param callbacks: (Optional[List[TrainerCallback]] = None) A list of callbacks to customize the training loop. (see https://huggingface.co/transformers/main_classes/callback.html)
+    :param optimizers: (Tuple[torch.optim.Optimizer, torch.optim.lr_scheduler.LambdaLR] = (None, None))) Will default to an instance of AdamW on your model and a scheduler given by get_linear_schedule_with_warmup() controlled by args.
+    :return: model.
     """
 
     # dataset creation
     tokenizer = AutoTokenizer.from_pretrained(model_path, **tokenizer_args)
 
-    # if class to index is not provided, then try to load it from the config
-    if "class_to_index" not in dataset_args or dataset_args['dataset_args'] is None:
-        config = BertConfig.from_pretrained(model_path)
-        if "label2id" in config.to_dict().keys() and config.label2id != {'LABEL_0': 0, 'LABEL_1': 1}:
-            dataset_args['class_to_index'] = config.label2id
+    # preparing the dataset for sequence classification
+    ds, cls_to_index, index_to_cls = encode_dataset(tokenizer, data_loader,
+                                                    label_all_subword_units=label_all_subword_units,
+                                                    tokenization_args=tokenization_args,
+                                                    map_args=map_args)
+    if ds is None:
+        raise Exception("No dataset was provided")
+
+    model = BertForTokenClassification.from_pretrained(model_path, num_labels=len(cls_to_index))
+
+    trainer = Trainer(
+        model=model,
+        args=TrainingArguments(**training_args_deprecation_fix(training_args)),
+        train_dataset=ds,
+        compute_metrics=compute_metrics,
+        callbacks=callbacks,
+        optimizers=optimizers,
+    )
+
+    trainer.train()
+
+    if save_model:
+        trainer.model.config.id2label = index_to_cls
+        trainer.model.config.label2id = cls_to_index
+        trainer.save_model()
+        tokenizer.save_pretrained(training_args['output_dir'])
+
+    return trainer.model
+
+
+def evaluate(model_path: str,
+             data_loader: Union[Tokens.Tsv, Tokens.EstNLTKCol],
+             label_all_subword_units: bool = True,
+             map_args: Optional[dict] = None,
+             tokenizer_args: Optional[dict] = None,
+             tokenization_args: Optional[dict] = None,
+             training_args: dict = None,
+             compute_metrics=None,
+             callbacks: Optional[List[TrainerCallback]] = None,
+             optimizers: Tuple[torch.optim.Optimizer, torch.optim.lr_scheduler.LambdaLR] = (None, None)):
+    """
+    Evaluates a bert model on a Token classification task
+    :param model_path: (str) Path to the pretrained BERT model
+    :param data_loader: (Union[Sequences.Tsv, Sequences.EstNLTKCol]) a class that is used to read the input data
+    :param label_all_subword_units: (bool = True) to label all subword units or only the first
+    :param map_args: (Optional[dict] = None) See: https://huggingface.co/docs/datasets/package_reference/main_classes.html?highlight=map#datasets.Dataset.map
+    :param tokenizer_args: (Optional[dict] = None) See: https://huggingface.co/transformers/model_doc/bert.html#berttokenizerfast
+    :param tokenization_args: (Optional[dict] = None) See: https://huggingface.co/transformers/internal/tokenization_utils.html#transformers.tokenization_utils_base.PreTrainedTokenizerBase.__call__
+    :param training_args: (Optional[dict] = None), Arguments used in training. If None, the default training
+         args will be used (except do_train will be True and output_dir will be the model path). (See: https://huggingface.co/transformers/main_classes/trainer.html#transformers.TrainingArguments)
+    :param compute_metrics: (function = None), Function that calculates metrics. If None then accuracy, precision, recall and f1 scores are calculated
+    :param callbacks: (Optional[List[TrainerCallback]] = None) A list of callbacks to customize the training loop. (see https://huggingface.co/transformers/main_classes/callback.html)
+    :param optimizers: (Tuple[torch.optim.Optimizer, torch.optim.lr_scheduler.LambdaLR] = (None, None))) Will default to an instance of AdamW on your model and a scheduler given by get_linear_schedule_with_warmup() controlled by args.
+    :return: The results of the compute metrics function + runtime stats.
+    """
+
+    # dataset creation
+    tokenizer = AutoTokenizer.from_pretrained(model_path, **tokenizer_args)
 
     # preparing the dataset for sequence classification
-    ds, cls_to_index, index_to_cls = encode_dataset(tokenizer,
+    ds, cls_to_index, index_to_cls = encode_dataset(tokenizer, data_loader,
+                                                    label_all_subword_units=label_all_subword_units,
                                                     tokenization_args=tokenization_args,
-                                                    map_args=map_args,
-                                                    **dataset_args)
+                                                    map_args=map_args)
     if ds is None:
         raise Exception("No dataset was provided")
 
@@ -89,113 +141,38 @@ def finetune_BERT(model_path, save_model=True, dataset_args=None, map_args=None,
     trainer = Trainer(
         model=model,
         args=TrainingArguments(**training_args_deprecation_fix(training_args)),
-        train_dataset=ds['train'] if 'train' in ds else None,
-        eval_dataset=ds['eval'] if 'eval' in ds else None,
+        eval_dataset=ds,
         compute_metrics=tc_compute_metrics if compute_metrics is None else compute_metrics,
         callbacks=callbacks,
         optimizers=optimizers,
     )
 
-    if 'train' in ds:
-        trainer.train()
-
-    if save_model:
-        trainer.model.config.id2label = index_to_cls
-        trainer.model.config.label2id = cls_to_index
-        trainer.save_model()
-        tokenizer.save_pretrained(training_args['output_dir'])
-
-    if 'eval' in ds:
-        return trainer.evaluate()
+    return trainer.evaluate()
 
 
-def encode_dataset(tokenizer, train_data_paths="", eval_data_paths="", has_header_col=True, text_col="text", y_col="y",
-                   label_all_subword_units=False, class_to_index=None, skiprows=0, delimiter="\t",
+def encode_dataset(tokenizer, data_loader=None, label_all_subword_units=False, class_to_index=None,
                    tokenization_args=None, map_args=None):
     """
     Tokenizes the input datasets and makes sure that labels are turned into indices
     :param tokenizer: (transformers.PreTrainedTokenize) See: https://huggingface.co/transformers/main_classes/tokenizer.html#pretrainedtokenizer
-    :param train_data_paths: (str or list of str, default="") path or paths to files, that contain training data
-    :param eval_data_paths: (str or list of str, default="") path or paths to files, that contain evaluation data
+    :param data_loader: (Union[Sequences.Tsv, Sequences.EstNLTKCol]) a class that is used to read the input data
     :param label_all_subword_units: (bool, default=False) if set to True, the function labels all subword units, if False, then only the first
     :param class_to_index: (dict, default=None) a dictionary that maps classes/labels to indices
-    :param has_header_col: (bool, default=True) Set to True if the column names are in the dataset. If False then set text_col and y_col as integers!
-    :param text_col: (str or int, default="text") The column name or index in which the sentences are
-    :param y_col: (str or int, default="y") The column name or index of the response variable
-    :param skiprows: (int, default=0) skips described rows in the data files
-    :param delimiter: (str, default="\t") the delimiter in the data files
     :param tokenization_args: (dict, default=None) note: is_split_into_words is set to True, original default = False". See: https://huggingface.co/transformers/internal/tokenization_utils.html#transformers.tokenization_utils_base.PreTrainedTokenizerBase.__call__
     :param map_args: (dict, default=None) See: https://huggingface.co/docs/datasets/package_reference/main_classes.html?highlight=map#datasets.Dataset.map
     :return:
     """
 
     # token rows into sentences
-    def _read_BIO_format(file_path):
-        sentences = []
-        labels = []
-        tokens = []
-        labs = []
-        with open(file_path, encoding="utf-8") as input_file:
-            reader = csv.reader(input_file, delimiter=delimiter)
 
-            if has_header_col and isinstance(text_col, str) and isinstance(y_col, str):
-                tok_i, lab_i = resolve_ds_col_ids(next(reader), text_col, y_col)
-            elif isinstance(text_col, int) and isinstance(y_col, int):
-                tok_i, lab_i = text_col, y_col
-            else:
-                raise ValueError("Invalid combination of has_header_col, text_col and y_col")
-
-
-            for _ in range(skiprows):
-                next(reader)
-            for row in reader:
-                if row[0] == '':
-                    sentences.append(tokens)
-                    labels.append(labs)
-                    tokens = []
-                    labs = []
-                else:
-                    tokens.append(row[tok_i])
-                    labs.append(row[lab_i])
-
-        return sentences, labels
-
-    def _build_dict(data_paths):
-        if not isinstance(data_paths, list):
-            data_paths = [data_paths]
-        ds = {"X": [], "Y": []}
-        if data_paths[0] == "":
-            return ds
-
-        for path in data_paths:
-            x, y = _read_BIO_format(path)
-            ds['X'].extend(x)
-            ds['Y'].extend(y)
-        return ds
-
-    train = _build_dict(train_data_paths)
-    evl = _build_dict(eval_data_paths)
-
-    train_dataset = Dataset.from_dict(train)
-    eval_dataset = Dataset.from_dict(evl)
-
-    dataset = datasets.DatasetDict({"train": train_dataset, "eval": eval_dataset})
-
-    # removing empty
-    keys_to_pop = []
-    for k in dataset.keys():
-        if dataset[k].num_rows == 0:
-            keys_to_pop.append(k)
-    for k in keys_to_pop:
-        dataset.pop(k)
+    dataset = data_loader.read()
 
     if class_to_index is None:
         # finding all class labels
         classes = set()
-        for s in dataset.keys():
-            for labels in dataset[s]['Y']:
-                for lab in np.unique(labels):
-                    classes.add(lab)
+        for labels in dataset['y']:
+            for lab in np.unique(labels):
+                classes.add(lab)
         # converting classes set to a list and sorting it so it would be deterministic
         classes = list(classes)
         classes.sort()
@@ -216,7 +193,7 @@ def encode_dataset(tokenizer, train_data_paths="", eval_data_paths="", has_heade
         tokenized_inputs = tokenizer(text=examples["X"], **tokenization_args)
 
         labels = []
-        for i, label in enumerate(examples["Y"]):
+        for i, label in enumerate(examples["y"]):
             word_ids = tokenized_inputs.word_ids(batch_index=i)
             previous_word_idx = None
             label_ids = []
@@ -239,17 +216,4 @@ def encode_dataset(tokenizer, train_data_paths="", eval_data_paths="", has_heade
         tokenized_inputs["labels"] = labels
         return tokenized_inputs
 
-    return dataset.map(tokenize_and_align_labels, remove_columns=["X", "Y"], **map_args), class_to_index, index_to_class
-
-
-def resolve_ds_col_ids(row, text_col, y_col):
-    return resolve_ds_col_id(row, text_col), resolve_ds_col_id(row, y_col)
-
-
-def resolve_ds_col_id(row, col):
-    if isinstance(col, int):
-        return col
-    for i, n in enumerate(row):
-        if n.strip() == col:
-            return i
-    return None
+    return dataset.map(tokenize_and_align_labels, remove_columns=["X", "y"], **map_args), class_to_index, index_to_class

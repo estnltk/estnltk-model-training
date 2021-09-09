@@ -22,7 +22,7 @@ RUN_DB_TESTS = int(os.getenv('RUN_DB_TESTS', '0'))
 
 # To execute slow tests use for example:
 #   RUN_DB_TESTS=1 python -m unittest tests/test_step01_collections.py
-# @unittest.skipIf(not RUN_DB_TESTS, "These tests require initdb location in PATH")
+@unittest.skipIf(not RUN_DB_TESTS, "These tests require initdb location in PATH")
 class TextCleaningTestsCases(unittest.TestCase):
     ROOT_DIR = str(Path(__file__).parent.parent)
 
