@@ -10,7 +10,7 @@ class Tsv:
     """Reads sequences from a tsv file into a datasets class
 
     Args:
-        :param paths (Union[str, List[str]]): An integer.
+        :param paths (Union[str, List[str]]): a path or a list of paths to the .tsv file(s) containg sequences in column X and labels in column y
         :param X (str = "text"): The name of the column, that contains texts
         :param y (str = "y"): The name of the response variable column
         :param delimiter (str = "\t"): The delimiter used in the .tsv file
@@ -52,14 +52,12 @@ class EstNLTKCol:
                "temporary": False
                 },
             :param table_name (str): The name of the table/relation/collection to be used
-            :param X (str = "text"): The name of the column, that contains texts
-            :param y (str = "y"): The name of the response variable column
+            :param y (str = "y"): The name of the response variable in metadata
 
     :returns A dataset with columns X and y
     """
     db_con: dict
     table_name: str
-    X: str = "text"
     y: str = "y"
 
     def read(self):
