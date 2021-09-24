@@ -64,38 +64,15 @@ This tail-follows SLURM output for you.
 
 ## TEMPORARY: Current errors locally
 
-State [adc68934](https://gitlab.cs.ut.ee/health-informatics/medbert/-/tree/adc68934ef07ca6679498bc0bab25fddca5fae4b):
-
 ```
 $ python -m unittest discover -vvv
 ...
-test_vocabulary_on_text (tests.test_vocabulary.textCleaningTestsCases) ... [2, 8, 6, 17, 56, 92, 63, 63, 112, 75, 106, 41, 112, 120, 94, 56, 168, 121, 116, 66, 64, 7, 19, 3]
-[CLS] <XXX> <FLOAT>, võrreldes eelmise visiidiga <DATE>. [SEP]
-ok
+Ran 36 tests in 71.525s
 
-======================================================================
-ERROR: tests.test_step02_eval (unittest.loader._FailedTest)
-----------------------------------------------------------------------
-ImportError: Failed to import test module: tests.test_step02_eval
-Traceback (most recent call last):
-  File "/Users/ha/miniconda3/envs/medbert/lib/python3.8/unittest/loader.py", line 436, in _find_test_path
-    module = self._get_module_from_name(name)
-  File "/Users/ha/miniconda3/envs/medbert/lib/python3.8/unittest/loader.py", line 377, in _get_module_from_name
-    __import__(name)
-  File "/Users/ha/Repos/repos-cs-ut/medbert/tests/test_step02_eval.py", line 6, in <module>
-    from pipelines.step02_BERT_pre_training.eval_BERT import eval_pretrained_BERT
-  File "/Users/ha/Repos/repos-cs-ut/medbert/pipelines/step02_BERT_pre_training/eval_BERT.py", line 2, in <module>
-    from sklearn.metrics import precision_recall_fscore_support, accuracy_score
-ModuleNotFoundError: No module named 'sklearn'
-
-
-----------------------------------------------------------------------
-Ran 28 tests in 44.687s
-
-FAILED (errors=1, skipped=3)
+OK (skipped=11)
 ```
 
-Some file sequence_classification.py not committed?
+No errors locally with non-slow tests.
 
 
 ## TEMPORARY: Current errors in tests on UTHPC
