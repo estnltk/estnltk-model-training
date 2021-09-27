@@ -5,13 +5,13 @@ import configparser
 from os import listdir
 from os.path import isfile, join
 
+import os
 
 config = configparser.ConfigParser()
-config.read('run_config.ini') 
+config.read(os.path.dirname(os.path.abspath(__file__)) + '/' + 'run_config.ini')
 
-model_path = config['path']['output_model_folder']
-training_data_folder = config['path']['pretraining_data_folder']
-
+model_path = os.path.dirname(os.path.abspath(__file__)) + '/' + config['path']['output_model_folder']
+training_data_folder = os.path.dirname(os.path.abspath(__file__)) + '/' + config['path']['pretraining_data_folder']
 
 training_args = {
     "output_dir": model_path,
@@ -32,6 +32,7 @@ config = BertConfig(
     hidden_size=480,
     max_position_embeddings=1024,
     vocab_size=1234,
+    model_type='bert'
 )
 
 # Vocab size and max_length are very low to ensure the pipeline works, could be added to conf.

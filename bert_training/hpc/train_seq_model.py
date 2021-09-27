@@ -1,13 +1,3 @@
-import csv
-import numpy as np
-
-from datasets import Dataset
-from psycopg2.sql import SQL, Literal
-from estnltk import Text
-from datasets import load_dataset
-from transformers import logging
-logging.set_verbosity_warning()
-
 from pipelines.step03_BERT_fine_tuning import SequenceClassification
 from pipelines.step03_BERT_fine_tuning.dataloaders import Sequences
 
@@ -15,19 +5,17 @@ import configparser
 
 from os import listdir
 from os.path import isfile, join
-
+import os
 
 config = configparser.ConfigParser()
-config.read('run_config.ini')
+config.read(os.path.dirname(os.path.abspath(__file__)) + '/' + 'run_config.ini')
 
-pretrained_model_path = config['path']['output_model_folder']
-seq_training_data_folder = config['path']['seq_training_data_folder']
-seq_training_model_path = config['path']['seq_training_model_folder']
+pretrained_model_path = os.path.dirname(os.path.abspath(__file__)) + '/' + config['path']['output_model_folder']
+seq_training_data_folder = os.path.dirname(os.path.abspath(__file__)) + '/' + config['path']['seq_training_data_folder']
+seq_training_model_path = os.path.dirname(os.path.abspath(__file__)) + '/' + config['path']['seq_training_model_folder']
 
 training_files = [seq_training_data_folder + "/" + f for f in listdir(seq_training_data_folder)
                   if isfile(join(seq_training_data_folder, f))]
-
-print(training_files)
 
 dl = Sequences.Tsv(
             training_files,
