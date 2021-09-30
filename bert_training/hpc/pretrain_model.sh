@@ -7,7 +7,7 @@
 #SBATCH --gres=gpu:tesla:1
 #SBATCH --exclude=falcon1
 
-cd /gpfs/space/projects/stacc_health/data-egcut/medBERT/medbert
+cd ..
 source activate medbert
 cd hpc
 
