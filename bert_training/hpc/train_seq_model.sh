@@ -9,5 +9,6 @@
 
 cd /gpfs/space/projects/stacc_health/data-egcut/medBERT/medbert
 source activate medbert
+cd hpc
 
 python train_seq_model.py

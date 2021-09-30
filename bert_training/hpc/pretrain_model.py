@@ -1,3 +1,6 @@
+import sys
+sys.path.append('..')
+
 from transformers import BertConfig
 from pipelines.step02_BERT_pre_training.pre_train_BERT import pre_train_BERT
 import configparser
@@ -40,5 +43,5 @@ config = BertConfig(
 pre_train_BERT(model_path,
                training_files,
                training_args=training_args, bert_config=config,
-               vocab_size=800, lowercase=False, max_length=8, truncation=True, padding=True,
+               vocab_size=4000, lowercase=False, max_length=128, truncation=True, padding=True,
                special_tokens=special_tokens, additional_special_tokens=additional_special_tokens)

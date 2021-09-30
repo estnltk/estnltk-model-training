@@ -24,7 +24,7 @@
    ```
 3. The output of the model will be in the folder `pretrained_model`, unless specified otherwise in the [run_config.ini](run_config.ini).
 
-NB! The vocab size and maxlen are set to 800 and 8 respectively for faster running, in the future, they will likely be customizable either via a BertConfig file or in the [run_config.ini](run_config.ini).
+NB! The vocab size and maxlen are set to 4000 and 128 respectively. In the future, they will likely be customizable either via a BertConfig file or in the [run_config.ini](run_config.ini).
 
 
 ## Fine-tuning for sequence classification

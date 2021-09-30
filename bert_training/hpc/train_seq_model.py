@@ -1,3 +1,6 @@
+import sys
+sys.path.append('..')
+
 from pipelines.step03_BERT_fine_tuning import SequenceClassification
 from pipelines.step03_BERT_fine_tuning.dataloaders import Sequences
 
