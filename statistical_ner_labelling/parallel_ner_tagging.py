@@ -4,10 +4,11 @@ import multiprocessing
 from estnltk.storage import PostgresStorage
 from estnltk.taggers import NerTagger
 
+
 class ParallelNerTagger:
 
     def __init__(self, dbname, user, password, host, port, role, threads, collection, morph_layer, words_layer,
-                 sentences_layer):
+                 sentences_layer, output_layer):
         self.dbname = dbname
         self.user = user
         self.password = password
@@ -19,6 +20,7 @@ class ParallelNerTagger:
         self.morph_layer = morph_layer
         self.words_layer = words_layer
         self.sentences_layer = sentences_layer
+        self.output_layer = output_layer
 
     def ner_thread(self, block):
         storage = PostgresStorage(dbname=self.dbname, user=self.user, password=self.password, host=self.host,
@@ -27,8 +29,9 @@ class ParallelNerTagger:
         morph_layer = self.morph_layer
         words_layer = self.words_layer
         sentences_layer = self.sentences_layer
+        output_layer = self.output_layer
         collection.selected_layers = [morph_layer, words_layer, sentences_layer]
-        ner_tagger = NerTagger(morph_layer_input=morph_layer, words_layer_input=words_layer,
+        ner_tagger = NerTagger(output_layer=output_layer, morph_layer_input=morph_layer, words_layer_input=words_layer,
                                sentences_layer_input=sentences_layer)
         # change the number based on the number of parallel threads and also in the driver_func
         collection.create_layer_block(tagger=ner_tagger, block=(self.threads, block))
@@ -60,6 +63,7 @@ if __name__ == '__main__':
                                             collection=config['database-configuration']['collection'],
                                             morph_layer=config['database-configuration']['morph_layer'],
                                             words_layer=config['database-configuration']['words_layer'],
-                                            sentences_layer=config['database-configuration']['sentences_layer'])
+                                            sentences_layer=config['database-configuration']['sentences_layer'],
+                                            output_layer=config['ner-configuration']['output_layer'])
 
     parallel_ner_tagger.driver_func()
