@@ -23,7 +23,7 @@ class ParallelTagger:
                                             schema=self.schema)
         collection = storage.get_collection(self.collection)
         classname = globals()[tagger]
-        tagger = classname(output_layer='ner2')
+        tagger = classname(**kwargs)
 
         collection.create_layer_block(tagger=tagger, block=(self.num_threads, block))
         storage.close()
