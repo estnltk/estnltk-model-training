@@ -1,0 +1,4132 @@
+,entity,label,count
+0,"('Ühendriigid',)",LOC,1
+1,"('Leedusse',)",LOC,1
+2,"('Leedu', 'välisministeeriumi')",ORG,1
+3,"('Interfaxile',)",ORG,1
+4,"('Bill', 'Clinton')",PER,2
+5,"('Leedu',)",LOC,49
+6,"('Leedus',)",LOC,19
+7,"('USA',)",LOC,53
+8,"('Lääne-Euroopa',)",LOC,1
+9,"('Jaapanil',)",LOC,1
+10,"('Kanadal',)",LOC,1
+11,"('Austraalial',)",LOC,1
+12,"('Uus-Meremaal',)",LOC,1
+13,"('Ungaril',)",LOC,1
+14,"('Poolal',)",LOC,1
+15,"('Tšehhil',)",LOC,1
+16,"('OPEC',)",ORG,2
+17,"('Saudi', 'Araabia')",LOC,3
+18,"('Londonis',)",LOC,4
+19,"('Riyadh',)",PER,1
+20,"('Viinis',)",LOC,1
+21,"('Ühispanga',)",ORG,9
+22,"('Aivo', 'Kanguse')",PER,1
+23,"('Leedu', 'Telekomi')",ORG,1
+24,"('Eesti', 'Telekomi')",ORG,3
+25,"('Norma',)",ORG,8
+26,"('Tallinna',)",LOC,67
+27,"('Jüri', 'Mõisa')",PER,3
+28,"('Mõis',)",PER,6
+29,"('BNS-ile',)",ORG,14
+30,"('Mõisa',)",PER,6
+31,"('Rein', 'Voogi')",PER,1
+32,"('Voog',)",PER,2
+33,"('Eesti',)",LOC,189
+34,"('Tallinna', 'Vee')",ORG,2
+35,"('Soome',)",LOC,38
+36,"('Kauppalehti',)",ORG,1
+37,"('Soomet',)",LOC,2
+38,"('Venemaa',)",LOC,42
+39,"('Aiwa',)",ORG,1
+40,"('Electrolux',)",LOC,1
+41,"('Peterburgi',)",LOC,1
+42,"('Moskvasse',)",LOC,4
+43,"('Euroopa', 'Liidu')",ORG,8
+44,"('EL',)",ORG,9
+45,"('Vene',)",LOC,39
+46,"('Soomes',)",LOC,14
+47,"('Euroopa',)",LOC,30
+48,"('Venemaale',)",LOC,4
+49,"('Siberi',)",LOC,1
+50,"('Kaug-Idast',)",LOC,1
+51,"('Lätis',)",LOC,17
+52,"('Läti', 'statistikaamet')",ORG,1
+53,"('Tallinna', 'Soojuse')",ORG,3
+54,"('Ivar', 'Virkus')",PER,1
+55,"('ETAle',)",ORG,9
+56,"('ASi', 'Lõhmus', 'Haavel', '&', 'Viisemann')",ORG,1
+57,"('LHV',)",ORG,1
+58,"('Heiki', 'Kivimaa')",PER,1
+59,"('Trigon', 'Kapitali')",ORG,1
+60,"('Mihkel', 'Pärnoja')",PER,1
+61,"('Q', ""GSM'il"")",ORG,1
+62,"('EMT',)",ORG,7
+63,"('Q', 'GSMi')",ORG,7
+64,"('Lätti',)",LOC,2
+65,"('Leetu',)",LOC,2
+66,"('Radiolinja',)",ORG,6
+67,"('Ameerika', 'Ühendriikidesse')",LOC,1
+68,"('Radiolinja',)",LOC,1
+69,"('Jaana', 'Adusoni')",PER,1
+70,"('Eestis',)",LOC,98
+71,"('Eesti', 'Panga')",ORG,6
+72,"('Märten', 'Ross')",PER,1
+73,"('Ross',)",PER,2
+74,"('Andres', 'Saarniit')",PER,2
+75,"('Euroopa', 'Keskpank')",ORG,1
+76,"('ASis', 'Repo', 'Vabrikud')",ORG,1
+77,"('Baltimaades',)",LOC,1
+78,"('SRÜ',)",ORG,3
+79,"('Euroopas',)",LOC,17
+80,"('Austria',)",LOC,5
+81,"('Schelling',)",ORG,1
+82,"('Põhjarannikule',)",PER,1
+83,"('Repo', 'Vabrikute')",ORG,1
+84,"('Aivar', 'Karon')",PER,1
+85,"('Skandinaavia',)",LOC,5
+86,"('Balti', 'riikides')",LOC,4
+87,"('AS',)",ORG,2
+88,"('Repo',)",PER,2
+89,"('Karin', 'Kruuda')",PER,1
+90,"('Repo', 'Vabrikutes')",PER,1
+91,"('Kristjan-Erik', 'Suurväli')",PER,2
+92,"('Tallinna', 'börsi')",ORG,1
+93,"('Eesti', 'Väärtpaberite', 'Keskdepositooriumiga')",ORG,1
+94,"('EVK',)",ORG,1
+95,"('Suurväli',)",PER,5
+96,"('IOSCO',)",PER,1
+97,"('Balti',)",LOC,7
+98,"('Skandinaaviaga',)",LOC,1
+99,"('Rootis',)",LOC,1
+100,"('Tartu', 'maakohus')",ORG,1
+101,"('Lõuna-Eesti',)",LOC,2
+102,"('Vambola', 'Kolbakovile')",PER,1
+103,"('Kolbakov',)",PER,5
+104,"('Üllar', 'Meoselt')",PER,1
+105,"('Kolbakov', 'Üllar', 'Meose')",PER,1
+106,"('Meosele',)",PER,1
+107,"('Kolbakovi',)",PER,2
+108,"('Lõuna-Eesti', 'Arengupangale')",ORG,1
+109,"('Lõuna-Eesti', 'Arengupanga')",ORG,2
+110,"('Eha', 'Mõttusele')",PER,2
+111,"('ASi', 'Kentexi')",ORG,1
+112,"('Krassulenkole',)",PER,1
+113,"('Krassulenko',)",PER,2
+114,"('AS', 'Kentex')",ORG,1
+115,"('Mõttust',)",PER,1
+116,"('ASi',)",ORG,1
+117,"('Vambola', 'Kolbakoviga')",PER,1
+118,"('ERA', 'Panga')",ORG,2
+119,"('Kolbakovilt',)",PER,1
+120,"('Indrek', 'Ressarilt')",PER,1
+121,"('ERA', 'Pangas')",ORG,1
+122,"('Kolbakovil',)",PER,1
+123,"('Lõunatööstuse', 'ASil')",ORG,1
+124,"('Jõgevamaal',)",LOC,1
+125,"('ASi', 'Werol', 'Tehased')",ORG,2
+126,"('Lõunatööstuse', 'AS')",ORG,1
+127,"('Läti',)",LOC,22
+128,"('Latvijas', 'Kugnieciba')",PER,1
+129,"('LASCO',)",ORG,2
+130,"('Isamaale', 'ja', 'Vabadusele', '/', 'LNNK')",ORG,2
+131,"('Maris', 'Grinblats')",PER,1
+132,"('BNS-le',)",ORG,2
+133,"('Grinblats',)",PER,3
+134,"('LASCO',)",LOC,1
+135,"('LASCO',)",PER,1
+136,"('Rahvaerakonna', 'Andris', 'Škelega')",ORG,1
+137,"('AS', 'Tavid')",ORG,2
+138,"('Tavidi',)",ORG,2
+139,"('Kuno', 'Rääk')",PER,1
+140,"('Araabia', 'Ühendemiraatide')",ORG,1
+141,"('Hiina',)",LOC,7
+142,"('Egiptuse',)",LOC,6
+143,"('LAV-i',)",ORG,1
+144,"('Mehhiko',)",LOC,3
+145,"('Tavid',)",PER,1
+146,"('Kürpose',)",LOC,1
+147,"('Kreeka',)",LOC,1
+148,"('Tai',)",LOC,2
+149,"('Eesti', 'Konjunktuuriinstituudi')",ORG,1
+150,"('SKP',)",ORG,4
+151,"('SKPs',)",LOC,1
+152,"('Eurospordi',)",ORG,6
+153,"('Ida-Euroopa',)",LOC,2
+154,"('Arnaud', 'Berdal')",PER,1
+155,"('Berdal',)",PER,4
+156,"('Marko', 'Uulits')",PER,1
+157,"('Starmani',)",ORG,1
+158,"('Henri', 'Treude')",PER,3
+159,"('Treude',)",PER,3
+160,"('Eurospordi', 'Ida-Euroopa')",ORG,1
+161,"('Mladen', 'Singer')",PER,1
+162,"('Singer',)",PER,1
+163,"('Eurosport',)",ORG,1
+164,"('Eurosport', 'News')",ORG,1
+165,"('Berdali',)",PER,1
+166,"('Singeri',)",PER,2
+167,"('Eurosport', 'Berdali')",ORG,1
+168,"('Mladen', 'Singeri')",PER,1
+169,"('Eestist', 'Leedu')",LOC,1
+170,"('Gallup', 'Media')",PER,1
+171,"('Saksamaa',)",LOC,12
+172,"('Saksamaa', 'Föderaalne', 'Statistikaamet')",ORG,1
+173,"('ES', 'Turu-uuringute')",ORG,1
+174,"('Äriteenus', '2000')",ORG,2
+175,"('AS', 'Frens')",ORG,2
+176,"('Frensi',)",PER,1
+177,"('Frens',)",PER,1
+178,"('Frensi',)",ORG,1
+179,"('Uue', 'Liidu')",ORG,1
+180,"('Leedu', 'Riigivarafond')",ORG,2
+181,"('LISCO',)",LOC,1
+182,"('Taani',)",LOC,6
+183,"('DFDS', 'Tor', 'Line')",ORG,1
+184,"('Vaclovas', 'Stankevicius')",PER,1
+185,"('LISCO',)",ORG,1
+186,"('Arturas', 'Paulauskas')",PER,1
+187,"('Paulauskas',)",PER,1
+188,"('LISCO',)",PER,1
+189,"('Paulauskase',)",PER,1
+190,"('Vytautas', 'Makauskas')",PER,1
+191,"('Piret', 'Peensoo')",PER,4
+192,"('Tallinna', 'linnavolikogus')",ORG,1
+193,"('Ahti', 'Kallaste')",PER,1
+194,"('Kallaste',)",PER,1
+195,"('Arvi', 'Tapver')",PER,5
+196,"('Tallinn-Tartu',)",LOC,4
+197,"('AS-i', 'Sebe')",ORG,1
+198,"('Taisto',)",PER,3
+199,"('AS', 'Suure-Jaani', 'Buss')",ORG,3
+200,"('Tallinnast',)",LOC,9
+201,"('Tartu',)",LOC,31
+202,"('Sebe',)",ORG,4
+203,"('Pärnu',)",LOC,20
+204,"('Kuressaarde',)",LOC,1
+205,"('Haapsallu', 'jm.')",LOC,1
+206,"('Teetöötajate', 'Ametiühingu')",ORG,1
+207,"('Ain', 'Tatter')",PER,1
+208,"('Eesti', 'Päevalehele')",ORG,3
+209,"('Toivi', 'Leht')",PER,1
+210,"('Suure-Jaani', 'Buss')",PER,1
+211,"('Lietuvos', 'Avialinijos')",ORG,1
+212,"('LAL',)",ORG,2
+213,"('LAL-i',)",ORG,1
+214,"('Gintaras', 'Striaukas')",PER,1
+215,"('Kazimieras', 'Savinis')",PER,1
+216,"('Läti', 'riikliku', 'energeetikafirma', 'Latvenergo')",ORG,1
+217,"('Talis', 'Linkaits', 'BNS-le')",ORG,1
+218,"('Zorzs', 'Tikmers', 'Läti', 'Teest')",ORG,1
+219,"('Zigmunds', 'Krastins', 'Rahvaerakonnast')",ORG,1
+220,"('Juris', 'Vinkelis')",ORG,1
+221,"('Isamaale', 'ja', 'Vabadusele')",ORG,1
+222,"('LNNK',)",ORG,1
+223,"('Uue', 'Partei')",ORG,1
+224,"('Gundars', 'Grinvalds')",PER,1
+225,"('Aigars', 'Kalvitise')",PER,1
+226,"('Läti', 'Erastamisagentuuri')",ORG,1
+227,"('Talis', 'Linkaits')",ORG,1
+228,"('Riia', 'Tehnikaülikooli')",ORG,1
+229,"('Leonids', 'Ribickis')",PER,1
+230,"('Poola', 'Kredyt', 'Bank', 'S')",ORG,1
+231,"('Eestisse',)",LOC,27
+232,"('Talibor',)",ORG,1
+233,"('Talibid',)",ORG,1
+234,"('Eesti', 'Pank')",ORG,1
+235,"('Hansapank',)",ORG,8
+236,"('Ühispank',)",ORG,2
+237,"('Optiva', 'Pank')",ORG,1
+238,"('Merita', 'Pank')",ORG,2
+239,"('Svenska', 'Handelsbanken')",PER,1
+240,"('Akmenes', 'Cementas')",PER,1
+241,"('Valgevene',)",LOC,7
+242,"('Akmenes', 'Cementasi')",PER,1
+243,"('Pranas', 'Kristopaitis')",PER,1
+244,"('Kristopaitis',)",LOC,1
+245,"('Akmenes', 'Cementase')",PER,1
+246,"('Belgia',)",LOC,3
+247,"('Belgias',)",LOC,1
+248,"('tervishoiuministeeriumi',)",ORG,1
+249,"('Reuters',)",ORG,4
+250,"('Prantsusmaa',)",LOC,7
+251,"('Põhja-Taanis',)",LOC,1
+252,"('Jüütimaal',)",LOC,1
+253,"('Hollandis',)",LOC,7
+254,"('Einars', 'Repše')",PER,2
+255,"('Repše',)",PER,8
+256,"('SKP-st',)",ORG,1
+257,"('EL-i',)",ORG,3
+258,"('KPMG',)",ORG,7
+259,"('AS-i', 'Hansatee')",ORG,1
+260,"('Tallinna-Helsingi',)",ORG,1
+261,"('Hansatee', 'KPMG')",ORG,1
+262,"('AS-is', 'Hansatee')",ORG,1
+263,"('Euroopa', 'Liidu')",LOC,9
+264,"('Andres', 'Hunt')",PER,2
+265,"('Hunt',)",PER,3
+266,"('Viking', 'Line')",ORG,2
+267,"('Tallinn-Helsingi',)",LOC,1
+268,"('Ahvenamaal',)",LOC,1
+269,"('Euroopa', 'Liidult')",ORG,2
+270,"('Mart', 'Laari')",PER,2
+271,"('Mažeikiu', 'Nafta')",ORG,1
+272,"('Williams', 'Internationali')",PER,1
+273,"('John', 'Bumgarner')",PER,1
+274,"('Mažeikiu', 'Naftale')",PER,2
+275,"('Lietuvos',)",ORG,3
+276,"('Aleksandras', 'Abisala')",PER,1
+277,"('Leedu', 'valitsus')",ORG,1
+278,"('Williams',)",PER,1
+279,"('Jonas', 'Lionginas')",PER,1
+280,"('Mažeikiu', 'Naftal')",PER,2
+281,"('Lionginase',)",PER,1
+282,"('Bumgarner',)",PER,1
+283,"('Valdas', 'Adamkuse')",PER,1
+284,"('Rolandas', 'Pakšasega')",PER,1
+285,"('Mažeikiu', 'Nafta')",PER,3
+286,"('Narva', 'Elektrijaamade')",ORG,1
+287,"('Eesti', 'Energia')",ORG,8
+288,"('Erki', 'Peegel')",PER,1
+289,"('Seesam', 'Rahvusvaheline', 'Kindlustuse', ""AS'i"")",ORG,1
+290,"('Salva', 'Kindlustuse', ""AS'i"", 'liikluskindlustuse')",ORG,1
+291,"('AS', 'Sampo', 'Eesti', 'Varakindlustuse')",ORG,1
+292,"('Sampo',)",LOC,2
+293,"('Seesam',)",ORG,1
+294,"('Salva',)",ORG,1
+295,"('Hansapanga',)",ORG,9
+296,"('Inge', 'Rumessen')",PER,1
+297,"('maksuamet',)",ORG,2
+298,"('Audit', 'EA')",PER,1
+299,"('Rein', 'Ruusalu')",PER,2
+300,"('Kristjan', 'Järve')",PER,3
+301,"('Rimess', 'MRI')",ORG,2
+302,"('Järve',)",PER,3
+303,"('Lemmi', 'Oro')",PER,1
+304,"('Rein', 'Ruutsoo')",PER,1
+305,"('Ruusalu',)",PER,1
+306,"('Aule', 'Kindsigo')",PER,1
+307,"('Rimess',)",ORG,1
+308,"('AS', 'Audit', 'EA', 'audiitor')",ORG,1
+309,"('Maksuamet',)",ORG,2
+310,"('TV1',)",ORG,3
+311,"('Eesti', 'Sõltumatu', 'Televisiooni', 'AS')",ORG,1
+312,"('Tõnis', 'Arnover')",PER,1
+313,"('Euroopa', 'Liit')",ORG,3
+314,"('ELi',)",ORG,12
+315,"('Põhjala',)",LOC,3
+316,"('Rootsist',)",LOC,2
+317,"('Rootsi',)",LOC,48
+318,"('Björn', 'Rosengren')",PER,2
+319,"('Euroopa', 'Liidus')",ORG,2
+320,"('Euroopa', 'Komisjoni')",ORG,3
+321,"('Erkki', 'Liikaneniga')",PER,1
+322,"('Stockholmi',)",LOC,3
+323,"('Euroopa', 'Liit')",LOC,2
+324,"('Põhjamaade',)",LOC,2
+325,"('Põhjamaades',)",LOC,2
+326,"('Norra',)",LOC,9
+327,"('Rootsi', 'Netcom')",ORG,1
+328,"('Rootsis',)",LOC,9
+329,"('Norras',)",LOC,4
+330,"('Telia',)",ORG,5
+331,"('Netcomiga',)",ORG,1
+332,"('Teliale',)",ORG,1
+333,"('Teliaga',)",ORG,1
+334,"('Soome', 'Sonera')",ORG,1
+335,"('Netcomi',)",ORG,2
+336,"('Põhjalas',)",ORG,1
+337,"('Telenori', 'ja', 'Sonera')",ORG,1
+338,"('Telias',)",ORG,1
+339,"('Rosengren',)",PER,1
+340,"('Rootsit',)",LOC,1
+341,"('Taanis',)",LOC,1
+342,"('TeleDanmarki',)",ORG,2
+343,"('SBC',)",ORG,1
+344,"('Teliat',)",ORG,1
+345,"('Enskilda', 'Securitiese')",PER,1
+346,"('Kenneth', 'Graversen')",PER,1
+347,"('Dagens', 'Industri')",ORG,1
+348,"('TeleDanmark',)",ORG,2
+349,"('TDC', 'Mobile', 'International')",ORG,1
+350,"('TeleDanmark', 'Mobili')",ORG,1
+351,"('Taanit',)",LOC,1
+352,"('Põhjamaad',)",LOC,1
+353,"('Graversen',)",PER,1
+354,"('John', 'Strand')",PER,1
+355,"('Deutsche', 'Telekomi')",ORG,1
+356,"('SBSi',)",ORG,1
+357,"('Q', 'GSM')",ORG,1
+358,"('Q', 'GSM-i')",ORG,1
+359,"('Üllar', 'Jaaksoo')",PER,1
+360,"('NetCom', 'Tele2')",ORG,1
+361,"('Eesti', 'Telefoni')",ORG,4
+362,"('Jaaksoo',)",PER,1
+363,"('HK', 'Ruokatalo')",ORG,2
+364,"('AS-i', 'Linnulihatooted')",ORG,1
+365,"('Helsingi',)",LOC,12
+366,"('AS-i', 'Linnulihatoodete')",ORG,1
+367,"('Rakvere', 'Lihakombinaat')",ORG,1
+368,"('Adidase',)",ORG,1
+369,"('Andres', 'Aavik')",PER,1
+370,"('Aavik',)",PER,9
+371,"('Eestist',)",LOC,7
+372,"('Pärnu', 'Postimehele')",ORG,2
+373,"('Aavik', 'Edela')",PER,1
+374,"('Euroopast',)",LOC,1
+375,"('Pärnus',)",LOC,3
+376,"('Hollandisse',)",LOC,1
+377,"('Adidase',)",LOC,1
+378,"('Saksamaal',)",LOC,10
+379,"('Aaviku',)",PER,1
+380,"('Aavikut',)",PER,1
+381,"('AS', 'SEBE')",ORG,2
+382,"('Haapsalu',)",LOC,2
+383,"('Kuressaare',)",LOC,2
+384,"('Tallinn',)",LOC,15
+385,"('Tartust',)",LOC,2
+386,"('Haapsalu', 'linna')",LOC,1
+387,"('Haapsalu', 'Soojus')",ORG,2
+388,"('Haapsallu',)",LOC,1
+389,"('ASi', 'Eraküte')",ORG,1
+390,"('Leino', 'Schnur')",PER,1
+391,"('Haapsalus',)",LOC,2
+392,"('Lääne', 'Elule')",ORG,1
+393,"('Haapsalu', 'Soojus')",PER,1
+394,"('Haapsalu', 'Uksetehaselt')",ORG,1
+395,"('Läänemaal',)",LOC,3
+396,"('Haapsalu', 'Soojuse')",ORG,1
+397,"('Rein', 'Paju')",PER,1
+398,"('Paju',)",PER,5
+399,"('Läänemaa',)",LOC,2
+400,"('Läänemaa', 'Talupidajate', 'Liidu')",ORG,1
+401,"('Mihkel', 'Jairus')",PER,1
+402,"('Jairus',)",PER,1
+403,"('Prantsuse',)",LOC,4
+404,"('Dalkia',)",LOC,1
+405,"('Valga',)",LOC,1
+406,"('DoubleClick', ""Inc'ile"")",PER,1
+407,"('New', 'Yorgis')",LOC,2
+408,"('Yahoo',)",PER,2
+409,"('ValueClick', 'Inc')",PER,1
+410,"('Mediaplex', 'Inc')",PER,1
+411,"('Media', 'Inc')",ORG,1
+412,"('Avenue', 'A', 'Inc')",ORG,1
+413,"('America', 'Montgomery', 'Panga')",ORG,1
+414,"('Siim', 'Kallas')",PER,3
+415,"('Kristjan-Erik', 'Suurvälja')",PER,1
+416,"('Rahvusvahelise', 'Sotsiaalteaduste', 'Kõrgkooli', 'Lex')",ORG,1
+417,"('Maastrichti', 'ülikoolis')",ORG,1
+418,"('Tallinna', 'Koolidevahelises', 'õppekeskuses')",ORG,1
+419,"('Saue', 'vallavalitsuses')",ORG,1
+420,"('Garth', 'Alexander', 'The')",PER,1
+421,"('Sunday', 'Times')",ORG,1
+422,"('JAAPAN',)",LOC,1
+423,"('Tadayo', 'Honma')",PER,1
+424,"('Nippon', 'Credit', 'Banki')",ORG,1
+425,"('Softbank',)",ORG,1
+426,"('Sinine', 'Taevas')",PER,1
+427,"('Aozora',)",ORG,1
+428,"('Honma',)",PER,1
+429,"('Honma', 'Osaka')",PER,1
+430,"('Jaapani',)",LOC,11
+431,"('Robbie',)",PER,1
+432,"('Feldman',)",PER,1
+433,"('Tokios',)",LOC,1
+434,"('Jaapan',)",LOC,5
+435,"('Yoshiro', 'Mori')",PER,1
+436,"('Rahandusliku', 'Rekonstruktsiooni', 'Komitee')",ORG,1
+437,"('RRK',)",ORG,2
+438,"('Nikkei',)",PER,1
+439,"('Softbanki',)",ORG,1
+440,"('Hikari', 'Tsushini')",PER,1
+441,"('Sogo',)",PER,2
+442,"('Kyoei', 'Life')",PER,1
+443,"('Chiyoda', 'Mutual', 'Life')",ORG,1
+444,"('Jesper',)",PER,1
+445,"('Koll',)",PER,2
+446,"('Merrill', 'Lynchist')",PER,1
+447,"('Kiichi', 'Miyazawa')",PER,1
+448,"('Honshu',)",LOC,1
+449,"('Shikoku', 'saari')",LOC,1
+450,"('Michael', 'Porter')",PER,1
+451,"('Riiga',)",LOC,4
+452,"('Indrek', 'Neivelt')",PER,2
+453,"('Hansabanka',)",ORG,2
+454,"('Neivelt',)",PER,7
+455,"('Hansapanga', 'Gruppi')",ORG,1
+456,"('Riias',)",LOC,4
+457,"('Tiit', 'Pekk')",PER,1
+458,"('Vilniusesse',)",LOC,1
+459,"('Hansapanga', 'Grupi')",ORG,4
+460,"('Eestit',)",LOC,5
+461,"('Leedu', 'Hoiupanga')",ORG,1
+462,"('Tallinnas',)",LOC,33
+463,"('Baltikumi',)",LOC,2
+464,"('Hansapanga', 'Grupp')",ORG,2
+465,"('PAAVO', 'KANGUR')",PER,1
+466,"('Merita', 'Nordbankeni')",PER,1
+467,"('Helsingis',)",LOC,5
+468,"('Stockholmis',)",LOC,1
+469,"('Kopenhaagenis',)",LOC,1
+470,"('Merita',)",PER,1
+471,"('Nordbanken',)",PER,1
+472,"('Unidanmark', 'Taanis')",ORG,1
+473,"('Kristiana',)",PER,1
+474,"('Merita',)",LOC,1
+475,"('Nordpanga',)",ORG,1
+476,"('Hansabanka', 'Läti', 'pank')",ORG,1
+477,"('Hansabankas', 'Leedu')",LOC,1
+478,"('Vilniusest',)",LOC,1
+479,"('Tiina', 'Joosu')",PER,1
+480,"('Aare', 'Järvaniga')",PER,1
+481,"('Järvani',)",LOC,1
+482,"('Daniel', 'Vaarik')",PER,1
+483,"('Vaarik',)",PER,2
+484,"('Ülle', 'Lõhmus')",PER,1
+485,"('Lõhmus',)",PER,4
+486,"('Ameerika', 'Ühendriikides')",LOC,1
+487,"('Kadri', 'Kuusk')",PER,1
+488,"('Kalle', 'Kukk')",PER,1
+489,"('Järvan',)",PER,1
+490,"('Veikko', 'Vahar')",PER,1
+491,"('Tallinna', 'linnavalitsuse')",ORG,2
+492,"('Poliitikauuringute', 'Keskuses', 'Praxis')",ORG,1
+493,"('Kukk',)",LOC,1
+494,"('Rahvusvahelise', 'Valuutafondi', 'Eesti', 'büroos')",ORG,1
+495,"('Lõhmuse',)",PER,2
+496,"('Margus', 'Uudam')",PER,1
+497,"('Uudam',)",PER,1
+498,"('Paavo', 'Kangur')",PER,1
+499,"('Liviko',)",ORG,10
+500,"('Enn', 'Kunila')",PER,2
+501,"('Jüri', 'Käo')",PER,3
+502,"('Kunila',)",PER,12
+503,"('Enn', 'Veskimäge')",PER,1
+504,"('Jüri',)",PER,30
+505,"('Kapitalist', 'Kunila')",PER,1
+506,"('NG',)",ORG,1
+507,"('NG', 'Investeeringud')",ORG,3
+508,"('Norma', 'Grupist')",ORG,1
+509,"('Bill', 'Gateski')",PER,1
+510,"('Normas',)",ORG,1
+511,"('Togliattis',)",LOC,1
+512,"('Kännu', 'Kukk')",PER,1
+513,"('Käo',)",PER,1
+514,"('Avtovazist',)",ORG,1
+515,"('Visa',)",PER,1
+516,"('Normal',)",ORG,1
+517,"('Rootsi', 'Autolivile')",ORG,1
+518,"('Tallinna', 'Kaubamajja')",ORG,1
+519,"('Selverite',)",ORG,1
+520,"('Livikosse',)",ORG,1
+521,"('NG', 'Investeeringutes')",ORG,1
+522,"('Kunila', 'Liviko')",ORG,2
+523,"('Onistari',)",PER,1
+524,"('Onistar',)",PER,1
+525,"('Tallinna', 'Kaubamaja')",ORG,1
+526,"('Selverite', 'ketti')",ORG,1
+527,"('Balbiino',)",ORG,1
+528,"('Kitman',)",ORG,1
+529,"('Mere', 'puiestee', '6e')",ORG,1
+530,"('Rocca', 'al', 'Mare')",LOC,1
+531,"('NG', 'Investeeringute')",ORG,1
+532,"('Indrek', 'Vanaselja')",PER,1
+533,"('Andres', 'Järving')",PER,1
+534,"('AS', 'Siemens')",ORG,1
+535,"('Türi',)",LOC,4
+536,"('Türi', 'linna')",LOC,1
+537,"('Taani', 'mänguasjadetootja', 'Lego')",ORG,1
+538,"('Microsoft',)",PER,2
+539,"('Microsofti',)",ORG,4
+540,"('Bill', 'Gates')",PER,2
+541,"('Microsoftiga',)",ORG,1
+542,"('Eva', 'Lykkegaard')",PER,1
+543,"('Suurbritannia', 'valitsus')",ORG,2
+544,"('Jack', 'Straw')",PER,1
+545,"('Suurbritannias',)",LOC,7
+546,"('Straw',)",PER,1
+547,"('Sky',)",ORG,1
+548,"('Nokia', 'UK')",LOC,1
+549,"('Phil', 'Brown')",PER,1
+550,"('Brown',)",PER,1
+551,"('Skandinaviska', 'Enskilda', 'Bankeni')",ORG,1
+552,"('SEB',)",ORG,1
+553,"('Moskvas',)",LOC,9
+554,"('Media-Most',)",ORG,1
+555,"('Andrei', 'Tsimailo')",PER,1
+556,"('Leonid', 'Trošini')",PER,1
+557,"('Vladimir', 'Gussinski')",PER,3
+558,"('Media-Mosti',)",LOC,2
+559,"('Gussinski',)",PER,7
+560,"('Gazprom-Media',)",LOC,2
+561,"('Gussinskit',)",PER,1
+562,"('Gazpromilt',)",LOC,1
+563,"('Hispaanias',)",LOC,2
+564,"('Hispaania', 'ülemkohtusse')",ORG,1
+565,"('Balthasar', 'Garzoni')",PER,1
+566,"('Gussinski', 'Madridi', 'vanglasse')",ORG,1
+567,"('Soto',)",PER,1
+568,"('Reali',)",PER,1
+569,"('Garzon', 'Gussinski')",PER,1
+570,"('Hispaania',)",LOC,5
+571,"('Iisraeli',)",LOC,18
+572,"('NTV',)",ORG,14
+573,"('Media', 'Most')",ORG,3
+574,"('Gazprom', 'Media')",LOC,1
+575,"('Gazprom', 'Media')",PER,3
+576,"('Media', 'Mosti')",PER,1
+577,"('Deutsche', 'Bankile')",ORG,1
+578,"('Gazpromi',)",PER,1
+579,"('NTV-s',)",ORG,1
+580,"('Media',)",LOC,2
+581,"('Media', 'Most')",PER,2
+582,"('Gazprom', 'Mediale')",LOC,1
+583,"('Turner',)",PER,5
+584,"('Gazprom', 'Mediale')",PER,1
+585,"('Gazprom',)",PER,1
+586,"('Deutsche', 'Banki')",ORG,1
+587,"('Media', 'Mosti')",ORG,1
+588,"('Ted', 'Turner')",PER,2
+589,"('Venemaalt',)",LOC,8
+590,"('Mihhail', 'Deljagin')",PER,1
+591,"('Läti', 'Pank')",ORG,1
+592,"('Venta',)",LOC,4
+593,"('Läti', 'Panga')",ORG,1
+594,"('Edzus', 'Vejins')",PER,1
+595,"('Keskpank',)",ORG,1
+596,"('Suurbritannia', 'Regional', 'Property', 'Developments', 'Ltd')",ORG,1
+597,"('Saules', 'Banka')",ORG,1
+598,"('Juri', 'Štšetinin')",PER,1
+599,"('VEF', 'Banka')",ORG,1
+600,"('Gints', 'Zeltins')",PER,1
+601,"('Tallinna', 'Linnavaraamet')",ORG,1
+602,"('Tallinna', 'lahe')",LOC,1
+603,"('Tallinna', 'Elamumajandusametile')",ORG,1
+604,"('Vabaduse',)",ORG,4
+605,"('Kinnistud', 'Logi')",PER,1
+606,"('Tallinna', 'Kesklinna')",LOC,2
+607,"('Eesti', 'Loto')",ORG,1
+608,"('Viljandimaalt',)",LOC,1
+609,"('Toome',)",LOC,1
+610,"('Viljandis',)",LOC,3
+611,"('Eesti', 'Lotos')",ORG,1
+612,"('AS', 'Sampo', 'Pank')",ORG,1
+613,"('Optiva', 'Panga')",ORG,1
+614,"('Tallinna', 'linn')",LOC,3
+615,"('Raekojas',)",PER,1
+616,"('AS-i', 'Tallinna', 'Vesi')",ORG,5
+617,"('International', 'Water', 'United', 'Utilities')",ORG,1
+618,"('Tallinna', 'linna')",LOC,1
+619,"('Jüri', 'Mõis')",PER,3
+620,"('Kalle', 'Tiiter')",PER,1
+621,"('International', 'Water', 'UU-d')",ORG,1
+622,"('International', 'Water', 'UU')",ORG,2
+623,"('Tim', 'Lowe')",PER,1
+624,"('UU', ""International'i"")",ORG,1
+625,"('Gordon', 'Waters')",PER,1
+626,"('International', ""Water'i"")",ORG,1
+627,"('Patrick', 'Jeantet')",PER,1
+628,"('Water', 'UU')",PER,1
+629,"('Suurbritannia',)",LOC,4
+630,"('Itaalia',)",LOC,14
+631,"('Briti',)",LOC,9
+632,"('Sarah', 'Squire')",PER,1
+633,"('Ameerika', 'Ühendriikide', 'Suursaatkonna')",ORG,1
+634,"('Dolores', 'Brown')",PER,1
+635,"('Suprema', 'Securities')",PER,1
+636,"('Rõuge', 'Piimaühistu')",ORG,2
+637,"('Maaleht',)",ORG,3
+638,"('Jaak', 'Pächteri')",PER,1
+639,"('Pächter',)",PER,2
+640,"('Rõuge', 'Piimaühistule')",ORG,1
+641,"('Võru-',)",LOC,1
+642,"('Põlvamaa',)",LOC,1
+643,"('Rõuge', 'PÜ')",ORG,2
+644,"('Kiiu',)",LOC,1
+645,"('Tanel', 'Steinberg')",PER,1
+646,"('USA-st',)",LOC,2
+647,"('Kanadast',)",LOC,3
+648,"('Ene', 'Maadvere')",PER,1
+649,"('Ameerika', 'Ühendriikidest')",LOC,1
+650,"('Uus-Meremaalt',)",LOC,1
+651,"('Pro', 'Kapitali')",ORG,2
+652,"('Tallinnas', 'Ilmarise')",ORG,1
+653,"('Narva', 'mnt')",LOC,1
+654,"('Pro', 'Kapitalil')",ORG,1
+655,"('Riia',)",LOC,6
+656,"('Stabu',)",ORG,1
+657,"('Pro', 'Kapital')",ORG,1
+658,"('Reformierakond',)",ORG,13
+659,"('Reformierakonna',)",ORG,6
+660,"('ETV',)",ORG,3
+661,"('Eesti', 'Raadio')",ORG,1
+662,"('Sideministeeriumi',)",ORG,1
+663,"('Maksuameti',)",ORG,1
+664,"('Äripäev',)",ORG,2
+665,"('RAS', 'Ookean')",ORG,1
+666,"('Tallinna', 'Hooldushaigla')",ORG,1
+667,"('Sirje', 'Visnapuu')",PER,1
+668,"('Visnapuu',)",PER,1
+669,"('Maksimarket',)",PER,1
+670,"('Kesko', 'SuperNetto')",ORG,1
+671,"('Selver',)",ORG,1
+672,"('Tartu', 'Kaubamaja')",ORG,1
+673,"('Kesklinna', 'Kaubahall')",ORG,2
+674,"('Hansakeskus',)",ORG,1
+675,"('Tartu', 'linnavalitsuse')",ORG,1
+676,"('Tartus',)",LOC,9
+677,"('ASi', 'Emajõe', 'Ärikeskus')",ORG,1
+678,"('Priit', 'Sauk')",PER,1
+679,"('Sauk',)",PER,2
+680,"('AS', 'Estiko')",ORG,1
+681,"('Emajõe', 'Ärikeskuse')",ORG,1
+682,"('ASi', 'Tallinna', 'Kaubamaja')",ORG,1
+683,"('AS', 'A-Selver')",ORG,1
+684,"('Selveri',)",LOC,1
+685,"('Tallinna', 'Järve', 'Selveri')",ORG,1
+686,"('Estikole',)",ORG,1
+687,"('OÜ', 'GMP')",ORG,1
+688,"('Tallinna-Tartu-Luhamaa',)",LOC,2
+689,"('Maailmapanga',)",ORG,3
+690,"('Eesti', 'riik')",LOC,5
+691,"('Postimees',)",ORG,5
+692,"('Tallinnast', 'Vaidani')",LOC,1
+693,"('Kose',)",LOC,2
+694,"('Vaida',)",LOC,1
+695,"('Aruvalla',)",LOC,2
+696,"('Maailmapank',)",ORG,1
+697,"('Vaida-Aruvalla',)",LOC,2
+698,"('Maanteeameti',)",ORG,1
+699,"('Riho', 'Sõrmus')",PER,1
+700,"('Mäoni',)",LOC,2
+701,"('Koselt',)",LOC,2
+702,"('Mäo',)",LOC,1
+703,"('Sõrmus',)",PER,1
+704,"('Eestil',)",LOC,7
+705,"('Taistot',)",PER,1
+706,"('Aap', 'Tänav')",PER,3
+707,"('maksuameti',)",ORG,1
+708,"('Tänav',)",PER,2
+709,"('maksuametile',)",ORG,1
+710,"('Eesti', 'Päevaleht')",ORG,5
+711,"('Taistoga',)",PER,1
+712,"('Tallinna-Tartu',)",LOC,3
+713,"('Tartu', 'maavalitsusest')",ORG,1
+714,"('Suure-Jaani', 'Bussile')",PER,1
+715,"('Tallinna-Narva',)",LOC,2
+716,"('Tallinna-Narva-Jõesuu',)",LOC,1
+717,"('AS', 'SL', 'Bussiliinid')",ORG,1
+718,"('AS-i', 'SL', 'Bussiliinid')",ORG,1
+719,"('Urmas', 'Reigo')",PER,2
+720,"('SL', 'Bussiliinid', 'Reigo')",ORG,1
+721,"('Väike-Õismäe',)",PER,1
+722,"('Kadaka',)",PER,1
+723,"('SL',)",ORG,2
+724,"('Reigo',)",PER,1
+725,"('SL', 'Bussiliinid')",ORG,4
+726,"('Soome', 'Savolinja', 'Grupi')",ORG,1
+727,"('Tuomo', 'Honkanen')",PER,2
+728,"('Savonlinja', 'Grupp')",PER,2
+729,"('Vivendi',)",LOC,1
+730,"('Connex', 'Finland')",PER,2
+731,"('SL', 'Bussiliinid', 'Väike-Õismäe')",ORG,1
+732,"('Kadaka',)",ORG,3
+733,"('Keskerakonna',)",ORG,10
+734,"('Edgar', 'Savisaare')",PER,1
+735,"('Jakko', 'Väli')",PER,4
+736,"('Tallinna', 'linnakohtu', 'halduskohtus')",ORG,1
+737,"('Väli',)",PER,8
+738,"('Ühispangaga',)",ORG,1
+739,"('Välil',)",PER,1
+740,"('Väliga',)",PER,1
+741,"('Jakko', 'Välilt')",PER,3
+742,"('Tallinna', 'linnakohtu')",ORG,5
+743,"('Intrum', 'Justitia')",ORG,3
+744,"('Intrum', 'Justitiale')",ORG,1
+745,"('Tallinna', 'politsei')",ORG,1
+746,"('Risto', 'Sepp')",PER,1
+747,"('Finlux',)",PER,1
+748,"('Tallinna', 'linnakohus')",ORG,4
+749,"('Jakko', 'Välile')",PER,2
+750,"('Tallinna', 'ringkonnakohus')",ORG,1
+751,"('Tallinna', 'linnakohtus')",ORG,2
+752,"('Harjumaal',)",LOC,3
+753,"('Mähel', 'Randvere')",LOC,1
+754,"('Saku',)",LOC,1
+755,"('Tallinna', 'linnavolikogu')",ORG,1
+756,"('Keskerakonnast',)",ORG,1
+757,"('Bns',)",ORG,16
+758,"('Marchel', 'Vichmannilt')",PER,1
+759,"('Ameerika',)",LOC,14
+760,"('Henrik', 'Aavik')",PER,1
+761,"('Katrin', 'Lasn')",PER,1
+762,"('Neste', 'Eesti', 'AS')",ORG,1
+763,"('Raul', 'Reapi')",PER,1
+764,"('Reap',)",PER,1
+765,"('Honda',)",PER,1
+766,"('AS', 'Veho')",ORG,1
+767,"('Urmas', 'Jõgi')",PER,1
+768,"('Jõgi',)",PER,1
+769,"('Kaljo', 'Aameri')",PER,1
+770,"('Aamer',)",PER,1
+771,"('Frankfurti',)",LOC,1
+772,"('Hamburgi',)",LOC,2
+773,"('Kiievisse',)",LOC,1
+774,"('Kopenhaagenisse',)",LOC,1
+775,"('Londonisse',)",LOC,1
+776,"('Vilniusse',)",LOC,1
+777,"('Epl',)",PER,15
+778,"('Sideamet',)",ORG,1
+779,"('AS-i', 'Uninet')",ORG,1
+780,"('Unineti',)",ORG,1
+781,"('AS', 'Naviplast')",ORG,1
+782,"('Jevgeni', 'Kogan')",PER,1
+783,"('Naviplastil',)",LOC,1
+784,"('Tallinna', 'Äripank')",ORG,1
+785,"('Andres', 'Eilart')",PER,1
+786,"('Viimsi', 'Vallavolikogu')",ORG,1
+787,"('Viimsi', 'valda')",LOC,1
+788,"('Muuga',)",ORG,2
+789,"('Viimsi', 'Vallavalitsus')",ORG,2
+790,"('Ruma',)",PER,1
+791,"('Estonia', 'OÜ')",ORG,1
+792,"('AS', 'Maves')",ORG,1
+793,"('Muuga', 'lahe')",LOC,1
+794,"('Vaivaras',)",LOC,1
+795,"('Ruma', 'Estonia')",ORG,1
+796,"('Daniel', 'Bain')",PER,1
+797,"('Ruma',)",LOC,1
+798,"('Muuga',)",LOC,1
+799,"('Saksamaa', 'Hypo', 'Vereinsbank')",ORG,1
+800,"('Piret', 'Tali')",PER,1
+801,"('Reporter',)",PER,1
+802,"('Johnny', 'Depp')",PER,1
+803,"('Clint', 'Eastwood')",PER,1
+804,"('John', 'Travolta')",PER,1
+805,"('Ameerikas',)",LOC,4
+806,"('Kanadas',)",LOC,3
+807,"('Rein', 'Sikk')",PER,1
+808,"('Rakvere',)",LOC,20
+809,"('Signe', 'Kivi')",PER,1
+810,"('Lääne-Viru',)",LOC,1
+811,"('Kivi',)",PER,8
+812,"('Palmse',)",LOC,11
+813,"('Marko', 'Pomerants')",PER,1
+814,"('Pomerants', 'Kivile')",PER,1
+815,"('Palmsest',)",LOC,2
+816,"('Pomerants',)",PER,1
+817,"('Pomerantsi',)",PER,1
+818,"('Palmsesse',)",LOC,1
+819,"('Kaitseliit',)",ORG,1
+820,"('KIRVED', 'OOTAVAD')",PER,1
+821,"('Ago', 'Gaškov')",PER,1
+822,"('Estonia',)",ORG,6
+823,"('Palmses',)",LOC,1
+824,"('Romi', 'Erlach')",PER,1
+825,"('Jaak', 'Joala')",PER,2
+826,"('Joala',)",PER,10
+827,"('Eve', 'Viilupi')",PER,3
+828,"('Valgre',)",LOC,1
+829,"('Jesus', 'Christ', 'Superstari')",ORG,1
+830,"(""Roxette'i"",)",PER,1
+831,"('INGLISE',)",LOC,1
+832,"('Viilup',)",PER,1
+833,"('Bns', '/', 'epl')",ORG,1
+834,"('Ameerika', 'Ühendriikide')",LOC,3
+835,"('Ühendriikides',)",LOC,2
+836,"('Martin', 'Luther', 'Kingi')",ORG,1
+837,"('Ühendriikide',)",LOC,1
+838,"('Raul', 'Meel')",PER,2
+839,"('Andy', 'Warholi')",PER,8
+840,"('Tshehhoslovakkiast',)",LOC,1
+841,"('Andrej',)",PER,1
+842,"('Julia', 'Warholale')",PER,1
+843,"('Pittsburghis',)",LOC,2
+844,"('Andrew',)",PER,1
+845,"('Andrew', 'Warhola')",PER,1
+846,"('Carnegie',)",PER,2
+847,"('New', 'Yorki')",ORG,2
+848,"('New', 'Yorgi')",ORG,3
+849,"('Andy',)",PER,23
+850,"('Ferus', 'Gallerys', 'Los', 'Angeleses')",ORG,1
+851,"('Andy', 'Warhol')",PER,7
+852,"('USAs',)",LOC,11
+853,"('Warhol',)",PER,5
+854,"('Pat', 'Hacketti')",PER,1
+855,"('Hacketti',)",PER,1
+856,"('Andyt',)",PER,1
+857,"('TV',)",ORG,2
+858,"('Warholi',)",PER,7
+859,"('De', 'Kooningi')",ORG,1
+860,"('Rothko',)",ORG,1
+861,"('Newmani',)",ORG,1
+862,"('Pollocki',)",PER,1
+863,"('Pat', 'Hackett')",PER,1
+864,"('Warhol', 'Pollocki')",PER,1
+865,"('Jackson',)",PER,5
+866,"('Timo', 'Valjakka')",ORG,1
+867,"('Warholi', 'Helsingi-näitus')",PER,1
+868,"('José', 'Mugrabe')",PER,1
+869,"('Taani', 'Louisiana')",LOC,1
+870,"('Hamburgi', 'Moodsa', 'Kunsti', 'Muuseumis', 'Warholi')",ORG,1
+871,"('Tallinnas', 'Rotermanni', 'Soolalaos', 'USA', 'välisministeeriumi')",ORG,1
+872,"('Marilyn', 'Monroe')",PER,1
+873,"('Mao',)",PER,1
+874,"('Päevikud',)",PER,2
+875,"('Pat', 'Hackettile')",PER,1
+876,"('John', 'Peter', 'Nilsson')",PER,1
+877,"('New', 'Yorgi', 'Factory-nimelisse')",ORG,1
+878,"('Michelangelo',)",PER,2
+879,"('Firenzest',)",LOC,1
+880,"('Rooma',)",LOC,2
+881,"('Peetri',)",PER,1
+882,"('Max', 'Bitter')",PER,1
+883,"('Igor', 'SHprits')",PER,1
+884,"('Põhhjas',)",PER,1
+885,"('Peeter', 'Tammearu')",PER,1
+886,"('Vadim', 'Fomitshev')",PER,1
+887,"('Ago', 'Roo')",PER,1
+888,"('Piret', 'Kalda')",PER,1
+889,"('Triinu', 'Meriste')",PER,1
+890,"('Andero', 'Ermel')",PER,1
+891,"('Anne', 'Reemann', 'jt.')",PER,1
+892,"('Scooter',)",PER,1
+893,"('Moskvitshi',)",ORG,1
+894,"('Max', 'Bitteri')",PER,1
+895,"('Põhhjas',)",LOC,1
+896,"('Igor', 'Zhpritsi')",PER,1
+897,"('Zhpritsi',)",PER,1
+898,"('Gorkiga',)",PER,1
+899,"('Margot', 'Visnap')",PER,1
+900,"('Eestimaa',)",LOC,3
+901,"('Baltoscandal',)",LOC,1
+902,"('Tallinna', 'Linnateater')",ORG,2
+903,"('Baltoscandal',)",PER,1
+904,"('LINNATEATER',)",PER,1
+905,"('Linnateater',)",PER,1
+906,"('kultuuriministeerium',)",ORG,1
+907,"('Eesti', 'Kultuurkapital')",ORG,1
+908,"('FESTIVALI',)",PER,1
+909,"('Leedust',)",LOC,3
+910,"('Lätist',)",LOC,2
+911,"('Poolast',)",LOC,1
+912,"('Saksamaalt',)",LOC,3
+913,"('Ungarist',)",LOC,1
+914,"('Austriast',)",LOC,1
+915,"('Kama', 'Ginkase')",PER,1
+916,"('Daniil', 'Ginki')",PER,1
+917,"('Dostojevski',)",PER,2
+918,"('Katerina', 'Ivanovna', 'Marmeladova')",PER,1
+919,"('Katerina', 'Ivanovna')",PER,1
+920,"('Oksana', 'Mõsina')",PER,1
+921,"('K',)",ORG,1
+922,"('ETTE',)",PER,1
+923,"('Mõsina',)",PER,2
+924,"('Usk', 'Katerina', 'Ivanovnasse')",PER,1
+925,"('Makedoonias', 'Bitola')",LOC,1
+926,"('Bitolasse',)",LOC,1
+927,"('Avo', 'Keerend')",PER,1
+928,"('Benjamin', 'Wasserman')",PER,1
+929,"('Ilmar', 'Kruusamäe')",PER,1
+930,"('Peeter', 'Allik')",PER,1
+931,"('Kelli', 'Kagovere')",PER,1
+932,"('Sirje', 'Eelma')",PER,1
+933,"('Raul', 'Meele')",PER,1
+934,"('Trinitas',)",ORG,1
+935,"('Bitola',)",LOC,1
+936,"('Hollandi',)",LOC,7
+937,"('NRC', 'Handelsblad')",ORG,1
+938,"('Jaan', 'Krossist')",PER,1
+939,"('Arthur', 'Langeveld')",PER,1
+940,"('Martensi',)",PER,1
+941,"('Langeveld',)",PER,1
+942,"('Kross',)",ORG,1
+943,"('Kuuba',)",LOC,1
+944,"('Havannas',)",LOC,1
+945,"('John', 'Lennonile')",PER,1
+946,"('José', 'Villa')",PER,1
+947,"('Fidel', 'Castro')",PER,1
+948,"('Lennoni', ""Imagine'ist"")",PER,1
+949,"('Ricardo', 'Alarcón')",PER,1
+950,"('Lennoni',)",PER,1
+951,"('CIA',)",ORG,1
+952,"('Lennoni',)",ORG,1
+953,"('Luure', 'Keskagentuuris')",ORG,1
+954,"('Jossif', 'Stalini')",PER,1
+955,"('Boriss', 'Jefimov')",PER,1
+956,"('Kremli',)",ORG,3
+957,"('Tarmo', 'Vahteri')",PER,1
+958,"('Jefimoviga',)",PER,1
+959,"('Areenis',)",PER,1
+960,"('Eesti', 'Arhitektuurimuuseum')",ORG,1
+961,"('Karin', 'Hallase')",PER,1
+962,"('Hanno', 'Kompuse')",PER,1
+963,"('Edgar', 'Johan', 'Kuusikule')",PER,1
+964,"('Tiina', 'Tammeti')",PER,1
+965,"('Nora', 'Tammoja')",PER,1
+966,"('Triin', 'Ojari')",PER,1
+967,"('Mustamäe',)",ORG,1
+968,"('Eugen', 'Sachariase')",PER,1
+969,"('Nikolai', 'Kusmini')",PER,1
+970,"('NU',)",ORG,1
+971,"('Nordic', 'Art', 'Review')",ORG,1
+972,"('Bristolis',)",LOC,1
+973,"(""Duchamp'i"", 'kohver')",PER,1
+974,"('Heie', 'Treier')",PER,2
+975,"('Roy', 'Exley')",PER,1
+976,"('Inglismaa',)",LOC,5
+977,"(""Duchamp'i"",)",PER,1
+978,"('Eve', 'Kiiler')",PER,1
+979,"('Inessa', 'Josing')",PER,1
+980,"('Leonhard', 'Lapin')",PER,1
+981,"('Kadi', 'Estland')",PER,1
+982,"('Soosalu',)",LOC,1
+983,"('Ede', 'Kurvel')",PER,1
+984,"('Urve', 'Küttner')",PER,1
+985,"('Ede', 'Kurreli')",PER,1
+986,"('Peeter', 'Alliku')",PER,1
+987,"('Curiosities',)",PER,1
+988,"('Viljandi',)",LOC,5
+989,"('Paul', 'Kondase')",PER,4
+990,"('Viljandi', 'linna')",LOC,1
+991,"('Tiiu', 'Männiste')",PER,1
+992,"('Tiiu', 'Allikvee')",PER,1
+993,"('Kondase',)",PER,1
+994,"('Christie',)",PER,1
+995,"('George', 'Washingtoni')",PER,2
+996,"('George', 'Washington')",PER,1
+997,"('Washingtoni',)",PER,6
+998,"('John', 'Ramage')",PER,1
+999,"('Washingtonist',)",PER,1
+1000,"('John', ""Ramage'i"")",PER,1
+1001,"('Dublinis',)",LOC,1
+1002,"('Ramage',)",PER,1
+1003,"('New', 'Yorgis')",ORG,2
+1004,"('The', 'Times')",ORG,1
+1005,"('Susan', 'Kleckner', 'Christie')",PER,1
+1006,"('Linnar', 'Priimägi')",PER,3
+1007,"('Kunstikriitik',)",ORG,1
+1008,"('Saksa',)",LOC,11
+1009,"('Tallinna', 'Kunstihoones')",ORG,1
+1010,"('Robini',)",PER,1
+1011,"('Will', ""McBride'i"")",ORG,1
+1012,"('Evi',)",PER,1
+1013,"('Magda',)",PER,1
+1014,"('Lapper', 'Vespaga')",PER,1
+1015,"('Fassbinderi',)",PER,1
+1016,"(""Reichskunst'is"",)",LOC,1
+1017,"('Horst', 'Wackerbarthi')",PER,1
+1018,"('Thomas', 'Ruschi')",PER,1
+1019,"('Rakvere', 'teater')",ORG,1
+1020,"('Eric-Emmanuel', 'Schmitti')",PER,1
+1021,"('Ain', 'Prosa')",PER,1
+1022,"('Hannes', 'Prikk')",PER,1
+1023,"('Tarvo', 'Sõmer')",PER,1
+1024,"('Ülle', 'Lichtfeldt', 'jt.')",PER,1
+1025,"('Schmitti',)",PER,1
+1026,"('Karl', 'Kello')",PER,1
+1027,"('Ruta', 'Celma')",PER,1
+1028,"('Arvo', 'Vilu')",PER,1
+1029,"('Mihkel', 'Raud')",PER,1
+1030,"('Agatha', 'Christie')",PER,1
+1031,"('Eesti', 'Televisioonis')",ORG,1
+1032,"('TUNDED', 'PUUDUVAD')",PER,1
+1033,"(""Roxette'i"",)",LOC,1
+1034,"('Maria', 'McKee')",PER,1
+1035,"('Siiri', 'Sisaski')",PER,1
+1036,"('Anastassia', 'Berestovaja')",PER,1
+1037,"('Alanis', ""Morissette'i"")",PER,1
+1038,"('Heili', 'Vaus-tamm')",PER,1
+1039,"('Lauri', 'Väinmaa')",ORG,1
+1040,"('Väinmaa',)",ORG,1
+1041,"('Toivo', 'Tulev')",PER,1
+1042,"('Alfred', 'Schnittke')",PER,1
+1043,"('Beethoven',)",ORG,1
+1044,"('Tulevi',)",PER,2
+1045,"('SCHNITTKE',)",PER,1
+1046,"('SELGED',)",PER,1
+1047,"('Tulevit',)",PER,1
+1048,"('Schnittket',)",PER,1
+1049,"('Tulevi-plokk', 'Schnittke')",PER,1
+1050,"('Beethoveni',)",ORG,1
+1051,"('Schnittke',)",PER,1
+1052,"('Baltimaade',)",LOC,3
+1053,"('Gidon', 'Kremer')",PER,1
+1054,"('Kremer',)",PER,1
+1055,"('Kremerata', 'Baltica')",ORG,1
+1056,"('Prokofjevi',)",LOC,1
+1057,"('Mahleri',)",PER,1
+1058,"('Dinu', 'Lipatti')",ORG,1
+1059,"('Gia', 'Kantšeli')",PER,1
+1060,"('Müncheni',)",LOC,1
+1061,"('NHL',)",ORG,1
+1062,"('Colorado', 'Avalanche')",ORG,1
+1063,"('Columbus', 'Blue', 'Jacket')",PER,1
+1064,"('Colorado',)",LOC,5
+1065,"('Patrick', 'Roy')",PER,1
+1066,"('San', 'Jose', 'Sharksi')",ORG,1
+1067,"('Jevgeni', 'Nabokoviga')",PER,1
+1068,"('Columbuse',)",PER,2
+1069,"('Avalanchel',)",PER,1
+1070,"('Minnesota', 'Wildi')",PER,1
+1071,"('NHL-i',)",ORG,1
+1072,"('Marc', 'Denis')",PER,1
+1073,"('Colorado',)",PER,2
+1074,"('Adam', 'Deadmarsh')",PER,2
+1075,"('Joe', 'Sakic')",PER,2
+1076,"('Mogilnõilt',)",PER,1
+1077,"('New', 'Jersey', 'Devils')",ORG,1
+1078,"('Phoenix', 'Coyotes')",ORG,1
+1079,"('Mogilnõi',)",PER,3
+1080,"('Marty', 'Turco')",PER,1
+1081,"('Ed', 'Belfouri')",PER,1
+1082,"('Turco',)",PER,2
+1083,"('Atlanta', 'Trashersi')",ORG,1
+1084,"('Starsil',)",LOC,1
+1085,"('Capitlasi',)",PER,2
+1086,"('Minnesota', 'Wild')",ORG,1
+1087,"('Washingtonile',)",LOC,1
+1088,"('Ron', 'Wilson')",PER,1
+1089,"('Minnesota',)",LOC,2
+1090,"('Jacques', 'Lemaire')",PER,1
+1091,"('Tampa', 'Bay')",ORG,3
+1092,"('Steve', 'Ludziki')",PER,1
+1093,"('John', 'Tortorella')",PER,1
+1094,"('Toronto', 'Maple', 'Leafsi')",ORG,1
+1095,"('Tortorellale',)",PER,1
+1096,"('Lightningi',)",PER,1
+1097,"('Dan', 'Cloutier')",PER,1
+1098,"('Montrealis',)",LOC,1
+1099,"('Canadiensi',)",LOC,1
+1100,"('Boston', 'Bruinsi')",ORG,1
+1101,"('Montreal',)",LOC,1
+1102,"('TORONTO',)",ORG,1
+1103,"('TAMPA', 'BAY')",ORG,1
+1104,"('Ryan', 'Johnson')",PER,1
+1105,"('Andrei', 'Zjuzin')",PER,1
+1106,"('Vincent', 'Lecavalier')",PER,1
+1107,"('Brian', 'Holzinger')",PER,1
+1108,"('Aleksandr', 'Haritonov')",PER,1
+1109,"('Fredrik', 'Modin')",PER,1
+1110,"('Igor', 'Koroljov')",PER,1
+1111,"('Yanic', 'Perreault')",PER,1
+1112,"('Dave', 'Manson')",PER,1
+1113,"('Modin',)",PER,1
+1114,"('Holzinger',)",PER,1
+1115,"('Toronto',)",LOC,2
+1116,"('Joseph',)",PER,1
+1117,"('Cloutier',)",PER,1
+1118,"('MONTREAL',)",ORG,1
+1119,"('BOSTON', '1')",ORG,1
+1120,"('Joe', 'Thornton')",PER,1
+1121,"('Brian', 'Rolston')",PER,1
+1122,"('Sergei', 'Samsonov')",PER,1
+1123,"('Don', 'Sweeney')",PER,1
+1124,"('Samsonov',)",PER,1
+1125,"('Mikko', 'Eloranta')",PER,1
+1126,"('Arron', 'Asham')",PER,1
+1127,"('Chad', 'Kilger')",ORG,1
+1128,"('Boston',)",LOC,3
+1129,"('NEW', 'JERSEY')",ORG,1
+1130,"('PHOENIX',)",ORG,1
+1131,"('Bobby', 'Holik')",PER,1
+1132,"('Sergei', 'Brõlin')",PER,1
+1133,"('Randy', 'McKay')",PER,1
+1134,"('Mika', 'Alatalo')",PER,1
+1135,"('Ossi', 'Väänänen')",PER,1
+1136,"('Brad', 'May')",ORG,1
+1137,"('Holik',)",PER,2
+1138,"('Brõlin',)",PER,2
+1139,"('Aleksandr', 'Mogilnõi')",PER,1
+1140,"('Patrik', 'Elias')",PER,1
+1141,"('Scott', 'Stevens')",PER,1
+1142,"('Mogilny',)",ORG,1
+1143,"('Scott', 'Gomez')",PER,1
+1144,"('Petr', 'Sykora')",PER,1
+1145,"('Jason', 'Arnott')",PER,1
+1146,"('New', 'Jersey')",LOC,2
+1147,"('Phoenix',)",PER,1
+1148,"('DALLAS',)",ORG,1
+1149,"('Brett', 'Hull')",PER,1
+1150,"('Joe', 'Nieuwendyk')",PER,1
+1151,"('Darryl', 'Sydor')",PER,1
+1152,"('Donald', 'Audette')",PER,1
+1153,"('Ray', 'Ferraro')",PER,1
+1154,"('Yannick', 'Tremblay')",PER,1
+1155,"('Nieuwendyk',)",PER,1
+1156,"('Brenden', 'Morrow')",PER,1
+1157,"('Grant', 'Marshall')",PER,1
+1158,"('Derian', 'Hatcher')",PER,1
+1159,"('Ferraro',)",PER,1
+1160,"('Andrew', 'Brunette')",PER,1
+1161,"('Audette',)",PER,1
+1162,"('COLORADO', '2')",ORG,1
+1163,"('Peter', 'Forsberg')",PER,1
+1164,"('Ray', 'Bourque')",PER,1
+1165,"('Geoff', 'Sanderson')",PER,1
+1166,"('Espen', 'Knutsen')",PER,1
+1167,"('Chris', 'Drury')",PER,1
+1168,"('Forsberg',)",PER,1
+1169,"('Martin', 'Skoula')",PER,1
+1170,"('Deadmarsh',)",PER,1
+1171,"('Drury',)",PER,1
+1172,"('Sakic',)",PER,1
+1173,"('Alex', 'Tanguay')",PER,1
+1174,"('Greg', 'deVries')",PER,1
+1175,"('Bruce', 'Gardiner')",PER,1
+1176,"('Lyle', 'Odelein')",PER,1
+1177,"('Chris', 'Nielsen')",PER,1
+1178,"('Columbus',)",PER,1
+1179,"('Denis',)",PER,1
+1180,"('Roy',)",PER,1
+1181,"('WASHINGTON',)",ORG,1
+1182,"('Aaron', 'Gavey')",PER,1
+1183,"('Brad', 'Bombardir')",ORG,1
+1184,"('Scott', 'Pellerin')",PER,1
+1185,"('Pellerin',)",PER,1
+1186,"('Cam', 'Stewart')",PER,1
+1187,"('Curtis', 'Leschyshyn')",PER,1
+1188,"('Stacy', 'Roest')",PER,1
+1189,"('Lubomir', 'Sekeras')",PER,1
+1190,"('Steve', 'McKenna')",PER,1
+1191,"('Fernandez',)",PER,1
+1192,"('Washington',)",PER,1
+1193,"('Billington',)",ORG,1
+1194,"('EDMONTON',)",ORG,1
+1195,"('NASHVILLE', '2')",ORG,1
+1196,"('Scott', 'Walker')",PER,1
+1197,"('David', 'Legwand')",PER,1
+1198,"('Tom', 'Poti')",PER,1
+1199,"('Anson', 'Carter')",PER,1
+1200,"('Doug', 'Weight')",PER,1
+1201,"('Denis', 'Arhipov')",PER,1
+1202,"('Scott', 'Hartnell')",PER,1
+1203,"('Jason', 'Smith')",PER,1
+1204,"('Mike', 'Comrie')",PER,1
+1205,"('Georges', 'Laraque')",PER,1
+1206,"('Rob', 'Valicevic')",PER,1
+1207,"('Randy', 'Robitaille')",PER,1
+1208,"('Karlis', 'Skrastins')",PER,1
+1209,"('Marian', 'Cisar')",PER,1
+1210,"('Patrik', 'Kjellberg')",PER,1
+1211,"('Arhipov',)",PER,1
+1212,"('Tom', 'Fitzgerald')",PER,1
+1213,"('Valicevic',)",PER,1
+1214,"('Edmonton',)",LOC,1
+1215,"('Salo',)",LOC,1
+1216,"('Nashville',)",PER,1
+1217,"('Dunham',)",PER,1
+1218,"('VANCOUVER',)",ORG,1
+1219,"('OTTAWA', '1')",ORG,1
+1220,"('Harold', 'Druken')",PER,1
+1221,"('Donald', 'Brashear')",PER,1
+1222,"('Scott', 'Lachance')",PER,1
+1223,"('Shawn', 'McEachern')",PER,1
+1224,"('Daniel', 'Alfredsson')",PER,1
+1225,"('Wade', 'Redden')",PER,1
+1226,"('Magnus', 'Arvedson')",PER,1
+1227,"('Mike', 'Fisher')",PER,1
+1228,"('Karel', 'Rachunek')",PER,1
+1229,"('Arvedson',)",PER,1
+1230,"('Marian', 'Hossa')",PER,1
+1231,"('Radek', 'Bonk')",PER,1
+1232,"('McEachern',)",ORG,1
+1233,"('Alfredsson',)",PER,2
+1234,"('Aleksei', 'Jašin')",PER,1
+1235,"('Yashin',)",ORG,1
+1236,"('Rachunek',)",PER,1
+1237,"('Vancouver', ':', 'Potvin')",ORG,1
+1238,"('Ottawa',)",PER,1
+1239,"('ANAHEIM',)",LOC,1
+1240,"('ST', '.')",ORG,1
+1241,"('LOUIS',)",ORG,1
+1242,"('Niklas', 'Havelid')",PER,1
+1243,"('Petr', 'Tenkrat')",PER,1
+1244,"('Oleg', 'Tverdovski')",PER,1
+1245,"('Al', 'MacInnis')",PER,1
+1246,"('Mike', 'Eastwood')",PER,1
+1247,"('Bryce', 'Salvador')",PER,1
+1248,"('Pierre', 'Turgeon')",PER,2
+1249,"('Jochen', 'Hecht')",PER,1
+1250,"('Scott', 'Young')",PER,1
+1251,"('Salvador',)",PER,1
+1252,"('Craig', 'Conroy')",PER,1
+1253,"('Tyson', 'Nash')",PER,1
+1254,"('Teemu', 'Selänne')",PER,1
+1255,"('Marty', 'McInnis')",PER,1
+1256,"('Tverdovski',)",PER,1
+1257,"('Nash',)",PER,2
+1258,"('Chris', 'Pronger')",ORG,1
+1259,"('Anaheim',)",LOC,1
+1260,"('Johnson',)",PER,1
+1261,"('NY', 'Rangers')",ORG,1
+1262,"('NY', 'Islanders')",ORG,1
+1263,"('San', 'Jose')",ORG,1
+1264,"('Klubi', 'Mänge', 'Värav')",ORG,1
+1265,"('Karistusminutid',)",ORG,1
+1266,"('Joe', 'Sakic', 'Col')",PER,1
+1267,"('Donald', 'Audette', 'Atl')",PER,1
+1268,"('Jaromir', 'Jagr', 'Pit')",PER,1
+1269,"('Doug', 'Weight', 'Edm')",PER,1
+1270,"('Jason',)",PER,1
+1271,"('Allison', 'Bos')",PER,1
+1272,"('Brian', 'Leetch', 'NYR')",PER,1
+1273,"('Sergei', 'Fjodorov', 'Det')",PER,1
+1274,"('Aleksei', 'Kovaljov', 'Pit')",PER,1
+1275,"('Marian', 'Hossa', 'Ott')",PER,1
+1276,"('Peter', 'Bondra', 'Was')",PER,1
+1277,"('Martin', 'Straka', 'Pit')",PER,1
+1278,"('Ray',)",PER,1
+1279,"('Ferraro', 'Atl')",PER,1
+1280,"('Brett', 'Hull', 'Dal')",PER,1
+1281,"('Markus', 'Näslund', 'Van')",PER,1
+1282,"('Steve', 'Sullivan', 'Chi')",PER,1
+1283,"('Radek', 'Bonk', 'Ott')",PER,1
+1284,"('Bill', 'Guerin', 'Bos')",PER,1
+1285,"('Tshetsheenia',)",LOC,3
+1286,"('Dagestani',)",LOC,2
+1287,"('Mahhatshkala', 'AnZhi')",PER,1
+1288,"('FC', 'Flora')",ORG,4
+1289,"('Toomas', 'Tohver')",PER,2
+1290,"('Mark', 'SHvets')",PER,1
+1291,"('FC', 'Levadia')",ORG,1
+1292,"('Sergei', 'Pareiko')",PER,2
+1293,"('Mark', 'SHvetsi')",PER,1
+1294,"('Aivar', 'Pohlak')",PER,1
+1295,"('Shvets',)",PER,1
+1296,"('Tohvri',)",LOC,1
+1297,"('Pareiko',)",PER,3
+1298,"('Pavel', 'Kazakov')",PER,1
+1299,"('Tohver',)",PER,3
+1300,"('Kazakov',)",PER,1
+1301,"('Pohlak',)",PER,1
+1302,"('Dagestanis',)",LOC,1
+1303,"('Kazakovil',)",PER,1
+1304,"('Tarmo', 'Lehiste')",PER,1
+1305,"('Lehiste',)",PER,1
+1306,"('Põhja-Osseetiast',)",LOC,1
+1307,"('Mahhatshkala', 'AnZhi')",ORG,1
+1308,"('Crystal', 'Palace')",PER,2
+1309,"('Liverpooli',)",ORG,3
+1310,"('Liverpool',)",ORG,2
+1311,"('Michael', 'Owen')",PER,1
+1312,"('Gerrald', 'Houllier')",PER,1
+1313,"('Inglismaal',)",LOC,6
+1314,"('Jari', 'Litmaneni')",PER,1
+1315,"('Litmanen',)",PER,1
+1316,"('Vladimir', 'Smiceri')",PER,1
+1317,"('Ipswich', 'Town')",ORG,1
+1318,"('Birmingham', ""City'st"")",LOC,1
+1319,"('Rubins',)",ORG,1
+1320,"('Morrison',)",PER,1
+1321,"('Smicer',)",PER,1
+1322,"('Mehhikoga',)",LOC,1
+1323,"('Derby', 'Pride', 'Parkil')",ORG,1
+1324,"('Hollandiga',)",LOC,1
+1325,"('Tottenham', 'Hotspuri')",PER,1
+1326,"('White', 'Hart', ""Lane'l"")",PER,2
+1327,"(""Derby's"",)",ORG,1
+1328,"('Iirimaa',)",LOC,2
+1329,"('Itaaliaga',)",LOC,1
+1330,"('Kreekaga',)",LOC,1
+1331,"('Saksamaaga',)",LOC,1
+1332,"('Sven-Göran', 'Erikssoni')",PER,1
+1333,"('Birminghami', 'Villa', 'Parkil')",ORG,1
+1334,"('NBA',)",ORG,2
+1335,"('Portland', 'Trailblazersile')",ORG,1
+1336,"('Rasheed', 'Wallace')",PER,1
+1337,"('Aaron', 'McKie')",PER,1
+1338,"('McKie',)",PER,2
+1339,"('Portlandi', 'Damon', 'Stoudamire')",PER,1
+1340,"('Boston', 'Celtics')",ORG,1
+1341,"('Miami',)",LOC,1
+1342,"('Sacramento', 'Kingsi', 'Chris', 'Webber')",ORG,1
+1343,"('Kingsil',)",ORG,1
+1344,"('Cleveland', 'Cavaliersi')",ORG,1
+1345,"('Clevelandi',)",LOC,1
+1346,"('Chris', 'Gatling')",PER,1
+1347,"('B',)",ORG,1
+1348,"('Walker',)",ORG,1
+1349,"('Potapenko',)",PER,1
+1350,"('W',)",ORG,1
+1351,"('Howard',)",PER,1
+1352,"('Smith',)",PER,1
+1353,"('S',)",ORG,2
+1354,"('Payton',)",ORG,1
+1355,"('Pattersson',)",ORG,1
+1356,"('T',)",ORG,1
+1357,"('Carter',)",PER,1
+1358,"('Davis',)",LOC,1
+1359,"('Willis',)",ORG,1
+1360,"('M',)",ORG,1
+1361,"('Ellis',)",LOC,1
+1362,"('Finley',)",LOC,1
+1363,"('Stoudamire',)",PER,1
+1364,"('LA', 'Clippers-Denver')",ORG,1
+1365,"('LA',)",ORG,1
+1366,"('Olowokandi',)",ORG,1
+1367,"('Van', 'Exel')",PER,1
+1368,"('Webber',)",PER,1
+1369,"('Stojakovic',)",ORG,1
+1370,"('Williams', '24')",ORG,1
+1371,"('Pollard',)",PER,1
+1372,"('C',)",ORG,7
+1373,"('Miller',)",PER,1
+1374,"('Kristiine', 'Sport')",ORG,1
+1375,"('Tallinn', 'CUP', '2001')",ORG,1
+1376,"('Soomest',)",LOC,3
+1377,"('DTM-',)",ORG,1
+1378,"('Jalgpalliliit',)",ORG,1
+1379,"('IDA',)",PER,2
+1380,"('PÕHI',)",PER,2
+1381,"('LÕUNA', 'LÄÄS')",PER,2
+1382,"('Kiviõli', 'FC', 'Shtrommi', 'Tarvastu', 'JK', 'Atli', 'Rapla', 'I')",ORG,1
+1383,"('Märjamaa',)",LOC,1
+1384,"('FC',)",ORG,2
+1385,"('Feeling',)",PER,1
+1386,"('Päästeamet', 'Vilj')",ORG,1
+1387,"('Keila', 'JK')",ORG,1
+1388,"('SK',)",ORG,1
+1389,"('Põltsamaa', 'Kernu', 'Kadakas')",ORG,1
+1390,"('SK', 'Tapa', 'JK')",ORG,1
+1391,"('Lasnamäe',)",LOC,1
+1392,"('Võru', 'Atli', 'Rapla', 'II')",ORG,1
+1393,"('FC',)",PER,3
+1394,"('Viimsi',)",PER,1
+1395,"('SK', 'Trummi', 'Lootos', 'Põlva', 'FC', 'Haapsalu')",ORG,1
+1396,"('Pärnu', 'FC', 'Tabasalu')",LOC,1
+1397,"('RSK', 'Loksa', 'JK', 'Saue', 'SK', 'Kirm', 'FC', 'Mõigu', 'Rae')",ORG,1
+1398,"('JK', 'Voka', 'FC', 'Concordia', 'SK', 'Koeru', 'FC', 'Kose')",ORG,1
+1399,"('Spartak',)",PER,1
+1400,"('MS', 'Regina')",ORG,1
+1401,"('NJK',)",ORG,1
+1402,"('Kehra', 'Loo')",ORG,1
+1403,"('FC', 'Warrior', 'Valga', 'FC', 'Toompea')",ORG,1
+1404,"('Kopli', 'I')",PER,1
+1405,"('Tartu', 'FC', 'Klooga')",ORG,1
+1406,"('Eesti', 'Telefoni', 'SK', 'FC')",ORG,1
+1407,"('Valga',)",PER,1
+1408,"('SK', 'Pakri')",ORG,1
+1409,"('Käbi',)",PER,1
+1410,"('SK', 'FC', 'Hansa', 'United')",ORG,1
+1411,"('Georgia',)",PER,1
+1412,"('JK',)",ORG,1
+1413,"('JK', 'Roosna-Alliku', 'Emmaste', 'JK')",ORG,1
+1414,"('JK', 'Kaitseliit')",ORG,1
+1415,"('K', 'Kristiine', 'JK', 'Tartu', 'JK', 'KPMG', 'Estonia')",ORG,1
+1416,"('FC', 'Võru')",ORG,1
+1417,"('Kõrvemaa',)",PER,1
+1418,"('JK', 'Vana', 'Villem')",ORG,1
+1419,"('FC', 'Reaal', 'Raasiku', 'JK', 'FC', 'Rõõba')",ORG,1
+1420,"('EJL-i',)",ORG,1
+1421,"('Paolo', 'Longo')",PER,1
+1422,"('Rene', 'Cattarinussi')",PER,1
+1423,"('Ruhpoldingis',)",LOC,1
+1424,"('Egil', 'Gjelland')",PER,2
+1425,"('Frode', 'Andresen')",PER,2
+1426,"('Dag', 'Björndalen')",PER,2
+1427,"('Ole', 'Einar', 'Björndalen')",PER,2
+1428,"('Tšehhi',)",LOC,2
+1429,"('Marco', 'Morgenstern')",PER,1
+1430,"('Peter', 'Sendel')",PER,1
+1431,"('Alexander', 'Wolf')",PER,1
+1432,"('Ricco', 'Gross')",PER,1
+1433,"('Aleksei', 'Aidarov')",PER,1
+1434,"('Aleksandr', 'Sõman')",PER,1
+1435,"('Oleg', 'Rõženkov')",PER,1
+1436,"('Vadim', 'Šašurin')",PER,1
+1437,"('Vincent', 'Defrasne')",PER,1
+1438,"('Julien', 'Robert')",PER,1
+1439,"('Raphael', 'Poiree')",PER,1
+1440,"('Tšehhimaa',)",LOC,1
+1441,"('Petr', 'Garabik')",ORG,1
+1442,"('Ivan', 'Masarik')",PER,1
+1443,"('Roman', 'Dostal')",PER,1
+1444,"('Zdenek', 'Vitek')",PER,1
+1445,"('Patrick', 'Favre')",PER,1
+1446,"('Wilfried', 'Pallhuber')",PER,1
+1447,"('Martin', 'Müürsepa')",PER,1
+1448,"('Ateena', 'AEK')",ORG,1
+1449,"('Zagrebi', 'Cibona', 'VIP-i')",ORG,1
+1450,"('AEK-i',)",ORG,1
+1451,"('Kutluay',)",ORG,1
+1452,"('Hatzis',)",PER,1
+1453,"('Hammink',)",ORG,1
+1454,"('Horvaatia',)",LOC,2
+1455,"('Lee',)",PER,1
+1456,"('Bologna', 'Kinder')",ORG,1
+1457,"('Charleroi', ""'"", 'Spirou')",ORG,1
+1458,"('Vitoria', 'TAU', 'Ceramica')",ORG,1
+1459,"('Peterburi', 'Lions')",ORG,1
+1460,"('Treviso', 'Benetton')",ORG,1
+1461,"('Madridi', 'Real')",ORG,1
+1462,"('Verona', 'Müller')",ORG,1
+1463,"('Saloniki', 'PAOK')",ORG,1
+1464,"('Podgorica', 'KK', 'Buducnost')",ORG,1
+1465,"('Salt', 'Lake', ""City's"")",LOC,1
+1466,"('Hispaaniat',)",LOC,1
+1467,"('Johann', 'Mühlegg')",PER,2
+1468,"('Christian', 'Hoffmanni')",PER,1
+1469,"('Rene', 'Sommerfeldti')",PER,1
+1470,"('Salt', 'Lake', 'City')",ORG,2
+1471,"('Christian', 'Hoffmann', 'Austria')",PER,1
+1472,"('Rene', 'Sommerfeldt')",PER,1
+1473,"('Ron', 'Spanuth')",PER,1
+1474,"('Cristian', 'Zorzi')",PER,1
+1475,"('Pietro', 'Piller', 'Cottrer')",PER,1
+1476,"('Fulvio', 'Valbusa')",PER,1
+1477,"('Justin', 'Wadsworth')",PER,1
+1478,"('Centa', 'Itaalia')",PER,1
+1479,"('Mihhail', 'Botvinov', 'Austria')",PER,1
+1480,"('Gerhard', 'Urain', 'Austria')",PER,1
+1481,"('Fabio', 'Maj')",PER,1
+1482,"('Achim', 'Walcher', 'Austria')",PER,1
+1483,"('Ivan', 'Batory')",PER,1
+1484,"('Slovakkia',)",LOC,2
+1485,"('Markus', 'Hasler', 'Liechtenstein')",PER,1
+1486,"('Martin', 'Bajcicak')",PER,1
+1487,"('Hiroyuki', 'Imai', 'Jaapan')",PER,1
+1488,"('Reto', 'Burgermeister')",PER,1
+1489,"('Šveits',)",LOC,3
+1490,"('Bundi', 'Šveits')",PER,1
+1491,"('Vincent', 'Vittoz')",PER,1
+1492,"('Emmanuel', 'Jonnier')",PER,1
+1493,"('Wilhelm', 'Aschwanden')",PER,1
+1494,"('Jan', 'Jacob', 'Verdenius')",PER,1
+1495,"('Andrew', 'Johnson')",PER,1
+1496,"('Patrick', 'Rölli')",PER,1
+1497,"('Juan', 'Jesus', 'Gutierrez')",PER,1
+1498,"('Alexander', 'Marent', 'Austria')",PER,1
+1499,"('Robert', 'Whitney')",PER,1
+1500,"('Alexandre', 'Rousselet')",PER,1
+1501,"('Tallinnas', 'Kalevi')",ORG,1
+1502,"('Christopher', ""Moore'i"")",PER,2
+1503,"('Lea', 'Niinepuu')",PER,6
+1504,"('BNS',)",ORG,4
+1505,"('Niinepuul',)",PER,1
+1506,"('Niinepuult',)",PER,1
+1507,"('Niinepuu',)",PER,13
+1508,"('Niinepuule',)",PER,2
+1509,"('Halensi',)",LOC,2
+1510,"('OÜ', 'Küpriani')",ORG,1
+1511,"('Tallinna', 'Ülikoolid')",ORG,3
+1512,"('Christopher', 'Moore')",PER,2
+1513,"('AIVAR',)",PER,1
+1514,"('VADI',)",PER,1
+1515,"('Eesti', 'Bowlingu', 'Liit')",ORG,4
+1516,"('AS', 'Papyrus')",ORG,1
+1517,"('Folger', 'Art', 'AS-i')",ORG,1
+1518,"('Rein', 'Mölder')",PER,1
+1519,"('Eero', 'Kööp')",PER,1
+1520,"('Margus', 'Konsap')",PER,1
+1521,"('Jajaa', 'AS')",ORG,1
+1522,"('Mervi', 'Murdmets')",PER,1
+1523,"('Piia', 'Lutt')",PER,1
+1524,"('Triip', 'Grupp', 'AS')",ORG,1
+1525,"('Inga', 'Sait')",PER,1
+1526,"('Hansaprint', 'OÜ')",ORG,1
+1527,"('Firmabowling',)",PER,1
+1528,"('Bowling', 'European', 'Corporation')",ORG,1
+1529,"('Berliinis',)",LOC,4
+1530,"('Reija', 'Lunden')",PER,1
+1531,"('Pasi', 'Uotila')",PER,1
+1532,"('Jussi', 'Turtiainen')",PER,1
+1533,"('Petri', 'Mannonen')",PER,1
+1534,"('Sami', 'Heinilä')",PER,1
+1535,"('Olli', 'Hossi')",PER,1
+1536,"('Ari', 'Halme')",PER,1
+1537,"('SFKL',)",ORG,1
+1538,"('Soome', 'Bowlingu', 'Liidu')",ORG,2
+1539,"('Baltic', 'Bowling')",ORG,1
+1540,"('Eesti', 'Bowlingu', 'Liidu')",ORG,1
+1541,"('SFKL-is',)",ORG,1
+1542,"('Suomen', 'Pankki')",PER,1
+1543,"('Nokia',)",LOC,5
+1544,"('Finnair',)",PER,1
+1545,"('Fazer',)",PER,1
+1546,"('IBM',)",ORG,1
+1547,"('ICL',)",ORG,1
+1548,"('Paulig',)",PER,1
+1549,"('Sampo',)",PER,1
+1550,"('Uponor', 'Oy')",ORG,1
+1551,"('Siemens',)",PER,1
+1552,"('Rank', 'Xerox')",ORG,1
+1553,"('Valmet',)",ORG,1
+1554,"('Stockmann',)",ORG,1
+1555,"('Anttila',)",ORG,1
+1556,"('Helkama',)",PER,1
+1557,"('Pohjola',)",ORG,1
+1558,"('Yleisradio',)",ORG,1
+1559,"('ISKU', 'Oy')",ORG,1
+1560,"('Kone', 'Oy')",ORG,1
+1561,"('Onninen',)",ORG,1
+1562,"('Lemminkäinen', 'Oy')",ORG,1
+1563,"('Valio', 'Oy')",ORG,1
+1564,"('Raisio', 'Yhtymä')",PER,1
+1565,"('Soome', 'Bowlingu', 'Liidu')",LOC,1
+1566,"('Soome', 'Firmabowlingu', 'Liidu')",ORG,1
+1567,"('Gunnar', 'Vaidla')",PER,2
+1568,"('Raudalu',)",PER,1
+1569,"('Vaidla',)",PER,1
+1570,"('Aleksander', 'Kalamats')",ORG,1
+1571,"('Valju', 'Talv')",PER,1
+1572,"('Ella', 'Haldre')",PER,1
+1573,"('Harry', 'Veide')",PER,1
+1574,"('Meelis', 'Juursoo')",PER,1
+1575,"('Eesti', 'Spordimuuseumi')",ORG,1
+1576,"('Eesti', 'Rahva', 'Muusemi')",ORG,1
+1577,"('Anži', 'Mahhatškala')",PER,1
+1578,"('Toomas', 'Tohveri')",PER,1
+1579,"('Anži',)",LOC,1
+1580,"('Tohveriga',)",PER,1
+1581,"('Mahhatškalasse',)",LOC,1
+1582,"('Mark', 'Švets')",PER,4
+1583,"('Anži', 'FC', 'Florale')",ORG,1
+1584,"('Toomas', 'Tohverist')",PER,1
+1585,"('Anžile', 'Tohverist')",PER,1
+1586,"('Mahhatškala',)",LOC,1
+1587,"('Maardu', 'Levadiast')",ORG,1
+1588,"('FC', 'Florast')",ORG,1
+1589,"('Diego', 'Maradona')",PER,1
+1590,"('Dundee', 'United')",ORG,1
+1591,"('Napoli',)",PER,1
+1592,"('Maradona',)",PER,2
+1593,"('Dundee',)",LOC,1
+1594,"('Napoli',)",LOC,1
+1595,"('Šotimaa',)",LOC,1
+1596,"('Dundees',)",LOC,1
+1597,"('Claudio', 'Caniggia')",PER,1
+1598,"('Martina', 'Hingist')",PER,1
+1599,"('Kim', 'Clijstersiga')",PER,1
+1600,"('Melanie', 'Hingis')",PER,1
+1601,"('Hingis',)",PER,1
+1602,"('Ferrari',)",ORG,3
+1603,"('Itaalia', 'Alpides')",ORG,1
+1604,"('Michael', 'Schumacheri')",PER,1
+1605,"('Schumacherile',)",PER,1
+1606,"('Tarmo', 'Paju')",PER,2
+1607,"('Gert', 'Kullamäe')",PER,2
+1608,"('Oostende', 'Telindus')",ORG,2
+1609,"('FIBA', 'Suproliigas')",ORG,1
+1610,"('Istanbuli',)",LOC,1
+1611,"('Telindus',)",ORG,1
+1612,"('Damir', 'Mulaomerovic')",PER,1
+1613,"('Predrag', 'Drobnjak')",PER,1
+1614,"('Efes', 'Pilseni')",ORG,1
+1615,"('Telinduse',)",ORG,1
+1616,"('Lucien', 'Van', 'Kerschaever')",PER,1
+1617,"('B-grupis',)",ORG,1
+1618,"('Kullamäe',)",PER,1
+1619,"('Rauno', 'Pehka')",PER,1
+1620,"('Jon', 'Holden')",PER,1
+1621,"('Ralph', 'Biggs')",PER,1
+1622,"('Virginijus', 'Praskevicius')",ORG,1
+1623,"('Oostendele',)",ORG,1
+1624,"('Gunnar', 'Press')",PER,1
+1625,"('Andres', 'Vaher')",PER,2
+1626,"('Markko', 'Märtin')",PER,3
+1627,"('Mariine', 'Auto')",ORG,3
+1628,"('Subaru', 'Impreza')",PER,4
+1629,"('Märtin',)",PER,11
+1630,"('Monte', 'Carlosse')",ORG,2
+1631,"('MMi',)",ORG,2
+1632,"('David', 'Lapworth')",PER,2
+1633,"('Richard', 'Burnsi')",PER,2
+1634,"('Monte', 'Carlo')",LOC,1
+1635,"('Arai',)",PER,7
+1636,"('Toshihiro', 'Arai')",PER,2
+1637,"('Märtinit',)",PER,1
+1638,"('Marek', 'Lemsalu')",PER,2
+1639,"('Kristiansandi', 'Start')",ORG,1
+1640,"('Lemsalu',)",PER,7
+1641,"('Viljandi', 'Tulevikuga')",ORG,1
+1642,"('Tor', 'Thodeseni')",ORG,1
+1643,"('Stig', 'Lillegårdiga')",PER,1
+1644,"('Teitur', 'Thordarsoni')",PER,1
+1645,"('Start',)",ORG,1
+1646,"('Lõuna-Norra',)",LOC,1
+1647,"('Stardil',)",LOC,1
+1648,"('Karin',)",PER,6
+1649,"('Liis',)",PER,2
+1650,"('Andres', 'Operile')",PER,1
+1651,"('Urmas',)",PER,2
+1652,"('Roobale', 'külla')",LOC,1
+1653,"('Strømsgodset',)",ORG,1
+1654,"('Lemsalu',)",LOC,1
+1655,"('Sergei', 'Terehhov')",PER,1
+1656,"('Kristen', 'Viikmäe')",PER,1
+1657,"('Lemsalust',)",LOC,1
+1658,"('Kristiansandi',)",LOC,1
+1659,"('Fædrelandsvenner',)",ORG,1
+1660,"('Šge',)",PER,1
+1661,"('Harald', 'Drangsholvi')",PER,1
+1662,"('IK',)",ORG,1
+1663,"('Klubi',)",PER,1
+1664,"('Drangsholvi',)",PER,1
+1665,"('Drangsholv',)",PER,2
+1666,"('Lemsalul',)",LOC,1
+1667,"('Starti',)",ORG,1
+1668,"('Strømsgodset',)",PER,1
+1669,"('Indrek', 'Reinbok')",PER,1
+1670,"('Kalevi',)",PER,3
+1671,"('Tiit', 'Sokku')",PER,1
+1672,"('Priit', 'Teniste')",PER,1
+1673,"('Indrek', 'Varblasele')",PER,1
+1674,"('Reinbok', 'Kalevi')",PER,1
+1675,"('Nybiti',)",PER,2
+1676,"('Varblase',)",PER,1
+1677,"('Aivar', 'Kuusmaa')",PER,1
+1678,"('Ando', 'Tagametsa')",PER,1
+1679,"('Kalev',)",PER,3
+1680,"('Sokku',)",PER,1
+1681,"('Teniste',)",PER,2
+1682,"('Üllar', 'Kerde')",PER,1
+1683,"('Marek', 'Noormetsaga')",PER,1
+1684,"('Kerde',)",PER,1
+1685,"('Pavel', 'Grigorjev')",PER,1
+1686,"('Valgevenes',)",LOC,4
+1687,"('Jaan', 'Martinson')",PER,1
+1688,"('Kristina', 'Šmigun')",PER,1
+1689,"('Salt',)",LOC,5
+1690,"('Citys',)",LOC,4
+1691,"('Katrin',)",PER,3
+1692,"('Katerina', 'Neumannova')",PER,1
+1693,"('Kristina',)",PER,12
+1694,"('Katerina', 'Neumannovale')",PER,1
+1695,"('Neumannova',)",PER,3
+1696,"('Bente', 'Skari')",PER,2
+1697,"('Beckie', 'Scottile')",PER,1
+1698,"('Gabriella', 'Paruzzile')",PER,1
+1699,"('Skari',)",PER,3
+1700,"('Neumannovaga',)",PER,1
+1701,"('Kristinat',)",PER,1
+1702,"('Katrinit',)",PER,1
+1703,"('Tšepalova',)",PER,3
+1704,"('Tšehhitar',)",LOC,1
+1705,"('Paruzzi',)",PER,1
+1706,"('Scott',)",PER,1
+1707,"('Stefania', 'Belmondo')",PER,1
+1708,"('Tšepalovaga',)",PER,1
+1709,"('Ameerikasse',)",LOC,2
+1710,"('Julia', 'Tšepalova')",PER,3
+1711,"('Šmigunide',)",PER,2
+1712,"('Anatoli',)",PER,1
+1713,"('USAsse',)",LOC,3
+1714,"('Lake',)",LOC,2
+1715,"('Katriniga',)",PER,1
+1716,"('Kristjan', 'Vähi')",PER,1
+1717,"('Peep', 'Pahv')",PER,1
+1718,"('KK', 'Rakvere')",ORG,2
+1719,"('A.Le', 'Coqi')",PER,5
+1720,"('Edmunds', 'Valeiko')",PER,1
+1721,"('Valeiko',)",PER,5
+1722,"('Kaur', 'Heinaru')",PER,1
+1723,"('Kaido', 'Saagi')",PER,1
+1724,"('Andres', 'Sõber')",PER,3
+1725,"('Indrek', 'Rumma')",PER,3
+1726,"('Aare', 'Halliko')",PER,1
+1727,"('Harri', 'Nuka')",PER,1
+1728,"('A.Le', 'Coq')",PER,5
+1729,"('Rumma',)",PER,2
+1730,"('Mihhail', 'Nikolotov')",PER,1
+1731,"('Nikolotov',)",PER,2
+1732,"('Saag',)",PER,2
+1733,"('Tenno',)",PER,1
+1734,"('Metstak',)",PER,3
+1735,"('Margus', 'Metstak')",PER,2
+1736,"('Aivo', 'Erkmaa')",PER,1
+1737,"('O',)",ORG,1
+1738,"('Erkmaa',)",PER,1
+1739,"('Melnik',)",PER,2
+1740,"('Oostendesse',)",LOC,1
+1741,"('Rauno', 'Pehkata')",PER,1
+1742,"('Tallinna', 'Ülikoolid-A')",ORG,4
+1743,"('Le', 'Coq')",PER,3
+1744,"('Valeiko',)",LOC,1
+1745,"('Allingu',)",PER,2
+1746,"('Villers',)",ORG,1
+1747,"('Lokutsievski',)",PER,1
+1748,"('Pugonen',)",ORG,1
+1749,"('Moore',)",PER,2
+1750,"('Tenno',)",ORG,1
+1751,"('Kivinukk',)",ORG,1
+1752,"('Šein',)",ORG,1
+1753,"('Kalev',)",ORG,2
+1754,"('Reinbok',)",ORG,1
+1755,"('Tagamets',)",LOC,1
+1756,"('Lips',)",ORG,1
+1757,"('Hendrikson',)",ORG,1
+1758,"('Suurorg',)",ORG,1
+1759,"('Grigorjev',)",ORG,1
+1760,"('Kuusmaa',)",LOC,1
+1761,"('Eaker',)",ORG,1
+1762,"('Ruut',)",PER,1
+1763,"('Berrien',)",ORG,1
+1764,"('Kangur',)",LOC,1
+1765,"('Kaljula',)",PER,1
+1766,"('Ida-Virumaa', '16 0 16')",LOC,1
+1767,"('KK', 'Rakverele')",ORG,1
+1768,"('Västeråsis',)",LOC,1
+1769,"('Margit', 'Rüütel')",PER,1
+1770,"('Kristina', 'Grigorjani')",PER,1
+1771,"('Ville', 'Arike')",PER,1
+1772,"('Vinni',)",PER,1
+1773,"('KK', 'Rakvere', 'Vinnis')",ORG,1
+1774,"('Le', 'Coqi')",PER,1
+1775,"('Nybit', 'Kalevit')",PER,1
+1776,"('Kaido', 'Saag')",PER,1
+1777,"('A. Le', 'Coqi')",PER,2
+1778,"('A. Le', 'Coq')",PER,6
+1779,"('Priit', 'Lokutsievski')",PER,1
+1780,"('Vallo', 'Allingu')",PER,1
+1781,"('A. Le', 'Coqil')",PER,1
+1782,"('Igor', 'Melnik')",PER,1
+1783,"('Rummat', 'Chris', 'Moore')",PER,1
+1784,"('Aivo', 'Erkmaad')",PER,1
+1785,"('Raido', 'Villersi')",PER,1
+1786,"('Sõber',)",PER,1
+1787,"('TÜ-Delta',)",ORG,1
+1788,"('Nybit',)",ORG,1
+1789,"('Hotronic',)",ORG,1
+1790,"('Ehitustööriist',)",ORG,1
+1791,"('Ida-Virumaa',)",LOC,1
+1792,"('Jaan', 'Jürine')",PER,3
+1793,"('Markko', 'Märtinile')",PER,1
+1794,"('WRX',)",ORG,1
+1795,"('Subaru',)",PER,5
+1796,"('Märtin', 'Subarule')",PER,1
+1797,"('Mariine',)",PER,1
+1798,"('Märtinile',)",PER,1
+1799,"('Monte', 'Carlo')",ORG,1
+1800,"('Märtinil',)",PER,2
+1801,"('Burns',)",PER,1
+1802,"('Märtini',)",PER,1
+1803,"('Petter', 'Solbergi')",ORG,1
+1804,"('Subaru', 'Märtinilt')",PER,1
+1805,"('Märtinilt',)",PER,1
+1806,"('Reuters', '/', 'epl')",ORG,1
+1807,"('Hossam', 'Hassan')",PER,1
+1808,"('Sambiaga',)",LOC,1
+1809,"('Lothar', 'Matthäusiga')",PER,1
+1810,"('Hassan',)",PER,1
+1811,"('FIDE',)",ORG,3
+1812,"('Garri', 'Kasparov')",PER,1
+1813,"('Kasparovi',)",PER,1
+1814,"('Vladimir', 'Kramnikule')",PER,1
+1815,"('Viswanathan', 'Anandil')",PER,1
+1816,"('India',)",ORG,1
+1817,"('Kramnikul',)",PER,1
+1818,"('Jaan', 'Ehlvest')",PER,1
+1819,"('Aleksandr', 'Beljavskiga')",PER,1
+1820,"('Sloveenia',)",LOC,2
+1821,"('Mihhail', 'Rõtšagovi')",PER,1
+1822,"('Kaido', 'Külaotsal')",PER,1
+1823,"('Istanbulis',)",LOC,1
+1824,"('Jens', 'Salumäe')",PER,1
+1825,"('Samppa', 'Lajunen')",PER,1
+1826,"('Katrin', 'Shmigun')",PER,3
+1827,"('MK',)",ORG,2
+1828,"('Lake', 'Citys')",LOC,1
+1829,"('Kristina', 'Shmigun')",PER,1
+1830,"('Kristina', 'Stefania', 'Belmondost')",PER,1
+1831,"('Tšehhimaalt',)",LOC,1
+1832,"('Kristina', 'Shmiguni')",PER,3
+1833,"('Beckie', 'Scott')",PER,2
+1834,"('Kanada',)",PER,1
+1835,"('Gabriella', 'Paruzzi')",PER,1
+1836,"('Skarist',)",PER,1
+1837,"('Neumannovat',)",PER,1
+1838,"('Stefania', 'Belmondot')",PER,1
+1839,"('Gabriela', 'Paruzzit')",PER,1
+1840,"('Belmondo',)",PER,1
+1841,"('Paruzzile',)",PER,1
+1842,"('Skari',)",LOC,1
+1843,"('Paul', 'Kerese')",PER,1
+1844,"('TV-le',)",ORG,1
+1845,"('Kerese',)",PER,2
+1846,"('Lembit', 'Oll')",PER,1
+1847,"('Sõnumilehes',)",ORG,1
+1848,"('Olli',)",PER,1
+1849,"('Oll',)",PER,2
+1850,"('Judit', 'Polgar')",PER,1
+1851,"('Jan', 'Timman')",PER,1
+1852,"('Aleksander', 'Tammert-seenior')",PER,1
+1853,"('Polgar',)",PER,3
+1854,"('Tammerti',)",LOC,1
+1855,"('Polgari',)",PER,2
+1856,"('Timmani',)",PER,1
+1857,"('Tammertile',)",PER,1
+1858,"('Kalle', 'Kiige')",PER,1
+1859,"('Jüri', 'Vetemaa')",PER,1
+1860,"('Hendrik', 'Olde')",PER,1
+1861,"('Tammert',)",PER,1
+1862,"('Pai', 'Kalevile')",ORG,1
+1863,"('Gaston', 'Mazzacane')",PER,3
+1864,"('Jean', 'Alesi')",PER,3
+1865,"('Mazzacanet',)",PER,1
+1866,"('Alain', 'Prost')",PER,3
+1867,"('Tiit', 'Lääne')",PER,1
+1868,"('Erki', 'Nool')",PER,1
+1869,"('Elite', 'Sport')",ORG,1
+1870,"('Reval', 'Hotels', 'Cup')",ORG,1
+1871,"('Nool',)",PER,4
+1872,"('Reval', 'Hotels')",PER,1
+1873,"('Eesti', 'Ühispank')",ORG,1
+1874,"('Tallinna', 'Sadam')",ORG,1
+1875,"('Adidas',)",ORG,1
+1876,"('Eesti', 'Mobiiltelefon')",ORG,1
+1877,"('Raadio', 'Kuku')",PER,1
+1878,"('Eesti', 'Televisioon')",ORG,2
+1879,"('Wõro', 'Kommerts')",PER,1
+1880,"('Lõuna-Aafrikast',)",LOC,1
+1881,"('Aare', 'Urm')",PER,1
+1882,"('Tauno', 'Kangro')",PER,1
+1883,"('Hispaaniasse',)",LOC,1
+1884,"('Tartu', 'ülikooli')",ORG,3
+1885,"('Jaak', 'Aaviksoo')",PER,1
+1886,"('Tartu', 'Ülikooli')",ORG,3
+1887,"('Aaviksoo',)",PER,3
+1888,"('Eesti', 'Päevalehes')",ORG,1
+1889,"('Aado', 'Kuusk')",PER,1
+1890,"('Kuusk',)",PER,1
+1891,"('Kuuse',)",PER,3
+1892,"('ASi', 'ESS', 'Eesti')",ORG,1
+1893,"('Peeter', 'Tohver')",PER,2
+1894,"('ESS',)",ORG,2
+1895,"('Pankade', 'Kaardikeskuse', 'AS-i')",ORG,2
+1896,"('Lauri', 'Kriiska')",PER,4
+1897,"('Tallinnna', 'linnakohtu')",ORG,1
+1898,"('Kriiska',)",LOC,5
+1899,"('Kriiskalt',)",PER,1
+1900,"('Tallinna', 'majanduspolitsei')",ORG,2
+1901,"('Viru',)",LOC,7
+1902,"('Isamaaliidu',)",ORG,5
+1903,"('Arengupartei',)",ORG,3
+1904,"('Iseseisvuspartei',)",ORG,3
+1905,"('Keskerakond',)",ORG,4
+1906,"('Isamaaliitu',)",ORG,7
+1907,"('Harju', 'Ehitus')",ORG,1
+1908,"('Magnum', 'Medical')",ORG,1
+1909,"('Jõgeva',)",LOC,3
+1910,"('Kalev', 'Lillo')",PER,1
+1911,"('Rahvaerakond', 'Mõõdukad')",ORG,1
+1912,"('Eestimaa', 'Rahvaliit')",ORG,3
+1913,"('Sotsiaaldemokraatlik', 'Tööpartei')",ORG,3
+1914,"('Arenguparteil',)",ORG,1
+1915,"('Koonderakond',)",ORG,2
+1916,"('Ühendatud', 'Rahvapartei')",ORG,2
+1917,"('Põllumeeste', 'Kogu')",ORG,2
+1918,"('Vene', 'Balti', 'Erakond')",LOC,2
+1919,"('Vene', 'Ühtsuspartei')",ORG,2
+1920,"('Justiitsministeeriumi',)",ORG,2
+1921,"('Aivo', 'Barbo')",PER,2
+1922,"('Kristlik', 'Rahvapartei')",ORG,2
+1923,"('Barbo',)",PER,2
+1924,"('Rahvaerakond',)",ORG,2
+1925,"('Mõõdukad',)",ORG,6
+1926,"('Vene', 'Erakond')",ORG,2
+1927,"('Isamaaliit',)",ORG,8
+1928,"('Einar', 'Kelder')",PER,1
+1929,"('Heiki', 'Kranich')",PER,2
+1930,"('Kilk',)",LOC,1
+1931,"('Einar', 'Kelderi')",PER,1
+1932,"('Kranichi',)",PER,1
+1933,"('Pärnu', 'linnavalitsusele')",ORG,1
+1934,"('Kranich',)",PER,3
+1935,"('Pärnumaa',)",LOC,1
+1936,"('Toomas', 'Padjuse')",PER,1
+1937,"('Padjus',)",PER,1
+1938,"('Kerese',)",ORG,1
+1939,"('Lootsi',)",ORG,1
+1940,"('Kalda',)",PER,7
+1941,"('Tarmo', 'Loodus')",PER,2
+1942,"('Toilasse',)",LOC,1
+1943,"('Eesti', 'Kohtunike', 'Ühingu')",ORG,1
+1944,"('Allar', 'Jõks')",PER,1
+1945,"('Jõksi',)",PER,1
+1946,"('Uno', 'Lõhmus')",PER,1
+1947,"('Märt', 'Rask')",PER,3
+1948,"('Aase', 'Sammelselg')",PER,1
+1949,"('Lennart', 'Meri')",PER,11
+1950,"('Meri',)",PER,9
+1951,"('Karin', 'Varkel')",PER,1
+1952,"('Varkeli',)",PER,1
+1953,"('Jüri', 'Luik')",PER,1
+1954,"('Luik',)",PER,2
+1955,"('Leo', 'Kunnase')",PER,2
+1956,"('Kristjan', 'Moora')",PER,4
+1957,"('Isamaaliiduga',)",ORG,1
+1958,"('Leo', 'Kunnas')",PER,2
+1959,"('Isamaaliidust',)",ORG,2
+1960,"('Kaitseliitu',)",ORG,2
+1961,"('Kunnas',)",PER,2
+1962,"('Eesti', 'Rahvusliku', 'Sõltumatuse', 'Parteisse')",ORG,1
+1963,"('Kaitseliidu',)",ORG,4
+1964,"('Ülle', 'Michelson')",PER,1
+1965,"('Michelson',)",PER,1
+1966,"('Moora',)",PER,1
+1967,"('Kunnase',)",PER,1
+1968,"('Michelsoni',)",PER,1
+1969,"('Moora', 'Balti')",PER,1
+1970,"('Feira',)",ORG,1
+1971,"('Euroopa', 'Komisjonil')",ORG,1
+1972,"('Nizzas',)",LOC,1
+1973,"('Nizza',)",LOC,3
+1974,"('Göteborgi',)",LOC,2
+1975,"('Lissaboni', 'Ülemkogu')",ORG,1
+1976,"('Lissabonis',)",LOC,1
+1977,"('Rootsi', 'Lissaboni')",LOC,1
+1978,"('Rootsil',)",LOC,1
+1979,"('Göteborgi', 'Ülemkogul')",ORG,1
+1980,"('Kliimaküsimus',)",PER,1
+1981,"('Euroopa', 'Liidu', 'Nõukogu')",ORG,1
+1982,"('Kesklinna',)",LOC,3
+1983,"('Põhja-Tallinna',)",LOC,3
+1984,"('Toomas', 'Raag')",PER,1
+1985,"('Stroomi',)",LOC,1
+1986,"('Järvamaa',)",LOC,1
+1987,"('Muuseumis',)",LOC,1
+1988,"('Peterburi',)",LOC,2
+1989,"('Robert', 'de', 'Niro')",PER,1
+1990,"('Michael', 'Jacksoni')",PER,1
+1991,"('Elvis', 'Presli')",ORG,1
+1992,"('Batmani',)",PER,1
+1993,"('Paidesse',)",LOC,2
+1994,"('Narvast',)",LOC,1
+1995,"('Järvamaa', 'Muusuemi')",ORG,1
+1996,"('Tiiu', 'Saaristi')",PER,1
+1997,"('Paidet',)",LOC,1
+1998,"('Saaristi',)",PER,2
+1999,"('Järvamaal',)",LOC,3
+2000,"('Paides',)",LOC,1
+2001,"('Hollywoodi',)",LOC,1
+2002,"('Justiistministeeriumi', 'vanglate')",ORG,1
+2003,"('Aare', 'Sõer')",PER,1
+2004,"('Sõer',)",PER,2
+2005,"('Murru', 'vanglast')",ORG,1
+2006,"('justiitsministeeriumi',)",ORG,1
+2007,"('Keila',)",LOC,2
+2008,"('Vasalemma',)",LOC,1
+2009,"('ETAle', 'justiitsministeeriumi')",ORG,1
+2010,"('Kristiina', 'Herodes')",PER,1
+2011,"('Herodese',)",PER,1
+2012,"('Riigikogu',)",ORG,16
+2013,"('Kadrioru',)",ORG,2
+2014,"('Norimasa', 'Hasegawa')",ORG,1
+2015,"('Elisabet', 'Borsiin', 'Bonnier')",PER,1
+2016,"('Toomas', 'Hendrik', 'Ilvesega')",PER,2
+2017,"('Euroopa', 'Liidus')",LOC,3
+2018,"('Lähis-Ida',)",LOC,2
+2019,"('Põhja-Korea',)",LOC,1
+2020,"('Venemaaga',)",LOC,3
+2021,"('Göran', 'Perssoni')",PER,1
+2022,"('Perssoni',)",PER,1
+2023,"('Alar', 'Streimanni')",PER,1
+2024,"('Prantsusmaalt',)",LOC,1
+2025,"('Belgiale',)",LOC,1
+2026,"('Priit', 'Vilba')",PER,4
+2027,"('EBRD',)",ORG,4
+2028,"('Philip', 'Cornwelliga')",PER,1
+2029,"('Raepressile',)",ORG,1
+2030,"('Vilba',)",PER,2
+2031,"('Tallinnalt',)",LOC,1
+2032,"('Rahvaerakonna', 'Mõõdukad')",ORG,1
+2033,"('Mõõdukate',)",ORG,2
+2034,"('Tallinna', 'linnavalitsus')",ORG,3
+2035,"('Liisa', 'Pakosta')",PER,6
+2036,"('Pakosta',)",PER,10
+2037,"('Eesti', 'Põllumajandusülikool')",ORG,1
+2038,"('EPMÜ',)",ORG,10
+2039,"('ETAle', 'EPMÜ')",ORG,1
+2040,"('Andres', 'Koppel')",PER,1
+2041,"('Koppeli',)",PER,1
+2042,"('Tartu', 'Ülikool')",ORG,1
+2043,"('Tartu', 'Lennukolledz')",ORG,1
+2044,"('Koppel',)",PER,4
+2045,"('Eesti', 'Teadlaste', 'Liit')",ORG,1
+2046,"('Euroopa', 'Liitu')",ORG,1
+2047,"('Riigikogu', 'Keskerakonna')",ORG,1
+2048,"('Jürgen', 'Ligi')",PER,3
+2049,"('Väino', 'Linde')",PER,1
+2050,"('Linde',)",PER,2
+2051,"('Paikusel',)",LOC,1
+2052,"('Pärnu', 'Postimees')",ORG,2
+2053,"('Jüri', 'Meritsa')",PER,1
+2054,"('Paikuse', 'vallavolikogu')",ORG,1
+2055,"('Merits',)",PER,1
+2056,"('Ülo', 'Ülesoo')",PER,1
+2057,"('Rakvere',)",ORG,1
+2058,"('Mustamäe', 'haigla')",ORG,2
+2059,"('Andrus', 'Kreisi')",PER,1
+2060,"('Creutzfeld-Jacobi',)",LOC,3
+2061,"('Kreis',)",PER,1
+2062,"('Tallinnale',)",LOC,2
+2063,"('Aado', 'Kuuse')",PER,1
+2064,"('AS-idele', 'Hansa', 'Liising')",ORG,1
+2065,"('Hoiupanga', 'Liising')",ORG,1
+2066,"('Meri', 'Kopli')",PER,1
+2067,"('Rakvere', 'Lihakombinaadi')",ORG,1
+2068,"('Indrek', 'Lekko')",PER,1
+2069,"('Soomega',)",LOC,2
+2070,"('Lekko',)",PER,2
+2071,"('Ukrainast',)",LOC,1
+2072,"('Valga', 'Lihakombinaadi')",ORG,1
+2073,"('Elmut', 'Paaveli')",PER,1
+2074,"('Creutzfeldt-Jakobi',)",LOC,1
+2075,"('Paavel',)",PER,1
+2076,"('Merit', 'Kopli')",PER,2
+2077,"('Lääne-Euroopat',)",LOC,1
+2078,"('Mati', 'Loidi')",PER,1
+2079,"('Loit',)",PER,2
+2080,"('Hispaaniast',)",LOC,1
+2081,"('Inglismaalt',)",LOC,1
+2082,"('Iirimaalt',)",LOC,1
+2083,"('Portugalist',)",LOC,1
+2084,"('Sveitsist',)",LOC,1
+2085,"('Hollandist',)",LOC,1
+2086,"('Belgiast',)",LOC,1
+2087,"('Taanist',)",LOC,3
+2088,"('Loidi',)",PER,1
+2089,"('Vahur', 'Keldrima')",PER,1
+2090,"('Keldrima',)",PER,1
+2091,"('Tartu', 'Ülikoolis')",ORG,1
+2092,"('Ants', 'Leemets')",PER,2
+2093,"('Küllike', 'Kasuri')",ORG,1
+2094,"('Internetipanga',)",ORG,1
+2095,"('U-Neti',)",LOC,1
+2096,"('Eesti', 'välisministeeriumis')",ORG,1
+2097,"('Välisministeeriumi',)",ORG,1
+2098,"('Nõukogude',)",LOC,2
+2099,"('Toomas', 'Hendrik', 'Ilves')",PER,3
+2100,"('Nõmme', 'Halduskogu')",ORG,1
+2101,"('Nõmme',)",LOC,1
+2102,"('Urmas', 'Paeti')",PER,1
+2103,"('Nõmme',)",ORG,1
+2104,"('Liumägi',)",LOC,1
+2105,"('Põlva',)",LOC,1
+2106,"('AS', 'Rapeks')",ORG,1
+2107,"('Nõmmele',)",LOC,1
+2108,"('Toivo', 'Jürgensoni')",PER,1
+2109,"('Jürgensoni',)",PER,1
+2110,"('Eestimaa', 'Rahvaliidu')",ORG,2
+2111,"('Villu', 'Reiljan')",PER,2
+2112,"('Reiljani',)",PER,2
+2113,"('Peeter', 'Kreitzberg')",PER,2
+2114,"('Jürgensonile',)",PER,1
+2115,"('Kreitzberg',)",PER,2
+2116,"('Reiljan',)",PER,1
+2117,"('Eesti', 'Raudtee')",ORG,4
+2118,"('AS', 'Eesti', 'Raudtee')",ORG,1
+2119,"('AS', 'Edelaraudtee')",ORG,1
+2120,"('Riigikogule',)",ORG,1
+2121,"('Edelaraudteel',)",ORG,2
+2122,"('Riigikogus',)",ORG,4
+2123,"('Liina', 'Tõnisson')",PER,1
+2124,"('Edelaraudtee',)",ORG,20
+2125,"('Jürgenson',)",PER,1
+2126,"('Pankade', 'Kaardikeskuse')",ORG,1
+2127,"('Lätil',)",LOC,2
+2128,"('Leonid', 'Šuba')",PER,1
+2129,"('Jaanus', 'Köst')",PER,1
+2130,"('Meelis', 'Malk')",PER,1
+2131,"('Sergei', 'Štšetin')",PER,1
+2132,"('Rene', 'Villemson')",PER,1
+2133,"('Igors', 'Blinkovs')",PER,1
+2134,"('LV',)",ORG,1
+2135,"('Sergei', 'Ušakov')",PER,1
+2136,"('Lauri', 'Rebbas')",PER,1
+2137,"('Juri', 'Batluk')",PER,1
+2138,"('Artur', 'Tamberg')",PER,1
+2139,"('Agnes', 'Jürgens')",PER,1
+2140,"('Järva', 'maakonnas')",LOC,1
+2141,"('Rein', 'Rannamäe')",PER,1
+2142,"('Tõnis', 'Lukas')",PER,2
+2143,"('Lukas',)",PER,2
+2144,"('Haridusministeeriumi',)",ORG,1
+2145,"('Lääne-Virumaal',)",LOC,2
+2146,"('Tartumaal',)",LOC,1
+2147,"('Riigikogu', 'Eestimaa', 'Rahvaliidu')",ORG,1
+2148,"('Toivo', 'Jürgensonile')",PER,1
+2149,"('Edelaraudteega',)",ORG,3
+2150,"('ETAle', 'Rahvaliidu')",ORG,1
+2151,"('Lennart', 'Merile')",PER,3
+2152,"('Postimehele',)",ORG,2
+2153,"('Priit', 'Kama')",PER,2
+2154,"('Rein', 'Müllerson')",PER,1
+2155,"('Kaido', 'Pihlakas')",PER,1
+2156,"('Müllersonil',)",PER,1
+2157,"('Pihlakasel',)",PER,1
+2158,"('Andres', 'Tarand')",PER,1
+2159,"('Tarand',)",PER,3
+2160,"('Eerik-Juhan', 'Truuväli')",PER,1
+2161,"('Jaan', 'Sootakki')",PER,1
+2162,"('Jaano', 'Odarit')",PER,1
+2163,"('Jüri', 'Raidlat')",PER,1
+2164,"('Sootak',)",PER,1
+2165,"('Rahvaliidu',)",ORG,1
+2166,"('Meri', 'Sootakit')",PER,1
+2167,"('Eerik', 'Kergandbergi')",PER,1
+2168,"('Mihkel', 'Oviiri')",PER,1
+2169,"('Tiit', 'Käbinit')",PER,1
+2170,"('Aare', 'Reenumägi')",PER,1
+2171,"('Peep', 'Pruksi')",PER,1
+2172,"('Kalle', 'Meruskit')",PER,1
+2173,"('Helve', 'Särgavat')",PER,1
+2174,"('Indrek', 'Koolmeistrit')",PER,1
+2175,"('Andres', 'Hallmägi')",PER,1
+2176,"('Madis', 'Jürgen')",PER,1
+2177,"('LÜNGAD', 'SEADUSES')",PER,1
+2178,"('Raigo',)",PER,28
+2179,"('Raigole',)",LOC,2
+2180,"('Raigol',)",PER,7
+2181,"('Kristi',)",PER,3
+2182,"('Puhtus',)",LOC,1
+2183,"('Leena',)",ORG,2
+2184,"('Vanemõe', 'Merlega')",ORG,1
+2185,"('Raviarst', 'Aili')",PER,1
+2186,"('Raigole',)",ORG,1
+2187,"('Inga',)",PER,1
+2188,"('Eva',)",PER,1
+2189,"('Raigole',)",PER,1
+2190,"('Tartusse',)",LOC,6
+2191,"('Tartu', 'Linnavalitsuse')",ORG,1
+2192,"('Leena',)",PER,1
+2193,"('Siina',)",PER,1
+2194,"('Tartu', 'linna')",LOC,2
+2195,"('Merle', 'Linno')",PER,1
+2196,"('Raigost',)",PER,1
+2197,"('Pekka', 'Erelt')",PER,1
+2198,"('Eestiga',)",LOC,1
+2199,"('Respublika',)",ORG,2
+2200,"('NATO',)",ORG,24
+2201,"('Respublika',)",PER,4
+2202,"('Baltimaa',)",LOC,1
+2203,"('Balti', 'Assamblee')",ORG,1
+2204,"('NATOga',)",ORG,1
+2205,"('Eestile',)",LOC,5
+2206,"('Euroopa', 'Liitu')",LOC,1
+2207,"('Leedut',)",LOC,2
+2208,"('NATOsse',)",ORG,1
+2209,"('Põhjamaaks',)",LOC,1
+2210,"('Skandinaavia', 'riik')",LOC,1
+2211,"('Ida-Euroopasse',)",LOC,1
+2212,"('Raadio',)",ORG,2
+2213,"('Kulemaje',)",PER,1
+2214,"('Läänes',)",LOC,2
+2215,"('Vilnius',)",LOC,1
+2216,"('Euroopasse',)",LOC,1
+2217,"('Algirdas', 'Brazauskas')",PER,2
+2218,"('reforme',)",ORG,1
+2219,"('Aet', 'Süvari')",PER,1
+2220,"('Tiesenhauseni',)",PER,4
+2221,"('Brunhild-Dorothea', 'Tiesenhausen')",PER,1
+2222,"('Toompea',)",ORG,1
+2223,"('Tiesenhausenid',)",PER,1
+2224,"('Tiit', 'Kurvitsa')",PER,1
+2225,"('Sirje', 'Rõõmu', 'büroos')",ORG,1
+2226,"('Toivo', 'Toimi')",PER,2
+2227,"('Ida-Virumaalt',)",LOC,3
+2228,"('Mati', 'Kullamäele')",PER,1
+2229,"('OÜ', 'Pankrannikule')",ORG,1
+2230,"('Tiit', 'Kurvits')",PER,3
+2231,"('Kullamäe',)",LOC,3
+2232,"('Tallinna', 'linnakohtule')",ORG,1
+2233,"('Toim',)",PER,1
+2234,"('Mati', 'Kullamäe')",PER,2
+2235,"('kapo',)",ORG,1
+2236,"('Maie',)",PER,1
+2237,"('Tiit', 'Kullamäe')",PER,1
+2238,"('Kapo',)",ORG,1
+2239,"('Oole', 'Horni')",PER,2
+2240,"('Eesti', 'Ekspressis')",ORG,4
+2241,"('Tiesenhausen',)",PER,2
+2242,"('Kurvitsaga',)",PER,1
+2243,"('Bergert',)",PER,6
+2244,"('Ekspressi',)",ORG,2
+2245,"('Merike', 'Kurvitsa')",PER,1
+2246,"('Kurvits',)",PER,1
+2247,"('Bergerti',)",LOC,1
+2248,"('kapo', 'ja', 'prokuratuur')",ORG,1
+2249,"('Tiit',)",PER,3
+2250,"('Eesti', 'riigis')",LOC,1
+2251,"('Mihkel', 'Kärmas')",PER,1
+2252,"('BLUFOLOOG',)",PER,1
+2253,"('Alan', 'Danilewski')",PER,4
+2254,"('Anonüümsete', 'Alkohoolikute')",ORG,1
+2255,"('Tervis', 'Pluss')",ORG,1
+2256,"('Annelinnas',)",LOC,1
+2257,"('Danilewski',)",PER,8
+2258,"('Tartus', 'Kaunase')",LOC,1
+2259,"('Jämejala', 'haiglast')",ORG,1
+2260,"('Ukraina',)",LOC,1
+2261,"('Artjom', 'Danilevski')",PER,1
+2262,"('Eesti', 'Põllumajandusakadeemia')",ORG,1
+2263,"('Kashpirovski', 'eeskuju')",ORG,1
+2264,"('EPAsse',)",ORG,1
+2265,"('Vahur', 'Mätase')",PER,1
+2266,"('Danilewskil',)",PER,1
+2267,"('Postimehe',)",ORG,1
+2268,"('Aili', 'Pajul')",PER,1
+2269,"('Aili', 'Paju')",PER,1
+2270,"('Kaja', 'Grigorjevile')",PER,1
+2271,"('Danilewskiga',)",PER,1
+2272,"('Grigorjev',)",PER,1
+2273,"('Danilewskilt',)",PER,1
+2274,"('Tervis', 'Plussi')",ORG,1
+2275,"('Sirje', 'Maasikamäe')",PER,1
+2276,"('Danilewskit',)",PER,1
+2277,"('Gea', 'Velthut-Sokka')",PER,1
+2278,"('Tehvandi',)",PER,3
+2279,"('Heido', 'Meema')",PER,6
+2280,"('Meema',)",PER,17
+2281,"('Nüpli', 'külas')",LOC,1
+2282,"('Otepää',)",LOC,3
+2283,"('Tiiu', 'Meema')",PER,1
+2284,"('Erich',)",PER,5
+2285,"('Heido',)",PER,3
+2286,"('Palupera', 'Räbi', 'talu')",ORG,1
+2287,"('Ago',)",PER,2
+2288,"('Toomas', 'Kikasele')",PER,1
+2289,"('Kikas',)",PER,2
+2290,"('Arvin', 'Toomi')",PER,1
+2291,"('Arvin', 'Toom')",PER,1
+2292,"('Maarjamõisa',)",LOC,1
+2293,"('Otepää', 'haiglasse')",ORG,1
+2294,"('Otepääl', 'Tehvandi')",ORG,1
+2295,"('Moskvast',)",LOC,2
+2296,"('Eesti', 'NSVs')",LOC,1
+2297,"('Tiiu',)",PER,2
+2298,"('Pedagoogikaülikooli',)",ORG,1
+2299,"('Vello', 'Meema')",PER,1
+2300,"('Otepääst',)",LOC,1
+2301,"('Tehvandilt',)",LOC,1
+2302,"('Jaanus', 'Raidal')",PER,1
+2303,"('Raidal',)",PER,1
+2304,"('Meemal',)",PER,1
+2305,"('Jüri', 'Rull')",PER,1
+2306,"('Rull',)",PER,1
+2307,"('Meema', 'Tehvandilt')",PER,1
+2308,"('Vello',)",PER,1
+2309,"('Kääriku-Tehvandi', 'Olümpiakeskus')",ORG,1
+2310,"('Alar', 'Arukuuse')",PER,1
+2311,"('Aivar', 'Otsalti')",PER,1
+2312,"('Valgamaal',)",LOC,1
+2313,"('Räbi', 'talu')",ORG,1
+2314,"('Vello', 'Luik')",PER,1
+2315,"('Tartu', 'Ülikooli', 'Psühhiaatriakliiniku')",ORG,1
+2316,"('Veiko', 'Vasar')",PER,1
+2317,"('Kultuuriväärtusteameti',)",ORG,1
+2318,"('Agne', 'Trummal')",PER,1
+2319,"('Tarmo', 'Valgepea')",PER,1
+2320,"('Andrus', 'Esko')",PER,1
+2321,"('A',)",PER,1
+2322,"('JA', 'O')",PER,1
+2323,"('Atko', 'Viru')",PER,3
+2324,"('Fjuk',)",ORG,1
+2325,"('Kauba',)",PER,1
+2326,"('Viljandimaal',)",LOC,1
+2327,"('Valdeko', 'Virule')",PER,1
+2328,"('Augustovitshiga',)",PER,1
+2329,"('Atkoks',)",PER,1
+2330,"('Fadejevi',)",PER,1
+2331,"('TRÜ',)",ORG,1
+2332,"('Ilmar', 'Kullami')",PER,1
+2333,"('Ernst', 'Ehaveeru')",PER,1
+2334,"('Liidu',)",ORG,1
+2335,"('Tbilisi', 'Dünamo')",ORG,1
+2336,"('Viru',)",PER,6
+2337,"('Jaan', 'Loko')",PER,1
+2338,"('Fred', 'Kudul')",PER,1
+2339,"('Sovetskoje',)",LOC,1
+2340,"('Atko',)",PER,1
+2341,"('Gunnar', 'Paali')",PER,1
+2342,"('Eesti', 'Olümpiaakadeemia')",ORG,1
+2343,"('EOK',)",ORG,1
+2344,"('Paali',)",PER,1
+2345,"('Toomas', 'Savi')",PER,3
+2346,"('Pärnu', 'Kesklinna')",LOC,1
+2347,"('Pärnu', 'politsei')",ORG,1
+2348,"('Kaja', 'Kukk')",PER,1
+2349,"('Tervexi',)",ORG,1
+2350,"('Kukk',)",PER,1
+2351,"('Toomas', 'Hendrik', 'Ilvese')",PER,3
+2352,"('Konstantin', 'Provalovi')",PER,1
+2353,"('Konstantin', 'Provalov')",PER,5
+2354,"('Bangladeshis',)",LOC,2
+2355,"('Myanmaris',)",LOC,3
+2356,"('Provalov',)",PER,4
+2357,"('Ilves',)",PER,7
+2358,"('Burgundia',)",LOC,2
+2359,"('Lääne-Euroopas',)",LOC,2
+2360,"('Raul', 'Ranne')",PER,2
+2361,"('Harjumaa',)",LOC,1
+2362,"('McDonald', ""'"", 'si')",PER,4
+2363,"('Alansi', 'küla')",LOC,1
+2364,"('Kalev', 'Liivakant')",PER,2
+2365,"('Liivako-K',)",ORG,1
+2366,"('McDonald', ""'"", 'siga')",PER,1
+2367,"(""McDonald's"",)",LOC,1
+2368,"('Helle', 'Haljak')",PER,3
+2369,"('Mustamäe', 'McDonald', ""'"", 'si')",ORG,1
+2370,"('Aare', 'Nool')",PER,1
+2371,"('McDonald', ""'"", 'sit')",PER,1
+2372,"('Wastewise', 'Partner')",PER,1
+2373,"('Year',)",PER,1
+2374,"('Toomas', 'Liidja')",PER,3
+2375,"(""McDonald's"",)",ORG,1
+2376,"('Ragn', 'Sellsiga')",PER,2
+2377,"(""McDonald's"", 'Eesti')",ORG,1
+2378,"('Dmitri', 'SHalov')",PER,1
+2379,"('SHalov',)",PER,1
+2380,"(""McDonald's"",)",PER,1
+2381,"('Liivakant',)",PER,2
+2382,"('Harju', 'prokuratuuri')",ORG,1
+2383,"('Taimar', 'Lossmanni')",PER,1
+2384,"('Kalle', 'Mälberg')",PER,1
+2385,"('Kanal', '2')",ORG,1
+2386,"('""', 'Keskkonnauudistes')",ORG,1
+2387,"('Alansi', 'külla')",LOC,1
+2388,"('McDonald', ""'"", 'si')",ORG,1
+2389,"('Ragn', 'Sellsil')",PER,1
+2390,"('Margus', 'Vets')",PER,1
+2391,"('Heiki', 'Kranichi')",PER,1
+2392,"('Alla', 'Romanova')",PER,1
+2393,"('Siim', 'Randla')",PER,1
+2394,"('Mait', 'Metsamaa')",PER,3
+2395,"('Keskkriminaalpolitsei',)",ORG,1
+2396,"('Kersti', 'Jundase')",PER,2
+2397,"('Kersti', 'Jundas')",PER,1
+2398,"('SL', 'Õhtulehele')",ORG,3
+2399,"('Valeri', 'Kuznetsov')",PER,1
+2400,"('Vadim', 'Polištšuk')",PER,1
+2401,"('Polištšuk',)",PER,1
+2402,"('Tallinnas', 'Lastekodu')",ORG,1
+2403,"('Krista', 'Taim')",PER,1
+2404,"('Allar', 'Viivik')",PER,1
+2405,"('Narva',)",LOC,9
+2406,"('Pärnusse',)",LOC,1
+2407,"('Viljandisse',)",LOC,1
+2408,"('Edelaraudteed',)",ORG,2
+2409,"('Jüri', 'Kuusik')",PER,2
+2410,"('Edelaraudteele',)",ORG,2
+2411,"('Eesti', 'Raudteele')",ORG,1
+2412,"('Tallinna-Pärnu', 'ja', 'Lelle-Viljandi')",LOC,1
+2413,"('Kuusik',)",PER,5
+2414,"('GB', 'Railwaysile')",ORG,1
+2415,"('GB', 'Railways')",ORG,3
+2416,"('Märtsiks',)",PER,1
+2417,"('Tallinna-Pärnu',)",LOC,1
+2418,"('GB', 'Railways')",PER,1
+2419,"('Austrias',)",LOC,1
+2420,"('Tšehhis',)",LOC,1
+2421,"('Šveitsis',)",LOC,4
+2422,"('Rahvuslik-Demokraatlike', 'Jõudude', 'Koostöökoda')",ORG,1
+2423,"('Pro', 'Patria')",ORG,1
+2424,"('Central',)",PER,1
+2425,"('Jüri', 'Luige')",PER,1
+2426,"('Kaitsetahte',)",ORG,1
+2427,"('Eesti', 'riigi')",LOC,2
+2428,"('Isamaaliidul',)",ORG,1
+2429,"('Andres', 'Ammas')",PER,1
+2430,"('Kadri', 'Jakobson')",PER,2
+2431,"('Leonid', 'Tarkovski')",PER,6
+2432,"('Moskva',)",LOC,7
+2433,"('Tarkovski',)",PER,15
+2434,"('Itaalias',)",LOC,5
+2435,"('Peeter', 'Mardna')",PER,2
+2436,"('Forniksi',)",PER,2
+2437,"('Mardna',)",PER,8
+2438,"('Tatjana', 'Raie')",PER,5
+2439,"('Jüri', 'Kullamaa')",PER,2
+2440,"('Peep', 'Pree')",PER,6
+2441,"('Nelli', 'Kalikova')",PER,2
+2442,"('Sotsiaalministeeriumi',)",ORG,4
+2443,"('Evi', 'Lindmäe')",PER,2
+2444,"('Forniks',)",PER,9
+2445,"('Tarkovskil',)",PER,4
+2446,"('Lindmäe',)",PER,6
+2447,"('Forniksil',)",PER,2
+2448,"('Tarkovskiga',)",PER,2
+2449,"('Sigrid', 'Tappo')",PER,2
+2450,"('sotsiaalministeeriumi',)",ORG,2
+2451,"('Tappo',)",PER,2
+2452,"('Clinica',)",PER,2
+2453,"('Pree',)",PER,2
+2454,"('Kullamaa',)",LOC,2
+2455,"('Kullamaa',)",PER,6
+2456,"('Osaühingu', 'Forniks', 'arengutee')",ORG,1
+2457,"('Svetlana', 'Pesetskaja')",PER,2
+2458,"('Galina', 'Tarkovskaja')",PER,2
+2459,"('Forniksilt',)",PER,1
+2460,"('Krediidiinfo',)",ORG,1
+2461,"('Aktsiaselts', 'Clinica')",PER,1
+2462,"('Erakliinik', 'Sinaps')",PER,1
+2463,"('Keila', 'Südamekliinik')",ORG,1
+2464,"('Osaühing', 'Rachel')",PER,1
+2465,"('Osaühing', 'Renessanss')",PER,1
+2466,"('TOP', 'Meditsiinikeskus')",ORG,1
+2467,"('Inna', 'Uit')",PER,2
+2468,"('Uit',)",PER,3
+2469,"('Päästeameti',)",ORG,2
+2470,"('Purde',)",ORG,1
+2471,"('Vaivara', 'vallas')",LOC,1
+2472,"('Utria',)",LOC,7
+2473,"('Utria', 'jõe')",LOC,1
+2474,"('Narva-Jõesuus',)",LOC,1
+2475,"('Sakala',)",LOC,1
+2476,"('Harju',)",LOC,1
+2477,"('Lääne',)",LOC,2
+2478,"('Järva',)",LOC,1
+2479,"('Võrumaa',)",LOC,1
+2480,"('Jõhvi',)",LOC,1
+2481,"('Naiskodukakaitse',)",PER,1
+2482,"('Meelis', 'Rätsepa')",PER,1
+2483,"('Aki', 'Kupiainen')",PER,1
+2484,"('Vaivara', 'vallavalitsuse')",ORG,1
+2485,"('Kaitseliidu', 'Alutaguse')",ORG,1
+2486,"('Piirivalve', 'Narva-Jõesuu', 'õppekeskuse')",ORG,1
+2487,"('Jaan', 'Väljaots')",PER,1
+2488,"('Chris', ""Moore'i"")",PER,1
+2489,"('Küpriani',)",ORG,2
+2490,"('Küprianiga',)",PER,1
+2491,"('Küprianil',)",LOC,1
+2492,"('Saksamaale',)",LOC,1
+2493,"('Pillerkaarile',)",PER,1
+2494,"('Viktor', 'Hütt')",PER,1
+2495,"('Chris', ""Moore'i"", 'meele-')",PER,1
+2496,"(""Moore'i"",)",PER,1
+2497,"('Päevalehele',)",ORG,1
+2498,"('Hüüdnimi', 'Bug')",PER,1
+2499,"('USAst',)",LOC,1
+2500,"('BC', 'Tallinn')",ORG,1
+2501,"('Kamee',)",PER,1
+2502,"('Baltika',)",ORG,2
+2503,"('Nybit',)",PER,1
+2504,"('Keila', 'Puuviljaparadiis')",ORG,1
+2505,"('Tallinna', 'Ülikoolides-A')",ORG,1
+2506,"('Le', 'Coqis')",ORG,1
+2507,"('Põllumajanduse', 'Registrite')",ORG,1
+2508,"('Informatsiooni', 'Ameti')",ORG,1
+2509,"('PRIA',)",ORG,1
+2510,"('Heli', 'Raamets')",PER,1
+2511,"('Raamets',)",PER,1
+2512,"('PRIAsse',)",ORG,1
+2513,"('Suur-Kaare',)",ORG,1
+2514,"('Sakala',)",ORG,1
+2515,"('Paul', 'Kaju')",PER,1
+2516,"('Karl', 'Loog')",PER,1
+2517,"('Külmiku',)",PER,1
+2518,"('Aire', 'Sipelgas')",PER,1
+2519,"('Harri', 'Kalvik')",PER,1
+2520,"('Pärnumaal',)",LOC,1
+2521,"('Andres', 'Kalamees')",PER,1
+2522,"('Kalamees',)",PER,5
+2523,"('Aivo', 'Lein')",PER,1
+2524,"('Sõrves',)",LOC,2
+2525,"('Keskmisest',)",LOC,1
+2526,"('Virtsus',)",LOC,1
+2527,"('Saaremaal',)",LOC,1
+2528,"('Emajõel',)",LOC,1
+2529,"('Euroopa', 'Liidust')",ORG,1
+2530,"('Äripev',)",ORG,1
+2531,"('Mart', 'Laar')",PER,5
+2532,"('Toomas', 'Luman')",PER,1
+2533,"('EList',)",ORG,1
+2534,"('Lumani',)",PER,2
+2535,"('Shveitsi',)",LOC,2
+2536,"('EList',)",LOC,1
+2537,"('Venemaast',)",LOC,1
+2538,"('Luman',)",PER,3
+2539,"('Rein', 'Koidu')",PER,2
+2540,"('Aldo', 'Niiluse')",PER,1
+2541,"('Jüri', 'Oti')",PER,3
+2542,"('Vanalinna',)",LOC,1
+2543,"('Aivar', 'Pilve')",PER,1
+2544,"('Niilusest',)",PER,1
+2545,"('Pilv',)",PER,1
+2546,"('Rocco', 'Ots')",PER,1
+2547,"('Ots',)",PER,1
+2548,"('Koidule',)",PER,1
+2549,"('Niilusele',)",PER,1
+2550,"('Koidu',)",PER,2
+2551,"('Niiluse',)",PER,2
+2552,"('Otsa',)",PER,1
+2553,"('Aafrikast',)",LOC,1
+2554,"('Ida-Virumaal',)",LOC,1
+2555,"('Illuka',)",LOC,2
+2556,"('Gambia',)",LOC,1
+2557,"('Abdul',)",PER,1
+2558,"('Somaaliast',)",LOC,1
+2559,"('Mahadinini',)",PER,1
+2560,"('Illukal',)",LOC,1
+2561,"('Indrek', 'Kullam')",PER,1
+2562,"('Abdulil',)",PER,1
+2563,"('Mahadil',)",PER,1
+2564,"('Abduli',)",PER,1
+2565,"('Vene', 'Föderatsiooni')",LOC,1
+2566,"('Moskva', 'Rahvusvaheliste', 'Suhete', 'Instituudi')",ORG,1
+2567,"('Chittagongis',)",LOC,1
+2568,"('Konstantin', 'Provalov', 'Venemaa', 'välisministeeriumi')",ORG,1
+2569,"('Tallinna', 'kesklinnavalitsus')",ORG,1
+2570,"('AS-iga', 'Rukon')",ORG,1
+2571,"('Tammelauri',)",PER,2
+2572,"('Võrumaal',)",LOC,4
+2573,"('Järvseljal',)",LOC,2
+2574,"('Hendrik', 'Relve')",PER,2
+2575,"('Relve',)",PER,3
+2576,"('Eestimaalt',)",LOC,1
+2577,"('Sarnito', 'külas')",LOC,1
+2578,"('Ilvese',)",PER,1
+2579,"('Ahvenamaa',)",LOC,4
+2580,"('Toomas', 'Lumani')",PER,1
+2581,"('EL-iga',)",ORG,4
+2582,"('Helsingi-Stockholmi',)",LOC,1
+2583,"('Tallinna-Helsingi',)",LOC,2
+2584,"('Hundi',)",PER,1
+2585,"('Saar', 'Polli')",ORG,1
+2586,"('Galsgow', 'ülikooli')",ORG,1
+2587,"('Richard', 'Rose')",PER,1
+2588,"('Kai', 'Kalamees')",PER,1
+2589,"('Emori',)",ORG,1
+2590,"('KAUPA',)",PER,1
+2591,"('Emori',)",PER,1
+2592,"('Ülle', 'Pärnoja')",PER,1
+2593,"('Pärnoja',)",PER,3
+2594,"('Kaupo', 'Kalda')",PER,1
+2595,"('A4',)",ORG,1
+2596,"('Indrek', 'Saul')",PER,1
+2597,"('Sauli',)",PER,1
+2598,"('Saul',)",PER,3
+2599,"('Interneti',)",ORG,1
+2600,"('Eesti-Vene',)",LOC,2
+2601,"('Igor', 'Ivanovilt')",PER,1
+2602,"('Keskerakonda',)",ORG,1
+2603,"('Epl', 'Online')",ORG,2
+2604,"('SL', 'Bussiliinide')",ORG,5
+2605,"('Tallinna', 'linnaga')",LOC,1
+2606,"('Väike-Õismäe',)",LOC,1
+2607,"('Savonlinja',)",PER,1
+2608,"('Connexi',)",LOC,1
+2609,"('MRP',)",ORG,1
+2610,"('Väike', 'Õismäe')",ORG,1
+2611,"('Väike-Õismäel',)",LOC,1
+2612,"('Tallinna', 'Autobussikoondisele')",ORG,1
+2613,"('Sakari', 'Nupponen')",PER,1
+2614,"('Silver', 'Lindet')",PER,1
+2615,"('Lõuna-Eestist',)",LOC,1
+2616,"('Lindet',)",PER,2
+2617,"('Aivar', 'Laansoo')",PER,1
+2618,"('Tuuli', 'Koch')",PER,1
+2619,"('Milvi', 'Sepp')",PER,2
+2620,"('Kreutzwaldi',)",ORG,1
+2621,"('Eesti', 'Energiaga')",ORG,1
+2622,"('EE',)",ORG,2
+2623,"('Sepp',)",PER,2
+2624,"('Tallinnas', 'Asula')",LOC,1
+2625,"('Kristina', 'Shanini')",PER,1
+2626,"('Shanin',)",PER,2
+2627,"('EE', 'Teeninduse', 'AS-i')",ORG,1
+2628,"('Jaanus', 'Arukaevu')",PER,1
+2629,"('Eesti', 'Energial')",ORG,1
+2630,"('Arukaevu',)",PER,3
+2631,"('Shanini',)",PER,1
+2632,"('Riina', 'Lõhmuse')",PER,1
+2633,"('Turismiameti',)",ORG,1
+2634,"('Ettevõtluse', 'Arendamise', 'Sihtasutuse')",ORG,1
+2635,"('JAGAMINE', 'OLULINE')",PER,1
+2636,"('Soome', 'Turismiarenduskeskuse')",ORG,1
+2637,"('Mall', 'Oja')",PER,1
+2638,"('Soomel',)",LOC,1
+2639,"('Skandinaavias',)",LOC,1
+2640,"('Venemaal',)",LOC,4
+2641,"('Oja',)",PER,1
+2642,"('Münsteris',)",LOC,1
+2643,"('Baltic', 'Tours')",ORG,1
+2644,"('Kristiina', 'Raid')",PER,1
+2645,"('Raid',)",PER,1
+2646,"('Eckerö', 'Line')",ORG,1
+2647,"('Marika', 'Murumaa')",PER,1
+2648,"('Murumaa',)",PER,1
+2649,"('EESTIS',)",LOC,1
+2650,"('Estravel',)",ORG,1
+2651,"('Aivo', 'Takise')",PER,1
+2652,"('Takise',)",PER,1
+2653,"('Takis',)",PER,1
+2654,"('Yrjö', 'Vanhaneni')",PER,1
+2655,"('Vanhanen',)",PER,1
+2656,"('ESS-i',)",ORG,1
+2657,"('ESS-i',)",LOC,1
+2658,"('VALMPS',)",PER,1
+2659,"('ESS', 'Eesti')",ORG,1
+2660,"('Leemetsa',)",PER,2
+2661,"('Leemets',)",PER,1
+2662,"('Raul', 'Adlase')",PER,1
+2663,"('Adlas',)",PER,1
+2664,"('Adlase',)",PER,1
+2665,"('Loksa',)",LOC,1
+2666,"('Maardu',)",LOC,1
+2667,"('Oliver', 'Rand')",PER,1
+2668,"('OÜ', 'Küprian')",ORG,1
+2669,"('Küpriani',)",LOC,1
+2670,"('Küprianis',)",LOC,1
+2671,"('Niinepuu', 'Küpriani')",PER,1
+2672,"('Küprian',)",ORG,1
+2673,"('Kristel', 'Siitam')",PER,1
+2674,"('Hain', 'Karu')",PER,1
+2675,"('Kaarli',)",LOC,2
+2676,"('Karu',)",PER,3
+2677,"('Harjuoru',)",LOC,1
+2678,"('Jaani',)",PER,1
+2679,"('Tõnismäe',)",PER,1
+2680,"('Heiki', 'Suurkask')",PER,2
+2681,"('Gregg', 'Bemisega')",PER,1
+2682,"('Jutta', 'Rabe')",PER,1
+2683,"('Rabe',)",PER,5
+2684,"('Henning', 'Wittelt')",PER,1
+2685,"('Dagens', 'Nyheter')",ORG,1
+2686,"('DN',)",ORG,3
+2687,"('John', 'F. Kennedy')",PER,1
+2688,"('Julie',)",PER,1
+2689,"('Henrik',)",PER,1
+2690,"('Henriku',)",PER,1
+2691,"('Maxi',)",PER,1
+2692,"('Rabet',)",PER,1
+2693,"('Rabel',)",PER,1
+2694,"('Eesti', 'Kirikute', 'Nõukogu')",ORG,2
+2695,"('EKN',)",ORG,2
+2696,"('EKN-i',)",ORG,1
+2697,"('Einar', 'Soone')",PER,2
+2698,"('Kärt', 'Karpa')",PER,1
+2699,"('Lenini',)",ORG,1
+2700,"('Ida-Berliini',)",LOC,1
+2701,"('Kreitzbergi',)",PER,1
+2702,"('MINISTRITEL',)",PER,1
+2703,"('ORDENITE',)",PER,1
+2704,"('Toomas', 'Hendrik', 'Ilvesel')",PER,1
+2705,"('Aino', 'Lepik')",PER,1
+2706,"('Roman', 'Tavast')",PER,1
+2707,"('OÜ',)",ORG,1
+2708,"('Raul-Roman', 'Tavast')",PER,1
+2709,"('Tavast',)",PER,1
+2710,"('Kohtla-Järve',)",LOC,1
+2711,"('Euroopa', 'Liiduga')",LOC,2
+2712,"('Tallinast',)",LOC,1
+2713,"('Tanja', 'Hriplivajo')",PER,1
+2714,"('Henn', 'Salum')",PER,1
+2715,"('Irina', 'Lobanova')",PER,1
+2716,"('Raasikul',)",PER,1
+2717,"('Tallinnasse',)",LOC,3
+2718,"('Hilda', 'Sinijärv')",PER,1
+2719,"('Balkanil',)",LOC,2
+2720,"('kaitseministeeriumi',)",ORG,1
+2721,"('Otte', 'Beeksma')",PER,1
+2722,"('Beeksma',)",PER,3
+2723,"('Bosnias',)",LOC,3
+2724,"('Kosovos',)",LOC,4
+2725,"('Beeksma',)",ORG,1
+2726,"('Hollandi',)",ORG,1
+2727,"('NATO-t',)",ORG,1
+2728,"('Jugoslaavias',)",LOC,1
+2729,"('Anatoli', 'Kornukov')",PER,1
+2730,"('Koola', 'poolsaare')",LOC,1
+2731,"('Vaikse', 'ookeani')",LOC,1
+2732,"('Kamtšatka',)",LOC,1
+2733,"('Jaapani', 'mere')",LOC,1
+2734,"('Barentsi', 'merel')",LOC,1
+2735,"('Läänemere',)",LOC,1
+2736,"('Kornukov',)",PER,2
+2737,"('Kongo', 'Vabariigis')",LOC,1
+2738,"(""Brazzaville'i"",)",LOC,1
+2739,"(""Pointe-Noire'i"",)",LOC,1
+2740,"(""Pointe-Noire'ist"",)",LOC,1
+2741,"('Mvougounti',)",ORG,1
+2742,"('Kongo',)",LOC,1
+2743,"('Interpoli',)",PER,1
+2744,"('Igor', 'Soglajevi')",PER,1
+2745,"('Inkompank',)",ORG,1
+2746,"('Läti', 'Interpoli')",ORG,1
+2747,"('Edite', 'Pulka')",PER,1
+2748,"('Soglajevit',)",PER,1
+2749,"('Soglajev',)",PER,1
+2750,"('Lätisse',)",LOC,3
+2751,"('Kiievist',)",LOC,1
+2752,"('Pulka',)",PER,1
+2753,"('Valdas', 'Adamkus')",PER,1
+2754,"('Adamkus',)",PER,2
+2755,"('Göran', 'Perssoniga')",PER,1
+2756,"('Jan', 'Palmstierni')",PER,1
+2757,"('Persson',)",PER,1
+2758,"('Adamkuse',)",PER,1
+2759,"('Palestiina', 'Omavalitsus')",ORG,1
+2760,"('Jordani',)",LOC,1
+2761,"('Gaza',)",LOC,6
+2762,"('Palestiina',)",LOC,9
+2763,"('Hikmat', 'Zeid')",PER,1
+2764,"('Zeidi',)",ORG,1
+2765,"('Zeid',)",PER,1
+2766,"('Gidon', 'Bromberg')",PER,1
+2767,"('Türgi',)",LOC,9
+2768,"('Armeeniaga',)",LOC,2
+2769,"('Türgit',)",LOC,1
+2770,"('Ankara',)",LOC,3
+2771,"('Jerevanil',)",LOC,1
+2772,"('Euroopa', 'Parlamendis')",ORG,1
+2773,"('Administratsioon',)",ORG,1
+2774,"('Armeenia',)",LOC,5
+2775,"('Reutersile',)",ORG,2
+2776,"('Türgisse',)",LOC,1
+2777,"('Prantsuse', 'Rahvusassamblee')",ORG,1
+2778,"('Prantsusmaad',)",LOC,3
+2779,"('Prantsuse', 'parlament')",ORG,1
+2780,"('Euroopa', 'Parlament')",ORG,1
+2781,"('Aserbaidžaani',)",LOC,3
+2782,"('Demokraatlik', 'Tööpartei')",ORG,1
+2783,"('Vytenis', 'Andriukatis')",PER,1
+2784,"('RIA', 'Novosti')",ORG,1
+2785,"('Andriukaitise',)",PER,1
+2786,"('Demokraatlikku', 'Tööparteid')",ORG,1
+2787,"('Iisrael',)",LOC,4
+2788,"('Abdul', 'Razzaq', ""al-Majayidah'i"")",PER,1
+2789,"('BBC',)",ORG,1
+2790,"('Erezi',)",LOC,2
+2791,"('Vaira', 'Vike-Freiberga')",PER,1
+2792,"('Vike-Freiberga',)",PER,1
+2793,"('NATO-sse',)",ORG,1
+2794,"('Vitali', 'Buzujevi')",PER,1
+2795,"('Jugoslaavia',)",LOC,9
+2796,"('Vojislav', 'Kostunica')",PER,1
+2797,"('Montenegro',)",LOC,7
+2798,"('Kostunica',)",PER,4
+2799,"('Beta',)",ORG,1
+2800,"('Jugoslaaviat',)",LOC,1
+2801,"('Serbia',)",LOC,4
+2802,"('Podgorica',)",LOC,2
+2803,"('Podgorica', 'valitsus')",ORG,1
+2804,"('Kostunicale',)",PER,1
+2805,"('Osama', 'bin', 'Ladeni')",PER,2
+2806,"('Afganistanis',)",LOC,3
+2807,"('Laden',)",PER,1
+2808,"('Jeemeni',)",LOC,1
+2809,"('Cole',)",PER,1
+2810,"('Bin', 'Laden')",PER,3
+2811,"('Föderaalse', 'Juurdlusbüroo')",ORG,1
+2812,"('FBI',)",ORG,1
+2813,"('USA', 'Aafrika')",LOC,1
+2814,"('Osama', 'bin', 'Laden')",PER,2
+2815,"('William', 'Cohen', ""Cole'i"")",PER,1
+2816,"('George', 'W. Bush')",PER,2
+2817,"('Cohen',)",PER,3
+2818,"('Rahvuslikus', 'Pressiklubis')",ORG,1
+2819,"('Pentagoni', 'raportis')",ORG,1
+2820,"('Netzarimi',)",LOC,1
+2821,"('Dennis', 'Rossi')",PER,1
+2822,"('Lähis-Itta',)",LOC,1
+2823,"('Boriss', 'Berezovski')",PER,1
+2824,"('ORT',)",ORG,8
+2825,"('Roman', 'Abramovitšile')",PER,1
+2826,"('Berezovski',)",PER,8
+2827,"('Roman', 'Abramovitš')",PER,1
+2828,"('Kommersant',)",ORG,1
+2829,"('Nezavissimaja', 'Gazeta')",ORG,2
+2830,"('Vladimir', 'Putinile')",PER,1
+2831,"('Putin',)",PER,2
+2832,"('Abramovitš',)",PER,1
+2833,"('Melanoma',)",PER,2
+2834,"('Cold', 'Spring', ""Harbor'i"")",PER,1
+2835,"(""Sloan-Kettering'i"",)",ORG,1
+2836,"(""Maryland'is"",)",LOC,1
+2837,"('Johns', ""Hopkins'i"", 'ülikoolist')",ORG,1
+2838,"('Nature',)",ORG,1
+2839,"('Lao', 'Tai')",PER,2
+2840,"('Ciangmai', 'linnas')",LOC,1
+2841,"('Tais',)",LOC,1
+2842,"('Laoses',)",LOC,1
+2843,"('Lao', 'Tai')",ORG,2
+2844,"('Briti', 'kaitseministeeriumi')",ORG,1
+2845,"('DU',)",ORG,2
+2846,"('Pärsia', 'lahe')",LOC,1
+2847,"('Balkani',)",LOC,3
+2848,"('Guardiani',)",ORG,1
+2849,"('Independenti',)",ORG,1
+2850,"('""', 'Kaitseministeerium')",ORG,1
+2851,"('Guardiani',)",PER,1
+2852,"('John', 'Spellari', 'DU-riski')",PER,1
+2853,"('Colombia',)",LOC,2
+2854,"('Medellinis',)",LOC,1
+2855,"('Tobias', 'Duran')",PER,1
+2856,"('Colombia', 'valitsus')",ORG,1
+2857,"('Medellini', 'El', 'Tesoro', 'kaubanduskeskuses')",ORG,1
+2858,"('Leoncio', 'Velez')",PER,1
+2859,"('Colombias',)",LOC,1
+2860,"('Velez',)",PER,1
+2861,"('Colombia', 'Revolutsioonilised', 'Relvajõud')",ORG,1
+2862,"('FARC',)",ORG,1
+2863,"('Andres', 'Pastrana')",PER,1
+2864,"('Šveitsi',)",LOC,2
+2865,"('Kuubas',)",LOC,1
+2866,"('Rahvusliku', 'Vabastusarmeega')",ORG,1
+2867,"('ELN',)",ORG,2
+2868,"('FARC-il',)",ORG,1
+2869,"('Pastrana',)",PER,1
+2870,"('Lõuna-Colombias',)",LOC,1
+2871,"('Diego', 'Turbay')",PER,1
+2872,"('Turbay',)",PER,1
+2873,"('FARC-i',)",ORG,1
+2874,"('Bosnia',)",LOC,8
+2875,"('Biljana', 'Plavsic')",PER,2
+2876,"('ÜRO',)",ORG,7
+2877,"('Plavsic',)",PER,6
+2878,"('Haagi', 'kohtult')",ORG,1
+2879,"('Plavsici',)",PER,3
+2880,"('Richard', 'May')",PER,1
+2881,"('Radovan', 'Karazici')",PER,1
+2882,"('Karadzic',)",PER,1
+2883,"('Serbia', 'Demokraatliku', 'Partei')",ORG,1
+2884,"('Momcilo', 'Krajisnikuga')",PER,1
+2885,"('NSV', 'Liidu')",LOC,3
+2886,"('Mihhail', 'Gorbatšov')",PER,2
+2887,"('Balti', 'riigi')",LOC,1
+2888,"('Saksamaade',)",LOC,1
+2889,"('Gorbatšov',)",PER,1
+2890,"('Balti', 'riikide')",LOC,1
+2891,"('Lätit',)",LOC,1
+2892,"('Gerhard', 'Schröder')",PER,2
+2893,"('Schröder',)",PER,1
+2894,"('Renate', 'Kuenast')",PER,1
+2895,"('Karl-Heinz', 'Funke')",PER,1
+2896,"('Schröderit',)",PER,1
+2897,"('Saksas',)",LOC,1
+2898,"('Mei', 'Xiang')",PER,3
+2899,"('Tian', 'Tian')",PER,3
+2900,"('Lucy', 'Spelman')",PER,1
+2901,"('Liu', 'Xiaoming')",PER,1
+2902,"('Washington', 'Post')",ORG,2
+2903,"('Washingtoni',)",ORG,1
+2904,"('San', 'Diego')",LOC,1
+2905,"('Atlanta',)",ORG,1
+2906,"('Ling-Ling',)",PER,1
+2907,"('Hsing-Hsing',)",ORG,1
+2908,"('Likud', 'partei')",ORG,1
+2909,"('Ariel', 'Sharon')",PER,2
+2910,"('Ehud', 'Barakki')",PER,1
+2911,"('Sharon',)",PER,6
+2912,"('Jeruusalemma',)",LOC,1
+2913,"('Ehud', 'Olmert')",PER,1
+2914,"('Sharoni',)",PER,3
+2915,"('Silvan', 'Shalom')",PER,1
+2916,"('Benjamin', 'Netanyahu')",PER,1
+2917,"('Ariel', 'Sharoni')",PER,1
+2918,"('Likudi',)",LOC,2
+2919,"('Ultraortodoksne', 'Shas')",PER,1
+2920,"('Jordani', 'jõe')",LOC,1
+2921,"('Amnon', 'Lipkin-Shahak')",PER,1
+2922,"('Primorski',)",LOC,1
+2923,"('Jevgeni', 'Nazdratenko')",PER,1
+2924,"('NTV', '.')",ORG,1
+2925,"('Primorjes',)",LOC,1
+2926,"('Primorje',)",LOC,1
+2927,"(""Arkansas'd"",)",LOC,1
+2928,"('Little', 'Rock')",ORG,1
+2929,"('Associated', 'Press', 'CNNi')",ORG,1
+2930,"('New', 'Yorki')",LOC,1
+2931,"(""Arkansas's"",)",LOC,1
+2932,"('Clinton',)",PER,2
+2933,"('Clintoni',)",PER,2
+2934,"('Chicagot',)",LOC,1
+2935,"('Doverit',)",LOC,1
+2936,"('Bostonit',)",LOC,1
+2937,"('Wonderland', 'Clubina')",PER,1
+2938,"('Wonderland', 'Clubiga')",PER,1
+2939,"('Marimekko',)",ORG,2
+2940,"('Marimekko',)",PER,8
+2941,"('Grünstein', 'Product', 'Oy')",ORG,1
+2942,"('Kirsti', 'Paakkanen')",PER,1
+2943,"('Paakkaneni',)",PER,2
+2944,"('Grünstein',)",PER,1
+2945,"('Paakkanen',)",PER,1
+2946,"('Verimekko',)",PER,1
+2947,"('Oikeutta', 'Eläimille')",PER,1
+2948,"('Marimekko',)",LOC,3
+2949,"('Paakkanenile',)",PER,1
+2950,"('Verimekko',)",ORG,1
+2951,"('Oikeutta', 'Eläimille')",ORG,1
+2952,"('Hartwall', 'Areenal')",PER,1
+2953,"('Lääne-Soomes',)",LOC,1
+2954,"('Kirsti', 'Paakkaneni')",PER,1
+2955,"('Chi', 'Minhi')",PER,1
+2956,"('Bangkokis',)",LOC,1
+2957,"('Saigoni',)",PER,2
+2958,"('Bangkokki',)",LOC,1
+2959,"('Ho', 'Chi', 'Minhi')",PER,6
+2960,"('Lõuna-Vietnami',)",LOC,1
+2961,"('Vietnami',)",LOC,11
+2962,"('SGN',)",ORG,1
+2963,"('Ho', 'Chi', 'Minhis')",PER,2
+2964,"(""Gerard'i"",)",PER,1
+2965,"('Aasias',)",LOC,4
+2966,"('Gerard',)",PER,1
+2967,"('Ho', 'Chi', 'Minh')",PER,2
+2968,"('Ho',)",PER,4
+2969,"('Coca-Cola',)",LOC,1
+2970,"('Internatsionaali',)",PER,1
+2971,"('Hanoi', 'Moi')",ORG,1
+2972,"('Vietnamis',)",LOC,3
+2973,"('Vietnam',)",LOC,2
+2974,"('Cartinid',)",ORG,1
+2975,"('Dong',)",PER,2
+2976,"('Dongil',)",PER,1
+2977,"('Adidastega',)",ORG,1
+2978,"('Xang',)",PER,1
+2979,"('Robert', 'McNamara')",PER,1
+2980,"('In', 'Retrospect')",ORG,1
+2981,"('The', 'Tragedy')",ORG,1
+2982,"('Saigoni',)",LOC,2
+2983,"('Vietnamile',)",LOC,1
+2984,"('Ameerika', 'Sõjakuritegude', 'Muuseumis')",ORG,1
+2985,"('War', 'Remnants', 'Museum')",ORG,1
+2986,"('Trong',)",PER,1
+2987,"('Eesti', 'Ekspress')",ORG,2
+2988,"('Tallinnas', 'Süstlamäel')",ORG,1
+2989,"('Indohiina', 'Liidu')",LOC,1
+2990,"('Vietnami', 'Demokraatliku', 'Vabariigi')",ORG,1
+2991,"('Vietnamist',)",LOC,1
+2992,"('Prantsuse', 'Liidus')",LOC,1
+2993,"('Prantsuse-Vietnami',)",LOC,1
+2994,"('Nho', 'Dinh', 'Diem')",PER,1
+2995,"('USA', 'Kongress')",ORG,1
+2996,"('Indo-Hiina',)",LOC,1
+2997,"('Nevada', 'Citys')",LOC,1
+2998,"('AP',)",ORG,1
+2999,"('Scott', 'Harlap', 'Thorpe')",PER,1
+3000,"('Põhja-Atlandi', 'Nõukogu')",ORG,1
+3001,"('Lord', 'Robertson')",PER,1
+3002,"('Robertsoni',)",PER,3
+3003,"('George', 'Robertsonile')",PER,1
+3004,"('Robertson',)",PER,6
+3005,"('ÜRO', 'Keskkonnaprogrammi', 'Kosovo')",ORG,1
+3006,"('Pekka', 'Haavistot')",PER,1
+3007,"('Maailma', 'Terviseorganisatsioon')",ORG,1
+3008,"('Kosovo',)",LOC,1
+3009,"('Bosniaga',)",LOC,1
+3010,"('Kanada',)",LOC,1
+3011,"('Kosovost',)",LOC,1
+3012,"('Bosniale',)",LOC,1
+3013,"('Bosniasse',)",LOC,1
+3014,"('Kosovosse',)",LOC,1
+3015,"('Lord', 'Robertsoni')",PER,1
+3016,"('Ahto', 'Lobjakas')",PER,1
+3017,"('CNN',)",ORG,4
+3018,"('Ted', 'Turneriga')",PER,1
+3019,"('Cable', 'News', 'Network')",ORG,1
+3020,"('Time', 'Warner')",PER,2
+3021,"('Nõukogude', 'Liit')",LOC,1
+3022,"('Peterburis',)",LOC,1
+3023,"('Turneril',)",PER,3
+3024,"('Vladimir', 'Putin')",PER,3
+3025,"('NTV -sse',)",ORG,1
+3026,"('Putiniga',)",PER,1
+3027,"('Turneri',)",PER,1
+3028,"('America', 'Online')",ORG,1
+3029,"('Turneriga',)",PER,1
+3030,"('NTV-l',)",ORG,1
+3031,"('Kursk',)",LOC,1
+3032,"('Gazprom',)",ORG,1
+3033,"('Ted', 'Turneri')",PER,1
+3034,"('NTV-sse',)",ORG,1
+3035,"('Media', 'Mostil')",ORG,1
+3036,"('Gusssinski',)",PER,1
+3037,"('Maire', 'Raidma')",PER,1
+3038,"('Iisraeli', 'parempoolse', 'Likud', 'partei')",ORG,1
+3039,"('Obštšaja', 'Gazeta')",ORG,1
+3040,"('Ehud', 'Barakil')",PER,1
+3041,"('Barak',)",PER,1
+3042,"('Baraki',)",PER,1
+3043,"('Lõuna-Afganistanis',)",LOC,1
+3044,"('Kandaharis',)",LOC,1
+3045,"('Taevakanal', 'al-Jazeera')",PER,1
+3046,"('Mohammed', 'bin', 'Ladeni')",PER,1
+3047,"('Afganistani',)",LOC,1
+3048,"('Abu', 'Hafas', 'al-Masri')",ORG,1
+3049,"('Ladenit',)",PER,1
+3050,"('Pakistanis',)",LOC,1
+3051,"('Jihad',)",LOC,1
+3052,"('Ayman', 'el-Zawahiri')",PER,1
+3053,"('Anwar', 'Sadatile')",PER,1
+3054,"('Saudi-Araabia',)",LOC,1
+3055,"('Osama', 'bin', 'Ladenit')",PER,1
+3056,"('USA', 'Kenya')",LOC,1
+3057,"('Tansaania',)",LOC,1
+3058,"('Talebani',)",ORG,1
+3059,"('Aafrikas',)",LOC,3
+3060,"('George', 'W. Bushi')",PER,2
+3061,"('Linda', 'Chavez')",PER,3
+3062,"('Chavezi',)",PER,3
+3063,"('Guatemalast',)",LOC,1
+3064,"('Marta', 'Mercado')",PER,2
+3065,"('Marylandis', 'Bethesdas')",LOC,1
+3066,"('Mercado',)",PER,4
+3067,"('Tereza',)",PER,1
+3068,"('Bush',)",PER,2
+3069,"('Chavez',)",PER,6
+3070,"('Marylandis', ""Beltsville'is"")",LOC,1
+3071,"('Linda', 'Chavezist')",PER,1
+3072,"('Bushi',)",PER,3
+3073,"('Bill', 'Clintoni')",PER,2
+3074,"('Mercado', 'Chavezi')",PER,1
+3075,"('Zoe', 'Bairdi')",PER,1
+3076,"('Floridas',)",LOC,2
+3077,"('Üleriigilise', 'Arvamusuuringute', 'Keskuse')",ORG,1
+3078,"('NORC',)",ORG,1
+3079,"('George', 'W. Bush', 'Florida')",PER,2
+3080,"('Demokraat', 'Al', 'Gore')",ORG,1
+3081,"('USA', 'ülemkohtu')",ORG,1
+3082,"('Florida', 'maakonnas')",LOC,1
+3083,"('The', 'New', 'York', 'Times')",ORG,1
+3084,"('Wall', 'Street', 'Journal')",ORG,1
+3085,"('The', 'Washington', 'Post')",ORG,1
+3086,"('Associated', 'Press')",ORG,2
+3087,"('St', '.')",ORG,2
+3088,"('Petersburg', 'Times')",ORG,2
+3089,"('Palm', 'Beach', 'Post')",ORG,2
+3090,"('Tribune', 'Publishing')",ORG,1
+3091,"('Los', 'Angeles', 'Times')",ORG,2
+3092,"('Chicago', 'Tribune')",ORG,2
+3093,"('Newsday',)",PER,1
+3094,"('Orlando', 'Sentinel')",PER,1
+3095,"('South', 'Florida', 'Sun-Sentinel')",PER,1
+3096,"('Florida',)",PER,4
+3097,"('Los', 'Angeles', 'Timesi')",ORG,1
+3098,"('John', 'Carroll')",PER,2
+3099,"('Carroll',)",PER,1
+3100,"('Antanas', 'Gecase')",PER,1
+3101,"('Suurbritannialt',)",LOC,1
+3102,"('Rimvydas', 'Valentukevicius')",PER,1
+3103,"('Inglismaale',)",LOC,1
+3104,"('Gecas',)",PER,4
+3105,"('Shotimaal',)",LOC,1
+3106,"(""Edinburgh'is"",)",LOC,1
+3107,"('Simon', 'Wiesenthali', 'Keskus')",ORG,1
+3108,"('Gecast',)",PER,1
+3109,"('Lord', 'Milligan')",PER,1
+3110,"('Gecas',)",LOC,1
+3111,"('Gecase',)",PER,1
+3112,"('William', 'Cohen')",PER,1
+3113,"('Donald', 'Rumsfeldil')",PER,1
+3114,"('Hiinat',)",LOC,1
+3115,"('Coheni',)",PER,1
+3116,"('Euroopaga',)",LOC,1
+3117,"('Iraagi',)",LOC,1
+3118,"('Kofi', 'Annan')",PER,1
+3119,"('New', 'Yorgist')",ORG,1
+3120,"('Kameruni',)",LOC,1
+3121,"('Yaoundesse',)",LOC,1
+3122,"('Prantsuse-Aafrika',)",LOC,1
+3123,"('Fred', 'Eckhard')",PER,1
+3124,"('Pekingis',)",LOC,1
+3125,"('Annan',)",PER,1
+3126,"('Tokyos',)",LOC,1
+3127,"('Davosis',)",LOC,1
+3128,"('Eckhard',)",PER,1
+3129,"('Stockholm',)",LOC,2
+3130,"('Tšiili',)",LOC,2
+3131,"('Augusto', 'Pinochet')",PER,1
+3132,"('Santiago',)",LOC,1
+3133,"('Pinocheti',)",PER,6
+3134,"('Juan', 'Guzman')",PER,1
+3135,"('Ricardo', 'Izurieta')",PER,1
+3136,"('Pinochetile',)",PER,1
+3137,"('Guzman',)",PER,2
+3138,"('Tšiilit',)",LOC,1
+3139,"('Pinochetti',)",PER,1
+3140,"('Pinochet',)",PER,1
+3141,"('Pinochetil',)",PER,1
+3142,"('Rein', 'Helme')",PER,1
+3143,"('EGIPTUS',)",PER,1
+3144,"('UUEKS',)",PER,1
+3145,"('SÕJAKS',)",PER,1
+3146,"('VALMIS',)",PER,1
+3147,"('Egiptus',)",LOC,4
+3148,"('SÜÜRIA',)",LOC,1
+3149,"('Süüria',)",LOC,2
+3150,"('Golani',)",LOC,1
+3151,"('Iisraeliga',)",LOC,2
+3152,"('JORDAANIA',)",PER,1
+3153,"('Jordaania',)",LOC,1
+3154,"('Iisraelile',)",LOC,1
+3155,"('Reuters', '/', 'bns')",ORG,1
+3156,"('Renate', 'Künasti')",PER,1
+3157,"('Ulla', 'Schmidti')",PER,1
+3158,"('Schröderi',)",PER,1
+3159,"('George', 'Robertson')",PER,1
+3160,"('George', 'Robertsoni')",PER,1
+3161,"('Reuters', '/', 'ap', '/', 'bns')",ORG,1
+3162,"('Florida', 'osariigi')",LOC,1
+3163,"('Orlando', 'Sentinel')",ORG,2
+3164,"('Floridasse',)",LOC,1
+3165,"('Al', ""Gore'i"")",PER,1
+3166,"('New', 'York', 'Times')",ORG,1
+3167,"('Wall', 'Street', 'Jornal')",ORG,1
+3168,"('Tribune', 'Publishing')",PER,1
+3169,"(""Tribune'i"",)",PER,1
+3170,"('Los', 'Angeles', 'Timesi', 'Washingtoni', 'büroo')",ORG,1
+3171,"('Doyle', 'McManus')",PER,1
+3172,"('McManus',)",PER,1
+3173,"('Miami', 'Herald')",ORG,1
+3174,"('Al', 'Cardenas')",ORG,1
+3175,"('Madis', 'Hint')",PER,1
+3176,"('Kaspia',)",LOC,1
+3177,"('Kaspial',)",LOC,1
+3178,"('HIRM',)",PER,1
+3179,"('BAKUU',)",PER,1
+3180,"('Aserbaidžaan',)",LOC,1
+3181,"('Asebaidžaani',)",PER,1
+3182,"('Kaukaasia',)",LOC,1
+3183,"('Bakuust',)",LOC,1
+3184,"('Mägi-Karabahhi',)",LOC,1
+3185,"('OSCE',)",ORG,1
+3186,"('Armeeniale',)",LOC,1
+3187,"('Heidar', 'Alijevi')",PER,1
+3188,"('Putini',)",PER,1
+3189,"('Lennart',)",PER,1
+3190,"('Anu', 'Jõesaar')",PER,1
+3191,"('Kolumnist',)",PER,2
+3192,"('KOLLEEGILE',)",PER,1
+3193,"('Maria', 'Listra')",PER,1
+3194,"('Kagu-Eesti',)",LOC,2
+3195,"('riigikogu', 'Reformierakonna', 'fraktsiooni')",ORG,2
+3196,"('Kagu-Eestis',)",LOC,1
+3197,"('Kirde-Eestis',)",PER,1
+3198,"('Eiki', 'Nestor')",PER,1
+3199,"('Sotsiaalminister',)",ORG,1
+3200,"('Saar', 'Polli')",PER,1
+3201,"('Kadriorus',)",ORG,1
+3202,"('N', 'Liidu')",LOC,3
+3203,"('Jaan', 'Tõnissoni', 'Instituudi')",PER,1
+3204,"('Agu', 'Laius')",PER,1
+3205,"('Vladimir', 'Putini')",PER,1
+3206,"('N', 'Liitu')",ORG,1
+3207,"('Alo', 'Raun')",PER,1
+3208,"('N',)",ORG,1
+3209,"('Venemaad',)",LOC,1
+3210,"('Viljandi', 'Kultuurikolledzhi')",ORG,1
+3211,"('Anzori', 'Barkalaja')",PER,1
+3212,"('Raun',)",PER,1
+3213,"('Eesti', 'riigile')",LOC,1
+3214,"('Katrin', 'Kivimaa')",PER,1
+3215,"('Leeds',)",ORG,1
+3216,"('Tallinnas', 'Tõnismäel')",LOC,1
+3217,"('Tõnismäel',)",PER,1
+3218,"('Marxi',)",PER,1
+3219,"('Pille', 'Liimal')",PER,1
+3220,"('Põlva-',)",LOC,1
+3221,"('KOOLIDE',)",PER,1
+3222,"('Andres', 'Laasik')",PER,1
+3223,"('Margus', 'Saar')",PER,1
+3224,"('Jõelähtme',)",LOC,2
+3225,"('Saue', 'vallas')",LOC,1
+3226,"('Toompeal',)",ORG,1
+3227,"('Regionaalarengu', 'Sihtasutuse')",ORG,1
+3228,"('Harju', 'maavalitsuse')",ORG,1
+3229,"('Heli', 'Kirikali')",PER,1
+3230,"('Kai', 'Kelder')",PER,1
+3231,"('EPL',)",ORG,3
+3232,"('Ülo', 'Uder')",PER,1
+3233,"('Ttü', 'Dotsent')",ORG,1
+3234,"('Jüri', 'Ratas')",PER,1
+3235,"('Saksamaa', 'siseministeeriumi')",ORG,1
+3236,"('USA-s',)",LOC,1
+3237,"('Ilona', 'Leiva')",PER,1
+3238,"('Leib',)",PER,1
+3239,"('Kaitsepolitsei',)",ORG,1
+3240,"('Hannes', 'Kondi')",PER,1
+3241,"('Kont',)",PER,1
+3242,"('Antti', 'Naulainen')",PER,1
+3243,"('Urmas', 'Eero')",PER,1
+3244,"('Cisco',)",ORG,1
+3245,"('Intel',)",ORG,1
+3246,"('HomePlug', 'Powerline', 'Alliance')",ORG,1
+3247,"('Ivo', 'Remmelg')",PER,1
+3248,"('Ascom',)",ORG,2
+3249,"('ADSLi',)",ORG,2
+3250,"('Islandi',)",LOC,1
+3251,"('Singapuri',)",LOC,2
+3252,"('DiAx', 'Holding', 'AG')",ORG,1
+3253,"('Singapuris',)",LOC,1
+3254,"('Ascomilt',)",LOC,1
+3255,"('Ascom',)",PER,3
+3256,"('Remmelg',)",PER,5
+3257,"('Eero',)",PER,1
+3258,"('Rammelg',)",PER,1
+3259,"('ADSL',)",ORG,1
+3260,"('Põhja-Ameerikas',)",LOC,1
+3261,"('Ida-Euroopas',)",LOC,1
+3262,"('Peep', 'Põldsamm')",PER,1
+3263,"('Põldsammi',)",PER,2
+3264,"('Põldsamm',)",PER,1
+3265,"('Ahti', 'Leppik')",PER,1
+3266,"('Bsa', 'Eesti', 'Komitee', 'Koordinaator')",ORG,1
+3267,"('Henrik', 'Roonemaa')",PER,2
+3268,"('Ericssoni',)",ORG,1
+3269,"('Bluetooth',)",ORG,3
+3270,"('Bluetooth',)",PER,1
+3271,"('Bluetoothi',)",ORG,1
+3272,"('Miami', ""Vice'ist"")",ORG,1
+3273,"('Bluetoothiga',)",ORG,1
+3274,"('Ericsson',)",ORG,1
+3275,"('Eesti', 'Telefon')",ORG,1
+3276,"('Netifoni',)",ORG,1
+3277,"('Bill',)",PER,1
+3278,"('Gates',)",PER,2
+3279,"('Xboxilt',)",LOC,1
+3280,"('Sony', 'Playstation')",PER,1
+3281,"('Microsofti', 'Xboxi')",ORG,1
+3282,"('Seamus', 'Blackley')",PER,1
+3283,"('Disney',)",PER,1
+3284,"('Toy', 'Story')",PER,1
+3285,"('Blackley',)",PER,1
+3286,"('Microsoft',)",ORG,2
+3287,"('Xboxi',)",PER,1
+3288,"('Lucas', 'Arts')",PER,1
+3289,"('Acclaim',)",PER,1
+3290,"('Sierra', 'Studios')",PER,1
+3291,"('Infrogames', ',', 'Eidos')",LOC,1
+3292,"('ID', 'Software', 'Xboxi')",ORG,1
+3293,"('Quake', 'IV')",PER,1
+3294,"('Unreal', 'Tournamenti', 'Xboxi')",ORG,1
+3295,"('Xbox',)",PER,1
+3296,"('Playstation',)",PER,1
+3297,"('The', 'Register')",PER,2
+3298,"(""King's"", ""College'i"")",PER,1
+3299,"('Helen', 'Eelrand')",PER,1
+3300,"('Kellit', 'muusikakooli')",ORG,1
+3301,"('Karin', 'Kasemets')",PER,1
+3302,"('Karini',)",PER,2
+3303,"('Kersti',)",PER,7
+3304,"('Audentese', 'Erakooli')",ORG,1
+3305,"('Kiisalt', 'linna')",LOC,1
+3306,"('Audenteses',)",LOC,1
+3307,"('Paul-Kristjani',)",PER,1
+3308,"('Toomas', 'Kirt')",PER,1
+3309,"('Audentese',)",ORG,1
+3310,"('Anu', 'Ott')",PER,1
+3311,"('Antti', 'Oolo')",PER,1
+3312,"('Tallinna-Tartu-Tallinna',)",LOC,1
+3313,"('Tallinna-Narva-Tallinna',)",LOC,1
+3314,"('Signe', 'Vihtre')",PER,1
+3315,"('Aap', 'Tänava')",PER,1
+3316,"('LIGI',)",PER,1
+3317,"('SÕNUL',)",PER,1
+3318,"('Ligi',)",PER,2
+3319,"('Priit', 'Põiklik')",PER,2
+3320,"('Põiklik',)",PER,2
+3321,"('Toivo', 'Leht')",PER,1
+3322,"('Lehe',)",PER,1
+3323,"('Edelarautee',)",ORG,1
+3324,"('Eesti', 'Vedurijuhtide', 'Ametiühingute', 'Liidu')",ORG,1
+3325,"('Tõnu', 'Väät')",PER,1
+3326,"('Tallinna', 'Tehnikaülikooli')",ORG,1
+3327,"('Jüri', 'Laving')",PER,1
+3328,"('Laving',)",PER,1
+3329,"('Politseiameti',)",ORG,1
+3330,"('Artur',)",PER,1
+3331,"('Helve',)",PER,1
+3332,"('Mustamäe', 'haiglasse')",ORG,1
+3333,"('Arturil',)",PER,1
+3334,"('Viktori',)",PER,1
+3335,"('Vladimiri',)",PER,1
+3336,"('Merike',)",PER,2
+3337,"('Rakvere', 'haiglasse', '.')",ORG,1
+3338,"('Põhja', 'Politseiosakonna')",ORG,1
+3339,"('Vladimirile',)",ORG,1
+3340,"('Danil',)",PER,1
+3341,"('VIP-ide',)",ORG,1
+3342,"('Arrowsile',)",PER,1
+3343,"('Arows',)",PER,1
+3344,"('Birminghami',)",LOC,2
+3345,"('Arrowsi',)",ORG,1
+3346,"('Tom', 'Walkinshaw')",PER,1
+3347,"('Arrowsi',)",LOC,2
+3348,"('Kimi', 'Räikkönen')",PER,2
+3349,"('Antonia', 'Pizzonial')",PER,1
+3350,"('Inglismaa', 'F3')",ORG,1
+3351,"('Antonio', 'Pizzonia')",PER,1
+3352,"('Pizzonia',)",PER,3
+3353,"('Bruno', 'Junqueira')",PER,1
+3354,"('Carl', 'Gerrish')",PER,1
+3355,"('Antonia',)",PER,1
+3356,"('Antonio',)",PER,1
+3357,"('F1-s',)",LOC,1
+3358,"('Gerrish',)",PER,1
+3359,"('Pizzoniat',)",PER,1
+3360,"('Minardi',)",PER,2
+3361,"('Antoniole',)",PER,1
+3362,"('Gastonit',)",PER,1
+3363,"('PSN',)",ORG,1
+3364,"('Prantsusmaal',)",LOC,2
+3365,"('Alesi',)",PER,1
+3366,"('Alain', 'Prosti')",PER,1
+3367,"('Mazzacane',)",PER,3
+3368,"('Mazzacane', 'Minardi')",PER,1
+3369,"('Austraalias',)",LOC,2
+3370,"('Mazzacanesse',)",PER,1
+3371,"('Gaston', 'Mazzacanet')",PER,1
+3372,"('Prosti',)",PER,2
+3373,"('Jean', 'Alesilt')",PER,1
+3374,"('Mazzacanele',)",ORG,1
+3375,"('Magny', 'Coursis')",PER,1
+3376,"('Prost-Ferrari',)",LOC,1
+3377,"('La',)",LOC,1
+3378,"('Platas',)",LOC,1
+3379,"('Argentiinas',)",LOC,1
+3380,"('Vallline',)",PER,1
+3381,"('Jerezis', 'Ralf', 'Schumacher')",PER,1
+3382,"('Benettoni', 'Fisichella')",PER,1
+3383,"('Giancarlo', 'Fisichella')",PER,1
+3384,"('Williamsi',)",PER,1
+3385,"('Ralf', 'Schumacher')",PER,1
+3386,"('Jenson', 'Button')",PER,1
+3387,"('BAR',)",PER,1
+3388,"(""Silverstone's"",)",LOC,1
+3389,"('Arrowsi', 'Jos', 'Verstappenit')",PER,1
+3390,"('Nick', 'Heidfeld')",PER,1
+3391,"('Räikkönen',)",PER,1
+3392,"('Giancarlo', 'Fisichella', 'Benetton')",PER,1
+3393,"('Ralf', 'Schumacher', 'Williams')",PER,1
+3394,"('Marc', 'Gene', 'Williams')",PER,1
+3395,"('Silverstone',)",PER,1
+3396,"('Olivier', 'Panis')",PER,1
+3397,"('BAR',)",ORG,1
+3398,"('Eddie',)",PER,1
+3399,"('Irvine', 'Jaguar')",ORG,1
+3400,"('Jos', 'Verstappen', 'Arrows')",PER,1
+3401,"('Detroidi',)",LOC,5
+3402,"('Auto.com',)",ORG,2
+3403,"('Audi', 'TT')",ORG,1
+3404,"(""Crossfire'i"",)",PER,1
+3405,"('Conner', 'Avenue')",PER,1
+3406,"('Plymouth', 'Prowlereid')",ORG,1
+3407,"('Dodge', 'Vipereid')",PER,1
+3408,"('Infiniti', 'FX45')",ORG,1
+3409,"('DOHC', 'V8')",ORG,1
+3410,"('ETAle', 'Ringo')",ORG,1
+3411,"('Nissan', 'Balti', 'ASist', '.')",ORG,1
+3412,"('Infiniti',)",ORG,1
+3413,"('V8',)",ORG,1
+3414,"('Poola',)",LOC,2
+3415,"('France', 'Press')",ORG,1
+3416,"('Saksa-',)",LOC,1
+3417,"('Dresdeni',)",LOC,1
+3418,"('Toyota', 'Land', 'Cruiser')",ORG,1
+3419,"('Motor', 'Trend')",ORG,1
+3420,"('Chevrolet',)",PER,1
+3421,"('Trac',)",PER,1
+3422,"('GMC', 'Sierra', 'HD')",ORG,1
+3423,"('Mazda',)",PER,1
+3424,"('Nissan', 'Frontier')",PER,1
+3425,"('Toyota', 'Tacoma')",PER,1
+3426,"('S-', 'Runner')",ORG,1
+3427,"('Veerenni',)",LOC,1
+3428,"('Merko', 'Ehitus')",ORG,1
+3429,"('ETAle', 'Subarut')",ORG,1
+3430,"('AS', 'Mariine', 'Auto')",ORG,2
+3431,"('Toomas', 'Saarelaid')",PER,2
+3432,"('Saarelaid',)",PER,1
+3433,"('Subaru', 'Imprezat')",PER,1
+3434,"('Subaru', 'Outbacki')",PER,1
+3435,"('Marko', 'Märtinile')",PER,1
+3436,"('Ameerika', 'Autoassotsiatsiooni')",ORG,1
+3437,"('AAA',)",ORG,2
+3438,"('New', 'Car')",PER,2
+3439,"('Truck', 'Buying', ""Guide'i"")",PER,2
+3440,"('Nissan', 'Sentra')",PER,1
+3441,"('Chrysler', 'Sebring')",PER,1
+3442,"('Buick', 'LeSabre')",PER,1
+3443,"('Volvo', 'Cross-Country')",PER,1
+3444,"('Cadillac', 'DeVille')",ORG,1
+3445,"('Dodge', 'Grand', 'Caravani')",PER,1
+3446,"('Nissan', 'Xterra')",PER,1
+3447,"('GMC', 'Yukon', 'Denali')",ORG,1
+3448,"('Dave', 'Van', ""Sickle'i"")",PER,1
+3449,"('AAAl',)",ORG,1
+3450,"('Lõuna-Korea',)",LOC,2
+3451,"('Hyunday', 'Motor', 'Co')",ORG,1
+3452,"('Hyundai', 'Motor', 'America')",ORG,1
+3453,"('Finbarr', 'O', ""'"", 'Neill')",PER,1
+3454,"('Mark', 'Barclay')",PER,1
+3455,"('Hyundaide',)",ORG,1
+3456,"('Bostoni',)",LOC,1
+3457,"('Richard', 'Pyo')",PER,1
+3458,"('Korea',)",LOC,1
+3459,"('Aasia',)",LOC,2
+3460,"('Coupé',)",PER,2
+3461,"('Brasiilias',)",LOC,1
+3462,"('Sao', 'Paulos')",ORG,1
+3463,"('Sao', 'Paulo')",LOC,1
+3464,"('JA', 'MILLAL')",PER,1
+3465,"('Audi', 'A4')",ORG,1
+3466,"('Avant',)",PER,1
+3467,"('A3-le',)",ORG,1
+3468,"('A6-le',)",ORG,1
+3469,"('C5',)",ORG,1
+3470,"('Sebring',)",ORG,1
+3471,"('Stratust',)",LOC,1
+3472,"('Jeep', 'Cherokee')",PER,1
+3473,"('Tacuma',)",PER,1
+3474,"('Lanos',)",PER,1
+3475,"('Fiati',)",ORG,1
+3476,"('Mondeo',)",ORG,1
+3477,"('Maverick',)",PER,1
+3478,"('Honda',)",LOC,1
+3479,"('CR-V',)",ORG,1
+3480,"('Civic',)",PER,1
+3481,"('Stream',)",PER,1
+3482,"('Genfi',)",LOC,1
+3483,"('S-Type', 'Sport')",ORG,1
+3484,"('Lada',)",PER,1
+3485,"('Land', 'Rover')",ORG,1
+3486,"('Range', 'Roveri')",PER,1
+3487,"('IS300',)",ORG,1
+3488,"('Toomas', 'Vabamäe')",PER,1
+3489,"('Mmerlele',)",ORG,1
+3490,"('Mmairele', 'Rrakverest')",ORG,1
+3491,"('Tõnis',)",PER,4
+3492,"('Birgit', 'Püve')",PER,1
+3493,"('Tõnis', 'Erilaiu')",PER,1
+3494,"('Erilaid',)",PER,19
+3495,"('Sovetskii', 'Voin')",ORG,1
+3496,"('Erilaiul',)",PER,3
+3497,"('Erilaiule',)",PER,1
+3498,"('Väino', 'Koorberg')",PER,1
+3499,"('SL', 'Õhtulehe')",ORG,1
+3500,"('Erilaiu',)",PER,1
+3501,"('Inei',)",ORG,1
+3502,"('Koorberg',)",PER,2
+3503,"('ERILAID',)",PER,2
+3504,"('Valter', 'Ojakäär')",PER,1
+3505,"('Ja', 'Ojakäär')",PER,1
+3506,"('EKP', 'Keskkomitee')",ORG,1
+3507,"('TÜ',)",ORG,4
+3508,"('Maarja', 'Lõhmus')",PER,1
+3509,"('Eesti', 'Raadiot')",ORG,1
+3510,"('Erilaidu',)",PER,1
+3511,"('Mari-tervitab-Jüri',)",PER,1
+3512,"('Kirsti', 'Vainküla')",PER,2
+3513,"('Soovisaade',)",LOC,1
+3514,"('Õhtulehe',)",ORG,1
+3515,"('Kirsti',)",PER,3
+3516,"('Tõnis', 'Erilaid')",PER,3
+3517,"('Tõnisega',)",PER,1
+3518,"('Erki', 'Berends')",PER,2
+3519,"('Kuku', 'raadiost')",ORG,1
+3520,"('Vainküla',)",PER,3
+3521,"('Akadeemia',)",ORG,1
+3522,"('Ain', 'Kaalepiga')",PER,1
+3523,"('Kaalep',)",PER,2
+3524,"('Kaalepi',)",PER,1
+3525,"('Jüri', 'Pino')",PER,1
+3526,"('SL', 'Õhtuleht')",ORG,1
+3527,"('Charles', 'Bukowski')",PER,1
+3528,"('Sauter',)",ORG,1
+3529,"('Kender',)",PER,1
+3530,"('Pino',)",PER,1
+3531,"('Ameerikast',)",LOC,4
+3532,"('Buicki',)",LOC,1
+3533,"('Radio', 'Mafia')",ORG,1
+3534,"('Buick',)",PER,2
+3535,"('Klara-varastas-Karlilt-koralli-aga-Karl-Klaralt-klarneti',)",ORG,1
+3536,"('Berends',)",PER,1
+3537,"('Kukus',)",PER,1
+3538,"('Merlis', 'Nõgene')",PER,1
+3539,"('Nõgene',)",PER,1
+3540,"('Jüri', 'Pinole')",PER,1
+3541,"('Kuku', 'raadio')",ORG,1
+3542,"('Tõnise',)",PER,1
+3543,"('Raadio', 'Erilaid')",ORG,1
+3544,"('Lehe', 'Erilaiu')",ORG,1
+3545,"('Õhtulehes',)",ORG,1
+3546,"('Elizabeth', 'II')",PER,1
+3547,"('Margaret',)",PER,3
+3548,"('Edward', 'II')",PER,1
+3549,"('Sandringhamis',)",LOC,1
+3550,"('Margareti',)",PER,1
+3551,"('Komimaal',)",LOC,1
+3552,"('Netiagentuur', 'Rossija-Regionõ')",PER,1
+3553,"('Sõktõvkari',)",LOC,1
+3554,"('Sõktõvkari', 'tehase')",ORG,1
+3555,"('Tamara', 'Romantšuk')",PER,1
+3556,"('Komi',)",LOC,1
+3557,"('Juri', 'Spiridonovilt')",PER,1
+3558,"('Netiagentuur', 'Rossija-Reginõ')",PER,1
+3559,"('Kaug-Idas', 'Petropavlovsk-Kamtšatskis')",LOC,1
+3560,"('Šadrin',)",PER,1
+3561,"('Britney', 'Spears')",PER,1
+3562,"('Florida',)",ORG,1
+3563,"('Katherine', 'Harrise')",PER,1
+3564,"('Spears',)",PER,1
+3565,"('I', 'Did', 'it', 'Again')",ORG,1
+3566,"('Oops',)",PER,1
+3567,"('mr .', 'Blackwell')",PER,1
+3568,"('Harris',)",LOC,1
+3569,"('Florida', 'osariigis')",LOC,1
+3570,"('Christina', 'Aguilera')",PER,1
+3571,"('Blackwelli',)",PER,1
+3572,"('Björki',)",PER,1
+3573,"(""Alice'iks"", 'Äpardustemaal')",PER,1
+3574,"('Material', 'Girl')",PER,1
+3575,"('Elizabeth', 'Hurley')",PER,1
+3576,"('Blackwell',)",PER,1
+3577,"('Angelina', 'Jolie')",PER,1
+3578,"('Courtney', 'Love')",PER,1
+3579,"('Mariah', 'Carey')",PER,1
+3580,"('Jennifer', 'Lopez')",PER,1
+3581,"('Malaisia',)",LOC,1
+3582,"('Abdul', 'Muin', 'Hamidil')",PER,1
+3583,"('Suhaida',)",PER,2
+3584,"('Rohaya',)",ORG,1
+3585,"('Abdul', 'Muin')",PER,3
+3586,"('New', 'Straits', 'Timesile')",ORG,1
+3587,"('Põhja-Malaisias', 'Kedahi', 'osariigis')",LOC,1
+3588,"('Rohaya', 'Romliga')",PER,1
+3589,"('Michael', 'Jackson')",PER,1
+3590,"('Jacksoni',)",PER,2
+3591,"('Cheri', 'Fein')",PER,1
+3592,"('New', 'Yorgi', 'Carnegie', 'Hallis')",ORG,1
+3593,"('Kids',)",PER,1
+3594,"('Shmuley', 'Boteach')",PER,1
+3595,"('Epic', 'Records')",ORG,1
+3596,"('HIStoryt',)",PER,1
+3597,"('Jacksonite',)",PER,1
+3598,"('Randy',)",PER,1
+3599,"('Jermaine',)",PER,1
+3600,"('Marlon',)",PER,1
+3601,"('Tito',)",PER,1
+3602,"('Jackie',)",PER,1
+3603,"('Modern', 'Records')",ORG,1
+3604,"('Randy', 'Jackson')",PER,1
+3605,"('Hillary',)",PER,1
+3606,"('Socksi',)",LOC,2
+3607,"('Valge', 'Maja')",ORG,2
+3608,"('Jake', 'Siewert')",PER,1
+3609,"('Clintonit', 'Michigani')",PER,1
+3610,"('Illinoisi', 'osariigis')",LOC,1
+3611,"('Clintonid',)",PER,1
+3612,"('Socks',)",PER,4
+3613,"('Betty', ""Currie'le"")",PER,1
+3614,"('Valgesse', 'Majja')",ORG,1
+3615,"(""Arkansas'st"",)",LOC,1
+3616,"('Clintonitega',)",PER,1
+3617,"('Stanfordi', 'ülikoolis')",ORG,1
+3618,"('Chelseat',)",PER,1
+3619,"(""Currie'le"",)",PER,1
+3620,"('Hillary', 'Clinton')",PER,1
+3621,"('Socks', 'Clintonite')",PER,1
+3622,"('Georgetowni',)",LOC,1
+3623,"('Buddy',)",PER,3
+3624,"('Chappaqua',)",LOC,1
+3625,"('Clintonite',)",PER,1
+3626,"('Buddyga',)",PER,1
+3627,"('Siewert',)",PER,1
+3628,"('Erki', 'Silvet')",PER,1
+3629,"('Leonid', 'Kordejeviga')",PER,1
+3630,"('Silvet',)",PER,1
+3631,"('Eesti', 'justiitsministeeriumis')",ORG,2
+3632,"('Priit', 'Vare')",PER,1
+3633,"('Ekspress',)",ORG,1
+3634,"('Janek', 'Mäggi')",PER,3
+3635,"('Ülle', 'Liiberi')",PER,1
+3636,"('Viimsi', 'keskkooli')",ORG,1
+3637,"('Kersti', 'Ojassalu')",PER,1
+3638,"('Ojassalu',)",PER,2
+3639,"('Alpid',)",ORG,1
+3640,"('Jeesust',)",PER,1
+3641,"('Jeesus',)",PER,1
+3642,"('Elbe', 'jõgi')",LOC,3
+3643,"('Elbe',)",PER,1
+3644,"('Strasbourg',)",LOC,3
+3645,"('Holland',)",LOC,1
+3646,"('Joonia', 'meri')",LOC,4
+3647,"('Aadria', 'mere')",LOC,2
+3648,"('Moldova',)",LOC,3
+3649,"('Ungari',)",LOC,1
+3650,"('Jugoslaavia', 'vabariigi')",LOC,1
+3651,"('Makedooniaga',)",LOC,1
+3652,"('Bern',)",LOC,4
+3653,"('Berni',)",LOC,1
+3654,"('Gröönimaal',)",LOC,1
+3655,"('Pakosta', 'Berni')",PER,1
+3656,"('Mäggi',)",PER,3
+3657,"('Doonau',)",LOC,1
+3658,"(""Strasbourg'i"",)",LOC,2
+3659,"('Makedoonia',)",LOC,3
+3660,"('Aafrika',)",LOC,2
+3661,"('Laar',)",PER,3
+3662,"('Elbe',)",LOC,1
+3663,"('Itaaliale',)",LOC,1
+3664,"('Shveits',)",LOC,1
+3665,"('Laari',)",PER,1
+3666,"('Laarile',)",PER,1
+3667,"('Laaril',)",PER,1
+3668,"('P. S.', 'Eesti', 'Ekspressi')",ORG,1
+3669,"('Joonia', 'mere')",LOC,1
+3670,"('Elbe', 'jõe')",LOC,1
+3671,"('Luksemburgi',)",LOC,1
+3672,"('Peeter', 'Päll')",PER,1
+3673,"('Nõukogude', 'Liidu')",LOC,1
+3674,"('Kõrgõõsia',)",ORG,1
+3675,"('Päll',)",PER,1
+3676,"('Lviv',)",PER,1
+3677,"('Lvov',)",LOC,1
+3678,"('Pälli',)",PER,1
+3679,"('Bavaaria',)",PER,1
+3680,"('Baieriga',)",PER,1
+3681,"('Märt', 'Milter')",PER,2
+3682,"('Tallinn', 'Inna', 'Roos')",ORG,1
+3683,"('Tatjana',)",PER,5
+3684,"('Seltskond',)",ORG,2
+3685,"('Valeri', 'Kirss')",PER,2
+3686,"('Inna', 'Roos')",PER,5
+3687,"('Piret',)",PER,3
+3688,"('Pille', 'Minev')",PER,2
+3689,"('Pille',)",PER,6
+3690,"('TV3',)",ORG,1
+3691,"('Bingo', 'Pillena')",PER,1
+3692,"('Külli',)",PER,1
+3693,"('Kreegiga', 'Bingoloto')",ORG,1
+3694,"('Pillet',)",PER,1
+3695,"('Maarja', 'Mänd')",PER,1
+3696,"('Iris', 'Saluri')",PER,1
+3697,"('Saluri',)",PER,1
+3698,"('Kanal', '2s')",ORG,1
+3699,"('Ervin', 'Abel')",PER,5
+3700,"('Hendrik', 'Krumm')",PER,1
+3701,"('Sulev', 'Nõmmik')",PER,4
+3702,"('Abel',)",PER,9
+3703,"('Orissaare',)",ORG,1
+3704,"('Nõmmik',)",PER,6
+3705,"('Abeli',)",PER,2
+3706,"('Tallinnas', 'Tammsaare')",LOC,1
+3707,"('Ervin',)",PER,15
+3708,"('Tamara', 'Abel')",PER,2
+3709,"('Ervinile',)",PER,2
+3710,"('Sulev', 'Nõmmikule')",PER,1
+3711,"('Sulev',)",PER,8
+3712,"('Erviniga',)",PER,2
+3713,"('Tamara',)",PER,15
+3714,"('Ervini',)",ORG,3
+3715,"('Ervini',)",PER,1
+3716,"('Margusel',)",PER,1
+3717,"('Tamaralt',)",PER,1
+3718,"('Tamaral',)",PER,5
+3719,"('Eesti', 'Televisiooni')",ORG,1
+3720,"('Moidela', 'Tõnisson')",PER,1
+3721,"('Moidelat',)",PER,1
+3722,"('Moidela',)",PER,1
+3723,"('Kõhetu', 'Abel')",PER,1
+3724,"('Kiirest',)",PER,1
+3725,"('Ervin', 'Abelile')",PER,1
+3726,"('Oskar', 'Lutsu')",PER,2
+3727,"('Kiire',)",ORG,1
+3728,"('Eesti', 'Draamateatrist')",ORG,1
+3729,"('Ervin', 'Abeli')",PER,1
+3730,"('Ervinil',)",PER,1
+3731,"('""', 'Elukooli', 'õppemaks')",ORG,1
+3732,"('Asta', 'Loti')",PER,1
+3733,"('Tiina', 'Abeliga')",PER,1
+3734,"('Linda', 'Rummoks')",PER,1
+3735,"('Ita', 'Everiks')",PER,1
+3736,"('Ervin', 'teatrist')",ORG,1
+3737,"('Suleviga',)",PER,1
+3738,"('Võrtsjärve',)",LOC,1
+3739,"('Sulevil',)",PER,1
+3740,"('Estonias',)",LOC,2
+3741,"('Nahkhiir',)",PER,1
+3742,"('Abelile',)",PER,1
+3743,"('Olev', 'Eskola')",PER,1
+3744,"('Aino', 'Talvi')",PER,1
+3745,"('Linda', 'Rummo')",ORG,1
+3746,"('Margus',)",PER,4
+3747,"('Tamara', 'Abeli')",PER,1
+3748,"('Birgit',)",PER,1
+3749,"('Nõmmikut',)",PER,1
+3750,"('Ervinilt',)",PER,1
+3751,"('Sulev', 'Nõmmikul')",PER,1
+3752,"('TRA', 'Draamateatri')",ORG,1
+3753,"('ENSV', 'Riiklikus', 'Filharmoonias')",ORG,1
+3754,"('Tallinna', 'Koreograafiakooli')",ORG,1
+3755,"('Annabel', 'Chongi')",PER,10
+3756,"('Annabel', 'Chong')",PER,3
+3757,"('Houston',)",PER,3
+3758,"('Metro',)",ORG,1
+3759,"('Houston',)",ORG,2
+3760,"('Ron', 'Jeremy')",PER,1
+3761,"('Nicole',)",PER,1
+3762,"('Chong',)",PER,1
+3763,"('Grace', 'Quek')",PER,1
+3764,"('Lõuna-California', 'ülikoolis')",ORG,1
+3765,"('Chongi',)",PER,6
+3766,"(""Sundance'i"",)",LOC,1
+3767,"('St', 'Claire')",ORG,2
+3768,"('USA', 'Neitsisaartel')",ORG,1
+3769,"('Jasmine',)",PER,1
+3770,"('St', ""Claire'lt"")",PER,1
+3771,"('Jon', 'Dough')",PER,1
+3772,"('John', 'Holmes')",PER,1
+3773,"('Sharon', 'Kane')",PER,1
+3774,"('General', 'Motors')",ORG,1
+3775,"('Penthouse',)",ORG,1
+3776,"('Larry', 'Flint')",PER,1
+3777,"('DirecTV',)",ORG,1
+3778,"('General', 'Motorsi')",ORG,1
+3779,"('International', 'Herald', 'Tribune')",ORG,2
+3780,"('Utah', ""'"", 'osariigis')",LOC,1
+3781,"(""Utah's"",)",LOC,1
+3782,"('Larry', 'Petermani')",PER,1
+3783,"('Marriotti', 'hotelli')",ORG,1
+3784,"('Mitt', 'Rommey')",PER,1
+3785,"('News', 'Corpi')",ORG,1
+3786,"('Rupert', 'Murdoch')",PER,1
+3787,"('Kohtualune', 'Peterman')",ORG,1
+3788,"('AT', '&', 'T')",ORG,1
+3789,"('Hilton',)",PER,1
+3790,"('EchoStar', ',', 'Liberty')",LOC,1
+3791,"('Tallinna', 'börsil')",ORG,3
+3792,"('TALSE',)",ORG,2
+3793,"('Farmaatsiatehase',)",ORG,1
+3794,"('Saku', 'Õlletehase')",ORG,1
+3795,"('Estiko',)",ORG,1
+3796,"('Viisnurga',)",ORG,1
+3797,"('Talse',)",ORG,1
+3798,"('Dow', 'Jonesi')",PER,3
+3799,"(""Poor's"",)",LOC,1
+3800,"('J.P. Morgan', 'Chase')",PER,1
+3801,"('Merrill', 'Lynch')",PER,1
+3802,"('Microsoft', 'Corp-le')",ORG,1
+3803,"('Oracle', 'Corp-le')",ORG,1
+3804,"('Veritas', 'Softwarele')",PER,1
+3805,"('Tokyo', 'Nikkei')",ORG,1
+3806,"('Helsingi', 'HEX')",ORG,2
+3807,"('Vodafone', 'Group')",PER,1
+3808,"('Londoni',)",LOC,1
+3809,"('Vodafone',)",ORG,1
+3810,"('Frankfurdi', 'Xetra', 'DAX')",ORG,1
+3811,"('Pariisi',)",LOC,1
+3812,"('Nasqaqi',)",ORG,1
+3813,"('RTS',)",ORG,1
+3814,"('RTS-i',)",ORG,2
+3815,"('Vene', 'Ühtse', 'Energiasüsteemi')",ORG,1
+3816,"('VÜE',)",ORG,1
+3817,"('Mosenergo',)",LOC,1
+3818,"('Lukoil',)",LOC,1
+3819,"('Tatneft',)",ORG,1
+3820,"('RICI',)",ORG,1
+3821,"('Latvijas', 'Balzams')",PER,1
+3822,"('Ventspils', 'Nafta')",ORG,1
+3823,"('Latvijas', 'Gaze')",PER,1
+3824,"('Lietuvos', 'Telekomas')",ORG,1
+3825,"('Vilniuse',)",LOC,2
+3826,"('Litin', 'A')",ORG,1
+3827,"('Vilniaus', 'Bankase')",ORG,1
+3828,"('WWW',)",ORG,1
+3829,"('Napsteri',)",ORG,1
+3830,"('Eesti', 'Ekspressi')",ORG,1
+3831,"('Chicagos',)",LOC,1
+3832,"('Eduardo', 'Kac')",PER,2
+3833,"('""', 'New', 'Scientist')",ORG,1
+3834,"('Alba',)",LOC,3
+3835,"('Chicago',)",LOC,1
+3836,"('Eduardo', 'Kaci')",PER,1
+3837,"('Kac',)",PER,1
+3838,"('GFP',)",ORG,2
+3839,"('Alba',)",PER,3
+3840,"('Tallinna', 'Raekoja')",ORG,1
+3841,"('Art', '-', 'Taide')",ORG,1
+3842,"('New', 'Scientistis')",ORG,1
+3843,"('Annabel', 'Chongi', 'factumile')",ORG,1
+3844,"('Juanist',)",PER,1
+3845,"('Max', 'Frisch')",PER,1
+3846,"('Albert', 'Camus')",PER,1
+3847,"('Annabel', 'Chongil')",PER,1
+3848,"('Juanil',)",PER,1
+3849,"('Imre', 'Rammul')",PER,1
+3850,"('Diagnoos', 'Annabelile')",PER,1
+3851,"('Anatole', ""France'i"", 'Thaisi')",ORG,1
+3852,"('Aleksandria',)",LOC,1
+3853,"('Kai-Mai', 'Olbri')",PER,1
+3854,"('Teresa',)",PER,1
+3855,"('Vt', 'Linnar', 'Priimägi')",ORG,1
+3856,"('Annabel', 'Chongi')",ORG,1
+3857,"('Elo', 'Liiv')",PER,1
+3858,"('Vigala', 'Sassi')",ORG,1
+3859,"('Saaremaale',)",LOC,1
+3860,"('Elo',)",PER,14
+3861,"('Sass',)",PER,5
+3862,"('Kõue',)",PER,1
+3863,"('Uko-Aija',)",PER,1
+3864,"(""Ess'u"",)",LOC,1
+3865,"('Kuressaare', 'haiglas')",ORG,1
+3866,"('Kiievis',)",LOC,1
+3867,"('Elol',)",PER,1
+3868,"('Siberisse',)",LOC,1
+3869,"('Ja', 'Jumal')",PER,1
+3870,"('Tiina', 'Eier')",PER,2
+3871,"('Elu', 'Sõna')",ORG,1
+3872,"('Tiina',)",PER,20
+3873,"('Tiinale',)",PER,3
+3874,"('Paul', 'Yonggi', 'Cho')",PER,1
+3875,"('InBoili',)",ORG,1
+3876,"('Elu',)",PER,3
+3877,"('Glori', 'Halleluuja')",ORG,1
+3878,"('Albert', 'Türnpu')",PER,1
+3879,"('Balzaci',)",PER,1
+3880,"('Dostojevskiga',)",PER,1
+3881,"('Tiinast',)",PER,1
+3882,"('Marju', 'Lauristin')",PER,1
+3883,"('Sirje', 'Endre')",PER,1
+3884,"('Ja',)",PER,1
+3885,"('Mantraks', 'Hare', 'Krishna')",PER,1
+3886,"('Reginaks',)",LOC,1
+3887,"('Regina',)",PER,1
+3888,"('Gandharvika',)",PER,5
+3889,"('Gandharvika',)",LOC,1
+3890,"('Arjuna',)",PER,6
+3891,"('Krishnausulised',)",PER,1
+3892,"('Ilusama',)",ORG,1
+3893,"('Gandharvikale',)",PER,1
+3894,"('Arjunas',)",LOC,1
+3895,"('Arne', 'Lauri')",PER,1
+3896,"('Just', 'Knud', 'Quikstad')",ORG,1
+3897,"('Arjunal',)",PER,1
+3898,"('Gandharvika',)",ORG,2
+3899,"('Tiiu', 'Suvi')",PER,1
+3900,"('Heiki', 'Laan')",PER,3
+3901,"('Malev', 'Toom')",PER,1
+3902,"('Ain', 'Hanschmidt')",PER,1
+3903,"('Ernesto', 'Preatoni')",PER,1
+3904,"('Auris', 'Rätsep')",PER,2
+3905,"('Gunnar', 'Kraft')",PER,1
+3906,"('Vahur', 'Kraft')",PER,1
+3907,"('Härmo', 'Värk')",PER,1
+3908,"('Aivar', 'Riisalu')",PER,1
+3909,"('Hans', 'H. Luik')",PER,1
+3910,"('Aivo', 'Pärn')",PER,1
+3911,"('Aivar', 'Aigro')",PER,1
+3912,"('Heldur', 'Meerits')",PER,1
+3913,"('Lauri', 'Laubre')",PER,1
+3914,"('Kalle', 'Tenno')",PER,1
+3915,"('Enn', 'Veskimägi')",PER,1
+3916,"('Riho', 'Rassmann')",PER,1
+3917,"('Oleg', 'Ljadov')",PER,1
+3918,"('Jüri', 'Makarov')",PER,1
+3919,"('Kris', 'Taska')",PER,2
+3920,"('Riho', 'Rõõmus')",PER,1
+3921,"('Rait', 'Killandi')",PER,1
+3922,"('Urmas', 'Past')",PER,1
+3923,"('Jaan', 'Männik')",PER,1
+3924,"('Edgar', 'Savisaar')",PER,1
+3925,"('Tunne', 'Kelam')",PER,1
+3926,"('Tiit', 'Vähi')",PER,1
+3927,"('Even', 'Tudeberg')",PER,1
+3928,"('Viktor', 'Kaasik')",PER,1
+3929,"('Rain', 'Lõhmus')",PER,1
+3930,"('Leonid', 'Apananski')",PER,1
+3931,"('Jaan', 'Toots')",PER,1
+3932,"('Robert', 'Lepikson')",PER,1
+3933,"('Aadu', 'Luukas')",PER,1
+3934,"('Meelis', 'Milder')",PER,1
+3935,"('Andres', 'Bergmann')",PER,1
+3936,"('Viktor', 'Siilats')",PER,1
+3937,"('Toomas', 'Sõmera')",PER,1
+3938,"('Tarmo',)",PER,1
+3939,"('Jaan', 'Tõeleid')",PER,1
+3940,"('Mart', 'Opmann')",PER,1
+3941,"('Endel', 'Siff')",PER,1
+3942,"('Kerttu', 'Olmann-Mõisale')",PER,1
+3943,"('Kerttule',)",PER,1
+3944,"('Kerttu', 'Mõis')",PER,1
+3945,"('Kerttu',)",PER,1
+3946,"('Kirsti', 'Timmerile')",PER,1
+3947,"('Pisike',)",PER,1
+3948,"('Kirsti',)",LOC,1
+3949,"('Timmer',)",PER,1
+3950,"('MTV',)",ORG,1
+3951,"('Anne', 'Veski')",PER,1
+3952,"('Marju', 'Länik')",PER,1
+3953,"('Kiur', 'Aarma')",PER,1
+3954,"('Karin', 'Laasmäe')",PER,2
+3955,"('Laasmäe',)",PER,1
+3956,"('Sildmäe',)",LOC,1
+3957,"('Ülle', 'Kaldmäe')",PER,1
+3958,"('Maria', 'Avdjushkole')",PER,1
+3959,"('Maria',)",PER,4
+3960,"('Avdjushko',)",PER,1
+3961,"('Krister', 'Kivi')",PER,1
+3962,"('Kroonika',)",ORG,1
+3963,"('Aleksander', 'Pulver')",PER,1
+3964,"('Kristuse',)",PER,1
+3965,"('Harry', 'Potteri')",PER,2
+3966,"('Harry', 'Potter')",PER,1
+3967,"('Siim', 'Soplepmann')",PER,1
+3968,"('Tartu', 'Miina', 'Härma', 'gümnaasium')",ORG,1
+3969,"('Tartu', 'Maarjamõisa', 'lastepäevakodu')",ORG,1
+3970,"('Viive', 'Lepp')",PER,2
+3971,"('Jana', 'Trink')",PER,1
+3972,"('Pärnu', 'Ühisgümnaasiumis')",ORG,1
+3973,"('Andrea',)",PER,2
+3974,"('Birgitil',)",PER,1
+3975,"('Greet', 'Kallikorm')",PER,1
+3976,"('Inglise', 'Kolledzhis')",ORG,1
+3977,"('Greet',)",PER,1
+3978,"('Kauksi', 'Ülle')",PER,1
+3979,"('Riho', 'Randvee')",PER,1
+3980,"('Ülo', 'Vooglaid')",PER,3
+3981,"('Kati', 'Murutar')",PER,1
+3982,"('Bulls',)",PER,1
+3983,"('Mari',)",PER,1
+3984,"('Eric',)",PER,4
+3985,"('Raimole',)",PER,1
+3986,"('Liisi',)",PER,1
+3987,"('Raimo',)",PER,8
+3988,"('Liisu',)",PER,2
+3989,"('Ericu',)",PER,1
+3990,"('Liisuga',)",PER,2
+3991,"('Alice',)",PER,1
+3992,"('Andrei',)",PER,2
+3993,"(""Alice'i"",)",PER,2
+3994,"('Priit', 'Grepp')",PER,1
+3995,"('Laurit',)",PER,1
+3996,"('Lauri', 'Saluveer')",PER,1
+3997,"('Tartu', 'lastehaigla')",ORG,1
+3998,"('Merle',)",PER,2
+3999,"('Ugalas',)",LOC,1
+4000,"('Lauri',)",PER,4
+4001,"('Eurocops', 'Deventer')",ORG,1
+4002,"('Laurist',)",PER,2
+4003,"('Eurocopsi',)",ORG,1
+4004,"('Eesti', 'Mereakadeemias')",ORG,1
+4005,"('Malle', 'Teder')",PER,1
+4006,"('Malle',)",PER,4
+4007,"('Valka',)",LOC,1
+4008,"('Kaljo', 'Ploom')",PER,1
+4009,"('Saalomon',)",PER,4
+4010,"('Öömust', 'Saalomon')",PER,1
+4011,"('Saalomonil',)",LOC,2
+4012,"('Sagadi',)",LOC,2
+4013,"('Elvi',)",PER,6
+4014,"('Merikese',)",PER,1
+4015,"('Kaljole',)",PER,1
+4016,"('Kaljo',)",PER,1
+4017,"('Pablo', 'Neruda')",PER,1
+4018,"('Esta', 'Härm')",PER,1
+4019,"('Mati', 'Hiis')",PER,1
+4020,"('Eestimaale',)",LOC,1
+4021,"('Pamela', 'Bach')",PER,1
+4022,"('Toomas', 'Tross')",PER,2
+4023,"('Haide', 'Männamäe')",PER,2
+4024,"('Vanalinnastuudio',)",ORG,1
+4025,"('Jeti',)",LOC,1
+4026,"('Pamela', 'Bachi')",PER,1
+4027,"('Karin', 'Laasmäed')",PER,1
+4028,"('Leo', 'Jakobson')",PER,1
+4029,"('Pamelale',)",PER,1
+4030,"('Karinile',)",PER,1
+4031,"('Leo',)",PER,4
+4032,"('Šotimaalt',)",LOC,4
+4033,"('Karinit',)",PER,2
+4034,"('Toomas',)",PER,2
+4035,"('Haide',)",PER,3
+4036,"('Toomasel',)",PER,1
+4037,"('Pamela',)",PER,4
+4038,"('Pamelal',)",PER,1
+4039,"('Karinil',)",PER,1
+4040,"('Naganos',)",LOC,2
+4041,"('Kristel', 'Kirss')",PER,1
+4042,"('Tiina', 'Kõrtsini')",PER,1
+4043,"('Jüri', 'Kruus')",PER,5
+4044,"('Amazonase',)",LOC,4
+4045,"('Popotshka',)",PER,1
+4046,"('Sarah',)",PER,1
+4047,"('Papageno',)",PER,1
+4048,"('Eri', 'Klas')",PER,1
+4049,"('Jüri', 'Kalamaja')",PER,1
+4050,"('Leningradi',)",LOC,2
+4051,"('Veikot',)",PER,2
+4052,"('Jüri', 'Odessast')",PER,1
+4053,"('Odessa',)",LOC,1
+4054,"('Jürist',)",PER,1
+4055,"('Leningradist',)",LOC,1
+4056,"('Ants', 'Värniku')",PER,1
+4057,"('Elle',)",PER,1
+4058,"('Neeva',)",LOC,1
+4059,"('Jüril',)",PER,1
+4060,"('Maria', 'Callase')",PER,1
+4061,"('Carusost',)",PER,1
+4062,"('Miliza', 'Korjuse')",PER,1
+4063,"('Milvi', 'Laidi')",ORG,1
+4064,"('Ida', 'Aav-Loo')",PER,1
+4065,"('Jüri', 'Lauteri')",PER,1
+4066,"('Margaretet',)",PER,1
+4067,"('Kalju',)",PER,1
+4068,"('Timmut',)",PER,1
+4069,"('Valkla',)",LOC,1
+4070,"('Ants',)",PER,1
+4071,"('Kass', 'Minsu')",PER,2
+4072,"('Veikole',)",PER,2
+4073,"('Pääskülas',)",LOC,2
+4074,"('Katjat',)",PER,2
+4075,"('Katja',)",PER,2
+4076,"('Piritale',)",LOC,1
+4077,"('Ene', 'Vool')",PER,1
+4078,"('Heitur', 'Dungay')",PER,1
+4079,"('Helje', 'Heitur')",PER,1
+4080,"('Martin', 'Dungay')",PER,1
+4081,"('Lillekülas',)",LOC,1
+4082,"('DELAWARE', ""'"", 'IS')",ORG,1
+4083,"('Helje',)",PER,12
+4084,"('Martin',)",PER,4
+4085,"('Royal', 'Worcester')",ORG,1
+4086,"('WMF',)",ORG,1
+4087,"('Kosta', 'Boda')",PER,1
+4088,"('Bodum',)",PER,1
+4089,"('Le', 'Creuset')",PER,1
+4090,"('Heili',)",PER,3
+4091,"('Mart',)",PER,1
+4092,"('rohelises', 'Lillekülas')",ORG,1
+4093,"('Terassile',)",PER,1
+4094,"('Martinile',)",PER,1
+4095,"('Helje', 'Heituril')",PER,1
+4096,"('Heljel',)",PER,1
+4097,"(""Delaware 'i"",)",LOC,1
+4098,"('Elna', 'Kaasiku')",PER,1
+4099,"('Elna',)",PER,1
+4100,"('Mirjam', 'Peil')",PER,1
+4101,"('Ülo', 'Josing')",PER,2
+4102,"('Myrsinaceae',)",ORG,1
+4103,"('Puiskestvikku',)",PER,1
+4104,"('Aeonium',)",ORG,1
+4105,"('Marokost',)",LOC,1
+4106,"('A',)",ORG,1
+4107,"('Schwarzkopf',)",PER,1
+4108,"('Pott',)",PER,1
+4109,"('Kalifornias',)",LOC,1
+4110,"('Mehhikos',)",LOC,1
+4111,"('Lõuna-Ameerika', 'põhja-osas')",LOC,1
+4112,"('Vahemeremaades',)",LOC,1
+4113,"('Uus-Meremaa',)",LOC,1
+4114,"('Kanaaridel',)",LOC,1
+4115,"('Tansaaniani',)",LOC,1
+4116,"('Columnea',)",ORG,1
+4117,"('Mortoni',)",PER,1
+4118,"('Bougainvillea',)",ORG,2
+4119,"('Kesk-Euroopas',)",LOC,1
+4120,"('Kirjanduse',)",ORG,1
+4121,"('Nyctaginaceae',)",ORG,1
+4122,"('Kesk-',)",ORG,1
+4123,"('Lõuna-Ameerika',)",LOC,1
+4124,"('Urmas', 'Laansoo')",PER,1
+4125,"('Ingrid', 'Kasemägi')",PER,1
+4126,"('Külli', 'Hansen', 'Sebra')",PER,1
+4127,"('Fancy',)",LOC,1
+4128,"('Fun', '&', 'Fancy')",ORG,4
+4129,"('Hinnad', 'Sebra', 'galeriist')",ORG,1
+4130,"('Krista', 'Kivisalu')",PER,1
