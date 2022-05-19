@@ -13,7 +13,7 @@ graph TD;
 ```
 
 ### parallel_ner_tagging.py
-uses parallel computing on EstNLTK collections to apply the NER tagger on a large corpus.
+Uses parallel computing on EstNLTK collections to apply the NER tagger on a large corpus.
 Here it is applied on Koondkorpus but it can be used on other corpora as well.
 
 ```mermaid
@@ -24,7 +24,7 @@ graph LR;
 
 
 ### entity_counting.py
-aggregates the data from the NER tagging file to CSV files
+Aggregates the data from the NER tagging file to CSV files
   divided by if the entity is composed of multiple tokens or one and for multiple
   tokens it separates the last tokens and all preceding tokens.
 
@@ -34,19 +34,31 @@ graph LR;
     entity_counting.py-->id4[CSV file with counts of named entities - ner_counts.csv];
 ```
 
-### curation.ipynb
-shows how these count lists can be used to create rulesets for
-  statistical tagging
+### entity_separation.ipynb
+Takes the CSV file from the previous step and separates the data into three 
+CSV-s: one for singletons (entities with just one word), one for the first words
+(all but the last word of multiword entities) and one for the last words (last
+word of multiword entities)
 
 ```mermaid
 graph LR;
-    id5[CSV file with counts of named entities - ner_counts.csv]-->curation.ipynb;
+    id30[CSV file with counts of named entities - ner_counts.csv]-->dataset_creation.ipynb;
+    dataset_creation.ipynb-->id40[original CSV divided to 3 different CSVs - names above];
+```
+
+### curation.ipynb
+Applying different filters to the lists of entities produced in the previous step and then
+creating rulesets based on the filtered lists.
+
+```mermaid
+graph LR;
+    id5[3 different CSV files with parts of entities]-->curation.ipynb;
     curation.ipynb-->id6[rulesets for statistical tagging - first_ruleset.pkl, last_ruleset.pkl];
 ```
 
 ### sentences_from_given_first_words_list.ipynb, sentences_from_given_last_word_list.ipynb
 
-  create a list of EstNLTK text objects, each containing one sentence, where any
+  Create a list of EstNLTK text objects, each containing one sentence, where any
   of the given words in a list exists.
 
 ```mermaid
@@ -57,8 +69,7 @@ graph LR;
     sentences_from_given_last_word_list.ipynb-->id10[all sentences containing these words - last_word_dataset.pkl];
 ```
 ### rule_based_ner_tagging.py
-uses the curated rulesets to perform statistical ner
-  tagging
+Using the curated rulesets to perform statistical NER tagging
 
 ```mermaid
 graph LR;
@@ -66,4 +77,4 @@ graph LR;
     rule_based_ner_tagging.py-->id12[new NER layer];
 ```
 ### workflow_config.ini 
-contains the configuration for all the files used here.
+Contains the configuration for all the files used here.

@@ -9,7 +9,7 @@ import configparser
 
 class EntityCounting:
 
-    def __init__(self, input_layer_name='ner', output_file='ner_counts.csv', lemmas='True', port=None, role=None,
+    def __init__(self, input_layer_name='ner', output_file='data/ner_counts.csv', lemmas='True', port=None, role=None,
                  collection=None, user=None, password=None, host=None, dbname=None, schema=None):
         self.role = role
         self.collection = collection
@@ -26,18 +26,19 @@ class EntityCounting:
     def create_csv(self):
         entity_counts = {}
 
-        storage = PostgresStorage(dbname=self.dbname, user=self.user, password=self.password, host=self.host,
+        storage = PostgresStorage(dbname=self.dbname,
+                                  user=self.user, password=self.password, host=self.host,
                                   port=self.port, role=self.role, schema=self.schema)
         collection = storage.get_collection(self.collection)
 
         collection.selected_layers = ['ner']
         for text in collection:
-            for match in getattr(text, self.input_layer_name):
+            for match in text[self.input_layer_name]:
                 current = entity_counts.get((tuple(match.text), match.nertag), 0)
                 entity_counts[(tuple(match.text), match.nertag)] = current + 1
 
         df = pd.Series(entity_counts).reset_index()
-        df.columns = ['entity', 'label', 'count']
+        df.columns = ['entity', 'label', 'entity_count']
         df.to_csv(self.output_file)
 
 
