@@ -5,8 +5,8 @@ The following diagram describes the workflow:
 ```mermaid
 graph TD;
     parallel_ner_tagging.py-->entity_counting.py;
-    entity_counting.py-->creating_rulesets.ipynb;
-    creating_rulesets.ipynb-->curation.ipynb;
+    entity_counting.py-->entity_separation.ipynb;
+    entity_separation.ipynb-->curation.ipynb;
     curation.ipynb-->sentences_from_given_first_words_list.ipynb;
     curation.ipynb-->sentences_from_given_last_word_list.ipynb;
     curation.ipynb-->rule_based_ner_tagging.ipynb;

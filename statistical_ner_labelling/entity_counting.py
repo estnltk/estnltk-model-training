@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 from estnltk.storage import PostgresStorage
-
+from tqdm import tqdm
 import sys
 import configparser
 
@@ -10,7 +10,7 @@ import configparser
 class EntityCounting:
 
     def __init__(self, input_layer_name='ner', output_file='data/ner_counts.csv', lemmas='True', port=None, role=None,
-                 collection=None, user=None, password=None, host=None, dbname=None, schema=None):
+                 collection=None, user=None, password=None, host=None, dbname=None, schema=None,morph_layer_name='morph_analysis'):
         self.role = role
         self.collection = collection
         self.port = port
@@ -19,6 +19,7 @@ class EntityCounting:
         self.host = host
         self.dbname = dbname
         self.input_layer_name = input_layer_name
+        self.morph_layer_name = morph_layer_name
         self.output_file = output_file
         self.lemmas = bool(lemmas)
         self.schema = schema
@@ -31,11 +32,18 @@ class EntityCounting:
                                   port=self.port, role=self.role, schema=self.schema)
         collection = storage.get_collection(self.collection)
 
-        collection.selected_layers = ['ner']
-        for text in collection:
+        collection.selected_layers = [self.input_layer_name,self.morph_layer_name]
+        for text in tqdm(collection):
             for match in text[self.input_layer_name]:
-                current = entity_counts.get((tuple(match.text), match.nertag), 0)
-                entity_counts[(tuple(match.text), match.nertag)] = current + 1
+                if self.lemmas:
+                    lemmalist = []
+                    for span in match.spans:
+                        lemmalist.append(span.v166_morph_analysis.lemma[0])
+                    current = entity_counts.get((tuple(lemmalist), match.nertag), 0)
+                    entity_counts[(tuple(lemmalist), match.nertag)] = current + 1
+                else:
+                    current = entity_counts.get((tuple(match.text), match.nertag), 0)
+                    entity_counts[(tuple(match.text), match.nertag)] = current + 1
 
         df = pd.Series(entity_counts).reset_index()
         df.columns = ['entity', 'label', 'entity_count']
@@ -89,6 +97,7 @@ if __name__ == '__main__':
                                      port=config['database-configuration']['port'],
                                      role=config['database-configuration']['role'],
                                      collection=config['database-configuration']['collection'],
-                                     schema=config['database-configuration']['schema']
+                                     schema=config['database-configuration']['schema'],
+                                     morph_layer_name=config['database-configuration']['morph_layer']
                                      )
     entity_counting.create_csv()
