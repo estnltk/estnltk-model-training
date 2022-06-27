@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<teiHeader xml:id="koondkorpus_main_header" xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" n="$Id$">
+	<fileDesc xml:id="fileDesc-main">
+		<titleStmt xml:id="titleStmt-main">
+  			<title>Eesti keele koondkorpus</title> 
+  			<title type="abbr">EKS</title> 
+			<respStmt>
+				<name xml:id="kadrimuischnek">
+  				Kadri Muischnek 
+  				<email>kadri.muischnek@ut.ee</email> 
+ 		 		</name>
+  				<resp>project leader</resp> 
+  			</respStmt>
+  		</titleStmt>
+		<editionStmt xml:id="editionStmt-main">
+  		<edition n="1">Edition 1</edition> 
+  		</editionStmt>
+		<extent> ca 250 miljonit sõna </extent>
+		<publicationStmt xml:id="publicationStmt-main">	
+			<authority> TÜ arvutuslingvistika uurimisgrupp </authority>
+			<pubPlace> Tartu , Liivi 2-307 </pubPlace>
+			<availability status="free">
+				<p> Vaba kasutamiseks mittekommertsiaalsetel eesmärkidel. </p>
+				<p> Märgendamata originaaltekstide kasutusõiguse kohta vt eraldi iga alamkorpuse 					päisefailist. (The permissions for individual texts (raw, without markup) may vary from 				public domain to various open-content licenses 					
+				and are referenced in the subcorpora headers.)
+				</p>
+			</availability>
+			<date n="xml_release" when="2010-11-30">November 30, 2010</date> 
+  		</publicationStmt>
+		<sourceDesc>
+  			<p>Tekstide päritolu kohta on märge iga allkorpuse päisefailis.
+			(Sources are described in the header accompanying each subcorpus.)</p> 
+  		</sourceDesc>
+  	</fileDesc>
+	<encodingDesc>
+		<projectDesc>
+			<p> Eesti keele koondkorpus on praegu koostamisel olev suur eesti keele kirjalike tekstide kogu. </p> 			<p> Tööd on rahastanud: </p>
+			<p> riiklik programm 'Eesti keel ja rahvuskultuur' </p>
+			<p> riiklik programm 'Eesti keel ja rahvuslik mälu' </p>
+			<p> riiklik programm 'Eesti keele keeletehnoloogiline tugi' </p>
+		</projectDesc>
+	</encodingDesc>
+ </teiHeader>
