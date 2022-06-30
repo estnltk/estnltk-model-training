@@ -1,0 +1,103 @@
+<teiHeader xml:id="header_aja_horisont" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xml:lang="et" n="$Id:$">
+<!--  UPDATE BEFORE EACH RELEASE: edition(/@n), extent, revisionDesc -->  
+	<fileDesc xml:id="fileDesc-subcorpus">
+		<titleStmt xml:id="titleStmt-subcorpus">
+  			<title> ajakiri "Horisont" 1996-2003 </title> 
+			<principal> Kadri Muischnek </principal>
+			<respStmt>
+				<resp> kogus internetist , teisendas TEI-kujule , lausestas
+					<date> november 2003 </date>
+				</resp>
+				<name> Heiki-Jaan Kaalep </name>
+			</respStmt>
+			<respStmt>
+				<resp> teisendas XML-kujule ja uuendas päised
+					<date> 2010 </date>
+				</resp>
+				<name> Kaarel Veskis </name>
+			</respStmt>
+  		</titleStmt>
+		<editionStmt xml:id="editionStmt-subcorpus">
+  			<edition n="1">Edition 1
+			</edition> 
+  		</editionStmt>
+		<extent> 230 artiklit 7 failis, 260 000 sõna, vt täpsemalt 
+			http://www.cl.ut.ee/korpused/segakorpus/horisont/ 
+		</extent>
+  		<publicationStmt xml:id="publicationStmt-subcorpus">
+			<p> Vt publitseerimisandmeid failist
+  				<ref target="#publicationStmt-main">koondkorpus_main_header.xml</ref>
+			</p>
+  		</publicationStmt>
+		<sourceDesc>
+  			
+			<bibl>
+				Tekstid on pärit veebilehelt http://www.horisont.ee/. 
+				Seega kujutavad need endast ajakirjatekstide internetiversiooni, mis võib erineda 					paberväljaande tekstist.
+ 			</bibl>
+  
+  		</sourceDesc>
+  	</fileDesc>
+	<encodingDesc xml:id="encodingDesc-subcorpus">
+		<projectDesc xml:id="projectDesc-subcorpus">
+  			<p> Osa eesti keele koondkorpusest, vt täpsemalt siit:
+			<ref target="#koondkorpus_main_header">koondkorpus_main_header.xml</ref>
+			 </p> 
+  		</projectDesc>
+		<samplingDecl>
+			<p> Ühes failis on ühe aasta artiklid. </p>
+		</samplingDecl>
+		<editorialDecl>
+			<correction>
+				<p> algselt oli tekst kujundatud tabelina; seda enam pole </p>
+				<p> üla- ja alaindeksid on hi rend='sup' ja 'sub' vastavalt </p>
+				<p> susisevate tähtedega , islandi ja paljude muude võõrtähtede teisendamisel on 					arvatavasti palju vigu </p>
+				<p> loendid ( html listid ) on teisendatud tavaliseks nummerdatud v nummerdamata 					tekstiks; punktloendite puhul on punkti asemel - </p></correction>
+			<hyphenation>
+				<p> sõnu ei poolitata </p>
+			</hyphenation>
+			<interpretation>
+				<p> Unicode'i asendussümbol (U+FFFD) tähistab märke, mille kuju kohta informatsioon 					puudub. </p>
+				<p> div1 tähistab ajakirja numbrit </p>
+				<p> div2 tähistab artiklit </p>
+			</interpretation>
+			<segmentation>
+				<p> Tekst on jagatud lõikudeks nagu algne HTML-fail ja automaatselt lausestatud. </p>
+				<p> Tabelites ja pealkirjades olev tekst on lausestatud ainult juhul , kui cell või head 					väljas oli punktiga eraldatud lauseid </p>
+				<p> Pealkirjad ja autorid on märgendatud </p>
+				<p> Autori märgenduseks on bibl author; autorit iseloomustav tekst on samas sees ( nt. 					toimetaja ) </p>
+				<p> märgend lb tähistab tabelites vm olnud kujunduslikku reavahetust </p>
+				<p> Muidu pole teksti struktuur märgendatud : ei vahepealkirjad , lisad , joonealused 					viited ega midagi </p>
+				<p> märgend lb tähistab tabelites vm olnud kujunduslikku reavahetust </p>
+ 				<p> Esiletõstmise eesmärgil tehtud šrifti muutused on reeglina märgendatud, 					kasutades atribuuti rend. </p> 
+				<p> Kui šrifti muutus hõlmab tervet lõiku, siis on atribuut rend antud lõigule, </p>
+				<p> Välja on jäetud mitte-tekstiline materjal, so pildid. </p>
+			</segmentation>
+		</editorialDecl>
+		<tagsDecl> 
+			<namespace name="http://www.tei-c.org/ns/1.0">
+				<tagUsage gi="S" occurs="18772"/>
+				<tagUsage gi="P" occurs="5532"/>
+				<tagUsage gi="HI" occurs="2853"/>
+				<tagUsage gi="CELL" occurs="483"/>
+				<tagUsage gi="HEAD" occurs="460"/>
+				<tagUsage gi="LB" occurs="400"/>
+				<tagUsage gi="DIV2" occurs="229"/>
+				<tagUsage gi="DIV1" occurs="229"/>
+				<tagUsage gi="BIBL" occurs="213"/>
+				<tagUsage gi="AUTHOR" occurs="213"/>
+				<tagUsage gi="GAP" occurs="204"/>
+				<tagUsage gi="ROW" occurs="132"/>
+				<tagUsage gi="TABLE" occurs="11"/>
+				<tagUsage gi="TEXT" occurs="8"/>
+				<tagUsage gi="BODY" occurs="8"/>
+			</namespace>
+		</tagsDecl>
+  	</encodingDesc>
+	<!--<revisionDesc xml:id="revisionDesc-subcorpus">
+	<change who="#kveskis" when="2010-11-01">
+  	<name ref="#kveskis">Kaarel Veskis</name> 
+  	: jagas headeri kolme ossa OCTC korpuse eeskujul
+  	</change>
+  	</revisionDesc>-->
+</teiHeader>
