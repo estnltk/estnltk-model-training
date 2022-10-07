@@ -1,5 +1,4 @@
 from estnltk.vabamorf.morf import synthesize
-from estnltk import Text
 from estnltk.taggers.system.rule_taggers import AmbiguousRuleset, StaticExtractionRule, SubstringTagger
 from estnltk.storage.postgres import PostgresStorage
 from estnltk_core.layer_operations import split_by_sentences
@@ -24,9 +23,11 @@ def list_to_ruleset(rule_list):
 
 
 def decorate_fun(text, span, annotation):
+    #do not tag if followed by alphabetic letter
     if len(text.text) > span.end and text.text[span.end].isalpha():
         return None
-    if span.start != 0 and text.text[span.start-1] is not ' ':
+    #do not tag if it not preceded by whitespace
+    if span.start != 0 and text.text[span.start-1] != ' ':
         return None
     return annotation
 
@@ -86,6 +87,7 @@ if __name__ == '__main__':
 
     collection.create_layer(tagger=subtagger)
 
+    '''
     collection.selected_layers = []
     collection.selected_layers.append(words_layer)
     collection.selected_layers.append(sentences_layer)
@@ -100,7 +102,7 @@ if __name__ == '__main__':
         for sent in sents:
             if len(sent[output_layer]) > 0:
                 filtered_sents.append(sent)
-
+                
     sampled_sentences = []
     for text_id, text_obj in collection.select(layers=[output_layer, sentences_layer]).sample_from_layer(output_layer, 5, seed=0.5):
         for term in text_obj[output_layer]:
@@ -109,8 +111,8 @@ if __name__ == '__main__':
                     sampled_sentences.append(sentence)
                     break
 
-    with open('geo_last_words_dataset_2.pkl', 'wb') as f:
+    with open('geo_last_words_dataset_koond.pkl', 'wb') as f:
         pickle.dump(filtered_sents, f)
-
     with open("geo_sampled_sentences.pkl",'wb') as f:
         pickle.dump(sampled_sentences, f)
+    '''
