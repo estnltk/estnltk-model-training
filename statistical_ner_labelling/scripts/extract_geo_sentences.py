@@ -58,14 +58,15 @@ if __name__ == '__main__':
         ('ab', 'ilmaütlev'),
         ('kom', 'kaasaütlev')]
 
-    with open(config['extract-configuration']['word_list_file'],'r') as f:
+    with open(os.path.abspath(os.path.expanduser(os.path.expandvars(config['extract-configuration']['word_list_file']))),'r',encoding='UTF-8') as f:
         words = f.readlines()
-    #words = ['saar', 'ookean', 'jõgi', 'meri', 'järv', 'laht', 'poolsaar', 'kanal', 'väin']
     all_forms = []
     for word in words:
         for case, name in cases:
-            all_forms.append(', '.join(synthesize(word, 'sg ' + case, 'S')))
-            all_forms.append(', '.join(synthesize(word, 'pl ' + case, 'S')))
+            for form in synthesize(word, 'sg ' + case, 'S'):
+                all_forms.append(form)
+            for form in synthesize(word, 'pl ' + case, 'S'):
+                all_forms.append(form)
 
     output_layer = config['extract-configuration']['output_layer']
     ner_layer = config['extract-configuration']['ner_layer']

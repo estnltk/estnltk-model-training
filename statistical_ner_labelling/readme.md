@@ -1,15 +1,16 @@
 This module has a pipeline for using statistical methods with rule-based taggers to do NER tagging.
 It also includes comparison to the existing NER tagger in EstNLTK.
+All .py files can be found in the scripts folder and notebooks in notebooks/pipeline.
 The following diagram describes the workflow:
 
 ```mermaid
 graph TD;
     parallel_ner_tagging.py-->entity_counting.py;
     entity_counting.py-->entity_separation.ipynb;
-    entity_separation.ipynb-->curation.ipynb;
-    curation.ipynb-->sentences_from_given_first_words_list.ipynb;
-    curation.ipynb-->sentences_from_given_last_word_list.ipynb;
-    curation.ipynb-->rule_based_ner_tagging.ipynb;
+    entity_separation.ipynb-->manual_entity_curation.ipynb;
+    manual_entity_curation.ipynb-->sentences_from_given_first_words_list.ipynb;
+    manual_entity_curation.ipynb-->sentences_from_given_last_word_list.ipynb;
+    manual_entity_curation.ipynb-->rule_based_ner_tagging.ipynb;
 ```
 
 ### parallel_ner_tagging.py
@@ -46,14 +47,14 @@ graph LR;
     dataset_creation.ipynb-->id40[original CSV divided to 3 different CSVs - names above];
 ```
 
-### curation.ipynb
+### manual_entity_curation.ipynb
 Applying different filters to the lists of entities produced in the previous step and then
 creating rulesets based on the filtered lists.
 
 ```mermaid
 graph LR;
-    id5[3 different CSV files with parts of entities]-->curation.ipynb;
-    curation.ipynb-->id6[rulesets for statistical tagging - first_ruleset.pkl, last_ruleset.pkl];
+    id5[3 different CSV files with parts of entities]-->manual_entity_curation.ipynb;
+    manual_entity_curation.ipynb-->id6[rulesets for statistical tagging - first_ruleset.pkl, last_ruleset.pkl];
 ```
 
 ### sentences_from_given_first_words_list.ipynb, sentences_from_given_last_word_list.ipynb
@@ -73,7 +74,7 @@ Using the curated rulesets to perform statistical NER tagging
 
 ```mermaid
 graph LR;
-    id11[any ruleset from curation.ipynb]-->rule_based_ner_tagging.py;
+    id11[any ruleset from manual_entity_curation.ipynb]-->rule_based_ner_tagging.py;
     rule_based_ner_tagging.py-->id12[new NER layer];
 ```
 ### workflow_config.ini 
