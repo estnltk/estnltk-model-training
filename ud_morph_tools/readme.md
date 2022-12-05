@@ -1,0 +1,3 @@
+Utilities for improving/evaluating of EstNLTK's morphology tools based on Estonian UD ([Universal Dependencies](https://universaldependencies.org/guidelines.html)) corpora.
+
+[eval_ud_morph_conv](eval_ud_morph_conv) -- code for evaluation of UDMorphConverter on Estonian UD corpora. UDMorphConverter is a tagger that converts Vabamorf's morphological annotations to UD (Universal Dependencies) morphological annotations;  
