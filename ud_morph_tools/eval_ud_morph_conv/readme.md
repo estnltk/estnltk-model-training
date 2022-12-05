@@ -1,4 +1,4 @@
-## Evaluate UDMorphConverter: conversion of Vabamorf's morphological annotations to UD morphological annotations
+## Evaluation of UDMorphConverter on Estonian UD corpora
 
 This repository contains code for large scale testing and evaluating [UDMorphConverter](https://github.com/estnltk/estnltk/blob/devel_1.7/tutorials/nlp_pipeline/B_morphology/06_morph_analysis_with_ud_categories.ipynb) -- tagger that converts Vabamorf's morphological categories to UD ([Universal Dependencies](https://universaldependencies.org/guidelines.html)) morphological categories.
 The evaluation is done on Estonian UD corpora: [Estonian Dependency Treebank](https://github.com/UniversalDependencies/UD_Estonian-EDT) and [Estonian Web Treebank](https://github.com/UniversalDependencies/UD_Estonian-EWT).
@@ -33,6 +33,11 @@ The evaluation is done on Estonian UD corpora: [Estonian Dependency Treebank](ht
 			* `eval_train_ud_v2_10_default_morf_log_<datetime_of_evaluation>.txt`
 			* `eval_dev_ud_v2_10_default_morf_log_<datetime_of_evaluation>.txt`
 			* `eval_test_ud_v2_10_default_morf_log_<datetime_of_evaluation>.txt` 
+
+    * Evaluation measures:
+    	* **Words with correct annotations** -- the percentage of correctly converted words, including words obtaining ambiguous annotations;
+    	* **Words with ambiguous annotations** -- the percentage of words remaining ambiguous after the conversion;  
+
 
 	Note: you can change settings of the conversion (such as `UDMorphConverter`'s parameters `remove_connegatives` and 
 `generate_num_cases` and corpus subsets (`train`, `dev`, `test`)) in the configuration INI files.
