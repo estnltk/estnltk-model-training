@@ -37,6 +37,7 @@ if __name__ == '__main__':
     if not config.has_section('eval-settings'):
         raise ValueError("Error in config file {!r}: missing a section {!r}".format(conf_file, 'eval-settings'))
     target_corpus_subsets = []
+    corpus_restriction = ''
     for option in ["auto_ud_layer", "corpus_subsets", "remove_connegatives", "generate_num_cases", "show_mismatch_types", 
                    "create_match_log_file", "match_log_file_infix"]:
         if not config.has_option('eval-settings', option):
@@ -55,6 +56,13 @@ if __name__ == '__main__':
                 else:
                     target_corpus_subsets.append( subset.lower() )
 
+    if config.has_option('eval-settings', 'corpus_restriction'):
+        corpus_restriction = (str(config['eval-settings']['corpus_restriction'])).strip().lower()
+        if corpus_restriction not in ['edt', 'ewt', '']:
+            raise ValueError( ("Error in config file {!r}: bad value {!r} for option {!r}. "+\
+                               "Permitted values are: {!r}").format(conf_file, corpus_restriction, 
+                               'corpus_restriction', ['edt', 'ewt', '']) )
+
     converter = UDMorphConverter(output_layer=config['eval-settings']["auto_ud_layer"],
                                  remove_connegatives=config['eval-settings']["remove_connegatives"], 
                                  generate_num_cases=config['eval-settings']["generate_num_cases"])
@@ -71,13 +79,19 @@ if __name__ == '__main__':
         output_log_file = None
         if config['eval-settings']["create_match_log_file"]:
             infix = config['eval-settings']["match_log_file_infix"]
+            if corpus_restriction not in infix:
+                infix = infix + '_' + corpus_restriction
             start_time_str = start.strftime("%Y-%m-%d_%H%M%S")
             output_log_file = f'eval_{corpus_subset}_{infix}_log_{start_time_str}.txt'
             with open(output_log_file, 'w', encoding='utf-8') as out_f:
                 pass
+        if len(corpus_restriction) > 0:
+            corpus_restriction = '_'+corpus_restriction
         c = 0
         for fname in tqdm(os.listdir(in_dir), ascii=True):
             if req_file_infix not in fname:
+                continue
+            if corpus_restriction not in fname:
                 continue
             if fname.endswith('.json'):
                 local_comparator = UDMorphComparator(config['conll-conv-settings']["gold_ud_layer"], 
