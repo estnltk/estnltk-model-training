@@ -4,33 +4,31 @@ from estnltk.storage.postgres import PostgresStorage
 from estnltk_core.layer_operations import split_by_sentences
 from tqdm import tqdm
 import pickle
-
+from estnltk_core import Layer
 
 import sys
 import configparser
 import os
 
 
-
-
-#create a ruleset from list
+# create a ruleset from list
 def list_to_ruleset(rule_list):
     ruleset = AmbiguousRuleset()
-    for word in rule_list:
-        rule = StaticExtractionRule(pattern=word)
-        ruleset.add_rules([rule])
+    for word, forms in rule_list.items():
+        for form in forms:
+            rule = StaticExtractionRule(pattern=form, attributes={'lemma': word.strip('\n')})
+            ruleset.add_rules([rule])
     return ruleset
 
 
 def decorate_fun(text, span, annotation):
-    #do not tag if followed by alphabetic letter
+    # do not tag if followed by alphabetic letter
     if len(text.text) > span.end and text.text[span.end].isalpha():
         return None
-    #do not tag if it not preceded by whitespace
-    if span.start != 0 and text.text[span.start-1] != ' ':
+    # do not tag if it not preceded by whitespace
+    if span.start != 0 and text.text[span.start - 1] != ' ':
         return None
     return annotation
-
 
 
 if __name__ == '__main__':
@@ -58,22 +56,25 @@ if __name__ == '__main__':
         ('ab', 'ilmaütlev'),
         ('kom', 'kaasaütlev')]
 
-    with open(os.path.abspath(os.path.expanduser(os.path.expandvars(config['extract-configuration']['word_list_file']))),'r',encoding='UTF-8') as f:
+    with open(
+            os.path.abspath(os.path.expanduser(os.path.expandvars(config['extract-configuration']['word_list_file']))),
+            'r', encoding='UTF-8') as f:
         words = f.readlines()
-    all_forms = []
+    all_forms = {}
     for word in words:
+        all_forms[word] = []
         for case, name in cases:
             for form in synthesize(word, 'sg ' + case, 'S'):
-                all_forms.append(form)
+                all_forms[word].append(form)
             for form in synthesize(word, 'pl ' + case, 'S'):
-                all_forms.append(form)
+                all_forms[word].append(form)
 
     output_layer = config['extract-configuration']['output_layer']
     ner_layer = config['extract-configuration']['ner_layer']
     sentences_layer = config['database-configuration']['sentences_layer']
     words_layer = config['database-configuration']['words_layer']
     subtagger = SubstringTagger(ruleset=list_to_ruleset(all_forms), ignore_case=False, global_decorator=decorate_fun,
-                                output_layer=output_layer)
+                                output_layer=output_layer, output_attributes=['lemma'])
 
     storage = PostgresStorage(host=config['database-configuration']['server'],
                               port=config['database-configuration']['port'],
@@ -103,7 +104,7 @@ if __name__ == '__main__':
         for sent in sents:
             if len(sent[output_layer]) > 0:
                 filtered_sents.append(sent)
-                
+
     sampled_sentences = []
     for text_id, text_obj in collection.select(layers=[output_layer, sentences_layer]).sample_from_layer(output_layer, 5, seed=0.5):
         for term in text_obj[output_layer]:
