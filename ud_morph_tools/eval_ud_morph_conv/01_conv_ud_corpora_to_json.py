@@ -72,7 +72,7 @@ if __name__ == '__main__':
                 continue
             if fname.endswith('.conllu'):
                 fpath = os.path.join(in_dir, fname)
-                texts = conll_to_texts_list(fpath, syntax_layer=gold_ud_morph, remove_orphans=False)
+                texts = conll_to_texts_list(fpath, syntax_layer=gold_ud_morph, remove_empty_nodes=False)
                 for tid, text in enumerate(texts):
                     text.meta['origin_file'] = fname
                     text.meta['origin_corpus'] = 'edt' if '_edt-' in fname else 'ewt'
