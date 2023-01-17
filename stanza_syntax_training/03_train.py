@@ -259,7 +259,7 @@ def bulk_train( data_folder, train_file_pat, dev_file_pat, test_file_pat, output
 # ========================================================================
 
 def train_stanza(train_file, eval_file, output_model_dir, output_model_file, output_file, 
-                 batch_size=5000, lang='et', treebank='et_edt', args='', dry_run=False):
+                 lang='et', treebank='et_edt', args='', dry_run=False):
     '''
     Trains single stanza model on `train_file` using `eval_file` for parameter tuning 
     and model evaluation. 
