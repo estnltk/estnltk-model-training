@@ -453,7 +453,7 @@ def predict_with_stanza_tagger(input_path, morph_layer, model_path, output_path,
     :param tagger_path: full import path of StanzaSyntaxTagger
     '''
     tagger_loader = \
-        create_stanza_tagger_loader( tagger_path, model_path, morph_layer )
+        create_stanza_tagger_loader( tagger_path, model_path, morph_layer, use_gpu=use_gpu )
     tagger = tagger_loader.tagger  # Load tagger
     text_obj = create_estnltk_document(input_path, morph_layer=morph_layer)
     tagger.tag(text_obj)
@@ -483,7 +483,7 @@ def predict_with_stanza_ensemble_tagger(input_path, morph_layer, model_paths, ou
     :param tagger_path: full import path of StanzaSyntaxEnsembleTagger
     '''
     tagger_loader = \
-        create_stanza_ensemble_tagger_loader( tagger_path, model_paths, morph_layer )
+        create_stanza_ensemble_tagger_loader( tagger_path, model_paths, morph_layer, use_gpu=use_gpu )
     tagger = tagger_loader.tagger  # Load tagger
     if verbose:
         print(f'Loaded {tagger_path!r} with {len(model_paths)} models for prediction.')
