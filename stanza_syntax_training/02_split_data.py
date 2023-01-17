@@ -689,5 +689,7 @@ def splitting(input_file, output_dir, split_file, block_count=195, split_count=1
 if __name__ == '__main__':
     if len(sys.argv) < 2:
         raise Exception('(!) Missing input argument: name of the configuration INI file.')
-    conf_file = sys.argv[1]
-    create_train_splits_joins_main( conf_file )
+    # Try to execute all input files as configurations
+    for conf_file in sys.argv[1:]:
+        create_train_splits_joins_main( conf_file )
+

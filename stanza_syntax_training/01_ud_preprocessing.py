@@ -408,5 +408,6 @@ def convert_and_compare_against_all_references( in_dir, morph_pipeline, ref_dirs
 if __name__ == '__main__':
     if len(sys.argv) < 2:
         raise Exception('(!) Missing input argument: name of the configuration INI file.')
-    conf_file = sys.argv[1]
-    convert_to_estnltk_conllu_main( conf_file )
+    # Try to execute all input files as configurations
+    for conf_file in sys.argv[1:]:
+        convert_to_estnltk_conllu_main( conf_file )
