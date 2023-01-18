@@ -92,6 +92,7 @@ def run_models_main( conf_file, subexp=None, dry_run=False ):
                 tagger_path = config[section].get('tagger_path', default_tagger_path)
                 dry_run = config[section].getboolean('dry_run', dry_run)
                 use_gpu = config[section].getboolean('use_gpu', False)
+                seed = config[section].getint('seed', 43)
                 output_prefix = config[section].get('output_file_prefix', 'predicted_')
                 lang = config[section].get('lang', 'et')
                 # Get model file or files
@@ -131,11 +132,13 @@ def run_models_main( conf_file, subexp=None, dry_run=False ):
                         if not use_ensemble:
                             # run StanzaSyntaxTagger
                             predict_with_stanza_tagger(train_file, morph_layer, model_file, train_output, 
-                                                       tagger_path=tagger_path, lang=lang, use_gpu=use_gpu)
+                                                       tagger_path=tagger_path, seed=seed, lang=lang, 
+                                                       use_gpu=use_gpu)
                         else:
                             # run StanzaSyntaxEnsembleTagger
                             predict_with_stanza_ensemble_tagger(train_file, morph_layer, model_files, train_output, 
-                                                                tagger_path=tagger_path, lang=lang, use_gpu=use_gpu)
+                                                                tagger_path=tagger_path, seed=seed, lang=lang, 
+                                                                use_gpu=use_gpu)
                     else:
                         # run vanilla stanza
                         predict_with_stanza(train_file, model_file, train_output, lang=lang, use_gpu=use_gpu)
@@ -148,11 +151,13 @@ def run_models_main( conf_file, subexp=None, dry_run=False ):
                         if not use_ensemble:
                             # run StanzaSyntaxTagger
                             predict_with_stanza_tagger(test_file, morph_layer, model_file, test_output, 
-                                                       tagger_path=tagger_path, lang=lang, use_gpu=use_gpu)
+                                                       tagger_path=tagger_path, seed=seed, lang=lang, 
+                                                       use_gpu=use_gpu)
                         else:
                             # run StanzaSyntaxEnsembleTagger
                             predict_with_stanza_ensemble_tagger(test_file, morph_layer, model_files, test_output, 
-                                                                tagger_path=tagger_path, lang=lang, use_gpu=use_gpu)
+                                                                tagger_path=tagger_path, seed=seed, lang=lang, 
+                                                                use_gpu=use_gpu)
                     else:
                         # run vanilla stanza
                         predict_with_stanza(test_file, model_file, test_output, lang=lang, use_gpu=use_gpu)
@@ -196,6 +201,7 @@ def run_models_main( conf_file, subexp=None, dry_run=False ):
                 dry_run = config[section].getboolean('dry_run', dry_run)
                 use_gpu = config[section].getboolean('use_gpu', False)
                 output_prefix = config[section].get('output_file_prefix', 'predicted_')
+                seed = config[section].getint('seed', 43)
                 lang = config[section].get('lang', 'et')
                 morph_layer = None
                 if use_estnltk:
@@ -212,7 +218,7 @@ def run_models_main( conf_file, subexp=None, dry_run=False ):
                 bulk_predict( input_dir, models_dir, train_file_pat, test_file, 
                               output_dir, output_file_prefix=output_prefix, subexp=subexp, 
                               parser=parser, use_estnltk=use_estnltk, morph_layer=morph_layer, 
-                              tagger_path=tagger_path, lang=lang, use_gpu=use_gpu, 
+                              seed=seed, tagger_path=tagger_path, lang=lang, use_gpu=use_gpu, 
                               dry_run=dry_run )
     if not section_found:
         print(f'No section starting with "predict_stanza_" in {conf_file}.')
@@ -220,7 +226,7 @@ def run_models_main( conf_file, subexp=None, dry_run=False ):
 
 def bulk_predict( data_folder, models_folder, train_file_pattern, test_file_path, 
                   output_path, output_file_prefix='predicted_', subexp=None, 
-                  parser='stanza', use_estnltk=False, morph_layer=None, 
+                  parser='stanza', use_estnltk=False, morph_layer=None, seed=None, 
                   tagger_path=None, lang='et', use_gpu=False, dry_run=False ):
     '''
     Runs models of multiple sub-experiments on (train/test) files from `data_folder`. 
@@ -325,14 +331,16 @@ def bulk_predict( data_folder, models_folder, train_file_pattern, test_file_path
                 train_output = os.path.join(output_path, f'{output_file_prefix}train_{exp_no}.conllu')
                 if use_estnltk:
                     predict_with_stanza_tagger(train_file, morph_layer, model_file, train_output, 
-                                               tagger_path=tagger_path, lang=lang, use_gpu=use_gpu)
+                                               tagger_path=tagger_path, seed=seed, lang=lang, 
+                                               use_gpu=use_gpu)
                 else:
                     predict_with_stanza(train_file, model_file, train_output, lang=lang, use_gpu=use_gpu)
                 # Predict on test data
                 test_output = os.path.join(output_path, f'{output_file_prefix}test_{exp_no}.conllu')
                 if use_estnltk:
                     predict_with_stanza_tagger(test_file, morph_layer, model_file, test_output, 
-                                               tagger_path=tagger_path, lang=lang, use_gpu=use_gpu)
+                                               tagger_path=tagger_path, seed=seed, lang=lang, 
+                                               use_gpu=use_gpu)
                 else:
                     predict_with_stanza(test_file, model_file, test_output, lang=lang, use_gpu=use_gpu)
             print()
@@ -434,7 +442,7 @@ def predict_with_stanza(input_path, model_path, output_path, lang='et', use_gpu=
 
 def predict_with_stanza_tagger(input_path, morph_layer, model_path, output_path, 
                                tagger_path='estnltk_neural.taggers.StanzaSyntaxTagger', 
-                               lang='et', use_gpu=False):
+                               seed=None, lang='et', use_gpu=False):
     '''
     Applies estnltk's StanzaSyntaxTagger on given input CONLLU file to get depparse predictions. 
     Uses estnltk's preprocessing to load and re-annotate document (adds morph_layer). 
@@ -451,9 +459,10 @@ def predict_with_stanza_tagger(input_path, morph_layer, model_path, output_path,
     :param model_path:  path to depparse model to be used for making predictions
     :param output_path: path to output conllu file
     :param tagger_path: full import path of StanzaSyntaxTagger
+    :param seed:        seed of the random process creating unambiguous morph analysis layer
     '''
     tagger_loader = \
-        create_stanza_tagger_loader( tagger_path, model_path, morph_layer, use_gpu=use_gpu )
+        create_stanza_tagger_loader( tagger_path, model_path, morph_layer, use_gpu=use_gpu, seed=seed )
     tagger = tagger_loader.tagger  # Load tagger
     text_obj = create_estnltk_document(input_path, morph_layer=morph_layer)
     tagger.tag(text_obj)
@@ -464,7 +473,7 @@ def predict_with_stanza_tagger(input_path, morph_layer, model_path, output_path,
 
 def predict_with_stanza_ensemble_tagger(input_path, morph_layer, model_paths, output_path, 
                                         tagger_path='estnltk_neural.taggers.StanzaSyntaxEnsembleTagger', 
-                                        lang='et', use_gpu=False, verbose=True ):
+                                        seed=None, lang='et', use_gpu=False, verbose=True):
     '''
     Applies estnltk's StanzaSyntaxEnsembleTagger on given input CONLLU file to get depparse predictions. 
     Uses estnltk's preprocessing to load and re-annotate document (adds morph_layer). 
@@ -481,9 +490,11 @@ def predict_with_stanza_ensemble_tagger(input_path, morph_layer, model_paths, ou
     :param model_path:  path to depparse model to be used for making predictions
     :param output_path: path to output conllu file
     :param tagger_path: full import path of StanzaSyntaxEnsembleTagger
+    :param seed:        seed of the random process creating unambiguous morph analysis layer
     '''
     tagger_loader = \
-        create_stanza_ensemble_tagger_loader( tagger_path, model_paths, morph_layer, use_gpu=use_gpu )
+        create_stanza_ensemble_tagger_loader( tagger_path, model_paths, morph_layer, 
+                                              use_gpu=use_gpu, seed=seed )
     tagger = tagger_loader.tagger  # Load tagger
     if verbose:
         print(f'Loaded {tagger_path!r} with {len(model_paths)} models for prediction.')
@@ -498,28 +509,34 @@ def predict_with_stanza_ensemble_tagger(input_path, morph_layer, model_paths, ou
         os.makedirs(output_dir, exist_ok=True)
     write_estnltk_text_to_conll(text_obj, tagger.output_layer, output_path)
 
-def create_stanza_tagger_loader( tagger_path, model_path, input_morph_layer, use_gpu=False ):
+def create_stanza_tagger_loader( tagger_path, model_path, input_morph_layer, use_gpu=False, seed=None ):
     '''Creates estnltk's TaggerLoader for customized importing of StanzaSyntaxTagger.'''
     from estnltk_core.taggers import TaggerLoader
+    parameters={ 'input_morph_layer': input_morph_layer, 
+                 'input_type': input_morph_layer, 
+                 'depparse_path': model_path, 
+                 'use_gpu': use_gpu }
+    if isinstance(seed, int):
+        parameters['random_pick_seed'] = seed
     return TaggerLoader( 'stanza_syntax', 
                          ['sentences', input_morph_layer, 'words'], 
                          tagger_path, 
                          output_attributes=('id', 'lemma', 'upostag', 'xpostag', 'feats', 'head', 'deprel', 'deps', 'misc'),
-                         parameters={ 'input_morph_layer': input_morph_layer, 
-                                      'input_type': input_morph_layer, 
-                                      'depparse_path': model_path, 
-                                      'use_gpu': use_gpu } )
+                         parameters=parameters )
                                       
-def create_stanza_ensemble_tagger_loader( tagger_path, model_paths, input_morph_layer, use_gpu=False ):
+def create_stanza_ensemble_tagger_loader( tagger_path, model_paths, input_morph_layer, use_gpu=False, seed=None ):
     '''Creates estnltk's TaggerLoader for customized importing of StanzaSyntaxEnsembleTagger.'''
     from estnltk_core.taggers import TaggerLoader
+    parameters={ 'input_morph_layer': input_morph_layer, 
+                 'model_paths': model_paths, 
+                 'use_gpu': use_gpu }
+    if isinstance(seed, int):
+        parameters['random_pick_seed'] = seed
     return TaggerLoader( 'stanza_ensemble_syntax', 
                          ['sentences', input_morph_layer, 'words'], 
                          tagger_path, 
                          output_attributes=('id', 'lemma', 'upostag', 'xpostag', 'feats', 'head', 'deprel', 'deps', 'misc'),
-                         parameters={ 'input_morph_layer': input_morph_layer, 
-                                      'model_paths': model_paths, 
-                                      'use_gpu': use_gpu } )
+                         parameters=parameters )
 
 def write_stanza_doc_to_conll(doc, output_path):
     '''Writes given stanza Document to CoNLLU format output file.'''
