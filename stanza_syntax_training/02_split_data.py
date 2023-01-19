@@ -160,6 +160,8 @@ def create_train_splits_joins_main( conf_file ):
                         raise ValueError(f'Error in {conf_file}: {section}.concatenate has invalid value {subset}.')
                     # Find corresponding file from the input dir
                     for fname in os.listdir(input_dir):
+                        if fname == 'train_full.conllu':
+                            continue
                         if fname.endswith('.conllu') and subset in fname:
                             concatenate_files.append(os.path.join(input_dir, fname))
                 if len(concatenate_files) != 2:
