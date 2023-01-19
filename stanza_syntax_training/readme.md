@@ -13,17 +13,17 @@ This repository contains code for training and evaluating StanzaSyntax(Ensemble)
 Most important settings of data pre-processing, training and evaluation are defined in configuration INI files.
 Configuration can be used for changing input and output paths of each processing step, and also for changing parameters of data preparation and training. Current configurations in brief: 
 
-*  `conf_edt_v26_stanza_morph_analysis_full.ini` -- preannotates UD corpus (v2.6) with postags/feats from estnltk's `morph_analysis` layer, trains `StanzaSyntaxTagger`'s model on this preannotated data, and tests the model on train+dev/test sets and calculates LAS/UAS scores;
+*  `conf_edt_v26_stanza_morph_analysis_full.ini` -- preannotates UD corpus (v2.6) with lemmas/postags/feats from estnltk's `morph_analysis` layer, trains `StanzaSyntaxTagger`'s model on this preannotated data, and tests the model on train+dev/test sets and calculates LAS/UAS scores;
 
-*  `conf_edt_v26_stanza_morph_extended_full.ini` -- preannotates UD corpus (v2.6) with postags/feats from estnltk's `morph_extended` layer, trains `StanzaSyntaxTagger`'s model on this preannotated data, and tests the model on train+dev/test sets and calculates LAS/UAS scores;
+*  `conf_edt_v26_stanza_morph_extended_full.ini` -- preannotates UD corpus (v2.6) with lemmas/postags/feats from estnltk's `morph_extended` layer, trains `StanzaSyntaxTagger`'s model on this preannotated data, and tests the model on train+dev/test sets and calculates LAS/UAS scores;
 
-*  `conf_edt_v26_stanza_ensemble_morph_extended.ini` -- preannotates UD corpus (v2.6) with postags/feats from estnltk's `morph_extended` layer, splits the training and dev sets into 10 subsets, trains 10 `StanzaSyntaxEnsembleTagger`'s models on these subsets, and tests these models with `StanzaSyntaxEnsembleTagger` and calculates corresponding LAS/UAS scores;
+*  `conf_edt_v26_stanza_ensemble_morph_extended.ini` -- preannotates UD corpus (v2.6) with lemmas/postags/feats from estnltk's `morph_extended` layer, splits the training and dev sets into 10 subsets, trains 10 `StanzaSyntaxEnsembleTagger`'s models on these subsets, and tests these models with `StanzaSyntaxEnsembleTagger` and calculates corresponding LAS/UAS scores;
 
 Crucial parts of configurations are paths: once you have downloaded and unpacked an UD corpus, please make sure to define  correct paths in configration files. Assumingly, all paths should be relative and point to sub directories of the code execution directory.
 
 ### Processing steps (scripts)
 
-* `01_ud_preprocessing.py` -- Converts gold standard UD corpus to EstNLTK's format: overwrites values of `upos`, `xpos` and `feats` with EstNLTK's automatic morphological analyses (from layers `morph_analysis` / `morph_extended`). Executes all sections starting with `preannotation_` in input configuration file. Example usage:
+* `01_ud_preprocessing.py` -- Converts gold standard UD corpus to EstNLTK's format: overwrites values of `lemma`, `upos`, `xpos` and `feats` with EstNLTK's automatic morphological analyses (from layers `morph_analysis` / `morph_extended`). Executes all sections starting with `preannotation_` in input configuration file. Example usage:
 
 	* `python  01_ud_preprocessing.py  conf_edt_v26_stanza_morph_extended_full.ini`
 
