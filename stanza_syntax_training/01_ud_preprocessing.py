@@ -71,6 +71,7 @@ def convert_to_estnltk_conllu_main( conf_file, verbose=True ):
             remove_empty_nodes = config[section].getboolean('remove_empty_nodes', True)
             remove_deps = config[section].getboolean('remove_deps', True)
             remove_misc = config[section].getboolean('remove_misc', True)
+            replace_lemma_by_root = config[section].getboolean('replace_lemma_by_root', False)
             # Collect input files. Make possible output files and dir
             input_files = []
             output_files = []
@@ -87,7 +88,8 @@ def convert_to_estnltk_conllu_main( conf_file, verbose=True ):
             for in_file, out_file in zip(input_files, output_files):
                 if verbose:
                     print(f'Reannotating {in_file} with layer {morph_layer} ...')
-                convert_ud_conllu_to_estnltk_conllu(in_file, morph_pipeline, morph_layer, out_file)
+                convert_ud_conllu_to_estnltk_conllu( in_file, morph_pipeline, morph_layer, out_file,
+                                                     replace_lemma_by_root=replace_lemma_by_root )
             section_found = True
     if section_found:
         print(f'Total processing time: {datetime.now()-start}')
@@ -96,7 +98,8 @@ def convert_to_estnltk_conllu_main( conf_file, verbose=True ):
 
 
 def convert_ud_conllu_to_estnltk_conllu( in_file, morph_pipeline, morph_layer, out_file, 
-                                         dictionarize=True, remove_empty_nodes=True, 
+                                         dictionarize=True, replace_lemma_by_root=False, 
+                                         remove_empty_nodes=True, 
                                          remove_deps=True, remove_misc=True, seed=43 ):
     '''
     Reannotates `in_file` with given `morph_pipeline` and saves results into `out_file`. 
@@ -128,6 +131,9 @@ def convert_ud_conllu_to_estnltk_conllu( in_file, morph_pipeline, morph_layer, o
     dictionarize
         If True (default), then values of `feats` will be converted to a dictionary of 
         features. 
+    replace_lemma_by_root
+        If True, then lemmas will be replaced by root values from morph_analysis layer. 
+        Default: False.
     remove_empty_nodes
         If True (default), then null / empty nodes (of the enhanced representation) will 
         be removed from the output.
@@ -188,6 +194,19 @@ def convert_ud_conllu_to_estnltk_conllu( in_file, morph_pipeline, morph_layer, o
             token['upos']  = annotation['partofspeech']
             token['xpos']  = annotation['partofspeech']
             token['feats'] = annotation['form']
+            token['lemma'] = annotation['lemma']
+            if replace_lemma_by_root:
+                if 'root' in annotation:
+                    token['lemma'] = annotation['root']
+                else:
+                    # Find the same analysis from morph_analysis layer
+                    # Get lemma from there
+                    word_span2 = text_obj['morph_analysis'][word_id]
+                    for annotation2 in word_span2.annotations:
+                        if annotation2['lemma'] == annotation['lemma'] and \
+                           annotation2['partofspeech'] == annotation['partofspeech']:
+                            token['lemma'] = annotation2['root']
+                            break
             # ? Override random pos with first pos (seems to be more accurate ?)
             #token['upos'] = word_span.annotations[0]['partofspeech']
             #token['xpos'] = word_span.annotations[0]['partofspeech']
