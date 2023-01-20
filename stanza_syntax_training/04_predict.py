@@ -5,6 +5,7 @@
 #       * stanza syntax ensemble (depparse)
 #    Implemented settings:
 #       * full_data
+#       * multi_experiment (general)
 #       * crossvalidation
 #       * half_data
 #       * smaller_data
@@ -56,7 +57,7 @@ def run_models_main( conf_file, subexp=None, dry_run=False ):
             print(f'Running {section}{subexp_str} ...')
             experiment_type = config[section].get('experiment_type', 'full_data')
             experiment_type_clean = (experiment_type.strip()).lower()
-            if experiment_type_clean not in ['full_data', 'crossvalidation', 'half_data', 'smaller_data']:
+            if experiment_type_clean not in ['full_data', 'crossvalidation', 'half_data', 'smaller_data', 'multi_experiment']:
                 raise ValueError('(!) Unexpected experiment_type value: {!r}'.format(experiment_type))
             if experiment_type_clean == 'full_data':
                 # ------------------------------------------
@@ -92,7 +93,9 @@ def run_models_main( conf_file, subexp=None, dry_run=False ):
                 tagger_path = config[section].get('tagger_path', default_tagger_path)
                 dry_run = config[section].getboolean('dry_run', dry_run)
                 use_gpu = config[section].getboolean('use_gpu', False)
+                # seed for randomly picking one analysis from ambiguous morph analyses
                 seed = config[section].getint('seed', 43)
+                # seed for randomly choosing one dependency result from results with maximum scores
                 scores_seed = config[section].getint('scores_seed', 3)
                 output_prefix = config[section].get('output_file_prefix', 'predicted_')
                 lang = config[section].get('lang', 'et')
@@ -163,8 +166,9 @@ def run_models_main( conf_file, subexp=None, dry_run=False ):
                         # run vanilla stanza
                         predict_with_stanza(test_file, model_file, test_output, lang=lang, use_gpu=use_gpu)
                     print(f'Total time elapsed: {datetime.now()-start_time}')
-            elif experiment_type_clean in ['crossvalidation', 'half_data', 'smaller_data']:
+            elif experiment_type_clean in ['crossvalidation', 'half_data', 'smaller_data', 'multi_experiment']:
                 # ------------------------------------------
+                # 'multi_experiment' (general)
                 # 'crossvalidation'
                 # 'half_data'
                 # 'smaller_data'
@@ -181,11 +185,12 @@ def run_models_main( conf_file, subexp=None, dry_run=False ):
                 models_dir = config[section]['models_dir']
                 if not os.path.isdir(models_dir):
                     raise FileNotFoundError(f'Error in {conf_file}: invalid "models_dir" value {models_dir!r} in {section!r}.')
-                # test_file with path
+                # test_file with full path, or a pattern for finding test file from input_dir
                 if not config.has_option(section, 'test_file'):
                     raise ValueError(f'Error in {conf_file}: section {section!r} is missing "test_file" parameter.')
                 test_file = config[section]['test_file']
-                if not os.path.isfile(test_file):
+                test_file_is_pattern = config[section].getboolean('test_file_is_pattern', False)
+                if not test_file_is_pattern and not os.path.isfile(test_file):
                     raise FileNotFoundError(f'Error in {conf_file}: invalid "test_file" value {test_file!r} in {section!r}.')
                 # output_dir
                 if not config.has_option(section, 'output_dir'):
@@ -218,8 +223,9 @@ def run_models_main( conf_file, subexp=None, dry_run=False ):
                 # Run models
                 bulk_predict( input_dir, models_dir, train_file_pat, test_file, 
                               output_dir, output_file_prefix=output_prefix, subexp=subexp, 
-                              parser=parser, use_estnltk=use_estnltk, morph_layer=morph_layer, 
-                              seed=seed, tagger_path=tagger_path, lang=lang, use_gpu=use_gpu, 
+                              test_file_is_pattern=test_file_is_pattern, parser=parser, 
+                              use_estnltk=use_estnltk, morph_layer=morph_layer, seed=seed, 
+                              tagger_path=tagger_path, lang=lang, use_gpu=use_gpu, 
                               dry_run=dry_run )
     if not section_found:
         print(f'No section starting with "predict_stanza_" in {conf_file}.')
@@ -227,8 +233,9 @@ def run_models_main( conf_file, subexp=None, dry_run=False ):
 
 def bulk_predict( data_folder, models_folder, train_file_pattern, test_file_path, 
                   output_path, output_file_prefix='predicted_', subexp=None, 
-                  parser='stanza', use_estnltk=False, morph_layer=None, seed=None, 
-                  tagger_path=None, lang='et', use_gpu=False, dry_run=False ):
+                  test_file_is_pattern=False, parser='stanza', use_estnltk=False, 
+                  morph_layer=None, seed=None, tagger_path=None, lang='et', 
+                  use_gpu=False, dry_run=False ):
     '''
     Runs models of multiple sub-experiments on (train/test) files from `data_folder`. 
     Outputs prediction conllu files to `output_path`. 
@@ -237,6 +244,9 @@ def bulk_predict( data_folder, models_folder, train_file_pattern, test_file_path
     that can be used to detect training data sets of all sub-experiments. 
     This patterns must have the named group 'exp', indicating part of the pattern 
     matching sub-experiment name. 
+    Optinally, if test_file_is_pattern=True, then `test_file_path` is compiled to 
+    a regular expression (must have named group 'exp') and used to find a test file 
+    corresponding to train file from `data_folder`. 
     
     Use parameter `subexp` to restrict predictions only to a single sub-experiment 
     instead of performing all sub-experiments. 
@@ -255,10 +265,24 @@ def bulk_predict( data_folder, models_folder, train_file_pattern, test_file_path
         raise Exception(f'(!) Missing or invalid data_folder {data_folder!r}')
     if not os.path.exists(models_folder) or not os.path.isdir(models_folder):
         raise Exception(f'(!) Missing or invalid models_folder {models_folder!r}')
-    if not os.path.exists(test_file_path) or not os.path.isfile(test_file_path):
-        raise Exception(f'(!) Missing or invalid test_file_path {test_file_path!r}')
     if use_estnltk and morph_layer is None:
         raise Exception(f'(!) Unexpected None value for morph_layer with use_estnltk')
+    test_file_regex = None
+    if not test_file_is_pattern:
+        # Test file is always the same: should be a full path
+        if not os.path.exists(test_file_path) or not os.path.isfile(test_file_path):
+            raise Exception(f'(!) Missing or invalid test_file_path {test_file_path!r}')
+    else:
+        # Test file should be found via regexp:
+        # Convert test_file to regular experssion
+        if not isinstance(test_file_path, str):
+            raise TypeError('test_file_path must be a string')
+        try:
+            test_file_regex = re.compile(test_file_path)
+        except Exception as err:
+            raise ValueError(f'Unable to convert {test_file_path!r} to regexp') from err
+        if 'exp' not in test_file_regex.groupindex:
+            raise ValueError(f'Regexp {test_file_path!r} is missing named group "exp"')
     # Convert train_file_pattern to regular experssion
     train_file_regex = None
     if not isinstance(train_file_pattern, str):
@@ -281,11 +305,30 @@ def bulk_predict( data_folder, models_folder, train_file_pattern, test_file_path
             fpath = os.path.join(data_folder, fname)
             # Training file varies, depending on the sub set of data
             experiment_data['train'].append( fpath )
-            # Test file is always the same
-            experiment_data['test'].append( test_file_path )
             no = m.group('exp')
             if no not in experiment_data['numbers']:
                 experiment_data['numbers'].append(no)
+            if test_file_regex is None:
+                # No regexp for test file:
+                # Test file is always the same
+                experiment_data['test'].append( test_file_path )
+            else:
+                # Test file regexp provided:
+                # Find test file corresponding to train file
+                found_test_file = None
+                for fname_2 in sorted( os.listdir(data_folder) ):
+                    m2 = test_file_regex.match(fname_2)
+                    if m2:
+                        no2 = m2.group('exp')
+                        if no2 == no:
+                            found_test_file = \
+                                os.path.join(data_folder, fname_2)
+                            break
+                if found_test_file is not None:
+                    experiment_data['test'].append( found_test_file )
+                else:
+                    raise Exception(f'(!) Unable to find test file corresponding '+\
+                                    f'to train file {fname!r} from {data_folder!r}.')
             # Find corresponding model from the models folder
             target_model_file = f"model_{no}.pt"
             model_found = False
@@ -296,7 +339,11 @@ def bulk_predict( data_folder, models_folder, train_file_pattern, test_file_path
                     model_found = True
                     break
             if not model_found:
-                raise Exception(f'(!) Unable to find model {target_model_file} from {models_folder!r}')
+                if not dry_run:
+                    raise Exception(f'(!) Unable to find model {target_model_file!r} from {models_folder!r}')
+                else:
+                    # Try run, emulate only, don't chk for models
+                    experiment_data['models'].append(target_model_file)
     # Validate that we have all required files
     for subset in ['train']:
         if len(experiment_data[subset]) == 0:

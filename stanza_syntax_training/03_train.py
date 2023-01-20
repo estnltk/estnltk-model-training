@@ -4,6 +4,7 @@
 #       * stanza syntax (depparse)
 #    Implemented settings:
 #       * full_data
+#       * multi_experiment (general)
 #       * crossvalidation
 #       * half_data
 #       * smaller_data
@@ -56,7 +57,7 @@ def train_models_main( conf_file, subexp=None, dry_run=False ):
             print(f'Running {section}{subexp_str} ...')
             experiment_type = config[section].get('experiment_type', 'full_data')
             experiment_type_clean = (experiment_type.strip()).lower()
-            if experiment_type_clean not in ['full_data', 'crossvalidation', 'half_data', 'smaller_data']:
+            if experiment_type_clean not in ['full_data', 'crossvalidation', 'half_data', 'smaller_data', 'multi_experiment']:
                 raise ValueError('(!) Unexpected experiment_type value: {!r}'.format(experiment_type))
             if experiment_type_clean == 'full_data':
                 # ------------------------------------------
@@ -100,8 +101,9 @@ def train_models_main( conf_file, subexp=None, dry_run=False ):
                                              dry_run=dry_run)
                     run_conll18_ud_eval(eval_file, output_file, return_type='las_f1', 
                                         save_results_file=output_eval_score_file, dry_run=dry_run)
-            elif experiment_type_clean in ['crossvalidation', 'half_data', 'smaller_data']:
+            elif experiment_type_clean in ['crossvalidation', 'half_data', 'smaller_data', 'multi_experiment']:
                 # ------------------------------------------
+                # 'multi_experiment' (general)
                 # 'crossvalidation'
                 # 'half_data'
                 # 'smaller_data'

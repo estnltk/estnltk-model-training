@@ -6,6 +6,7 @@
 #
 #    Supported settings:
 #       * full_data
+#       * multi_experiment (general)
 #       * crossvalidation
 #       * half_data
 #       * smaller_data
@@ -16,6 +17,7 @@ import csv, re
 import os, os.path
 from statistics import mean
 import configparser
+import warnings
 
 import conllu
 
@@ -56,7 +58,7 @@ def eval_main(conf_file, collected_results=None, ignore_missing=True, verbose=Tr
             print(f'{conf_fname}: Checking {section} ...')
             experiment_type = config[section].get('experiment_type', 'full_data')
             experiment_type_clean = (experiment_type.strip()).lower()
-            if experiment_type_clean not in ['full_data', 'crossvalidation', 'half_data', 'smaller_data']:
+            if experiment_type_clean not in ['full_data', 'crossvalidation', 'half_data', 'smaller_data', 'multi_experiment']:
                 raise ValueError('(!) Unexpected experiment_type value: {!r}'.format(experiment_type))
             if experiment_type_clean == 'full_data':
                 # ------------------------------------------
@@ -101,8 +103,9 @@ def eval_main(conf_file, collected_results=None, ignore_missing=True, verbose=Tr
                         print(f'Skipping evaluation because of missing files: {missing_files!r}')
                     else:
                         raise FileNotFoundError(f'(!) Cannot evaluate, missing evaluation files: {missing_files!r}')
-            elif experiment_type_clean in ['crossvalidation', 'half_data', 'smaller_data']:
+            elif experiment_type_clean in ['crossvalidation', 'half_data', 'smaller_data', 'multi_experiment']:
                 # ------------------------------------------
+                # 'multi_experiment' (general)
                 # 'crossvalidation'
                 # 'half_data'
                 # 'smaller_data'
@@ -111,15 +114,13 @@ def eval_main(conf_file, collected_results=None, ignore_missing=True, verbose=Tr
                 if not config.has_option(section, 'gold_test'):
                     raise ValueError(f'Error in {conf_file}: section {section!r} is missing "gold_test" parameter.')
                 gold_test = config[section]['gold_test']
+                test_file_is_pattern = config[section].getboolean('test_file_is_pattern', False)
                 if not config.has_option(section, 'gold_splits_dir'):
                     raise ValueError(f'Error in {conf_file}: section {section!r} is missing "gold_splits_dir" parameter.')
                 gold_splits_dir = config[section]['gold_splits_dir']
                 if not config.has_option(section, 'predictions_dir'):
                     raise ValueError(f'Error in {conf_file}: section {section!r} is missing "predictions_dir" parameter.')
                 predictions_dir = config[section]['predictions_dir']
-                gold_splits_dir_exists = os.path.exists(gold_splits_dir)
-                gold_test_exists  = os.path.exists(gold_test)
-                predictions_dir_exists = os.path.exists(predictions_dir)
                 predictions_prefix = config[section].get('predictions_prefix', 'predicted_')
                 macro_average = config[section].getboolean('macro_average', False)
                 experiment_name_prefix = config[section].get('name_prefix', section)
@@ -140,9 +141,20 @@ def eval_main(conf_file, collected_results=None, ignore_missing=True, verbose=Tr
                     raise ValueError(f'Unable to convert {train_file_pat!r} to regexp') from err
                 if 'exp' not in train_file_regex.groupindex:
                     raise ValueError(f'Regexp {train_file_pat!r} is missing named group "exp"')
+                test_file_regex = None
+                if test_file_is_pattern:
+                    if not isinstance(gold_test, str):
+                        raise TypeError('gold_test must be a string')
+                    try:
+                        test_file_regex = re.compile(gold_test)
+                    except Exception as err:
+                        raise ValueError(f'Unable to convert {gold_test!r} to regexp') from err
+                    if 'exp' not in test_file_regex.groupindex:
+                        raise ValueError(f'Regexp {gold_test!r} is missing named group "exp"')
                 # Try to collect evaluation files
                 evaluation_files = []
-                if os.path.exists(predictions_dir) and os.path.exists(gold_splits_dir) and os.path.exists(gold_test):
+                if os.path.exists(predictions_dir) and os.path.exists(gold_splits_dir) and \
+                   (test_file_regex is not None or os.path.exists(gold_test)):
                     evaluations_done = 0
                     results_macro_avg = dict()
                     for gold_file in sorted( os.listdir(gold_splits_dir) ):
@@ -153,7 +165,25 @@ def eval_main(conf_file, collected_results=None, ignore_missing=True, verbose=Tr
                                                   'must have extension .conllu' )
                             no = m.group('exp')
                             experiment_name = f'{experiment_name_prefix}{no}'
+                            missing_files = []
                             gold_train = os.path.join(gold_splits_dir, gold_file)
+                            current_gold_test = gold_test
+                            if test_file_regex is not None:
+                                # Find gold_test corresponding to gold_train
+                                gold_test_found = False
+                                for gold_file_2 in sorted(os.listdir(gold_splits_dir)):
+                                    m2 = test_file_regex.match(gold_file_2)
+                                    if m2:
+                                        no2 = m2.group('exp')
+                                        if no == no2:
+                                            current_gold_test = \
+                                                os.path.join(gold_splits_dir, gold_file_2)
+                                            gold_test_found = True
+                                            break
+                                if not gold_test_found:
+                                    warnings.warn(f'Unable to find test file corresponding to '+\
+                                                  f'train file {gold_file!r} from {gold_splits_dir!r}.')
+                                    missing_files.append( current_gold_test )
                             predicted_train = None
                             predicted_test = None
                             # Find corresponding train prediction
@@ -163,14 +193,13 @@ def eval_main(conf_file, collected_results=None, ignore_missing=True, verbose=Tr
                             target_predicted_test = f'{predictions_prefix}test_{no}.conllu'
                             predicted_test = os.path.join(predictions_dir, target_predicted_test)
                             # Find out whether prediction files exist
-                            missing_files = []
                             for predicted_path in [predicted_train, predicted_test]:
                                 if not os.path.exists(predicted_path) or \
                                    not os.path.isfile(predicted_path):
                                     missing_files.append(predicted_path)
                             if len(missing_files) == 0:
                                 # All required files exist: evaluate
-                                results = score_experiment( predicted_test, gold_test, 
+                                results = score_experiment( predicted_test, current_gold_test, 
                                                             predicted_train, gold_train, 
                                                             format_string=None,
                                                             count_words=count_words )
@@ -191,7 +220,7 @@ def eval_main(conf_file, collected_results=None, ignore_missing=True, verbose=Tr
                                             results_rounded[k] = '{}'.format(v)
                                     results = results_rounded
                                 # find experiment directory closest to root in experiment path
-                                exp_root = get_experiment_path_root(gold_test)
+                                exp_root = get_experiment_path_root(current_gold_test)
                                 if exp_root not in collected_results.keys():
                                     collected_results[exp_root] = dict()
                                 if verbose:
