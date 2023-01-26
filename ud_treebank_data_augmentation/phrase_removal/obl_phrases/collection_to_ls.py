@@ -11,6 +11,7 @@ def conf_gen(classes: List[str]):
     <Labels name="label" toName="text">\n
     """
     end_block = """
+     <Label value="$eval" background="#190FFD"/>\n
 </Labels>
 <Text name="text" value="$text"/>
 <Header value="Is the entity free, bound, incorrect or causes unnatural sentence?"/>
