@@ -14,5 +14,6 @@
     <Choice value="bound"/>
     <Choice value="unnatural"/>
     <Choice value="incorrect"/>
+    <Choice value="dubious"/>
 </Choices>
 </View>
