@@ -1,7 +1,10 @@
 #
-#  Convert gold standard UD corpus to EstNLTK's format: 
-#  add EstNLTK's automatic morphological annotations to 
-#  corpus CONLL files.
+#  Convert gold standard UD corpus to training/experiments format:
+#  1) EstNLTK's format: add EstNLTK's automatic morphological 
+#     annotations to CONLL files;
+#  2) UD format: clean annotations by removing null nodes,
+#     deps and misc values (optional), and copy gold standard 
+#     CONLL files to new location;
 #
 
 import re
@@ -25,20 +28,24 @@ from estnltk.taggers import PretokenizedTextCompoundTokensTagger
 from estnltk.converters.conll.conll_importer import conll_to_text
 
 # ===============================================================
-#  Convert UD corpora to EstNLTK format: 
-#  add EstNLTK's automatic morphological annotations
+#  Convert UD corpora to training/experiments format: 
+#  1) EstNLTK's format: add EstNLTK's morphological annotations;
+#  2) UD format: clean annotations by removing null nodes,
+#     deps and misc values;
 #   (MAIN)
 # ===============================================================
 
 def convert_to_estnltk_conllu_main( conf_file, verbose=True ):
     '''
-    Converts gold standard CONLL-U files to EstNLTK's format: adds EstNLTK's 
-    automatic morphological annotations.
+    Converts gold standard CONLL-U files to training/experiments format. 
     Settings/parameters of the conversion will be read from the given 
     `conf_file`. 
-    Executes sections in the configuration starting with prefix 'preannotation_'. 
-    See the function `convert_ud_conllu_to_estnltk_conllu(...)` for details 
-    about the conversion and possible parameters.
+    Executes sections in the configuration starting with prefix 'preannotation_' 
+    (add EstNLTK's morphological annotations) and 'copy_' (clean and copy files 
+    with UD annotations). 
+    See functions `convert_ud_conllu_to_estnltk_conllu(...)` and 
+    `copy_and_clean_ud_conllu(...)` for details about the conversion 
+    and possible parameters. 
     '''
     # Parse configuration file
     config = configparser.ConfigParser()
@@ -89,12 +96,50 @@ def convert_to_estnltk_conllu_main( conf_file, verbose=True ):
                 if verbose:
                     print(f'Reannotating {in_file} with layer {morph_layer} ...')
                 convert_ud_conllu_to_estnltk_conllu( in_file, morph_pipeline, morph_layer, out_file,
-                                                     replace_lemma_by_root=replace_lemma_by_root )
+                                                     dictionarize=dictionarize, 
+                                                     replace_lemma_by_root=replace_lemma_by_root, 
+                                                     remove_empty_nodes=remove_empty_nodes, 
+                                                     remove_deps=remove_deps, 
+                                                     remove_misc=remove_misc, 
+                                                     seed=seed )
+            section_found = True
+        if section.startswith('copy_'):
+            # Load copying configuration from the section
+            if not config.has_option(section, 'input_dir'):
+                raise ValueError(f'Error in {conf_file}: section {section!r} is missing "input_dir" parameter.')
+            input_dir = config[section]['input_dir']
+            if not os.path.isdir(input_dir):
+                raise FileNotFoundError(f'Error in {conf_file}: invalid "input_dir" value {input_dir!r} in {section!r}.')
+            if not config.has_option(section, 'output_dir'):
+                raise ValueError(f'Error in {conf_file}: section {section!r} is missing "output_dir" parameter.')
+            output_dir = config[section]['output_dir']
+            remove_empty_nodes = config[section].getboolean('remove_empty_nodes', True)
+            remove_deps = config[section].getboolean('remove_deps', True)
+            remove_misc = config[section].getboolean('remove_misc', True)
+            # Collect input files. Make possible output files and dir
+            input_files = []
+            output_files = []
+            for fname in os.listdir(input_dir):
+                if fname.endswith('.conllu'):
+                    input_files.append(os.path.join(input_dir, fname))
+                    output_files.append(os.path.join(output_dir, fname))
+            if not input_files:
+                raise Exception(f'(!) No conllu files found from "input_dir" {input_dir!r}.')
+            if not os.path.exists(output_dir):
+                os.makedirs(output_dir, exist_ok=True)
+            # Copy & clean files
+            for in_file, out_file in zip(input_files, output_files):
+                if verbose:
+                    print(f'Copying & cleaning {in_file} ...')
+                copy_and_clean_ud_conllu( in_file, out_file,
+                                          remove_empty_nodes=remove_empty_nodes, 
+                                          remove_deps=remove_deps, 
+                                          remove_misc=remove_misc )
             section_found = True
     if section_found:
         print(f'Total processing time: {datetime.now()-start}')
     else:
-        print(f'No section starting with "preannotation_" in {conf_file}.')
+        print(f'No section starting with "preannotation_" or "copy_" in {conf_file}.')
 
 
 def convert_ud_conllu_to_estnltk_conllu( in_file, morph_pipeline, morph_layer, out_file, 
@@ -103,8 +148,8 @@ def convert_ud_conllu_to_estnltk_conllu( in_file, morph_pipeline, morph_layer, o
                                          remove_deps=True, remove_misc=True, seed=43 ):
     '''
     Reannotates `in_file` with given `morph_pipeline` and saves results into `out_file`. 
-    During reannotation, values of `upos`, `xpos` and `feats` will be replaced with 
-    corresponding automatically tagged values from `morph_layer` (either morph_analysis 
+    During reannotation, values of `lemma`, `upos`, `xpos` and `feats` will be replaced 
+    with corresponding automatically tagged values from `morph_layer` (either morph_analysis 
     or morph_extended type of layer). In case of ambiguity, annotation is chosen randomly. 
     Use `seed` to provide seed value for random choices. 
     `morph_pipeline` must be a list of taggers that can be applied on the `Text` object 
@@ -224,7 +269,56 @@ def convert_ud_conllu_to_estnltk_conllu( in_file, morph_pipeline, morph_layer, o
         #print(sentence.serialize())
         #print()
     # Export annotated file
-    conllu_list = []
+    with open(out_file, 'w', encoding='utf-8') as out_file:
+        for sentence in conll_sentences:
+            out_file.write( sentence.serialize() )
+
+
+def copy_and_clean_ud_conllu( in_file, out_file, remove_empty_nodes=True, 
+                              remove_deps=True, remove_misc=True ):
+    '''
+    Cleans `in_file` by removing empty nodes, deps and misc attributes, and 
+    saves result as `out_file`. 
+    Both `in_file` and `out_file` are CONLL-U format files. 
+    Use this function to prepare data for experiments that use gold standard 
+    UD morphological annotations.
+    
+    Parameters
+    -----------
+    in_file
+        name/path of the CONLL-U format input file.
+    out_file
+        name/path of the CONLL-U format output file.
+    remove_empty_nodes
+        If True (default), then null / empty nodes (of the enhanced representation) will 
+        be removed from the output.
+    remove_deps
+        If True (default), then values of `deps` field will be replaced with `_`.
+    remove_misc
+        If True (default), then values of `misc` field will be replaced with `_`.
+    '''
+    # Import text from conllu
+    with open(in_file, 'r', encoding='utf-8') as input_file:
+        conll_sentences = conllu.parse(input_file.read())
+    # If required, remove orphans / null nodes
+    if remove_empty_nodes:
+        for sid, sentence in enumerate(conll_sentences):
+            removables = []
+            for tid, token in enumerate(sentence):
+                token_id = token['id']
+                if isinstance(token_id, tuple) and len(token_id) == 3 and token_id[1] == '.':
+                    removables.append(token)
+            if removables:
+                for token in removables:
+                    sentence.remove(token)
+    # Clean annotations
+    for sid, sentence in enumerate(conll_sentences):
+        for tid, token in enumerate(sentence):
+            if remove_misc and token['misc'] is not None:
+                token['misc'] = None
+            if remove_deps and token['deps'] is not None:
+                token['deps'] = None
+    # Export annotated file
     with open(out_file, 'w', encoding='utf-8') as out_file:
         for sentence in conll_sentences:
             out_file.write( sentence.serialize() )
