@@ -72,6 +72,10 @@ def convert_to_estnltk_conllu_main( conf_file, verbose=True ):
             morph_layer = config[section]['morph_layer']
             if not config.has_option(section, 'output_dir'):
                 raise ValueError(f'Error in {conf_file}: section {section!r} is missing "output_dir" parameter.')
+            if morph_layer == 'ud_morph_analysis':
+                # Add UDMorphConverter() to disambiguated morph
+                from estnltk.taggers import UDMorphConverter  # requires estnltk 1.7.2+
+                morph_pipeline.append( UDMorphConverter() )
             output_dir = config[section]['output_dir']
             seed = config[section].getint('seed', 43)
             dictionarize = config[section].getboolean('dictionarize', True)
@@ -236,29 +240,37 @@ def convert_ud_conllu_to_estnltk_conllu( in_file, morph_pipeline, morph_layer, o
             word_span = text_obj[morph_layer][word_id]
             assert word_span.text == token["form"]
             annotation = rand.choice(word_span.annotations)
-            token['upos']  = annotation['partofspeech']
-            token['xpos']  = annotation['partofspeech']
-            token['feats'] = annotation['form']
-            token['lemma'] = annotation['lemma']
-            if replace_lemma_by_root:
-                if 'root' in annotation:
-                    token['lemma'] = annotation['root']
-                else:
-                    # Find the same analysis from morph_analysis layer
-                    # Get lemma from there
-                    word_span2 = text_obj['morph_analysis'][word_id]
-                    for annotation2 in word_span2.annotations:
-                        if annotation2['lemma'] == annotation['lemma'] and \
-                           annotation2['partofspeech'] == annotation['partofspeech']:
-                            token['lemma'] = annotation2['root']
-                            break
-            # ? Override random pos with first pos (seems to be more accurate ?)
-            #token['upos'] = word_span.annotations[0]['partofspeech']
-            #token['xpos'] = word_span.annotations[0]['partofspeech']
-            if dictionarize:
-                # Format form as a dictionary
-                form_parts = annotation['form'].split()
-                token['feats'] = {f:f for f in form_parts}
+            if morph_layer in ['morph_analysis', 'morph_extended']:
+                token['upos']  = annotation['partofspeech']
+                token['xpos']  = annotation['partofspeech']
+                token['feats'] = annotation['form']
+                token['lemma'] = annotation['lemma']
+                if replace_lemma_by_root:
+                    if 'root' in annotation:
+                        token['lemma'] = annotation['root']
+                    else:
+                        # Find the same analysis from morph_analysis layer
+                        # Get lemma from there
+                        word_span2 = text_obj['morph_analysis'][word_id]
+                        for annotation2 in word_span2.annotations:
+                            if annotation2['lemma'] == annotation['lemma'] and \
+                               annotation2['partofspeech'] == annotation['partofspeech']:
+                                token['lemma'] = annotation2['root']
+                                break
+                # ? Override random pos with first pos (seems to be more accurate ?)
+                #token['upos'] = word_span.annotations[0]['partofspeech']
+                #token['xpos'] = word_span.annotations[0]['partofspeech']
+                if dictionarize:
+                    # Format form as a dictionary
+                    form_parts = annotation['form'].split()
+                    token['feats'] = {f:f for f in form_parts}
+            elif morph_layer == 'ud_morph_analysis':
+                token['upos']  = annotation['upostag']
+                token['xpos']  = annotation['xpostag']
+                token['feats'] = annotation['feats']
+                token['lemma'] = annotation['lemma']
+            else:
+                raise Exception(f'(!) Unexpected morph_layer: {morph_layer!r}')
             if len(token['feats']) == 0:
                 token['feats'] = None
             if remove_misc and token['misc'] is not None:
