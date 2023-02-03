@@ -15,5 +15,6 @@
     <Choice value="unnatural"/>
     <Choice value="incorrect"/>
     <Choice value="dubious"/>
+    <Choice value="redundant comma"/>
 </Choices>
 </View>
