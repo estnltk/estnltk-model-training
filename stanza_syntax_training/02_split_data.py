@@ -453,14 +453,14 @@ def create_half_data_splits(train_file, dev_file, first_splits_path, half_data_s
         dev_2 = sentence_blocks[175:]
         test_2 = sentence_blocks[:97]
 
-        split_key = '{:02d}'.format(split_counter+1)
+        split_key = '{:03d}'.format(split_counter+1)
         print(f'{split_key} -- train: #{len(train_1)} sents, dev: #{len(dev_1)} sents, test: #{len(test_1)} sents')
         split_counter += 1
         csv_writer.writerow(['split_{}'.format(split_key), dev_1, test_1, train_1])
         train, dev, test = extract_sentences(all_sentences, train_1, dev_1, test_1)
         save_split_files(train, dev, test, half_data_split_path, split_key)
 
-        split_key = '{:02d}'.format(split_counter+1)
+        split_key = '{:03d}'.format(split_counter+1)
         print(f'{split_key} -- train: #{len(train_2)} sents, dev: #{len(dev_2)} sents, test: #{len(test_2)} sents')
         split_counter += 1
         csv_writer.writerow(['split_{}'.format(split_key), dev_2, test_2, train_2])

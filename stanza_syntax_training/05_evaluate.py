@@ -82,6 +82,7 @@ def eval_main(conf_file, collected_results=None, ignore_missing=True, verbose=Tr
                 predicted_test = config[section]['predicted_test']
                 predicted_train_exists = os.path.exists(predicted_train)
                 predicted_test_exists  = os.path.exists(predicted_test)
+                param_count_words = config[section].getboolean('count_words', count_words)
                 experiment_name = config[section].get('name', section)
                 all_files_exist = gold_train_exists and gold_test_exists and \
                                   predicted_train_exists and predicted_test_exists
@@ -89,7 +90,7 @@ def eval_main(conf_file, collected_results=None, ignore_missing=True, verbose=Tr
                     format_string = ':.4f' if round else None
                     results = score_experiment( predicted_test, gold_test, predicted_train, gold_train, 
                                                 gold_path=None, predicted_path=None, format_string=format_string,
-                                                count_words=count_words )
+                                                count_words=param_count_words )
                     if verbose:
                         print(results)
                     # find experiment directory closest to root in experiment path
@@ -123,6 +124,7 @@ def eval_main(conf_file, collected_results=None, ignore_missing=True, verbose=Tr
                 predictions_dir = config[section]['predictions_dir']
                 predictions_prefix = config[section].get('predictions_prefix', 'predicted_')
                 macro_average = config[section].getboolean('macro_average', False)
+                param_count_words = config[section].getboolean('count_words', count_words)
                 experiment_name_prefix = config[section].get('name_prefix', section)
                 if not experiment_name_prefix.endswith('_'):
                     experiment_name_prefix = experiment_name_prefix + '_'
@@ -202,7 +204,7 @@ def eval_main(conf_file, collected_results=None, ignore_missing=True, verbose=Tr
                                 results = score_experiment( predicted_test, current_gold_test, 
                                                             predicted_train, gold_train, 
                                                             format_string=None,
-                                                            count_words=count_words )
+                                                            count_words=param_count_words )
                                 if macro_average:
                                     # Collect macro averages
                                     for k, v in results.items():

@@ -83,6 +83,7 @@ def convert_to_estnltk_conllu_main( conf_file, verbose=True ):
             remove_deps = config[section].getboolean('remove_deps', True)
             remove_misc = config[section].getboolean('remove_misc', True)
             replace_lemma_by_root = config[section].getboolean('replace_lemma_by_root', False)
+            remove_metadata = config[section].getboolean('remove_metadata', False)
             # Collect input files. Make possible output files and dir
             input_files = []
             output_files = []
@@ -103,6 +104,7 @@ def convert_to_estnltk_conllu_main( conf_file, verbose=True ):
                                                      dictionarize=dictionarize, 
                                                      replace_lemma_by_root=replace_lemma_by_root, 
                                                      remove_empty_nodes=remove_empty_nodes, 
+                                                     remove_metadata=remove_metadata, 
                                                      remove_deps=remove_deps, 
                                                      remove_misc=remove_misc, 
                                                      seed=seed )
@@ -120,6 +122,7 @@ def convert_to_estnltk_conllu_main( conf_file, verbose=True ):
             remove_empty_nodes = config[section].getboolean('remove_empty_nodes', True)
             remove_deps = config[section].getboolean('remove_deps', True)
             remove_misc = config[section].getboolean('remove_misc', True)
+            remove_metadata = config[section].getboolean('remove_metadata', False)
             # Collect input files. Make possible output files and dir
             input_files = []
             output_files = []
@@ -138,6 +141,7 @@ def convert_to_estnltk_conllu_main( conf_file, verbose=True ):
                 copy_and_clean_ud_conllu( in_file, out_file,
                                           remove_empty_nodes=remove_empty_nodes, 
                                           remove_deps=remove_deps, 
+                                          remove_metadata=remove_metadata, 
                                           remove_misc=remove_misc )
             section_found = True
     if section_found:
@@ -148,7 +152,7 @@ def convert_to_estnltk_conllu_main( conf_file, verbose=True ):
 
 def convert_ud_conllu_to_estnltk_conllu( in_file, morph_pipeline, morph_layer, out_file, 
                                          dictionarize=True, replace_lemma_by_root=False, 
-                                         remove_empty_nodes=True, 
+                                         remove_empty_nodes=True, remove_metadata=False, 
                                          remove_deps=True, remove_misc=True, seed=43 ):
     '''
     Reannotates `in_file` with given `morph_pipeline` and saves results into `out_file`. 
@@ -182,6 +186,11 @@ def convert_ud_conllu_to_estnltk_conllu( in_file, morph_pipeline, morph_layer, o
         features. 
     replace_lemma_by_root
         If True, then lemmas will be replaced by root values from morph_analysis layer. 
+        Default: False.
+    remove_metadata:
+        If True, then sentence metadata will be removed from the output conllu file. 
+        This might be necessary if you want to create data for legacy parsers such as 
+        MaltParser.
         Default: False.
     remove_empty_nodes
         If True (default), then null / empty nodes (of the enhanced representation) will 
@@ -283,11 +292,13 @@ def convert_ud_conllu_to_estnltk_conllu( in_file, morph_pipeline, morph_layer, o
     # Export annotated file
     with open(out_file, 'w', encoding='utf-8') as out_file:
         for sentence in conll_sentences:
+            if remove_metadata:
+                sentence.metadata = None
             out_file.write( sentence.serialize() )
 
 
 def copy_and_clean_ud_conllu( in_file, out_file, remove_empty_nodes=True, 
-                              remove_deps=True, remove_misc=True ):
+                              remove_metadata=False, remove_deps=True, remove_misc=True ):
     '''
     Cleans `in_file` by removing empty nodes, deps and misc attributes, and 
     saves result as `out_file`. 
@@ -304,6 +315,11 @@ def copy_and_clean_ud_conllu( in_file, out_file, remove_empty_nodes=True,
     remove_empty_nodes
         If True (default), then null / empty nodes (of the enhanced representation) will 
         be removed from the output.
+    remove_metadata:
+        If True, then sentence metadata will be removed from the output conllu file. 
+        This might be necessary if you want to create data for legacy parsers such as 
+        MaltParser.
+        Default: False.
     remove_deps
         If True (default), then values of `deps` field will be replaced with `_`.
     remove_misc
@@ -333,6 +349,8 @@ def copy_and_clean_ud_conllu( in_file, out_file, remove_empty_nodes=True,
     # Export annotated file
     with open(out_file, 'w', encoding='utf-8') as out_file:
         for sentence in conll_sentences:
+            if remove_metadata:
+                sentence.metadata = None
             out_file.write( sentence.serialize() )
 
 
