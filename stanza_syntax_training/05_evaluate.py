@@ -84,13 +84,15 @@ def eval_main(conf_file, collected_results=None, ignore_missing=True, verbose=Tr
                 predicted_test_exists  = os.path.exists(predicted_test)
                 param_count_words = config[section].getboolean('count_words', count_words)
                 experiment_name = config[section].get('name', section)
+                punct_tokens_file = config[section].get('punct_tokens_file', None)
+                punct_tokens_set = load_punct_tokens( punct_tokens_file )  # Attempt to load from file. If None, return empty set
                 all_files_exist = gold_train_exists and gold_test_exists and \
                                   predicted_train_exists and predicted_test_exists
                 if all_files_exist:
                     format_string = ':.4f' if round else None
                     results = score_experiment( predicted_test, gold_test, predicted_train, gold_train, 
                                                 gold_path=None, predicted_path=None, format_string=format_string,
-                                                count_words=param_count_words )
+                                                count_words=param_count_words, punct_tokens_set=punct_tokens_set )
                     if verbose:
                         print(results)
                     # find experiment directory closest to root in experiment path
@@ -126,6 +128,8 @@ def eval_main(conf_file, collected_results=None, ignore_missing=True, verbose=Tr
                 macro_average = config[section].getboolean('macro_average', False)
                 param_count_words = config[section].getboolean('count_words', count_words)
                 experiment_name_prefix = config[section].get('name_prefix', section)
+                punct_tokens_file = config[section].get('punct_tokens_file', None)
+                punct_tokens_set = load_punct_tokens( punct_tokens_file )  # Attempt to load from file. If None, return empty set
                 if not experiment_name_prefix.endswith('_'):
                     experiment_name_prefix = experiment_name_prefix + '_'
                 # Patterns for capturing names of training sub-experiment files
@@ -204,7 +208,8 @@ def eval_main(conf_file, collected_results=None, ignore_missing=True, verbose=Tr
                                 results = score_experiment( predicted_test, current_gold_test, 
                                                             predicted_train, gold_train, 
                                                             format_string=None,
-                                                            count_words=param_count_words )
+                                                            count_words=param_count_words,
+                                                            punct_tokens_set=punct_tokens_set )
                                 if macro_average:
                                     # Collect macro averages
                                     for k, v in results.items():
@@ -280,10 +285,27 @@ def get_experiment_path_root( experiment_path ):
         experiment_path = head
     return closest_to_root
 
+def load_punct_tokens( fname ):
+    '''
+    Loads set of punctuation tokens from given file.
+    If file name is None, returns an empty set.
+    If file is given but missing, raises an exception.
+    Returns set of punctuation tokens.
+    '''
+    punct_tokens = set()
+    if fname is not None:
+        if not os.path.exists(fname):
+            raise Exception(f'(!) Non-existend punct tokens file: {fname!r}')
+        with open(fname, 'r', encoding='utf-8') as in_f:
+            for line in in_f:
+                line = line.strip()
+                if len(line) > 0:
+                    punct_tokens.add(line)
+    return punct_tokens
 
 def score_experiment( predicted_test, gold_test, predicted_train, gold_train, 
                       gold_path=None, predicted_path=None, format_string=None,
-                      count_words=False ):
+                      count_words=False, punct_tokens_set=None ):
     '''
     Calculates train and test LAS/UAS scores and gaps between train and test LAS 
     using given predicted and gold standard conllu files. 
@@ -316,10 +338,12 @@ def score_experiment( predicted_test, gold_test, predicted_train, gold_train,
     # Calculate scores
     test_scores = calculate_scores(input_files['gold_test'], 
                                    input_files['predicted_test'],
-                                   count_words=count_words)
+                                   count_words=count_words,
+                                   punct_tokens_set=punct_tokens_set)
     train_scores = calculate_scores(input_files['gold_train'], 
                                     input_files['predicted_train'],
-                                    count_words=count_words)
+                                    count_words=count_words,
+                                    punct_tokens_set=punct_tokens_set)
     LAS_test = test_scores['LAS']
     UAS_test = test_scores['UAS']
     LAS_train = train_scores['LAS']
@@ -338,12 +362,12 @@ def score_experiment( predicted_test, gold_test, predicted_train, gold_train,
     return results_dict
 
 
-def calculate_scores(gold_path: str, predicted_path: str, count_words=False):
+def calculate_scores(gold_path: str, predicted_path: str, count_words=False, punct_tokens_set=None):
     '''
     Calculates LAS, UAS and LA scores based on gold annotations and predicted annotations 
     loaded from conllu files `gold_path` and `predicted_path`. 
-    Discards punctuation (tokens with xpos == 'Z') and null nodes (tokens with non-integer id-s) 
-    from calculations.
+    Discards punctuation (tokens with xpos == 'Z', or alternatively, tokens appearing in given 
+    punct_tokens_set) and null nodes (tokens with non-integer id-s) from calculations.
     Returns dictionary with scores (keys: "LAS", "UAS", "LA").
     If `count_words=True`, then adds evaluation word count (key 'total_words') to the results.
     '''
@@ -368,6 +392,10 @@ def calculate_scores(gold_path: str, predicted_path: str, count_words=False):
         for gold_word in gold_sentence:
             if not isinstance(gold_word['id'], int):
                 continue
+            if punct_tokens_set is not None:
+                if gold_word['form'] in punct_tokens_set:
+                    word_tracker += 1
+                    continue
             if gold_word['xpos'] == 'Z':
                 word_tracker += 1
                 continue
@@ -399,10 +427,14 @@ def calculate_scores(gold_path: str, predicted_path: str, count_words=False):
 
 if __name__ == '__main__':
     # 1) Try to get configuration files from input args
+    # Optionally, user can also pass name of the output csv file
     conf_files = []
+    output_csv_file = 'results.csv'
     for input_arg in sys.argv[1:]:
         if (input_arg.lower()).endswith('.ini'):
             conf_files.append( input_arg )
+        elif (input_arg.lower()).endswith('.csv'):
+            output_csv_file = input_arg
     if len(conf_files) == 0:
         # 2) Try to collect configuration files from the root dir
         root_dir = '.'
@@ -419,7 +451,7 @@ if __name__ == '__main__':
                       verbose=True, round=True, count_words=False)
         # Save collected results into experiment root directory csv file
         for exp_root in collected_results.keys():
-            filename = os.path.join(exp_root, 'results.csv') if os.path.exists(exp_root) else f'results_{exp_root}.csv'
+            filename = os.path.join(exp_root, output_csv_file) if os.path.exists(exp_root) else f'results_{exp_root}.csv'
             print(f'Writing evaluation results into {filename} ...')
             with open(filename, 'w', encoding='utf-8', newline='') as output_csv:
                 csv_writer = csv.writer(output_csv)

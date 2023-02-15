@@ -39,7 +39,7 @@ Crucial parts of configurations are paths: once you have downloaded and unpacked
 
 	* `python  04_predict.py  conf_edt_v26_stanza_morph_extended_full.ini`
 
-* `05_evaluate.py` -- Looks through all configuration files in the execution directory, and performs evaluations defined in configuration files: compares predicted files to gold standard files and calculates LAS/UAS scores. Executes all sections starting with `eval_` in configuration files. Saves results into file `results.csv` in a sub directory closest to the execution directory (for given configurations, the path will be: `edt_2.6/results.csv`). Example usage:
+* `05_evaluate.py` -- Looks through all configuration files in the execution directory, and performs evaluations defined in configuration files: compares predicted files to gold standard files and calculates LAS/UAS scores. Executes all sections starting with `eval_` in configuration files. Saves results into file `results.csv` in a sub directory closest to the execution directory (for given configurations, the path will be: `edt_2.6/results.csv`). You can also given name of the desired output csv file as an input argument. Example usage:
 
 	* `python  05_evaluate.py`
 
