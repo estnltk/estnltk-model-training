@@ -14,6 +14,7 @@
     <Choice value="incorrect"/>
     <Choice value="dubious"/>
     <Choice value="redundant comma"/>
+    <Choice value="missing comma"/>
     <Choice value="other redundant punctuation"/>
 </Choices>
 </View>
