@@ -14,14 +14,23 @@ The format that the model accepts is with prefix "B-" or "I-" (capital i). So th
 For example:
 
 word	label 
+
 Patsiendil	B-LC
+
 on	I-LC
+
 olnud	I-LC
+
 peavalu	O
+
 peale	O
+
 ravimi	O
+
 võtmist	O
+
 .	O
+
 
 The "B-" is for beginning of the interesting part and "I-" refers to inside of the part.
 
