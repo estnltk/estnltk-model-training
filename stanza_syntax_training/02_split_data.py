@@ -64,38 +64,72 @@ def create_train_splits_joins_main( conf_file ):
             input_dir = config[section]['input_dir']
             if not os.path.isdir(input_dir):
                 raise FileNotFoundError(f'Error in {conf_file}: invalid "input_dir" value {input_dir!r} in {section!r}.')
-            concatenate = config[section].get('concatenate', 'train, dev')
-            target_subsets = concatenate.split(',')
-            if len(target_subsets) != 2:
-                raise ValueError(f'Error in {conf_file}: {section}.concatenate must have 2 values, '+\
-                                 f'not {len(target_subsets)}.' )
-            train_full_name = config[section].get('train_full', 'train_full.conllu')
-            # Collect input files
-            concatenate_files = []
-            for subset in target_subsets:
-                subset = subset.strip()
-                if subset not in ['train', 'dev', 'test']:
-                    raise ValueError(f'Error in {conf_file}: {section}.concatenate has invalid value {subset}.')
-                # Find corresponding file from the input dir
-                for fname in os.listdir(input_dir):
-                    if fname == train_full_name:
-                        continue
-                    if fname.endswith('.conllu') and subset in fname:
-                        concatenate_files.append(os.path.join(input_dir, fname))
-            if len(concatenate_files) != 2:
-                raise ValueError(f'Unable to get 2 concatenateable conllu files from dir {input_dir!r}. '+
-                                  'Is the directory correct?')
             if not config.has_option(section, 'output_dir'):
                 raise ValueError(f'Error in {conf_file}: section {section!r} is missing "output_dir" parameter.')
             output_dir = config[section]['output_dir']
+            train_full_name = config[section].get('train_full', 'train_full.conllu')
+            output_fname = config[section].get('output_file', train_full_name)
+            # Concatenation targets (sub sets or file names)
+            concatenate = config[section].get('concatenate', 'train, dev')
+            concatenate_targets = concatenate.split(',')
+            if len(concatenate_targets) != 2:
+                raise ValueError(f'Error in {conf_file}: {section}.concatenate must have 2 values, '+\
+                                 f'not {len(concatenate_targets)}.' )
+            # Concatenation weights (how many times data will be multiplied)
+            multiply = config[section].get('multiply', '1, 1')
+            multiply = multiply.split(',')
+            if len(multiply) != 2:
+                raise ValueError(f'Error in {conf_file}: {section}.multiply must have 2 values, '+\
+                                 f'not {len(multiply)}.' )
+            if not all([(v.strip()).isdigit() for v in multiply]):
+                raise TypeError(f'Error in {conf_file}: {section}.multiply must have integer values, '+\
+                                 f'not {multiply}.' )
+            multiply = [int(v) for v in multiply if int(v) > 0]
+            if len(multiply) != 2:
+                raise ValueError(f'Error in {conf_file}: {section}.multiply must have 2 integer values '+\
+                                 f'greater than 0.' )
+            train_multiply = multiply[0]
+            dev_multiply   = multiply[1]
+            if all([ target.strip() in ['train', 'dev', 'test'] for target in concatenate_targets ]):
+                # Collect input files based on sub set (train, dev or test) names
+                concatenate_files = []
+                for subset in concatenate_targets:
+                    subset = subset.strip()
+                    if subset not in ['train', 'dev', 'test']:
+                        raise ValueError(f'Error in {conf_file}: {section}.concatenate has invalid value {subset}.')
+                    # Find corresponding file from the input dir
+                    for fname in os.listdir(input_dir):
+                        if fname == train_full_name:
+                            continue
+                        if fname.endswith('.conllu') and subset in fname:
+                            concatenate_files.append(os.path.join(input_dir, fname))
+            else:
+                # Check for duplicate file names
+                if len(set(concatenate_targets)) < 2:
+                    raise ValueError(f'Error in {conf_file}: {section}.concatenate cannot contain '+\
+                                     f'duplicate file names.' )
+                # Collect input files based on file names
+                concatenate_files = []
+                for target_fname in concatenate_targets:
+                    target_fname = target_fname.strip()
+                    # Find corresponding file from the input dir
+                    for fname in os.listdir(input_dir):
+                        if fname == target_fname:
+                            concatenate_files.append(os.path.join(input_dir, fname))
+            if len(concatenate_files) != 2:
+                raise ValueError(f'Unable to get 2 concatenateable conllu files from dir {input_dir!r}. '+
+                                  'Is the directory correct?')
             if not os.path.exists(output_dir):
                 os.makedirs(output_dir, exist_ok=True)
             #
             #  Concatenate two files (typically train and dev) into one file
             #
-            train_full_file = os.path.join(output_dir, train_full_name)
-            join_train_dev( train_path=concatenate_files[0], dev_path=concatenate_files[1], 
-                            output_path=train_full_file )
+            output_full_file = os.path.join(output_dir, output_fname)
+            join_train_dev( train_path=concatenate_files[0], 
+                            dev_path=concatenate_files[1], 
+                            output_path=output_full_file, 
+                            train_multiply=train_multiply, 
+                            dev_multiply=dev_multiply )
         elif section.startswith('split_'):
             #
             # Load spltting configuration from the section
@@ -532,18 +566,27 @@ def create_single_file_split(input_file, output_dir, train=80, dev=10, test=10, 
 #  Utilities required by splitting functions
 # ===============================================================
 
-def join_train_dev(train_path, dev_path, output_path):
+def join_train_dev(train_path, dev_path, output_path, train_multiply=1, dev_multiply=1):
     """
     Concatenates two conllu files into one file. 
     It is used to concatenate train and dev files. 
+    
+    Optionally, parameters train_multiply and dev_multiply 
+    can be used to multiply corresponding file contents by 
+    the given number of times. 
     """
     with open(output_path, 'w', encoding='utf-8') as fout:
         train_file = open(train_path, 'r', encoding='utf-8')
         dev_file = open(dev_path, 'r', encoding='utf-8')
-        fout.write(train_file.read())
-        fout.write(dev_file.read())
-    train_file.close()
-    dev_file.close()
+        train_contents = train_file.read()
+        dev_contents   = dev_file.read()
+        train_file.close()
+        dev_file.close()
+        for i in range(train_multiply):
+            fout.write(train_contents)
+        for j in range(dev_multiply):
+            fout.write(dev_contents)
+
 
 
 def join_file_contents(input_path: str, filenames: list):
