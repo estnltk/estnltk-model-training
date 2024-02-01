@@ -4,8 +4,12 @@ The work was done for the Master's thesis titled "Adapting the BERT Model to Est
 Author: Raul Niit
 Supervisors: Sven Laur and Hendrik Šuvalov
 
-Code: https://github.com/raulniit/transformers
+Full experiments code: https://github.com/raulniit/transformers
 Thesis: https://comserv.cs.ut.ee/ati_thesis/datasheet.php?id=77365
+
+# Transformers source
+
+A snapshot of [transformers](https://github.com/huggingface/transformers) library (version 4.25.0.dev0) was forked and modified for building the model. This modified source can be found from the directory [src](src). 
 
 # Scripts
 
