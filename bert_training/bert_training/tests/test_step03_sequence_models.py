@@ -10,7 +10,7 @@ from pathlib import Path
 from datasets import load_dataset
 from estnltk import Text
 from estnltk.corpus_processing.parse_koondkorpus import parse_tei_corpora
-from estnltk.storage import PostgresStorage
+from estnltk.storage.postgres import PostgresStorage
 from estnltk.storage.postgres import create_schema
 from transformers import AutoTokenizer
 

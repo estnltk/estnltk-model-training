@@ -7,7 +7,7 @@ import testing.postgresql
 from pathlib import Path
 
 from estnltk.corpus_processing.parse_koondkorpus import parse_tei_corpora
-from estnltk.storage import PostgresStorage
+from estnltk.storage.postgres import PostgresStorage
 from estnltk.storage.postgres import create_schema
 from testing import postgresql
 

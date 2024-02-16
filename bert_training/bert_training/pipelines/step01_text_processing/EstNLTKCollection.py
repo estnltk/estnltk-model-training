@@ -3,7 +3,7 @@ import multiprocessing
 import os
 from typing import Text
 
-from estnltk.storage import PostgresStorage
+from estnltk.storage.postgres import PostgresStorage
 from estnltk.storage.postgres import BlockQuery
 from joblib._multiprocessing_helpers import mp
 
