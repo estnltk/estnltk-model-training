@@ -1,7 +1,7 @@
 import pandas as pd
 import os
 
-from estnltk.storage import PostgresStorage
+from estnltk.storage.postgres import PostgresStorage
 from tqdm import tqdm
 import sys
 import configparser

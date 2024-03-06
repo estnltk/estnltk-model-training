@@ -6,7 +6,7 @@ from pathlib import Path
 import testing.postgresql
 
 from estnltk import Text
-from estnltk.storage import PostgresStorage
+from estnltk.storage.postgres import PostgresStorage
 from estnltk.storage.postgres import create_schema, delete_schema
 from transformers import AutoTokenizer
 

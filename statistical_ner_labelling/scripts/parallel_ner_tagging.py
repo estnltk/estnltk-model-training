@@ -1,7 +1,7 @@
 import configparser
 import multiprocessing
 
-from estnltk.storage import PostgresStorage
+from estnltk.storage.postgres import PostgresStorage
 from estnltk.taggers import NerTagger
 
 import sys

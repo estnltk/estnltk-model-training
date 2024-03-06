@@ -2,7 +2,7 @@ import configparser
 import copy
 import multiprocessing
 
-from estnltk.storage import PostgresStorage
+from estnltk.storage.postgres import PostgresStorage
 from estnltk.taggers import *
 
 import os

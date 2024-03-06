@@ -4,7 +4,7 @@ from typing import Union, List
 
 from datasets import Dataset
 from estnltk.layer import AmbiguousAttributeList
-from estnltk.storage import PostgresStorage
+from estnltk.storage.postgres import PostgresStorage
 
 
 @dataclass(init=True)

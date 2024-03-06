@@ -2,7 +2,7 @@ from dataclasses import dataclass
 from typing import Union, List
 
 from datasets import load_dataset, Dataset
-from estnltk.storage import PostgresStorage
+from estnltk.storage.postgres import PostgresStorage
 
 
 @dataclass(init=True)
