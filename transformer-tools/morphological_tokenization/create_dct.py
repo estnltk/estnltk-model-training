@@ -28,8 +28,8 @@ def create_dct(lines:List, max:int) -> Dict:
         if int(line[6]) < max:
             dct[line[1]] = line[2].strip("[] ")
         else:
-            return dct
-        pass
+            break
+    return dct
 
 if __name__ == '__main__':
     argparser = argparse.ArgumentParser(allow_abbrev=False)
