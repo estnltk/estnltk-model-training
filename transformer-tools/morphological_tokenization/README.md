@@ -1,5 +1,8 @@
 # morphological_tokenization
 
+Hetkel töös (2024.03.08): WordpieceTokenizer'i jaoks sobiv leksikon, kus on morfi poolt väljaarvutatud
+tükid (tüved, lõppud).
+
 ## 1. Korpuse pealt teeme sõnavormide sagedusloendi
 
 Sagedusloendi esimeses reas on veergude pealkirjad.
