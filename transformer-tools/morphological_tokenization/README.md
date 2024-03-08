@@ -76,7 +76,59 @@ kokku	sõnavorm	tükeldus	uued_tüved	kokku_tüvesid	uued_lõpud	kokku_tüvesid+
 3177	seda	[ se ##da ]	[ se ]	18	[ da ]	20
 ```
 
-## Teeme etteantud suurusega leksikoni
+## Teeme etteantud suurusega tükikeste loendi
+
+Võtame sagedusloendi sagedasemate sõnavormide tüvede ja lõppude hulgast
+etteantud koguse tüvesid ja lõppe.
+
+```bash
+./create_lexicon.py --max=10000  --indent=4 tykid.tsv  > lexicon.txt
+```
+
+Katkend failist `lexicon.txt`
+
+```text
+ja
+on
+ei
+et
+ta
+ol
+##i
+kui
+ka
+see
+oma
+aga
+ma
+ning
+mis
+siis
+nii
+või
+se
+##da
+nagu
+kes
+tema
+vee
+##l
+pole
+ku
+##id
+sell
+##e
+kas
+juba
+na
+##d
+välja
+mi
+##dagi
+kõik
+```
+
+## Teeme etteantud suurusega leksikoni: `sõnavorm` : `tükeldus`
 
 ```bash
 ./create_dct.py --max=20000 --indent=4 tykid.tsv
