@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "create_lexicon.py",
+            "type": "debugpy",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/transformer-tools/morphological_tokenization/",
+            "program": "./create_lexicon.py",
+            "env": {},
+            "args": ["--max=100", "--json", "--indent=4", "tykid2.tsv"]
+        },
+        {
+            "name": "create_dct.py",
+            "type": "debugpy",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/transformer-tools/morphological_tokenization/",
+            "program": "./create_dct.py",
+            "env": {},
+            "args": ["--max=20000", "--indent=4", "tykid.tsv"]
+        },
+    ]
+}
