@@ -1,18 +1,37 @@
 # morphological_tokenization
 
-Hetkel töös (2024.03.08): WordpieceTokenizer'i jaoks sobiv leksikon, kus on morfi poolt väljaarvutatud
-tükid (tüved, lõppud).
+## 1. Tekstikorpusest html-märgendite kustutamine
 
-## 1. Korpuse pealt teeme sõnavormide sagedusloendi
+Labane lahendus: kustutame kõik mis jääb `<` ja `>` vahele.
 
-Sagedusloendi esimeses reas on veergude pealkirjad.
-Järgmised read on kujul
+```cmdline
+export workspaceFolder=~/git/huggingface_github/estnltk_model_training_github
+cd ${workspaceFolder}/transformer-tools/morphological_tokenization/
+
+venv/bin/python3 remove_html.py \
+    --in_html=../training/dataset_training_bigger/ettenten_0.fshtml \
+    --out_txt=../training/dataset_training_bigger/ettenten_0.txt
+```
+
+## 2. Korpuse pealt sõnavormide sagedusloendi tegemine
+
+Tõstame sõna külge kleepunud punktuatsiooni jms lahku.
+
+Sagedusloendi read on järjestud sageduse järgi kahanevalt ja kujul
 
 `sagedus` `tühik` `sõnavorm`
 
+Sagedusloendi tegemise näide:
+
+```cmdline
+venv/bin/python3 tee_sonede_sagedusloend.py \
+    --files=../training/dataset_training_bigger/ettenten_0.fshtml \
+    --out=../training/dataset_training_bigger/ettenten_0.freq
+```
+
 Read on järjestud sageduse järgi kahanevalt.
 
-## 2. Sagedusloendis olevate sõnavormide tükeldaminie tüvedeks ja lõppudeks ja tekkivate tükkide arvu loendamine
+## 3. Sagedusloendis olevate sõnavormide tükeldaminie tüvedeks ja lõppudeks ja tekkivate tükkide arvu loendamine
 
 * Lähtekoodi allalaadimine
 
@@ -32,12 +51,21 @@ make -s -j -f Makefile_split_tokens all
 Kompileeritud programm on `~/git/vabamorf_github/apps/cmdline/project/unix/split_tokens`.
 Programm vajab morf analüsaatori sõnastikku `~/git/vabamorf_github/dct/binary/et.dct`.
 
+Mugavuse huvides olen need kopeerinud kataloogi `~/git/huggingface_github/estnltk_model_training_github/transformer-tools/morphological_tokenization`.
+
 * Tükeldame sagedusloendis olevad sõnavormid tüvedeks ja lõppudeks
 
 ```bash
- ~/git/vabamorf_github/apps/cmdline/project/unix/split_tokens \
+~/git/vabamorf_github/apps/cmdline/project/unix/split_tokens \
         --path ~/git/vabamorf_github/dct/binary/ \
-        vormide-sag.txt > tykid.tsv
+        vormide-sag.txt > ettenten_0_tykid.tsv
+```
+
+või
+
+```bash
+./split_tokens ../training/dataset_training_bigger/ettenten_0.freq \
+> ../training/dataset_training_bigger/ettenten_0_tykid.tsv
 ```
 
 Faili `tykid.tsv` esimeses reas on veerunimed. Tageli veerud on eraldatud '\t' sõmboli abil.
@@ -76,13 +104,15 @@ kokku	sõnavorm	tükeldus	uued_tüved	kokku_tüvesid	uued_lõpud	kokku_tüvesid+
 3177	seda	[ se ##da ]	[ se ]	18	[ da ]	20
 ```
 
-## Teeme etteantud suurusega tükikeste loendi
+## 4. Etteantud suurusega tükikeste loendi tegemine
 
 Võtame sagedusloendi sagedasemate sõnavormide tüvede ja lõppude hulgast
-etteantud koguse tüvesid ja lõppe.
+etteantud koguse (10000 tk) tüvesid ja lõppe.
 
 ```bash
-./create_lexicon.py --max=10000  --indent=4 tykid.tsv  > lexicon.txt
+venv/bin/python3 create_lexicon.py --max=10000  \
+    ../training/dataset_training_bigger/ettenten_0_tykid.tsv \
+> ../training/dataset_training_bigger/lexicon_10000.txt
 ```
 
 Katkend failist `lexicon.txt`
@@ -128,10 +158,68 @@ mi
 kõik
 ```
 
-## Teeme etteantud suurusega leksikoni: `sõnavorm` : `tükeldus`
+## Treenime: leksikoni tegemine ainult algse teksti pealt
+
+Leksikoni suuruseks võtame 100000
 
 ```bash
-./create_dct.py --max=20000 --indent=4 tykid.tsv
+venv/bin/python3 train_bert_wordpiece.py \
+    --size=100000 \
+    --files=../training/dataset_training_bigger/ettenten_0.txt \
+    --out=../training/dataset_training_bigger/vocab4bert/ --name=text_bert_wordpiece
+```
+
+## Treenime: leksikoni tegemine etteantud leksikoni ja algse teksti pealt
+
+Väljundleksikoni suurus 100000, miksime kokku eespool tehtud 10000 sõna leksikoniga.
+
+```bash
+venv/bin/python3 train_bert_wordpiece.py \
+    --size=100000 \
+    --vocab=../training/dataset_training_bigger/lexicon_10000.txt \
+    --files=../training/dataset_training_bigger/ettenten_0.txt \
+    --out=../training/dataset_training_bigger/vocab4bert/ --name=text+lex_bert_wordpiece
+```
+
+## Järjestame mõlemad leksikonide ja vaatame erinevusi
+
+```bash
+sort < ../training/dataset_training_bigger/vocab4bert/text_bert_wordpiece-vocab.txt \
+     > ../training/dataset_training_bigger/vocab4bert/text_bert_wordpiece-vocab.txt.sort
+
+sort < ../training/dataset_training_bigger/vocab4bert/text+lex_bert_wordpiece-vocab.txt \
+     > ../training/dataset_training_bigger/vocab4bert/text+lex_bert_wordpiece-vocab.txt.sort
+
+
+code --diff \
+    ../training/dataset_training_bigger/vocab4bert/text_bert_wordpiece-vocab.txt.sort \
+    ../training/dataset_training_bigger/vocab4bert/text+lex_bert_wordpiece-vocab.txt.sort
+```
+
+## Laseme teksti mõlema leksikoniga läbi
+
+```bash
+venv/bin/python3 tokenize.py \
+    --vocab=../training/dataset_training_bigger/vocab4bert/text_bert_wordpiece-vocab.txt \
+    --input=../training/dataset_training_bigger/ettenten_0.txt \
+    --output=../training/dataset_training_bigger/ettenten_0_vocab_text.txt
+
+venv/bin/python3 tokenize.py \
+    --vocab=../training/dataset_training_bigger/vocab4bert/text+lex_bert_wordpiece-vocab.txt \
+    --input=../training/dataset_training_bigger/ettenten_0.txt \
+    --output=../training/dataset_training_bigger/ettenten_0_vocab_text+lex.txt 
+
+code --diff \
+    ../training/dataset_training_bigger/ettenten_0_vocab_text.txt \
+    ../training/dataset_training_bigger/ettenten_0_vocab_text+lex.txt
+```
+
+## Teeme etteantud suurusega leksikoni: `sõnavorm` : `tükeldus`
+
+Lihtsalt niisama, äkki pakub huvi
+
+```bash
+venv/bin/python3 create_dct.py --max=20000 --indent=4 tykid.tsv
 ```
 
 Võtab sageustabeli tipust niimitu sõnavormi, et kokku tuleks etteantud
