@@ -23,7 +23,8 @@ from transformers import AutoConfig, AutoTokenizer, AutoModelForTokenClassificat
 
 from estnltk import Text, Layer, Tagger
 
-from estnltk_neural.taggers.embeddings.bert.bert_tokens_to_words_rewriter import BertTokens2WordsRewriter
+from bert_tokens_to_words_rewriter import BertTokens2WordsRewriter
+# from estnltk_neural.taggers.embeddings.bert.bert_tokens_to_words_rewriter import BertTokens2WordsRewriter
 
 class BertMorphTagger(Tagger):
     """Applies BERT-based morphological tagging"""
@@ -45,6 +46,8 @@ class BertMorphTagger(Tagger):
             model_location (str): Path to model directory.
             get_top_n_predictions (int): Number of predictions for each word
             output_layer (str, optional): Name of the output named entity annotations layer. Defaults to 'bert_morph_tagging'.
+            sentences_layer (str): Name of the layer containing sentences
+            words_layer (str): Name of the layer containing words
             token_level (bool, optional): Tags the text BERT token-level or EstNLTK's word-level. Defaults to False.
 
         Raises:
@@ -57,7 +60,7 @@ class BertMorphTagger(Tagger):
             raise ValueError(f"Model location not found, model_location={model_location}")
 
         # Configuration parameters
-        self.conf_param = ('get_top_n_predictions', 'bert_tokenizer', 'bert_morph_tagging', 'id2label', 'token_level', 'sentences_layer', 'words_layer', 'output_layer', 'input_layers', 'output_attributes', 'merge_consecutive_tags')
+        self.conf_param = ('get_top_n_predictions', 'bert_tokenizer', 'bert_morph_tagging', 'id2label', 'token_level', 'sentences_layer', 'words_layer', 'output_layer', 'input_layers', 'output_attributes')
         tokenizer_kwargs = { k:v for (k,v) in kwargs.items() if k in ['do_lower_case', 'use_fast'] }
         self.get_top_n_predictions = get_top_n_predictions
         self.bert_tokenizer = AutoTokenizer.from_pretrained(model_location, **tokenizer_kwargs )
@@ -74,8 +77,62 @@ class BertMorphTagger(Tagger):
         self.sentences_layer = sentences_layer
         self.words_layer = words_layer
         self.output_layer = output_layer
-        self.input_layers = [sentences_layer]
+        self.input_layers = [sentences_layer, words_layer]
         self.output_attributes = ['bert_tokens', 'morph_labels', 'probabilities']
+
+    # def _get_bert_morph_tagging_label_predictions(self, input_str, get_top_n_predictions=1):
+    #     """
+    #     Applies BERT on the given input string and returns Bert's tokens,
+    #     token indexes, and top N predicted labels for each token.
+
+    #     Args:
+    #         input_str (str): The input string to be processed.
+    #         top_n (int): Number of top predictions to return for each token.
+
+    #     Returns:
+    #         list of dict: Each token's top N predictions with their probabilities.
+    #     """
+    #     # Use the refactored _tokenize_with_bert method to get the correct tokens and their spans
+    #     tokens_with_spans = self._tokenize_with_bert(input_str, False)
+
+    #     # Extract only the tokens for encoding
+    #     clean_tokens = [str(token) for _, _, token in tokens_with_spans]
+
+    #     # Tokenize the input string with BERT's tokenizer for obtaining token indices
+    #     token_indexes = self.bert_tokenizer.convert_tokens_to_ids(clean_tokens)
+    #     token_indexes = torch.tensor([token_indexes])  # Prepare for model input
+
+    #     # Check if input exceeds max sequence length
+    #     max_seq_length = self.bert_tokenizer.model_max_length
+    #     if token_indexes.size(1) > max_seq_length:
+    #         raise ValueError(f"Input length exceeds the model's max_seq_length of {max_seq_length} tokens")
+
+    #     # Get model predictions (logits)
+    #     with torch.no_grad():
+    #         output = self.bert_morph_tagging(token_indexes)
+
+    #     logits = output.logits.squeeze(0)  # Shape: [sequence_length, num_labels]
+    #     probs = torch.softmax(logits, dim=-1)  # Convert logits to probabilities
+
+    #     # Assign predictions to tokens
+    #     top_n_predictions = []
+    #     for i, (start, end, token) in enumerate(tokens_with_spans):
+    #         if start is None or end is None or token == '▁':
+    #             continue  # Ignore sentence start and end tokens (<s>, </s>) and word start sign (▁)
+
+    #         # Get probabilities for the current token
+    #         token_probs = probs[i]
+    #         top_n_indices = torch.topk(token_probs, get_top_n_predictions).indices  # Top N label indices
+    #         top_n_labels = [self.id2label[idx.item()] for idx in top_n_indices]  # Convert indices to labels
+    #         top_n_probs = [round(token_probs[idx].item(), 5) for idx in top_n_indices]  # Get probabilities for top N labels
+
+    #         # Add the predictions to the output
+    #         top_n_predictions.append({
+    #             'token': (start, end, token),
+    #             'predictions': [{'label': label, 'probability': prob} for label, prob in zip(top_n_labels, top_n_probs)]
+    #         })
+
+    #     return top_n_predictions
 
     def _get_bert_morph_tagging_label_predictions(self, input_str, get_top_n_predictions = 1):
         """
@@ -90,7 +147,8 @@ class BertMorphTagger(Tagger):
             list of dict: Each token's top N predictions with their probabilities.
         """
         # Tokenize the input string
-        token_indexes = self.bert_tokenizer.encode(input_str, return_tensors='pt')
+        tokens, batch_encoding = self._tokenize_with_bert(input_str)
+        token_indexes = torch.tensor([batch_encoding['input_ids']])
 
         # Check if the length exceeds the model's maximum sequence length
         max_seq_length = self.bert_tokenizer.model_max_length
@@ -101,22 +159,19 @@ class BertMorphTagger(Tagger):
         with torch.no_grad():
             output = self.bert_morph_tagging(token_indexes)
 
-        # Convert tokens and labels back to readable format
-        tokens = self.bert_tokenizer.convert_ids_to_tokens(token_indexes[0])
-
         # Get top N predictions
         top_n_predictions = []
         logits = output.logits.squeeze()  # Shape: [sequence_length, num_labels]
         probs = torch.softmax(logits, dim=-1)  # Convert logits to probabilities
 
-        for i, token in enumerate(tokens):
+        for i, token_data in enumerate(tokens):
             token_probs = probs[i]  # Probabilities for the current token
             top_n_indices = torch.topk(token_probs, get_top_n_predictions).indices  # Top N label indices
             top_n_labels = [self.id2label[idx.item()] for idx in top_n_indices]  # Convert indices to labels
             top_n_probs = [round(token_probs[idx].item(), 5) for idx in top_n_indices]  # Get probabilities for top N labels
 
             top_n_predictions.append({
-                'token': token, 
+                'token': token_data,
                 'predictions': [{'label': label, 'probability': prob} for label, prob in zip(top_n_labels, top_n_probs)]
             })
 
@@ -138,15 +193,18 @@ class BertMorphTagger(Tagger):
                 tokens.append( (char_span.start, char_span.end, token) )
             elif include_spanless:
                 tokens.append( (None, None, token) )
-        return tokens
+        return tokens, batch_encoding
 
     def _make_layer(self, text: Text, layers: MutableMapping[str, Layer], status: dict) -> Layer:
         sentences_layer = layers[ self.sentences_layer ]
+        words_layer = layers[ self.words_layer ]
         morph_layer = Layer(name=self.output_layer, 
                         attributes=self.output_attributes, 
                         text_object=text, 
+                        parent=self.words_layer, 
                         ambiguous=True)
 
+        # token_level_annotations = [] # [0]: (start, end), [1]: annotation, [2]: label
         for k, sentence in enumerate( sentences_layer ):
             sent_start = sentence.start
             sent_text  = sentence.enclosing_text
@@ -156,25 +214,25 @@ class BertMorphTagger(Tagger):
             for sent_chunk, (chunk_start, chunk_end) in zip(sent_chunks, sent_chunk_indexes):
                 # Get predictions for the sentence
                 top_n_predictions = self._get_bert_morph_tagging_label_predictions(sent_chunk, self.get_top_n_predictions)
-                tokens_with_spans = self._tokenize_with_bert(sent_chunk, include_spanless=True)
-                assert len(top_n_predictions) == len(tokens_with_spans) # Ensure that for each token label has been predicted
 
                 # Collect token level annotations (a label for each token)
-                for token_data, predictions in zip(tokens_with_spans, top_n_predictions):
-                    start, end  = token_data[0], token_data[1]
+                for token_data in top_n_predictions:
+                    start, end  = token_data['token'][0], token_data['token'][1]
+                    bert_tokens = token_data['token'][2]
                     if start is None or end is None:
-                        continue # Ignore sentence start and end tokens (<s>, </s>)
-
-                    bert_tokens = token_data[2]
-                    all_labels = [pred['label'] for pred in predictions['predictions']]
-                    all_probabilities = [pred['probability'] for pred in predictions['predictions']]
-                    annotation = {
-                        'bert_tokens': bert_tokens,
-                        'morph_labels': all_labels,
-                        'probabilities': all_probabilities
-                    }
+                        continue  # Ignore sentence start and end tokens (<s>, </s>)
+                    all_labels = [pred['label'] for pred in token_data['predictions']]
+                    all_probabilities = [pred['probability'] for pred in token_data['predictions']]
                     token_span = (sent_start + chunk_start + start, sent_start + chunk_start + end)
-                    morph_layer.add_annotation(token_span, **annotation)
+                    for label, prob in zip(all_labels, all_probabilities):
+                        annotation = {
+                            'bert_tokens': bert_tokens,
+                            'morph_labels': label,
+                            'probabilities': prob
+                        }
+                        morph_layer.add_annotation(token_span, **annotation)
+                    # annotation = {'bert_tokens' : bert_tokens, 'morph_label' : predicted_label }
+                    # token_level_annotations.append([token_span, annotation, single_label])
 
         # Add annotations
         if self.token_level:
@@ -193,10 +251,13 @@ class BertMorphTagger(Tagger):
 
             # Rewrite to align BERT tokens with words
             morph_layer = rewriter.make_layer(text, layers={morph_layer.name: morph_layer})
+            # morph_layer = rewrite_layer(self, text, morph_layer, words_layer)
 
+        # assert len(morph_layer) == len(words_layer), \
+        # f"Failed to rewrite '{morph_layer.name}' layer tokens to '{words_layer.name}' layer words: {len(morph_layer)} != {len(words_layer)}"
         return morph_layer
 
-def rewriter_decorator(text_obj, sharing_words, shared_bert_tokens):
+def rewriter_decorator(text_obj, word_index, span):
     """
     Decorator function for <code>BertTokens2WordsRewriter</code>. \n
     Aggregates the <code>morph_labels</code> and <code>probabilities</code> from <code>shared_bert_tokens</code>, finds the most
@@ -205,8 +266,8 @@ def rewriter_decorator(text_obj, sharing_words, shared_bert_tokens):
 
     Args:
         text_obj: EstNLTK Text object.
-        sharing_words: List of words that share the same BERT tokens.
-        shared_bert_tokens: List of BERT tokens with their morph_labels and probabilities.
+        words_index: Index of the word in <code>words</code> layer.
+        span: Span
 
     Returns:
         dict: Annotations with the top N labels and probabilities for the word/phrase.
@@ -215,32 +276,35 @@ def rewriter_decorator(text_obj, sharing_words, shared_bert_tokens):
     # Step 1: Find the most frequent top-1 label across all tokens
     top_1_label_counts = collections.Counter()
 
-    for token in shared_bert_tokens:
-        top_1_label = token['morph_labels'][0][0] # Get top-1 label
+    for sp in span:
+        top_1_label = sp['morph_labels'][0] # Get top-1 label
         # 'morph_labels': ['label', 'label', ...], first [0] to get the list of labels, second [0] to get the first element
         top_1_label_counts[top_1_label] += 1  # Count occurrences of each top-1 label
 
     # Identify the most frequent top-1 label
-    most_frequent_label_tuple = top_1_label_counts.most_common(1)[0][0]
-
-    # Convert back to string if it was a single-item tuple
-    most_frequent_label = most_frequent_label_tuple[0] if len(most_frequent_label_tuple) == 1 else most_frequent_label_tuple
+    most_frequent_label = top_1_label_counts.most_common(1)[0][0]
+    annotations = list()
 
     # Step 2: Find the first token that has this most frequent top-1 label
-    for token in shared_bert_tokens:
-        if most_frequent_label in token['morph_labels'][0]: # [0] to get the list of labels
+    for sp in span:
+        if most_frequent_label in sp['morph_labels']:
 
             # Extract the top N labels and their probabilities starting from this label
-            labels = token['morph_labels'][0]
-            probabilities = token['probabilities']
+            labels = sp['morph_labels']
+            probabilities = sp['probabilities']
+
+            assert len(labels) == len(probabilities)
+
+            for (label, prob) in zip(labels, probabilities):
+                annotation = {
+                'bert_tokens': [sp['bert_tokens'][0] for sp in span],
+                'morph_labels': label,
+                'probabilities': prob
+                }
+                annotations.append(annotation)
 
             # Return the final annotation
-            return {
-                'words': text_obj.text[sharing_words[0].start:sharing_words[-1].end],
-                'bert_tokens': [t['bert_tokens'][0] for t in shared_bert_tokens],
-                'morph_labels': labels,
-                'probabilities': probabilities
-            }
+            return annotations
 
     # Fallback if no label found (shouldn't happen)
     raise RuntimeError(f'Could not find a token with this label: {most_frequent_label}')
