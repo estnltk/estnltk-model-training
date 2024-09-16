@@ -1,8 +1,8 @@
 # EstNLTK's Tagger for BERT-based morphological tagger
 
-# Requirements:
-# estnltk==1.7.3
-# torch==2.4.0
+# Works with next module versions:
+# estnltk == 1.7.3
+# torch == 2.4.0
 
 # Code references:
 # * https://github.com/estnltk/estnltk/blob/main/estnltk_neural/estnltk_neural/taggers/ner/estbertner_tagger.py
@@ -12,7 +12,7 @@ import os
 import torch
 import collections
 
-from typing import MutableMapping
+from typing import MutableMapping, List, Optional
 
 from transformers import AutoConfig, AutoTokenizer, AutoModelForTokenClassification
 
@@ -31,6 +31,7 @@ class BertMorphTagger(Tagger):
         sentences_layer: str = 'sentences',
         words_layer: str = 'words',
         token_level: bool = False,
+        split_pos_form: bool = True,
         **kwargs
     ):
         """
@@ -39,10 +40,12 @@ class BertMorphTagger(Tagger):
         Args:
             model_location (str): Path to model directory.
             get_top_n_predictions (int): Number of predictions for each word
-            output_layer (str, optional): Name of the output named entity annotations layer. Defaults to 'bert_morph_tagging'.
+            output_layer (str): Name of the output named entity annotations layer. Defaults to 'bert_morph_tagging'.
             sentences_layer (str): Name of the layer containing sentences
             words_layer (str): Name of the layer containing words
-            token_level (bool, optional): Tags the text BERT token-level or EstNLTK's word-level. Defaults to False.
+            token_level (bool): Tags the text BERT token-level or EstNLTK's word-level. Defaults to False.
+            split_pos_form (bool): Whether to split the predicted labels into two separate features. Defaults to True. \n
+                <i>Predicted label is a concatenation of Vabamorf's <code>form</code> and <code>partofspeech</code>.</i>
 
         Raises:
             ValueError: Raises when <code>model_location</code> is not specified.
@@ -54,7 +57,7 @@ class BertMorphTagger(Tagger):
             raise ValueError(f"Model location not found, model_location={model_location}")
 
         # Configuration parameters
-        self.conf_param = ('get_top_n_predictions', 'bert_tokenizer', 'bert_morph_tagging', 'id2label', 'token_level', 'sentences_layer', 'words_layer', 'output_layer', 'input_layers', 'output_attributes')
+        self.conf_param = ('get_top_n_predictions', 'bert_tokenizer', 'bert_morph_tagging', 'id2label', 'token_level', 'split_pos_form', 'sentences_layer', 'words_layer', 'output_layer', 'input_layers', 'output_attributes')
         tokenizer_kwargs = { k:v for (k,v) in kwargs.items() if k in ['do_lower_case', 'use_fast'] }
         self.get_top_n_predictions = get_top_n_predictions
         self.bert_tokenizer = AutoTokenizer.from_pretrained(model_location, **tokenizer_kwargs )
@@ -67,24 +70,28 @@ class BertMorphTagger(Tagger):
         self.id2label, _ = config_dict["id2label"], config_dict["label2id"]
 
         # Set input and output layers
+        self.split_pos_form = split_pos_form
         self.token_level = token_level
         self.sentences_layer = sentences_layer
         self.words_layer = words_layer
         self.output_layer = output_layer
         self.input_layers = [sentences_layer, words_layer]
-        self.output_attributes = ['bert_tokens', 'morph_labels', 'probabilities']
+        self.output_attributes = ['bert_tokens', 'form', 'partofspeech', 'probability'] if self.split_pos_form else ['bert_tokens', 'morph_label', 'probability']
 
-    def _get_bert_morph_tagging_label_predictions(self, input_str, get_top_n_predictions = 1):
+    def _get_bert_morph_tagging_label_predictions(self, 
+                                                  input_str:str, 
+                                                  get_top_n_predictions:int = 1):
         """
         Applies Bert on the given input string and returns Bert's tokens,
-        token indexes, and top N predicted labels for each token.
+        token indexes, and top N predicted labels for each token. \n
+        Labels will be converted to Vabamorf's annotations type if <code>self.split_pos_form</code> is True.
 
         Args:
             input_str (str): The input string to be processed.
             top_n (int): Number of top predictions to return for each token.
 
         Returns:
-            list of dict: Each token's top N predictions with their probabilities.
+            List[dict]: Each token's top N predictions with their probabilities.
         """
         # Tokenize the input string
         tokens, batch_encoding = self._tokenize_with_bert(input_str)
@@ -115,15 +122,32 @@ class BertMorphTagger(Tagger):
                 'predictions': [{'label': label, 'probability': prob} for label, prob in zip(top_n_labels, top_n_probs)]
             })
 
+        # Convert BERT labels to Vabamorf's form and POS
+        if self.split_pos_form:
+            top_n_predictions = convert_bert_labels_to_vabamorf(top_n_predictions)
+
         return top_n_predictions
 
-    def _tokenize_with_bert(self, text, include_spanless=True):
+    def _tokenize_with_bert(self, 
+                            text:str, 
+                            include_spanless:bool=True):
+
         """
         Tokenizes input string with Bert's tokenizer and returns a list of token spans.
         Each token span is a triple (start, end, token).
         If include_spanless==True (default), then Bert's special "spanless" tokens
         (e.g. [CLS], [SEP]) will also be included with their respective start/end indexes
         set to None.
+
+        Args:
+            text(str): The input string to be processed.
+            include_spanless(bool): Whether to include Bert's special "spanless" tokens. Defaults to True
+        Returns:
+            tuple: A tuple containing
+            <ul>
+                <li>tokens (list): A list of tuples where each tuple contains (start, end, token).</li>
+                <li>batch_encoding: The batch encoding object from the BERT tokenizer.</li>
+            </ul>
         """
         tokens = []
         batch_encoding = self.bert_tokenizer(text)
@@ -136,6 +160,22 @@ class BertMorphTagger(Tagger):
         return tokens, batch_encoding
 
     def _make_layer(self, text: Text, layers: MutableMapping[str, Layer], status: dict) -> Layer:
+        """
+        Processes the input text to generate a morphological layer by using BERT predictions.
+
+        This method processes each sentence, tokenizes it using BERT, and then assigns morphological
+        annotations (i.e., part of speech, form, and probability) to each token. It optionally splits 
+        morphological tags into <code>form</code> and <code>partofspeech</code>.
+
+        Args:
+            text (Text): The input text object to be processed.
+            layers (MutableMapping[str, Layer]): A mapping of layer names to their corresponding layers
+                                                in the text object (e.g., sentences, words, etc.).
+            status (dict): ... (unused in this function).
+
+        Returns:
+            Layer: The morphological layer containing annotations for each token.
+        """
         sentences_layer = layers[ self.sentences_layer ]
         words_layer = layers[ self.words_layer ]
         morph_layer = Layer(name=self.output_layer, 
@@ -163,11 +203,19 @@ class BertMorphTagger(Tagger):
                     all_probabilities = [pred['probability'] for pred in token_data['predictions']]
                     token_span = (sent_start + chunk_start + start, sent_start + chunk_start + end)
                     for label, prob in zip(all_labels, all_probabilities):
-                        annotation = {
-                            'bert_tokens': bert_tokens,
-                            'morph_labels': label,
-                            'probabilities': prob
-                        }
+                        if self.split_pos_form:
+                            annotation = {
+                                'bert_tokens': bert_tokens,
+                                'form': label[0],
+                                'partofspeech': label[1],
+                                'probability': prob
+                            }
+                        else:
+                            annotation = {
+                                'bert_tokens': bert_tokens,
+                                'morph_label': label,
+                                'probability': prob
+                            }
                         morph_layer.add_annotation(token_span, **annotation)
 
         # Add annotations
@@ -178,21 +226,63 @@ class BertMorphTagger(Tagger):
         else:
             # Aggregate tokens back into words/phrases
             # Use BertTokens2WordsRewriter to convert BERT tokens to words
-            rewriter = BertTokens2WordsRewriter(
-                bert_tokens_layer=self.output_layer, 
-                input_words_layer=self.words_layer, 
-                output_attributes=self.output_attributes, 
-                output_layer=self.output_layer, 
-                decorator=rewriter_decorator)
+            if self.split_pos_form:
+                rewriter = BertTokens2WordsRewriter(
+                    bert_tokens_layer=self.output_layer, 
+                    input_words_layer=self.words_layer, 
+                    output_attributes=self.output_attributes, 
+                    output_layer=self.output_layer, 
+                    enveloping=False, 
+                    decorator=rewriter_decorator_Vabamorf)
+            else:
+                rewriter = BertTokens2WordsRewriter(
+                    bert_tokens_layer=self.output_layer, 
+                    input_words_layer=self.words_layer, 
+                    output_attributes=self.output_attributes, 
+                    output_layer=self.output_layer, 
+                    enveloping=False, 
+                    decorator=rewriter_decorator_BERT)
 
             # Rewrite to align BERT tokens with words
             morph_layer = rewriter.make_layer(text, layers={morph_layer.name: morph_layer})
 
         assert len(morph_layer) == len(words_layer), \
         f"Failed to rewrite '{morph_layer.name}' layer tokens to '{words_layer.name}' layer words: {len(morph_layer)} != {len(words_layer)}"
+
         return morph_layer
 
-def rewriter_decorator(text_obj, word_index, span):
+
+def convert_bert_labels_to_vabamorf(predictions:List[dict]):
+    '''Converts BERT labels into Vabamorf's annotations (<code>partofspeech</code> and <code>form</code>)
+
+    Args:
+        predictions (List[dict]): Each token's top N predictions with their probabilities.
+
+    Returns:
+        List[dict]: Each token's top N predictions (converted labels) with their probabilities.
+    '''
+    for prediction in predictions:
+        # Update labels by converting to (form, pos)
+        for label in prediction['predictions']:
+            label_text = label['label']
+
+            if '_' in label_text: # Has both form and pos
+                label_split = label_text.split('_')
+                form = label_split[0]
+                pos = label_split[1]
+            else: # Has only form or pos
+                if label_text.isupper(): # POS is uppercased
+                    form = ''
+                    pos = label_text
+                else:
+                    form = label_text
+                    pos = ''
+
+            label['label'] = (form, pos)
+    return predictions
+
+
+def rewriter_decorator_BERT(text_obj, word_index, span):
     """
     Decorator function for <code>BertTokens2WordsRewriter</code>. \n
     Aggregates the <code>morph_labels</code> and <code>probabilities</code> from <code>shared_bert_tokens</code>, finds the most
@@ -202,7 +292,7 @@ def rewriter_decorator(text_obj, word_index, span):
     Args:
         text_obj: EstNLTK Text object.
         words_index: Index of the word in <code>words</code> layer.
-        span: Span
+        span: EstNLTK's Span object.
 
     Returns:
         dict: Annotations with the top N labels and probabilities for the word/phrase.
@@ -242,6 +332,62 @@ def rewriter_decorator(text_obj, word_index, span):
 
     # Fallback if no label found (shouldn't happen)
     raise RuntimeError(f'Could not find a token with this label: {most_frequent_label}')
+
+def rewriter_decorator_Vabamorf(text_obj, word_index, span):
+    """
+    Decorator function for <code>BertTokens2WordsRewriter</code>. \n
+    Aggregates the <code>form</code>, <code>partofspeech</code> and <code>probabilities</code> from <code>shared_bert_tokens</code>, finds the most
+    common top-1 label, and retrieves the top N labels and their probabilities from the
+    first token that contains this top-1 label.
+
+    Args:
+        text_obj: EstNLTK Text object.
+        words_index: Index of the word in <code>words</code> layer.
+        span: EstNLTK's Span object.
+
+    Returns:
+        dict: Annotations with the top N labels and probabilities for the word/phrase.
+    """
+
+    # Step 1: Find the most frequent top-1 label across all tokens
+    top_1_label_counts = collections.Counter()
+    for sp in span:
+        forms = sp['form']
+        poses = sp['partofspeech']
+        for form, pos in zip(forms, poses):
+            top_1_label = form + '_' + pos # Get top-1 label
+            top_1_label_counts[top_1_label] += 1  # Count occurrences of each top-1 label
+
+    # Identify the most frequent top-1 label
+    most_frequent_label = top_1_label_counts.most_common(1)[0][0]
+    annotations = list()
+
+    # Step 2: Find the first token that has this most frequent top-1 label
+    for sp in span:
+        form = most_frequent_label.split('_')[0]
+        pos = most_frequent_label.split('_')[1]
+        if form in sp['form'] and pos in sp['partofspeech']:
+
+            # Extract the top N labels and their probabilities starting from this label
+            tokens = [sp['bert_tokens'][0] for sp in span]
+            forms = sp['form']
+            poses = sp['partofspeech']
+            probabilities = sp['probability']
+            for form, pos, probability in zip(forms, poses, probabilities):
+                annotation = {
+                                'bert_tokens': tokens,
+                                'form': form,
+                                'partofspeech': pos,
+                                'probability': probability
+                            }
+                annotations.append(annotation)
+
+            # Return the final annotation
+            return annotations
+
+    # Fallback if no label found (shouldn't happen)
+    raise RuntimeError(f'Could not find a token with this label: {most_frequent_label}')
+
 
 def _split_sentence_into_smaller_chunks(large_sent: str, max_size:int=1000, seek_end_symbols: str='.!?'):
     """
