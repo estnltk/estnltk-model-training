@@ -27,26 +27,35 @@ class BertTokens2WordsRewriter(Tagger):
        If the decorator function is not specified, then default_decorator is 
        used, which returns {} on any input. 
     '''
-    conf_param = ('bert_tokens_layer', 'decorator')
+    conf_param = ('bert_tokens_layer', 'enveloping', 'decorator')
 
     def __init__(self, bert_tokens_layer: str, 
                        input_words_layer: str='words', 
                        output_attributes = (),
                        output_layer: str = None, 
+                       enveloping: bool = True,
                        decorator: callable = default_decorator):
         self.input_layers = [input_words_layer, bert_tokens_layer]
         self.output_layer = output_layer
         self.output_attributes = output_attributes
         if not callable(decorator):
             raise TypeError(f'(!) decorator should be a callable function, not {type(decorator)}')
+        self.enveloping = enveloping
         self.decorator = decorator
 
     def _make_layer_template(self):
-        layer = Layer(name=self.output_layer,
-                      attributes=self.output_attributes,
-                      text_object=None,
-                      parent=self.input_layers[0],
-                      ambiguous=True )
+        if self.enveloping:
+            layer = Layer(name=self.output_layer,
+                        attributes=self.output_attributes,
+                        text_object=None,
+                        enveloping=self.input_layers[0],
+                        ambiguous=False )
+        else:
+            layer = Layer(name=self.output_layer,
+                        attributes=self.output_attributes,
+                        text_object=None,
+                        parent=self.input_layers[0],
+                        ambiguous=True )
         return layer
 
     def _make_layer(self, text, layers, status):
@@ -58,12 +67,20 @@ class BertTokens2WordsRewriter(Tagger):
         layer = self._make_layer_template()
         layer.text_object = text
         words_to_bert_tokens_map = map_words_to_bert_tokens(words, bert_tokens)
-        for (k, v) in words_to_bert_tokens_map.items():
-            new_span = text.words[k].base_span
-            annotations = self.decorator(text, k, v)
-            if annotations is not None:
-                for annotation in annotations:
+        if self.enveloping:
+            grouped_words = group_words_by_bert_tokens(words, words_to_bert_tokens_map)
+            for (sharing_words, shared_bert_tokens) in grouped_words:
+                new_span = [sp.base_span for sp in sharing_words]
+                annotation = self.decorator(text, sharing_words, shared_bert_tokens)
+                if annotation is not None:
                     layer.add_annotation(new_span, annotation)
+        else:
+            for (k, v) in words_to_bert_tokens_map.items():
+                new_span = text.words[k].base_span
+                annotations = self.decorator(text, k, v)
+                if annotations is not None:
+                    for annotation in annotations:
+                        layer.add_annotation(new_span, annotation)
         return layer
 
 
@@ -136,3 +153,56 @@ def map_words_to_bert_tokens( words_layer:Layer, bert_tokens_layer:Layer, warn_u
         for i in sorted(list(unmatched_bert_tokens)):
             warnings.warn(f"(!) No matching {words_layer.name} span for bert token {bert_tokens_layer[i]}.")
     return words_to_bert_tokens_map
+
+
+def group_words_by_bert_tokens( words_layer:Layer, words_to_bert_tokens_map:Dict[int,Any], only_groups_with_bert_tokens:bool=True ):
+    '''
+    Groups words based on their shared overlappings with the bert tokens. 
+    Returns list of pairs (sharing_words, shared_bert_tokens).
+    If only_groups_with_bert_tokens is set (default), then discards pairs 
+    in which shared_bert_tokens is an empty list.
+    '''
+    assert isinstance(words_to_bert_tokens_map, dict)
+    word_id = 0
+    groups = []
+    while word_id < len( words_layer ):
+        word = words_layer[word_id]
+        sharing_words = [word]
+        shared_bert_tokens = []
+        shared_base_bert_tokens = []
+        if word_id in words_to_bert_tokens_map.keys():
+            cur_bert_tokens = words_to_bert_tokens_map[word_id]
+            shared_bert_tokens = cur_bert_tokens[:]
+            shared_base_bert_tokens = [(t.start, t.end) for t in cur_bert_tokens]
+            # Find out if next words have shared bert tokens with the given word
+            word_id2 = word_id + 1
+            while word_id2 < len( words_layer ):
+                word2 = words_layer[word_id2]
+                if word_id2 in words_to_bert_tokens_map.keys():
+                    next_bert_base_tokens = \
+                        [(t.start, t.end) for t in words_to_bert_tokens_map[word_id2]]
+                    common_bert_tokens = \
+                        set(shared_base_bert_tokens).intersection(set(next_bert_base_tokens))
+                    if len(common_bert_tokens) > 0:
+                        # Found shared bert tokens
+                        for b_token in words_to_bert_tokens_map[word_id2]:
+                            (tok_start, tok_end) = b_token.start, b_token.end
+                            if (tok_start, tok_end) not in common_bert_tokens:
+                                # Add only unique tokens
+                                shared_bert_tokens.append(b_token)
+                        shared_base_bert_tokens.extend(next_bert_base_tokens)
+                        sharing_words.append( word2 )
+                    else:
+                        # Look no further
+                        break
+                else:
+                    # Look no further
+                    break
+                word_id2 += 1
+        if len(shared_bert_tokens)>0 or not only_groups_with_bert_tokens:
+            groups.append( (sharing_words, shared_bert_tokens) )
+        if len(sharing_words) > 1:
+            word_id += len(sharing_words)-1
+        word_id += 1
+    return groups
+
