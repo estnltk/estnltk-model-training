@@ -42,7 +42,7 @@ def create_redux_morph_layer( text_obj, morph_layer, output_layer, add_layer=Tru
     '''
     assert isinstance(text_obj, Text)
     assert morph_layer in text_obj.layers, \
-           '(!) Layer {!r} missing from: {!r}'.format(morph_layer, text_obj.layers.keys())
+           '(!) Layer {!r} missing from: {!r}'.format(morph_layer, text_obj.layers)
     redux_layer = Layer(name=output_layer, \
                         attributes=('partofspeech', 'form'), \
                         text_object=text_obj,\
@@ -494,13 +494,12 @@ class MorphDiffFinder:
         """
         self._flat_layer_suffix = '_flat'
         self._redux_layer_suffix = '_redux'
-        self._bert_vabamorf_tags_layer = 'bert_vabamorf_tags'
         self.old_layer   = old_layer
         self.new_layer   = new_layer
         self.diff_attribs  = diff_attribs
         self.focus_attribs = focus_attribs
         self.morph_diff_tagger = DiffTagger( layer_a = old_layer+self._flat_layer_suffix,
-                                             layer_b = self._bert_vabamorf_tags_layer+self._flat_layer_suffix,
+                                             layer_b = self.new_layer+self._flat_layer_suffix,
                                              output_layer='morph_diff_layer',
                                              output_attributes=('span_status', ) + tuple(diff_attribs),
                                              span_status_attribute='span_status' )
@@ -542,35 +541,34 @@ class MorphDiffFinder:
                                           (missing and extra spans) will be left out.
                * `total_diff_gaps` -- integer: total number of grouped differences.
         """
+        
         # Check input layers
         assert self.old_layer in text.layers, f'(!) Input text is missing "{self.old_layer}" layer.'
         assert self.new_layer in text.layers, f'(!) Input text is missing "{self.new_layer}" layer.'
-        # 1) Create a new BERT layer with Vabamorf's annotations
-        create_bert_with_vabamorf_annotations_layer( text, self.new_layer, self._bert_vabamorf_tags_layer, add_layer=True)
-        # 2) Create reduced morph analysis layers
+        # 1) Create reduced morph analysis layers
         create_redux_morph_layer( text, self.old_layer, self.old_layer + self._redux_layer_suffix, add_layer=True )
-        create_redux_morph_layer( text, self._bert_vabamorf_tags_layer, self._bert_vabamorf_tags_layer + self._redux_layer_suffix, add_layer=True )
+        create_redux_morph_layer( text, self.new_layer, self.new_layer + self._redux_layer_suffix, add_layer=True )
 
-        # 3) Create flat v1_6 morph analysis layers
+        # 2) Create flat v1_6 morph analysis layers
         flat_morph_1 = create_flat_v1_6_morph_analysis_layer( text, self.old_layer + self._redux_layer_suffix, 
                                                                     self.old_layer + self._flat_layer_suffix, 
                                                                     add_layer=False )
-        flat_morph_2 = create_flat_v1_6_morph_analysis_layer( text, self._bert_vabamorf_tags_layer + self._redux_layer_suffix,
-                                                                    self._bert_vabamorf_tags_layer + self._flat_layer_suffix, 
+        flat_morph_2 = create_flat_v1_6_morph_analysis_layer( text, self.new_layer + self._redux_layer_suffix,
+                                                                    self.new_layer + self._flat_layer_suffix, 
                                                                     add_layer=False )
-        # 4) Find differences & alignments
+        # 3) Find differences & alignments
         diff_layer = self.morph_diff_tagger.make_layer( text, { self.old_layer + self._flat_layer_suffix : flat_morph_1,
-                                                                self._bert_vabamorf_tags_layer + self._flat_layer_suffix : flat_morph_2 } )
+                                                                self.new_layer + self._flat_layer_suffix : flat_morph_2 } )
         ann_diffs = get_estnltk_morph_analysis_diff_annotations( text, flat_morph_1, flat_morph_2, diff_layer )
-        flat_morph_layers = [self.old_layer + self._flat_layer_suffix, self._bert_vabamorf_tags_layer + self._flat_layer_suffix]
+        flat_morph_layers = [self.old_layer + self._flat_layer_suffix, self.new_layer + self._flat_layer_suffix]
         focus_attributes  = ['root', 'ending', 'clitic', 'partofspeech', 'form']
         alignments = get_estnltk_morph_analysis_annotation_alignments( ann_diffs, flat_morph_layers ,\
                                                                        diff_layer,
                                                                        focus_attributes=self.focus_attribs )
-        # 5) Group differences and add context (for better readability)
+        # 4) Group differences and add context (for better readability)
         formatted_diffs_str, new_morph_diff_gap_counter = \
              format_morph_diffs_string( fname, text, alignments, self.old_layer + self._flat_layer_suffix, \
-                                                                 self._bert_vabamorf_tags_layer + self._flat_layer_suffix, \
+                                                                 self.new_layer + self._flat_layer_suffix, \
                                                                  gap_counter=self.gap_counter,
                                                                  text_cat=text_cat, \
                                                                  focus_attributes=self.focus_attribs )
@@ -581,8 +579,8 @@ class MorphDiffFinder:
 
         # Remove unnecessary layers, back to the original state
         text.pop_layer(name=self.old_layer + self._redux_layer_suffix)
-        text.pop_layer(name=self._bert_vabamorf_tags_layer + self._redux_layer_suffix)
-        text.pop_layer(name=self._bert_vabamorf_tags_layer)
+        text.pop_layer(name=self.new_layer + self._redux_layer_suffix)
+        text.pop_layer(name=self.new_layer)
 
         return diff_layer, formatted_diffs_str, total_diff_gaps
 
