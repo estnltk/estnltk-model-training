@@ -17,6 +17,7 @@ from typing import MutableMapping, List, Optional
 from transformers import AutoConfig, AutoTokenizer, AutoModelForTokenClassification
 
 from estnltk import Text, Layer, Tagger
+from estnltk.downloader import get_resource_paths
 
 from bert_tokens_to_words_rewriter import BertTokens2WordsRewriter
 
@@ -25,7 +26,7 @@ class BertMorphTagger(Tagger):
 
     def __init__(
         self,
-        model_location: str,
+        model_location: Optional[str] = None,
         get_top_n_predictions: int = 1,
         output_layer: str = 'bert_morph_tagging',
         sentences_layer: str = 'sentences',
@@ -38,35 +39,48 @@ class BertMorphTagger(Tagger):
         Initializes BertMorphTagger
 
         Args:
-            model_location (str): Path to model directory.
-            get_top_n_predictions (int): Number of predictions for each word
+            model_location (str, Optional): 
+                Full path to the BertMorphTagger's model files directory. If not provided (default), then 
+                attempts to use bert_morph_tagging model from estnltk_resources. If that fails (model is 
+                missing and downloading fails), then throws an exception.
+            get_top_n_predictions (int): Number of labeles predicted for each word.
             output_layer (str): Name of the output named entity annotations layer. Defaults to 'bert_morph_tagging'.
-            sentences_layer (str): Name of the layer containing sentences
-            words_layer (str): Name of the layer containing words
-            token_level (bool): Tags the text BERT token-level or EstNLTK's word-level. Defaults to False.
+            sentences_layer (str): Name of the layer containing sentences.
+            words_layer (str): Name of the layer containing words.
+            token_level (bool): Whether to tag the text BERT token-level or EstNLTK's word-level. Defaults to False.
             split_pos_form (bool): Whether to split the predicted labels into two separate features. Defaults to True. \n
-                <i>Predicted label is a concatenation of Vabamorf's <code>form</code> and <code>partofspeech</code>.</i>
+                <i>Predicted BERT label is a concatenation of Vabamorf's <code>form</code> and <code>partofspeech</code>
+                joined with <code>_</code>, for example <code>sg n_S</code></i>.
 
         Raises:
-            ValueError: Raises when <code>model_location</code> is not specified.
+            Exception: Raises when BertMorphTagger's resources have not been downloaded.
         """
 
-        # Assert that model location exists
-        assert model_location != ""
-        if not os.path.exists(model_location):
-            raise ValueError(f"Model location not found, model_location={model_location}")
-
         # Configuration parameters
-        self.conf_param = ('get_top_n_predictions', 'bert_tokenizer', 'bert_morph_tagging', 'id2label', 'token_level', 'split_pos_form', 'sentences_layer', 'words_layer', 'output_layer', 'input_layers', 'output_attributes')
+        self.conf_param = ('model_location', 'get_top_n_predictions', 'bert_tokenizer', 'bert_morph_tagging', 'id2label', 'token_level', 'split_pos_form', 'sentences_layer', 'words_layer', 'output_layer', 'input_layers', 'output_attributes')
+
+        if model_location is None:
+            # Try to get the resources path for berttagger. Attempt to download, if missing
+            resources_path = str(get_resource_paths("bert_morph_tagging", only_latest=True, download_missing=True))
+            if resources_path is None:
+                raise Exception( "BertMorphTagger's resources have not been downloaded. "+\
+                                 "Use estnltk.download('bert_morph_tagging') to get the missing resources. "+\
+                                 "Alternatively, you can specify the directory containing the model "+\
+                                 "via parameter model_location at creating the tagger." )
+            self.model_location = resources_path
+
+        else:
+            self.model_location = model_location
+
         tokenizer_kwargs = { k:v for (k,v) in kwargs.items() if k in ['do_lower_case', 'use_fast'] }
         self.get_top_n_predictions = get_top_n_predictions
-        self.bert_tokenizer = AutoTokenizer.from_pretrained(model_location, **tokenizer_kwargs )
-        self.bert_morph_tagging = AutoModelForTokenClassification.from_pretrained(model_location,
+        self.bert_tokenizer = AutoTokenizer.from_pretrained(self.model_location, **tokenizer_kwargs )
+        self.bert_morph_tagging = AutoModelForTokenClassification.from_pretrained(self.model_location,
                                                                         output_attentions = False,
                                                                         output_hidden_states = False)
 
         # Fetch id2label mapping from configuration
-        config_dict = AutoConfig.from_pretrained(model_location).to_dict()
+        config_dict = AutoConfig.from_pretrained(self.model_location).to_dict()
         self.id2label, _ = config_dict["id2label"], config_dict["label2id"]
 
         # Set input and output layers
