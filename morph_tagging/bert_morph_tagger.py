@@ -316,7 +316,7 @@ def rewriter_decorator_BERT(text_obj, word_index, span):
     top_1_label_counts = collections.Counter()
 
     for sp in span:
-        top_1_label = sp['morph_labels'][0] # Get top-1 label
+        top_1_label = sp['morph_label'][0] # Get top-1 label
         top_1_label_counts[top_1_label] += 1  # Count occurrences of each top-1 label
 
     # Identify the most frequent top-1 label
@@ -325,19 +325,19 @@ def rewriter_decorator_BERT(text_obj, word_index, span):
 
     # Step 2: Find the first token that has this most frequent top-1 label
     for sp in span:
-        if most_frequent_label in sp['morph_labels']:
+        if most_frequent_label in sp['morph_label']:
 
             # Extract the top N labels and their probabilities starting from this label
-            labels = sp['morph_labels']
-            probabilities = sp['probabilities']
+            labels = sp['morph_label']
+            probabilities = sp['probability']
 
             assert len(labels) == len(probabilities)
 
             for (label, prob) in zip(labels, probabilities):
                 annotation = {
                 'bert_tokens': [sp['bert_tokens'][0] for sp in span],
-                'morph_labels': label,
-                'probabilities': prob
+                'morph_label': label,
+                'probability': prob
                 }
                 annotations.append(annotation)
 
