@@ -428,7 +428,7 @@ def format_morph_diffs_string( fname_stub, text_obj, diff_word_alignments, layer
         after  = _text_snippet( text_obj, w_end, w_end + N )+'...'
         output_lines.append('='*85)
         output_lines.append('')
-        output_lines.append('  '+text_cat+'::'+fname_stub+'::'+str(gap_counter))
+        output_lines.append('  '+text_cat+'::'+fname_stub+'::'+f'({str(w_start)}, {str(w_end)})'+'::'+str(gap_counter))
         output_lines.append('')
         output_lines.append( before+' {'+word_alignments['text']+'} '+after  )
         sub_strs = get_concise_morph_diff_alignment_str(word_alignments['alignments'], layer_a, layer_b, \
@@ -641,6 +641,7 @@ class MorphDiffSummarizer:
             self.diffs_counter[layer_name][text_category][key] += layer.meta[key]
         if start_new_doc:
             self.diffs_counter[layer_name][text_category]['_docs'] += 1
+
 
     def get_diffs_summary_output( self, show_doc_count=True ):
         """Summarizes aquired difference statistics over subcorpora and over the 
