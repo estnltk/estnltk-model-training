@@ -22,6 +22,6 @@ Iga muuttüübi juhuvalim sisaldab 1000 lauset.
 
 ### Andmeformaat
 
-Andmed on [jl formaadis](https://jsonlines.org/), igas json kirjes on toodud lause tekst (`"text"`), homonüümne sõna (`"word"`), (automaatselt määratud) sõnaliik (`"partofspeech"`) ning sõna täpne asukoht lauses (vastavad `"start"`, `"elu"` indeksid). Täpne asukoht on toodud seetõttu, et sõna võib esineda lauses ka mitu korda. Lisaks on toodud lause metaandmed: millisest ühendkorpuse failist lause pärines (`"corpus"`), vastava dokumendi id korpuses (`"doc_id"`) ning vastava lause number (`"sent_id"` - siin ei mõelda mitte lause järjekorranumbrit dokumendis, vaid lause järjekorranumbrit kõigi vormihomonüümiaga sõnu sisaldavate lausete hulgas).
+Andmed on [jl formaadis](https://jsonlines.org/), igas json kirjes on toodud lause tekst (`"text"`), homonüümne sõna (`"word"`), (automaatselt määratud) sõnaliik (`"partofspeech"`) ning sõna täpne asukoht lauses (vastavad `"start"`, `"end"` indeksid). Täpne asukoht on toodud seetõttu, et sõna võib esineda lauses ka mitu korda. Lisaks on toodud lause metaandmed: millisest ühendkorpuse failist lause pärines (`"corpus"`), vastava dokumendi id korpuses (`"doc_id"`) ning vastava lause number (`"sent_id"` - siin ei mõelda mitte lause järjekorranumbrit dokumendis, vaid lause järjekorranumbrit kõigi vormihomonüümiaga sõnu sisaldavate lausete hulgas).
  
 Näidiskirje (muuttüüp 17): `{"corpus": "nc19_Reference_Corpus.vert", "doc_id": 299912, "sent_id": 2110560, "text": "See oli raske elu.", "word": "elu", "partofspeech": "S", "start": 14, "end": 17} `
