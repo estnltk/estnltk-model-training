@@ -1,6 +1,6 @@
 ## Morfoloogiliste analüüside erinevuste käsitsi hindamine ja märgendamine
 
-**Lähteandmed:** Failis [`02_morph_analysis_vs_bert_morph_x1000_even.txt`](02_morph_analysis_vs_bert_morph_x1000_even.txt) on 1000 erinevust Berti morfoloogilise märgendaja ning Vabamorfi vahel. Mõlemad automaatmärgendajad kasutavad **Vabamorfi märgendeid** (kirjeldatud [siin](https://github.com/estnltk/estnltk/blob/main/tutorials/nlp_pipeline/B_morphology/00_tables_of_morphological_categories.ipynb)), mis on esitatud listina `[sõnaliik, vormitunnus]`. 
+**Lähteandmed:** Failis [`03_morph_analysis_vs_bert_morph_2_x1000_even.txt`](03_morph_analysis_vs_bert_morph_2_x1000_even.txt) on 1000 erinevust Berti morfoloogilise märgendaja ning Vabamorfi vahel. Mõlemad automaatmärgendajad kasutavad **Vabamorfi märgendeid** (kirjeldatud [siin](https://github.com/estnltk/estnltk/blob/main/tutorials/nlp_pipeline/B_morphology/00_tables_of_morphological_categories.ipynb)), mis on esitatud listina `[sõnaliik, vormitunnus]`. 
 
 Iga erinevuse puhul on toodud välja: 1) viide, millisest alamkorpusest ja json failist erinevus pärineb, 2) erinevuse lausekontekst, kus on loogeliste sulgude abil märgitud erinev sõna, 3) automaatmärgendajate poolt väljapakutud tõlgendused. 
 
@@ -17,7 +17,7 @@ bert_morph_tagging_flat    ['V', 'b']
 morph_analysis_flat        ['V', 'vad']
 </pre>
 
-**Ülesanne:** Ülesandeks on tekstifailis `02_morph_analysis_vs_bert_morph_x1000_even.txt` märkida korrektse analüüsirea järele `(+)`. Eelmise näite puhul:
+**Ülesanne:** Ülesandeks on tekstifailis `03_morph_analysis_vs_bert_morph_2_x1000_even.txt` märkida korrektse analüüsirea järele `(+)`. Eelmise näite puhul:
 
 <pre>
 blogs_and_forums::web13_246643_x.json::(385, 387)::7523
