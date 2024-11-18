@@ -77,10 +77,17 @@ if __name__ == '__main__':
                                     disamb_all_results[f'{key_result}'] += 1
                             else:
                                 # Only Bert or manual is correct
-                                all_results.setdefault(f'only {key_result}', 0)
-                                all_results[f'only {key_result}'] += 1
-                                disamb_all_results.setdefault(f'{key_result}', 0)
-                                disamb_all_results[f'{key_result}'] += 1
+                                if f'{key_result}' != 'manual correct':
+                                    all_results.setdefault(f'only {key_result}', 0)
+                                    all_results[f'only {key_result}'] += 1
+                                    disamb_all_results.setdefault(f'{key_result}', 0)
+                                    disamb_all_results[f'{key_result}'] += 1
+                                else:
+                                    # manual correct  =>  both systems are incorrect
+                                    all_results.setdefault(f'both incorrect ({key_result})', 0)
+                                    all_results[f'both incorrect ({key_result})'] += 1
+                                    disamb_all_results.setdefault('both incorrect', 0)
+                                    disamb_all_results['both incorrect'] += 1
                         else:
                             # Difficult to tell
                             all_results.setdefault(f'{key_result}', 0)
@@ -163,10 +170,17 @@ if __name__ == '__main__':
                         disamb_all_results[f'{key_result}'] += 1
                 else:
                     # Only Bert or manual is correct
-                    all_results.setdefault(f'only {key_result}', 0)
-                    all_results[f'only {key_result}'] += 1
-                    disamb_all_results.setdefault(f'{key_result}', 0)
-                    disamb_all_results[f'{key_result}'] += 1
+                    if f'{key_result}' != 'manual correct':
+                        all_results.setdefault(f'only {key_result}', 0)
+                        all_results[f'only {key_result}'] += 1
+                        disamb_all_results.setdefault(f'{key_result}', 0)
+                        disamb_all_results[f'{key_result}'] += 1
+                    else:
+                        # manual correct  =>  both systems are incorrect
+                        all_results.setdefault(f'both incorrect ({key_result})', 0)
+                        all_results[f'both incorrect ({key_result})'] += 1
+                        disamb_all_results.setdefault('both incorrect', 0)
+                        disamb_all_results['both incorrect'] += 1
             else:
                 # Difficult to tell
                 all_results.setdefault(f'{key_result}', 0)

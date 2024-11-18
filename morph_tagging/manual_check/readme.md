@@ -71,15 +71,14 @@ Ambiguous tagging results (ambiguous output is still correct):
   both correct, but vabamorf ambiguous               298/942  31.63%
   only bert_morph_tagging_flat correct               289/942  30.68%
   only morph_analysis_flat correct and unambiguous   202/942  21.44%
-  only manual correct                                75/942  7.96%
+  both incorrect (manual correct)                    75/942  7.96%
   only morph_analysis_flat correct, but ambiguous    68/942  7.22%
   difficult to tell                                  10/942  1.06%
 
 Disambiguation results (ambiguous output is considered incorrect):
   bert_morph_tagging_flat correct                    587/942  62.31%
   morph_analysis_flat correct                        202/942  21.44%
-  manual correct                                     75/942  7.96%
-  both incorrect                                     68/942  7.22%
+  both incorrect                                     143/942  15.18%
   difficult to tell                                  10/942  1.06%
 </pre>
 
