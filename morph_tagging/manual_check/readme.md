@@ -58,3 +58,17 @@ manual                     ['Z', '']  (+)
 </pre>
 
 * Kui pole kindel, kas käsitsi valitud analüüs on õige, siis võib `(+)` asemel kasutada `(?)`.
+
+
+## Tulemused
+
+Faili [`03_morph_analysis_vs_bert_morph_2_x1000_even_checked.txt`](03_morph_analysis_vs_bert_morph_2_x1000_even_checked.txt) käsitsi hindamise tulemused:
+
+<pre>
+ both correct, but vabamorf ambiguous               297/1000  29.70%
+ only bert_morph_tagging_flat correct               289/1000  28.90%
+ only morph_analysis_flat correct and unambiguous   202/1000  20.20%
+ only manual correct                                75/1000  7.50%
+ only morph_analysis_flat correct, but ambiguous    68/1000  6.80%
+ difficult to tell                                  10/1000  1.00%
+</pre>
