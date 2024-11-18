@@ -65,12 +65,22 @@ manual                     ['Z', '']  (+)
 Failis [`03_morph_analysis_vs_bert_morph_2_x1000_even_checked.txt`](03_morph_analysis_vs_bert_morph_2_x1000_even_checked.txt) on Vabamorfi ning Berti mudeli II[^2] 1000 erinevuse käsitsi hindamise tulemused:
 
 <pre>
- both correct, but vabamorf ambiguous               297/1000  29.70%
- only bert_morph_tagging_flat correct               289/1000  28.90%
- only morph_analysis_flat correct and unambiguous   202/1000  20.20%
- only manual correct                                75/1000  7.50%
- only morph_analysis_flat correct, but ambiguous    68/1000  6.80%
- difficult to tell                                  10/1000  1.00%
+Total differences annotated: 942 / 1000
+
+Ambiguous tagging results (ambiguous output is still correct):
+  both correct, but vabamorf ambiguous               298/942  31.63%
+  only bert_morph_tagging_flat correct               289/942  30.68%
+  only morph_analysis_flat correct and unambiguous   202/942  21.44%
+  only manual correct                                75/942  7.96%
+  only morph_analysis_flat correct, but ambiguous    68/942  7.22%
+  difficult to tell                                  10/942  1.06%
+
+Disambiguation results (ambiguous output is considered incorrect):
+  bert_morph_tagging_flat correct                    587/942  62.31%
+  morph_analysis_flat correct                        202/942  21.44%
+  manual correct                                     75/942  7.96%
+  both incorrect                                     68/942  7.22%
+  difficult to tell                                  10/942  1.06%
 </pre>
 
 ## Mudelid
