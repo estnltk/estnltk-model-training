@@ -62,7 +62,7 @@ manual                     ['Z', '']  (+)
 
 ## Tulemused
 
-Faili [`03_morph_analysis_vs_bert_morph_2_x1000_even_checked.txt`](03_morph_analysis_vs_bert_morph_2_x1000_even_checked.txt) käsitsi hindamise tulemused:
+Failis [`03_morph_analysis_vs_bert_morph_2_x1000_even_checked.txt`](03_morph_analysis_vs_bert_morph_2_x1000_even_checked.txt) on Vabamorfi ning Berti mudeli II[^2] 1000 erinevuse käsitsi hindamise tulemused:
 
 <pre>
  both correct, but vabamorf ambiguous               297/1000  29.70%
@@ -72,3 +72,9 @@ Faili [`03_morph_analysis_vs_bert_morph_2_x1000_even_checked.txt`](03_morph_anal
  only morph_analysis_flat correct, but ambiguous    68/1000  6.80%
  difficult to tell                                  10/1000  1.00%
 </pre>
+
+## Mudelid
+
+[^1]: Berti mudel I on treenitud 575 000 sõnalisel korpusel imiteerima Vabamorfi märgendusi;
+
+[^2]: Berti mudel II on kõigepealt treenitud 575 000 sõnalisel korpusel imiteerima Vabamorfi märgendusi ning seejärel täiendavalt treenitud kuldstandardil: EDT puudepanga treeningkorpusel;
