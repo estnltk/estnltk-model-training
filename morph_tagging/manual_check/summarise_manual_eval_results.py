@@ -101,6 +101,7 @@ if __name__ == '__main__':
                         if all(['correct' in s for s in cur_results]):
                             # Determine whether Vabamorf was ambiguous
                             if cur_suggestions.get(vm_layer) > 1:
+                                # Vabamorf was ambiguous
                                 all_results.setdefault('both correct, but vabamorf ambiguous', 0)
                                 all_results['both correct, but vabamorf ambiguous'] += 1
                                 for key_result in cur_results:
@@ -109,14 +110,11 @@ if __name__ == '__main__':
                                         disamb_all_results[f'{key_result}'] += 1
                                         break
                             else:
+                                # Vabamorf was unambiguous
                                 all_results.setdefault('both correct and unambiguous', 0)
                                 all_results['both correct and unambiguous'] += 1
-                                recorded = set()
-                                for key_result in cur_results:
-                                    if f'{key_result}' not in recorded:
-                                        disamb_all_results.setdefault(f'{key_result}', 0)
-                                        disamb_all_results[f'{key_result}'] += 1
-                                        recorded.add(f'{key_result}')
+                                disamb_all_results.setdefault(f'both correct', 0)
+                                disamb_all_results[f'both correct'] += 1
                         elif all(['difficult to tell' in s for s in cur_results]):
                             all_results.setdefault('difficult to tell', 0)
                             all_results['difficult to tell'] += 1
@@ -194,6 +192,7 @@ if __name__ == '__main__':
             if all(['correct' in s for s in cur_results]):
                 # Determine whether Vabamorf was ambiguous
                 if cur_suggestions.get(vm_layer) > 1:
+                    # Vabamorf was ambiguous
                     all_results.setdefault('both correct, but vabamorf ambiguous', 0)
                     all_results['both correct, but vabamorf ambiguous'] += 1
                     for key_result in cur_results:
@@ -202,14 +201,11 @@ if __name__ == '__main__':
                             disamb_all_results[f'{key_result}'] += 1
                             break
                 else:
+                    # Vabamorf was unambiguous
                     all_results.setdefault('both correct and unambiguous', 0)
                     all_results['both correct and unambiguous'] += 1
-                    recorded = set()
-                    for key_result in cur_results:
-                        if f'{key_result}' not in recorded:
-                            disamb_all_results.setdefault(f'{key_result}', 0)
-                            disamb_all_results[f'{key_result}'] += 1
-                            recorded.add(f'{key_result}')
+                    disamb_all_results.setdefault(f'both correct', 0)
+                    disamb_all_results[f'both correct'] += 1
             elif all(['difficult to tell' in s for s in cur_results]):
                 all_results.setdefault('difficult to tell', 0)
                 all_results['difficult to tell'] += 1
