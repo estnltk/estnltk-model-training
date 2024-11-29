@@ -19,7 +19,8 @@ from estnltk import Text, Layer
 from estnltk.converters.label_studio.labelling_configurations import PhraseClassificationConfiguration
 from estnltk.converters.label_studio.labelling_tasks import PhraseClassificationTask
 
-input_dir = '.'
+input_dir = 'random_pick_jl'
+assert os.path.exists(input_dir), f'(!) Missing input directory {input_dir!r}'
 
 annotation_confs = {1:  PhraseClassificationConfiguration(phrase_labels=['analüüsitav sõna'], 
                                                           class_labels={'sg n': 'sg n', 'sg g': 'sg g'}, 
@@ -66,7 +67,8 @@ for fname in os.listdir( input_dir ):
         pick_id = file_info[-1]
         assert infl_type in annotation_confs.keys()
         input_files.append( (os.path.join(input_dir, fname), fname, infl_type, pick_id) )
-
+if not input_files:
+    print(f'(!) No randomly picked sentences jl files found from {input_dir!r}.')
 
 out_base_dir = 'to_labelstudio'
 os.makedirs(out_base_dir, exist_ok=True)

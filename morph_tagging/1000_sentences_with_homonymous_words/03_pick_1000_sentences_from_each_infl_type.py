@@ -2,9 +2,9 @@
 #   Picks randomly 1000 sentences for each target inflection types (1, 16, 17, 19) 
 #   from the set of all extracted sentences containing words with homonymous forms 
 #   ( `all_enc_koond_homonymous_forms_sentences.jl` ). 
-#   
-#   Saves resulting sentences in JSON format into files which names follow the 
-#   pattern: 
+#
+#   Saves resulting sentences into directory 'random_pick_jl', into files which 
+#   names follow the pattern: 
 #       f'infl_type_{infl_type}_randomly_picked_1000_sentences_pick_{run_id}.jl'
 #
 #   By default, attempts to pick unique sentences across all inflection types. 
@@ -36,8 +36,7 @@ all_sentences_uniq = True   # If all sentences across all inflection types shoul
 
 discard_previously_picked = True  # Discard sentences picked in previous runs of this script
 
-output_dir = '.'
-
+output_dir = 'random_pick_jl'
 
 #input_forms_file = "homonymous_forms_16_17_19.csv"
 input_forms_file = "homonymous_forms_1_16_17_19.csv"
@@ -293,8 +292,9 @@ for infl_type in sorted(homonymous_form_sents_by_infl_type.keys(), key=lambda x:
     all_words  = len(possible_homonymous_forms_by_infl_type[infl_type])
     print( f'   all uniq words coverage (from VM lexicon): ', count_and_percent(p_uniq_words, all_words))
     print()
+    os.makedirs(output_dir, exist_ok=True)
     out_file = f'infl_type_{int(infl_type):02d}_randomly_picked_{PICK_TARGET}_sentences_pick_{RUN_ID}.jl'
-    with open( out_file, 'w', encoding='utf-8' ) as out_f:
+    with open( os.path.join(output_dir, out_file), 'w', encoding='utf-8' ) as out_f:
         for entry_dict in picked_sentences_by_type[infl_type]:
             out_f.write( json.dumps(entry_dict, ensure_ascii=False) )
             out_f.write( '\n' )
