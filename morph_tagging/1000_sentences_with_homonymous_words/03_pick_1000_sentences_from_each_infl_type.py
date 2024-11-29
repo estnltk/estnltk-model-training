@@ -5,14 +5,22 @@
 #   
 #   Saves resulting sentences in JSON format into files which names follow the 
 #   pattern: 
-#       f'infl_type_{infl_type}_randomly_picked_1000_sentences.jl'
+#       f'infl_type_{infl_type}_randomly_picked_1000_sentences_pick_{run_id}.jl'
+#
 #   By default, attempts to pick unique sentences across all inflection types. 
+#
+#   By default, attempts to discard all sentences picked in previous runs of 
+#   this script. For this, collects all files from the outputdir that follow 
+#   the pattern 
+#       f'infl_type_{infl_type}_randomly_picked_1000_sentences_pick_{run_id}.jl'
+#   and discards all sentences within these files.
 #
 #   Prints statistics about the whole dataset and about randomly picked subsets. 
 #  
 
 import json
 import os, os.path
+import re
 
 from collections import defaultdict
 
@@ -26,6 +34,11 @@ PICK_TARGET = 1000
 
 all_sentences_uniq = True   # If all sentences across all inflection types should be uniq
 
+discard_previously_picked = True  # Discard sentences picked in previous runs of this script
+
+output_dir = '.'
+
+
 #input_forms_file = "homonymous_forms_16_17_19.csv"
 input_forms_file = "homonymous_forms_1_16_17_19.csv"
 assert os.path.exists(input_forms_file), f'(!) Missing homonymous forms file {input_file!r}'
@@ -33,9 +46,58 @@ assert os.path.exists(input_forms_file), f'(!) Missing homonymous forms file {in
 input_sent_file = 'all_enc_koond_homonymous_forms_sentences.jl'
 assert os.path.exists(input_sent_file), f'(!) Missing homonymous form sentences file {input_sent_file!r}'
 
+
 def count_and_percent(items, items_total):
+    '''Calculates items percentage from items_total.'''
     assert items_total > 0
     return f'{items} / {items_total} ({(items/items_total)*100.0:.2f}%)'
+
+
+def extract_randomly_picked_sentences_file_info(fname):
+    '''Extracts inflection type, sentences amount and pick number from given 
+       randomly picked sentences file name and returns as a tuple of integers.
+       Returns None if the file name does not follow the pattern of 
+       randomly picked sentences files.'''
+    m0 = re.match('^infl_type_(\d+)_randomly_picked_(\d+)_sentences\.jl$', fname)
+    if m0:
+        return (int(m0.group(1)), int(m0.group(2)), 1)
+    m1 = re.match('^infl_type_(\d+)_randomly_picked_(\d+)_sentences_pick_(\d+)\.jl$', fname)
+    if m1:
+        return (int(m1.group(1)), int(m1.group(2)), int(m1.group(3)))
+    return None
+
+
+# Smoke tests
+assert extract_randomly_picked_sentences_file_info('infl_type_17_randomly_picked_1000_sentences.jl') == \
+            (17, 1000, 1)
+assert extract_randomly_picked_sentences_file_info('infl_type_17_randomly_picked_1000_sentences_pick_1.jl') == \
+            (17, 1000, 1)
+
+
+def load_previously_picked_sentences(input_dir, previous_picked_sentences, verbose=True):
+    '''Loads sentences already picked in the previous runs of this script from the input directory. 
+       Saves results into given dictionary previous_picked_sentences.'''
+    assert isinstance( previous_picked_sentences, dict )
+    start_count = len(previous_picked_sentences.keys())
+    for fname in os.listdir( input_dir ):
+        file_info = extract_randomly_picked_sentences_file_info(fname)
+        if file_info is not None and fname.endswith('.jl'):
+            with open( os.path.join(input_dir, fname), 'r', encoding='utf-8' ) as in_f:
+                for line in in_f:
+                    line = line.strip()
+                    if len( line ) > 0:
+                        sentence_dict = json.loads(line)
+                        text_str = sentence_dict['text']
+                        sent_id = sentence_dict["sent_id"]
+                        doc_id = sentence_dict["doc_id"]
+                        previous_picked_sentences[text_str] = [doc_id, sent_id]
+    if verbose:
+        end_count = len( previous_picked_sentences.keys() )
+        print(f' Loaded {end_count-start_count} previously picked sentences.')
+    return previous_picked_sentences
+
+
+
 
 df_homonymous_forms = pd.read_csv(input_forms_file, header=0, keep_default_na=False).to_dict(orient='split')
 possible_homonymous_forms_by_infl_type = {}
@@ -117,6 +179,45 @@ with open(input_sent_file, 'r', encoding='utf-8') as in_f:
                                 #print( new_entry )
                                 break
 
+# ===============   Collect randomly picked sentences from previous runs of this script (if any)  =====================
+# ===============               Remove previously picked sentences from available picks           =====================
+RUN_ID = 0
+previous_picked_sentences = dict()
+if discard_previously_picked:
+    # Discover previous runs
+    for fname in os.listdir( output_dir ):
+        file_info = extract_randomly_picked_sentences_file_info(fname)
+        if file_info is not None and fname.endswith('.jl'):
+            prev_run_id = file_info[-1]
+            if prev_run_id > RUN_ID:
+                RUN_ID = prev_run_id
+    # Load previously picked sentences
+    load_previously_picked_sentences(output_dir, previous_picked_sentences)
+    # Remove previous picks from all possible picks
+    if len(previous_picked_sentences.keys()) > 0:
+        print(f' Removing previously picked sentences from all available sentences.')
+        for infl_type in homonymous_form_sents_by_infl_type.keys():
+            filtered_sentences = []
+            homonymous_form_uniq_sents_by_infl_type[infl_type] = set()
+            homonymous_form_uniq_words_by_infl_type[infl_type] = set()
+            for sent in homonymous_form_sents_by_infl_type[infl_type]:
+                sent_id = sent['sent_id']
+                word_text = sent['word']
+                if not sent['text'] in previous_picked_sentences.keys():
+                    filtered_sentences.append( sent )
+                    homonymous_form_uniq_sents_by_infl_type[infl_type].add(sent_id)
+                    homonymous_form_uniq_words_by_infl_type[infl_type].add(word_text)
+                else:
+                    # Remove already picked sentence
+                    homonymous_form_uniq_sents_by_infl_type[infl_type].discard(sent_id)
+            homonymous_form_sents_by_infl_type[infl_type] = filtered_sentences
+if RUN_ID > 0:
+    RUN_ID += 1
+else:
+    RUN_ID = 1
+
+# =====================    Display statistics about each inflection type   ===============================
+
 print()
 for infl_type in sorted(homonymous_form_sents_by_infl_type.keys(), key=lambda x: len(homonymous_form_sents_by_infl_type[x]), reverse=True):
     uniq_sentences = len(homonymous_form_uniq_sents_by_infl_type[infl_type])
@@ -135,7 +236,7 @@ print()
 seed( 1 )
 picked_sentences_by_type = {}
 all_picked_sent_ids = set()
-print(f'Picking randomly sentences from each inflection type ...')
+print(f'Picking randomly sentences from each inflection type (pick #{RUN_ID})...')
 print()
 for infl_type in sorted(homonymous_form_sents_by_infl_type.keys(), key=lambda x: len(homonymous_form_sents_by_infl_type[x]), reverse=True):
     # =====================   Make a random pick  ===============================
@@ -163,9 +264,13 @@ for infl_type in sorted(homonymous_form_sents_by_infl_type.keys(), key=lambda x:
         sent_constraints_satisfied = len(sent_words) >= 4 and \
             any( [w[0].islower() for w in sent_words] ) and \
             len(pick_sent['text']) < 1500
+        # Discard sentence already picked in previous runs
+        previously_not_picked_satisfied = not discard_previously_picked or \
+           (pick_sent['text'] not in previous_picked_sentences.keys())
         if all_sentences_uniq_satisfied and \
            local_picked_uniq_sentences_satisfied and \
-           sent_constraints_satisfied:
+           sent_constraints_satisfied and \
+           previously_not_picked_satisfied:
             picked_sentences_by_type[infl_type].append( pick_sent )
             failed_attempts = 0
             local_picked_sent_ids.add(pick_sent_id)
@@ -189,7 +294,7 @@ for infl_type in sorted(homonymous_form_sents_by_infl_type.keys(), key=lambda x:
     all_words  = len(possible_homonymous_forms_by_infl_type[infl_type])
     print( f'   all uniq words coverage (from VM lexicon): ', count_and_percent(p_uniq_words, all_words))
     print()
-    out_file = f'infl_type_{int(infl_type):02d}_randomly_picked_{PICK_TARGET}_sentences.jl'
+    out_file = f'infl_type_{int(infl_type):02d}_randomly_picked_{PICK_TARGET}_sentences_pick_{RUN_ID}.jl'
     with open( out_file, 'w', encoding='utf-8' ) as out_f:
         for entry_dict in picked_sentences_by_type[infl_type]:
             out_f.write( json.dumps(entry_dict, ensure_ascii=False) )
