@@ -1,0 +1,12 @@
+<View>
+  <Labels name="phrase" toName="text" >
+    <Label value="analüüsitav sõna" background="green" />
+  </Labels>
+  <Text name="text" value="$text" />
+  <Header value="Vali sõna morfoloogiline vorm (sg g - ainsuse omastav, sg p - ainsuse osastav, adt - lühike sisseütlev):" />
+  <Choices name="phrase_class" toName="text" choice="single-radio" >
+    <Choice value="sg g" alias="sg g" />
+    <Choice value="sg p" alias="sg p" />
+    <Choice value="adt" alias="adt" />
+  </Choices>
+</View>
