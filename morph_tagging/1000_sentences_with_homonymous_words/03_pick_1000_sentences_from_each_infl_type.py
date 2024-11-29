@@ -98,7 +98,6 @@ def load_previously_picked_sentences(input_dir, previous_picked_sentences, verbo
 
 
 
-
 df_homonymous_forms = pd.read_csv(input_forms_file, header=0, keep_default_na=False).to_dict(orient='split')
 possible_homonymous_forms_by_infl_type = {}
 fields = [ 'lemma', 'inflect_type', 'pos', 'case', 'form' ]

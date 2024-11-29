@@ -1,51 +1,83 @@
 #
 #   Converts files that have 1000 sentences with homonymous words to labelstudio annotation tasks. 
-#   The goal is to disambiguate homonymous forms. 
-#   Writes labelstudio import files into directory "to_labelstudio"
+#   The goal of tasks is to disambiguate homonymous forms. 
+#
+#   Writes labelstudio import files into subdirectories of the directory "to_labelstudio", each 
+#   subdirectory will be named after {pick_id}, e.g. files of 
+#     "infl_type_01_randomly_picked_1000_sentences_pick_1.jl" will go into "to_labelstudio/1"
+#     "infl_type_01_randomly_picked_1000_sentences_pick_2.jl" will go into "to_labelstudio/2"
+#   etc.
 #
 #   Requires estnltk version that has label_studio PhraseClassificationTask available
 #   ( version 1.7.4+ )
 # 
 
 import os, os.path
-import json
+import json, re
 
 from estnltk import Text, Layer
 from estnltk.converters.label_studio.labelling_configurations import PhraseClassificationConfiguration
 from estnltk.converters.label_studio.labelling_tasks import PhraseClassificationTask
 
-input_files = ['infl_type_01_randomly_picked_1000_sentences.jl',
-               'infl_type_16_randomly_picked_1000_sentences.jl',
-               'infl_type_17_randomly_picked_1000_sentences.jl',
-               'infl_type_19_randomly_picked_1000_sentences.jl']
+input_dir = '.'
 
-annotation_confs = [PhraseClassificationConfiguration(phrase_labels=['analüüsitav sõna'], 
-                                                      class_labels={'sg n': 'sg n', 'sg g': 'sg g'}, 
-                                                      header="Vali sõna morfoloogiline vorm (sg n - ainsuse nimetav, sg g -- ainsuse omastav):",
-                                                      header_placement='middle'),
-                    PhraseClassificationConfiguration(phrase_labels=['analüüsitav sõna'], 
-                                                      class_labels={'sg n': 'sg n', 'sg g': 'sg g'}, 
-                                                      header="Vali sõna morfoloogiline vorm (sg n - ainsuse nimetav, sg g -- ainsuse omastav):",
-                                                      header_placement='middle'),
-                    PhraseClassificationConfiguration(phrase_labels=['analüüsitav sõna'], 
-                                                      class_labels={'sg n': 'sg n', 'sg g': 'sg g', 'sg p': 'sg p'}, 
-                                                      header="Vali sõna morfoloogiline vorm (sg n - ainsuse nimetav, sg g - ainsuse omastav, sg p - ainsuse osastav):",
-                                                      header_placement='middle'),
-                    PhraseClassificationConfiguration(phrase_labels=['analüüsitav sõna'], 
-                                                      class_labels={'sg g': 'sg g', 'sg p': 'sg p', 'adt': 'adt'}, 
-                                                      header="Vali sõna morfoloogiline vorm (sg g - ainsuse omastav, sg p - ainsuse osastav, adt - lühike sisseütlev):",
-                                                      header_placement='middle')]
+annotation_confs = {1:  PhraseClassificationConfiguration(phrase_labels=['analüüsitav sõna'], 
+                                                          class_labels={'sg n': 'sg n', 'sg g': 'sg g'}, 
+                                                          header="Vali sõna morfoloogiline vorm (sg n - ainsuse nimetav, sg g -- ainsuse omastav):",
+                                                          header_placement='middle'),
+                    16: PhraseClassificationConfiguration(phrase_labels=['analüüsitav sõna'], 
+                                                          class_labels={'sg n': 'sg n', 'sg g': 'sg g'}, 
+                                                          header="Vali sõna morfoloogiline vorm (sg n - ainsuse nimetav, sg g -- ainsuse omastav):",
+                                                          header_placement='middle'),
+                    17: PhraseClassificationConfiguration(phrase_labels=['analüüsitav sõna'], 
+                                                          class_labels={'sg n': 'sg n', 'sg g': 'sg g', 'sg p': 'sg p'}, 
+                                                          header="Vali sõna morfoloogiline vorm (sg n - ainsuse nimetav, sg g - ainsuse omastav, sg p - ainsuse osastav):",
+                                                          header_placement='middle'),
+                    19: PhraseClassificationConfiguration(phrase_labels=['analüüsitav sõna'], 
+                                                          class_labels={'sg g': 'sg g', 'sg p': 'sg p', 'adt': 'adt'}, 
+                                                          header="Vali sõna morfoloogiline vorm (sg g - ainsuse omastav, sg p - ainsuse osastav, adt - lühike sisseütlev):",
+                                                          header_placement='middle')}
 
-assert len(input_files) == len(annotation_confs)
+def extract_randomly_picked_sentences_file_info(fname):
+    '''Extracts inflection type, sentences amount and pick number from given 
+       randomly picked sentences file name and returns as a tuple of integers.
+       Returns None if the file name does not follow the pattern of 
+       randomly picked sentences files.'''
+    m0 = re.match('^infl_type_(\d+)_randomly_picked_(\d+)_sentences\.jl$', fname)
+    if m0:
+        return (int(m0.group(1)), int(m0.group(2)), 1)
+    m1 = re.match('^infl_type_(\d+)_randomly_picked_(\d+)_sentences_pick_(\d+)\.jl$', fname)
+    if m1:
+        return (int(m1.group(1)), int(m1.group(2)), int(m1.group(3)))
+    return None
 
-out_dir = 'to_labelstudio'
-os.makedirs(out_dir, exist_ok=True)
+# Smoke tests
+assert extract_randomly_picked_sentences_file_info('infl_type_17_randomly_picked_1000_sentences.jl') == \
+            (17, 1000, 1)
+assert extract_randomly_picked_sentences_file_info('infl_type_17_randomly_picked_1000_sentences_pick_1.jl') == \
+            (17, 1000, 1)
 
-for fid, fname in enumerate(input_files):
-    annotation_conf = annotation_confs[fid]
+# Collect input files
+input_files = []
+for fname in os.listdir( input_dir ):
+    file_info = extract_randomly_picked_sentences_file_info(fname)
+    if file_info is not None and fname.endswith('.jl'):
+        infl_type = file_info[0]
+        pick_id = file_info[-1]
+        assert infl_type in annotation_confs.keys()
+        input_files.append( (os.path.join(input_dir, fname), fname, infl_type, pick_id) )
+
+
+out_base_dir = 'to_labelstudio'
+os.makedirs(out_base_dir, exist_ok=True)
+
+for (in_fpath, fname, infl_type, pick_id) in input_files:
+    annotation_conf = annotation_confs[infl_type]
     exported_data = []
     text_objs = []
-    with open( fname, 'r', encoding='utf-8' ) as in_f:
+    out_dir = os.path.join(out_base_dir, f'{pick_id}')
+    os.makedirs(out_dir, exist_ok=True)
+    with open( in_fpath, 'r', encoding='utf-8' ) as in_f:
         for line in in_f:
             line = line.strip()
             if len( line ) > 0:
@@ -68,10 +100,12 @@ for fid, fname in enumerate(input_files):
     # Write out task configuration
     out_label_conf_fname = fname.replace('.jl', '_labeling_interface.txt')
     out_label_conf_fname = out_label_conf_fname.replace('_randomly_picked_', '_')
+    out_label_conf_fname = out_label_conf_fname.replace(f'_pick_{pick_id}', '')
     with open(os.path.join(out_dir, out_label_conf_fname), 'w', encoding='utf-8') as out_f:
         out_f.write(task.interface_file)
     # Write out data for annotation task
     out_json_fname = fname.replace('.jl', '.json')
     out_json_fname = out_json_fname.replace('_randomly_picked_', '_')
+    out_json_fname = out_json_fname.replace(f'_pick_{pick_id}', '')
     with open(os.path.join(out_dir, out_json_fname), 'w', encoding='utf-8') as out_f:
         out_f.write(exported_data)
