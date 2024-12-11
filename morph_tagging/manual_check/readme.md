@@ -60,7 +60,20 @@ manual                     ['Z', '']  (+)
 * Kui pole kindel, kas käsitsi valitud analüüs on õige, siis võib `(+)` asemel kasutada `(?)`.
 
 
-## Tulemused
+## Failid ja tulemused
+
+Failis [`01_morph_analysis_vs_bert_morph_x100_even_manual_check.txt`](01_morph_analysis_vs_bert_morph_x100_even_manual_check.txt) on Vabamorfi ning Berti mudeli I[^1] käsitsi hinnatud 100 juhuslikku erinevust. Tulemused:
+
+<pre>
+  [++A] -- both correct, but vabamorf is ambiguous        46
+  [-]   -- only vabamorf correct                          31
+  [+]   -- only bert correct                              15
+  [?]   -- hard to tell                                   8
+  [++]  -- both correct and vabamorf is not ambiguous     0
+  [--]  -- both incorrect                                 0
+</pre>
+
+Failis [`02_morph_analysis_vs_bert_morph_x1000_even.txt`](02_morph_analysis_vs_bert_morph_x1000_even.txt) on Vabamorfi ning Berti mudeli I[^1] 1000 juhuslikku erinevust. Käsitsi hindamist pole tehtud.
 
 Failis [`03_morph_analysis_vs_bert_morph_2_x1000_even_checked.txt`](03_morph_analysis_vs_bert_morph_2_x1000_even_checked.txt) on Vabamorfi ning Berti mudeli II[^2] 1000 erinevuse käsitsi hindamise tulemused:
 
@@ -86,4 +99,4 @@ Disambiguation results (ambiguous output is considered incorrect):
 
 [^1]: Berti mudel I on treenitud 575 000 sõnalisel korpusel imiteerima Vabamorfi märgendusi;
 
-[^2]: Berti mudel II on kõigepealt treenitud 575 000 sõnalisel korpusel imiteerima Vabamorfi märgendusi ning seejärel täiendavalt treenitud kuldstandardil: EDT puudepanga treeningkorpusel;
+[^2]: Berti mudel II -- Berti mudel I, mida on täiendavalt juurde treenitud kuldstandard EDT puudepanga treeningkorpusel;
