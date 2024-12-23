@@ -61,7 +61,7 @@ It contains:
 
 Results can be found in the [`manual_check`](./manual_check/) directory, where manual checking of the differences gathered in [`03_compare_with_vabamorf.ipynb`](03_compare_with_vabamorf.ipynb) using the version of the model trained additionally on the [converted version of the Estonian Dependency Treebank (EDT)](https://github.com/UniversalDependencies/UD_Estonian-EDT)  ([`04_train_on_UD_EST-EDT_treebank.ipynb`](#04_train_on_ud_est-edt_treebankipynb)).
 
-#### [`04_train_on_UD_EST-EDT_treebank.ipynb`](#04_train_on_ud_est-edt_treebankipynb)
+#### [`04_train_on_UD_EST-EDT_treebank.ipynb`](04_train_on_UD_EST-EDT_treebank.ipynb)
 It contains:
 * BertMorphTagger training on the [converted version of the Estonian Dependency Treebank (EDT)](https://github.com/UniversalDependencies/UD_Estonian-EDT).
 * evaluation results using the `evaluate-metric/poseval` metric.
@@ -79,7 +79,7 @@ It contains:
 
 \* Metrics are from weighted average
 
-#### [`05_muna_homonym.ipynb`](#05_muna_homonym.ipynb)
+#### [`05_muna_homonym.ipynb`](05_muna_homonym.ipynb)
 It contains:
 * BertMorphTagger training only on the word "muna" in the sentences.
 * evaluation on the sentences and [converted version of the Estonian Dependency Treebank (EDT)](https://github.com/UniversalDependencies/UD_Estonian-EDT).
