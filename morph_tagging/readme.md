@@ -18,9 +18,9 @@ Corpus has roughly 10 million words and contains five text types: fiction, perio
 * Training and evaluating the model
 
 Evaluation results:
-| Model    | Precision | Recall | F1 score |
-|----------|-----------|--------|----------|
-| Bert     | 0.9545    | 0.9534 | 0.9540   |
+| Model         | Precision | Recall | F1 score |
+|---------------|-----------|--------|----------|
+| Bert_morph_v1 | 0.9545    | 0.9534 | 0.9540   |
 
 | Text type        | Precision | Recall | F1 score |
 |------------------|-----------|--------|----------|
@@ -42,10 +42,10 @@ It contains the BERT model and Vabamorf evaluation using [converted version of t
 * Vabamorf evaluation on UD corpus
 
 **Evaluation results**
-| Model    | Precision | Recall | F1 score |
-|----------|-----------|--------|----------|
-| Bert     | 0.9315    | 0.9162 | 0.9187   |
-| Vabamorf | 0.9194    | 0.9067 | 0.9082   |
+| Model         | Precision | Recall | F1 score |
+|---------------|-----------|--------|----------|
+| Bert_morph_v1 | 0.9315    | 0.9162 | 0.9187   |
+| Vabamorf      | 0.9194    | 0.9067 | 0.9082   |
 
 \* Metrics are from weighted average.
 
@@ -72,14 +72,14 @@ It contains:
 * Vabamorf evaluation on UD corpus
 
 **Evaluation results**
-| Model    | Precision | Recall | F1 score |
-|----------|-----------|--------|----------|
-| Bert     | 0.9778    | 0.9765 | 0.9769   |
-| Vabamorf | 0.9194    | 0.9067 | 0.9082   |
+| Model         | Precision | Recall | F1 score |
+|---------------|-----------|--------|----------|
+| Bert_morph_v2 | 0.9778    | 0.9765 | 0.9769   |
+| Vabamorf      | 0.9194    | 0.9067 | 0.9082   |
 
 \* Metrics are from weighted average
 
-#### [`04b_compare_model_2_with_vabamorf_.ipynb`](./04_train_on_UD_EST-EDT_treebank.ipynb)
+#### [`04b_compare_model_2_with_vabamorf.ipynb`](./04b_compare_model_2_with_vabamorf.ipynb)
 It contains code that generates comparison results saved as a `.txt` file where the summary and all individual differences are listed.
 
 #### [`05_muna_homonym.ipynb`](./05_muna_homonym.ipynb)
@@ -98,26 +98,24 @@ It contains:
 
 Predicting label to word "muna"
 
-| Model       | Accuracy  | Precision | F1 score |
-|-------------|-----------|-----------|----------|
-| NER         | 0.8350    | 0.8350    | 0.9101   |
-| NER_v2      | 0.9320    | 0.9320    | 0.9648   |
-| NER_v2_muna | 0.9903    | 0.9903    | 0.9951   |
-
-
+| Model                    | Accuracy  | Precision | F1 score |
+|--------------------------|-----------|-----------|----------|
+| Vabamorf                 | 0.8350    | 0.8350    | 0.9101   |
+| Bert_morph_v2            | 0.9320    | 0.9320    | 0.9648   |
+| Bert_morph_v2_muna_1[^2] | 0.9903    | 0.9903    | 0.9951   |
+| Bert_morph_v2_muna_2[^3] | 0.9903    | 0.9903    | 0.9951   |
 
 Evaluations on UD treebank
 
-| Model             | Precision | Recall | F1 score |
-|-------------------|-----------|--------|----------|
-| Vabamorf          | 0.9194    | 0.9067 | 0.9082   |
-| NER_v2            | 0.9778    | 0.9765 | 0.9769   |
-| NER_v2_muna[^2]   | 0.9568    | 0.9466 | 0.9474   |
-| NER_v2_muna[^3]   | 0.9559    | 0.9455 | 0.9464   |
+| Model                    | Precision | Recall | F1 score |
+|--------------------------|-----------|--------|----------|
+| Vabamorf                 | 0.9194    | 0.9067 | 0.9082   |
+| Bert_morph_v2            | 0.9778    | 0.9765 | 0.9769   |
+| Bert_morph_v2_muna_1[^2] | 0.9568    | 0.9466 | 0.9474   |
+| Bert_morph_v2_muna_2[^3] | 0.9559    | 0.9455 | 0.9464   |
 
 \* Metrics are from weighted average
 
 [^1]: Sven Laur, Siim Orasmaa, Dage Särg, Paul Tammo. "EstNLTK 1.6: Remastered Estonian NLP Pipeline". *Proceedings of The 12th Language Resources and Evaluation Conference*. European Language Resources Association: Marseille, France, May 2020, p. 7154-7162
-
-[^2]: Completely ignoring non-"muna" tokens
-[^3]: Including other tokens in the loss with a smaller weight
+[^2]: Bert_morph_v2 model trained on the finetuning phase, on the muna-training set completely ignoring non-"muna" tokens
+[^3]: Bert_morph_v2 model trained on the finetuning phase, on the muna-training set including other tokens in the loss with a smaller weight
