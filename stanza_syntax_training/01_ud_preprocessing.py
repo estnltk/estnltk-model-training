@@ -229,7 +229,7 @@ def convert_ud_conllu_to_estnltk_conllu( in_file, morph_pipeline, morph_layer, o
             removables = []
             for tid, token in enumerate(sentence):
                 token_id = token['id']
-                if isinstance(token_id, tuple) and len(token_id) == 3 and token_id[1] == '.':
+                if isinstance(token_id, tuple) and len(token_id) == 3 and token_id[1] in ['.', '-']:
                     removables.append(token)
             if removables:
                 for token in removables:

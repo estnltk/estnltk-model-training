@@ -25,6 +25,55 @@ from stanza.utils.conll import CoNLL
 import configparser
 
 # ===============================================================
+#  Auxiliary: download default resources
+#  (required for pipeline initialization)
+# ===============================================================
+
+def download_stanza_default_resources( lang: str ):
+    '''
+    Problem: even if 'download_method' is 0 in stanza's Pipeline configuration, 
+    stanza's Pipeline fails to initialize customized models for a language if 
+    the official stanza's models for the language (corresponding to the current 
+    stanza's version) are missing. 
+    This method checks for existence of the language directory in stanza's 
+    resources, and if the directory is missing, then downloads default resources 
+    for the language.
+    '''
+    if lang is not None:
+        from stanza.resources.common import DEFAULT_MODEL_DIR
+        if not any([lang == fname for fname in os.listdir(DEFAULT_MODEL_DIR)]):
+            print(f'Downloading default resources for language {lang!r}:')
+            from stanza import download
+            download(lang=lang)
+
+def download_estnltk_default_resources( is_ensemble=False ):
+    '''
+    Problem: StanzaSyntax(Ensemble)Tagger wraps around stanza's Pipeline 
+    and inherits the customized model initialization problem: even if a 
+    the tagger is instructed to use a customized model, we still need to 
+    provide the default model directory to get the Pipeline working. 
+    This method checks for existence of StanzaSyntax(Ensemble)Tagger's 
+    default model and if the default model directory is missing, then 
+    downloads the default model.
+    '''
+    from estnltk.downloader import get_resource_paths
+    if not is_ensemble:
+        resources_path = \
+            get_resource_paths("stanzasyntaxtagger", only_latest=True, 
+                                                     download_missing=False)
+        if resources_path is None:
+            from estnltk import download
+            download("stanzasyntaxtagger")
+    else:
+        resources_path = \
+            get_resource_paths("stanzasyntaxensembletagger", only_latest=True, 
+                                                     download_missing=False)
+        if resources_path is None:
+            from estnltk import download
+            download("stanzasyntaxensembletagger")
+
+
+# ===============================================================
 #  Run trained models / get predictions (MAIN)
 # ===============================================================
 
@@ -63,12 +112,16 @@ def run_models_main( conf_file, subexp=None, dry_run=False ):
                 # ------------------------------------------
                 # 'full_data'
                 # ------------------------------------------
-                # train_file with path
-                if not config.has_option(section, 'train_file'):
-                    raise ValueError(f'Error in {conf_file}: section {section!r} is missing "train_file" parameter.')
-                train_file = config[section]['train_file']
-                if not os.path.isfile(train_file):
-                    raise FileNotFoundError(f'Error in {conf_file}: invalid "train_file" value {train_file!r} in {section!r}.')
+                # skip_train: do not predict on train file(s)
+                skip_train = config[section].getboolean('skip_train', False)
+                train_file = None
+                if not skip_train:
+                    # train_file with path
+                    if not config.has_option(section, 'train_file'):
+                        raise ValueError(f'Error in {conf_file}: section {section!r} is missing "train_file" parameter.')
+                    train_file = config[section]['train_file']
+                    if not os.path.isfile(train_file):
+                        raise FileNotFoundError(f'Error in {conf_file}: invalid "train_file" value {train_file!r} in {section!r}.')
                 # test_file with path
                 if not config.has_option(section, 'test_file'):
                     raise ValueError(f'Error in {conf_file}: section {section!r} is missing "test_file" parameter.')
@@ -79,15 +132,23 @@ def run_models_main( conf_file, subexp=None, dry_run=False ):
                 if not config.has_option(section, 'output_dir'):
                     raise ValueError(f'Error in {conf_file}: section {section!r} is missing "output_dir" parameter.')
                 output_dir = config[section]['output_dir']
-                # use_estnltk=True and use_ensemble=False -- run model with estnltk's preprocessing and StanzaSyntaxTagger;
-                # use_estnltk=True and use_ensemble=True  -- run model with estnltk's preprocessing and StanzaSyntaxEnsembleTagger;
-                # use_estnltk=False                       -- run model on input feats loaded from conllu file;
+                # 1) use_estnltk=True and use_ensemble=False -- run model with estnltk's preprocessing and StanzaSyntaxTagger;
+                # 2) use_estnltk=True and use_ensemble=True  -- run model with estnltk's preprocessing and StanzaSyntaxEnsembleTagger
+                #     and use_majority_voting=False             (with aggregation_algorithm="las_coherence");
+                # 3) use_estnltk=True and use_ensemble=True  -- run model with estnltk's preprocessing and StanzaSyntaxEnsembleTagger
+                #     and use_majority_voting=True              (with aggregation_algorithm="majority_voting");
+                # 4) use_estnltk=False                       -- run model on input feats loaded from conllu file;
                 use_estnltk  = config[section].getboolean('use_estnltk', False)
                 use_ensemble = config[section].getboolean('use_ensemble', False)
+                use_majority_voting = config[section].getboolean('use_majority_voting', False)
                 if use_ensemble and not use_estnltk:
                     raise ValueError(f'Error in {conf_file}: section {section!r} conflicting '+\
                                      'configuration use_estnltk=False and use_ensemble=True. '+\
                                      'Cannot use ensemble tagger without estnltk.' )
+                if use_majority_voting and not use_ensemble:
+                    raise ValueError(f'Error in {conf_file}: section {section!r} conflicting '+\
+                                     'configuration use_ensemble=False and use_majority_voting=True. '+\
+                                     'Cannot use majority_voting without ensemble.' )
                 default_tagger_path = 'estnltk_neural.taggers.StanzaSyntaxTagger' if not use_ensemble else \
                                       'estnltk_neural.taggers.StanzaSyntaxEnsembleTagger'
                 tagger_path = config[section].get('tagger_path', default_tagger_path)
@@ -128,24 +189,26 @@ def run_models_main( conf_file, subexp=None, dry_run=False ):
                 if not dry_run:
                     start_time = datetime.now()
                     # Predict on train data
-                    train_output = os.path.join(output_dir, f'{output_prefix}train.conllu')
-                    if use_estnltk:
-                        if not config.has_option(section, 'morph_layer'):
-                            raise ValueError(f'Error in {conf_file}: section {section!r} is missing "morph_layer" parameter.')
-                        morph_layer = config[section]['morph_layer']
-                        if not use_ensemble:
-                            # run StanzaSyntaxTagger
-                            predict_with_stanza_tagger(train_file, morph_layer, model_file, train_output, 
-                                                       tagger_path=tagger_path, seed=seed, lang=lang, 
-                                                       use_gpu=use_gpu)
+                    if not skip_train:
+                        train_output = os.path.join(output_dir, f'{output_prefix}train.conllu')
+                        if use_estnltk:
+                            if not config.has_option(section, 'morph_layer'):
+                                raise ValueError(f'Error in {conf_file}: section {section!r} is missing "morph_layer" parameter.')
+                            morph_layer = config[section]['morph_layer']
+                            if not use_ensemble:
+                                # run StanzaSyntaxTagger
+                                predict_with_stanza_tagger(train_file, morph_layer, model_file, train_output, 
+                                                           tagger_path=tagger_path, seed=seed, lang=lang, 
+                                                           use_gpu=use_gpu)
+                            else:
+                                # run StanzaSyntaxEnsembleTagger
+                                predict_with_stanza_ensemble_tagger(train_file, morph_layer, model_files, train_output, 
+                                                                    tagger_path=tagger_path, seed=seed, lang=lang, 
+                                                                    use_majority_voting=use_majority_voting, 
+                                                                    use_gpu=use_gpu, scores_seed=scores_seed)
                         else:
-                            # run StanzaSyntaxEnsembleTagger
-                            predict_with_stanza_ensemble_tagger(train_file, morph_layer, model_files, train_output, 
-                                                                tagger_path=tagger_path, seed=seed, lang=lang, 
-                                                                use_gpu=use_gpu, scores_seed=scores_seed)
-                    else:
-                        # run vanilla stanza
-                        predict_with_stanza(train_file, model_file, train_output, lang=lang, use_gpu=use_gpu)
+                            # run vanilla stanza
+                            predict_with_stanza(train_file, model_file, train_output, lang=lang, use_gpu=use_gpu)
                     # Predict on test data
                     test_output = os.path.join(output_dir, f'{output_prefix}test.conllu')
                     if use_estnltk:
@@ -161,6 +224,7 @@ def run_models_main( conf_file, subexp=None, dry_run=False ):
                             # run StanzaSyntaxEnsembleTagger
                             predict_with_stanza_ensemble_tagger(test_file, morph_layer, model_files, test_output, 
                                                                 tagger_path=tagger_path, seed=seed, lang=lang, 
+                                                                use_majority_voting=use_majority_voting, 
                                                                 use_gpu=use_gpu, scores_seed=scores_seed)
                     else:
                         # run vanilla stanza
@@ -206,6 +270,12 @@ def run_models_main( conf_file, subexp=None, dry_run=False ):
                 tagger_path = config[section].get('tagger_path', 'estnltk_neural.taggers.StanzaSyntaxTagger')
                 dry_run = config[section].getboolean('dry_run', dry_run)
                 use_gpu = config[section].getboolean('use_gpu', False)
+                # skip_train: do not predict on train files
+                skip_train = config[section].getboolean('skip_train', False)
+                # test_matrix prediction mode: run all models on all test files
+                test_matrix = config[section].getboolean('test_matrix', False) 
+                if test_matrix and not test_file_is_pattern:
+                    raise ValueError('(!) test_matrix can only be used if test file name is a regular expression')
                 output_prefix = config[section].get('output_file_prefix', 'predicted_')
                 seed = config[section].getint('seed', 43)
                 lang = config[section].get('lang', 'et')
@@ -225,8 +295,8 @@ def run_models_main( conf_file, subexp=None, dry_run=False ):
                               output_dir, output_file_prefix=output_prefix, subexp=subexp, 
                               test_file_is_pattern=test_file_is_pattern, parser=parser, 
                               use_estnltk=use_estnltk, morph_layer=morph_layer, seed=seed, 
-                              tagger_path=tagger_path, lang=lang, use_gpu=use_gpu, 
-                              dry_run=dry_run )
+                              tagger_path=tagger_path, lang=lang, skip_train=skip_train, 
+                              test_matrix=test_matrix, use_gpu=use_gpu, dry_run=dry_run )
     if not section_found:
         print(f'No section starting with "predict_stanza_" in {conf_file}.')
 
@@ -235,7 +305,7 @@ def bulk_predict( data_folder, models_folder, train_file_pattern, test_file_path
                   output_path, output_file_prefix='predicted_', subexp=None, 
                   test_file_is_pattern=False, parser='stanza', use_estnltk=False, 
                   morph_layer=None, seed=None, tagger_path=None, lang='et', 
-                  use_gpu=False, dry_run=False ):
+                  skip_train=False, test_matrix=False, use_gpu=False, dry_run=False ):
     '''
     Runs models of multiple sub-experiments on (train/test) files from `data_folder`. 
     Outputs prediction conllu files to `output_path`. 
@@ -248,6 +318,15 @@ def bulk_predict( data_folder, models_folder, train_file_pattern, test_file_path
     a regular expression (must have named group 'exp') and used to find a test file 
     corresponding to train file from `data_folder`. 
     
+    By default, each model is evaluated on a train file, and on either a single 
+    test file or a test file corresponding to the training file (of the sub-
+    experiment). 
+    If skip_train==True, then no evaluation is done on train files. Note, however, 
+    that even with skip_train==True, `train_file_pattern` must be provided, as it
+    is required for determining sub-experiment names and finding corresponding 
+    models.
+    If test_matrix==True, then each model is evaluated on all test files. 
+    The test_matrix mode only works with test_file_is_pattern=True option. 
     Use parameter `subexp` to restrict predictions only to a single sub-experiment 
     instead of performing all sub-experiments. 
     This is useful when multiple instances of the Python are launched for 
@@ -283,6 +362,8 @@ def bulk_predict( data_folder, models_folder, train_file_pattern, test_file_path
             raise ValueError(f'Unable to convert {test_file_path!r} to regexp') from err
         if 'exp' not in test_file_regex.groupindex:
             raise ValueError(f'Regexp {test_file_path!r} is missing named group "exp"')
+    if test_matrix and test_file_regex is None:
+        raise Exception(f'(!) test_matrix can only be used if test_file_regex is provided')
     # Convert train_file_pattern to regular experssion
     train_file_regex = None
     if not isinstance(train_file_pattern, str):
@@ -293,58 +374,112 @@ def bulk_predict( data_folder, models_folder, train_file_pattern, test_file_path
         raise ValueError(f'Unable to convert {train_file_pattern!r} to regexp') from err
     if 'exp' not in train_file_regex.groupindex:
         raise ValueError(f'Regexp {train_file_pattern!r} is missing named group "exp"')
+    #
     # Collect experiment input files
+    #
     models_folder_files = [ fname for fname in os.listdir(models_folder) ]
     experiment_data = { 'train':[], 'test':[], 'models': [], 'numbers':[] }
-    for fname in sorted( os.listdir(data_folder) ):
-        m = train_file_regex.match(fname)
-        if m:
-            if not (fname.lower()).endswith('.conllu'):
-                raise Exception( f'(!) invalid file {fname}: train file '+\
-                                  'must have extension .conllu' )
-            fpath = os.path.join(data_folder, fname)
-            # Training file varies, depending on the sub set of data
-            experiment_data['train'].append( fpath )
-            no = m.group('exp')
-            if no not in experiment_data['numbers']:
-                experiment_data['numbers'].append(no)
-            if test_file_regex is None:
-                # No regexp for test file:
-                # Test file is always the same
-                experiment_data['test'].append( test_file_path )
-            else:
-                # Test file regexp provided:
-                # Find test file corresponding to train file
-                found_test_file = None
+    if not test_matrix:
+        # ==============================================================
+        #  Default mode:
+        #  * run each model on its train file (if not skip_train)
+        #  * run each model on its test file or on the global test file
+        # ==============================================================
+        for fname in sorted( os.listdir(data_folder) ):
+            m = train_file_regex.match(fname)
+            if m:
+                if not (fname.lower()).endswith('.conllu'):
+                    raise Exception( f'(!) invalid file {fname}: train file '+\
+                                      'must have extension .conllu' )
+                fpath = os.path.join(data_folder, fname)
+                # Training file varies, depending on the sub set of data
+                experiment_data['train'].append( fpath )
+                no = m.group('exp')
+                if no not in experiment_data['numbers']:
+                    experiment_data['numbers'].append(no)
+                if test_file_regex is None:
+                    # No regexp for test file:
+                    # Test file is always the same (global test file)
+                    experiment_data['test'].append( test_file_path )
+                else:
+                    # Test file regexp provided:
+                    # Find test file corresponding to train file
+                    found_test_file = None
+                    for fname_2 in sorted( os.listdir(data_folder) ):
+                        m2 = test_file_regex.match(fname_2)
+                        if m2:
+                            no2 = m2.group('exp')
+                            if no2 == no:
+                                found_test_file = \
+                                    os.path.join(data_folder, fname_2)
+                                break
+                    if found_test_file is not None:
+                        experiment_data['test'].append( found_test_file )
+                    else:
+                        raise Exception(f'(!) Unable to find test file corresponding '+\
+                                        f'to train file {fname!r} from {data_folder!r}.')
+                # Find corresponding model from the models folder
+                target_model_file = f"model_{no}.pt"
+                model_found = False
+                for model_fname in models_folder_files:
+                    if model_fname == target_model_file:
+                        mfpath = os.path.join(models_folder, model_fname)
+                        experiment_data['models'].append(mfpath)
+                        model_found = True
+                        break
+                if not model_found:
+                    if not dry_run:
+                        raise Exception(f'(!) Unable to find model {target_model_file!r} from {models_folder!r}')
+                    else:
+                        # Try run, emulate only, don't chk for models
+                        experiment_data['models'].append(target_model_file)
+    else:
+        # ==============================================================
+        #  Test matrix mode:
+        #  * run each model on its train file (if train file is available)
+        #  * run each model on all test files
+        # ==============================================================
+        for fname in sorted( os.listdir(data_folder) ):
+            m = test_file_regex.match(fname)
+            if m:
+                if not (fname.lower()).endswith('.conllu'):
+                    raise Exception( f'(!) invalid file {fname}: test file '+\
+                                      'must have extension .conllu' )
+                no = m.group('exp')
+                if no not in experiment_data['numbers']:
+                    experiment_data['numbers'].append(no)
+                # Placeholder for test file to pass checks below
+                found_test_file = os.path.join(data_folder, fname)
+                experiment_data['test'].append( found_test_file )
+                # Find corresponding model from the models folder
+                target_model_file = f"model_{no}.pt"
+                model_found = False
+                for model_fname in models_folder_files:
+                    if model_fname == target_model_file:
+                        mfpath = os.path.join(models_folder, model_fname)
+                        experiment_data['models'].append(mfpath)
+                        model_found = True
+                        break
+                if not model_found:
+                    if not dry_run:
+                        raise Exception(f'(!) Unable to find model {target_model_file!r} from {models_folder!r}')
+                    else:
+                        # Try run, emulate only, don't chk for models
+                        experiment_data['models'].append(target_model_file)
+                # Try to find corresponding train file (optional)
+                found_train_file = None
                 for fname_2 in sorted( os.listdir(data_folder) ):
-                    m2 = test_file_regex.match(fname_2)
+                    m2 = train_file_regex.match(fname_2)
                     if m2:
                         no2 = m2.group('exp')
                         if no2 == no:
-                            found_test_file = \
+                            found_train_file = \
                                 os.path.join(data_folder, fname_2)
                             break
-                if found_test_file is not None:
-                    experiment_data['test'].append( found_test_file )
-                else:
-                    raise Exception(f'(!) Unable to find test file corresponding '+\
-                                    f'to train file {fname!r} from {data_folder!r}.')
-            # Find corresponding model from the models folder
-            target_model_file = f"model_{no}.pt"
-            model_found = False
-            for model_fname in models_folder_files:
-                if model_fname == target_model_file:
-                    mfpath = os.path.join(models_folder, model_fname)
-                    experiment_data['models'].append(mfpath)
-                    model_found = True
-                    break
-            if not model_found:
-                if not dry_run:
-                    raise Exception(f'(!) Unable to find model {target_model_file!r} from {models_folder!r}')
-                else:
-                    # Try run, emulate only, don't chk for models
-                    experiment_data['models'].append(target_model_file)
+                experiment_data['train'].append(found_train_file)
+    #
     # Validate that we have all required files
+    #
     for subset in ['train']:
         if len(experiment_data[subset]) == 0:
             raise Exception(f'Unable to find any {subset} files '+\
@@ -363,7 +498,9 @@ def bulk_predict( data_folder, models_folder, train_file_pattern, test_file_path
         if subexp not in experiment_data['numbers']:
             raise ValueError( f'(!) sub-experiment {subexp!r} not in collected '+\
                               f'experiment names: {experiment_data["numbers"]}.' )
+    #
     # Launch experiments
+    #
     if not dry_run:
         start_time = datetime.now()
         for i in range( len(experiment_data['numbers']) ):
@@ -375,22 +512,38 @@ def bulk_predict( data_folder, models_folder, train_file_pattern, test_file_path
                 # Skip other experiments
                 continue
             if parser == 'stanza':
-                # Predict on train data
-                train_output = os.path.join(output_path, f'{output_file_prefix}train_{exp_no}.conllu')
-                if use_estnltk:
-                    predict_with_stanza_tagger(train_file, morph_layer, model_file, train_output, 
-                                               tagger_path=tagger_path, seed=seed, lang=lang, 
-                                               use_gpu=use_gpu)
-                else:
-                    predict_with_stanza(train_file, model_file, train_output, lang=lang, use_gpu=use_gpu)
+                # Predict on train data (optional, can be skipped)
+                if train_file is not None and not skip_train:
+                    train_output = os.path.join(output_path, f'{output_file_prefix}train_{exp_no}.conllu')
+                    if use_estnltk:
+                        predict_with_stanza_tagger(train_file, morph_layer, model_file, train_output, 
+                                                   tagger_path=tagger_path, seed=seed, lang=lang, 
+                                                   use_gpu=use_gpu)
+                    else:
+                        predict_with_stanza(train_file, model_file, train_output, lang=lang, use_gpu=use_gpu)
                 # Predict on test data
-                test_output = os.path.join(output_path, f'{output_file_prefix}test_{exp_no}.conllu')
-                if use_estnltk:
-                    predict_with_stanza_tagger(test_file, morph_layer, model_file, test_output, 
-                                               tagger_path=tagger_path, seed=seed, lang=lang, 
-                                               use_gpu=use_gpu)
+                if not test_matrix:
+                    # Predict on single test file
+                    test_output = os.path.join(output_path, f'{output_file_prefix}test_{exp_no}.conllu')
+                    if use_estnltk:
+                        predict_with_stanza_tagger(test_file, morph_layer, model_file, test_output, 
+                                                   tagger_path=tagger_path, seed=seed, lang=lang, 
+                                                   use_gpu=use_gpu)
+                    else:
+                        predict_with_stanza(test_file, model_file, test_output, lang=lang, use_gpu=use_gpu)
                 else:
-                    predict_with_stanza(test_file, model_file, test_output, lang=lang, use_gpu=use_gpu)
+                    # Predict for matrix: predict on all test files
+                    for j in range( len(experiment_data['numbers']) ):
+                        exp_no2 = experiment_data['numbers'][j]
+                        test_file2 = experiment_data['test'][j]
+                        test_output = os.path.join(output_path, \
+                            f'{output_file_prefix}model_{exp_no}_test_{exp_no2}.conllu')
+                        if use_estnltk:
+                            predict_with_stanza_tagger(test_file2, morph_layer, model_file, test_output, 
+                                                       tagger_path=tagger_path, seed=seed, lang=lang, 
+                                                       use_gpu=use_gpu)
+                        else:
+                            predict_with_stanza(test_file2, model_file, test_output, lang=lang, use_gpu=use_gpu)
             print()
         print()
         print(f'Total time elapsed: {datetime.now()-start_time}')
@@ -472,6 +625,8 @@ def predict_with_stanza(input_path, model_path, output_path, lang='et', use_gpu=
     :param model_path:  path to depparse model to be used for making predictions
     :param output_path: path to output conllu file
     '''
+    # Get default resources for the language (if needed)
+    download_stanza_default_resources(lang)
     config = {
         'processors': 'depparse',  # Comma-separated list of processors to use
         'lang': lang,  # Language code for the language to build the Pipeline in
@@ -509,6 +664,9 @@ def predict_with_stanza_tagger(input_path, morph_layer, model_path, output_path,
     :param tagger_path: full import path of StanzaSyntaxTagger
     :param seed:        seed of the random process creating unambiguous morph analysis layer
     '''
+    # Get default resources for the language (if needed)
+    download_stanza_default_resources(lang)
+    download_estnltk_default_resources(is_ensemble=False)
     tagger_loader = \
         create_stanza_tagger_loader( tagger_path, model_path, morph_layer, use_gpu=use_gpu, seed=seed )
     tagger = tagger_loader.tagger  # Load tagger
@@ -521,7 +679,8 @@ def predict_with_stanza_tagger(input_path, morph_layer, model_path, output_path,
 
 def predict_with_stanza_ensemble_tagger(input_path, morph_layer, model_paths, output_path, 
                                         tagger_path='estnltk_neural.taggers.StanzaSyntaxEnsembleTagger', 
-                                        seed=None, scores_seed=None, lang='et', use_gpu=False, verbose=True):
+                                        seed=None, scores_seed=None, use_majority_voting=False, 
+                                        lang='et', use_gpu=False, verbose=True):
     '''
     Applies estnltk's StanzaSyntaxEnsembleTagger on given input CONLLU file to get depparse predictions. 
     Uses estnltk's preprocessing to load and re-annotate document (adds morph_layer). 
@@ -531,7 +690,7 @@ def predict_with_stanza_ensemble_tagger(input_path, morph_layer, model_paths, ou
     use `tagger_path` to overwrite the importing path. Use this if you've customized the tagger 
     (e.g. made fixes for it), and want to test it out (instead of the default version). 
 
-    Requires: estnltk v1.7.2+
+    Requires: estnltk v1.7.3+
 
     :param input_path:  path to conllu file to be annotated
     :param morph_layer: name of estnltk's morphological analysis layer
@@ -540,9 +699,15 @@ def predict_with_stanza_ensemble_tagger(input_path, morph_layer, model_paths, ou
     :param tagger_path: full import path of StanzaSyntaxEnsembleTagger
     :param seed:        seed of the random process creating unambiguous morph analysis layer
     :param scores_seed: seed of the random process picking one parse from multiple parses with max score
+    :param use_majority_voting: whether StanzaSyntaxEnsembleTagger should use 'majority_voting' as the 
+                                aggregation algorithm
     '''
+    # Get default resources for the language (if needed)
+    download_stanza_default_resources(lang)
+    download_estnltk_default_resources(is_ensemble=True)
     tagger_loader = \
         create_stanza_ensemble_tagger_loader( tagger_path, model_paths, morph_layer, 
+                                              use_majority_voting=use_majority_voting, 
                                               use_gpu=use_gpu, seed=seed, scores_seed=scores_seed )
     tagger = tagger_loader.tagger  # Load tagger
     if verbose:
@@ -573,7 +738,8 @@ def create_stanza_tagger_loader( tagger_path, model_path, input_morph_layer, use
                          output_attributes=('id', 'lemma', 'upostag', 'xpostag', 'feats', 'head', 'deprel', 'deps', 'misc'),
                          parameters=parameters )
                                       
-def create_stanza_ensemble_tagger_loader( tagger_path, model_paths, input_morph_layer, use_gpu=False, seed=None, scores_seed=None ):
+def create_stanza_ensemble_tagger_loader( tagger_path, model_paths, input_morph_layer, use_majority_voting=False, 
+                                          use_gpu=False, seed=None, scores_seed=None ):
     '''Creates estnltk's TaggerLoader for customized importing of StanzaSyntaxEnsembleTagger.'''
     from estnltk_core.taggers import TaggerLoader
     parameters={ 'input_morph_layer': input_morph_layer, 
@@ -583,6 +749,8 @@ def create_stanza_ensemble_tagger_loader( tagger_path, model_paths, input_morph_
         parameters['random_pick_seed'] = seed
     if isinstance(scores_seed, int):
         parameters['random_pick_max_score_seed'] = scores_seed
+    if use_majority_voting:
+        parameters['aggregation_algorithm'] = 'majority_voting'
     return TaggerLoader( 'stanza_ensemble_syntax', 
                          ['sentences', input_morph_layer, 'words'], 
                          tagger_path, 

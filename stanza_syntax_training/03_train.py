@@ -16,7 +16,11 @@ import re
 import argparse
 from datetime import datetime
 
+from packaging.version import Version as pkg_Version
+from packaging.version import parse as parse_version
+
 from stanza.models.parser import main as stanza_main
+from stanza import __version__ as stanza_version
 
 from stanza.utils.conll18_ud_eval import load_conllu_file as stanza_load_conllu_file
 from stanza.utils.conll18_ud_eval import evaluate
@@ -25,7 +29,7 @@ from stanza.utils.conll18_ud_eval import build_evaluation_table
 import configparser
 
 # ===============================================================
-#  Create data splits required by experiments (MAIN)
+#  Train Stanza for syntactic parsing (MAIN)
 # ===============================================================
 
 def train_models_main( conf_file, subexp=None, dry_run=False ):
@@ -269,6 +273,7 @@ def train_stanza(train_file, eval_file, output_model_dir, output_model_file, out
     Note: in previous experiments, in addition to `eval_file`, a separate parameter 
     `gold_file` was defined. Here, we assume that `gold_file` == `eval_file`, so only 
     parameter `eval_file` is required. 
+    Note: since stanza version 1.8.2, argument `gold_file` is no longer supported;
     
     Uses parameters of stanza parser:
     --save_dir : Root dir for saving models (output_model_dir)
@@ -285,9 +290,13 @@ def train_stanza(train_file, eval_file, output_model_dir, output_model_file, out
     '''
     if not os.path.exists(output_model_dir):
         os.makedirs(output_model_dir, exist_ok=True)
+    if parse_version(stanza_version) < pkg_Version('1.5.0'):
+        gold_file_str = f'--gold_file {eval_file}'
+    else:
+        gold_file_str = ''
     stanza_args = \
         f'--save_dir {output_model_dir} --save_name {output_model_file} --train_file {train_file} --eval_file {eval_file} --no_pretrain '+\
-        f'--output_file {output_file} --gold_file {eval_file} --lang {lang} --shorthand {treebank} --mode train {args}'
+        f'--output_file {output_file} {gold_file_str} --lang {lang} --shorthand {treebank} --mode train {args}'
     if dry_run:
         return
     stanza_main( args=stanza_args.split() )
@@ -301,6 +310,7 @@ def predict_eval_with_stanza(eval_file, output_model_dir, output_model_file, out
     Note: in previous experiments, in addition to `eval_file`, a separate parameter 
     `gold_file` was defined. Here, we assume that `gold_file` == `eval_file`, so only 
     parameter `eval_file` is required. 
+    Note: since stanza version 1.8.2, argument `gold_file` is no longer supported;
     
     Uses parameters of stanza parser:
     --save_dir : Root dir for saving models (output_model_dir)
@@ -315,9 +325,13 @@ def predict_eval_with_stanza(eval_file, output_model_dir, output_model_file, out
     '''
     if not os.path.exists(output_model_dir):
         raise ValueError(f'(!) Non-existent model path: {output_model_dir}/{output_model_file}')
+    if parse_version(stanza_version) < pkg_Version('1.5.0'):
+        gold_file_str = f'--gold_file {eval_file}'
+    else:
+        gold_file_str = ''
     stanza_args = \
         f'--save_dir {output_model_dir} --save_name {output_model_file} --no_pretrain --eval_file {eval_file} '+\
-        f'--output_file {output_file} --gold_file {eval_file} --lang {lang} --shorthand {treebank} --mode predict '+\
+        f'--output_file {output_file} {gold_file_str} --lang {lang} --shorthand {treebank} --mode predict '+\
         f'{args}'
     if dry_run:
         return
