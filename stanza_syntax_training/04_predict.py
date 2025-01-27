@@ -49,7 +49,7 @@ def download_stanza_default_resources( lang: str ):
 def download_estnltk_default_resources( is_ensemble=False ):
     '''
     Problem: StanzaSyntax(Ensemble)Tagger wraps around stanza's Pipeline 
-    and inherits the customized model initialization problem: even if a 
+    and inherits the customized model initialization problem: even if 
     the tagger is instructed to use a customized model, we still need to 
     provide the default model directory to get the Pipeline working. 
     This method checks for existence of StanzaSyntax(Ensemble)Tagger's 
