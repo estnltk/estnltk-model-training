@@ -1,0 +1,3 @@
+experiment,LAS_test,UAS_test
+eval_stanza_morph_extended_full_data,0.8484,0.8775
+eval_stanza_morph_extended_with_phrase_omissions_full_data,0.8345,0.8676
