@@ -91,8 +91,8 @@ Manually checked approx 1000 differences can be found in the directory [`manual_
 
 #### [`05_muna_homonym.ipynb`](./05_muna_homonym.ipynb)
 It contains:
-* BertMorphTagger training only on the word "muna" in the sentences.
-* evaluation on the sentences and [converted version of the Estonian Dependency Treebank (EDT)](https://github.com/UniversalDependencies/UD_Estonian-EDT).
+* BertMorphTagger training only on the word "muna" in the [sentences](./experiment_with_homonym_muna/); 
+* evaluation on the ["muna" sentences](./experiment_with_homonym_muna/) and [converted version of the Estonian Dependency Treebank (EDT)](https://github.com/UniversalDependencies/UD_Estonian-EDT).
 
 **Sections**
 * Gathering Data

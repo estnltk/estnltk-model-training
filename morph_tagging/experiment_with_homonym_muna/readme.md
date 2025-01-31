@@ -5,8 +5,3 @@
 **Lähteandmestik**: failis [100\_manually\_corrected\_muna\_sentences.jl](100_manually_corrected_muna_sentences.jl) on 100 lauset, milles sõna _muna_ tõlgendused on käsitsi parandatud. Laused pärinevad Eesti ühendkorpuse Tasakaalus korpuse alamosast. 
 
 Ühes lauses võib sõna _muna_ esineda mitu korda, samuti võib _muna_ esineda ka käänetes, mille tõlgendamisega probleeme pole, seetõttu on parandused listis ning parandatud sõna täpne asukoht lauses on edasi antud start/end indeksite abil, nt `"text": "Ühes pesas üks muna.", "correct_forms": [{"word": "muna", "form": "S_sg n", "start": 15, "end": 19}]`.
-
-**TODO**:
-
-* baseline: mõõta kui hästi BertMorphTagger saab sõna _muna_ analüüsiga hakkama ilma kohendusteta?
-* treenida mudelit osalise märgenduse peal ( st õppida ainult sõna _muna_ | ~_selective loss masking_ ) ning mõõta samal korpusel, kas _muna_ analüüsid lähevad paika?
