@@ -59,7 +59,10 @@ It contains:
 * Creating comparison data
 * Using BertMorphTagger for predictions
 
-Results can be found in the [`manual_check`](./manual_check/) directory, where manual checking of the differences gathered in [`03_compare_with_vabamorf.ipynb`](03_compare_with_vabamorf.ipynb) using the version of the model trained additionally on the [converted version of the Estonian Dependency Treebank (EDT)](https://github.com/UniversalDependencies/UD_Estonian-EDT)  ([`04_train_on_UD_EST-EDT_treebank.ipynb`](#04_train_on_ud_est-edt_treebankipynb)).
+All annotations of both taggers and all differences can be found at: [diff_morph_texts_json_model_v1.zip](https://s3.hpc.ut.ee/estnltk/auxiliary-data/bert_morph_training/diff_morph_texts_json_model_v1.zip)
+
+Manually checked 100 differences can be found in the directory [`manual_check`](./manual_check/)  (`01_morph_analysis_vs_bert_morph_x100_even_manual_check.txt` ). 
+The direcory also contains file `02_morph_analysis_vs_bert_morph_x1000_even.txt` with 1000 randomly drawn differences that have not yet gone through manual evaluation. 
 
 #### [`04_train_on_UD_EST-EDT_treebank.ipynb`](./04_train_on_UD_EST-EDT_treebank.ipynb)
 It contains:
@@ -81,6 +84,10 @@ It contains:
 
 #### [`04b_compare_model_2_with_vabamorf.ipynb`](./04b_compare_model_2_with_vabamorf.ipynb)
 It contains code that generates comparison results saved as a `.txt` file where the summary and all individual differences are listed.
+
+All annotations of both taggers and all differences can be found at: [diff_morph_texts_json_model_v2.zip](https://s3.hpc.ut.ee/estnltk/auxiliary-data/bert_morph_training/diff_morph_texts_json_model_v2.zip)
+
+Manually checked approx 1000 differences can be found in the directory [`manual_check`](./manual_check/)  (`03_morph_analysis_vs_bert_morph_2_x1000_even_checked.txt` ).
 
 #### [`05_muna_homonym.ipynb`](./05_muna_homonym.ipynb)
 It contains:
@@ -115,6 +122,14 @@ Evaluations on UD treebank
 | Bert_morph_v2_muna_2[^3] | 0.9559    | 0.9455 | 0.9464   |
 
 \* Metrics are from weighted average
+
+**Finetuning datasets and models**
+
+* Datasets used in these experiments can be found here: [finetuning_and_eval_data.zip](https://s3.hpc.ut.ee/estnltk/auxiliary-data/bert_morph_training/finetuning_and_eval_data.zip);
+* Models are available in tartuNLP huggingface repository: [Bert_morph_v1](https://huggingface.co/tartuNLP/est-roberta-vm-morph-tagging/tree/b36e4e9ea1d1d0d3f2b4ec5e9f85b450ac53b1a2), [Bert_morph_v2](https://huggingface.co/tartuNLP/est-roberta-vm-morph-tagging/tree/a5c17c0f6f7eb88178d928bb8d2cfa35c6cdadf4)
+    * We recommend to use models via [BertMorphTagger component in EstNLTK-neural](https://github.com/estnltk/estnltk/blob/f88269f2e1999d483a78a5c9a12226b3d6501f96/tutorials/nlp_pipeline/B_morphology/08_bert_based_morph_tagger.ipynb);
+
+
 
 [^1]: Sven Laur, Siim Orasmaa, Dage Särg, Paul Tammo. "EstNLTK 1.6: Remastered Estonian NLP Pipeline". *Proceedings of The 12th Language Resources and Evaluation Conference*. European Language Resources Association: Marseille, France, May 2020, p. 7154-7162
 [^2]: Bert_morph_v2 model trained on the finetuning phase, on the muna-training set completely ignoring non-"muna" tokens
