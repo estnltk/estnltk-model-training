@@ -65,12 +65,21 @@ manual                     ['Z', '']  (+)
 Failis [`01_morph_analysis_vs_bert_morph_x100_even_manual_check.txt`](01_morph_analysis_vs_bert_morph_x100_even_manual_check.txt) on Vabamorfi ning Berti mudeli I[^1] käsitsi hinnatud 100 juhuslikku erinevust. Tulemused:
 
 <pre>
-  [++A] -- both correct, but vabamorf is ambiguous        46
-  [-]   -- only vabamorf correct                          31
-  [+]   -- only bert correct                              15
-  [?]   -- hard to tell                                   8
-  [++]  -- both correct and vabamorf is not ambiguous     0
-  [--]  -- both incorrect                                 0
+Total differences annotated: 100 / 100
+
+Ambiguous tagging results (ambiguous output is still correct):
+  both correct, but vabamorf ambiguous               47/100  47.00%
+  only morph_analysis_flat correct and unambiguous   17/100  17.00%
+  only bert_morph_tagging_flat correct               14/100  14.00%
+  only morph_analysis_flat correct, but ambiguous    12/100  12.00%
+  difficult to tell                                  9/100  9.00%
+  both incorrect (manual correct)                    1/100  1.00%
+
+Disambiguation results (ambiguous output is considered incorrect):
+  bert_morph_tagging_flat correct                    61/100  61.00%
+  morph_analysis_flat correct                        17/100  17.00%
+  both incorrect                                     13/100  13.00%
+  difficult to tell                                  9/100  9.00%
 </pre>
 
 Failis [`02_morph_analysis_vs_bert_morph_x1000_even.txt`](02_morph_analysis_vs_bert_morph_x1000_even.txt) on Vabamorfi ning Berti mudeli I[^1] 1000 juhuslikku erinevust. Käsitsi hindamist pole tehtud.

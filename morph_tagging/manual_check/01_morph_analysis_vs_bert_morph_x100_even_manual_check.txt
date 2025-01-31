@@ -1,32 +1,21 @@
 
-Manual evaluation results:
-
-   [++A] -- both correct, but vabamorf is ambiguous        46
-   [-]   -- only vabamorf correct                          31
-   [+]   -- only bert correct                              15
-   [?]   -- hard to tell                                   8
-   [++]  -- both correct and vabamorf is not ambiguous     0
-   [--]  -- both incorrect                                 0
-
-=====================================================================================
-
-blogs_and_forums::web13_272224_x.json::33698 [++A]
+blogs_and_forums::web13_272224_x.json::(15997, 15999)::33698
 
 ...asta tagasi) oodatud raamat, Epu enda reisiromaan "Kas süda  {on}  ümmargune?"\n\nLiigitus "reisiromaan" ütleb selle raamatu koh...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['V', 'b']
-bert_morph_tagging_flat    ['V', 'b']
+morph_analysis_flat        ['V', 'b']  (+)
+bert_morph_tagging_flat    ['V', 'b']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['V', 'vad']
 
 =====================================================================================
 
-blogs_and_forums::web13_282754_x.json::52390 [++A]
+blogs_and_forums::web13_282754_x.json::(3280, 3286)::52390
 
 ...oli vastik nali, millest televaataja oleks hea meelega ilma  {jäänud} . Kui Katrin Viirpalul pole midagi targemat ekraanile tuua, ...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['V', 'nud']
-bert_morph_tagging_flat    ['V', 'nud']
+morph_analysis_flat        ['V', 'nud']  (+)
+bert_morph_tagging_flat    ['V', 'nud']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['A', '']
 --- MISSING  --------------------------------------------------
@@ -36,25 +25,25 @@ morph_analysis_flat        ['A', 'sg n']
 
 =====================================================================================
 
-blogs_and_forums::web13_316739_x.json::47488 [++A]
+blogs_and_forums::web13_316739_x.json::(6010, 6017)::47488
 
 ...tlased Pariisis hindavad eesti keele võimalusi ja ilu, tänu  {millele}  muutub Eesti nende jaoks mõni kilomeeter lähemaks.\n\n***\n\nKr...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['P', 'sg all']
-bert_morph_tagging_flat    ['P', 'sg all']
+morph_analysis_flat        ['P', 'sg all']  (+)
+bert_morph_tagging_flat    ['P', 'sg all']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['P', 'pl all']
 
 =====================================================================================
 
-blogs_and_forums::web13_331060_x.json::2696 [-]
+blogs_and_forums::web13_331060_x.json::(5824, 5833)::2696
 
 ...s riigiks, kui sa saad pöörata toimiva riigi majanduslikult  {hävinenud}  feodaalseks ääremaaks?\n\nGaaš, arvestades kõik neid kinnitus...
 --- COMMON   --------------------------------------------------
 morph_analysis_flat        ['V', 'nud']
 bert_morph_tagging_flat    ['V', 'nud']
 --- MISSING  --------------------------------------------------
-morph_analysis_flat        ['A', '']
+morph_analysis_flat        ['A', '']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['A', 'sg n']
 --- MISSING  --------------------------------------------------
@@ -62,108 +51,108 @@ morph_analysis_flat        ['A', 'pl n']
 
 =====================================================================================
 
-blogs_and_forums::web13_348480_x.json::11331 [++A]
+blogs_and_forums::web13_348480_x.json::(584, 587)::11331
 
 ...mõtlesin ümber. Tubli tüdruk! Näitas Eesti õigusorganitele,  {kui}  masendavalt saamatud nad on. Ministeeriumi kommentaar: "Me ...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['J', '']
-bert_morph_tagging_flat    ['J', '']
+morph_analysis_flat        ['J', '']  (+)
+bert_morph_tagging_flat    ['J', '']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['D', '']
 
 =====================================================================================
 
-blogs_and_forums::web13_348839_x.json::8581 [-]
+blogs_and_forums::web13_348839_x.json::(9631, 9645)::8581
 
 ...jooma jne...\n\nVarem ma seda nii ei tähtsustanud, aga mingit  {kahe-kolmelist}  ma ka väga ei tahaks. Kuna minu elus on õppimine väga tähts...
 --- MODIFIED --------------------------------------------------
-morph_analysis_flat        ['S', 'sg p']
+morph_analysis_flat        ['S', 'sg p']  (+)
 bert_morph_tagging_flat    ['A', 'sg p']
 
 =====================================================================================
 
-blogs_and_forums::web13_416658_x.json::30434 [++A]
+blogs_and_forums::web13_416658_x.json::(1207, 1210)::30434
 
 ...puhkuse avalduse esitasin peale sünni registreerimist, siis  {kui}  lapse sünnitõend (enam sünnitunnistust ei väljastata) linna...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['J', '']
-bert_morph_tagging_flat    ['J', '']
+morph_analysis_flat        ['J', '']  (+)
+bert_morph_tagging_flat    ['J', '']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['D', '']
 
 =====================================================================================
 
-blogs_and_forums::web13_424705_x.json::70244 [-]
+blogs_and_forums::web13_424705_x.json::(577, 595)::70244
 
 ...alentinipäevaks. Küllap oled minuga nõus, et just selliseks  {vahukooretordiseks}  ongi see meil kujunenud. Nii et tegemist on ka ridade vahel...
 --- MODIFIED --------------------------------------------------
-morph_analysis_flat        ['A', 'sg tr']
+morph_analysis_flat        ['A', 'sg tr']  (+)
 bert_morph_tagging_flat    ['S', 'sg tr']
 
 =====================================================================================
 
-blogs_and_forums::web13_430774_x.json::22618 [-]
+blogs_and_forums::web13_430774_x.json::(15, 18)::22618
 
 ...roobert tuleb\n\n {Mis}  te õitsete, kuskohast see pidu paistab - njahh tagantpoolt ...
 --- COMMON   --------------------------------------------------
 morph_analysis_flat        ['P', 'sg n']
 bert_morph_tagging_flat    ['P', 'sg n']
 --- MISSING  --------------------------------------------------
-morph_analysis_flat        ['P', 'pl n']
+morph_analysis_flat        ['P', 'pl n']  (+)
 
 =====================================================================================
 
-blogs_and_forums::web13_434142_x.json::31815 [++A]
+blogs_and_forums::web13_434142_x.json::(7240, 7242)::31815
 
 ...\n\nRenoveeritud sild on avatud\n\nTerviseraja silla uuendamine  {on}  Reiu-Raeküla tervisespordikeskuse esimene etapp. Visiooni k...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['V', 'b']
-bert_morph_tagging_flat    ['V', 'b']
+morph_analysis_flat        ['V', 'b']  (+)
+bert_morph_tagging_flat    ['V', 'b']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['V', 'vad']
 
 =====================================================================================
 
-blogs_and_forums::web13_451811_x.json::64360 [-]
+blogs_and_forums::web13_451811_x.json::(2414, 2419)::64360
 
 ...siti ikka välja see zoo ja nekro. Tead neid parafiiliaid on  {miski}  kuuekümne ringis ja eks tõesti niiväga vabalt ei saa ju oma...
 --- MISSING  --------------------------------------------------
-morph_analysis_flat        ['P', 'sg n']
+morph_analysis_flat        ['P', 'sg n']  (+)
 --- EXTRA    --------------------------------------------------
 bert_morph_tagging_flat    ['D', '']
 
 =====================================================================================
 
-blogs_and_forums::web13_477529_x.json::24072 [++A]
+blogs_and_forums::web13_477529_x.json::(1255, 1262)::24072
 
 ... lapsi iga hetk tererist eemale saata, sest ei tea jua, mis  {millele}  järgneb. Ja see kolmeaastase ülekuulamine mänguasjadel on l...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['P', 'sg all']
-bert_morph_tagging_flat    ['P', 'sg all']
+morph_analysis_flat        ['P', 'sg all']  (+)
+bert_morph_tagging_flat    ['P', 'sg all']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['P', 'pl all']
 
 =====================================================================================
 
-blogs_and_forums::web13_487372_x.json::35563 [++A]
+blogs_and_forums::web13_487372_x.json::(303, 306)::35563
 
 ...a seebika eest arutu hind.\n\nTeeks endale kaks asja selgeks,  {üks}  on netipood ja teine tavaline kauplus, koos kõigi oma kulud...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['P', 'sg n']
-bert_morph_tagging_flat    ['P', 'sg n']
+morph_analysis_flat        ['P', 'sg n']  (+)
+bert_morph_tagging_flat    ['P', 'sg n']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['N', 'sg n']
 
 =====================================================================================
 
-blogs_and_forums::web13_498916_x.json::72840 [-]
+blogs_and_forums::web13_498916_x.json::(923, 929)::72840
 
 ...tsas, on asendatud kaardiga [wikimedia.org], kus neegrid on  {tehtud}  täislollideks ja moslemitest saanud poolearulised3. Poliitk...
 --- COMMON   --------------------------------------------------
 morph_analysis_flat        ['A', '']
 bert_morph_tagging_flat    ['A', '']
 --- MISSING  --------------------------------------------------
-morph_analysis_flat        ['V', 'tud']
+morph_analysis_flat        ['V', 'tud']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['A', 'sg n']
 --- MISSING  --------------------------------------------------
@@ -171,57 +160,57 @@ morph_analysis_flat        ['A', 'pl n']
 
 =====================================================================================
 
-blogs_and_forums::web13_549936_x.json::55263 [-]
+blogs_and_forums::web13_549936_x.json::(690, 692)::55263
 
 ...hõngu. Mandariinidest ja šokolaadist rääkides: su päkapikud  {on}  nii tublit tööd teinud, meie lasteaias rippuvad sussikesed ...
 --- COMMON   --------------------------------------------------
 morph_analysis_flat        ['V', 'b']
 bert_morph_tagging_flat    ['V', 'b']
 --- MISSING  --------------------------------------------------
-morph_analysis_flat        ['V', 'vad']
+morph_analysis_flat        ['V', 'vad']  (+)
 
 =====================================================================================
 
-blogs_and_forums::web13_578844_x.json::58764 [+]
+blogs_and_forums::web13_578844_x.json::(3490, 3494)::58764
 
 ...ult!\n\nVasta\n\närkas nüüd? ?\n\n15.12.2008 16:49\n\nMiks savisaar  {alle}  nüüd ärkas, lugu oli 7 dets.? Ilmselt annab siit midagi pun...
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['S', 'sg g']
 --- EXTRA    --------------------------------------------------
-bert_morph_tagging_flat    ['D', '']
+bert_morph_tagging_flat    ['D', '']  (+)
 
 =====================================================================================
 
-blogs_and_forums::web13_583396_x.json::2743 [++A]
+blogs_and_forums::web13_583396_x.json::(360, 362)::2743
 
 ... kust need tõved on pahatihti alguse saanud. Kaalujälgimine  {on}  sobiv ainult täiskasvanud inimestele....
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['V', 'b']
-bert_morph_tagging_flat    ['V', 'b']
+morph_analysis_flat        ['V', 'b']  (+)
+bert_morph_tagging_flat    ['V', 'b']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['V', 'vad']
 
 =====================================================================================
 
-blogs_and_forums::web13_588402_x.json::56073 [++A]
+blogs_and_forums::web13_588402_x.json::(1928, 1933)::56073
 
 ...te "õppehoonete" muretsemise ja kasutamise peale ning miks,  {kelle}  soovil ikkagi peab EMA aastaid kandma oma kaelas seda veski...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['P', 'sg g']
-bert_morph_tagging_flat    ['P', 'sg g']
+morph_analysis_flat        ['P', 'sg g']  (+)
+bert_morph_tagging_flat    ['P', 'sg g']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['P', 'pl g']
 
 =====================================================================================
 
-blogs_and_forums::web13_589718_x.json::33158 [-]
+blogs_and_forums::web13_589718_x.json::(8462, 8468)::33158
 
 ...gude kaudu," kinnitab oma psalmikommentaaris ka 5. sajandil  {elanud}  munk ja kirikuisa Arnobius Noorem.\n\nSiiski ei tohiks Jumala...
 --- COMMON   --------------------------------------------------
 morph_analysis_flat        ['V', 'nud']
 bert_morph_tagging_flat    ['V', 'nud']
 --- MISSING  --------------------------------------------------
-morph_analysis_flat        ['A', '']
+morph_analysis_flat        ['A', '']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['A', 'pl n']
 --- MISSING  --------------------------------------------------
@@ -229,150 +218,113 @@ morph_analysis_flat        ['A', 'sg n']
 
 =====================================================================================
 
-blogs_and_forums::web13_626902_x.json::35497 [++A]
+blogs_and_forums::web13_626902_x.json::(224, 227)::35497
 
 ...n asja igatahes edasi, kurtsin juba Veikole.\n\nMa kirjutasin  {ise}  ka Veikole, lihtsalt et teada anda. Ma ei soovi siin kuskil...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['P', 'sg n']
-bert_morph_tagging_flat    ['P', 'sg n']
+morph_analysis_flat        ['P', 'sg n']  (+)
+bert_morph_tagging_flat    ['P', 'sg n']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['P', 'pl n']
 
 =====================================================================================
 
-fiction::nc_11691_731957.json::133583 [+]
+fiction::nc_11691_731957.json::(38874, 38878)::133583
 
 ...- nagu haiglas . Leena oli kord väiksena emaga koos haiglas  {tädi}  vaatamas käinud . Ja imelik küll , kui ta nüüd voodi kõrval...
 --- MODIFIED --------------------------------------------------
 morph_analysis_flat        ['S', 'sg n']
-bert_morph_tagging_flat    ['S', 'sg p']
+bert_morph_tagging_flat    ['S', 'sg p']  (+)
 
 =====================================================================================
 
-fiction::nc_11691_731957.json::134447 [+]
+fiction::nc_11691_731957.json::(390642, 390644)::140191
+
+...s . Mille kohta sedagi veel kindlalt ei tea , kas ta alanud  {on}  , mis siis lõppemisest rääkida ! Leena tahtis mõelda häid m...
+--- COMMON   --------------------------------------------------
+morph_analysis_flat        ['V', 'b']  (+)
+bert_morph_tagging_flat    ['V', 'b']  (+)
+--- MISSING  --------------------------------------------------
+morph_analysis_flat        ['V', 'vad']
+
+=====================================================================================
+
+fiction::nc_11691_731957.json::(86370, 86376)::134447
 
 ... sõidab sõbranna juurde maale ja tuleb tagasi homme õhtul .  {Juhuks}  , kui keegi teda otsima peaks - lisas ta . Uhkelt kõlas see...
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['H', 'sg n']
 --- EXTRA    --------------------------------------------------
-bert_morph_tagging_flat    ['S', 'sg tr']
+bert_morph_tagging_flat    ['S', 'sg tr']  (+)
 
 =====================================================================================
 
-fiction::nc_11691_731957.json::140191 [++A]
-
-...s . Mille kohta sedagi veel kindlalt ei tea , kas ta alanud  {on}  , mis siis lõppemisest rääkida ! Leena tahtis mõelda häid m...
---- COMMON   --------------------------------------------------
-morph_analysis_flat        ['V', 'b']
-bert_morph_tagging_flat    ['V', 'b']
---- MISSING  --------------------------------------------------
-morph_analysis_flat        ['V', 'vad']
-
-=====================================================================================
-
-fiction::nc_11701_732059.json::118145 [-]
+fiction::nc_11701_732059.json::(463633, 463638)::118145
 
 ...eeratud kardinatega , nii et õnnelikud võisid riigi esimest  {paari}  isegi oma silmaga näha . Ja siis tulid järgmised tõllad , m...
 --- MODIFIED --------------------------------------------------
-morph_analysis_flat        ['S', 'sg p']
+morph_analysis_flat        ['S', 'sg p']  (+)
 bert_morph_tagging_flat    ['N', 'sg p']
 
 =====================================================================================
 
-fiction::nc_11701_732059.json::123302 [++A]
+fiction::nc_11701_732059.json::(747196, 747198)::123302
 
 ...õde talle välja andes käituksin ma kui viimane lurjus . Mul  {on}  teile ettepanek . Ma saadan oma õe Santise saarele pagendus...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['V', 'b']
-bert_morph_tagging_flat    ['V', 'b']
+morph_analysis_flat        ['V', 'b']  (+)
+bert_morph_tagging_flat    ['V', 'b']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['V', 'vad']
 
 =====================================================================================
 
-fiction::nc_11701_732059.json::123533 [?]
+fiction::nc_11701_732059.json::(761623, 761627)::123533
 
 ... mõõgaga ja praegugi oli kaks vastast juba maha varisenud .  {Kõik}  pole veel kaotatud , nad võivad võita . Ja viia Zmaikole sõ...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['P', 'pl n']
-bert_morph_tagging_flat    ['P', 'pl n']
+morph_analysis_flat        ['P', 'pl n']  (?)
+bert_morph_tagging_flat    ['P', 'pl n']  (?)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['P', 'sg n']
 
 =====================================================================================
 
-fiction::nc_11724_732210.json::94267 [-]
+fiction::nc_11724_732210.json::(165859, 165864)::94267
 
 ...distab mind ...\n\nKarjatades rebin eneselt virtuaalreaalsuse  {maski}  ja tõmban samas oma assistendi kehalt sinna kinnitatud juht...
 --- MODIFIED --------------------------------------------------
-morph_analysis_flat        ['S', 'sg g']
+morph_analysis_flat        ['S', 'sg g']  (+)
 bert_morph_tagging_flat    ['S', 'sg p']
 
 =====================================================================================
 
-fiction::nc_11724_732210.json::95049 [++A]
+fiction::nc_11724_732210.json::(200773, 200775)::95049
 
 ...haneks . Alles nüüd mõistan ma , milline surmalõks see saar  {on}  .\n\nAga mul on plaan ! Ma avastasin nende surmavõrgus väikes...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['V', 'b']
-bert_morph_tagging_flat    ['V', 'b']
+morph_analysis_flat        ['V', 'b']  (+)
+bert_morph_tagging_flat    ['V', 'b']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['V', 'vad']
 
 =====================================================================================
 
-fiction::nc_11754_732540.json::76485 [++A]
-
-...a tehnoloogiaga on võimalik kunst elama panna . Kuid elu ei  {tulnud}  Kujudesse vaid inimese oskuse tulemustena , ei , vaja oli v...
---- COMMON   --------------------------------------------------
-morph_analysis_flat        ['V', 'nud']
-bert_morph_tagging_flat    ['V', 'nud']
---- MISSING  --------------------------------------------------
-morph_analysis_flat        ['A', '']
---- MISSING  --------------------------------------------------
-morph_analysis_flat        ['A', 'sg n']
---- MISSING  --------------------------------------------------
-morph_analysis_flat        ['A', 'pl n']
-
-=====================================================================================
-
-fiction::nc_11754_732540.json::77171 [-]
+fiction::nc_11754_732540.json::(119686, 119697)::77171
 
 ...aneusilt kaasa ja millised arendasid siin . Selleks tulebki  {Excelsusele}  ekspeditsioon . Aga meid huvitab igasugune mõistus . See , ...
 --- MODIFIED --------------------------------------------------
-morph_analysis_flat        ['H', 'sg all']
+morph_analysis_flat        ['H', 'sg all']  (+)
 bert_morph_tagging_flat    ['H', 'sg g']
 
 =====================================================================================
 
-fiction::nc_11830_733403.json::82034 [++A]
+fiction::nc_11754_732540.json::(84826, 84832)::76485
 
-...nna , kui ei suuda ennast kontrollida . Kapten ütles ka : "  {Kui}  mees kasutab oma riista elus suunda näitava kompassina , jä...
+...a tehnoloogiaga on võimalik kunst elama panna . Kuid elu ei  {tulnud}  Kujudesse vaid inimese oskuse tulemustena , ei , vaja oli v...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['J', '']
-bert_morph_tagging_flat    ['J', '']
---- MISSING  --------------------------------------------------
-morph_analysis_flat        ['D', '']
-
-=====================================================================================
-
-fiction::nc_11841_733481.json::100485 [++A]
-
-...a kaugeltki mitte kõik nendest pole eemaletõukavad . Näib ,  {nagu}  üritaksid nad sõbralikud , aupaklikudki olla . Koguni kaune...
---- COMMON   --------------------------------------------------
-morph_analysis_flat        ['J', '']
-bert_morph_tagging_flat    ['J', '']
---- MISSING  --------------------------------------------------
-morph_analysis_flat        ['D', '']
-
-=====================================================================================
-
-fiction::nc_11841_733481.json::104471 [++A]
-
-...oldud , teda rõõmustas .\n\n" Pole vist õige kaua korralikult  {näinud}  jah , " kuulutas Pjotr Iljitš ning lähenes naisele selja ta...
---- COMMON   --------------------------------------------------
-morph_analysis_flat        ['V', 'nud']
-bert_morph_tagging_flat    ['V', 'nud']
+morph_analysis_flat        ['V', 'nud']  (+)
+bert_morph_tagging_flat    ['V', 'nud']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['A', '']
 --- MISSING  --------------------------------------------------
@@ -382,36 +334,73 @@ morph_analysis_flat        ['A', 'pl n']
 
 =====================================================================================
 
-fiction::nc_11841_733481.json::105770 [-]
+fiction::nc_11830_733403.json::(249127, 249130)::82034
+
+...nna , kui ei suuda ennast kontrollida . Kapten ütles ka : "  {Kui}  mees kasutab oma riista elus suunda näitava kompassina , jä...
+--- COMMON   --------------------------------------------------
+morph_analysis_flat        ['J', '']  (+)
+bert_morph_tagging_flat    ['J', '']  (+)
+--- MISSING  --------------------------------------------------
+morph_analysis_flat        ['D', '']
+
+=====================================================================================
+
+fiction::nc_11841_733481.json::(183877, 183882)::99246
+
+...le kõige ohtlikuma riigi president duuma ees kõnet peab ...  {Mnjaa}  ... Mõned arvavad , et maailmas on midagi muutumas . Mina a...
+--- MODIFIED --------------------------------------------------
+morph_analysis_flat        ['I', '']  (+)
+bert_morph_tagging_flat    ['D', '']
+
+=====================================================================================
+
+fiction::nc_11841_733481.json::(258654, 258658)::100485
+
+...a kaugeltki mitte kõik nendest pole eemaletõukavad . Näib ,  {nagu}  üritaksid nad sõbralikud , aupaklikudki olla . Koguni kaune...
+--- COMMON   --------------------------------------------------
+morph_analysis_flat        ['J', '']  (+)
+bert_morph_tagging_flat    ['J', '']  (+)
+--- MISSING  --------------------------------------------------
+morph_analysis_flat        ['D', '']
+
+=====================================================================================
+
+fiction::nc_11841_733481.json::(469410, 469416)::104471
+
+...oldud , teda rõõmustas .\n\n" Pole vist õige kaua korralikult  {näinud}  jah , " kuulutas Pjotr Iljitš ning lähenes naisele selja ta...
+--- COMMON   --------------------------------------------------
+morph_analysis_flat        ['V', 'nud']  (+)
+bert_morph_tagging_flat    ['V', 'nud']  (+)
+--- MISSING  --------------------------------------------------
+morph_analysis_flat        ['A', '']
+--- MISSING  --------------------------------------------------
+morph_analysis_flat        ['A', 'sg n']
+--- MISSING  --------------------------------------------------
+morph_analysis_flat        ['A', 'pl n']
+
+=====================================================================================
+
+fiction::nc_11841_733481.json::(537520, 537523)::105770
 
 ...sõna meenutamiseks . " Koorion...vist mingi koorion...proges {...} troon , või midagi umbes sellist , " veeris ta raskustega . ...
 --- MISSING  --------------------------------------------------
-morph_analysis_flat        ['Z', '']
+morph_analysis_flat        ['Z', '']  (+)
 --- EXTRA    --------------------------------------------------
 bert_morph_tagging_flat    ['S', 'sg n']
 
 =====================================================================================
 
-fiction::nc_11841_733481.json::107193 [-]
+fiction::nc_11841_733481.json::(607462, 607466)::107193
 
 ...... seesamune ... oleme ikkagi , noh , ühe asja peal väljas  {olnd}  ... " alustas Saša nii aralt , nagu ei iial varem . " Aga m...
 --- MISSING  --------------------------------------------------
-morph_analysis_flat        ['V', 'nud']
+morph_analysis_flat        ['V', 'nud']  (+)
 --- EXTRA    --------------------------------------------------
 bert_morph_tagging_flat    ['S', 'pl n']
 
 =====================================================================================
 
-fiction::nc_11841_733481.json::99246 [-]
-
-...le kõige ohtlikuma riigi president duuma ees kõnet peab ...  {Mnjaa}  ... Mõned arvavad , et maailmas on midagi muutumas . Mina a...
---- MODIFIED --------------------------------------------------
-morph_analysis_flat        ['I', '']
-bert_morph_tagging_flat    ['D', '']
-
-=====================================================================================
-
-fiction::nc_11851_733655.json::88531 [-]
+fiction::nc_11851_733655.json::(17793, 17801)::88531
 
 ...undit niimoodi paljalt vaadata . Tahtmatult võrdles ta tema  {kängunud}  lihaseid piimvalge naha all Haraldi omadega möödunud suvel ...
 --- COMMON   --------------------------------------------------
@@ -422,83 +411,84 @@ morph_analysis_flat        ['A', '']
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['A', 'sg n']
 --- MISSING  --------------------------------------------------
-morph_analysis_flat        ['A', 'pl n']
+morph_analysis_flat        ['A', 'pl n']  (+)
 
 =====================================================================================
 
-fiction::nc_11860_733732.json::126555 [++A]
-
-... – hakkad AUSATE NÕUKOGUDE INIMESTE peale – sitta loopima !  {Kes}  sa , kurat , enda arvates oled ? ! " Ja teiselt poolt : " T...
---- COMMON   --------------------------------------------------
-morph_analysis_flat        ['P', 'sg n']
-bert_morph_tagging_flat    ['P', 'sg n']
---- MISSING  --------------------------------------------------
-morph_analysis_flat        ['P', 'pl n']
-
-=====================================================================================
-
-fiction::nc_11860_733732.json::129434 [-]
+fiction::nc_11860_733732.json::(260623, 260627)::129434
 
 ...es õõtsuvaks kirjuks liaanidest seinaks . Liaanseina ees ja  {sees}  seisis või hõljus ihualasti sarnakas valgehambuliselt naere...
 --- MODIFIED --------------------------------------------------
-morph_analysis_flat        ['K', '']
+morph_analysis_flat        ['K', '']  (+)
 bert_morph_tagging_flat    ['D', '']
 
 =====================================================================================
 
-fiction::nc_11860_733732.json::132205 [+]
+fiction::nc_11860_733732.json::(418685, 418697)::132205
 
 ...i see mind tegelikult huvitab ? Mitte ju nii jumal teab kui  {üdisügavasti}  , ma loodan – see , kas ta on oma võtme Saavelile loovutanu...
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['S', 'sg n']
 --- EXTRA    --------------------------------------------------
-bert_morph_tagging_flat    ['D', '']
+bert_morph_tagging_flat    ['D', '']  (+)
 
 =====================================================================================
 
-periodicals::nc_10979_671264.json::206886 [-]
+fiction::nc_11860_733732.json::(97665, 97668)::126555
+
+... – hakkad AUSATE NÕUKOGUDE INIMESTE peale – sitta loopima !  {Kes}  sa , kurat , enda arvates oled ? ! " Ja teiselt poolt : " T...
+--- COMMON   --------------------------------------------------
+morph_analysis_flat        ['P', 'sg n']  (+)
+bert_morph_tagging_flat    ['P', 'sg n']  (+)
+--- MISSING  --------------------------------------------------
+morph_analysis_flat        ['P', 'pl n']
+
+=====================================================================================
+
+periodicals::nc_10979_671264.json::(1978, 1986)::206886
 
 ...askis Pipi kuuldavale möiratuse ja hüppas kraavist minema .  {Soontaga}  all tõi ta ka pojad ilmale , valides selleks liikluseks täi...
 --- MODIFIED --------------------------------------------------
 morph_analysis_flat        ['H', 'sg kom']
 bert_morph_tagging_flat    ['S', 'sg kom']
+manual                     ['H', 'sg g']    (+)
 
 =====================================================================================
 
-periodicals::nc_11049_680533.json::159916 [+]
+periodicals::nc_11049_680533.json::(3418, 3422)::159916
 
 ...a jooksul on olukord olnud terav , väljendudes näiteks kahe  {Vene}  lennuki allatulistamises ....
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['G', '']
 --- EXTRA    --------------------------------------------------
-bert_morph_tagging_flat    ['H', 'sg g']
+bert_morph_tagging_flat    ['H', 'sg g']  (+)
 
 =====================================================================================
 
-periodicals::nc_1285_97824.json::182843 [+]
+periodicals::nc_1285_97824.json::(19, 24)::182843
 
 ...100 aastat tagasi\n\n {Vaese}  inimese ütikene põles Lasnamäel jällegi maani maha , kuna s...
 --- MODIFIED --------------------------------------------------
 morph_analysis_flat        ['H', 'sg g']
-bert_morph_tagging_flat    ['A', 'sg g']
+bert_morph_tagging_flat    ['A', 'sg g']  (+)
 
 =====================================================================================
 
-periodicals::nc_1816_128836.json::161511 [+]
+periodicals::nc_1816_128836.json::(124, 130)::161511
 
 ...täitu kunagi temast sai eile Venemaa viienda jalgpalliklubi  {Moskva}  Torpedo täieõiguslik liige .\n\nEnar Jääger istus eile hommik...
 --- MODIFIED --------------------------------------------------
 morph_analysis_flat        ['H', 'sg n']
-bert_morph_tagging_flat    ['H', 'sg g']
+bert_morph_tagging_flat    ['H', 'sg g']  (+)
 
 =====================================================================================
 
-periodicals::nc_277_30552.json::206622 [++A]
+periodicals::nc_277_30552.json::(429, 435)::206622
 
 ...välja tuli , oli üllatus ka mulle enesele .\n\nNüüdseks on HÖ  {jäänud}  eesti proosamodernismi tähtteoseks . Üldises kooris on endi...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['V', 'nud']
-bert_morph_tagging_flat    ['V', 'nud']
+morph_analysis_flat        ['V', 'nud']  (+)
+bert_morph_tagging_flat    ['V', 'nud']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['A', '']
 --- MISSING  --------------------------------------------------
@@ -508,62 +498,62 @@ morph_analysis_flat        ['A', 'sg n']
 
 =====================================================================================
 
-periodicals::nc_3199_193743.json::175055 [++A]
+periodicals::nc_3199_193743.json::(1718, 1720)::175055
 
 ... käisin talvel kaameraga Kosovos ja heade projektide tarvis  {on}  alati võimalik ka raha saada , " ütles Kuusk . " Rahaproble...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['V', 'b']
-bert_morph_tagging_flat    ['V', 'b']
+morph_analysis_flat        ['V', 'b']  (+)
+bert_morph_tagging_flat    ['V', 'b']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['V', 'vad']
 
 =====================================================================================
 
-periodicals::nc_5988_340808.json::203880 [++A]
+periodicals::nc_5988_340808.json::(1869, 1871)::203880
 
 ... või ? Inglismaal oli stseen ? Vaata , kui selle värgi peal  {on}  punane kalts , siis on see Inglismaa , kui sinine , Prantsu...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['V', 'b']
-bert_morph_tagging_flat    ['V', 'b']
+morph_analysis_flat        ['V', 'b']  (+)
+bert_morph_tagging_flat    ['V', 'b']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['V', 'vad']
 
 =====================================================================================
 
-periodicals::nc_6734_405643.json::208596 [+]
+periodicals::nc_6734_405643.json::(1704, 1713)::208596
 
 ...aid viiulisoliste Baiba Skride .\n\nEsmakordselt on festivali  {programmi}  lülitatud ka tants - Norra balletis töötav Teet Kask esitab...
 --- MODIFIED --------------------------------------------------
 morph_analysis_flat        ['S', 'sg g']
-bert_morph_tagging_flat    ['S', 'adt']
+bert_morph_tagging_flat    ['S', 'adt']  (+)
 
 =====================================================================================
 
-periodicals::nc_811_74172.json::180340 [+]
+periodicals::nc_811_74172.json::(659, 667)::180340
 
 ... maailm , mis on kummalisem kui mis tahes teatrietendus . "  {Argipäev}  " on eetris 17. septembril kell 17 : 10.\n\n" Teater keset ri...
 --- MODIFIED --------------------------------------------------
 morph_analysis_flat        ['S', 'sg n']
-bert_morph_tagging_flat    ['H', 'sg n']
+bert_morph_tagging_flat    ['H', 'sg n']  (+)
 
 =====================================================================================
 
-periodicals::nc_8139_507900.json::210453 [-]
+periodicals::nc_8139_507900.json::(2554, 2555)::210453
 
 ...des Jaak Johansoni " Lahtilükkamise laulus " .\n\nSalavägi ja  {-} võim\n\nSalavägi ja -võim , mis ühendab EMLS-i Poistekoori noo...
 --- MISSING  --------------------------------------------------
-morph_analysis_flat        ['Z', '']
+morph_analysis_flat        ['Z', '']  (+)
 --- EXTRA    --------------------------------------------------
 bert_morph_tagging_flat    ['S', 'sg n']
 
 =====================================================================================
 
-periodicals::nc_8193_511110.json::180783 [++A]
+periodicals::nc_8193_511110.json::(2062, 2069)::180783
 
 ...i puhtama ja kaunimana .\n\nLeida Laius oli kunstnik , kes ei  {allunud}  kunagi päevateemadele ega ideoloogilisele survele ....
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['V', 'nud']
-bert_morph_tagging_flat    ['V', 'nud']
+morph_analysis_flat        ['V', 'nud']  (+)
+bert_morph_tagging_flat    ['V', 'nud']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['A', '']
 --- MISSING  --------------------------------------------------
@@ -573,43 +563,43 @@ morph_analysis_flat        ['A', 'pl n']
 
 =====================================================================================
 
-periodicals::nc_8303_518567.json::191364 [+]
+periodicals::nc_8303_518567.json::(178, 182)::191364
 
 ...\nNüüd seisavad Mainkal ees Miss Euroopa valimine Ateenas ja  {Miss}  Universumi valimine Los Angeleses .\n\nMissitiitliga koos sa ...
 --- MODIFIED --------------------------------------------------
 morph_analysis_flat        ['H', 'sg n']
-bert_morph_tagging_flat    ['S', 'sg n']
+bert_morph_tagging_flat    ['S', 'sg n']  (?)
 
 =====================================================================================
 
-periodicals::nc_8303_518589.json::206539 [++A]
+periodicals::nc_8303_518589.json::(120, 123)::206539
 
 ...loomingut šveitsi kriminaalromaanide autor Peter Zeindler ,  {kes}  on kirjutanud menukaid kriminaalse süžeega teoseid , poliit...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['P', 'sg n']
-bert_morph_tagging_flat    ['P', 'sg n']
+morph_analysis_flat        ['P', 'sg n']  (+)
+bert_morph_tagging_flat    ['P', 'sg n']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['P', 'pl n']
 
 =====================================================================================
 
-periodicals::nc_8466_529651.json::173536 [++A]
+periodicals::nc_8466_529651.json::(2323, 2325)::173536
 
 ... seatud kahtluse alla : see on reaalselt olnud olemas , sel  {on}  oma juhid . Samas on firmat mitu korda edasi müüdud , meid ...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['V', 'b']
-bert_morph_tagging_flat    ['V', 'b']
+morph_analysis_flat        ['V', 'b']  (+)
+bert_morph_tagging_flat    ['V', 'b']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['V', 'vad']
 
 =====================================================================================
 
-periodicals::nc_9071_568795.json::191700 [++A]
+periodicals::nc_9071_568795.json::(87, 93)::191700
 
 ...msu avaldab 1. juuli Postimehes oma seisukoha , et “ asi on  {läinud}  hullemaks kui nõukogude ajal ” . See on vaieldamatu tõsiasi...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['V', 'nud']
-bert_morph_tagging_flat    ['V', 'nud']
+morph_analysis_flat        ['V', 'nud']  (+)
+bert_morph_tagging_flat    ['V', 'nud']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['A', '']
 --- MISSING  --------------------------------------------------
@@ -619,141 +609,152 @@ morph_analysis_flat        ['A', 'sg n']
 
 =====================================================================================
 
-periodicals::nc_9369_588928.json::185380 [++A]
+periodicals::nc_9369_588928.json::(752, 755)::185380
 
 ...kul üleandmisel osales sihtkapitali patroon Ingrid Rüütel ,  {kes}  oma kõnes toonitas vajadust arvestada hariduse vajadust ja ...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['P', 'sg n']
-bert_morph_tagging_flat    ['P', 'sg n']
+morph_analysis_flat        ['P', 'sg n']  (+)
+bert_morph_tagging_flat    ['P', 'sg n']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['P', 'pl n']
 
 =====================================================================================
 
-periodicals::nc_9369_588938.json::197267 [+]
+periodicals::nc_9369_588938.json::(81248, 81253)::197267
 
 ...ega vait , läks näost valgeks ja kukkus tikksirgelt pea ees  {hauda}  .\n\nÕhtul saime teada , et keegi oli suure kiviga kohtumaja ...
 --- MODIFIED --------------------------------------------------
 morph_analysis_flat        ['S', 'sg p']
-bert_morph_tagging_flat    ['S', 'adt']
+bert_morph_tagging_flat    ['S', 'adt']  (+)
 
 =====================================================================================
 
-periodicals::nc_9369_588949.json::204668 [+]
+periodicals::nc_9369_588949.json::(3525, 3535)::204668
 
 ...äevad , mil ennast kehvasti tundsite , langevad kokku . ” (  {Kodutohter}  , märts 2001. )\n\nAin Kallis...
 --- MODIFIED --------------------------------------------------
 morph_analysis_flat        ['S', 'sg n']
-bert_morph_tagging_flat    ['H', 'sg n']
+bert_morph_tagging_flat    ['H', 'sg n']  (+)
 
 =====================================================================================
 
-periodicals::nc_9369_588951.json::195067 [?]
+periodicals::nc_9369_588951.json::(138799, 138810)::195067
 
 ...Saksa delegatsioonile vaherahutingimused . Vaherahu jõustus  {11. XI 1918} .\n\n12. XI\n\n1988  valiti  esimeseks sõjajärgseks  Miss Estoni...
 --- MODIFIED --------------------------------------------------
 morph_analysis_flat        ['Y', '?']
-bert_morph_tagging_flat    ['O', '?']
+bert_morph_tagging_flat    ['O', '?']  (?)
 
 =====================================================================================
 
-periodicals::nc_9674_603315.json::188417 [-]
+periodicals::nc_9674_603315.json::(14, 19)::188417
 
 ...Veebitelefoni  {Skype}  leiutajad plaanivad ka teleülekanded internetti kolida , et...
 --- MISSING  --------------------------------------------------
-morph_analysis_flat        ['H', 'sg n']
+morph_analysis_flat        ['H', 'sg n']  (+)
 --- EXTRA    --------------------------------------------------
 bert_morph_tagging_flat    ['Y', '?']
 
 =====================================================================================
 
-science::nc_17107_739949.json::264783 [++A]
+science::nc_17107_739949.json::(2331, 2333)::264783
 
 ...a ei saa enam jätkata lepingulise lavastajana , sest firmal  {on}  tasuvusmuresid . Tohin siiski omal riisikol kasutada tootmi...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['V', 'b']
-bert_morph_tagging_flat    ['V', 'b']
+morph_analysis_flat        ['V', 'b']  (+)
+bert_morph_tagging_flat    ['V', 'b']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['V', 'vad']
 
 =====================================================================================
 
-science::nc_17120_740066.json::219226 [++A]
+science::nc_17120_740066.json::(871, 877)::219226
 
 ... ja Tartu linnavalitsus loodavad , et lepinguga ühinevad ka  {teised}  Eesti suuremad linnad .\n\nPRESIDENT ANDIS NOORE TEADLASE PRE...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['P', 'pl n']
-bert_morph_tagging_flat    ['P', 'pl n']
+morph_analysis_flat        ['P', 'pl n']  (+)
+bert_morph_tagging_flat    ['P', 'pl n']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['O', 'pl n']
 
 =====================================================================================
 
-science::nc_17123_740792.json::247111 [+]
-
-...torit : Sysmex SE-9000 , Sysmex K-1000 ja Nihon Kohden 6108- {K . Erütrotsüütide}  , leukotsüütide ja trombotsüütide loendamine põhineb neis r...
---- MODIFIED --------------------------------------------------
-morph_analysis_flat        ['H', 'pl g']
-bert_morph_tagging_flat    ['S', 'pl g']
-
-=====================================================================================
-
-science::nc_17123_740792.json::247582 [++A]
+science::nc_17123_740792.json::(39527, 39530)::247582
 
 ...ooni ja leviku olulisemateks riskiteguriteks nii rahvastiku  {kui}  indiviidi tasandil peetakse antibiootikumide kasutamist , v...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['J', '']
-bert_morph_tagging_flat    ['J', '']
+morph_analysis_flat        ['J', '']  (+)
+bert_morph_tagging_flat    ['J', '']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['D', '']
 
 =====================================================================================
 
-science::nc_17123_740792.json::247785 [+]
+science::nc_17123_740792.json::(50857, 50866)::247785
 
 ...soolenakkushaiguste diagnoosimise korraldus .\n\nHaigestumise  {tendentsi}  jälgimine on arvestatav tervisekaitse seiremeetod , mis või...
 --- MODIFIED --------------------------------------------------
 morph_analysis_flat        ['S', 'sg p']
-bert_morph_tagging_flat    ['S', 'sg g']
+bert_morph_tagging_flat    ['S', 'sg g']  (+)
 
 =====================================================================================
 
-science::nc_17148_741232.json::272107 [++A]
+science::nc_17123_740792.json::(7733, 7751)::247111
+
+...torit : Sysmex SE-9000 , Sysmex K-1000 ja Nihon Kohden 6108- {K . Erütrotsüütide}  , leukotsüütide ja trombotsüütide loendamine põhineb neis r...
+--- MODIFIED --------------------------------------------------
+morph_analysis_flat        ['H', 'pl g']
+bert_morph_tagging_flat    ['S', 'pl g']  (+)
+
+=====================================================================================
+
+science::nc_17148_741232.json::(419833, 419835)::272107
 
 ...del kaitsekorra tagamiseks . Direktiivi artikkel 6 lõikes 3  {on}  sätestatud , et : " Iga tegevust ( ... ) mis eraldi või koo...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['V', 'b']
-bert_morph_tagging_flat    ['V', 'b']
+morph_analysis_flat        ['V', 'b']  (+)
+bert_morph_tagging_flat    ['V', 'b']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['V', 'vad']
 
 =====================================================================================
 
-science::nc_17173_741412.json::287640 [?]
+science::nc_17173_741412.json::(493517, 493518)::287640
 
 ...ge . Geschichte des Gerichtswesens und Gerichtsverfahrens .  {S} . 262 ) .\n\n896 E. H. J. Lundström . Bidrag till Livlands kyr...
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['Y', '?']
 --- EXTRA    --------------------------------------------------
-bert_morph_tagging_flat    ['H', 'sg n']
+bert_morph_tagging_flat    ['H', 'sg n']  (?)
 
 =====================================================================================
 
-science::nc_17173_741412.json::287926 [?]
+science::nc_17173_741412.json::(500625, 500635)::287926
 
 ...sens und Gerichtsverfahrens . S. 282.\n\n936 F. G. v. Bunge .  {Geschichte}  des Gerichtswesens und Gerichtsverfahrens . S. 283 ; W. Len...
 --- MODIFIED --------------------------------------------------
 morph_analysis_flat        ['H', 'sg g']
-bert_morph_tagging_flat    ['H', 'sg n']
+bert_morph_tagging_flat    ['H', 'sg n']  (?)
 
 =====================================================================================
 
-science::nc_17178_741469.json::211183 [++A]
+science::nc_17178_741469.json::(76917, 76919)::212386
+
+...ABGB §-s 1293 , mille kohaselt kahju on iga kahjustus , mis  {on}  tekitatud kellegi varale , õigustele või isikule .\n\nNõukogu...
+--- COMMON   --------------------------------------------------
+morph_analysis_flat        ['V', 'b']  (+)
+bert_morph_tagging_flat    ['V', 'b']  (+)
+--- MISSING  --------------------------------------------------
+morph_analysis_flat        ['V', 'vad']
+
+=====================================================================================
+
+science::nc_17178_741469.json::(8362, 8370)::211183
 
 ... viiest peatükist , mis sõltuvalt käsitluse detailsusest on  {jaotatud}  allosadeks . Esimeses peatükis esitatakse süül põhineva del...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['V', 'tud']
-bert_morph_tagging_flat    ['V', 'tud']
+morph_analysis_flat        ['V', 'tud']  (+)
+bert_morph_tagging_flat    ['V', 'tud']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['A', '']
 --- MISSING  --------------------------------------------------
@@ -763,97 +764,75 @@ morph_analysis_flat        ['A', 'sg n']
 
 =====================================================================================
 
-science::nc_17178_741469.json::212386 [++A]
-
-...ABGB §-s 1293 , mille kohaselt kahju on iga kahjustus , mis  {on}  tekitatud kellegi varale , õigustele või isikule .\n\nNõukogu...
---- COMMON   --------------------------------------------------
-morph_analysis_flat        ['V', 'b']
-bert_morph_tagging_flat    ['V', 'b']
---- MISSING  --------------------------------------------------
-morph_analysis_flat        ['V', 'vad']
-
-=====================================================================================
-
-science::nc_17178_741469.json::212676 [-]
+science::nc_17178_741469.json::(93108, 93115)::212676
 
 ...wald on oma väitekirjas asunud seisukohale , et kuigi ühest  {küljest}  peaks hooletuse küsimust kontrollima süü juures , on teisel...
 --- MISSING  --------------------------------------------------
-morph_analysis_flat        ['S', 'sg el']
+morph_analysis_flat        ['S', 'sg el']  (+)
 --- EXTRA    --------------------------------------------------
 bert_morph_tagging_flat    ['K', '']
 
 =====================================================================================
 
-science::nc_17193_741578.json::236994 [++A]
+science::nc_17193_741578.json::(313868, 313870)::236994
 
 ...aeg sekundites' väärtuseks arv , mis näitas , mitu sekundit  {on}  õpilasel aega vastata ühele küsimusele . Juhul , kui konkre...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['V', 'b']
-bert_morph_tagging_flat    ['V', 'b']
+morph_analysis_flat        ['V', 'b']  (+)
+bert_morph_tagging_flat    ['V', 'b']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['V', 'vad']
 
 =====================================================================================
 
-science::nc_17198_741616.json::241147 [-]
+science::nc_17198_741616.json::(6639, 6644)::241147
 
 ...mnaasiumi emakeeleõpetusse ( Nemvalts , Vare 1984 : 37-38 ;  {Erelt}  , Vare 1992 : 31-35 , 1996 : 44-46 ; Ehala 1997 : 203 ) .\n\n...
 --- MODIFIED --------------------------------------------------
-morph_analysis_flat        ['H', 'sg n']
+morph_analysis_flat        ['H', 'sg n']  (+)
 bert_morph_tagging_flat    ['H', 'sg abl']
 
 =====================================================================================
 
-science::nc_17225_741953.json::224674 [?]
-
-...skätt lähimälu ( uue materjali omandamine on halvenenud ) ,  {antero-}  ja retrograadne amneesia ning varasemate teadmiste reprodut...
---- MODIFIED --------------------------------------------------
-morph_analysis_flat        ['S', 'sg g']
-bert_morph_tagging_flat    ['S', 'sg n']
-
-=====================================================================================
-
-science::nc_17225_741953.json::230036 [++A]
+science::nc_17225_741953.json::(345149, 345151)::230036
 
 ...ul ; üldiselt peetakse seda harvaks nähtuseks . Iseloomulik  {on}  , et lapsed , kellel esineb sooidentsushäire , eitavad , et...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['V', 'b']
-bert_morph_tagging_flat    ['V', 'b']
+morph_analysis_flat        ['V', 'b']  (+)
+bert_morph_tagging_flat    ['V', 'b']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['V', 'vad']
 
 =====================================================================================
 
-science::nc_17225_741953.json::232103 [-]
+science::nc_17225_741953.json::(468140, 468143)::232103
 
 ...ega . Sellele võib lisanduda tundeelu- ja käitumishäireid ,  {mis}  osaliselt võivad sõltuda lapse elutingimustest . Enamikul j...
 --- COMMON   --------------------------------------------------
 morph_analysis_flat        ['P', 'sg n']
 bert_morph_tagging_flat    ['P', 'sg n']
 --- MISSING  --------------------------------------------------
-morph_analysis_flat        ['P', 'pl n']
+morph_analysis_flat        ['P', 'pl n']  (+)
 
 =====================================================================================
 
-science::nc_17248_742236.json::251863 [++A]
+science::nc_17225_741953.json::(71517, 71524)::224674
 
-...s tähe lepanu , et nõnda tuleb kuri küla keskele . Kuid see  {on}  ka Peri lahkulöömine viikinglusest , moraalselt ja tegeliku...
---- COMMON   --------------------------------------------------
-morph_analysis_flat        ['V', 'b']
-bert_morph_tagging_flat    ['V', 'b']
---- MISSING  --------------------------------------------------
-morph_analysis_flat        ['V', 'vad']
+...skätt lähimälu ( uue materjali omandamine on halvenenud ) ,  {antero-}  ja retrograadne amneesia ning varasemate teadmiste reprodut...
+--- MODIFIED --------------------------------------------------
+morph_analysis_flat        ['S', 'sg g']  (?)
+bert_morph_tagging_flat    ['S', 'sg n']
 
 =====================================================================================
 
-science::nc_17248_742236.json::256033 [++A]
+science::nc_17248_742236.json::(282256, 282264)::256033
 
 ...ole bibliografeeritud . Eesti laval ( Pärnu “ Endlas ” ) on  {mängitud}  esimest näidendit “ Kuningriigi väravatel ” triloogiast , m...
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['A', '']
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['V', 'tud']
-bert_morph_tagging_flat    ['V', 'tud']
+morph_analysis_flat        ['V', 'tud']  (+)
+bert_morph_tagging_flat    ['V', 'tud']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['A', 'sg n']
 --- MISSING  --------------------------------------------------
@@ -861,12 +840,12 @@ morph_analysis_flat        ['A', 'pl n']
 
 =====================================================================================
 
-science::nc_17248_742236.json::257840 [++A]
+science::nc_17248_742236.json::(368372, 368381)::257840
 
 ...niseeris ) ka Mart Lepiku tõlgitud “ Silja ” . Saatesõna on  {koostanud}  Minni Nurme . Artikkel tutvustab kirjaniku elu- ja loometee...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['V', 'nud']
-bert_morph_tagging_flat    ['V', 'nud']
+morph_analysis_flat        ['V', 'nud']  (+)
+bert_morph_tagging_flat    ['V', 'nud']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['A', '']
 --- MISSING  --------------------------------------------------
@@ -876,56 +855,67 @@ morph_analysis_flat        ['A', 'pl n']
 
 =====================================================================================
 
-science::nc_17248_742236.json::259340 [++A]
+science::nc_17248_742236.json::(434137, 434139)::259340
 
 ... , nähes Valgemäe tütarde saatuses eraomandi survet : Leeni  {on}  pidanud loobuma isiklikust õnnest ja pühenduma isatalule . ...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['V', 'b']
-bert_morph_tagging_flat    ['V', 'b']
+morph_analysis_flat        ['V', 'b']  (+)
+bert_morph_tagging_flat    ['V', 'b']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['V', 'vad']
 
 =====================================================================================
 
-wikipedia::wiki17_113528_x.json::321034 [?]
+science::nc_17248_742236.json::(89889, 89891)::251863
+
+...s tähe lepanu , et nõnda tuleb kuri küla keskele . Kuid see  {on}  ka Peri lahkulöömine viikinglusest , moraalselt ja tegeliku...
+--- COMMON   --------------------------------------------------
+morph_analysis_flat        ['V', 'b']  (+)
+bert_morph_tagging_flat    ['V', 'b']  (+)
+--- MISSING  --------------------------------------------------
+morph_analysis_flat        ['V', 'vad']
+
+=====================================================================================
+
+wikipedia::wiki17_113528_x.json::(18, 19)::321034
 
 ...Kool asutati 1767[ {1} ]. Praeguses asukohas tegutseb kool aastast 1919, kui Lindi ...
 --- MODIFIED --------------------------------------------------
-morph_analysis_flat        ['N', '?']
+morph_analysis_flat        ['N', '?']  (?)
 bert_morph_tagging_flat    ['Y', '?']
 
 =====================================================================================
 
-wikipedia::wiki17_122383_x.json::306744 [++A]
+wikipedia::wiki17_122383_x.json::(38, 41)::306744
 
 ...Leidub ka samanimeline eesti õpetaja,  {kes}  saavutas 2006. aastal kõrgeima RE-tulemused: 98,6 punkti. P...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['P', 'sg n']
-bert_morph_tagging_flat    ['P', 'sg n']
+morph_analysis_flat        ['P', 'sg n']  (+)
+bert_morph_tagging_flat    ['P', 'sg n']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['P', 'pl n']
 
 =====================================================================================
 
-wikipedia::wiki17_130307_x.json::350399 [-]
+wikipedia::wiki17_130307_x.json::(1286, 1289)::350399
 
 ...si ka meeskonna kapten. Kokku on meeskonnal neli treenerit,  {kes}  kõik on Märjamaa Vikati liikmed, kes treeneritena täidavad ...
 --- COMMON   --------------------------------------------------
 morph_analysis_flat        ['P', 'sg n']
 bert_morph_tagging_flat    ['P', 'sg n']
 --- MISSING  --------------------------------------------------
-morph_analysis_flat        ['P', 'pl n']
+morph_analysis_flat        ['P', 'pl n']  (+)
 
 =====================================================================================
 
-wikipedia::wiki17_139335_x.json::324173 [-]
+wikipedia::wiki17_139335_x.json::(161, 171)::324173
 
 ...l 1941 pärast seda, kui linn oli nõukogude okupatsiooni alt  {vabastatud}  ja Saksa okupatsioon polnud veel lõplikult kanda kinnitanud...
 --- COMMON   --------------------------------------------------
 morph_analysis_flat        ['A', '']
 bert_morph_tagging_flat    ['A', '']
 --- MISSING  --------------------------------------------------
-morph_analysis_flat        ['V', 'tud']
+morph_analysis_flat        ['V', 'tud']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['A', 'sg n']
 --- MISSING  --------------------------------------------------
@@ -933,23 +923,23 @@ morph_analysis_flat        ['A', 'pl n']
 
 =====================================================================================
 
-wikipedia::wiki17_144966_x.json::318585 [++A]
+wikipedia::wiki17_144966_x.json::(112, 114)::318585
 
 ...kuuluv mineraal. Piemontiidi idealiseeritud keemiline valem  {on}  Ca2(Al,Mn3+,Fe3+)3(SiO4)(Si2O7)O(OH). Valemist nähtub, et k...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['V', 'b']
-bert_morph_tagging_flat    ['V', 'b']
+morph_analysis_flat        ['V', 'b']  (+)
+bert_morph_tagging_flat    ['V', 'b']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['V', 'vad']
 
 =====================================================================================
 
-wikipedia::wiki17_150506_x.json::354019 [++A]
+wikipedia::wiki17_150506_x.json::(2842, 2850)::354019
 
 ...s linna: Vana-Pärnu (Perona), mille Saare-Lääne piiskop oli  {asutanud}  Sauga jõe suudmesse, sai 1251 tema piiskopkonna keskuseks. ...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['V', 'nud']
-bert_morph_tagging_flat    ['V', 'nud']
+morph_analysis_flat        ['V', 'nud']  (+)
+bert_morph_tagging_flat    ['V', 'nud']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['A', '']
 --- MISSING  --------------------------------------------------
@@ -959,63 +949,63 @@ morph_analysis_flat        ['A', 'pl n']
 
 =====================================================================================
 
-wikipedia::wiki17_174479_x.json::365546 [?]
+wikipedia::wiki17_174479_x.json::(191, 199)::365546
 
 ...ergejõustiklane\n\n7. jaanuar – Sofi Oksanen, ema poolt eesti  {päritolu}  soome kirjanik\n\n21. jaanuar – Ivo Lille, eesti saksofonist ...
 --- MODIFIED --------------------------------------------------
 morph_analysis_flat        ['S', 'sg g']
-bert_morph_tagging_flat    ['S', 'sg n']
+bert_morph_tagging_flat    ['S', 'sg n']  (?)
 
 =====================================================================================
 
-wikipedia::wiki17_178872_x.json::358795 [?]
+wikipedia::wiki17_178872_x.json::(21491, 21498)::358795
 
 ...e hämamisele. Kui vaatame teaduses mingit konkreetset asja,  {näiteks}  elektromagnetilist vastastikmõju, siis keegi ei hakka siin ...
 --- MISSING  --------------------------------------------------
-morph_analysis_flat        ['D', '']
+morph_analysis_flat        ['D', '']  (?)
 --- EXTRA    --------------------------------------------------
 bert_morph_tagging_flat    ['S', 'sg tr']
 
 =====================================================================================
 
-wikipedia::wiki17_183166_x.json::310876 [-]
+wikipedia::wiki17_183166_x.json::(680, 681)::310876
 
 ...lele vaatamata on puu küllaltki tormikindel. [6]\n\nOkkad on 2 {–} 3 cm pikkused, terava tipuga, jäigad, neljatahulised, sinaka...
 --- MISSING  --------------------------------------------------
-morph_analysis_flat        ['Z', '']
+morph_analysis_flat        ['Z', '']  (+)
 --- EXTRA    --------------------------------------------------
 bert_morph_tagging_flat    ['N', '?']
 
 =====================================================================================
 
-wikipedia::wiki17_18654_x.json::313298 [+]
+wikipedia::wiki17_18654_x.json::(321, 324)::313298
 
 ..., neid ei saanud selles 185. julgestusgrupis kasutada. Kuna  {osa}  mehi oli olemas, siis tekkiski rinde tagalateenistusel idee...
 --- MODIFIED --------------------------------------------------
 morph_analysis_flat        ['S', 'sg g']
-bert_morph_tagging_flat    ['S', 'sg n']
+bert_morph_tagging_flat    ['S', 'sg n']  (+)
 
 =====================================================================================
 
-wikipedia::wiki17_30644_x.json::364928 [-]
+wikipedia::wiki17_30644_x.json::(22272, 22274)::364928
 
 ...ine liikumine ja feminism ei ole alati puhtalt anarhistlik,  {on}  need saanud anarhismist väga palju mõjutusi. Samuti võitlev...
 --- COMMON   --------------------------------------------------
 morph_analysis_flat        ['V', 'b']
 bert_morph_tagging_flat    ['V', 'b']
 --- MISSING  --------------------------------------------------
-morph_analysis_flat        ['V', 'vad']
+morph_analysis_flat        ['V', 'vad']  (+)
 
 =====================================================================================
 
-wikipedia::wiki17_33931_x.json::290575 [-]
+wikipedia::wiki17_33931_x.json::(1707, 1713)::290575
 
 ... vallast. Araabia numbrite importijaks peetakse ka Araabias  {elanud}  itaallast, Firenze matemaatikut Leonardo Fibonaccit (u 1170...
 --- COMMON   --------------------------------------------------
 morph_analysis_flat        ['V', 'nud']
 bert_morph_tagging_flat    ['V', 'nud']
 --- MISSING  --------------------------------------------------
-morph_analysis_flat        ['A', '']
+morph_analysis_flat        ['A', '']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['A', 'pl n']
 --- MISSING  --------------------------------------------------
@@ -1023,33 +1013,33 @@ morph_analysis_flat        ['A', 'sg n']
 
 =====================================================================================
 
-wikipedia::wiki17_48832_x.json::324255 [-]
+wikipedia::wiki17_48832_x.json::(1462, 1464)::324255
 
 ...rjaatia esimese Hambo-laama Zajajevi kehastuseks. Tekstides  {on}  kirjas tema eelmiste kehastuste elulood. Daši-Doržo Itigelo...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['V', 'b']
-bert_morph_tagging_flat    ['V', 'b']
+morph_analysis_flat        ['V', 'b']  (+)
+bert_morph_tagging_flat    ['V', 'b']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['V', 'vad']
 
 =====================================================================================
 
-wikipedia::wiki17_52582_x.json::289010 [-]
+wikipedia::wiki17_52582_x.json::(640, 641)::289010
 
 ...dmeid kasutatakse Europeana (www.europeana.eu) andmebaasis.- {-} Kopo25 8. märts 2017, kell 22:54 (EET)...
 --- MISSING  --------------------------------------------------
-morph_analysis_flat        ['Z', '']
+morph_analysis_flat        ['Z', '']  (+)
 --- EXTRA    --------------------------------------------------
 bert_morph_tagging_flat    ['N', '?']
 
 =====================================================================================
 
-wikipedia::wiki17_54455_x.json::326258 [++A]
+wikipedia::wiki17_54455_x.json::(5074, 5080)::326258
 
 ...olekud, kus arutatakse ja otsustatakse seltsi igapäevaeluga  {seotud}  küsimusi. Nii kevad- kui ka sügissemestri alguses korraldat...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['A', '']
-bert_morph_tagging_flat    ['A', '']
+morph_analysis_flat        ['A', '']  (+)
+bert_morph_tagging_flat    ['A', '']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['V', 'tud']
 --- MISSING  --------------------------------------------------
@@ -1059,25 +1049,25 @@ morph_analysis_flat        ['A', 'sg n']
 
 =====================================================================================
 
-wikipedia::wiki17_60525_x.json::322723 [++A]
+wikipedia::wiki17_60525_x.json::(8, 10)::322723
 
 ...enwikis  {on}  eraldi artikkel Eesti esimese leedi kohta (en:First Lady of...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['V', 'b']
-bert_morph_tagging_flat    ['V', 'b']
+morph_analysis_flat        ['V', 'b']  (+)
+bert_morph_tagging_flat    ['V', 'b']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['V', 'vad']
 
 =====================================================================================
 
-wikipedia::wiki17_63912_x.json::344353 [-]
+wikipedia::wiki17_63912_x.json::(3171, 3181)::344353
 
 ...te rolli. Doonor-aktseptormehhanismi puhul võib auk liikuda  {ergastatud}  elektronini või vastupidi. Esimesel juhul pärast ergastust ...
 --- COMMON   --------------------------------------------------
 morph_analysis_flat        ['V', 'tud']
 bert_morph_tagging_flat    ['V', 'tud']
 --- MISSING  --------------------------------------------------
-morph_analysis_flat        ['A', '']
+morph_analysis_flat        ['A', '']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['A', 'sg n']
 --- MISSING  --------------------------------------------------
@@ -1085,33 +1075,33 @@ morph_analysis_flat        ['A', 'pl n']
 
 =====================================================================================
 
-wikipedia::wiki17_65379_x.json::323443 [++A]
+wikipedia::wiki17_65379_x.json::(7143, 7148)::323443
 
 ...pea olema pillikeel - võib olla ka hiigla suur rauakolakas,  {mille}  pihta nuiaga virutada--Hendrix 13. september 2007, kell 13:...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['P', 'sg g']
-bert_morph_tagging_flat    ['P', 'sg g']
+morph_analysis_flat        ['P', 'sg g']  (+)
+bert_morph_tagging_flat    ['P', 'sg g']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['P', 'pl g']
 
 =====================================================================================
 
-wikipedia::wiki17_87086_x.json::300703 [++A]
+wikipedia::wiki17_87086_x.json::(3036, 3041)::300703
 
 ...ist ühendit, siis ühe elemendi ühe ja sama massiga ühinenud  {teise}  elemendi massid suhtuvad omavahel alati kui lihtsad täisarv...
 --- COMMON   --------------------------------------------------
-morph_analysis_flat        ['P', 'sg g']
-bert_morph_tagging_flat    ['P', 'sg g']
+morph_analysis_flat        ['P', 'sg g']  (+)
+bert_morph_tagging_flat    ['P', 'sg g']  (+)
 --- MISSING  --------------------------------------------------
 morph_analysis_flat        ['O', 'sg g']
 
 =====================================================================================
 
-wikipedia::wiki17_97567_x.json::317251 [-]
+wikipedia::wiki17_97567_x.json::(61, 74)::317251
 
 ...esk tänav on tänav Jõgeval, mis kulgeb raudteest lääne pool  {paralleelselt}  raudteega.\n\nVarem asus Kesk tänaval linnavanem Johannes Võs...
 --- MODIFIED --------------------------------------------------
-morph_analysis_flat        ['D', '']
+morph_analysis_flat        ['D', '']  (+)
 bert_morph_tagging_flat    ['K', '']
 
 =====================================================================================
