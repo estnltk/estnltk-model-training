@@ -123,7 +123,7 @@ Evaluations on UD treebank
 
 \* Metrics are from weighted average
 
-**Finetuning datasets and models**
+### Datasets and models
 
 * Datasets used in these experiments can be found here: [finetuning_and_eval_data.zip](https://s3.hpc.ut.ee/estnltk/auxiliary-data/bert_morph_training/finetuning_and_eval_data.zip);
 * Models are available in tartuNLP huggingface repository: [Bert_morph_v1](https://huggingface.co/tartuNLP/est-roberta-vm-morph-tagging/tree/b36e4e9ea1d1d0d3f2b4ec5e9f85b450ac53b1a2), [Bert_morph_v2](https://huggingface.co/tartuNLP/est-roberta-vm-morph-tagging/tree/a5c17c0f6f7eb88178d928bb8d2cfa35c6cdadf4)
