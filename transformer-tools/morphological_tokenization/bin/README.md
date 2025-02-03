@@ -22,8 +22,7 @@ cd ${workspaceFolder}/transformer-tools/morphological_tokenization/bin/
 Labane lahendus: kustutame kõik mis jääb `<` ja `>` vahele.
 
 ```cmdline
-export workspaceFolder=~/git/estnltk_model_training_github
-cd ${workspaceFolder}/transformer-tools/morphological_tokenization/scripts
+cd ${workspaceFolder}/transformer-tools/morphological_tokenization/bin
 
 venv/bin/python3 remove_html.py \
     --in_html=../training/dataset_training_bigger/ettenten_0.fshtml \
