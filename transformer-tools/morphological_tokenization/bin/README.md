@@ -1,12 +1,29 @@
 # morphological_tokenization
 
+## 0. Eeltöö
+
+Repo kloonimine
+
+```cmdline
+mkdir -p ~/git ; cd git
+git clone git@github.com:estnltk/estnltk-model-training.git estnltk_model_training_github 
+```
+
+Virtuaalkeskkonna loomine:
+
+```cmdline
+export workspaceFolder=~/git/estnltk_model_training_github
+cd ${workspaceFolder}/transformer-tools/morphological_tokenization/bin/
+./create_venv.sh
+```
+
 ## 1. Tekstikorpusest html-märgendite kustutamine
 
 Labane lahendus: kustutame kõik mis jääb `<` ja `>` vahele.
 
 ```cmdline
-export workspaceFolder=~/git/huggingface_github/estnltk_model_training_github
-cd ${workspaceFolder}/transformer-tools/morphological_tokenization/
+export workspaceFolder=~/git/estnltk_model_training_github
+cd ${workspaceFolder}/transformer-tools/morphological_tokenization/scripts
 
 venv/bin/python3 remove_html.py \
     --in_html=../training/dataset_training_bigger/ettenten_0.fshtml \
