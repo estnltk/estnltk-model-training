@@ -1,0 +1,1202 @@
+,"index","question_fix","assessment"
+0,0,"kellele tagasiside andmine ?","{""answer"": ""yes""}"
+1,1,,
+2,2,,
+3,3,,
+4,4,,
+5,5,,
+6,6,,
+7,7,"kelle Tokyo-korteris ?","""yes"""
+8,8,,
+9,9,"mille valitsus heaks kiitis?","""yes"""
+10,10,,
+11,11,"keda mis üldse huvitab ?","{
+  ""answer"": ""no""
+}"
+12,12,,
+13,13,,
+14,14,,
+15,15,"kelle maine ?","{
+  ""answer"": ""no""
+}"
+16,16,,
+17,17,"usun kellesse ?","""yes"""
+18,18,,
+19,19,,
+20,20,,
+21,21,,
+22,22,,
+23,23,,
+24,24,"kelle kaaskondlased ?","{
+  ""answer"": ""yes""
+}"
+25,25,,
+26,26,"kes sõitis sinna sageli odava autoostjate bussiga ?","{""answer"": ""yes""}"
+27,27,,
+28,28,,
+29,29,"keda ei austa ?","{""answer"": ""yes""}"
+30,30,"kelle peale aasta jooksul karjunud ?","{""answer"": ""yes""}"
+31,31,"kelle neljas põhirollis?","{
+  ""answer"": ""no""
+}"
+32,32,"kes ei saa korraga kõige parem olla ?","{""answer"": ""no""}"
+33,33,,
+34,34,,
+35,35,,
+36,36,,
+37,37,,
+38,38,,
+39,39,,
+40,40,"asendada Amon-Ra kultus ainujumal Atoni  millega ?","{""answer"": ""no""}"
+41,41,,
+42,42,"kel parasjagu tiineks jäämise perioodi pole , ?","""no"""
+43,43,,
+44,44,,
+45,45,,
+46,46,"kes on investeerinud ainult raha ?","""no"""
+47,47,"kelle valitsuste ?","""no"""
+48,48,,
+49,49,,
+50,50,,
+51,51,,
+52,52,,
+53,53,,
+54,54,"koos kelle 16-aastase tütre Ceciliega ?","yes"
+55,55,,
+56,56,"kes  cd-mängija tegid ?","""no"""
+57,57,,
+58,58,,
+59,59,"kes ei kaota järgmist kella ka ära kui üks tsükkel on korraks vales kohas olnud ?","{""answer"": ""no""}"
+60,60,"kelle vastuvõtule ?","{""answer"": ""no""}"
+61,61,"mis pole hea mõte?","""yes"""
+62,62,"nentis keda vabadusvõitlejaks nimetav Laar ?","""yes"""
+63,63,,
+64,64,"millel pole põhjendusi või mis kujutavad endast lihtsalt valet ?","no"
+65,65,,
+66,66,"mis kujutavad millest lihtsalt valet ?","{
+  ""answer"": ""no""
+}"
+67,67,,
+68,68,"keda abistas ema ?","{""answer"": ""yes""}"
+69,69,"kelle poja ?","{
+  ""answer"": ""no""
+}"
+70,70,,
+71,71,,
+72,72,,
+73,73,"mis on maha võetud ?","""yes"""
+74,74,,
+75,75,"kelle soodimehe ?","{
+  ""answer"": ""no""
+}"
+76,76,"kellel ei ole presidendi nõuniku Andra Veidemanni vastu midagi isiklikku ?","""yes"""
+77,77,"keda üldiselt lihtsaks inimeseks pidav ?","""yes"""
+78,78,,
+79,79,,
+80,80,,
+81,81,,
+82,82,,
+83,83,"mis on metsa kasutamise korra rikkumine ?","""yes"""
+84,84,,
+85,85,,
+86,86,,
+87,87,"kes teisel poolajal hakkas väsima ?","""yes"""
+88,88,,
+89,89,,
+90,90,"mis olid enne ?","{""answer"": ""no""}"
+91,91,,
+92,92,,
+93,93,"keda on teisigi ?","""yes"""
+94,94,,
+95,95,"nad taunivad USA raketikilbi ideed ?","{""answer"": ""no""}"
+96,96,,
+97,97,,
+98,98,"mis puudutab isiklikult ning teeb murelikuks ?","""yes"""
+99,99,,
+100,100,,
+101,101,"kelle ATP sõidutas Tallinna ?","""yes"""
+102,102,,
+103,103,"mille tarvitamise ?","""no"""
+104,104,"kelle käitumise ?","{""answer"": ""yes""}"
+105,105,"kellest kõige andmine selle nimel , et Venemaa lõpetaks soome-ugri vähemuste tagakiusamise . ?","""yes"""
+106,106,,
+107,107,"millest üks maksab 400 000 dollarit ( 7,4 miljonit EEK ) ?","""yes"""
+108,108,"mis müüa Eesti Raudteele edasi hinnaga 750 000 dollarit ( 13,9 miljonit EEK ) ?","yes"
+109,109,,
+110,110,,
+111,111,"kellel oleks sipelgad püksis ?","{
+  ""answer"": ""yes""
+}"
+112,112,,
+113,113,,
+114,114,"mis on eri kujuga ?","{""answer"": ""yes""}"
+115,115,,
+116,116,"kelle lähedastele ?","""No"""
+117,117,"mida kes ?","{
+  ""answer"": ""no""
+}"
+118,118,"kes saab aru , et on mitmesuguseid spekulatsioone , aga inimesed ei tohiks spekuleerida valitsuse soovi üle režiimi muuta ?","""yes"""
+119,119,,
+120,120,"kelle peale ?","{
+  ""answer"": ""no""
+}"
+121,121,"kes peaksid  hoolega oma menüüd jälgima ?","{""answer"": ""yes""}"
+122,122,"kelle menüüd jälgima ?","{
+  ""answer"": ""no""
+}"
+123,123,,
+124,124,,
+125,125,,
+126,126,,
+127,127,,
+128,128,,
+129,129,,
+130,130,,
+131,131,"kes on seni teinud ?","""no"""
+132,132,,
+133,133,,
+134,134,,
+135,135,,
+136,136,,
+137,137,"keda hämmastas ?","no"
+138,138,"mida annab teha ?","""yes"""
+139,139,"kes laskis  **end**  maha laeval ?","{
+  ""answer"": ""yes""
+}"
+140,140,,
+141,141,"kelle entusiasmist ?","""Yes"""
+142,142,"mida riigi poolt ei finantseerita ?","""no"""
+143,143,,
+144,144,,
+145,145,"millest võib leida ka huvitavaid lisandeid , nagu näiteks soja või seapekki ?","Yes"
+146,146,,
+147,147,"kes oli Palusalu või keegi teine tuntud eesti sportlane ?","""yes"""
+148,148,"kelle korterit sisaldava elamu aluse maatüki mõttelise osa omanikuks?","""yes"""
+149,149,,
+150,150,"kelle tausta ja tervist uuritakse ?","""yes"""
+151,151,"kelle  raviskeemid sisaldavad mitmeid peamiselt 75% ja 50%-lise soodusmääraga kompenseeritavaid ravimeid?","yes"
+152,152,,
+153,153,,
+154,154,,
+155,155,"kelle intensiivsust ?","{
+  ""answer"": ""yes""
+}"
+156,156,,
+157,157,,
+158,158,,
+159,159,,
+160,160,"millel osalemine ?","{
+  ""answer"": ""no""
+}"
+161,161,,
+162,162,"kes tahab minna sulle lilli korjama ?","""yes"""
+163,163,"mis pandi pisikestesse kotikestesse ?","""yes"""
+164,164," keda kuulutanud parempoolseks ?","""yes"""
+165,165,,
+166,166,"mis mööda selga alla lookleb ?","""yes"""
+167,167,,
+168,168,,
+169,169,,
+170,170,"kellel on maatükil eest teatud soodustus ?","{""answer"": ""yes""}"
+171,171,"kes ei vaja ta muid toetusi ?","""No"""
+172,172,"keda tunnistas Lea Niinepuu täielikult süüdi . ?","""yes"""
+173,173,"kes ütles numbri ?","""yes"""
+174,174,"mis oli tore ?","{""answer"": ""yes""}"
+175,175,"kellele on lahingud ja tööalane tegevus palju õpetanud ?","""yes"""
+176,176,,
+177,177,,
+178,178,"kelle eriala ?","yes"
+179,179,,
+180,180,,
+181,181,"ühel kelle kolleegil ?","no"
+182,182,,
+183,183,,
+184,184,"mis on  ehk “ Oliviast ” tuttav Friedrichi nuga ? ","""yes"""
+185,185,,
+186,186,,
+187,187,"mis on laos ?","{
+  ""answer"": ""yes""
+}"
+188,188,"mis läheb edasi mikrobioloogilisele laborile testimiseks ?","""yes"""
+189,189,"kes nõuan sinult samuti vaikimist ?","{
+  ""answer"": ""yes""
+}"
+190,190,"kellelt nõuan samuti vaikimist?","""yes"""
+191,191,"kelle politsei  pärast raha üleandmist vahistas ","""yes"""
+192,192,"mille ta andis 1996. aastal , enne liikmeks saamist ?","""yes"""
+193,193,"kes  andis 1996. aastal , enne liikmeks saamist ?","""no"""
+194,194,"mis kolme aasta jooksul ratifitseerida ?","{""answer"": ""no""}"
+195,195,,
+196,196,,
+197,197,,
+198,198,,
+199,199,,
+200,200,"kes lisas kolmele punktile ühe tulemusliku söödu ja ühe pallikaotuse ?","{
+  ""answer"": ""yes""
+}"
+201,201,,
+202,202,,
+203,203,,
+204,204,,
+205,205,,
+206,206,"kelle 3. oktoobri istungil?","""yes"""
+207,207,"mis tuua täna teie ette esimesele lugemisele koos ettepanekuga esimene lugemine lõpetada ?","""No"""
+208,208,"mis kustutada põhiseadusorganite hulgast ?","""yes"""
+209,209,,
+210,210,,
+211,211,,
+212,212,,
+213,213,,
+214,214,,
+215,215,,
+216,216,,
+217,217,"soovitas kellel ravile pöörduda ?","""yes"""
+218,218,,
+219,219,,
+220,220,,
+221,221,,
+222,222,"mida kes tuleval aastal Senatisse kandideerides vajab ?","""yes"""
+223,223,,
+224,224,"kelle finantseerimisel rajati aastail 1856-1857 Falgi tee ?","""yes"""
+225,225,,
+226,226,,
+227,227,"kelle lemmikuteks on kahe ja poolekuused lumeleopardipojad ?","""yes"""
+228,228,,
+229,229,,
+230,230,"kellel on kolleegidele teistest fraktsioonidest mitmesuguseid ettepanekuid ja küsimusi ?","{""answer"": ""yes""}"
+231,231,"mis meeste pilgud temale liimib ?","{""answer"": ""yes""}"
+232,232,,
+233,233,,
+234,234,"keda süüdistas üks ülemkohtu kohtunik ühe röövi korraldamises , riiklike fondide raiskamises ja ühe relvastatud bandega suhete loomises aastatel 1983-1987 ?","{""answer"": ""yes""}"
+235,235,,
+236,236,,
+237,237,,
+238,238,"kelle tasakaalu ja koordinatsiooni ?","{
+  ""answer"": ""no""
+}"
+239,239,,
+240,240,,
+241,241,"kes orienteerivad kiiresti ümber uutele turgudele ?","""yes"""
+242,242,,
+243,243,,
+244,244,,
+245,245,"milleks  kulub ?","""yes"""
+246,246,,
+247,247,,
+248,248,"kellele Rahvapartei praegu taotleb , ?","""No"""
+249,249,"keda ootaksid analüütikute arvates peaaegu vältimatult ees kokkupõrked oma vana konkurendi , maa võimsaima transiidikeskuse Ventspilsi linnapea Aivars Lembergsiga . ?","yes"
+250,250,,
+251,251,,
+252,252,"mis ei käi Tallinna kohta ?","""no"""
+253,253,,
+254,254,,
+255,255,,
+256,256,,
+257,257,,
+258,258,,
+259,259,,
+260,260,,
+261,261,,
+262,262,"mis tänu Myllylä tuules püsimisele ?","{""answer"": ""no""}"
+263,263,"mida võib tarbija huvi korral  küsida ?","""yes"""
+264,264,"kellel pole oma avalikust imagost aimugi ?","{""answer"": ""yes""}"
+265,265,,
+266,266,,
+267,267,,
+268,268,"kelle kollast Porschet , hüüdnimega Axl ?","{
+  ""answer"": ""yes""
+}"
+269,269,,
+270,270,,
+271,271,,
+272,272,,
+273,273,,
+274,274,,
+275,275,"mis eriala õpilast ?","{
+  ""answer"": ""no""
+}"
+276,276,,
+277,277,,
+278,278,"mis on sotsiaalhoolekande seadusega 1995. aastast omavalitsustele ette nähtud ?","""yes"""
+279,279,"kelle raha ?","""yes"""
+280,280,,
+281,281,"kellele on tagatud koht ilma katseteta ?","""yes"""
+282,282,,
+283,283,,
+284,284,,
+285,285,"kelle järgmine auto ?","{
+  ""answer"": ""no""
+}"
+286,286,,
+287,287,,
+288,288,,
+289,289,"mille ka säilitame . ?","{""answer"": ""no""}"
+290,290,,
+291,291,,
+292,292,"kelle veri ?","""yes"""
+293,293,"osa  millest  kindlasti taastub . ?","no"
+294,294,,
+295,295,,
+296,296,,
+297,297,"kes teab , et ma ei jää muidu magama ?","no"
+298,298,,
+299,299,,
+300,300,"kes kuni oma surmani oli võimetu tegema või muutma viimse tahte avaldust ?","{""answer"": ""yes""}"
+301,301,"kuni kelle surmani ?","""yes"""
+302,302,"olgu  milleks  siis kaasasündinud väärarendite , südameinfarkti- , trauma- või diabeediregistri - loomisele . ?","{""answer"": ""no""}"
+303,303,,
+304,304,,
+305,305,,
+306,306,"milles ei näe ma mitte midagi halba . ?","""yes"""
+307,307,,
+308,308,,
+309,309,,
+310,310,,
+311,311,"Keila Puuviljaparadiisis keda proovinud ?","""no"""
+312,312,,
+313,313,,
+314,314,,
+315,315,"kelle kustutasid korraldajad võitjate nimistust ?","{""answer"": ""yes""}"
+316,316,,
+317,317,"kelle elupaiku ?","""no"""
+318,318,,
+319,319,,
+320,320,"kes  ei karda surma ?","{""answer"": ""yes""}"
+321,321,,
+322,322,"keda tapetakse ?","""No"""
+323,323,"kes hammustab või midagi ?","""yes"""
+324,324,"kes küll andmeid koerteregistrisse ei anna ?","{""answer"": ""yes""}"
+325,325,,
+326,326,"mis päeva ?","{""answer"": ""no""}"
+327,327,,
+328,328,,
+329,329,,
+330,330,,
+331,331,,
+332,332,"keda oli  pärast Aasia mängude võitu kangelaseks tituleeritud . ?","yes"
+333,333,,
+334,334,"Aili  millest  veelgi raskem ?","{
+  ""answer"": ""no""
+}"
+335,335,"kellele väga raske seletada ?","""yes"""
+336,336,"kes  Kosovo albaanlastest halvemad on ?","""yes"""
+337,337,"millest püsima jäävad ?","""no"""
+338,338,"kelle lähisugulane Paul Castellano ?","no"
+339,339,"kellel on siis teema ees ja kergem tundi läbi viia . ” ?","""yes"""
+340,340,,
+341,341,"kelle  populaarsus on tänu Tshetsheenia sõjale kõvasti tõusnud ?","""yes"""
+342,342,,
+343,343,,
+344,344,,
+345,345,"kes on  meiega võrreldes väga suur klubi . ?","{""answer"": ""yes""}"
+346,346,"milline maksubaasi laiendamine ?","{
+  ""answer"": ""yes""
+}"
+347,347,"kes komponeeris spetsiaalselt palasid ühele noorele naisõpilasele ?","no"
+348,348,,
+349,349,,
+350,350,"mis mingi aeg on läbi teinud väiksemat või suuremat sorti muudatuse ?","{""answer"": ""no""}"
+351,351,,
+352,352,"kelle oluliselt nooremad kaaslased ?","{
+   ""answer"": ""yes""
+}"
+353,353,,
+354,354,,
+355,355,"kui suur summa?","{
+  ""answer"": ""no""
+}"
+356,356,,
+357,357,,
+358,358,"kes asuvad maal , mis Ameerika revolutsiooni ajal omanikku vahetas ?","{
+  ""answer"": ""no""
+}"
+359,359,,
+360,360,"kes oma sviidist väljub ?","""no"""
+361,361,,
+362,362,,
+363,363,,
+364,364,,
+365,365,,
+366,366,"kes teeb ehk ülevaate möödunust ?","""yes"""
+367,367,,
+368,368,,
+369,369,,
+370,370,,
+371,371,"mis arvu kaotustega ?","""no"""
+372,372,,
+373,373,"mis moodustavad bioloogiliste ja geneetiliste ressursside asendamatu tagavara ?","""yes"""
+374,374,"mis ressursside säilitamine ?","{""answer"": ""no""}"
+375,375,,
+376,376,"vedasid mida mööda linna ?","{""answer"": ""no""}"
+377,377,"kelle isikliku arvamuse kohaselt ?","{""answer"": ""yes""}"
+378,378,"mis oli jõulude ajal ikka olemas ?","yes"
+379,379,"väike Annika tegi millest igasuguseid kujukesi ?","{""answer"": ""no""}"
+380,380,,
+381,381,"kelle häält ?","{""answer"": ""no""}"
+382,382,"kellega oli juba varem kõvasti lahkarvamusi ?","{
+  ""answer"": ""yes""
+}"
+383,383,"kes olid mulle väga palju pappi võlgu ?","""yes"""
+384,384,"andsin kes kohtusse ?","""no"""
+385,385,"kelle töö ?","""no"""
+386,386,"kes kusagil kontoris arvuti taga samuti passida ei suudaks ?","""no"""
+387,387,"mille kurjategijad ärandasid Lätis , Poolas , Venemaal ja mujal laialdaselt kasutusel oleva eriseadme abil ?","""yes"""
+388,388,,
+389,389,,
+390,390,,
+391,391,,
+392,392,"mida muidu puude kohta tarvitatakse ?","""yes"""
+393,393,,
+394,394,"mis millest lõpuks välja tuli ?","""yes"""
+395,395,,
+396,396,,
+397,397,"mis oli vastureaktsioon Teise maailmasõja koledustele , kui Hitler tappis kõiki , kes talle ei meeldinud , nii juute kui ka homoseksuaale ?","FAIL"
+398,398,"kellele ei meeldinud ?","""yes"""
+399,399,"koefitsiendi põhjal olid  kellest  ees Pjotr Svidler ( Venemaa ) ja Viktor Kortshnoi ( Shveits ) ?","yes"
+400,400,,
+401,401,"kes tunnistab ka ?","{""answer"": ""yes""}"
+402,402,,
+403,403,"veenis keda õppemaksu mitte kehtestama ?","""no"""
+404,404,,
+405,405,,
+406,406,,
+407,407,,
+408,408,"kelle tõeliseks kutsumuseks ?","""no"""
+409,409,,
+410,410,"mida nii valjusti hõikusime ?","""yes"""
+411,411,"kellel  on esindajaid kongressi kahes kojas ?","""yes"""
+412,412,"hoida kellel silma peal ?","""no"""
+413,413,"kes jätta rahule ?","{""answer"": ""yes""}"
+414,414,"mis ütleb ka üht-teist ?","""yes"""
+415,415,,
+416,416,,
+417,417,"ega ometi kellele ?","""yes"""
+418,418,"kellel on head väljavaated ka teiseks jäämise korral veerandfinaali pääseda ?","""No"""
+419,419,,
+420,420,"kohati kes läkastub sellesse ?","""no"""
+421,421,,
+422,422,"millesse ta läkastub ?","""yes"""
+423,423,,
+424,424,"mis ei ole üldine , vaid tuleb esile üksikjuhtudel . ?","yes"
+425,425,"mida liigitada ?","{
+  ""answer"": ""yes""
+}"
+426,426,,
+427,427,"mis avaldatakse Kindlustusinspektsiooni aastaraamatutes , Liikluskindlustuse Fondi ettekannetes kindlustuse tulemustest , Internetis Kindlustusinspektsiooni , Liikluskindlustuse Fondi ja ka kindlustusseltside koduleheküljel ning massiteabevahendites ?","{""answer"": ""yes""}"
+428,428,,
+429,429,"kelle kätte sattunud ?","""yes"""
+430,430,,
+431,431,,
+432,432,"mis paremaks ei tee ?","""yes"""
+433,433,"mis muudam vanemad kaardid just aeglasemaks ?","{""answer"": ""no""}"
+434,434,"mis loo lõpus noodipildis ära tuuakse ?","""no"""
+435,435,,
+436,436,"kelle võimuses ?","""no"""
+437,437,"võimuorganid on teinud mille kohta otsuse ?","no"
+438,438,,
+439,439,"mis on muudetud kohustuslikuks või on laiendatud nende ulatust ?","yes"
+440,440,"mille ulatust ?","{""answer"": ""no""}"
+441,441,,
+442,442,,
+443,443,"seitsmes loos laulab kes koos tütrega ?","""no"""
+444,444,,
+445,445,"avaldage kellele oma rahulolematust ?","""yes"""
+446,446,,
+447,447,"kes paneb ikka täiega ?","{""answer"": ""yes""}"
+448,448,,
+449,449,"mida Mooz kirjeldas ?","{
+  ""answer"": ""yes""
+}"
+450,450,,
+451,451,,
+452,452,,
+453,453,,
+454,454,,
+455,455,"kes võib eritada lõhna , mis hoiatab tema naabreid ja käsib neil kaitsesüsteemi rakendada","""yes"""
+456,456,,
+457,457,"kelle naabreid ?","{
+  ""answer"": ""no""
+}"
+458,458,,
+459,459,,
+460,460,"kelle strateegiast ?","{""answer"": ""no""}"
+461,461,,
+462,462,"Eesti mis liigub see aasta 74 meetrini ?","""no"""
+463,463,,
+464,464,"kes üldse Venkovat ründas ?","""yes"""
+465,465,"kuhu viskas mille pärast tapmist ?","{
+  ""answer"": ""no""
+}"
+466,466,"kes saaba aru ?","{
+  ""answer"": ""no""
+}"
+467,467,,
+468,468,"käsitades mida kui keskset osa president Aleksandr Lukashenko leppimatus võitluses korruptsiooniga ?","no"
+469,469,,
+470,470,,
+471,471,,
+472,472,"keda opereerisid Maarjamõisa haigla näo- ja lõualuukirurgia osakonna kirurgid ?","yes"
+473,473,,
+474,474,"mis ametit ?","{
+  ""answer"": ""yes""
+}"
+475,475,"millest peaks  abivajajatele ka kasu tõusma . ?","""yes"""
+476,476,"mis panna varjulisse kohta hoiule ?","""yes"""
+477,477,"nimetab keda lausa kõigi kuuldes lillaks ?","""Yes"""
+478,478,,
+479,479,"kes ei peagi kevadel Mongooliasse parun Ungern-Sternbergi varandust otsima minema ?","{""answer"": ""yes""}"
+480,480,,
+481,481,,
+482,482,,
+483,483,,
+484,484,"kelle silme läbi ?","{""answer"": ""no""}"
+485,485,,
+486,486,"kes oli juba lõunaks nina täis võtnud . ” ?","""yes"""
+487,487,"kellele mööndusi ei tehtud ?","""yes"""
+488,488,,
+489,489,,
+490,490,"kelle esimene reaktsioon ?","{
+  ""answer"": ""yes""
+}"
+491,491,,
+492,492,"mida ikka tohid ?","{
+  ""answer"": ""yes""
+}"
+493,493,,
+494,494,"mida suudaks enne lilot käima tõmmata , et saaks OSi vahetada vms ?","no"
+495,495,,
+496,496,,
+497,497,,
+498,498,,
+499,499,,
+500,500,,
+501,501,,
+502,502,"kes  on joobes ?","{
+  ""answer"": ""no""
+}"
+503,503,"keda ootas Balti jaamas läbematu rahvahulk . ?","{
+  ""answer"": ""yes""
+}"
+504,504,"kelle hulgas presidendipaarile , kõikidele ministritele , riigikogu juhatusele , Tallinna linnapeale ja volikogu esimehele . ?","yes"
+505,505,,
+506,506,,
+507,507,"kellest haiglas suri 6?","""yes"""
+508,508,"Eesti millega pole minu arust mingit vahet ?","""no"""
+509,509,,
+510,510,,
+511,511,"kes tekitatud 31.524 krooni kahju?","{""answer"": ""yes""}"
+512,512,,
+513,513,,
+514,514,,
+515,515,"keda  ootab  politsei radari ja trahvikviitungiga . ?","""yes"""
+516,516,"keda oleks vaid rohkem ?","""yes"""
+517,517,,
+518,518,,
+519,519,,
+520,520,,
+521,521,,
+522,522,,
+523,523,"kes pälvib kaastunnet ?","""yes"""
+524,524,,
+525,525,"kelle rikas vanatüdruk ” talust minema kihutab ?","{""answer"": ""no""}"
+526,526,,
+527,527,,
+528,528,,
+529,529,,
+530,530,,
+531,531,"mis on advokaat Soratie kodus nii päevatöö kui ka kõneaine ?","""no"""
+532,532,,
+533,533,,
+534,534,"mis on ka neile endile kasulik ?","""yes"""
+535,535,,
+536,536,"kellele kasulik ?","""yes"""
+537,537,,
+538,538,"kelle endi rahvuslikele huvidele ?","""no"""
+539,539,"kelle rahvuslikele huvidele ?","""no"""
+540,540,,
+541,541,"mis läheb inglastele kah ?","""no"""
+542,542,"mis sakslastele pidi tegema ?","""yes"""
+543,543,,
+544,544,,
+545,545,"kes ei usuks ?","{""answer"": ""yes""}"
+546,546,,
+547,547,,
+548,548,,
+549,549,"kelle koondamise politseist eelmise aasta lõpul ?","""no"""
+550,550,"kelle tööle ennistamist ?","{
+  ""answer"": ""no""
+}"
+551,551,,
+552,552,"kelle  käes vangis 250 inimest ?","""yes"""
+553,553,,
+554,554,"kellele tuli esmalt vastu purjus Tarto ?","""yes"""
+555,555,"kes hakkab samuti seda liini lendama ?","""yes"""
+556,556,,
+557,557,,
+558,558,"kellele selline asutus nii magusa maatüki sai ?","{""answer"": ""yes""}"
+559,559,"kellel praegu sebivad arstid ja õed ümber ?","no"
+560,560,,
+561,561,,
+562,562,,
+563,563,"mille sisestamine või säilitamine ?","{""answer"": ""yes""}"
+564,564,,
+565,565,"kes ei ela enam kaua ?","""yes"""
+566,566,,
+567,567,,
+568,568,,
+569,569,,
+570,570,,
+571,571,,
+572,572,,
+573,573,,
+574,574,,
+575,575,,
+576,576,"kes ei tea ega märka ?","""yes"""
+577,577,,
+578,578,,
+579,579,"kes otsivad üles takso ?","""yes"""
+580,580,"millega sõideti ?","""yes"""
+581,581,,
+582,582,"kelle maksumaksjate raha ?","""yes"""
+583,583,,
+584,584,,
+585,585,,
+586,586,"mille üleelanud abikaasa on kohustatud täitma ?","Yes"
+587,587,"keda kurvastab ka , et meediat huvitab mõnikord vaid sensatsioon . ?","yes"
+588,588,,
+589,589,,
+590,590,,
+591,591,,
+592,592,,
+593,593,,
+594,594,"kelle esialgsest tekstist ?","""no"""
+595,595,"kelle  säilitatud ametiastmele ?","{
+  ""answer"": ""no""
+}"
+596,596,"kes oma perenaisest hetkekski lahkumast ?","{""answer"": ""no""}"
+597,597,,
+598,598,"kes on kodus ?","{
+""answer"": ""yes""
+}"
+599,599,"kellel käib tihedalt kannul ?","""yes"""
+600,600,,
+601,601,,
+602,602,"kes kus kogeksid , et seigelda saab ka tänavail elamata ?","{""answer"": ""no""}"
+603,603,,
+604,604,"kes on suuteline investeerima ja oma tööd efektiivselt korraldama ?","{""answer"": ""yes""}"
+605,605,,
+606,606,"kes on sisuliselt laip ?","""yes"""
+607,607,"koos kelle esindajatega ?","""no"""
+608,608,"kellega Pole kohtunudki ?","""yes"""
+609,609,,
+610,610,,
+611,611,,
+612,612,,
+613,613,,
+614,614,"kellele vormistasid 1993 . aasta veebruaris Eesti passi ?","""yes"""
+615,615,"mida võib-olla ei olegi inspektsioonil vaja ?","""no"""
+616,616,,
+617,617,,
+618,618,,
+619,619,"kes lasketiirus paremini muutlikke tuuleolusid ei osanud hinnata ?","yes"
+620,620,,
+621,621,,
+622,622,,
+623,623,,
+624,624,,
+625,625,,
+626,626,,
+627,627,,
+628,628,,
+629,629,,
+630,630,"kelle isikut tõendav dokument ?","""yes"""
+631,631,"mida tahetakse näha ?","{""answer"": ""yes""}"
+632,632,,
+633,633,,
+634,634,,
+635,635,,
+636,636,,
+637,637,,
+638,638,,
+639,639,"kellel on õigus seda riigilt taotleda ?","""yes"""
+640,640,,
+641,641,"kes riigiasutuse poole pöördub ?","""yes"""
+642,642,,
+643,643,"mille hooldust korraldab linn ?","""yes"""
+644,644,0,
+645,645,"mis raha arvestas majavalitsus elanike võlaks ?","""no"""
+646,646,,
+647,647,,
+648,648,,
+649,649,"kellele annab juhatus õigusliku seisukoha üle ?","{""answer"": ""yes""}"
+650,650,,
+651,651,,
+652,652,,
+653,653,"probleem on seotud kelle kaubamärgiga ?","""no"""
+654,654,"mille pehmendab enneolematult seksikaks ?","{""answer"": ""no""}"
+655,655,"kelle sõnu referendumi küsimuses oli valesti mõistetud ?","""yes"""
+656,656,"kelle lemmikutele ?","{
+  ""answer"": ""yes""
+}"
+657,657,,
+658,658,,
+659,659,"kelle algkooli keeleõpetusega ? ","""yes"""
+660,660,,
+661,661,,
+662,662,,
+663,663,,
+664,664,,
+665,665,,
+666,666,"kes mitte ming hinna eest ei ole nõus rannas poolpaljalt päikest võtma ?","""yes"""
+667,667,"mis vedeles kaks aastat riiulil ?","""yes"""
+668,668,,
+669,669,"kelle valitsuse poliitikat ?","{""answer"": ""yes""}"
+670,670,,
+671,671,,
+672,672,"kes ei taha küll kedagi süüdistada ?","""Yes"""
+673,673,,
+674,674,"kes tahab - annab sõna , tahab - võtab selle ?","{""answer"": ""no""}"
+675,675,,
+676,676,,
+677,677,"mille märkamiseks ei pea olema finantsgeenius ?","""yes"""
+678,678,,
+679,679,,
+680,680,,
+681,681,,
+682,682,,
+683,683,,
+684,684,0,
+685,685,,
+686,686,,
+687,687,"mis ulatuksid alustarindisse vähemalt voodri 1,5 - kordse paksuse võrra ?","yes"
+688,688,,
+689,689,,
+690,690,"mille praeguses koosseisus salvestust nii raadios kui televisioonis ?","{""answer"": ""no""}"
+691,691,"kelle korteris ?","""no"""
+692,692,"mis loovad publikule petliku tunde ?","""yes"""
+693,693,"kes nagu teaksid nüüd kõike ?","""yes"""
+694,694,"kes ei mõista seda ise ?","""yes"""
+695,695,"kes ei mõista seda ?","""yes"""
+696,696,"mida ei mõisteta ka Kremlis ?","{""answer"": ""yes""}"
+697,697,,
+698,698,"edestas teist keda ?","""no"""
+699,699,,
+700,700,,
+701,701,"kelle kahtlemist kuulutades ?","""yes"""
+702,702,,
+703,703,,
+704,704,,
+705,705,"rääkis kellele luksudes kõrva ?","no"
+706,706,"kes ei oska kuskile minna ?","""no"""
+707,707,"kes ei teagi , kuhu minna ?","""No"""
+708,708,"kes kardab ?","""yes"""
+709,709,"kes on ära eksinud ?","{""answer"": ""yes""}"
+710,710,"kes on siin juba kolm päeva ?","""yes"""
+711,711,"kes ei ole söönud ?","{""answer"": ""yes""}"
+712,712,"keda ärge jätke mahaaaa ?","""yes"""
+713,713,,
+714,714,,
+715,715,,
+716,716,,
+717,717,,
+718,718,"kes on Eliza Doolittle'ina elukoolis käinud , ?","""yes"""
+719,719,,
+720,720,,
+721,721,"seejärel koguneb eelnõu töögrupp mida valitsusele esitamiseks viimistlema ?","yes"
+722,722,,
+723,723,,
+724,724,"keda ei pea lööduks ?","""no"""
+725,725,,
+726,726,"mis nõudlusel hajuda ei võimalda ?","""yes"""
+727,727,,
+728,728,,
+729,729,,
+730,730,,
+731,731,,
+732,732,"mille maksumus on 145 000 eurot ?","""yes"""
+733,733,"mille eesmärk oli välistada Rüütli presidendiks saamine ?","{""answer"": ""yes""}"
+734,734,,
+735,735,"kellele on välja jagatud ?","""yes"""
+736,736,,
+737,737,,
+738,738,"enne kui kellest varas kasvab ?","{""answer"": ""no""}"
+739,739,,
+740,740,,
+741,741,,
+742,742,"mida ühe parkimismaja rajamine tasub ära 250 koha puhul ?","""yes"""
+743,743,"kellele tehti Atlantas operatsioon ?","{
+  ""answer"": ""yes""
+}"
+744,744,"kelle eelarvesoove põhjendanud ?","""yes"""
+745,745,,
+746,746,"kelle eelarvesoovidest MEGA-le rääkinud ?","""yes"""
+747,747,,
+748,748,"mida kohandades vastavalt oma vajadustele ?","""yes"""
+749,749,"vastavalt kelle vajadusele ?","""yes"""
+750,750,,
+751,751,,
+752,752,"mis lisandus sellele põllumajanduslaenule ?","""yes"""
+753,753,"mis põllumajanduslaenule ?","""no"""
+754,754,"mis võeti põllumajanduse arendamiseks Maailmapangast ?","""yes"""
+755,755,,
+756,756,,
+757,757,,
+758,758,"mis tähendaks lühemat tööaega ?","""yes"""
+759,759,,
+760,760,,
+761,761,"kes on mõlemad kultuuri- ja hariduskomisjonist ?","""yes"""
+762,762,"keda need süsteemid siis ei vaja ?","yes"
+763,763,,
+764,764,,
+765,765,,
+766,766,,
+767,767,"kel on emotsioonid , samuti ääretult hea akadeemiline haridus ?","{
+  ""answer"": ""no""
+}"
+768,768,"mille ja mandriala või teise saare vahemik on vähem kui 24 meremiili ?","""yes"""
+769,769,,
+770,770,"kelle kinnitusel ?","""yes"""
+771,771,"kelle äratas hommikul ema ?","""yes"""
+772,772,"kes tahab kooli minna ?","{
+  ""answer"": ""yes""
+}"
+773,773,"kes minu palvel uurisid neid seadusi ja nende koosmõju ?","{""answer"": ""yes""}"
+774,774,"kellel pole õigust puutuda anonüümsete heliloojate , rahvamuusika loojate loodut ?","""no"""
+775,775,"kellel pole õigust nende muusikalist materjali oma teostesse algsel kujul üle kanda , lõhkuda seda kordumatut tervikut ?","""yes"""
+776,776,"kelle muusikalist materjali oma teostesse algsel kujul üle kanda ?","{""answer"": ""yes""}"
+777,777,,
+778,778,,
+779,779,,
+780,780,,
+781,781,,
+782,782,,
+783,783,,
+784,784,"kui mida kunagi on olnudki ?","{""answer"": ""yes""}"
+785,785,"enne mida saatsin talle SMSi ?","""yes"""
+786,786,,
+787,787,,
+788,788,"kes hiljem enam kellest märku pole andnud ?","""yes"""
+789,789,,
+790,790,,
+791,791,"mis tunnistab ennast olevat regionaalpoliitiliselt mahajäetud ?","""Yes"""
+792,792,,
+793,793,"mille taga on ka ftp ?","{
+  ""answer"": ""yes""
+}"
+794,794,,
+795,795,,
+796,796,,
+797,797,"mis avaldavad märgatavat mõju käesolevas direktiivis ettenähtud omadustele ?","{""answer"": ""yes""}"
+798,798,,
+799,799,"kellele ei ole üldkoosolek häälte arvu juba määranud ?","{""answer"": ""no""}"
+800,800,,
+801,801,"kellega isiklikult pole keegi kontakti võtnud ?","""yes"""
+802,802,,
+803,803,"kelle võimeid ?","""no"""
+804,804,,
+805,805,,
+806,806,,
+807,807,,
+808,808,0,
+809,809,"tunnista mille olemasolu ?","{
+""answer"": ""yes""
+}"
+810,810,"paranda mida ?","{
+  ""answer"": ""yes""
+}"
+811,811,,
+812,812,"kelle tuttava ?","{
+  ""answer"": ""no""
+}"
+813,813,,
+814,814,,
+815,815,,
+816,816,"kelle riik ?","""no"""
+817,817,,
+818,818,,
+819,819,,
+820,820,"millel erilist tähtsust pole ?","""yes"""
+821,821,"võiks mis materjalist tellida ka pliidikummi ?","""no"""
+822,822,"mille  põhiomadus oli rasestumisest hoidumine ja lisatoimena taotleti aknevastast toimet ?","{""answer"": ""yes""}"
+823,823,,
+824,824,,
+825,825,"mida saaks tänava asemel teha rajal  ?","""yes"""
+826,826,"mis on põhiseadusliku omandiõiguse kallale minek ?","""yes"""
+827,827,,
+828,828," esialgu näib Kreml eelistavat  kellele  kõikvõimalikke tšetšeeni rahva reetureid ja marionette ?","""yes"""
+829,829,"mis on nüüd mul olemas ?","{
+  ""answer"": ""yes""
+}"
+830,830,,
+831,831,"kes oleks ette teadnud ? ","""yes"""
+832,832,"kelle kirjutisest raamat tuleb ?","""yes"""
+833,833,,
+834,834,"kellel oli ühtäkki öösel toas sadu nahkhiiri ?","{
+  ""answer"": ""no""
+}"
+835,835,,
+836,836,,
+837,837,,
+838,838,"kellel on kuueaastane poeg ?","""Yes"""
+839,839,"kes on õigel teel ?","""yes"""
+840,840,,
+841,841,"kelle tabamise ?","{
+  ""answer"": ""no""
+}"
+842,842,"mis hetkel keskenduvad inimesed oma palvetele ?","""yes"""
+843,843,,
+844,844,"kes sai sõidukid endale välissaatkondade varjus osta isiklikuks otstarbeks maksuvabalt ?","""yes"""
+845,845,"kellele sai ta sõidukid välissaatkondade varjus osta isiklikuks otstarbeks maksuvabalt ?","{""answer"": ""yes""}"
+846,846,,
+847,847,,
+848,848,,
+849,849,,
+850,850,"kes seda oskavad ?","""yes"""
+851,851,,
+852,852,"millega ühenduse tariifikvootide kujul kehtestatakse teatavad soodustused teatavatele põllumajandustoodetele ja sätestatakse sõltumatu üleminekumeetmena teatavad mitmepoolsete kaubandusläbirääkimiste Uruguay voorus sõlmitud põllumajanduslepingu arvestamiseks sõlmitud Euroopa lepingutes sätestatud põllumajanduslikud soodustused ?","{""answer"": ""yes""}"
+853,853,"eriti mille artiklit 8 ?","[""no""]"
+854,854,,
+855,855,"kes tegi kolm möödaviset ?","{""answer"": ""yes""}"
+856,856,,
+857,857,,
+858,858,,
+859,859,,
+860,860,,
+861,861,,
+862,862,,
+863,863,"kes oli väidetavalt oma Moskvas resideerivale Lõuna-Korea kolleegile , Cho Shung-woole edastanud tähtsaid Venemaa riigisaladusi ?","{""answer"": ""yes""}"
+864,864,"kelle Moskvas resideerivale Lõuna-Korea kolleegile ?","{
+   ""answer"": ""yes""
+}"
+865,865,,
+866,866,,
+867,867,,
+868,868,"kes õhupuuduse ja kuuma kätte suri ?","{""answer"": ""yes""}"
+869,869,"kes ei loe esinemistel paberilt laulusõnu maha seepärast , et ta neid ei mäletaks , vaid hoopis imagoloogilistel kaalutlustel ?","{""answer"": ""yes""}"
+870,870,"kes neid ei mäletaks ?","""yes"""
+871,871,"mida ta ei mäletaks ?","""yes"""
+872,872,"kes ei pidanud doonoreid otsima ?","""no"""
+873,873,"kellel õnnestus visata linna C-vanuseklassi rekord - 40.05 ?","{""answer"": ""no""}"
+874,874,"kelle esimesest tutvusest odaga?","""no"""
+875,875,,
+876,876,,
+877,877,"andsid  keda  päästeparvede ja -paatide hoolde pärast seda , kui platvormide kokkupõrkest hakkasid lekkima nafa-ja maagaasitorud ?","{""answer"": ""yes""}"
+878,878,,
+879,879,,
+880,880,,
+881,881,"kes tegeleb 24 / 7 joomisega ?","""yes"""
+882,882,"kes on aegade jooksul selliste pudelitega ka toime tulnud ?","{
+  ""answer"": ""yes""
+}"
+883,883,"mis piiraks direktiivi 91 / 414 / EMÜ kohaldamist ?","yes"
+884,884,,
+885,885,"Paus õppetöös kaitseväe pärast tähendaks kellele vaimset mandumist ?","""no"""
+886,886,"kelle isa on Eestile palju au ja kuulsust toonud ?","""yes"""
+887,887,"kes püüab seda selle Nadja käest kohe teada saad , kui ta SUUDAB oma väiksest ajust mõne ingliskeelse sõna välja imeda?","no"
+888,888,,
+889,889,,
+890,890,,
+891,891,"millele vastatakse ?","""yes"""
+892,892,,
+893,893,"kelle kuulsast tõstja isa Karli kihutusel ?","No"
+894,894,,
+895,895,"kui lavastaja mis ?","{
+  ""answer"": ""no""
+}"
+896,896,,
+897,897,"mis karva ?","{
+  ""answer"": ""no""
+}"
+898,898,"kellele järgnesid Leks Kindlustus ( 19,4% ) , ASA Kindlustus ( 15% ) ja Nordika Kindlustus ( 14,2% ) ?","""yes"""
+899,899,"kelle tegevuses ?","{
+  ""answer"": ""no""
+}"
+900,900,"kes ei suutnud üheski vaidlusküsimuses kokkuleppele jõuda ?","""yes"""
+901,901,,
+902,902,,
+903,903,"keda toidab ainult halvast ajakirjandusest , ?","""yes"""
+904,904,"kellel  halb hakkaks ?","{
+  ""answer"": ""yes""
+}"
+905,905,"mis nüüd seisavad siin kõik kuna ükski pole olnud see õige ?","no"
+906,906,,
+907,907,,
+908,908,"kellele endale kasutamisele ?","""yes"""
+909,909,"millest poole ära maksab ?","""no"""
+910,910,,
+911,911,,
+912,912,"kelle palk olla mitmekordistunud ?","""no"""
+913,913,"kelle suu ja kabinet lukus?","""yes"""
+914,914,,
+915,915,,
+916,916,,
+917,917,"kes ennast nimetasid ?","""no"""
+918,918,"kellele annan oma mobla ?","""Yes"""
+919,919,"suurendada kelle esindatus ?","{""answer"": ""no""}"
+920,920,,
+921,921,,
+922,922,"mida maksab see , kes teenusest otseselt kasu saab ?","""yes"""
+923,923,"kes maksab ?","{""answer"": ""yes""}"
+924,924,,
+925,925,,
+926,926,,
+927,927,"kes jättis oma jälje ?","""yes"""
+928,928,"kes oma seadusi rikub ?","""yes"""
+929,929,"kelle sõber ?","""yes"""
+930,930,,
+931,931,,
+932,932,,
+933,933,"kes ei saa kommenteerida ?","""yes"""
+934,934,"kes ei tea ?","{
+  ""answer"": ""yes""
+}"
+935,935,,
+936,936,,
+937,937,"mille andis Oikumena väidetavalt edasi kellelegi Natashale ASi Taisto Sillamäe müügiesindusest ?","Yes"
+938,938,,
+939,939,,
+940,940,,
+941,941,,
+942,942,,
+943,943,,
+944,944,"kes rääkisin täna mängijatele , et nad peavad mängima koos Earviniga , mitte teda vahtima ?","yes"
+945,945,,
+946,946,,
+947,947,"kelle valdkonnad on haridus , kultuur , sport , ettevõtlus , reklaam , kujundus , korrakaitse ja tervishoid ?","{""answer"": ""yes""}"
+948,948,"kelle ettekandes maastiku planeerimisest ?","""yes"""
+949,949,"kelle nime mainis pistise võtmises kahtlustatav Hoyzer ?","""no"""
+950,950,"mida osta ?","{
+  ""answer"": ""yes""
+}"
+951,951,,
+952,952,,
+953,953,,
+954,954,"Valgas kelle  esindust omav Elektriteenused AS ?","""no"""
+955,955,"mis tuleb kindlasti ka täita ?","{""answer"": ""yes""}"
+956,956,,
+957,957,"kelle volitusi 2004. aastal põhiseaduse vastaselt pikendati ?","{
+  ""answer"": ""yes""
+}"
+958,958,"nad on kellel 12 tonniga üleval ?","yes"
+959,959,,
+960,960,,
+961,961,"mida mõned pulmalised nõuavad ?","""yes"""
+962,962,,
+963,963,"mis on kinnitatud ?","""No"""
+964,964,"kelle mobiiltelefoni sünkroniseerimisega seotud tootearenduse ?","{""answer"": ""no""}"
+965,965,"kelle jõukuse allikad ?","""yes"""
+966,966,,
+967,967,,
+968,968,,
+969,969,"kes arvas, et meil käisid röövlid ?","{""answer"": ""yes""}"
+970,970,,
+971,971,"kelle kannatus võib iga hetk katkeda ?","{
+  ""answer"": ""yes""
+}"
+972,972,,
+973,973,,
+974,974,"paljusid millest on kultuurikomisjon arvestanud ?","{""answer"": ""no""}"
+975,975,,
+976,976,,
+977,977,,
+978,978,,
+979,979,"mis ei ole mingi valmis asi ?","{""answer"": ""no""}"
+980,980,,
+981,981,"teatab kellele sellest asjaolust ?","{""answer"": ""no""}"
+982,982,,
+983,983,,
+984,984,,
+985,985,"kes lastele pilte joonistas ?","{""answer"": ""yes""}"
+986,986,,
+987,987,,
+988,988,"tagavad kelle lõhelaste varude seire ja laboriuuringud ?","{""answer"": ""no""}"
+989,989,"kelle esimses noorusvärskuses ?","""no"""
+990,990,,
+991,991,,
+992,992,,
+993,993,,
+994,994,,
+995,995,,
+996,996,"kellel  on õigus saada majandusabi vastavalt nõukogu määrusele ( EMÜ ) nr 3906/89 või mis tahes hilisemale asjakohasele õigusaktile","yes"
+997,997,"streik pole kelle asi ?","""no"""
+998,998,,
+999,999,"mille esteetikalt ?","""yes"""
+1000,1000,,
+1001,1001,"kellel oli hea meel ?","""yes"""
+1002,1002,"kes esindavad ?","""yes"""
+1003,1003,,
+1004,1004,"mis liikmesriigid osalevad kõnealustes koostöö valdkondades ?","yes"
+1005,1005,,
+1006,1006,,
+1007,1007,"millest üheksas pole praegu ühiselamut ?","yes"
+1008,1008,,
+1009,1009,,
+1010,1010,,
+1011,1011,"mis on teie raamat ?","{""answer"": ""yes""}"
+1012,1012,,
+1013,1013,"kelle hobust ?","{
+  ""answer"": ""no""
+}"
+1014,1014,,
+1015,1015,,
+1016,1016,"kellest  478 saadi kätte elusalt ?","""yes"""
+1017,1017,,
+1018,1018,,
+1019,1019,"mille muutmist ?","""no"""
+1020,1020,"millest kuus on tühised ?","yes"
+1021,1021,"kelle alamatele ?","{
+  ""answer"": ""no""
+}"
+1022,1022,,
+1023,1023,,
+1024,1024,"kes käitus igati uue põhiseaduse järgi ?","""yes"""
+1025,1025,,
+1026,1026,"millel me ühtlase vooluna edeneda lubame ja üksikuid lugusid esile ei sikuta ?","{""answer"": ""yes""}"
+1027,1027,"kelle eluvaated on hoopis teistsugused ?","""yes"""
+1028,1028,"kelle kasutuses olevat sõidukit ?","""No"""
+1029,1029,,
+1030,1030,,
+1031,1031,"kes sünnitas surnud lapse ?","""yes"""
+1032,1032,,
+1033,1033,"kes sai romaani eest "" How Late it was , how late "" ( "" Kui hilja see oli , kui hilja "" ) ?","""yes"""
+1034,1034,"kes arvavad sageli , et peavad olema igal pool esimesed ?","""no"""
+1035,1035,"isegi kui mida töö ajal ainult tõstetakse ja liigutatakse ?","no"
+1036,1036,"nimetatud selgitavate märkuste kohaselt võib milliseid tööriistu kasutada koos lisaseadistega ( nt statiivid , tugiseadised , tõsteplokid ) ?","yes"
+1037,1037,,
+1038,1038,0,
+1039,1039,"kes on endale kaela tõmmanud ?","{""answer"": ""yes""}"
+1040,1040,"kellele kaela tõmmanud ?","""yes"""
+1041,1041,"kes viidi ekskursioonile läbi Patarei vangla ?","""yes"""
+1042,1042,,
+1043,1043,,
+1044,1044,,
+1045,1045,,
+1046,1046,"millise saalitäie arvamus ei ütle midagi kõigi teatrikülastajate arvamuse kohta ?","{ ""answer"": ""yes"" }"
+1047,1047,,
+1048,1048,,
+1049,1049,,
+1050,1050,"kes kinnitas 100-protsendiliselt , et on olnud teisipäeva õhtust saadik oma suvilas ega ole autoga täna sõitnud ","{""answer"": ""yes""}"
+1051,1051,"kelle suvilas ?","""no"""
+1052,1052,"kellele pihustab keele alla veel spetsiaalset spray'd ?","""yes"""
+1053,1053,"kellel ei ole ?","{""answer"": ""yes""}"
+1054,1054,"kellel ei ole saba ega sarvi ?","""yes"""
+1055,1055,,
+1056,1056,"kes oli 97aastane ?","""yes"""
+1057,1057,"kes osalesid Kanepi kolhoosi põllumajandusreformi kavandamisel ja läbiviimisel ?","""yes"""
+1058,1058,"kellele saanud energiahiiust kasumliku dividendide maksja ?","{
+  ""answer"": ""no""
+}"
+1059,1059,"kelle firma  ei otsi uusi kliente ?","""yes"""
+1060,1060,"kellele oli see aeg väga oluline ?","""yes"""
+1061,1061,,
+1062,1062,"kelle muusikalise kujunemise loos ?","""no"""
+1063,1063,,
+1064,1064,,
+1065,1065,,
+1066,1066,,
+1067,1067,"mis teadupärast olemas on ?","{
+  ""answer"": ""yes""
+}"
+1068,1068,,
+1069,1069,"mille paned oma riidekappi ?","{""answer"": ""yes""}"
+1070,1070,,
