@@ -1,0 +1,11 @@
+# MacOs trash
+*.DS_Store
+
+# PyCharm
+.idea/
+
+# Pyhton thrash
+**/__pycache__/
+
+# Sensitive data
+anaphora_resolution/dataset_formation/model_configurations/*
