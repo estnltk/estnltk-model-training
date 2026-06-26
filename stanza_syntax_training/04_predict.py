@@ -41,7 +41,8 @@ def download_stanza_default_resources( lang: str ):
     '''
     if lang is not None:
         from stanza.resources.common import DEFAULT_MODEL_DIR
-        if not any([lang == fname for fname in os.listdir(DEFAULT_MODEL_DIR)]):
+        if not os.path.exists(DEFAULT_MODEL_DIR) or \
+           not any([lang == fname for fname in os.listdir(DEFAULT_MODEL_DIR)]):
             print(f'Downloading default resources for language {lang!r}:')
             from stanza import download
             download(lang=lang)
@@ -171,7 +172,7 @@ def run_models_main( conf_file, subexp=None, dry_run=False ):
                     if not os.path.isdir(models_dir):
                         raise FileNotFoundError(f'Error in {conf_file}: invalid "models_dir" value {models_dir!r} in {section!r}.')
                     # collect all model files from the directory
-                    model_file_name_pattern = re.compile( "^model_(.+)\.pt$")
+                    model_file_name_pattern = re.compile( r"^model_(.+)\.pt$")
                     for fname in os.listdir(models_dir):
                         if model_file_name_pattern.match(fname):
                             model_files.append( os.path.join(models_dir, fname) )

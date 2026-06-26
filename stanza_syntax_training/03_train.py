@@ -15,6 +15,7 @@ import sys
 import re
 import argparse
 from datetime import datetime
+from importlib.util import find_spec
 
 from packaging.version import Version as pkg_Version
 from packaging.version import parse as parse_version
@@ -22,9 +23,23 @@ from packaging.version import parse as parse_version
 from stanza.models.parser import main as stanza_main
 from stanza import __version__ as stanza_version
 
-from stanza.utils.conll18_ud_eval import load_conllu_file as stanza_load_conllu_file
-from stanza.utils.conll18_ud_eval import evaluate
-from stanza.utils.conll18_ud_eval import build_evaluation_table
+def check_if_udtools_is_available():
+    return find_spec("udtools") is not None
+
+if parse_version(stanza_version) < pkg_Version('1.11.1'):
+    # Use conll18_ud_eval from stanza
+    from stanza.utils.conll18_ud_eval import load_conllu_file
+    from stanza.utils.conll18_ud_eval import evaluate
+    from stanza.utils.conll18_ud_eval import build_evaluation_table
+else:
+    # Since v1.11.1, stanza has moved to using udtools 
+    # https://github.com/stanfordnlp/stanza/commit/b20cd3a0069e79f8f31757c8fbb2507050707402
+    if not check_if_udtools_is_available():
+        raise ImportError('(!) Package udtools is required for running this code. '+\
+                          'Installation: pip install udtools ')
+    from udtools.udeval import load_conllu as load_conllu_file
+    from udtools.udeval import build_evaluation_table
+    from udtools.udeval import evaluate
 
 import configparser
 
@@ -355,7 +370,8 @@ def run_conll18_ud_eval(gold_file, system_file, return_type='las_f1', save_resul
     if dry_run:
         return None
     # Evaluate
-    # The following code is based on:    
+    # Load CoNLL-U files
+    # The following code is based on:
     #   https://github.com/stanfordnlp/stanza/blob/main/stanza/utils/conll18_ud_eval.py#L658-L673
     treebank_type = {}
     treebank_type['no_gapping'] = 0
@@ -366,9 +382,16 @@ def run_conll18_ud_eval(gold_file, system_file, return_type='las_f1', save_resul
     treebank_type['no_case_info'] = 0
     treebank_type['no_empty_nodes'] = False
     treebank_type['multiple_roots_okay'] = False
-    # Load CoNLL-U files
-    gold_ud = stanza_load_conllu_file(gold_file, treebank_type)
-    system_ud = stanza_load_conllu_file(system_file, treebank_type)
+    if parse_version(stanza_version) < pkg_Version('1.11.1'):
+        # Use conll18_ud_eval from stanza
+        gold_ud = load_conllu_file(gold_file, treebank_type)
+        system_ud = load_conllu_file(system_file, treebank_type)
+    else:
+        # Use udtools package
+        with open(gold_file, mode='r', encoding='utf-8') as in_f:
+            gold_ud = load_conllu_file(in_f, gold_file, treebank_type)
+        with open(system_file, mode='r', encoding='utf-8') as in_f:
+            system_ud = load_conllu_file(in_f, system_file, treebank_type)
     eval_result = evaluate(gold_ud, system_ud)
     # Format results
     if return_type.lower() == 'las_f1':

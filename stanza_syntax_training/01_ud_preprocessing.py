@@ -518,7 +518,7 @@ def convert_and_compare_against_all_references( in_dir, morph_pipeline, ref_dirs
     seed: 43 | upos matches: 313489/344953 (90.88%) | feats matches: 344920/344953 (99.99%) | lemma matches: 344953/344953 (100.00%) | complete matches: 313482/344953 (90.88%) |
     '''
     start = datetime.now()
-    ref_conllu_file_name_pat = re.compile('^(\S+)-([^\-]+)\.conllu$')
+    ref_conllu_file_name_pat = re.compile(r'^(\S+)-([^\-]+)\.conllu$')
     assert os.path.isdir( in_dir )
     for ref_dir in ref_dirs:
         assert os.path.isdir( ref_dir )
