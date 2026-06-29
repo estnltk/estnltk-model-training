@@ -155,6 +155,7 @@ def run_models_main( conf_file, subexp=None, dry_run=False ):
                 tagger_path = config[section].get('tagger_path', default_tagger_path)
                 dry_run = config[section].getboolean('dry_run', dry_run)
                 use_gpu = config[section].getboolean('use_gpu', False)
+                exclude_checkpoint_model = config[section].getboolean('exclude_checkpoint', True)
                 # seed for randomly picking one analysis from ambiguous morph analyses
                 seed = config[section].getint('seed', 43)
                 # seed for randomly choosing one dependency result from results with maximum scores
@@ -174,6 +175,8 @@ def run_models_main( conf_file, subexp=None, dry_run=False ):
                     # collect all model files from the directory
                     model_file_name_pattern = re.compile( r"^model_(.+)\.pt$")
                     for fname in os.listdir(models_dir):
+                        if exclude_checkpoint_model and fname.endswith('_checkpoint.pt'):
+                            continue
                         if model_file_name_pattern.match(fname):
                             model_files.append( os.path.join(models_dir, fname) )
                     if len(model_files) == 0:
@@ -271,6 +274,7 @@ def run_models_main( conf_file, subexp=None, dry_run=False ):
                 tagger_path = config[section].get('tagger_path', 'estnltk_neural.taggers.StanzaSyntaxTagger')
                 dry_run = config[section].getboolean('dry_run', dry_run)
                 use_gpu = config[section].getboolean('use_gpu', False)
+                exclude_checkpoint_model = config[section].getboolean('exclude_checkpoint', True)
                 # skip_train: do not predict on train files
                 skip_train = config[section].getboolean('skip_train', False)
                 # test_matrix prediction mode: run all models on all test files
@@ -297,7 +301,8 @@ def run_models_main( conf_file, subexp=None, dry_run=False ):
                               test_file_is_pattern=test_file_is_pattern, parser=parser, 
                               use_estnltk=use_estnltk, morph_layer=morph_layer, seed=seed, 
                               tagger_path=tagger_path, lang=lang, skip_train=skip_train, 
-                              test_matrix=test_matrix, use_gpu=use_gpu, dry_run=dry_run )
+                              test_matrix=test_matrix, use_gpu=use_gpu, dry_run=dry_run,
+                              exclude_checkpoint_model=exclude_checkpoint_model )
     if not section_found:
         print(f'No section starting with "predict_stanza_" in {conf_file}.')
 
@@ -306,7 +311,8 @@ def bulk_predict( data_folder, models_folder, train_file_pattern, test_file_path
                   output_path, output_file_prefix='predicted_', subexp=None, 
                   test_file_is_pattern=False, parser='stanza', use_estnltk=False, 
                   morph_layer=None, seed=None, tagger_path=None, lang='et', 
-                  skip_train=False, test_matrix=False, use_gpu=False, dry_run=False ):
+                  skip_train=False, test_matrix=False, use_gpu=False, dry_run=False,
+                  exclude_checkpoint_model=True ):
     '''
     Runs models of multiple sub-experiments on (train/test) files from `data_folder`. 
     Outputs prediction conllu files to `output_path`. 
@@ -332,6 +338,8 @@ def bulk_predict( data_folder, models_folder, train_file_pattern, test_file_path
     instead of performing all sub-experiments. 
     This is useful when multiple instances of the Python are launched for 
     parallelization. 
+    If exclude_checkpoint_model==True (default), then models ending with suffix 
+    '_checkpoint.pt' will be excluded from experiments. 
     '''
     # Validate input arguments
     supported_parsers = ['stanza']
@@ -423,6 +431,8 @@ def bulk_predict( data_folder, models_folder, train_file_pattern, test_file_path
                 target_model_file = f"model_{no}.pt"
                 model_found = False
                 for model_fname in models_folder_files:
+                    if exclude_checkpoint_model and model_fname.endswith('_checkpoint.pt'):
+                        continue
                     if model_fname == target_model_file:
                         mfpath = os.path.join(models_folder, model_fname)
                         experiment_data['models'].append(mfpath)
@@ -456,6 +466,8 @@ def bulk_predict( data_folder, models_folder, train_file_pattern, test_file_path
                 target_model_file = f"model_{no}.pt"
                 model_found = False
                 for model_fname in models_folder_files:
+                    if exclude_checkpoint_model and model_fname.endswith('_checkpoint.pt'):
+                        continue
                     if model_fname == target_model_file:
                         mfpath = os.path.join(models_folder, model_fname)
                         experiment_data['models'].append(mfpath)
