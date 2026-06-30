@@ -5,7 +5,7 @@ This repository contains code for training and evaluating StanzaSyntax(Ensemble)
 ### Pre-requisites
 
 * Install [estnltk](https://github.com/estnltk/estnltk) (version 1.7.4+ is required);
-* Install [stanza](https://github.com/stanfordnlp/stanza) (we used version 1.12.1); 
+* Install [stanza](https://github.com/stanfordnlp/stanza) (we used version 1.13.0); 
 * Install [udtools](https://pypi.org/project/udtools/) (we used version 0.2.7); 
 * Install [packaging](https://pypi.org/project/packaging/) (we used version 24.2); 
 * Download and unpack [Estonian UD corpus](https://github.com/UniversalDependencies/UD_Estonian-EDT/tags) (we used version 2.18);
