@@ -194,7 +194,6 @@ class BertMorphTagger2(Retagger):
         # Tokenize the input string
         tokens, batch_encoding = self._tokenize_with_bert(input_str)
         token_indexes = torch.tensor([batch_encoding['input_ids']]).to(self.device)
-
         # Check if the length exceeds the model's maximum sequence length
         max_seq_length = self.bert_tokenizer.model_max_length
         if token_indexes.size(1) > max_seq_length:
@@ -219,11 +218,9 @@ class BertMorphTagger2(Retagger):
                 'token': token_data,
                 'predictions': [{'label': label, 'probability': prob} for label, prob in zip(top_n_labels, top_n_probs)]
             })
-
         # Convert BERT labels to Vabamorf's form and POS
         if self.split_pos_form:
             top_n_predictions = convert_bert_labels_to_vabamorf(top_n_predictions)
-
         return top_n_predictions
 
     def _tokenize_with_bert(self, 
@@ -258,6 +255,7 @@ class BertMorphTagger2(Retagger):
                 tokens.append( (None, None, token) )
         return tokens, batch_encoding
 
+
     def _make_layer(self, text: Text, layers: MutableMapping[str, Layer], status: dict) -> Layer:
         """
         Processes the input text to generate a morphological layer by using BERT predictions.
@@ -289,8 +287,35 @@ class BertMorphTagger2(Retagger):
             # Apply batch processing: split larger input sentence into smaller chunks and process chunk by chunk
             sent_chunks, sent_chunk_indexes = _split_sentence_into_smaller_chunks(sent_text)
             for sent_chunk, (chunk_start, chunk_end) in zip(sent_chunks, sent_chunk_indexes):
+
+                # collecting spans with encoding problems
+                probably_missing_spans = []
+                if "�" in sent_chunk:
+                    #print("� is in the sentence. Collecting all the spans where that symbol appears.")
+                    for sp ,span in enumerate(layers[self.words_layer]):
+                        if "�" in span.text:
+                            probably_missing_spans.append((span.base_span.start, span.base_span.end))
+                #print(probably_missing_spans)
+
+                # this is for spans with encoding problem: add the spans with None attributes
+                for span in probably_missing_spans:
+                    if self.split_pos_form:
+                        annotation2 = {
+                                        'bert_tokens': None,
+                                        'form': "",
+                                        'partofspeech': "",
+                                        'probability': None
+                        }
+                    else:
+                        annotation2 = {
+                            'bert_tokens': None,
+                            'morph_label': "",
+                            'probability': None
+                        }
+                    morph_layer.add_annotation(span, **annotation2)
+
                 # Get predictions for the sentence
-                top_n_predictions = self._get_bert_morph_tagging_label_predictions(sent_chunk, self.get_top_n_predictions)
+                top_n_predictions = self._get_bert_morph_tagging_label_predictions(sent_chunk, self.get_top_n_predictions) 
 
                 # Collect token level annotations (a label for each token)
                 for token_data in top_n_predictions:
@@ -301,6 +326,7 @@ class BertMorphTagger2(Retagger):
                     all_labels = [pred['label'] for pred in token_data['predictions']]
                     all_probabilities = [pred['probability'] for pred in token_data['predictions']]
                     token_span = (sent_start + chunk_start + start, sent_start + chunk_start + end)
+
                     for label, prob in zip(all_labels, all_probabilities):
                         if self.split_pos_form:
                             annotation = {
@@ -316,6 +342,7 @@ class BertMorphTagger2(Retagger):
                                 'probability': prob
                             }
                         morph_layer.add_annotation(token_span, **annotation)
+
 
         # Add annotations
         if self.token_level:
@@ -524,7 +551,7 @@ def rewriter_decorator_Vabamorf(text_obj, word_index, span):
     raise RuntimeError(f'Could not find a token with this label: {most_frequent_label}')
 
 
-def _split_sentence_into_smaller_chunks(large_sent: str, max_size:int=1000, seek_end_symbols: str='.!?'):
+def _split_sentence_into_smaller_chunks(large_sent: str, max_size:int=900, seek_end_symbols: str='.!?'):
     """
     Splits given large_sent into smaller texts following the text size limit.
     Each smaller text string is allowed to have at most `max_size` characters.
