@@ -51,8 +51,6 @@ modified BertMorphTagger means that it includes verb analysis corrections.
 	
 	A problem with BertMorphTagger in VabamorfWithBertTagger.
 
-	bert_morph_tagger2.py lines 329-332
-
 	When creating a new morph layer with 
 		>> morph_layer = self._bert_tokens_rewriter.make_layer(text, layers={morph_layer.name: morph_layer})
 	
@@ -60,7 +58,8 @@ modified BertMorphTagger means that it includes verb analysis corrections.
 		>> AssertionError: ("Failed to rewrite 'morp_analysis' layer tokens to 'words' layer words: 909 != 910", "in the 'VabamorfWithBertTagger'")
 
 	
-	This problem is currently unsolved.
+	This problem is solved by using the [patch](https://github.com/estnltk/estnltk/blob/devel_1.7/estnltk_neural/estnltk_neural/taggers/neural_morph/bert_based/bert_encoding_error_patch.py).
+	The usage is also shown in this [tutorial](https://github.com/estnltk/estnltk/blob/devel_1.7/tutorials/taggers/tagger_development/BertMorphTagger_encoding_problem_patch.ipynb).
 
 
 ### bert_morph_tagger2.py 
@@ -73,7 +72,7 @@ modified BertMorphTagger means that it includes verb analysis corrections.
 
     - change_to_bert_form=True - if vabamorf form should remain as is (False) or change it to Bert predicted form for verb (True) that would include 'neg' (applies only if there is no verb multiplicity) 
 
-updated code is mostly at lines 362-380
+	- patch to deal with spans that contain encoding error symbols
 
 
 
