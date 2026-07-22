@@ -13,14 +13,15 @@ EstNLTK version 1.7.4 is used.
 
 	There are 4 versions of this file:
 
-		1. VabamorfWithBertTagger_UD_treebank_eval_v1 - original VabamorfWithBertTagger
-		2. VabamorfWithBertTagger_UD_treebank_eval_v2 - original VabamorfWithBertTagger but vabamorf lemmas as altered
-		3. VabamorfWithBertTagger_UD_treebank_eval_bertmorphtagger2_v1 - VabamorfWithBertTagger with new BertMorphTagger
-		4. VabamorfWithBertTagger_UD_treebank_eval_bertmorphtagger2_v2 - VabamorfWithBertTagger with new BertMorphTagger and vabamorf lemmas are altered 
+	1. VabamorfWithBertTagger_UD_treebank_eval_v1 - original VabamorfWithBertTagger
+	2. VabamorfWithBertTagger_UD_treebank_eval_v2 - original VabamorfWithBertTagger but vabamorf lemmas as altered
+	3. VabamorfWithBertTagger_UD_treebank_eval_bertmorphtagger2_v1 - VabamorfWithBertTagger with new BertMorphTagger
+	4. VabamorfWithBertTagger_UD_treebank_eval_bertmorphtagger2_v2 - VabamorfWithBertTagger with new BertMorphTagger and vabamorf lemmas are altered 
 
-		The vabamorf lemmas are altered because ud_morph_reduced has verb lemmas without the -ma ending while vabamorf has -ma. 
-		When vabamorf verb lemmas have the verb endings removed, then all the metrics also increase from 0.71 to 0.85.
+	The vabamorf lemmas are altered because ud_morph_reduced has verb lemmas without the -ma ending while vabamorf has -ma. 
+	When vabamorf verb lemmas have the verb endings removed, then all the metrics also increase from 0.71 to 0.85.
 
+Results from the eval files:
 
 | Tagger                   | BertMorphTagger |    verb lemmas   |    precision    |    recall    | f1-score  | 
 |---------------| --------------- | ------------------------ | -------------------| -------------- | --------- |
@@ -33,7 +34,7 @@ EstNLTK version 1.7.4 is used.
 |VabamorfTagger               |  modified    | endings removed |  0.814965  |  0.817942  |   0.813721  |
 |VabamorfWithBertTagger|  modified    | endings removed |  0.859616  |     0.860762        |   0.859187 |  
 
-modified BertMorphTagger means that it includes verb analysis corrections.
+* modified BertMorphTagger means that it includes verb analysis corrections.
 
 
 
@@ -47,32 +48,15 @@ modified BertMorphTagger means that it includes verb analysis corrections.
 
 ### VabamorfWithBertTagger
 
-- VabamorfWithBertTagger_tagging_problem.ipynb
+- VabamorfWithBertTagger_tutorial.ipynb
 	
-	A problem with BertMorphTagger in VabamorfWithBertTagger.
+	Some examples for using the tagger and the effects of different flags.
 
-	When creating a new morph layer with 
-		>> morph_layer = self._bert_tokens_rewriter.make_layer(text, layers={morph_layer.name: morph_layer})
-	
-	then assert fails:
-		>> AssertionError: ("Failed to rewrite 'morp_analysis' layer tokens to 'words' layer words: 909 != 910", "in the 'VabamorfWithBertTagger'")
 
-	
+- Previous problem with BertMorphTagger in VabamorfWithBertTagger:
+
 	This problem is solved by using the [patch](https://github.com/estnltk/estnltk/blob/devel_1.7/estnltk_neural/estnltk_neural/taggers/neural_morph/bert_based/bert_encoding_error_patch.py).
 	The usage is also shown in this [tutorial](https://github.com/estnltk/estnltk/blob/devel_1.7/tutorials/taggers/tagger_development/BertMorphTagger_encoding_problem_patch.ipynb).
-
-
-### bert_morph_tagger2.py 
-
-- updated BertMorphTagger
-	
-- additions:
-
-	- correct_verb_annotation=True  - leave vabamorf annaotation as is (False) or take Bert predicted pos to select the verb (True, applies only if there is no verb multiplicity) 
-
-    - change_to_bert_form=True - if vabamorf form should remain as is (False) or change it to Bert predicted form for verb (True) that would include 'neg' (applies only if there is no verb multiplicity) 
-
-	- patch to deal with spans that contain encoding error symbols
 
 
 
