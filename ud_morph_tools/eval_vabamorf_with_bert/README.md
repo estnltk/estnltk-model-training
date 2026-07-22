@@ -19,7 +19,23 @@ EstNLTK version 1.7.4 is used.
 		4. VabamorfWithBertTagger_UD_treebank_eval_bertmorphtagger2_v2 - VabamorfWithBertTagger with new BertMorphTagger and vabamorf lemmas are altered 
 
 		The vabamorf lemmas are altered because ud_morph_reduced has verb lemmas without the -ma ending while vabamorf has -ma. 
-		When vabamorf verb lemmas have the last 2 characters removed, then all the metrics also increase from 0.71 to 0.85.
+		When vabamorf verb lemmas have the verb endings removed, then all the metrics also increase from 0.71 to 0.85.
+
+
+| Tagger                   | BertMorphTagger |    verb lemmas   |    precision    |    recall    | f1-score  | 
+|---------------| --------------- | ------------------------ | -------------------| -------------- | --------- |
+|VabamorfTagger               |  original      | original   |  0.686790  |      0.686136       |   0.684519  | 
+|VabamorfWithBertTagger|  original      | original   |   0.711642 |       0.713306      |   0.711546  |  
+|VabamorfTagger                |  original      | endings removed  |  0.814965 |     0.817942    |  0.813721   |  
+|VabamorfWithBertTagger|  original      | endings removed  | 0.850586  |   0.851079  |   0.849482  |  
+|VabamorfTagger               |  modified    | original  |   0.686790 |    0.686136   |   0.684519  |  
+|VabamorfWithBertTagger|  modified    | original  | 0.712092  |    0.713306   |  0.711785   | 
+|VabamorfTagger               |  modified    | endings removed |  0.814965  |  0.817942  |   0.813721  |
+|VabamorfWithBertTagger|  modified    | endings removed |  0.859616  |     0.860762        |   0.859187 |  
+
+modified BertMorphTagger means that it includes verb analysis corrections.
+
+
 
 
 - VabamorfWithBertTagger_UD_treebank_multiplicity.ipynb
