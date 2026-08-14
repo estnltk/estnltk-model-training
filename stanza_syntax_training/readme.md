@@ -5,14 +5,23 @@ This repository contains code for training and evaluating StanzaSyntax(Ensemble)
 ### Pre-requisites
 
 * Install [estnltk](https://github.com/estnltk/estnltk) (version 1.7.3+ is required);
-* Install [stanza](https://github.com/stanfordnlp/stanza) (we used version 1.4.2); 
-* Install [packaging](https://pypi.org/project/packaging/) (we used version 23.2); 
-* Download and unpack [Estonian UD corpus](https://github.com/UniversalDependencies/UD_Estonian-EDT/tags) (we used version 2.6);
+* Install [stanza](https://github.com/stanfordnlp/stanza) (we used version 1.14.0); 
+* Install [packaging](https://pypi.org/project/packaging/) (we used version 26.0); 
+* Download and unpack [Estonian UD corpus](https://github.com/UniversalDependencies/UD_Estonian-EDT/tags) (we used version 2.18);
 
 ### Configuration files
 
 Most important settings of data pre-processing, training and evaluation are defined in configuration INI files.
 Configuration can be used for changing input and output paths of each processing step, and also for changing parameters of data preparation and training. Current configurations in brief: 
+
+*  `conf_edt_v218_stanza_morph_analysis_full.ini` -- preannotates UD corpus (v2.18) with lemmas/postags/feats from estnltk's `morph_analysis` layer, trains `StanzaSyntaxTagger`'s model on this preannotated data, and tests the model on train+dev/test sets and calculates LAS/UAS scores;
+
+*  `conf_edt_v218_stanza_morph_with_bert.ini` -- preannotates UD corpus (v2.18) with lemmas/postags/feats from estnltk's `morph_analysis` layer created by VabamorfWithBertTagger, trains `StanzaSyntaxTagger`'s model on this preannotated data, and tests the model on train+dev/test sets and calculates LAS/UAS scores;
+
+Crucial parts of configurations are paths: once you have downloaded and unpacked an UD corpus, please make sure to define  correct paths in configration files. Assumingly, all paths should be relative and point to sub directories of the code execution directory.
+
+
+Previous configurations:
 
 *  `conf_edt_v26_stanza_morph_analysis_full.ini` -- preannotates UD corpus (v2.6) with lemmas/postags/feats from estnltk's `morph_analysis` layer, trains `StanzaSyntaxTagger`'s model on this preannotated data, and tests the model on train+dev/test sets and calculates LAS/UAS scores;
 

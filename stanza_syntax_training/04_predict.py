@@ -22,6 +22,8 @@ from stanza import Pipeline
 from stanza.models.common.doc import Document
 from stanza.utils.conll import CoNLL
 
+from estnltk_neural.taggers import VabamorfWithBertTagger
+
 import configparser
 
 # ===============================================================
@@ -110,6 +112,10 @@ def run_models_main( conf_file, subexp=None, dry_run=False ):
             if experiment_type_clean not in ['full_data', 'crossvalidation', 'half_data', 'smaller_data', 'multi_experiment']:
                 raise ValueError('(!) Unexpected experiment_type value: {!r}'.format(experiment_type))
             if experiment_type_clean == 'full_data':
+                if not config.has_option(section, 'morph_type'):
+                    raise ValueError(f'Error in {conf_file}: section {section} is missing "morph_type" parameter.')
+                morph_type = config[section]['morph_type']
+
                 # ------------------------------------------
                 # 'full_data'
                 # ------------------------------------------
@@ -201,7 +207,7 @@ def run_models_main( conf_file, subexp=None, dry_run=False ):
                             morph_layer = config[section]['morph_layer']
                             if not use_ensemble:
                                 # run StanzaSyntaxTagger
-                                predict_with_stanza_tagger(train_file, morph_layer, model_file, train_output, 
+                                predict_with_stanza_tagger(train_file, morph_layer, model_file, train_output, morph_type,
                                                            tagger_path=tagger_path, seed=seed, lang=lang, 
                                                            use_gpu=use_gpu)
                             else:
@@ -209,7 +215,7 @@ def run_models_main( conf_file, subexp=None, dry_run=False ):
                                 predict_with_stanza_ensemble_tagger(train_file, morph_layer, model_files, train_output, 
                                                                     tagger_path=tagger_path, seed=seed, lang=lang, 
                                                                     use_majority_voting=use_majority_voting, 
-                                                                    use_gpu=use_gpu, scores_seed=scores_seed)
+                                                                    use_gpu=use_gpu, scores_seed=scores_seed, morph_type=morph_type)
                         else:
                             # run vanilla stanza
                             predict_with_stanza(train_file, model_file, train_output, lang=lang, use_gpu=use_gpu)
@@ -221,7 +227,7 @@ def run_models_main( conf_file, subexp=None, dry_run=False ):
                         morph_layer = config[section]['morph_layer']
                         if not use_ensemble:
                             # run StanzaSyntaxTagger
-                            predict_with_stanza_tagger(test_file, morph_layer, model_file, test_output, 
+                            predict_with_stanza_tagger(test_file, morph_layer, model_file, test_output, morph_type,
                                                        tagger_path=tagger_path, seed=seed, lang=lang, 
                                                        use_gpu=use_gpu)
                         else:
@@ -229,7 +235,7 @@ def run_models_main( conf_file, subexp=None, dry_run=False ):
                             predict_with_stanza_ensemble_tagger(test_file, morph_layer, model_files, test_output, 
                                                                 tagger_path=tagger_path, seed=seed, lang=lang, 
                                                                 use_majority_voting=use_majority_voting, 
-                                                                use_gpu=use_gpu, scores_seed=scores_seed)
+                                                                use_gpu=use_gpu, scores_seed=scores_seed, morph_type=morph_type)
                     else:
                         # run vanilla stanza
                         predict_with_stanza(test_file, model_file, test_output, lang=lang, use_gpu=use_gpu)
@@ -568,7 +574,7 @@ def bulk_predict( data_folder, models_folder, train_file_pattern, test_file_path
 #  2) run model on input feats loaded from conllu file;
 # ========================================================================
 
-def create_estnltk_document( input_path, morph_layer='morph_extended', 
+def create_estnltk_document( input_path, morph_layer='morph_extended',  morph_type=None,
                                          syntax_layer='gold_syntax' ):
     """
     Loads given CONLLU file as estnltk's Text object. 
@@ -593,7 +599,11 @@ def create_estnltk_document( input_path, morph_layer='morph_extended',
     if 'compound_tokens' not in text_obj.layers:
         (WhiteSpaceTokensTagger()).tag( text_obj )
         (PretokenizedTextCompoundTokensTagger()).tag( text_obj )
-    text_obj.tag_layer( morph_layer )
+    if morph_type == 'morph_with_bert':
+        tagger = VabamorfWithBertTagger(output_layer = morph_layer )
+        tagger.tag(text_obj)
+    else:
+        text_obj.tag_layer( morph_layer )
     return text_obj
 
 def create_stanza_document(input_path):
@@ -656,7 +666,7 @@ def predict_with_stanza(input_path, model_path, output_path, lang='et', use_gpu=
         os.makedirs(output_dir, exist_ok=True)
     write_stanza_doc_to_conll(doc, output_path)
 
-def predict_with_stanza_tagger(input_path, morph_layer, model_path, output_path, 
+def predict_with_stanza_tagger(input_path, morph_layer, model_path, output_path, morph_type = None,
                                tagger_path='estnltk_neural.taggers.StanzaSyntaxTagger', 
                                seed=None, lang='et', use_gpu=False):
     '''
@@ -683,7 +693,7 @@ def predict_with_stanza_tagger(input_path, morph_layer, model_path, output_path,
     tagger_loader = \
         create_stanza_tagger_loader( tagger_path, model_path, morph_layer, use_gpu=use_gpu, seed=seed )
     tagger = tagger_loader.tagger  # Load tagger
-    text_obj = create_estnltk_document(input_path, morph_layer=morph_layer)
+    text_obj = create_estnltk_document(input_path, morph_layer=morph_layer, morph_type = morph_type)
     tagger.tag(text_obj)
     output_dir, output_fname = os.path.split(output_path)
     if not os.path.exists(output_dir):
@@ -693,7 +703,7 @@ def predict_with_stanza_tagger(input_path, morph_layer, model_path, output_path,
 def predict_with_stanza_ensemble_tagger(input_path, morph_layer, model_paths, output_path, 
                                         tagger_path='estnltk_neural.taggers.StanzaSyntaxEnsembleTagger', 
                                         seed=None, scores_seed=None, use_majority_voting=False, 
-                                        lang='et', use_gpu=False, verbose=True):
+                                        lang='et', use_gpu=False, verbose=True, morph_type=None):
     '''
     Applies estnltk's StanzaSyntaxEnsembleTagger on given input CONLLU file to get depparse predictions. 
     Uses estnltk's preprocessing to load and re-annotate document (adds morph_layer). 
@@ -725,7 +735,7 @@ def predict_with_stanza_ensemble_tagger(input_path, morph_layer, model_paths, ou
     tagger = tagger_loader.tagger  # Load tagger
     if verbose:
         print(f'Loaded {tagger_path!r} with {len(model_paths)} models for prediction.')
-    text_obj = create_estnltk_document(input_path, morph_layer=morph_layer)
+    text_obj = create_estnltk_document(input_path, morph_layer=morph_layer, morph_type = morph_type)
     if verbose:
         print(f'Preprocessed {input_path!r}.')
     tagger.tag(text_obj)
