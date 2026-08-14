@@ -67,15 +67,12 @@ def convert_to_estnltk_conllu_main( conf_file, verbose=True ):
             if not config.has_option(section, 'morph_layer'):
                 raise ValueError(f'Error in {conf_file}: section {section} is missing "morph_layer" parameter.')
             morph_layer = config[section]['morph_layer']
-            if not config.has_option(section, 'morph_type'):
-                raise ValueError(f'Error in {conf_file}: section {section} is missing "morph_type" parameter.')
-            morph_type = config[section]['morph_type']
 
-            if morph_type == "morph_with_bert":
+            if morph_layer == "morph_with_bert":
                 morph_pipeline = [ WhiteSpaceTokensTagger(), 
                        PretokenizedTextCompoundTokensTagger(), 
                        VabamorfWithBertTagger(output_layer = morph_layer), # device = 'gpu'
-                       MorphExtendedTagger()]
+                       MorphExtendedTagger(input_morph_analysis_layer = morph_layer)]
             else:
                 morph_pipeline = [ WhiteSpaceTokensTagger(), 
                        PretokenizedTextCompoundTokensTagger(), 
