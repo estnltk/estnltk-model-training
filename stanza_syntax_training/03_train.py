@@ -23,15 +23,19 @@ from packaging.version import parse as parse_version
 from stanza.models.parser import main as stanza_main
 from stanza import __version__ as stanza_version
 
+#print(stanza_version)
+
 def check_if_udtools_is_available():
     return find_spec("udtools") is not None
 
 if parse_version(stanza_version) < pkg_Version('1.11.1'):
     # Use conll18_ud_eval from stanza
+    print("Older stanza", stanza_version)
     from stanza.utils.conll18_ud_eval import load_conllu_file
     from stanza.utils.conll18_ud_eval import evaluate
     from stanza.utils.conll18_ud_eval import build_evaluation_table
 else:
+    print("Newer stanza", stanza_version)
     # Since v1.11.1, stanza has moved to using udtools 
     # https://github.com/stanfordnlp/stanza/commit/b20cd3a0069e79f8f31757c8fbb2507050707402
     if not check_if_udtools_is_available():

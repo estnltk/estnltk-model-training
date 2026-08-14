@@ -21,6 +21,7 @@ import conllu
 from estnltk import Text
 from estnltk.taggers import Tagger
 from estnltk.taggers import VabamorfTagger
+from estnltk_neural.taggers import VabamorfWithBertTagger
 from estnltk.taggers import MorphExtendedTagger
 from estnltk.taggers import WhiteSpaceTokensTagger
 from estnltk.taggers import PretokenizedTextCompoundTokensTagger
@@ -53,10 +54,6 @@ def convert_to_estnltk_conllu_main( conf_file, verbose=True ):
         raise FileNotFoundError("Config file {} does not exist".format(conf_file))
     if len(config.read(conf_file)) != 1:
         raise ValueError("File {} is not accessible or is not in valid INI format".format(conf_file))
-    morph_pipeline = [ WhiteSpaceTokensTagger(), 
-                       PretokenizedTextCompoundTokensTagger(), 
-                       VabamorfTagger(use_reorderer=True), 
-                       MorphExtendedTagger() ]
     start = datetime.now()
     section_found = False
     for section in config.sections():
@@ -70,6 +67,18 @@ def convert_to_estnltk_conllu_main( conf_file, verbose=True ):
             if not config.has_option(section, 'morph_layer'):
                 raise ValueError(f'Error in {conf_file}: section {section} is missing "morph_layer" parameter.')
             morph_layer = config[section]['morph_layer']
+
+            if morph_layer == "morph_with_bert":
+                morph_pipeline = [ WhiteSpaceTokensTagger(), 
+                       PretokenizedTextCompoundTokensTagger(), 
+                       VabamorfWithBertTagger(output_layer = morph_layer), # device = 'gpu'
+                       MorphExtendedTagger(input_morph_analysis_layer = morph_layer)]
+            else:
+                morph_pipeline = [ WhiteSpaceTokensTagger(), 
+                       PretokenizedTextCompoundTokensTagger(), 
+                       VabamorfTagger(use_reorderer=True), 
+                       MorphExtendedTagger()]
+
             if not config.has_option(section, 'output_dir'):
                 raise ValueError(f'Error in {conf_file}: section {section!r} is missing "output_dir" parameter.')
             if morph_layer == 'ud_morph_analysis':
@@ -221,6 +230,7 @@ def convert_ud_conllu_to_estnltk_conllu( in_file, morph_pipeline, morph_layer, o
                                              len(conll_sentences) )
     # Annotate text
     for tagger in morph_pipeline:
+        print(tagger, text_obj.layers)
         tagger.tag( text_obj )
     # If required, remove orphans / null nodes
     if remove_empty_nodes:
@@ -249,7 +259,7 @@ def convert_ud_conllu_to_estnltk_conllu( in_file, morph_pipeline, morph_layer, o
             word_span = text_obj[morph_layer][word_id]
             assert word_span.text == token["form"]
             annotation = rand.choice(word_span.annotations)
-            if morph_layer in ['morph_analysis', 'morph_extended']:
+            if morph_layer in ['morph_analysis', 'morph_extended', "morph_with_bert"]:
                 token['upos']  = annotation['partofspeech']
                 token['xpos']  = annotation['partofspeech']
                 token['feats'] = annotation['form']
