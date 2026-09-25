@@ -50,7 +50,7 @@ def train_token_classification(
     use_early_stopping: bool = True,
     patience_n: int = 2,
     early_stopping_method: str = "f1",
-    early_stopping_threshold: float = 0.0,
+    early_stopping_threshold: typing.Optional[float] = None,
     eval_every_n_epochs: int = 1,
     best_model_dir: typing.Optional[str] = None,
     save_model_every_epoch: bool = False,
