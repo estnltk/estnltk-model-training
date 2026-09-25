@@ -14,7 +14,7 @@
 #
 #   Example:
 #
-#     python 01_finetune_expert.py \
+#     python 04_finetune_expert.py \
 #         --train-set   data/homonyms_train.parquet \
 #         --eval-set    data/homonyms_dev.parquet \
 #         --labels      ../unique_labels.json \
